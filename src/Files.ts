@@ -19,18 +19,12 @@ export class Files implements Directory {
      *
      * @return Promise<void | never>
      */
-    public init = (): Promise<void | never> => {
-
-        /*
+    public init = async (): Promise<void | never> => {
         filesystem.exists(this.buildDir, (exists) => {
             if (exists === true)
                 filesystem.remove(this.buildDir, () => console.log("File deleted successfully, Start generate process."))
         });
-        */
-        let exists = filesystem.existsSync(this.buildDir);
-        if (exists === true)
-            filesystem.remove(this.buildDir, () => console.log("File deleted successfully, Start generate process."));
-        //await new Promise(resolve => setTimeout(resolve, 1000));
+        await new Promise(resolve => setTimeout(resolve, 1000));
         return filesystem.ensureDir(this.buildDir).then((response) => {
             if (response !== null)
                 Main.onFolderGenerate(response);
