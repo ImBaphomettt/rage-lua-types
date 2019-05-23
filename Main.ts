@@ -20,6 +20,7 @@ export class Main {
     };
 
     public static onFolderGenerate = (response: void) => {
+        // TODO Implement this
         console.info("Create build directory successfully : " + response);
     };
 
