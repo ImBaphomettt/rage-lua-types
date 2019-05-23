@@ -21,12 +21,12 @@ export class Files implements Directory {
      */
     public init = async (): Promise<void | never> => {
         filesystem.exists(this.buildDir, (exists) => {
-            if (exists === true)
+            if (exists)
                 filesystem.remove(this.buildDir, () => console.log("File deleted successfully, Start generate process."))
         });
         await new Promise(resolve => setTimeout(resolve, 1000));
         return filesystem.ensureDir(this.buildDir).then((response) => {
-            if (response !== null)
+            if (response !== undefined)
                 Main.onFolderGenerate(response);
 
         });

@@ -1,7 +1,6 @@
 import * as request from 'request';
 import {Files} from "./src/Files";
 import {Builder} from "./src/Builder";
-import {PathEntry} from "fs-extra";
 
 export class Main {
 
@@ -11,10 +10,9 @@ export class Main {
             const files = new Files(dir);
 
             files.init().then(() => {
-
                 const builder = new Builder();
 
-                //files.category(JSON.parse(content))
+                files.category(JSON.parse(content))
             });
         });
     };
