@@ -1,17 +1,18 @@
 import * as filesystem from 'fs-extra';
-import {Directory} from "./interface/Directory";
-import {Main} from "../Main";
+import {Main} from "../main";
 
 /**
- * The [[Files]] class allows you to manage the generation, migration, and everything necessary to run the [[Builder]]
+ * The [[FilesBuilder]] class allows you to manage the generation, migration, and everything necessary to run the [[ContentGenerate]]
  */
-export class Files implements Directory {
+export class FilesBuilder {
+
+    public readonly directory: string;
 
     /**
-     * @param buildDir
+     * @param directory
      */
-    constructor(public buildDir: string) {
-        this.buildDir = buildDir;
+    constructor(directory: string) {
+        this.directory = directory;
     }
 
     /**
@@ -20,15 +21,14 @@ export class Files implements Directory {
      * @return Promise<void | never>
      */
     public init = async (): Promise<void | never> => {
-        filesystem.exists(this.buildDir, (exists) => {
+        filesystem.exists(this.directory, (exists) => {
             if (exists)
-                filesystem.remove(this.buildDir, () => console.log("File deleted successfully, Start generate process."))
+                filesystem.remove(this.directory, () => console.log("File deleted successfully, Start generate process."))
         });
         await new Promise(resolve => setTimeout(resolve, 1000));
-        return filesystem.ensureDir(this.buildDir).then((response) => {
+        return filesystem.ensureDir(this.directory).then((response) => {
             if (response !== undefined)
                 Main.onFolderGenerate(response);
-
         });
     };
 
@@ -41,8 +41,8 @@ export class Files implements Directory {
      */
     public category = (data: JSON): void => {
         for (let category in data)
-            filesystem.ensureFile(this.buildDir + "/" + category.toString() + ".lua").then(() => {
-                console.info('Create file successfully : ' + category.toString())
+            filesystem.ensureFile(this.directory + "/" + category.toString() + ".lua").then(() => {
+               // console.info('Create file successfully : ' + category.toString())
             }).catch(error => {
                 console.error(error);
             });

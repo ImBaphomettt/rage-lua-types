@@ -1,24 +1,28 @@
 import * as request from 'request';
-import {Files} from "./src/Files";
-import {Builder} from "./src/Builder";
+import {FilesBuilder} from "./src/files-builder";
+import {ContentGenerate} from "./src/content-generate";
 
 export class Main {
 
     public static onEnable = (dir: string): void => {
         request.get('https://runtime.fivem.net/doc/natives.json', (error, response, content) => {
 
-            const files = new Files(dir);
+            const files = new FilesBuilder(dir);
+            const json = JSON.parse(content);
 
             files.init().then(() => {
-                const builder = new Builder();
 
-                files.category(JSON.parse(content))
+                files.category(json);
+
+                const builder = new ContentGenerate(files);
+                builder.generateTemplate(json);
+
+
             });
         });
     };
 
     public static onFolderGenerate = (response: void) => {
-        // TODO Implement this
         console.info("Create build directory successfully : " + response);
     };
 
@@ -31,7 +35,7 @@ export class Main {
     };
 
     public static onFinish = () => {
-       // TODO Implement this
+        // TODO Implement this
     };
 
 }
