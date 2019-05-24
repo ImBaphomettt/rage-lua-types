@@ -4,7 +4,7 @@ export class ContentGenerate {
 
     private filesBuilder: FilesBuilder;
 
-    private docs: string = "";
+    private genrateDocs: string = "";
 
     /**
      * @param filesBuilder
@@ -17,11 +17,7 @@ export class ContentGenerate {
      * @param data
      */
     public generateTemplate = (data: JSON): void => {
-        //console.log(data);
-
-
-        for (let category in data) for (let natives in data[category]) {
-            const template = (description: string, module: string, submodule: string, see: string, usage: string, param: string, _return: string, _function: string) => `
+        const template = (description: string, module: string, submodule: string, see: string, usage: string, param: String, _return: string, _function: string) => `
 --@description ${description}
 --@module ${module}
 --@submodule ${submodule}
@@ -32,22 +28,37 @@ ${param}
 ${_function}
 `;
 
+        for (let category in data) for (let natives in data[category]) {
+
+
             let jsonNative = data[category][natives];
 
-            let paramsLuaDocs = "";
-            let params = "";
-            for (let i = 0; i <= jsonNative.params.length - 1; i++) {
-                paramsLuaDocs += ((i != 0 ? "\n" : "") + "--@params " + jsonNative.params[i].name + " " + jsonNative.params[i].type);
-                params += ((i != 0 ? "\n" : "") + jsonNative.params[i].name);
-            }
+            let nativeName = this.nativeName(jsonNative, natives);
 
-            this.docs += template("N/A", "N/A", "N/A", "N/A", "N/A", paramsLuaDocs, jsonNative.results, "function(" + params + ") end");
 
-            console.log(this.docs);
+            this.genrateDocs += template("N/A", "N/A", "N/A", "N/A", "N/A", this.nativeParams(jsonNative).luaDocs, jsonNative.results, "function " + nativeName + "(" + this.nativeParams(jsonNative).params + ") end");
 
+            console.log(this.genrateDocs);
 
         }
     };
+
+    private nativeName = (data: JSON, natives: String): string => {
+        if (data.name !== undefined || natives !== undefined)
+            return (data.name || natives).toLowerCase().replace('0x', 'n_0x').replace(/_([a-z])/g, (sub, bit) => bit.toUpperCase()).replace(/^([a-z])/, (sub, bit) => bit.toUpperCase());
+    };
+
+    private nativeParams = (data: JSON): { luaDocs: String, params: String } => {
+
+        let luaDocs: String = "", params: String = "";
+
+        for (let i = 0; i <= data.params.length - 1; i++) {
+            luaDocs += ((i != 0 ? "\n" : "") + "--@params " + data.params[i].name + " " + data.params[i].type);
+            params += ((i != 0 ? "," : "") + data.params[i].name);
+        }
+
+        return {luaDocs: luaDocs, params: params};
+    }
 
 
 }
