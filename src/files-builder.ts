@@ -6,6 +6,9 @@ import {Main} from "../main";
  */
 export class FilesBuilder {
 
+    /**
+     * Location of the file where the project will be built
+     */
     public readonly directory: string;
 
     /**
@@ -50,15 +53,20 @@ export class FilesBuilder {
 
 
     /**
+     * Allows to update a file while keeping the values present in this file previously.
      *
-     * @param files
-     * @param data
+     * @param files Name of the currently updated file
+     * @param data Data to be inserted in the file
+     * @param nativeName Name of the native FiveM
+     *
+     * @return void
      */
-    public update = (files: String, data: String): void => {
+    public update = (files: String, data: String, nativeName: String): void => {
         filesystem.appendFile(this.directory + "/" + files + ".lua", data, (error) => {
             if (error)
-                console.error("can't update file" + files)
+                console.error("can't update file" + files);
 
+            Main.onFileUpdate(files, nativeName)
         });
     };
 

@@ -1,23 +1,36 @@
 import {FilesBuilder} from "./files-builder";
 
+/**
+ * The [[ContentGenerate]] class allows to generate procedurally all the content necessary for the construction of templates
+ */
 export class ContentGenerate {
 
+    /**
+     * Instance of the object [[FilesBuilder]]
+     */
     private filesBuilder: FilesBuilder;
 
-    private generateDocs: string = "";
+    /**
+     * Instance of a generated documentation
+     */
+    private generateDocs: String = "";
+
 
     /**
-     * @param filesBuilder
+     * Template to generate documentation and shortcuts for native speakers
+     *
+     * @param description
+     * @param module
+     * @param submodule
+     * @param see
+     * @param usage
+     * @param param
+     * @param _return
+     * @param _function
+     *
+     * @return template
      */
-    constructor(filesBuilder: FilesBuilder) {
-        this.filesBuilder = filesBuilder;
-    }
-
-    /**
-     * @param data
-     */
-    public generateTemplate = (data: JSON): void => {
-        const template = (description: String, module: String, submodule: String, see: String, usage: String, param: String, _return: String, _function: String) => `
+    private template = (description: String, module: String, submodule: String, see: String, usage: String, param: String, _return: String, _function: String) => `
 --@description ${description}
 --@module ${module}
 --@submodule ${submodule}
@@ -28,19 +41,54 @@ ${param}
 ${_function}
 `;
 
+    /**
+     * Builder allowing the instance of difference objects / utility values for the generation of the template as well as the update of the file to contain the native
+     *
+     * @param filesBuilder Class instance [[FilesBuilder]]
+     */
+    constructor(filesBuilder: FilesBuilder) {
+        this.filesBuilder = filesBuilder;
+    }
+
+
+    /**
+     * Allows to generate the native template in a procedural way one by one
+     *
+     * @param data Request the result of the query to the API of the FiveM natives
+     *
+     * @return void
+     */
+    public generateTemplate = (data: JSON): void => {
+
+        /**
+         * Current count native build
+         */
+        let count = 0;
+
         for (let category in data) for (let natives in data[category]) {
 
+            if (data.hasOwnProperty(category))
+                count++;
+
+
+            /**
+             * Shortcut of data[category][natives]
+             */
             let jsonNative: JSON = data[category][natives];
+
+            /**
+             * Generation of the native name
+             */
             let nativeName: String = this.nativeName(jsonNative, natives);
+
+            /**
+             * Returns parameters in different formats
+             */
             let nativeParams: { luaDocs: String; params: String; paramsWithType: String } = this.nativeParams(jsonNative);
 
-            this.generateDocs += template(this.nativeDescription(data), "NATIVE", category, jsonNative.name, this.nativeUsage(jsonNative, nativeParams.paramsWithType), nativeParams.luaDocs, jsonNative.results, "function " + nativeName + "(" + this.nativeParams(jsonNative).params + ") end");
+            this.generateDocs = this.template(this.nativeDescription(data), "NATIVE", category, jsonNative.name, this.nativeUsage(jsonNative, nativeParams.paramsWithType), nativeParams.luaDocs, jsonNative.results, "function " + nativeName + "(" + this.nativeParams(jsonNative).params + ") end");
 
-            // TODO Fix issue update file don't update online with submodule value
-            //console.log(this.generateDocs);
-
-            this.filesBuilder.update(category, this.generateDocs)
-
+            this.filesBuilder.update(category, this.generateDocs, nativeName);
         }
     };
 
