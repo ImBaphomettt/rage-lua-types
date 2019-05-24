@@ -10,9 +10,12 @@ export class Main {
             const files = new FilesBuilder(dir);
             const json = JSON.parse(content);
 
-            files.init().then(() => {
+            files.init().then(async () => {
 
                 files.category(json);
+                console.log("wait");
+                await new Promise(resolve => setTimeout(resolve, 1000));
+                console.log("run");
 
                 const builder = new ContentGenerate(files);
                 builder.generateTemplate(json);
