@@ -17,7 +17,7 @@ export class ContentGenerate {
      * @param data
      */
     public generateTemplate = (data: JSON): void => {
-        const template = (description: String, module: string, submodule: string, see: string, usage: string, param: String, _return: string, _function: string) => `
+        const template = (description: String, module: String, submodule: String, see: String, usage: String, param: String, _return: String, _function: String) => `
 --@description ${description}
 --@module ${module}
 --@submodule ${submodule}
@@ -32,11 +32,14 @@ ${_function}
 
             let jsonNative: JSON = data[category][natives];
             let nativeName: String = this.nativeName(jsonNative, natives);
+            let nativeParams: { luaDocs: String; params: String; paramsWithType: String } = this.nativeParams(jsonNative);
 
+            this.generateDocs += template(this.nativeDescription(data), "NATIVE", category, jsonNative.name, this.nativeUsage(jsonNative, nativeParams.paramsWithType), nativeParams.luaDocs, jsonNative.results, "function " + nativeName + "(" + this.nativeParams(jsonNative).params + ") end");
 
-            this.generateDocs += template(this.nativeDescription(data), "NATIVE", category, jsonNative.name, "N/A", this.nativeParams(jsonNative).luaDocs, jsonNative.results, "function " + nativeName + "(" + this.nativeParams(jsonNative).params + ") end");
+            // TODO Fix issue update file don't update online with submodule value
+            //console.log(this.generateDocs);
 
-            console.log(this.generateDocs);
+            this.filesBuilder.update(category, this.generateDocs)
 
         }
     };
@@ -80,10 +83,11 @@ ${_function}
     };
 
     /**
+     * `nativeDescription` Allows to check if a description exists on the native wish and therefore returned a different result according to the natives
      *
      * @param data Request the result of the query to the API of the FiveM natives
      *
-     * @return String
+     * @return String Returns the description of the native or a prefect text indicating the lack of official description
      */
     private nativeDescription = (data: JSON): String => {
         if (data.description !== undefined)
@@ -92,10 +96,18 @@ ${_function}
             return "This natives does not have an official description.";
     };
 
-    private nativeUsage = (data: JSON): String => {
+    /**
+     * `nativeUsage` Allows to automatically generate the native's usage pattern with all the details necessary for an instant understanding
+     *
+     * @param data Request the result of the query to the API of the FiveM natives
+     * @param nativeParams Results generated from the nativeParams() function of the class [[ContentGenerate]]
+     *
+     * @return String Returns the predefined pattern
+     */
+    private nativeUsage = (data: JSON, nativeParams: String): String => {
         const template = (result, native, params) => `${result} ${native}(${params});`;
 
-        return data.results + " " + data.name + "(" + ")";
+        return template(data.results, data.name, nativeParams);
     }
 
 }
