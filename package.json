@@ -17,6 +17,8 @@
     "@types/fs-extra": "^7.0.0",
     "@types/request": "^2.48.1",
     "fs-extra": "^8.0.1",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.0.1"
   }
 }
