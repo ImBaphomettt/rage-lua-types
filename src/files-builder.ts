@@ -33,7 +33,7 @@ export class FilesBuilder {
     };
 
     /**
-     * The public category function allows you to pre-generate the.lua files that will contain the native complements for your [Jetbrain IDE](https://www.jetbrains.com/).
+     * The public category function allows you to pre-generate the .lua files that will contain the native complements for your [Jetbrain IDE](https://www.jetbrains.com/).
      *
      * @param data
      *
@@ -42,16 +42,24 @@ export class FilesBuilder {
     public category = (data: JSON): void => {
         for (let category in data)
             filesystem.ensureFile(this.directory + "/" + category.toString() + ".lua").then(() => {
-               // console.info('Create file successfully : ' + category.toString())
+                console.info('Create file successfully : ' + category.toString())
             }).catch(error => {
                 console.error(error);
             });
     };
 
-    /**
-     */
-    public update = (): void => {
 
+    /**
+     *
+     * @param files
+     * @param data
+     */
+    public update = (files: String, data: String): void => {
+        filesystem.appendFile(this.directory + "/" + files + ".lua", data, (error) => {
+            if (error)
+                console.error("can't update file" + files)
+
+        });
     };
 
 }
