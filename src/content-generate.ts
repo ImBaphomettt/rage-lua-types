@@ -74,7 +74,7 @@ ${_function}
             /**
              * Shortcut of data[category][natives]
              */
-            let jsonNative: JSON = data[category][natives];
+            let jsonNative: any = data[category][natives];
 
             /**
              * Generation of the native name
@@ -100,7 +100,7 @@ ${_function}
      *
      * @return String
      */
-    private nativeName = (data: JSON, natives: String): String => {
+    private nativeName = (data: any, natives: String): String => {
         if (data.name !== undefined || natives !== undefined)
             return (data.name || natives).toLowerCase().replace('0x', 'n_0x').replace(/_([a-z])/g, (sub, bit) => bit.toUpperCase()).replace(/^([a-z])/, (sub, bit) => bit.toUpperCase());
     };
@@ -112,7 +112,7 @@ ${_function}
      *
      * @return JSON<String luaDocs, String params>
      */
-    private nativeParams = (data: JSON): { luaDocs: String, params: String, paramsWithType: String } => {
+    private nativeParams = (data: any): { luaDocs: String, params: String, paramsWithType: String } => {
 
         /**
          * "luaDocs" Allows to save the generation of LUA documentation and return it
@@ -137,7 +137,7 @@ ${_function}
      *
      * @return String Returns the description of the native or a prefect text indicating the lack of official description
      */
-    private nativeDescription = (data: JSON): String => {
+    private nativeDescription = (data: any): String => {
         if (data.description !== undefined)
             return data.description;
         else
@@ -152,7 +152,7 @@ ${_function}
      *
      * @return String Returns the predefined pattern
      */
-    private nativeUsage = (data: JSON, nativeParams: String): String => {
+    private nativeUsage = (data: any, nativeParams: String): String => {
         const template = (result, native, params) => `${result} ${native}(${params});`;
 
         return template(data.results, data.name, nativeParams);
