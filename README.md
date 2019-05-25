@@ -1,4 +1,4 @@
-# JetbrainIDE-CitizenFX-SDK
+# JetbrainIDE-CitizenFX
 
 [![TypeScript](https://badges.frapsoft.com/typescript/code/typescript.png?v=101)](https://github.com/ellerbrock/typescript-badges/)
 ![License](https://img.shields.io/github/license/iTexZoz/JetbrainIDE-CitizenFX.svg)
