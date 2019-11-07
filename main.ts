@@ -1,6 +1,9 @@
 import * as request from 'request';
 import {FilesBuilder} from "./src/files-builder";
 import {ContentGenerate} from "./src/content-generate";
+import * as figlet from 'figlet';
+import * as chalk from 'chalk';
+
 
 /**
  * The [[Main]] class that groups together all the logical execution processes of the system.
@@ -59,4 +62,12 @@ export class Main {
     };
 
 }
+
+figlet('JetBrainIDE-CitizenFX', function (err, data) {
+    // @ts-ignore
+    console.log(chalk.green(data));
+    // @ts-ignore
+    console.log(chalk.magenta("By Dylan Malandain - @iTexZoz"));
+});
+
 new Main.onEnable("build");
