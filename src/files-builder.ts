@@ -1,5 +1,6 @@
 import * as filesystem from 'fs-extra';
 import {Main} from "../main";
+import {stat} from "fs-extra";
 
 /**
  * The [[FilesBuilder]] class allows you to manage the generation, migration, and everything necessary to run the [[ContentGenerate]]
@@ -55,18 +56,19 @@ export class FilesBuilder {
     /**
      * Allows to update a file while keeping the values present in this file previously.
      *
+     * @param stats
      * @param files Name of the currently updated file
      * @param data Data to be inserted in the file
      * @param nativeName Name of the native FiveM
      *
      * @return void
      */
-    public update = (files: String, data: String, nativeName: String): void => {
+    public update = (stats: { native: { total: number; current: number } }, files: String, data: String, nativeName: String): void => {
         filesystem.appendFile(this.directory + "/" + files + ".lua", data, (error) => {
             if (error)
                 console.error("can't update file" + files);
 
-            Main.onFileUpdate(files, nativeName)
+            Main.onFileUpdate(stats, files, nativeName)
         });
     };
 

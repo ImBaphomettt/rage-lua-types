@@ -1,4 +1,5 @@
 import {FilesBuilder} from "./files-builder";
+import {stat} from "fs-extra";
 
 /**
  * The [[ContentGenerate]] class allows to generate procedurally all the content necessary for the construction of templates
@@ -63,12 +64,19 @@ ${_function}
         /**
          * Current count native build
          */
-        let count = 0;
+        let stats = {
+            native: {
+                total: 0,
+                current: 0,
+            }
+        };
+
+        for (let category in data) for (let natives in data[category]) {
+            stats.native.total++;
+        }
 
         for (let category in data) for (let natives in data[category]) {
 
-            if (data.hasOwnProperty(category))
-                count++;
 
 
             /**
@@ -88,7 +96,7 @@ ${_function}
 
             this.generateDocs = this.template(this.nativeDescription(data), "NATIVE", category, jsonNative.name, this.nativeUsage(jsonNative, nativeParams.paramsWithType), nativeParams.luaDocs, jsonNative.results, "function " + nativeName + "(" + this.nativeParams(jsonNative).params + ") end");
 
-            this.filesBuilder.update(category, this.generateDocs, nativeName);
+            this.filesBuilder.update(stats, category, this.generateDocs, nativeName);
         }
     };
 

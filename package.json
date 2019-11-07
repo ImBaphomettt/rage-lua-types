@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node main.ts"
   },
   "author": "Dylan Malandain",
   "license": "MIT",
@@ -16,9 +16,11 @@
     "@akanass/rx-http-request": "^3.1.0",
     "@types/fs-extra": "^7.0.0",
     "@types/request": "^2.48.1",
+    "@types/terminal-kit": "^1.28.0",
     "chalk": "^2.4.2",
     "figlet": "^1.2.4",
     "fs-extra": "^8.0.1",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "terminal-kit": "^1.31.6"
   }
 }
