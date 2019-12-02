@@ -1,6 +1,5 @@
 # RedM and FiveM native generator 
-![picture](https://cdn.discordapp.com/attachments/577165255780597762/581838228215300119/Jet.jpg)
-# JetbrainIDE-CitizenFX
+# JetbrainIDE-CFX.RE
 
 [![TypeScript](https://badges.frapsoft.com/typescript/code/typescript.png?v=101)](https://github.com/ellerbrock/typescript-badges/)
 ![License](https://img.shields.io/github/license/iTexZoz/JetbrainIDE-CitizenFX.svg)
