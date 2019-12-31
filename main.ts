@@ -21,8 +21,7 @@ export class Main {
             case GamesType.FiveM:
                 return "https://runtime.fivem.net/doc/natives.json";
             case GamesType.RedM:
-                term.red("This feature is not available at the moment [GamesType.RedM]");
-                break;
+                return "https://raw.githubusercontent.com/alloc8or/rdr3-nativedb-data/master/natives.json";
             default:
                 return "https://runtime.fivem.net/doc/natives.json";
         }
