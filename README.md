@@ -19,3 +19,9 @@
 7) Wait a few minutes, once the generation is finished nothing more to be written to a in your terminal, you will find a new folder named build, it is in this one that you find what you need.
 
 ![preview](https://picture.dylan-malandain.me/cmd_RrClO8AUyK.png)
+
+
+## Special Thank
+
+@CitizenFX (https://github.com/citizenfx/natives)
+@alloc8or (https://github.com/alloc8or/rdr3-nativedb-data)
