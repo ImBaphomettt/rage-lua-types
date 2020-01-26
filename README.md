@@ -6,6 +6,8 @@
 ![OpenIssue](https://img.shields.io/github/issues/iTexZoz/JetbrainIDE-CitizenFX.svg?style=flat)
 ![LastReleases](https://img.shields.io/github/release/iTexZoz/JetbrainIDE-CitizenFX.svg?label=Last%20releases&style=flat)
 
+# Discord : https://discord.gg/Jjb2c8Q (No support)
+
 ### How to use this tool to generate / regenerate CitizenFX native ?
 
 # Attention this project requires the installation of NodeJS on the machine where you want to run it
