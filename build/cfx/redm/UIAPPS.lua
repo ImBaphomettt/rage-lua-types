@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule UIAPPS
@@ -6,7 +5,8 @@
 --@usage undefined _IS_APP_ACTIVE(Hash appNameHash);
 --@params appNameHash Hash
 --@return undefined
-function IsAppActive(appNameHash) end
+function IsAppActive(appNameHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function IsAppActive(appNameHash) end
 --@usage undefined _IS_ANY_APP_ACTIVE();
 
 --@return undefined
-function IsAnyAppActive() end
+function IsAnyAppActive()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function IsAnyAppActive() end
 --@usage undefined _IS_ANY_APP_RUNNING();
 
 --@return undefined
-function IsAnyAppRunning() end
+function IsAnyAppRunning()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -33,7 +35,8 @@ function IsAnyAppRunning() end
 --@usage undefined _IS_APP_RUNNING(Hash appNameHash);
 --@params appNameHash Hash
 --@return undefined
-function IsAppRunning(appNameHash) end
+function IsAppRunning(appNameHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -42,7 +45,8 @@ function IsAppRunning(appNameHash) end
 --@usage undefined _0x96FD694FE5BE55DC(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x96fd694fe5be55dc(p0) end
+function N_0x96fd694fe5be55dc(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -51,7 +55,8 @@ function N_0x96fd694fe5be55dc(p0) end
 --@usage undefined _CLOSE_APP_BY_HASH(Hash appNameHash);
 --@params appNameHash Hash
 --@return undefined
-function CloseAppByHash(appNameHash) end
+function CloseAppByHash(appNameHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -60,7 +65,8 @@ function CloseAppByHash(appNameHash) end
 --@usage undefined _0xDE4A9B35D028979F(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xde4a9b35d028979f(p0) end
+function N_0xde4a9b35d028979f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -69,7 +75,8 @@ function N_0xde4a9b35d028979f(p0) end
 --@usage undefined _CLOSE_APP_BY_HASH_IMMEDIATE(Hash appNameHash);
 --@params appNameHash Hash
 --@return undefined
-function CloseAppByHashImmediate(appNameHash) end
+function CloseAppByHashImmediate(appNameHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -78,7 +85,8 @@ function CloseAppByHashImmediate(appNameHash) end
 --@usage undefined _CLOSE_ALL_APPS_IMMEDIATE();
 
 --@return undefined
-function CloseAllAppsImmediate() end
+function CloseAllAppsImmediate()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -87,7 +95,8 @@ function CloseAllAppsImmediate() end
 --@usage undefined _CLOSE_APP_IMMEDIATE(const char* appName);
 --@params appName const char*
 --@return undefined
-function CloseAppImmediate(appName) end
+function CloseAppImmediate(appName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -97,7 +106,8 @@ function CloseAppImmediate(appName) end
 --@params appNameHash Hash
 --@params entryHash Hash
 --@return undefined
-function LaunchAppByHashWithEntry(appNameHash,entryHash) end
+function LaunchAppByHashWithEntry(appNameHash, entryHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -106,7 +116,8 @@ function LaunchAppByHashWithEntry(appNameHash,entryHash) end
 --@usage undefined _CLOSE_APP(const char* appName);
 --@params appName const char*
 --@return undefined
-function CloseApp(appName) end
+function CloseApp(appName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -115,7 +126,8 @@ function CloseApp(appName) end
 --@usage undefined _LAUNCH_APP_BY_HASH(Hash appNameHash);
 --@params appNameHash Hash
 --@return undefined
-function LaunchAppByHash(appNameHash) end
+function LaunchAppByHash(appNameHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -125,7 +137,8 @@ function LaunchAppByHash(appNameHash) end
 --@params appName const char*
 --@params entry const char*
 --@return undefined
-function LaunchAppWithEntry(appName,entry) end
+function LaunchAppWithEntry(appName, entry)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -135,7 +148,8 @@ function LaunchAppWithEntry(appName,entry) end
 --@params appNameHash Hash
 --@params entryHash Hash
 --@return undefined
-function CanLaunchAppByHashWithEntry(appNameHash,entryHash) end
+function CanLaunchAppByHashWithEntry(appNameHash, entryHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -145,7 +159,8 @@ function CanLaunchAppByHashWithEntry(appNameHash,entryHash) end
 --@params appNameHash Hash
 --@params transitionHash Hash
 --@return undefined
-function RequestUiappTransitionByHash(appNameHash,transitionHash) end
+function RequestUiappTransitionByHash(appNameHash, transitionHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -154,7 +169,8 @@ function RequestUiappTransitionByHash(appNameHash,transitionHash) end
 --@usage undefined _0x42095B886D30DE66(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x42095b886d30de66(p0) end
+function N_0x42095b886d30de66(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -163,7 +179,8 @@ function N_0x42095b886d30de66(p0) end
 --@usage undefined _CAN_LAUNCH_APP_BY_HASH(Hash appNameHash);
 --@params appNameHash Hash
 --@return undefined
-function CanLaunchAppByHash(appNameHash) end
+function CanLaunchAppByHash(appNameHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -172,4 +189,5 @@ function CanLaunchAppByHash(appNameHash) end
 --@usage undefined _CLOSE_ALL_APPS();
 
 --@return undefined
-function CloseAllApps() end
+function CloseAllApps()
+end

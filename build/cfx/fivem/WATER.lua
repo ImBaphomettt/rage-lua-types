@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule WATER
@@ -10,7 +9,8 @@
 --@params yHigh float
 --@params height float
 --@return int
-function AddCurrentRise(xLow,yLow,xHigh,yHigh,height) end
+function AddCurrentRise(xLow, yLow, xHigh, yHigh, height)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -22,7 +22,8 @@ function AddCurrentRise(xLow,yLow,xHigh,yHigh,height) end
 --@params z float
 --@params height float*
 --@return BOOL
-function GetWaterHeight(x,y,z,height) end
+function GetWaterHeight(x, y, z, height)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -34,7 +35,8 @@ function GetWaterHeight(x,y,z,height) end
 --@params radius float
 --@params height float
 --@return void
-function ModifyWater(x,y,radius,height) end
+function ModifyWater(x, y, radius, height)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -43,7 +45,8 @@ function ModifyWater(x,y,radius,height) end
 --@usage float GET_DEEP_OCEAN_SCALER();
 
 --@return float
-function GetDeepOceanScaler() end
+function GetDeepOceanScaler()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -52,7 +55,8 @@ function GetDeepOceanScaler() end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0x547237aa71ab44de(p0) end
+function N_0x547237aa71ab44de(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -64,7 +68,8 @@ function N_0x547237aa71ab44de(p0) end
 --@params z float
 --@params height float*
 --@return BOOL
-function GetWaterHeightNoWaves(x,y,z,height) end
+function GetWaterHeightNoWaves(x, y, z, height)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -79,7 +84,8 @@ function GetWaterHeightNoWaves(x,y,z,height) end
 --@params z2 float
 --@params result Vector3*
 --@return BOOL
-function TestProbeAgainstWater(x1,y1,z1,x2,y2,z2,result) end
+function TestProbeAgainstWater(x1, y1, z1, x2, y2, z2, result)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -88,7 +94,8 @@ function TestProbeAgainstWater(x1,y1,z1,x2,y2,z2,result) end
 --@usage void RESET_DEEP_OCEAN_SCALER();
 
 --@return void
-function ResetDeepOceanScaler() end
+function ResetDeepOceanScaler()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -97,7 +104,8 @@ function ResetDeepOceanScaler() end
 --@usage void SET_DEEP_OCEAN_SCALER(float intensity);
 --@params intensity float
 --@return void
-function SetDeepOceanScaler(intensity) end
+function SetDeepOceanScaler(intensity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -110,7 +118,8 @@ function SetDeepOceanScaler(intensity) end
 --@params p3 Any
 --@params height float*
 --@return BOOL
-function TestVerticalProbeAgainstAllWater(x,y,z,p3,height) end
+function TestVerticalProbeAgainstAllWater(x, y, z, p3, height)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -119,7 +128,8 @@ function TestVerticalProbeAgainstAllWater(x,y,z,p3,height) end
 --@usage void _REMOVE_CURRENT_RISE(int p0);
 --@params p0 int
 --@return void
-function RemoveCurrentRise(p0) end
+function RemoveCurrentRise(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -135,4 +145,5 @@ function RemoveCurrentRise(p0) end
 --@params p6 Any
 --@params p7 Any
 --@return BOOL
-function TestProbeAgainstAllWater(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TestProbeAgainstAllWater(p0, p1, p2, p3, p4, p5, p6, p7)
+end

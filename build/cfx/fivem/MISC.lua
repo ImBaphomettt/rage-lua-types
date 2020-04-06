@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule MISC
@@ -6,7 +5,8 @@
 --@usage float ACOS(float p0);
 --@params p0 float
 --@return float
-function Acos(p0) end
+function Acos(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function Acos(p0) end
 --@usage int ABSI(int value);
 --@params value int
 --@return int
-function Absi(value) end
+function Absi(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function Absi(value) end
 --@usage float ABSF(float value);
 --@params value float
 --@return float
-function Absf(value) end
+function Absf(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -39,7 +41,8 @@ function Absf(value) end
 --@params p5 float
 --@params p6 float
 --@return Any
-function AddDispatchSpawnBlockingAngledArea(p0,p1,p2,p3,p4,p5,p6) end
+function AddDispatchSpawnBlockingAngledArea(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -52,7 +55,8 @@ function AddDispatchSpawnBlockingAngledArea(p0,p1,p2,p3,p4,p5,p6) end
 --@params p3 float
 --@params p4 Any
 --@return Any
-function AddPoliceRestart(p0,p1,p2,p3,p4) end
+function AddPoliceRestart(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -65,7 +69,8 @@ function AddPoliceRestart(p0,p1,p2,p3,p4) end
 --@params p3 float
 --@params p4 Any
 --@return int
-function AddHospitalRestart(x,y,z,p3,p4) end
+function AddHospitalRestart(x, y, z, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -82,7 +87,8 @@ function AddHospitalRestart(x,y,z,p3,p4) end
 --@params p7 float
 --@params p8 BOOL
 --@return int
-function AddPopMultiplierArea(x1,y1,z1,x2,y2,z2,p6,p7,p8) end
+function AddPopMultiplierArea(x1, y1, z1, x2, y2, z2, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -94,7 +100,8 @@ function AddPopMultiplierArea(x1,y1,z1,x2,y2,z2,p6,p7,p8) end
 --@params p2 float
 --@params p3 float
 --@return Any
-function AddDispatchSpawnBlockingArea(p0,p1,p2,p3) end
+function AddDispatchSpawnBlockingArea(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -105,7 +112,8 @@ function AddDispatchSpawnBlockingArea(p0,p1,p2,p3) end
 --@params y float
 --@params z float
 --@return void
-function AddTacticalAnalysisPoint(x,y,z) end
+function AddTacticalAnalysisPoint(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -121,7 +129,8 @@ function AddTacticalAnalysisPoint(x,y,z) end
 --@params p6 BOOL
 --@params p7 BOOL
 --@return int
-function AddPopMultiplierSphere(p0,p1,p2,p3,p4,p5,p6,p7) end
+function AddPopMultiplierSphere(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -147,7 +156,8 @@ function AddPopMultiplierSphere(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params unk2 int
 --@params unk3 int
 --@return int
-function AddStuntJump(x1,y1,z1,x2,y2,z2,x3,y3,z3,x4,y4,z4,camX,camY,camZ,unk1,unk2,unk3) end
+function AddStuntJump(x1, y1, z1, x2, y2, z2, x3, y3, z3, x4, y4, z4, camX, camY, camZ, unk1, unk2, unk3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -175,7 +185,8 @@ function AddStuntJump(x1,y1,z1,x2,y2,z2,x3,y3,z3,x4,y4,z4,camX,camY,camZ,unk1,un
 --@params unk2 int
 --@params unk3 int
 --@return int
-function AddStuntJumpAngled(x1,y1,z1,x2,y2,z2,radius1,x3,y3,z3,x4,y4,z4,radius2,camX,camY,camZ,unk1,unk2,unk3) end
+function AddStuntJumpAngled(x1, y1, z1, x2, y2, z2, radius1, x3, y3, z3, x4, y4, z4, radius2, camX, camY, camZ, unk1, unk2, unk3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -184,7 +195,8 @@ function AddStuntJumpAngled(x1,y1,z1,x2,y2,z2,radius1,x3,y3,z3,x4,y4,z4,radius2,
 --@usage BOOL ARE_PROFILE_SETTINGS_VALID();
 
 --@return BOOL
-function AreProfileSettingsValid() end
+function AreProfileSettingsValid()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -194,7 +206,8 @@ function AreProfileSettingsValid() end
 --@params string1 char*
 --@params string2 char*
 --@return BOOL
-function AreStringsEqual(string1,string2) end
+function AreStringsEqual(string1, string2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -203,7 +216,8 @@ function AreStringsEqual(string1,string2) end
 --@usage float ASIN(float p0);
 --@params p0 float
 --@return float
-function Asin(p0) end
+function Asin(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -212,7 +226,8 @@ function Asin(p0) end
 --@usage void ALLOW_MISSION_CREATOR_WARP(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function AllowMissionCreatorWarp(toggle) end
+function AllowMissionCreatorWarp(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -222,7 +237,8 @@ function AllowMissionCreatorWarp(toggle) end
 --@params p0 float
 --@params p1 float
 --@return float
-function Atan2(p0,p1) end
+function Atan2(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -232,7 +248,8 @@ function Atan2(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function BeginReplayStats(p0,p1) end
+function BeginReplayStats(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -241,7 +258,8 @@ function BeginReplayStats(p0,p1) end
 --@usage void _CANCEL_ONSCREEN_KEYBOARD();
 
 --@return void
-function CancelOnscreenKeyboard() end
+function CancelOnscreenKeyboard()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -250,7 +268,8 @@ function CancelOnscreenKeyboard() end
 --@usage void _CLEANUP_ASYNC_INSTALL();
 
 --@return void
-function CleanupAsyncInstall() end
+function CleanupAsyncInstall()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -270,7 +289,8 @@ function CleanupAsyncInstall() end
 --@params p10 BOOL
 --@params p11 BOOL
 --@return void
-function ClearAngledAreaOfVehicles(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) end
+function ClearAngledAreaOfVehicles(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -280,7 +300,8 @@ function ClearAngledAreaOfVehicles(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) end
 --@params dispatchService int
 --@params toggle BOOL
 --@return void
-function BlockDispatchServiceResourceCreation(dispatchService,toggle) end
+function BlockDispatchServiceResourceCreation(dispatchService, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -293,7 +314,8 @@ function BlockDispatchServiceResourceCreation(dispatchService,toggle) end
 --@params radius float
 --@params flags int
 --@return void
-function ClearAreaOfCops(x,y,z,radius,flags) end
+function ClearAreaOfCops(x, y, z, radius, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -302,7 +324,8 @@ function ClearAreaOfCops(x,y,z,radius,flags) end
 --@usage void CANCEL_STUNT_JUMP();
 
 --@return void
-function CancelStuntJump() end
+function CancelStuntJump()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -315,7 +338,8 @@ function CancelStuntJump() end
 --@params radius float
 --@params flags int
 --@return void
-function ClearAreaOfObjects(x,y,z,radius,flags) end
+function ClearAreaOfObjects(x, y, z, radius, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -331,7 +355,8 @@ function ClearAreaOfObjects(x,y,z,radius,flags) end
 --@params ignoreObjects BOOL
 --@params p7 BOOL
 --@return void
-function ClearArea(X,Y,Z,radius,p4,ignoreCopCars,ignoreObjects,p7) end
+function ClearArea(X, Y, Z, radius, p4, ignoreCopCars, ignoreObjects, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -344,7 +369,8 @@ function ClearArea(X,Y,Z,radius,p4,ignoreCopCars,ignoreObjects,p7) end
 --@params radius float
 --@params flags BOOL
 --@return void
-function ClearAreaOfProjectiles(x,y,z,radius,flags) end
+function ClearAreaOfProjectiles(x, y, z, radius, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -361,7 +387,8 @@ function ClearAreaOfProjectiles(x,y,z,radius,flags) end
 --@params p7 BOOL
 --@params p8 BOOL
 --@return void
-function ClearAreaOfVehicles(x,y,z,radius,p4,p5,p6,p7,p8) end
+function ClearAreaOfVehicles(x, y, z, radius, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -377,7 +404,8 @@ function ClearAreaOfVehicles(x,y,z,radius,p4,p5,p6,p7,p8) end
 --@params p6 BOOL
 --@params p7 BOOL
 --@return void
-function ClearAreaOfEverything(x,y,z,radius,p4,p5,p6,p7) end
+function ClearAreaOfEverything(x, y, z, radius, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -390,7 +418,8 @@ function ClearAreaOfEverything(x,y,z,radius,p4,p5,p6,p7) end
 --@params radius float
 --@params flags int
 --@return void
-function ClearAreaOfPeds(x,y,z,radius,flags) end
+function ClearAreaOfPeds(x, y, z, radius, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -400,7 +429,8 @@ function ClearAreaOfPeds(x,y,z,radius,flags) end
 --@params address int*
 --@params offset int
 --@return void
-function ClearBit(address,offset) end
+function ClearBit(address, offset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -409,7 +439,8 @@ function ClearBit(address,offset) end
 --@usage void _CLEAR_CLOUD_HAT();
 
 --@return void
-function ClearCloudHat() end
+function ClearCloudHat()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -418,7 +449,8 @@ function ClearCloudHat() end
 --@usage void CLEAR_REPLAY_STATS();
 
 --@return void
-function ClearReplayStats() end
+function ClearReplayStats()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -427,7 +459,8 @@ function ClearReplayStats() end
 --@usage void _CLEAR_TACTICAL_ANALYSIS_POINTS();
 
 --@return void
-function ClearTacticalAnalysisPoints() end
+function ClearTacticalAnalysisPoints()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -436,7 +469,8 @@ function ClearTacticalAnalysisPoints() end
 --@usage void _CLEAR_RESTART_CUSTOM_POSITION();
 
 --@return void
-function ClearRestartCustomPosition() end
+function ClearRestartCustomPosition()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -445,7 +479,8 @@ function ClearRestartCustomPosition() end
 --@usage void CLEAR_OVERRIDE_WEATHER();
 
 --@return void
-function ClearOverrideWeather() end
+function ClearOverrideWeather()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -456,7 +491,8 @@ function ClearOverrideWeather() end
 --@params src Any
 --@params size int
 --@return void
-function CopyMemory(dst,src,size) end
+function CopyMemory(dst, src, size)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -471,7 +507,8 @@ function CopyMemory(dst,src,size) end
 --@params radius float
 --@params outIncidentID int*
 --@return BOOL
-function CreateIncident(dispatchService,x,y,z,numUnits,radius,outIncidentID) end
+function CreateIncident(dispatchService, x, y, z, numUnits, radius, outIncidentID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -480,7 +517,8 @@ function CreateIncident(dispatchService,x,y,z,numUnits,radius,outIncidentID) end
 --@usage void CLEAR_WEATHER_TYPE_PERSIST();
 
 --@return void
-function ClearWeatherTypePersist() end
+function ClearWeatherTypePersist()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -492,7 +530,8 @@ function ClearWeatherTypePersist() end
 --@params matchCase BOOL
 --@params maxLength int
 --@return int
-function CompareStrings(str1,str2,matchCase,maxLength) end
+function CompareStrings(str1, str2, matchCase, maxLength)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -502,7 +541,8 @@ function CompareStrings(str1,str2,matchCase,maxLength) end
 --@params hospitalIndex int
 --@params toggle BOOL
 --@return void
-function DisableHospitalRestart(hospitalIndex,toggle) end
+function DisableHospitalRestart(hospitalIndex, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -512,7 +552,8 @@ function DisableHospitalRestart(hospitalIndex,toggle) end
 --@params policeIndex int
 --@params toggle BOOL
 --@return void
-function DisablePoliceRestart(policeIndex,toggle) end
+function DisablePoliceRestart(policeIndex, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -521,7 +562,8 @@ function DisablePoliceRestart(policeIndex,toggle) end
 --@usage void DELETE_INCIDENT(int incidentId);
 --@params incidentId int
 --@return void
-function DeleteIncident(incidentId) end
+function DeleteIncident(incidentId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -530,7 +572,8 @@ function DeleteIncident(incidentId) end
 --@usage void DELETE_STUNT_JUMP(int p0);
 --@params p0 int
 --@return void
-function DeleteStuntJump(p0) end
+function DeleteStuntJump(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -546,7 +589,8 @@ function DeleteStuntJump(p0) end
 --@params defaultConcat3 char*
 --@params maxInputLength int
 --@return void
-function DisplayOnscreenKeyboard(p0,windowTitle,p2,defaultText,defaultConcat1,defaultConcat2,defaultConcat3,maxInputLength) end
+function DisplayOnscreenKeyboard(p0, windowTitle, p2, defaultText, defaultConcat1, defaultConcat2, defaultConcat3, maxInputLength)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -555,7 +599,8 @@ function DisplayOnscreenKeyboard(p0,windowTitle,p2,defaultText,defaultConcat1,de
 --@usage void DISABLE_STUNT_JUMP_SET(int p0);
 --@params p0 int
 --@return void
-function DisableStuntJumpSet(p0) end
+function DisableStuntJumpSet(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -575,7 +620,8 @@ function DisableStuntJumpSet(p0) end
 --@params defaultConcat7 char*
 --@params maxInputLength int
 --@return void
-function DisplayOnscreenKeyboardWithLongerInitialString(p0,windowTitle,p2,defaultText,defaultConcat1,defaultConcat2,defaultConcat3,defaultConcat4,defaultConcat5,defaultConcat6,defaultConcat7,maxInputLength) end
+function DisplayOnscreenKeyboardWithLongerInitialString(p0, windowTitle, p2, defaultText, defaultConcat1, defaultConcat2, defaultConcat3, defaultConcat4, defaultConcat5, defaultConcat6, defaultConcat7, maxInputLength)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -584,7 +630,8 @@ function DisplayOnscreenKeyboardWithLongerInitialString(p0,windowTitle,p2,defaul
 --@usage BOOL DOES_POP_MULTIPLIER_SPHERE_EXIST(int id);
 --@params id int
 --@return BOOL
-function DoesPopMultiplierSphereExist(id) end
+function DoesPopMultiplierSphereExist(id)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -597,7 +644,8 @@ function DoesPopMultiplierSphereExist(id) end
 --@params radius float
 --@params outIncidentID int*
 --@return BOOL
-function CreateIncidentWithEntity(dispatchService,ped,numUnits,radius,outIncidentID) end
+function CreateIncidentWithEntity(dispatchService, ped, numUnits, radius, outIncidentID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -606,7 +654,8 @@ function CreateIncidentWithEntity(dispatchService,ped,numUnits,radius,outInciden
 --@usage void DO_AUTO_SAVE();
 
 --@return void
-function DoAutoSave() end
+function DoAutoSave()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -615,7 +664,8 @@ function DoAutoSave() end
 --@usage float ATAN(float p0);
 --@params p0 float
 --@return float
-function Atan(p0) end
+function Atan(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -624,7 +674,8 @@ function Atan(p0) end
 --@usage void ADD_REPLAY_STAT_VALUE(Any value);
 --@params value Any
 --@return void
-function AddReplayStatValue(value) end
+function AddReplayStatValue(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -634,7 +685,8 @@ function AddReplayStatValue(value) end
 --@params dispatchService int
 --@params toggle BOOL
 --@return void
-function EnableDispatchService(dispatchService,toggle) end
+function EnableDispatchService(dispatchService, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -643,7 +695,8 @@ function EnableDispatchService(dispatchService,toggle) end
 --@usage void ENABLE_STUNT_JUMP_SET(int p0);
 --@params p0 int
 --@return void
-function EnableStuntJumpSet(p0) end
+function EnableStuntJumpSet(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -652,7 +705,8 @@ function EnableStuntJumpSet(p0) end
 --@usage BOOL DOES_POP_MULTIPLIER_AREA_EXIST(int id);
 --@params id int
 --@return BOOL
-function DoesPopMultiplierAreaExist(id) end
+function DoesPopMultiplierAreaExist(id)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -661,7 +715,8 @@ function DoesPopMultiplierAreaExist(id) end
 --@usage void END_REPLAY_STATS();
 
 --@return void
-function EndReplayStats() end
+function EndReplayStats()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -672,7 +727,8 @@ function EndReplayStats() end
 --@params toggle BOOL
 --@params p2 BOOL
 --@return void
-function EnableTennisMode(ped,toggle,p2) end
+function EnableTennisMode(ped, toggle, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -688,7 +744,8 @@ function EnableTennisMode(ped,toggle,p2) end
 --@params distance float
 --@params spawnPoint Vector3*
 --@return BOOL
-function FindSpawnPointInDirection(x1,y1,z1,x2,y2,z2,distance,spawnPoint) end
+function FindSpawnPointInDirection(x1, y1, z1, x2, y2, z2, distance, spawnPoint)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -697,7 +754,8 @@ function FindSpawnPointInDirection(x1,y1,z1,x2,y2,z2,distance,spawnPoint) end
 --@usage void _FORCE_SOCIAL_CLUB_UPDATE();
 
 --@return void
-function ForceSocialClubUpdate() end
+function ForceSocialClubUpdate()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -706,7 +764,8 @@ function ForceSocialClubUpdate() end
 --@usage int GET_ALLOCATED_STACK_SIZE();
 
 --@return int
-function GetAllocatedStackSize() end
+function GetAllocatedStackSize()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -715,7 +774,8 @@ function GetAllocatedStackSize() end
 --@usage int _GET_BENCHMARK_ITERATIONS_FROM_COMMAND_LINE();
 
 --@return int
-function GetBenchmarkIterationsFromCommandLine() end
+function GetBenchmarkIterationsFromCommandLine()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -727,7 +787,8 @@ function GetBenchmarkIterationsFromCommandLine() end
 --@params p3 Any
 --@params p4 BOOL
 --@return BOOL
-function GetBaseElementMetadata(p1,p2,p3,p4) end
+function GetBaseElementMetadata(p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -739,7 +800,8 @@ function GetBaseElementMetadata(p1,p2,p3,p4) end
 --@params x2 float
 --@params y2 float
 --@return float
-function GetAngleBetween_2dVectors(x1,y1,x2,y2) end
+function GetAngleBetween_2dVectors(x1, y1, x2, y2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -748,7 +810,8 @@ function GetAngleBetween_2dVectors(x1,y1,x2,y2) end
 --@usage float _GET_BENCHMARK_TIME();
 
 --@return float
-function GetBenchmarkTime() end
+function GetBenchmarkTime()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -757,7 +820,8 @@ function GetBenchmarkTime() end
 --@usage int _GET_BENCHMARK_PASS_FROM_COMMAND_LINE();
 
 --@return int
-function GetBenchmarkPassFromCommandLine() end
+function GetBenchmarkPassFromCommandLine()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -768,7 +832,8 @@ function GetBenchmarkPassFromCommandLine() end
 --@params rangeStart int
 --@params rangeEnd int
 --@return int
-function GetBitsInRange(var,rangeStart,rangeEnd) end
+function GetBitsInRange(var, rangeStart, rangeEnd)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -783,7 +848,8 @@ function GetBitsInRange(var,rangeStart,rangeEnd) end
 --@params z2 float
 --@params useZ BOOL
 --@return float
-function GetDistanceBetweenCoords(x1,y1,z1,x2,y2,z2,useZ) end
+function GetDistanceBetweenCoords(x1, y1, z1, x2, y2, z2, useZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -792,7 +858,8 @@ function GetDistanceBetweenCoords(x1,y1,z1,x2,y2,z2,useZ) end
 --@usage void FORCE_LIGHTNING_FLASH();
 
 --@return void
-function ForceLightningFlash() end
+function ForceLightningFlash()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -801,7 +868,8 @@ function ForceLightningFlash() end
 --@usage int GET_FAKE_WANTED_LEVEL();
 
 --@return int
-function GetFakeWantedLevel() end
+function GetFakeWantedLevel()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -810,7 +878,8 @@ function GetFakeWantedLevel() end
 --@usage float _GET_CLOUD_HAT_OPACITY();
 
 --@return float
-function GetCloudHatOpacity() end
+function GetCloudHatOpacity()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -819,7 +888,8 @@ function GetCloudHatOpacity() end
 --@usage int GET_GAME_TIMER();
 
 --@return int
-function GetGameTimer() end
+function GetGameTimer()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -828,7 +898,8 @@ function GetGameTimer() end
 --@usage float GET_FRAME_TIME();
 
 --@return float
-function GetFrameTime() end
+function GetFrameTime()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -837,7 +908,8 @@ function GetFrameTime() end
 --@usage char* _GET_GLOBAL_CHAR_BUFFER();
 
 --@return char*
-function GetGlobalCharBuffer() end
+function GetGlobalCharBuffer()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -850,7 +922,8 @@ function GetGlobalCharBuffer() end
 --@params groundZ float*
 --@params normal Vector3*
 --@return BOOL
-function GetGroundZAndNormalFor_3dCoord(x,y,z,groundZ,normal) end
+function GetGroundZAndNormalFor_3dCoord(x, y, z, groundZ, normal)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -863,7 +936,8 @@ function GetGroundZAndNormalFor_3dCoord(x,y,z,groundZ,normal) end
 --@params groundZ float*
 --@params unk BOOL
 --@return BOOL
-function GetGroundZFor_3dCoord(x,y,z,groundZ,unk) end
+function GetGroundZFor_3dCoord(x, y, z, groundZ, unk)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -876,7 +950,8 @@ function GetGroundZFor_3dCoord(x,y,z,groundZ,unk) end
 --@params groundZ float*
 --@params p4 BOOL
 --@return BOOL
-function GetGroundZFor_3dCoord_2(x,y,z,groundZ,p4) end
+function GetGroundZFor_3dCoord_2(x, y, z, groundZ, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -885,7 +960,8 @@ function GetGroundZFor_3dCoord_2(x,y,z,groundZ,p4) end
 --@usage int GET_FRAME_COUNT();
 
 --@return int
-function GetFrameCount() end
+function GetFrameCount()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -894,7 +970,8 @@ function GetFrameCount() end
 --@usage Hash GET_HASH_KEY(char* string);
 --@params string char*
 --@return Hash
-function GetHashKey(string) end
+function GetHashKey(string)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -904,7 +981,8 @@ function GetHashKey(string) end
 --@params dx float
 --@params dy float
 --@return float
-function GetHeadingFromVector_2d(dx,dy) end
+function GetHeadingFromVector_2d(dx, dy)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -913,7 +991,8 @@ function GetHeadingFromVector_2d(dx,dy) end
 --@usage BOOL GET_MISSION_FLAG();
 
 --@return BOOL
-function GetMissionFlag() end
+function GetMissionFlag()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -922,7 +1001,8 @@ function GetMissionFlag() end
 --@usage BOOL _GET_IS_PLAYER_IN_ANIMAL_FORM();
 
 --@return BOOL
-function GetIsPlayerInAnimalForm() end
+function GetIsPlayerInAnimalForm()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -931,7 +1011,8 @@ function GetIsPlayerInAnimalForm() end
 --@usage Hash GET_NEXT_WEATHER_TYPE_HASH_NAME();
 
 --@return Hash
-function GetNextWeatherTypeHashName() end
+function GetNextWeatherTypeHashName()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -940,7 +1021,8 @@ function GetNextWeatherTypeHashName() end
 --@usage int GET_INDEX_OF_CURRENT_LEVEL();
 
 --@return int
-function GetIndexOfCurrentLevel() end
+function GetIndexOfCurrentLevel()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -957,7 +1039,8 @@ function GetIndexOfCurrentLevel() end
 --@params projPos Vector3*
 --@params ownedByPlayer BOOL
 --@return BOOL
-function GetIsProjectileTypeInArea(x1,y1,z1,x2,y2,z2,projHash,projPos,ownedByPlayer) end
+function GetIsProjectileTypeInArea(x1, y1, z1, x2, y2, z2, projHash, projPos, ownedByPlayer)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -966,7 +1049,8 @@ function GetIsProjectileTypeInArea(x1,y1,z1,x2,y2,z2,projHash,projPos,ownedByPla
 --@usage BOOL GET_IS_AUTO_SAVE_OFF();
 
 --@return BOOL
-function GetIsAutoSaveOff() end
+function GetIsAutoSaveOff()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -975,7 +1059,8 @@ function GetIsAutoSaveOff() end
 --@usage char* GET_ONSCREEN_KEYBOARD_RESULT();
 
 --@return char*
-function GetOnscreenKeyboardResult() end
+function GetOnscreenKeyboardResult()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -984,7 +1069,8 @@ function GetOnscreenKeyboardResult() end
 --@usage int GET_NUM_SUCCESSFUL_STUNT_JUMPS();
 
 --@return int
-function GetNumSuccessfulStuntJumps() end
+function GetNumSuccessfulStuntJumps()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -993,7 +1079,8 @@ function GetNumSuccessfulStuntJumps() end
 --@usage int _GET_NUMBER_OF_DISPATCHED_UNITS_FOR_PLAYER(int dispatchService);
 --@params dispatchService int
 --@return int
-function GetNumberOfDispatchedUnitsForPlayer(dispatchService) end
+function GetNumberOfDispatchedUnitsForPlayer(dispatchService)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1004,7 +1091,8 @@ function GetNumberOfDispatchedUnitsForPlayer(dispatchService) end
 --@params minimum Vector3*
 --@params maximum Vector3*
 --@return void
-function GetModelDimensions(modelHash,minimum,maximum) end
+function GetModelDimensions(modelHash, minimum, maximum)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1013,7 +1101,8 @@ function GetModelDimensions(modelHash,minimum,maximum) end
 --@usage int GET_PROFILE_SETTING(int profileSetting);
 --@params profileSetting int
 --@return int
-function GetProfileSetting(profileSetting) end
+function GetProfileSetting(profileSetting)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1022,7 +1111,8 @@ function GetProfileSetting(profileSetting) end
 --@usage int GET_NUMBER_OF_FREE_STACKS_OF_THIS_SIZE(int stackSize);
 --@params stackSize int
 --@return int
-function GetNumberOfFreeStacksOfThisSize(stackSize) end
+function GetNumberOfFreeStacksOfThisSize(stackSize)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1035,7 +1125,8 @@ function GetNumberOfFreeStacksOfThisSize(stackSize) end
 --@params entity Vector3*
 --@params ownedByPlayer BOOL
 --@return BOOL
-function GetProjectileNearPedCoords(ped,weaponHash,radius,entity,ownedByPlayer) end
+function GetProjectileNearPedCoords(ped, weaponHash, radius, entity, ownedByPlayer)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1045,7 +1136,8 @@ function GetProjectileNearPedCoords(ped,weaponHash,radius,entity,ownedByPlayer) 
 --@params startRange float
 --@params endRange float
 --@return float
-function GetRandomFloatInRange(startRange,endRange) end
+function GetRandomFloatInRange(startRange, endRange)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1054,7 +1146,8 @@ function GetRandomFloatInRange(startRange,endRange) end
 --@usage Hash GET_PREV_WEATHER_TYPE_HASH_NAME();
 
 --@return Hash
-function GetPrevWeatherTypeHashName() end
+function GetPrevWeatherTypeHashName()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1068,7 +1161,8 @@ function GetPrevWeatherTypeHashName() end
 --@params projEnt Entity*
 --@params ownedByPlayer BOOL
 --@return BOOL
-function GetProjectileNearPed(ped,weaponhash,radius,projPos,projEnt,ownedByPlayer) end
+function GetProjectileNearPed(ped, weaponhash, radius, projPos, projEnt, ownedByPlayer)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1078,7 +1172,8 @@ function GetProjectileNearPed(ped,weaponhash,radius,projPos,projEnt,ownedByPlaye
 --@params startRange int
 --@params endRange int
 --@return int
-function GetRandomIntInRange(startRange,endRange) end
+function GetRandomIntInRange(startRange, endRange)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1087,7 +1182,8 @@ function GetRandomIntInRange(startRange,endRange) end
 --@usage float GET_RAIN_LEVEL();
 
 --@return float
-function GetRainLevel() end
+function GetRainLevel()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1096,7 +1192,8 @@ function GetRainLevel() end
 --@usage int _GET_POWER_SAVING_MODE_DURATION();
 
 --@return int
-function GetPowerSavingModeDuration() end
+function GetPowerSavingModeDuration()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1105,7 +1202,8 @@ function GetPowerSavingModeDuration() end
 --@usage BOOL GET_TENNIS_SWING_ANIM_COMPLETE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function GetTennisSwingAnimComplete(ped) end
+function GetTennisSwingAnimComplete(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1114,7 +1212,8 @@ function GetTennisSwingAnimComplete(ped) end
 --@usage int GET_REPLAY_STAT_MISSION_TYPE();
 
 --@return int
-function GetReplayStatMissionType() end
+function GetReplayStatMissionType()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1123,7 +1222,8 @@ function GetReplayStatMissionType() end
 --@usage int GET_REPLAY_STAT_AT_INDEX(int index);
 --@params index int
 --@return int
-function GetReplayStatAtIndex(index) end
+function GetReplayStatAtIndex(index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1134,7 +1234,8 @@ function GetReplayStatAtIndex(index) end
 --@params weatherType2 Hash*
 --@params percentWeather2 float*
 --@return void
-function GetWeatherTypeTransition(weatherType1,weatherType2,percentWeather2) end
+function GetWeatherTypeTransition(weatherType1, weatherType2, percentWeather2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1143,7 +1244,8 @@ function GetWeatherTypeTransition(weatherType1,weatherType2,percentWeather2) end
 --@usage Any GET_SNOW_LEVEL();
 
 --@return Any
-function GetSnowLevel() end
+function GetSnowLevel()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1152,7 +1254,8 @@ function GetSnowLevel() end
 --@usage Any GET_RANDOM_EVENT_FLAG();
 
 --@return Any
-function GetRandomEventFlag() end
+function GetRandomEventFlag()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1161,7 +1264,8 @@ function GetRandomEventFlag() end
 --@usage int GET_TOTAL_SUCCESSFUL_STUNT_JUMPS();
 
 --@return int
-function GetTotalSuccessfulStuntJumps() end
+function GetTotalSuccessfulStuntJumps()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1170,7 +1274,8 @@ function GetTotalSuccessfulStuntJumps() end
 --@usage Vector3 GET_WIND_DIRECTION();
 
 --@return Vector3
-function GetWindDirection() end
+function GetWindDirection()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1180,7 +1285,8 @@ function GetWindDirection() end
 --@params hash Hash
 --@params amount int
 --@return BOOL
-function HasButtonCombinationJustBeenEntered(hash,amount) end
+function HasButtonCombinationJustBeenEntered(hash, amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1189,7 +1295,8 @@ function HasButtonCombinationJustBeenEntered(hash,amount) end
 --@usage float GET_WIND_SPEED();
 
 --@return float
-function GetWindSpeed() end
+function GetWindSpeed()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1198,7 +1305,8 @@ function GetWindSpeed() end
 --@usage BOOL _HAS_CHEAT_STRING_JUST_BEEN_ENTERED(Hash hash);
 --@params hash Hash
 --@return BOOL
-function HasCheatStringJustBeenEntered(hash) end
+function HasCheatStringJustBeenEntered(hash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1212,7 +1320,8 @@ function HasCheatStringJustBeenEntered(hash) end
 --@params p4 BOOL
 --@params p5 BOOL
 --@return BOOL
-function HasBulletImpactedInArea(x,y,z,p3,p4,p5) end
+function HasBulletImpactedInArea(x, y, z, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1228,7 +1337,8 @@ function HasBulletImpactedInArea(x,y,z,p3,p4,p5) end
 --@params p6 BOOL
 --@params p7 BOOL
 --@return BOOL
-function HasBulletImpactedInBox(p0,p1,p2,p3,p4,p5,p6,p7) end
+function HasBulletImpactedInBox(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1237,7 +1347,8 @@ function HasBulletImpactedInBox(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@usage BOOL HAVE_CREDITS_REACHED_END();
 
 --@return BOOL
-function HaveCreditsReachedEnd() end
+function HaveCreditsReachedEnd()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1246,7 +1357,8 @@ function HaveCreditsReachedEnd() end
 --@usage BOOL _HAS_RESUMED_FROM_SUSPEND();
 
 --@return BOOL
-function HasResumedFromSuspend() end
+function HasResumedFromSuspend()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1267,7 +1379,8 @@ function HasResumedFromSuspend() end
 --@params p11 Any
 --@params p12 BOOL
 --@return BOOL
-function IsAreaOccupied(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12) end
+function IsAreaOccupied(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1276,7 +1389,8 @@ function IsAreaOccupied(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12) end
 --@usage void IGNORE_NEXT_RESTART(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function IgnoreNextRestart(toggle) end
+function IgnoreNextRestart(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1285,7 +1399,8 @@ function IgnoreNextRestart(toggle) end
 --@usage BOOL IS_AUSSIE_VERSION();
 
 --@return BOOL
-function IsAussieVersion() end
+function IsAussieVersion()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1294,7 +1409,8 @@ function IsAussieVersion() end
 --@usage int GET_REPLAY_STAT_COUNT();
 
 --@return int
-function GetReplayStatCount() end
+function GetReplayStatCount()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1303,7 +1419,8 @@ function GetReplayStatCount() end
 --@usage BOOL IS_AUTO_SAVE_IN_PROGRESS();
 
 --@return BOOL
-function IsAutoSaveInProgress() end
+function IsAutoSaveInProgress()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1319,7 +1436,8 @@ function IsAutoSaveInProgress() end
 --@params p6 float
 --@params p7 BOOL
 --@return BOOL
-function IsBulletInAngledArea(p0,p1,p2,p3,p4,p5,p6,p7) end
+function IsBulletInAngledArea(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1332,7 +1450,8 @@ function IsBulletInAngledArea(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p3 float
 --@params p4 BOOL
 --@return BOOL
-function IsBulletInArea(p0,p1,p2,p3,p4) end
+function IsBulletInArea(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1347,7 +1466,8 @@ function IsBulletInArea(p0,p1,p2,p3,p4) end
 --@params p5 float
 --@params p6 BOOL
 --@return BOOL
-function IsBulletInBox(p0,p1,p2,p3,p4,p5,p6) end
+function IsBulletInBox(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1356,7 +1476,8 @@ function IsBulletInBox(p0,p1,p2,p3,p4,p5,p6) end
 --@usage BOOL _IS_COMMAND_LINE_BENCHMARK_VALUE_SET();
 
 --@return BOOL
-function IsCommandLineBenchmarkValueSet() end
+function IsCommandLineBenchmarkValueSet()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1365,7 +1486,8 @@ function IsCommandLineBenchmarkValueSet() end
 --@usage BOOL IS_FRONTEND_FADING();
 
 --@return BOOL
-function IsFrontendFading() end
+function IsFrontendFading()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1375,7 +1497,8 @@ function IsFrontendFading() end
 --@params address int
 --@params offset int
 --@return BOOL
-function IsBitSet(address,offset) end
+function IsBitSet(address, offset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1384,7 +1507,8 @@ function IsBitSet(address,offset) end
 --@usage BOOL _IS_IN_POWER_SAVING_MODE();
 
 --@return BOOL
-function IsInPowerSavingMode() end
+function IsInPowerSavingMode()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1393,7 +1517,8 @@ function IsInPowerSavingMode() end
 --@usage BOOL IS_INCIDENT_VALID(int incidentId);
 --@params incidentId int
 --@return BOOL
-function IsIncidentValid(incidentId) end
+function IsIncidentValid(incidentId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1402,7 +1527,8 @@ function IsIncidentValid(incidentId) end
 --@usage BOOL IS_MINIGAME_IN_PROGRESS();
 
 --@return BOOL
-function IsMinigameInProgress() end
+function IsMinigameInProgress()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1411,7 +1537,8 @@ function IsMinigameInProgress() end
 --@usage BOOL _HAS_ASYNC_INSTALL_FINISHED();
 
 --@return BOOL
-function HasAsyncInstallFinished() end
+function HasAsyncInstallFinished()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1420,7 +1547,8 @@ function HasAsyncInstallFinished() end
 --@usage BOOL IS_DURANGO_VERSION();
 
 --@return BOOL
-function IsDurangoVersion() end
+function IsDurangoVersion()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1429,7 +1557,8 @@ function IsDurangoVersion() end
 --@usage BOOL IS_MEMORY_CARD_IN_USE();
 
 --@return BOOL
-function IsMemoryCardInUse() end
+function IsMemoryCardInUse()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1438,7 +1567,8 @@ function IsMemoryCardInUse() end
 --@usage BOOL IS_NEXT_WEATHER_TYPE(char* weatherType);
 --@params weatherType char*
 --@return BOOL
-function IsNextWeatherType(weatherType) end
+function IsNextWeatherType(weatherType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1453,7 +1583,8 @@ function IsNextWeatherType(weatherType) end
 --@params p5 float
 --@params p6 Any
 --@return BOOL
-function IsPointObscuredByAMissionEntity(p0,p1,p2,p3,p4,p5,p6) end
+function IsPointObscuredByAMissionEntity(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1462,7 +1593,8 @@ function IsPointObscuredByAMissionEntity(p0,p1,p2,p3,p4,p5,p6) end
 --@usage BOOL IS_ORBIS_VERSION();
 
 --@return BOOL
-function IsOrbisVersion() end
+function IsOrbisVersion()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1471,7 +1603,8 @@ function IsOrbisVersion() end
 --@usage BOOL _IS_POP_MULTIPLIER_AREA_UNK(int id);
 --@params id int
 --@return BOOL
-function IsPopMultiplierAreaUnk(id) end
+function IsPopMultiplierAreaUnk(id)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1490,7 +1623,8 @@ function IsPopMultiplierAreaUnk(id) end
 --@params ignoreEntity Entity
 --@params p10 BOOL
 --@return BOOL
-function IsPositionOccupied(x,y,z,range,p4,checkVehicles,checkPeds,p7,p8,ignoreEntity,p10) end
+function IsPositionOccupied(x, y, z, range, p4, checkVehicles, checkPeds, p7, p8, ignoreEntity, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1505,7 +1639,8 @@ function IsPositionOccupied(x,y,z,range,p4,checkVehicles,checkPeds,p7,p8,ignoreE
 --@params z2 float
 --@params ownedByPlayer BOOL
 --@return BOOL
-function IsProjectileInArea(x1,y1,z1,x2,y2,z2,ownedByPlayer) end
+function IsProjectileInArea(x1, y1, z1, x2, y2, z2, ownedByPlayer)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1522,7 +1657,8 @@ function IsProjectileInArea(x1,y1,z1,x2,y2,z2,ownedByPlayer) end
 --@params p7 Any
 --@params p8 BOOL
 --@return BOOL
-function IsProjectileTypeInAngledArea(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function IsProjectileTypeInAngledArea(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1538,7 +1674,8 @@ function IsProjectileTypeInAngledArea(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params type int
 --@params p7 BOOL
 --@return BOOL
-function IsProjectileTypeInArea(x1,y1,z1,x2,y2,z2,type,p7) end
+function IsProjectileTypeInArea(x1, y1, z1, x2, y2, z2, type, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1547,7 +1684,8 @@ function IsProjectileTypeInArea(x1,y1,z1,x2,y2,z2,type,p7) end
 --@usage BOOL IS_PC_VERSION();
 
 --@return BOOL
-function IsPcVersion() end
+function IsPcVersion()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1556,7 +1694,8 @@ function IsPcVersion() end
 --@usage BOOL IS_PS3_VERSION();
 
 --@return BOOL
-function IsPs3Version() end
+function IsPs3Version()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1570,7 +1709,8 @@ function IsPs3Version() end
 --@params y2 float
 --@params z2 float
 --@return BOOL
-function IsSniperBulletInArea(x1,y1,z1,x2,y2,z2) end
+function IsSniperBulletInArea(x1, y1, z1, x2, y2, z2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1579,7 +1719,8 @@ function IsSniperBulletInArea(x1,y1,z1,x2,y2,z2) end
 --@usage BOOL IS_SNIPER_INVERTED();
 
 --@return BOOL
-function IsSniperInverted() end
+function IsSniperInverted()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1588,7 +1729,8 @@ function IsSniperInverted() end
 --@usage BOOL IS_PREV_WEATHER_TYPE(char* weatherType);
 --@params weatherType char*
 --@return BOOL
-function IsPrevWeatherType(weatherType) end
+function IsPrevWeatherType(weatherType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1602,7 +1744,8 @@ function IsPrevWeatherType(weatherType) end
 --@params radius float
 --@params ownedByPlayer BOOL
 --@return BOOL
-function IsProjectileTypeInRadius(x,y,z,projHash,radius,ownedByPlayer) end
+function IsProjectileTypeInRadius(x, y, z, projHash, radius, ownedByPlayer)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1611,7 +1754,8 @@ function IsProjectileTypeInRadius(x,y,z,projHash,radius,ownedByPlayer) end
 --@usage BOOL IS_STUNT_JUMP_IN_PROGRESS();
 
 --@return BOOL
-function IsStuntJumpInProgress() end
+function IsStuntJumpInProgress()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1620,7 +1764,8 @@ function IsStuntJumpInProgress() end
 --@usage BOOL IS_STUNT_JUMP_MESSAGE_SHOWING();
 
 --@return BOOL
-function IsStuntJumpMessageShowing() end
+function IsStuntJumpMessageShowing()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1629,7 +1774,8 @@ function IsStuntJumpMessageShowing() end
 --@usage BOOL IS_STRING_NULL(char* string);
 --@params string char*
 --@return BOOL
-function IsStringNull(string) end
+function IsStringNull(string)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1638,7 +1784,8 @@ function IsStringNull(string) end
 --@usage BOOL IS_STRING_NULL_OR_EMPTY(char* string);
 --@params string char*
 --@return BOOL
-function IsStringNullOrEmpty(string) end
+function IsStringNullOrEmpty(string)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1647,7 +1794,8 @@ function IsStringNullOrEmpty(string) end
 --@usage BOOL IS_THIS_A_MINIGAME_SCRIPT();
 
 --@return BOOL
-function IsThisAMinigameScript() end
+function IsThisAMinigameScript()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1656,7 +1804,8 @@ function IsThisAMinigameScript() end
 --@usage BOOL IS_TENNIS_MODE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsTennisMode(ped) end
+function IsTennisMode(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1665,7 +1814,8 @@ function IsTennisMode(ped) end
 --@usage void undefined(char* p0);
 --@params p0 char*
 --@return void
-function N_0x02deaac8f8ea7fe7(p0) end
+function N_0x02deaac8f8ea7fe7(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1675,7 +1825,8 @@ function N_0x02deaac8f8ea7fe7(p0) end
 --@params name char*
 --@params transitionTime float
 --@return void
-function LoadCloudHat(name,transitionTime) end
+function LoadCloudHat(name, transitionTime)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1684,7 +1835,8 @@ function LoadCloudHat(name,transitionTime) end
 --@usage BOOL undefined(Ped ped);
 --@params ped Ped
 --@return BOOL
-function N_0x19bfed045c647c49(ped) end
+function N_0x19bfed045c647c49(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1696,7 +1848,8 @@ function N_0x19bfed045c647c49(ped) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function N_0x0a60017f841a54f2(p0,p1,p2,p3) end
+function N_0x0a60017f841a54f2(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1706,7 +1859,8 @@ function N_0x0a60017f841a54f2(p0,p1,p2,p3) end
 --@params p0 int
 --@params p1 BOOL
 --@return void
-function N_0x1eae0a6e978894a2(p0,p1) end
+function N_0x1eae0a6e978894a2(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1715,7 +1869,8 @@ function N_0x1eae0a6e978894a2(p0,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x0cf97f497fe7d048(p0) end
+function N_0x0cf97f497fe7d048(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1724,7 +1879,8 @@ function N_0x0cf97f497fe7d048(p0) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x2107a3773771186d() end
+function N_0x2107a3773771186d()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1736,7 +1892,8 @@ function N_0x2107a3773771186d() end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function N_0x1bb299305c3e8c13(p0,p1,p2,p3) end
+function N_0x1bb299305c3e8c13(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1745,7 +1902,8 @@ function N_0x1bb299305c3e8c13(p0,p1,p2,p3) end
 --@usage void undefined();
 
 --@return void
-function N_0x23227df0b2115469() end
+function N_0x23227df0b2115469()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1754,7 +1912,8 @@ function N_0x23227df0b2115469() end
 --@usage void undefined();
 
 --@return void
-function N_0x1ff6bf9a63e5757f() end
+function N_0x1ff6bf9a63e5757f()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1763,7 +1922,8 @@ function N_0x1ff6bf9a63e5757f() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x2587a48bc88dfadf(p0) end
+function N_0x2587a48bc88dfadf(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1772,7 +1932,8 @@ function N_0x2587a48bc88dfadf(p0) end
 --@usage void undefined(Any* p0);
 --@params p0 Any*
 --@return void
-function N_0x31125fd509d9043f(p0) end
+function N_0x31125fd509d9043f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1790,7 +1951,8 @@ function N_0x31125fd509d9043f(p0) end
 --@params p8 float
 --@params p9 BOOL
 --@return Vector3
-function N_0x21c235bc64831e5a(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function N_0x21c235bc64831e5a(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1799,7 +1961,8 @@ function N_0x21c235bc64831e5a(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0x405591ec8fd9096d(p0) end
+function N_0x405591ec8fd9096d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1808,7 +1971,8 @@ function N_0x405591ec8fd9096d(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x2b5e102e4a42f2bf() end
+function N_0x2b5e102e4a42f2bf()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1817,7 +1981,8 @@ function N_0x2b5e102e4a42f2bf() end
 --@usage int undefined();
 
 --@return int
-function N_0x397baa01068baa96() end
+function N_0x397baa01068baa96()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1826,7 +1991,8 @@ function N_0x397baa01068baa96() end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0x31727907b2c43c55(p0) end
+function N_0x31727907b2c43c55(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1836,7 +2002,8 @@ function N_0x31727907b2c43c55(p0) end
 --@params p0 Any*
 --@params name char*
 --@return void
-function N_0x48f069265a0e4bec(p0,name) end
+function N_0x48f069265a0e4bec(p0, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1845,7 +2012,8 @@ function N_0x48f069265a0e4bec(p0,name) end
 --@usage void undefined(int p0);
 --@params p0 int
 --@return void
-function N_0x3ed1438c1f5c6612(p0) end
+function N_0x3ed1438c1f5c6612(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1855,7 +2023,8 @@ function N_0x3ed1438c1f5c6612(p0) end
 --@params p0 char*
 --@params p1 char*
 --@return void
-function N_0x4dcdf92bf64236cd(p0,p1) end
+function N_0x4dcdf92bf64236cd(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1864,7 +2033,8 @@ function N_0x4dcdf92bf64236cd(p0,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x438822c279b73b93(p0) end
+function N_0x438822c279b73b93(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1873,7 +2043,8 @@ function N_0x438822c279b73b93(p0) end
 --@usage BOOL _LANDING_MENU_IS_ACTIVE();
 
 --@return BOOL
-function LandingMenuIsActive() end
+function LandingMenuIsActive()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1882,7 +2053,8 @@ function LandingMenuIsActive() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x44a0bdc559b35f6e() end
+function N_0x44a0bdc559b35f6e()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1893,7 +2065,8 @@ function N_0x44a0bdc559b35f6e() end
 --@params p1 char*
 --@params p2 float
 --@return void
-function N_0x54f157e0336a3822(ped,p1,p2) end
+function N_0x54f157e0336a3822(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1902,7 +2075,8 @@ function N_0x54f157e0336a3822(ped,p1,p2) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x5b1f2e327b6b6fe1() end
+function N_0x5b1f2e327b6b6fe1()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1911,7 +2085,8 @@ function N_0x5b1f2e327b6b6fe1() end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0x6216b116083a7cb4(p0) end
+function N_0x6216b116083a7cb4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1920,7 +2095,8 @@ function N_0x6216b116083a7cb4(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0x06462a961e94b67c() end
+function N_0x06462a961e94b67c()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1929,7 +2105,8 @@ function N_0x06462a961e94b67c() end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x65d2ebb47e1cec21(toggle) end
+function N_0x65d2ebb47e1cec21(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1938,7 +2115,8 @@ function N_0x65d2ebb47e1cec21(toggle) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x6f2135b6129620c1(toggle) end
+function N_0x6f2135b6129620c1(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1947,7 +2125,8 @@ function N_0x6f2135b6129620c1(toggle) end
 --@usage BOOL IS_XBOX360_VERSION();
 
 --@return BOOL
-function IsXbox360Version() end
+function IsXbox360Version()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1956,7 +2135,8 @@ function IsXbox360Version() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x72de52178c291cb5() end
+function N_0x72de52178c291cb5()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1965,7 +2145,8 @@ function N_0x72de52178c291cb5() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x703cc7f60cbb2b57(p0) end
+function N_0x703cc7f60cbb2b57(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1974,7 +2155,8 @@ function N_0x703cc7f60cbb2b57(p0) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0x7c9c0b1eeb1f9072(p0) end
+function N_0x7c9c0b1eeb1f9072(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1992,7 +2174,8 @@ function N_0x7c9c0b1eeb1f9072(p0) end
 --@params p8 float
 --@params p9 BOOL
 --@return float
-function N_0x7f8f6405f4777af6(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function N_0x7f8f6405f4777af6(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2001,7 +2184,8 @@ function N_0x7f8f6405f4777af6(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@usage void undefined();
 
 --@return void
-function N_0x8951eb9c6906d3c8() end
+function N_0x8951eb9c6906d3c8()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2011,7 +2195,8 @@ function N_0x8951eb9c6906d3c8() end
 --@params p0 Any*
 --@params name char*
 --@return void
-function N_0x8269816f6cfd40f8(p0,name) end
+function N_0x8269816f6cfd40f8(p0, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2020,7 +2205,8 @@ function N_0x8269816f6cfd40f8(p0,name) end
 --@usage void undefined(char* p0);
 --@params p0 char*
 --@return void
-function N_0x8d74e26f54b4e5c3(p0) end
+function N_0x8d74e26f54b4e5c3(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2029,7 +2215,8 @@ function N_0x8d74e26f54b4e5c3(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x97e7e2c04245115b(p0) end
+function N_0x97e7e2c04245115b(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2040,7 +2227,8 @@ function N_0x97e7e2c04245115b(p0) end
 --@params p1 Any*
 --@params p2 Any*
 --@return BOOL
-function N_0x8ef5573a1f801a5c(p0,p1,p2) end
+function N_0x8ef5573a1f801a5c(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2049,7 +2237,8 @@ function N_0x8ef5573a1f801a5c(p0,p1,p2) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x6fddf453c0c756ec() end
+function N_0x6fddf453c0c756ec()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2058,7 +2247,8 @@ function N_0x6fddf453c0c756ec() end
 --@usage int undefined(BOOL p0);
 --@params p0 BOOL
 --@return int
-function N_0xa09f896ce912481f(p0) end
+function N_0xa09f896ce912481f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2070,7 +2260,8 @@ function N_0xa09f896ce912481f(p0) end
 --@params fadeInAfterLoad BOOL*
 --@params p3 BOOL*
 --@return BOOL
-function N_0xa4a0065e39c9f25c(p0,p1,fadeInAfterLoad,p3) end
+function N_0xa4a0065e39c9f25c(p0, p1, fadeInAfterLoad, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2079,7 +2270,8 @@ function N_0xa4a0065e39c9f25c(p0,p1,fadeInAfterLoad,p3) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0x9f5e6bb6b34540da(p0) end
+function N_0x9f5e6bb6b34540da(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2088,7 +2280,8 @@ function N_0x9f5e6bb6b34540da(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0x693478acbd7f18e7() end
+function N_0x693478acbd7f18e7()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2097,7 +2290,8 @@ function N_0x693478acbd7f18e7() end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0xa7a1127490312c36(p0) end
+function N_0xa7a1127490312c36(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2106,7 +2300,8 @@ function N_0xa7a1127490312c36(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0x7ec6f9a478a6a512() end
+function N_0x7ec6f9a478a6a512()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2115,7 +2310,8 @@ function N_0x7ec6f9a478a6a512() end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0xb3e6360dde733e82(p0) end
+function N_0xb3e6360dde733e82(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2124,7 +2320,8 @@ function N_0xb3e6360dde733e82(p0) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0xb8f87ead7533b176(p0) end
+function N_0xb8f87ead7533b176(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2133,7 +2330,8 @@ function N_0xb8f87ead7533b176(p0) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0xb51b9ab9ef81868c(toggle) end
+function N_0xb51b9ab9ef81868c(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2142,7 +2340,8 @@ function N_0xb51b9ab9ef81868c(toggle) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xa1183bcfee0f93d1(p0) end
+function N_0xa1183bcfee0f93d1(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2151,7 +2350,8 @@ function N_0xa1183bcfee0f93d1(p0) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0xc3ead29ab273ece8(p0) end
+function N_0xc3ead29ab273ece8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2160,7 +2360,8 @@ function N_0xc3ead29ab273ece8(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xba4b8d83bdc75551(p0) end
+function N_0xba4b8d83bdc75551(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2169,7 +2370,8 @@ function N_0xba4b8d83bdc75551(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xd10282b6e3751ba0() end
+function N_0xd10282b6e3751ba0()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2178,7 +2380,8 @@ function N_0xd10282b6e3751ba0() end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0xc3c221addde31a11(p0) end
+function N_0xc3c221addde31a11(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2187,7 +2390,8 @@ function N_0xc3c221addde31a11(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0xd9f692d349249528() end
+function N_0xd9f692d349249528()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2196,7 +2400,8 @@ function N_0xd9f692d349249528() end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0xc54a08c85ae4d410(p0) end
+function N_0xc54a08c85ae4d410(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2205,7 +2410,8 @@ function N_0xc54a08c85ae4d410(p0) end
 --@usage BOOL undefined(Ped ped);
 --@params ped Ped
 --@return BOOL
-function N_0xe95b0c7d5ba3b96b(ped) end
+function N_0xe95b0c7d5ba3b96b(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2214,7 +2420,8 @@ function N_0xe95b0c7d5ba3b96b(ped) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0xa8434f1dff41d6e7(p0) end
+function N_0xa8434f1dff41d6e7(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2223,7 +2430,8 @@ function N_0xa8434f1dff41d6e7(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0xe3d969d2785ffb5e() end
+function N_0xe3d969d2785ffb5e()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2233,7 +2441,8 @@ function N_0xe3d969d2785ffb5e() end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xeb078ca2b5e82add(p0,p1) end
+function N_0xeb078ca2b5e82add(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2242,7 +2451,8 @@ function N_0xeb078ca2b5e82add(p0,p1) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0xb9854dfde0d833d6(p0) end
+function N_0xb9854dfde0d833d6(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2251,7 +2461,8 @@ function N_0xb9854dfde0d833d6(p0) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0xf751b16fb32abc1d(p0) end
+function N_0xf751b16fb32abc1d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2261,7 +2472,8 @@ function N_0xf751b16fb32abc1d(p0) end
 --@params p0 int
 --@params p1 int
 --@return void
-function N_0xe532ec1a63231b4f(p0,p1) end
+function N_0xe532ec1a63231b4f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2270,7 +2482,8 @@ function N_0xe532ec1a63231b4f(p0,p1) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xd642319c54aadeb6() end
+function N_0xd642319c54aadeb6()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2280,7 +2493,8 @@ function N_0xd642319c54aadeb6() end
 --@params p0 Any*
 --@params name char*
 --@return void
-function N_0xfaa457ef263e8763(p0,name) end
+function N_0xfaa457ef263e8763(p0, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2289,7 +2503,8 @@ function N_0xfaa457ef263e8763(p0,name) end
 --@usage void undefined(Any* p0);
 --@params p0 Any*
 --@return void
-function N_0xebd3205a207939ed(p0) end
+function N_0xebd3205a207939ed(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2298,7 +2513,8 @@ function N_0xebd3205a207939ed(p0) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0xfb80ab299d2ee1bd(toggle) end
+function N_0xfb80ab299d2ee1bd(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2319,7 +2535,8 @@ function N_0xfb80ab299d2ee1bd(toggle) end
 --@params p11 float
 --@params p12 float*
 --@return BOOL
-function N_0xf56dfb7b61be7276(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12) end
+function N_0xf56dfb7b61be7276(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2335,7 +2552,8 @@ function N_0xf56dfb7b61be7276(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12) end
 --@params p6 float
 --@params p7 float
 --@return BOOL
-function OverrideSaveHouse(p0,p1,p2,p3,p4,p5,p6,p7) end
+function OverrideSaveHouse(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2344,7 +2562,8 @@ function OverrideSaveHouse(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xeb2104e905c6f2e9() end
+function N_0xeb2104e905c6f2e9()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2358,7 +2577,8 @@ function N_0xeb2104e905c6f2e9() end
 --@params p4 float
 --@params p5 BOOL
 --@return void
-function PlayTennisDiveAnim(ped,p1,p2,p3,p4,p5) end
+function PlayTennisDiveAnim(ped, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2372,7 +2592,8 @@ function PlayTennisDiveAnim(ped,p1,p2,p3,p4,p5) end
 --@params p4 float
 --@params p5 BOOL
 --@return void
-function PlayTennisSwingAnim(ped,animDict,animName,p3,p4,p5) end
+function PlayTennisSwingAnim(ped, animDict, animName, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2381,7 +2602,8 @@ function PlayTennisSwingAnim(ped,animDict,animName,p3,p4,p5) end
 --@usage void NETWORK_SET_SCRIPT_IS_SAFE_FOR_NETWORK_GAME();
 
 --@return void
-function NetworkSetScriptIsSafeForNetworkGame() end
+function NetworkSetScriptIsSafeForNetworkGame()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2390,7 +2612,8 @@ function NetworkSetScriptIsSafeForNetworkGame() end
 --@usage void POPULATE_NOW();
 
 --@return void
-function PopulateNow() end
+function PopulateNow()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2400,7 +2623,8 @@ function PopulateNow() end
 --@params p0 Any*
 --@params name char*
 --@return void
-function RegisterBoolToSave(p0,name) end
+function RegisterBoolToSave(p0, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2410,7 +2634,8 @@ function RegisterBoolToSave(p0,name) end
 --@params p0 Any*
 --@params name char*
 --@return void
-function RegisterEnumToSave(p0,name) end
+function RegisterEnumToSave(p0, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2420,7 +2645,8 @@ function RegisterEnumToSave(p0,name) end
 --@params p0 Any*
 --@params name char*
 --@return void
-function RegisterFloatToSave(p0,name) end
+function RegisterFloatToSave(p0, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2430,7 +2656,8 @@ function RegisterFloatToSave(p0,name) end
 --@params p0 Any*
 --@params name char*
 --@return void
-function RegisterIntToSave(p0,name) end
+function RegisterIntToSave(p0, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2440,7 +2667,8 @@ function RegisterIntToSave(p0,name) end
 --@params p0 Any*
 --@params name char*
 --@return void
-function RegisterInt64ToSave(p0,name) end
+function RegisterInt64ToSave(p0, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2455,7 +2683,8 @@ function RegisterInt64ToSave(p0,name) end
 --@params p5 Any
 --@params p6 Any
 --@return Any
-function RegisterSaveHouse(p0,p1,p2,p3,p4,p5,p6) end
+function RegisterSaveHouse(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2465,7 +2694,8 @@ function RegisterSaveHouse(p0,p1,p2,p3,p4,p5,p6) end
 --@params p0 Any*
 --@params name char*
 --@return void
-function RegisterTextLabelToSave(p0,name) end
+function RegisterTextLabelToSave(p0, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2475,7 +2705,8 @@ function RegisterTextLabelToSave(p0,name) end
 --@params p0 Any*
 --@params name char*
 --@return void
-function RegisterTextLabelToSave_2(p0,name) end
+function RegisterTextLabelToSave_2(p0, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2484,7 +2715,8 @@ function RegisterTextLabelToSave_2(p0,name) end
 --@usage void PAUSE_DEATH_ARREST_RESTART(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function PauseDeathArrestRestart(toggle) end
+function PauseDeathArrestRestart(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2493,7 +2725,8 @@ function PauseDeathArrestRestart(toggle) end
 --@usage void REMOVE_DISPATCH_SPAWN_BLOCKING_AREA(Any p0);
 --@params p0 Any
 --@return void
-function RemoveDispatchSpawnBlockingArea(p0) end
+function RemoveDispatchSpawnBlockingArea(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2503,7 +2736,8 @@ function RemoveDispatchSpawnBlockingArea(p0) end
 --@params id int
 --@params p1 BOOL
 --@return void
-function RemovePopMultiplierArea(id,p1) end
+function RemovePopMultiplierArea(id, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2513,7 +2747,8 @@ function RemovePopMultiplierArea(id,p1) end
 --@params id int
 --@params p1 BOOL
 --@return void
-function RemovePopMultiplierSphere(id,p1) end
+function RemovePopMultiplierSphere(id, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2523,7 +2758,8 @@ function RemovePopMultiplierSphere(id,p1) end
 --@params hash Hash
 --@params p1 BOOL
 --@return void
-function RemoveStealthKill(hash,p1) end
+function RemoveStealthKill(hash, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2532,7 +2768,8 @@ function RemoveStealthKill(hash,p1) end
 --@usage void _RESET_BENCHMARK_RECORDING();
 
 --@return void
-function ResetBenchmarkRecording() end
+function ResetBenchmarkRecording()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2541,7 +2778,8 @@ function ResetBenchmarkRecording() end
 --@usage void RESET_DISPATCH_IDEAL_SPAWN_DISTANCE();
 
 --@return void
-function ResetDispatchIdealSpawnDistance() end
+function ResetDispatchIdealSpawnDistance()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2550,7 +2788,8 @@ function ResetDispatchIdealSpawnDistance() end
 --@usage void PRELOAD_CLOUD_HAT(char* name);
 --@params name char*
 --@return void
-function PreloadCloudHat(name) end
+function PreloadCloudHat(name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2559,7 +2798,8 @@ function PreloadCloudHat(name) end
 --@usage void RESET_DISPATCH_TIME_BETWEEN_SPAWN_ATTEMPTS(Any p0);
 --@params p0 Any
 --@return void
-function ResetDispatchTimeBetweenSpawnAttempts(p0) end
+function ResetDispatchTimeBetweenSpawnAttempts(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2568,7 +2808,8 @@ function ResetDispatchTimeBetweenSpawnAttempts(p0) end
 --@usage void _RESET_LOCALPLAYER_STATE();
 
 --@return void
-function ResetLocalplayerState() end
+function ResetLocalplayerState()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2578,7 +2819,8 @@ function ResetLocalplayerState() end
 --@params address int*
 --@params offset int
 --@return void
-function SetBit(address,offset) end
+function SetBit(address, offset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2587,7 +2829,8 @@ function SetBit(address,offset) end
 --@usage void RESET_DISPATCH_SPAWN_BLOCKING_AREAS();
 
 --@return void
-function ResetDispatchSpawnBlockingAreas() end
+function ResetDispatchSpawnBlockingAreas()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2596,7 +2839,8 @@ function ResetDispatchSpawnBlockingAreas() end
 --@usage void undefined();
 
 --@return void
-function N_0xfb00ca71da386228() end
+function N_0xfb00ca71da386228()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2605,7 +2849,8 @@ function N_0xfb00ca71da386228() end
 --@usage void _SAVE_BENCHMARK_RECORDING();
 
 --@return void
-function SaveBenchmarkRecording() end
+function SaveBenchmarkRecording()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2617,7 +2862,8 @@ function SaveBenchmarkRecording() end
 --@params rangeEnd int
 --@params p3 int
 --@return void
-function SetBitsInRange(var,rangeStart,rangeEnd,p3) end
+function SetBitsInRange(var, rangeStart, rangeEnd, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2626,7 +2872,8 @@ function SetBitsInRange(var,rangeStart,rangeEnd,p3) end
 --@usage void _SET_CLOUD_HAT_OPACITY(float opacity);
 --@params opacity float
 --@return void
-function SetCloudHatOpacity(opacity) end
+function SetCloudHatOpacity(opacity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2635,7 +2882,8 @@ function SetCloudHatOpacity(opacity) end
 --@usage void SET_CREDITS_ACTIVE(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetCreditsActive(toggle) end
+function SetCreditsActive(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2644,7 +2892,8 @@ function SetCreditsActive(toggle) end
 --@usage void SET_DISPATCH_IDEAL_SPAWN_DISTANCE(float p0);
 --@params p0 float
 --@return void
-function SetDispatchIdealSpawnDistance(p0) end
+function SetDispatchIdealSpawnDistance(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2656,7 +2905,8 @@ function SetDispatchIdealSpawnDistance(p0) end
 --@params z float
 --@params heading float
 --@return void
-function SetCustomRespawnPosition(x,y,z,heading) end
+function SetCustomRespawnPosition(x, y, z, heading)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2666,7 +2916,8 @@ function SetCustomRespawnPosition(x,y,z,heading) end
 --@params p0 Any
 --@params p1 float
 --@return void
-function SetDispatchTimeBetweenSpawnAttempts(p0,p1) end
+function SetDispatchTimeBetweenSpawnAttempts(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2676,7 +2927,8 @@ function SetDispatchTimeBetweenSpawnAttempts(p0,p1) end
 --@params p0 Any
 --@params p1 float
 --@return void
-function SetDispatchTimeBetweenSpawnAttemptsMultiplier(p0,p1) end
+function SetDispatchTimeBetweenSpawnAttemptsMultiplier(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2685,7 +2937,8 @@ function SetDispatchTimeBetweenSpawnAttemptsMultiplier(p0,p1) end
 --@usage void _RESTART_GAME();
 
 --@return void
-function RestartGame() end
+function RestartGame()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2694,7 +2947,8 @@ function RestartGame() end
 --@usage void SET_EXPLOSIVE_AMMO_THIS_FRAME(Player player);
 --@params player Player
 --@return void
-function SetExplosiveAmmoThisFrame(player) end
+function SetExplosiveAmmoThisFrame(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2703,7 +2957,8 @@ function SetExplosiveAmmoThisFrame(player) end
 --@usage Any SET_EXPLOSIVE_MELEE_THIS_FRAME(Player player);
 --@params player Player
 --@return Any
-function SetExplosiveMeleeThisFrame(player) end
+function SetExplosiveMeleeThisFrame(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2714,7 +2969,8 @@ function SetExplosiveMeleeThisFrame(player) end
 --@params y float
 --@params z float
 --@return void
-function SetDispatchSpawnLocation(x,y,z) end
+function SetDispatchSpawnLocation(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2723,7 +2979,8 @@ function SetDispatchSpawnLocation(x,y,z) end
 --@usage void SET_FADE_OUT_AFTER_ARREST(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetFadeOutAfterArrest(toggle) end
+function SetFadeOutAfterArrest(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2732,7 +2989,8 @@ function SetFadeOutAfterArrest(toggle) end
 --@usage void SET_FADE_IN_AFTER_DEATH_ARREST(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetFadeInAfterDeathArrest(toggle) end
+function SetFadeInAfterDeathArrest(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2741,7 +2999,8 @@ function SetFadeInAfterDeathArrest(toggle) end
 --@usage void SET_FADE_IN_AFTER_LOAD(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetFadeInAfterLoad(toggle) end
+function SetFadeInAfterLoad(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2750,7 +3009,8 @@ function SetFadeInAfterLoad(toggle) end
 --@usage void SET_FAKE_WANTED_LEVEL(int fakeWantedLevel);
 --@params fakeWantedLevel int
 --@return void
-function SetFakeWantedLevel(fakeWantedLevel) end
+function SetFakeWantedLevel(fakeWantedLevel)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2759,7 +3019,8 @@ function SetFakeWantedLevel(fakeWantedLevel) end
 --@usage void SET_FADE_OUT_AFTER_DEATH(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetFadeOutAfterDeath(toggle) end
+function SetFadeOutAfterDeath(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2768,7 +3029,8 @@ function SetFadeOutAfterDeath(toggle) end
 --@usage void SET_GAME_PAUSED(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetGamePaused(toggle) end
+function SetGamePaused(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2777,7 +3039,8 @@ function SetGamePaused(toggle) end
 --@usage void SET_GRAVITY_LEVEL(int level);
 --@params level int
 --@return void
-function SetGravityLevel(level) end
+function SetGravityLevel(level)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2787,7 +3050,8 @@ function SetGravityLevel(level) end
 --@params incidentId int
 --@params p1 float
 --@return void
-function SetIncidentUnk(incidentId,p1) end
+function SetIncidentUnk(incidentId, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2796,7 +3060,8 @@ function SetIncidentUnk(incidentId,p1) end
 --@usage void SET_INSTANCE_PRIORITY_MODE(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetInstancePriorityMode(toggle) end
+function SetInstancePriorityMode(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2807,7 +3072,8 @@ function SetInstancePriorityMode(toggle) end
 --@params dispatchService int
 --@params numUnits int
 --@return void
-function SetIncidentRequestedUnits(incidentId,dispatchService,numUnits) end
+function SetIncidentRequestedUnits(incidentId, dispatchService, numUnits)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2816,7 +3082,8 @@ function SetIncidentRequestedUnits(incidentId,dispatchService,numUnits) end
 --@usage void SET_INSTANCE_PRIORITY_HINT(int flag);
 --@params flag int
 --@return void
-function SetInstancePriorityHint(flag) end
+function SetInstancePriorityHint(flag)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2825,7 +3092,8 @@ function SetInstancePriorityHint(flag) end
 --@usage Any SET_FIRE_AMMO_THIS_FRAME(Player player);
 --@params player Player
 --@return Any
-function SetFireAmmoThisFrame(player) end
+function SetFireAmmoThisFrame(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2834,7 +3102,8 @@ function SetFireAmmoThisFrame(player) end
 --@usage void _SET_PLAYER_ROCKSTAR_EDITOR_DISABLED(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetPlayerRockstarEditorDisabled(toggle) end
+function SetPlayerRockstarEditorDisabled(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2843,7 +3112,8 @@ function SetPlayerRockstarEditorDisabled(toggle) end
 --@usage void SET_OVERRIDE_WEATHER(char* weatherType);
 --@params weatherType char*
 --@return void
-function SetOverrideWeather(weatherType) end
+function SetOverrideWeather(weatherType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2852,7 +3122,8 @@ function SetOverrideWeather(weatherType) end
 --@usage void SET_RANDOM_EVENT_FLAG(Any toggle);
 --@params toggle Any
 --@return void
-function SetRandomEventFlag(toggle) end
+function SetRandomEventFlag(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2861,7 +3132,8 @@ function SetRandomEventFlag(toggle) end
 --@usage void SET_MISSION_FLAG(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetMissionFlag(toggle) end
+function SetMissionFlag(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2870,7 +3142,8 @@ function SetMissionFlag(toggle) end
 --@usage void _SET_RAIN_FX_INTENSITY(float intensity);
 --@params intensity float
 --@return void
-function SetRainFxIntensity(intensity) end
+function SetRainFxIntensity(intensity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2879,7 +3152,8 @@ function SetRainFxIntensity(intensity) end
 --@usage void SET_RANDOM_SEED(int seed);
 --@params seed int
 --@return void
-function SetRandomSeed(seed) end
+function SetRandomSeed(seed)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2888,7 +3162,8 @@ function SetRandomSeed(seed) end
 --@usage void SET_MINIGAME_IN_PROGRESS(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetMinigameInProgress(toggle) end
+function SetMinigameInProgress(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2897,7 +3172,8 @@ function SetMinigameInProgress(toggle) end
 --@usage void SET_SAVE_MENU_ACTIVE(BOOL ignoreVehicle);
 --@params ignoreVehicle BOOL
 --@return void
-function SetSaveMenuActive(ignoreVehicle) end
+function SetSaveMenuActive(ignoreVehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2908,7 +3184,8 @@ function SetSaveMenuActive(ignoreVehicle) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function SetSaveHouse(p0,p1,p2) end
+function SetSaveHouse(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2917,7 +3194,8 @@ function SetSaveHouse(p0,p1,p2) end
 --@usage int SET_SUPER_JUMP_THIS_FRAME(Player player);
 --@params player Player
 --@return int
-function SetSuperJumpThisFrame(player) end
+function SetSuperJumpThisFrame(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2926,7 +3204,8 @@ function SetSuperJumpThisFrame(player) end
 --@usage void SET_THIS_SCRIPT_CAN_BE_PAUSED(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetThisScriptCanBePaused(toggle) end
+function SetThisScriptCanBePaused(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2935,7 +3214,8 @@ function SetThisScriptCanBePaused(toggle) end
 --@usage void SET_THIS_SCRIPT_CAN_REMOVE_BLIPS_CREATED_BY_ANY_SCRIPT(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetThisScriptCanRemoveBlipsCreatedByAnyScript(toggle) end
+function SetThisScriptCanRemoveBlipsCreatedByAnyScript(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2944,7 +3224,8 @@ function SetThisScriptCanRemoveBlipsCreatedByAnyScript(toggle) end
 --@usage void SET_TIME_SCALE(float timeScale);
 --@params timeScale float
 --@return void
-function SetTimeScale(timeScale) end
+function SetTimeScale(timeScale)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2953,7 +3234,8 @@ function SetTimeScale(timeScale) end
 --@usage void SET_WEATHER_TYPE_NOW(char* weatherType);
 --@params weatherType char*
 --@return void
-function SetWeatherTypeNow(weatherType) end
+function SetWeatherTypeNow(weatherType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2962,7 +3244,8 @@ function SetWeatherTypeNow(weatherType) end
 --@usage void SET_WEATHER_TYPE_NOW_PERSIST(char* weatherType);
 --@params weatherType char*
 --@return void
-function SetWeatherTypeNowPersist(weatherType) end
+function SetWeatherTypeNowPersist(weatherType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2972,7 +3255,8 @@ function SetWeatherTypeNowPersist(weatherType) end
 --@params weatherType char*
 --@params time float
 --@return void
-function SetWeatherTypeOvertimePersist(weatherType,time) end
+function SetWeatherTypeOvertimePersist(weatherType, time)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2981,7 +3265,8 @@ function SetWeatherTypeOvertimePersist(weatherType,time) end
 --@usage void SET_WEATHER_TYPE_PERSIST(char* weatherType);
 --@params weatherType char*
 --@return void
-function SetWeatherTypePersist(weatherType) end
+function SetWeatherTypePersist(weatherType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2992,7 +3277,8 @@ function SetWeatherTypePersist(weatherType) end
 --@params weatherType2 Hash
 --@params percentWeather2 float
 --@return void
-function SetWeatherTypeTransition(weatherType1,weatherType2,percentWeather2) end
+function SetWeatherTypeTransition(weatherType1, weatherType2, percentWeather2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3001,7 +3287,8 @@ function SetWeatherTypeTransition(weatherType1,weatherType2,percentWeather2) end
 --@usage void SET_STUNT_JUMPS_CAN_TRIGGER(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetStuntJumpsCanTrigger(toggle) end
+function SetStuntJumpsCanTrigger(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3010,7 +3297,8 @@ function SetStuntJumpsCanTrigger(toggle) end
 --@usage void SET_WIND_DIRECTION(float direction);
 --@params direction float
 --@return void
-function SetWindDirection(direction) end
+function SetWindDirection(direction)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3019,7 +3307,8 @@ function SetWindDirection(direction) end
 --@usage void SET_WIND_SPEED(float speed);
 --@params speed float
 --@return void
-function SetWindSpeed(speed) end
+function SetWindSpeed(speed)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3040,7 +3329,8 @@ function SetWindSpeed(speed) end
 --@params isInvisible BOOL
 --@params speed float
 --@return void
-function ShootSingleBulletBetweenCoords(x1,y1,z1,x2,y2,z2,damage,p7,weaponHash,ownerPed,isAudible,isInvisible,speed) end
+function ShootSingleBulletBetweenCoords(x1, y1, z1, x2, y2, z2, damage, p7, weaponHash, ownerPed, isAudible, isInvisible, speed)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3062,7 +3352,8 @@ function ShootSingleBulletBetweenCoords(x1,y1,z1,x2,y2,z2,damage,p7,weaponHash,o
 --@params speed float
 --@params entity Entity
 --@return void
-function ShootSingleBulletBetweenCoordsIgnoreEntity(x1,y1,z1,x2,y2,z2,damage,p7,weaponHash,ownerPed,isAudible,isInvisible,speed,entity) end
+function ShootSingleBulletBetweenCoordsIgnoreEntity(x1, y1, z1, x2, y2, z2, damage, p7, weaponHash, ownerPed, isAudible, isInvisible, speed, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3071,7 +3362,8 @@ function ShootSingleBulletBetweenCoordsIgnoreEntity(x1,y1,z1,x2,y2,z2,damage,p7,
 --@usage BOOL SHOULD_USE_METRIC_MEASUREMENTS();
 
 --@return BOOL
-function ShouldUseMetricMeasurements() end
+function ShouldUseMetricMeasurements()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3097,7 +3389,8 @@ function ShouldUseMetricMeasurements() end
 --@params p16 BOOL
 --@params p17 BOOL
 --@return void
-function ShootSingleBulletBetweenCoordsIgnoreEntityNew(x1,y1,z1,x2,y2,z2,damage,p7,weaponHash,ownerPed,isAudible,isInvisible,speed,entity,p14,p15,p16,p17) end
+function ShootSingleBulletBetweenCoordsIgnoreEntityNew(x1, y1, z1, x2, y2, z2, damage, p7, weaponHash, ownerPed, isAudible, isInvisible, speed, entity, p14, p15, p16, p17)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3106,7 +3399,8 @@ function ShootSingleBulletBetweenCoordsIgnoreEntityNew(x1,y1,z1,x2,y2,z2,damage,
 --@usage void _SHOW_PED_IN_PAUSE_MENU(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function ShowPedInPauseMenu(toggle) end
+function ShowPedInPauseMenu(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3127,7 +3421,8 @@ function ShowPedInPauseMenu(toggle) end
 --@params outZ float*
 --@params outW float*
 --@return void
-function SlerpNearQuaternion(t,x,y,z,w,x1,y1,z1,w1,outX,outY,outZ,outW) end
+function SlerpNearQuaternion(t, x, y, z, w, x1, y1, z1, w1, outX, outY, outZ, outW)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3136,7 +3431,8 @@ function SlerpNearQuaternion(t,x,y,z,w,x1,y1,z1,w1,outX,outY,outZ,outW) end
 --@usage void _START_BENCHMARK_RECORDING();
 
 --@return void
-function StartBenchmarkRecording() end
+function StartBenchmarkRecording()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3147,7 +3443,8 @@ function StartBenchmarkRecording() end
 --@params size int
 --@params arrayName char*
 --@return void
-function StartSaveArrayWithSize(p0,size,arrayName) end
+function StartSaveArrayWithSize(p0, size, arrayName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3158,7 +3455,8 @@ function StartSaveArrayWithSize(p0,size,arrayName) end
 --@params size int
 --@params structName char*
 --@return void
-function StartSaveStructWithSize(p0,size,structName) end
+function StartSaveStructWithSize(p0, size, structName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3169,7 +3467,8 @@ function StartSaveStructWithSize(p0,size,structName) end
 --@params p1 Any
 --@params p2 BOOL
 --@return void
-function StartSaveData(p0,p1,p2) end
+function StartSaveData(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3178,7 +3477,8 @@ function StartSaveData(p0,p1,p2) end
 --@usage void STOP_SAVE_ARRAY();
 
 --@return void
-function StopSaveArray() end
+function StopSaveArray()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3187,7 +3487,8 @@ function StopSaveArray() end
 --@usage void _STOP_BENCHMARK_RECORDING();
 
 --@return void
-function StopBenchmarkRecording() end
+function StopBenchmarkRecording()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3196,7 +3497,8 @@ function StopBenchmarkRecording() end
 --@usage void STOP_SAVE_DATA();
 
 --@return void
-function StopSaveData() end
+function StopSaveData()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3205,7 +3507,8 @@ function StopSaveData() end
 --@usage void STOP_SAVE_STRUCT();
 
 --@return void
-function StopSaveStruct() end
+function StopSaveStruct()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3214,7 +3517,8 @@ function StopSaveStruct() end
 --@usage float TAN(float p0);
 --@params p0 float
 --@return float
-function Tan(p0) end
+function Tan(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3224,7 +3528,8 @@ function Tan(p0) end
 --@params string char*
 --@params outInteger int*
 --@return BOOL
-function StringToInt(string,outInteger) end
+function StringToInt(string, outInteger)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3233,7 +3538,8 @@ function StringToInt(string,outInteger) end
 --@usage void TERMINATE_ALL_SCRIPTS_WITH_THIS_NAME(char* scriptName);
 --@params scriptName char*
 --@return void
-function TerminateAllScriptsWithThisName(scriptName) end
+function TerminateAllScriptsWithThisName(scriptName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3242,7 +3548,8 @@ function TerminateAllScriptsWithThisName(scriptName) end
 --@usage BOOL _UI_IS_SINGLEPLAYER_PAUSE_MENU_ACTIVE();
 
 --@return BOOL
-function UiIsSingleplayerPauseMenuActive() end
+function UiIsSingleplayerPauseMenuActive()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3252,7 +3559,8 @@ function UiIsSingleplayerPauseMenuActive() end
 --@params name char*
 --@params p1 float
 --@return void
-function UnloadCloudHat(name,p1) end
+function UnloadCloudHat(name, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3261,7 +3569,8 @@ function UnloadCloudHat(name,p1) end
 --@usage void SET_RANDOM_WEATHER_TYPE();
 
 --@return void
-function SetRandomWeatherType() end
+function SetRandomWeatherType()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3270,7 +3579,8 @@ function SetRandomWeatherType() end
 --@usage void USING_MISSION_CREATOR(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function UsingMissionCreator(toggle) end
+function UsingMissionCreator(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3279,7 +3589,8 @@ function UsingMissionCreator(toggle) end
 --@usage void SET_WIND(float speed);
 --@params speed float
 --@return void
-function SetWind(speed) end
+function SetWind(speed)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3288,4 +3599,5 @@ function SetWind(speed) end
 --@usage int UPDATE_ONSCREEN_KEYBOARD();
 
 --@return int
-function UpdateOnscreenKeyboard() end
+function UpdateOnscreenKeyboard()
+end

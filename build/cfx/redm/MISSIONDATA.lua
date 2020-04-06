@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule MISSIONDATA
@@ -6,7 +5,8 @@
 --@usage undefined _0xE54DC27571D5EDC5(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xe54dc27571d5edc5(p0) end
+function N_0xe54dc27571d5edc5(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function N_0xe54dc27571d5edc5(p0) end
 --@usage undefined _0x57E798B65C45EE17(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x57e798b65c45ee17(p0) end
+function N_0x57e798b65c45ee17(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function N_0x57e798b65c45ee17(p0) end
 --@usage undefined _0x57E798B56C45EE15(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x57e798b56c45ee15(p0) end
+function N_0x57e798b56c45ee15(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -33,7 +35,8 @@ function N_0x57e798b56c45ee15(p0) end
 --@usage undefined _0xE54DC27571D5EDC4(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xe54dc27571d5edc4(p0) end
+function N_0xe54dc27571d5edc4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -42,7 +45,8 @@ function N_0xe54dc27571d5edc4(p0) end
 --@usage undefined _0x57E798B54C45EE1A(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x57e798b54c45ee1a(p0) end
+function N_0x57e798b54c45ee1a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -51,7 +55,8 @@ function N_0x57e798b54c45ee1a(p0) end
 --@usage undefined _0x57E798B57C45EE16(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x57e798b57c45ee16(p0) end
+function N_0x57e798b57c45ee16(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -61,7 +66,8 @@ function N_0x57e798b57c45ee16(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xe824ce7d13fcb300(p0,p1) end
+function N_0xe824ce7d13fcb300(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -70,7 +76,8 @@ function N_0xe824ce7d13fcb300(p0,p1) end
 --@usage undefined MISSIONDATA_GET_REPLAY_STATE(Any p0);
 --@params p0 Any
 --@return undefined
-function MissiondataGetReplayState(p0) end
+function MissiondataGetReplayState(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -80,7 +87,8 @@ function MissiondataGetReplayState(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xe4e2c581f127a11c(p0,p1) end
+function N_0xe4e2c581f127a11c(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -92,7 +100,8 @@ function N_0xe4e2c581f127a11c(p0,p1) end
 --@params p2 int
 --@params p3 int
 --@return undefined
-function MissiondataSetRatingScores(p0,p1,p2,p3) end
+function MissiondataSetRatingScores(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -102,7 +111,8 @@ function MissiondataSetRatingScores(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 int
 --@return undefined
-function MissiondataSetHighScore(p0,p1) end
+function MissiondataSetHighScore(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -111,7 +121,8 @@ function MissiondataSetHighScore(p0,p1) end
 --@usage undefined MISSIONDATA_GET_HIGH_SCORE(Any p0);
 --@params p0 Any
 --@return undefined
-function MissiondataGetHighScore(p0) end
+function MissiondataGetHighScore(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -121,7 +132,8 @@ function MissiondataGetHighScore(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x957a830c9b4b99ea(p0,p1) end
+function N_0x957a830c9b4b99ea(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -130,7 +142,8 @@ function N_0x957a830c9b4b99ea(p0,p1) end
 --@usage undefined _MISSIONDATA_TIMECYCLE_BOX_SET_MODIFIER(const char* timecycleName);
 --@params timecycleName const char*
 --@return undefined
-function MissiondataTimecycleBoxSetModifier(timecycleName) end
+function MissiondataTimecycleBoxSetModifier(timecycleName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -139,7 +152,8 @@ function MissiondataTimecycleBoxSetModifier(timecycleName) end
 --@usage undefined _0xE824CE7D13FCB35E(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xe824ce7d13fcb35e(p0) end
+function N_0xe824ce7d13fcb35e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -148,7 +162,8 @@ function N_0xe824ce7d13fcb35e(p0) end
 --@usage undefined _MISSIONDATA_TIMECYCLE_BOX_DELETE();
 
 --@return undefined
-function MissiondataTimecycleBoxDelete() end
+function MissiondataTimecycleBoxDelete()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -157,7 +172,8 @@ function MissiondataTimecycleBoxDelete() end
 --@usage undefined _MISSIONDATA_TIMECYCLE_BOX_EXISTS();
 
 --@return undefined
-function MissiondataTimecycleBoxExists() end
+function MissiondataTimecycleBoxExists()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -166,4 +182,5 @@ function MissiondataTimecycleBoxExists() end
 --@usage undefined _0xE145864DECC34219(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xe145864decc34219(p0) end
+function N_0xe145864decc34219(p0)
+end

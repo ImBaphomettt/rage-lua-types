@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule PHYSICS
@@ -6,7 +5,8 @@
 --@usage void ACTIVATE_PHYSICS(Entity entity);
 --@params entity Entity
 --@return void
-function ActivatePhysics(entity) end
+function ActivatePhysics(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -21,7 +21,8 @@ function ActivatePhysics(entity) end
 --@params vecZ float
 --@params impulse float
 --@return void
-function ApplyImpulseToCloth(posX,posY,posZ,vecX,vecY,vecZ,impulse) end
+function ApplyImpulseToCloth(posX, posY, posZ, vecX, vecY, vecZ, impulse)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -43,7 +44,8 @@ function ApplyImpulseToCloth(posX,posY,posZ,vecX,vecY,vecZ,impulse) end
 --@params boneName1 char*
 --@params boneName2 char*
 --@return void
-function AttachEntitiesToRope(ropeId,ent1,ent2,ent1_x,ent1_y,ent1_z,ent2_x,ent2_y,ent2_z,length,p10,p11,boneName1,boneName2) end
+function AttachEntitiesToRope(ropeId, ent1, ent2, ent1_x, ent1_y, ent1_z, ent2_x, ent2_y, ent2_z, length, p10, p11, boneName1, boneName2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -68,7 +70,8 @@ function AttachEntitiesToRope(ropeId,ent1,ent2,ent1_x,ent1_y,ent1_z,ent2_x,ent2_
 --@params breakWhenShot BOOL
 --@params unkPtr Any*
 --@return int
-function AddRope(x,y,z,rotX,rotY,rotZ,length,ropeType,maxLength,minLength,p10,p11,p12,rigid,p14,breakWhenShot,unkPtr) end
+function AddRope(x, y, z, rotX, rotY, rotZ, length, ropeType, maxLength, minLength, p10, p11, p12, rigid, p14, breakWhenShot, unkPtr)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -77,7 +80,8 @@ function AddRope(x,y,z,rotX,rotY,rotZ,length,ropeType,maxLength,minLength,p10,p1
 --@usage Any DELETE_CHILD_ROPE(int ropeId);
 --@params ropeId int
 --@return Any
-function DeleteChildRope(ropeId) end
+function DeleteChildRope(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -91,7 +95,8 @@ function DeleteChildRope(ropeId) end
 --@params z float
 --@params p5 BOOL
 --@return void
-function AttachRopeToEntity(ropeId,entity,x,y,z,p5) end
+function AttachRopeToEntity(ropeId, entity, x, y, z, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -110,7 +115,8 @@ function AttachRopeToEntity(ropeId,entity,x,y,z,p5) end
 --@params p9 Any
 --@params p10 BOOL
 --@return void
-function BreakEntityGlass(entity,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function BreakEntityGlass(entity, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -120,7 +126,8 @@ function BreakEntityGlass(entity,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
 --@params ropeId int
 --@params entity Entity
 --@return void
-function DetachRopeFromEntity(ropeId,entity) end
+function DetachRopeFromEntity(ropeId, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -129,7 +136,8 @@ function DetachRopeFromEntity(ropeId,entity) end
 --@usage void DELETE_ROPE(int* ropeId);
 --@params ropeId int*
 --@return void
-function DeleteRope(ropeId) end
+function DeleteRope(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -138,7 +146,8 @@ function DeleteRope(ropeId) end
 --@usage Vector3 GET_CGOFFSET(Entity entity);
 --@params entity Entity
 --@return Vector3
-function GetCgoffset(entity) end
+function GetCgoffset(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -147,7 +156,8 @@ function GetCgoffset(entity) end
 --@usage Any GET_ROPE_LAST_VERTEX_COORD(int ropeId);
 --@params ropeId int
 --@return Any
-function GetRopeLastVertexCoord(ropeId) end
+function GetRopeLastVertexCoord(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -156,7 +166,8 @@ function GetRopeLastVertexCoord(ropeId) end
 --@usage BOOL _DOES_ENTITY_HAVE_FRAG_INST(Object object);
 --@params object Object
 --@return BOOL
-function DoesEntityHaveFragInst(object) end
+function DoesEntityHaveFragInst(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -165,7 +176,8 @@ function DoesEntityHaveFragInst(object) end
 --@usage int GET_ROPE_VERTEX_COUNT(int ropeId);
 --@params ropeId int
 --@return int
-function GetRopeVertexCount(ropeId) end
+function GetRopeVertexCount(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -174,7 +186,8 @@ function GetRopeVertexCount(ropeId) end
 --@usage BOOL _DOES_ROPE_BELONG_TO_THIS_SCRIPT(int ropeId);
 --@params ropeId int
 --@return BOOL
-function DoesRopeBelongToThisScript(ropeId) end
+function DoesRopeBelongToThisScript(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -184,7 +197,8 @@ function DoesRopeBelongToThisScript(ropeId) end
 --@params ropeId int
 --@params vertex int
 --@return Vector3
-function GetRopeVertexCoord(ropeId,vertex) end
+function GetRopeVertexCoord(ropeId, vertex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -193,7 +207,8 @@ function GetRopeVertexCoord(ropeId,vertex) end
 --@usage BOOL undefined(Any* ropeId);
 --@params ropeId Any*
 --@return BOOL
-function N_0x84de3b5fb3e666f0(ropeId) end
+function N_0x84de3b5fb3e666f0(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -202,7 +217,8 @@ function N_0x84de3b5fb3e666f0(ropeId) end
 --@usage BOOL DOES_ROPE_EXIST(int* ropeId);
 --@params ropeId int*
 --@return BOOL
-function DoesRopeExist(ropeId) end
+function DoesRopeExist(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -212,7 +228,8 @@ function DoesRopeExist(ropeId) end
 --@params ropeId int
 --@params rope_preset char*
 --@return Any
-function LoadRopeData(ropeId,rope_preset) end
+function LoadRopeData(ropeId, rope_preset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -223,7 +240,8 @@ function LoadRopeData(ropeId,rope_preset) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function N_0xb1b6216ca2e7b55e(p0,p1,p2) end
+function N_0xb1b6216ca2e7b55e(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -232,7 +250,8 @@ function N_0xb1b6216ca2e7b55e(p0,p1,p2) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x9ebd751e5787baf2(p0) end
+function N_0x9ebd751e5787baf2(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -254,7 +273,8 @@ function N_0x9ebd751e5787baf2(p0) end
 --@params p12 float
 --@params p13 float
 --@return void
-function N_0xbc0ce682d4d05650(ropeId,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13) end
+function N_0xbc0ce682d4d05650(ropeId, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -264,7 +284,8 @@ function N_0xbc0ce682d4d05650(ropeId,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13)
 --@params ropeId int
 --@params p1 BOOL
 --@return void
-function N_0x36ccb9be67b970fd(ropeId,p1) end
+function N_0x36ccb9be67b970fd(ropeId, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -277,7 +298,8 @@ function N_0x36ccb9be67b970fd(ropeId,p1) end
 --@params y float
 --@params z float
 --@return void
-function PinRopeVertex(ropeId,vertex,x,y,z) end
+function PinRopeVertex(ropeId, vertex, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -286,7 +308,8 @@ function PinRopeVertex(ropeId,vertex,x,y,z) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0xaa6a6098851c396f(p0) end
+function N_0xaa6a6098851c396f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -295,7 +318,8 @@ function N_0xaa6a6098851c396f(p0) end
 --@usage void ROPE_CONVERT_TO_SIMPLE(int ropeId);
 --@params ropeId int
 --@return void
-function RopeConvertToSimple(ropeId) end
+function RopeConvertToSimple(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -305,7 +329,8 @@ function RopeConvertToSimple(ropeId) end
 --@params ropeId int*
 --@params toggle BOOL
 --@return void
-function RopeDrawShadowEnabled(ropeId,toggle) end
+function RopeDrawShadowEnabled(ropeId, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -315,7 +340,8 @@ function RopeDrawShadowEnabled(ropeId,toggle) end
 --@params ropeId int
 --@params p1 int
 --@return void
-function N_0xb743f735c03d7810(ropeId,p1) end
+function N_0xb743f735c03d7810(ropeId, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -324,7 +350,8 @@ function N_0xb743f735c03d7810(ropeId,p1) end
 --@usage void undefined(Object object);
 --@params object Object
 --@return void
-function N_0xcc6e963682533882(object) end
+function N_0xcc6e963682533882(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -333,7 +360,8 @@ function N_0xcc6e963682533882(object) end
 --@usage float ROPE_GET_DISTANCE_BETWEEN_ENDS(int ropeId);
 --@params ropeId int
 --@return float
-function RopeGetDistanceBetweenEnds(ropeId) end
+function RopeGetDistanceBetweenEnds(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -343,7 +371,8 @@ function RopeGetDistanceBetweenEnds(ropeId) end
 --@params ropeId int
 --@params length float
 --@return Any
-function RopeForceLength(ropeId,length) end
+function RopeForceLength(ropeId, length)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -353,7 +382,8 @@ function RopeForceLength(ropeId,length) end
 --@params ropeId int
 --@params length float
 --@return void
-function RopeResetLength(ropeId,length) end
+function RopeResetLength(ropeId, length)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -362,7 +392,8 @@ function RopeResetLength(ropeId,length) end
 --@usage BOOL ROPE_ARE_TEXTURES_LOADED();
 
 --@return BOOL
-function RopeAreTexturesLoaded() end
+function RopeAreTexturesLoaded()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -371,7 +402,8 @@ function RopeAreTexturesLoaded() end
 --@usage Any ROPE_LOAD_TEXTURES();
 
 --@return Any
-function RopeLoadTextures() end
+function RopeLoadTextures()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -380,7 +412,8 @@ function RopeLoadTextures() end
 --@usage void ROPE_SET_UPDATE_PINVERTS(int ropeId);
 --@params ropeId int
 --@return void
-function RopeSetUpdatePinverts(ropeId) end
+function RopeSetUpdatePinverts(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -390,7 +423,8 @@ function RopeSetUpdatePinverts(ropeId) end
 --@params ropeId int
 --@params p1 Any
 --@return void
-function RopeSetUpdateOrder(ropeId,p1) end
+function RopeSetUpdateOrder(ropeId, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -402,7 +436,8 @@ function RopeSetUpdateOrder(ropeId,p1) end
 --@params y float
 --@params z float
 --@return void
-function SetCgoffset(entity,x,y,z) end
+function SetCgoffset(entity, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -411,7 +446,8 @@ function SetCgoffset(entity,x,y,z) end
 --@usage Any ROPE_UNLOAD_TEXTURES();
 
 --@return Any
-function RopeUnloadTextures() end
+function RopeUnloadTextures()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -420,7 +456,8 @@ function RopeUnloadTextures() end
 --@usage void SET_CG_AT_BOUNDCENTER(Entity entity);
 --@params entity Entity
 --@return void
-function SetCgAtBoundcenter(entity) end
+function SetCgAtBoundcenter(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -431,7 +468,8 @@ function SetCgAtBoundcenter(entity) end
 --@params vertex int
 --@params value float
 --@return void
-function SetDamping(entity,vertex,value) end
+function SetDamping(entity, vertex, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -441,7 +479,8 @@ function SetDamping(entity,vertex,value) end
 --@params object Object
 --@params toggle BOOL
 --@return Any
-function SetDisableBreaking(object,toggle) end
+function SetDisableBreaking(object, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -451,7 +490,8 @@ function SetDisableBreaking(object,toggle) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function SetEntityProofUnk(entity,toggle) end
+function SetEntityProofUnk(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -461,7 +501,8 @@ function SetEntityProofUnk(entity,toggle) end
 --@params object Object
 --@params toggle BOOL
 --@return void
-function SetDisableFragDamage(object,toggle) end
+function SetDisableFragDamage(object, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -470,7 +511,8 @@ function SetDisableFragDamage(object,toggle) end
 --@usage void START_ROPE_WINDING(int ropeId);
 --@params ropeId int
 --@return void
-function StartRopeWinding(ropeId) end
+function StartRopeWinding(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -479,7 +521,8 @@ function StartRopeWinding(ropeId) end
 --@usage void STOP_ROPE_WINDING(int ropeId);
 --@params ropeId int
 --@return void
-function StopRopeWinding(ropeId) end
+function StopRopeWinding(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -488,7 +531,8 @@ function StopRopeWinding(ropeId) end
 --@usage void START_ROPE_UNWINDING_FRONT(int ropeId);
 --@params ropeId int
 --@return void
-function StartRopeUnwindingFront(ropeId) end
+function StartRopeUnwindingFront(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -498,7 +542,8 @@ function StartRopeUnwindingFront(ropeId) end
 --@params ropeId int
 --@params vertex int
 --@return Any
-function UnpinRopeVertex(ropeId,vertex) end
+function UnpinRopeVertex(ropeId, vertex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -507,4 +552,5 @@ function UnpinRopeVertex(ropeId,vertex) end
 --@usage void STOP_ROPE_UNWINDING_FRONT(int ropeId);
 --@params ropeId int
 --@return void
-function StopRopeUnwindingFront(ropeId) end
+function StopRopeUnwindingFront(ropeId)
+end

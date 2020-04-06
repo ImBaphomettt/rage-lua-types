@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule DATABINDING
@@ -6,7 +5,8 @@
 --@usage undefined _DATABINDING_GET_DATA_CONTAINER_FROM_PATH(Any p0);
 --@params p0 Any
 --@return undefined
-function DatabindingGetDataContainerFromPath(p0) end
+function DatabindingGetDataContainerFromPath(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -16,7 +16,8 @@ function DatabindingGetDataContainerFromPath(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xd7db94ab78e8ebe4(p0,p1) end
+function N_0xd7db94ab78e8ebe4(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -26,7 +27,8 @@ function N_0xd7db94ab78e8ebe4(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingGetDataContainerFromChildIndex(p0,p1) end
+function DatabindingGetDataContainerFromChildIndex(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -36,7 +38,8 @@ function DatabindingGetDataContainerFromChildIndex(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingAddDataContainer(p0,p1) end
+function DatabindingAddDataContainer(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -46,7 +49,8 @@ function DatabindingAddDataContainer(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingAddDataContainerByHash(p0,p1) end
+function DatabindingAddDataContainerByHash(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -56,7 +60,8 @@ function DatabindingAddDataContainerByHash(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingAddDataContainerFromPath(p0,p1) end
+function DatabindingAddDataContainerFromPath(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -67,7 +72,8 @@ function DatabindingAddDataContainerFromPath(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingAddDataBoolFromPath(p0,p1,p2) end
+function DatabindingAddDataBoolFromPath(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -78,7 +84,8 @@ function DatabindingAddDataBoolFromPath(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingAddDataBool(p0,p1,p2) end
+function DatabindingAddDataBool(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -89,7 +96,8 @@ function DatabindingAddDataBool(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingAddDataBoolByHash(p0,p1,p2) end
+function DatabindingAddDataBoolByHash(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -100,7 +108,8 @@ function DatabindingAddDataBoolByHash(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingAddDataIntByHash(p0,p1,p2) end
+function DatabindingAddDataIntByHash(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -111,7 +120,8 @@ function DatabindingAddDataIntByHash(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingAddDataFloat(p0,p1,p2) end
+function DatabindingAddDataFloat(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -122,7 +132,8 @@ function DatabindingAddDataFloat(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingAddDataHashByHash(p0,p1,p2) end
+function DatabindingAddDataHashByHash(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -133,7 +144,8 @@ function DatabindingAddDataHashByHash(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingAddDataHash(p0,p1,p2) end
+function DatabindingAddDataHash(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -144,7 +156,8 @@ function DatabindingAddDataHash(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xa381de86ee170c4a(p0,p1,p2) end
+function N_0xa381de86ee170c4a(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -155,7 +168,8 @@ function N_0xa381de86ee170c4a(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingAddDataStringByHash(p0,p1,p2) end
+function DatabindingAddDataStringByHash(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -166,7 +180,8 @@ function DatabindingAddDataStringByHash(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingAddDataString(p0,p1,p2) end
+function DatabindingAddDataString(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -177,7 +192,8 @@ function DatabindingAddDataString(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingAddDataGangId(p0,p1,p2) end
+function DatabindingAddDataGangId(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -188,7 +204,8 @@ function DatabindingAddDataGangId(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x7d0f2014db28dd01(p0,p1,p2) end
+function N_0x7d0f2014db28dd01(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -199,7 +216,8 @@ function N_0x7d0f2014db28dd01(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x294af5323f44b053(p0,p1,p2) end
+function N_0x294af5323f44b053(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -209,7 +227,8 @@ function N_0x294af5323f44b053(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingAddUiItemListFromPath(p0,p1) end
+function DatabindingAddUiItemListFromPath(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -219,7 +238,8 @@ function DatabindingAddUiItemListFromPath(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingAddUiItemListByHash(p0,p1) end
+function DatabindingAddUiItemListByHash(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -229,7 +249,8 @@ function DatabindingAddUiItemListByHash(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingAddUiItemList(p0,p1) end
+function DatabindingAddUiItemList(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -241,7 +262,8 @@ function DatabindingAddUiItemList(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function DatabindingInsertUiItemToListFromContextStringAlias(p0,p1,p2,p3) end
+function DatabindingInsertUiItemToListFromContextStringAlias(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -253,7 +275,8 @@ function DatabindingInsertUiItemToListFromContextStringAlias(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function DatabindingInsertUiItemToListFromContextHashAlias(p0,p1,p2,p3) end
+function DatabindingInsertUiItemToListFromContextHashAlias(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -265,7 +288,8 @@ function DatabindingInsertUiItemToListFromContextHashAlias(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function DatabindingInsertUiItemToListFromPathStringAlias(p0,p1,p2,p3) end
+function DatabindingInsertUiItemToListFromPathStringAlias(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -275,7 +299,8 @@ function DatabindingInsertUiItemToListFromPathStringAlias(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x6318fb3be37e11b3(p0,p1) end
+function N_0x6318fb3be37e11b3(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -285,7 +310,8 @@ function N_0x6318fb3be37e11b3(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingRemoveBindingArrayItemByDataContextId(p0,p1) end
+function DatabindingRemoveBindingArrayItemByDataContextId(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -294,7 +320,8 @@ function DatabindingRemoveBindingArrayItemByDataContextId(p0,p1) end
 --@usage undefined _DATABINDING_CLEAR_BINDING_ARRAY(Any p0);
 --@params p0 Any
 --@return undefined
-function DatabindingClearBindingArray(p0) end
+function DatabindingClearBindingArray(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -304,7 +331,8 @@ function DatabindingClearBindingArray(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingGetItemContextByIndex(p0,p1) end
+function DatabindingGetItemContextByIndex(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -314,7 +342,8 @@ function DatabindingGetItemContextByIndex(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingSetTemplatedUiItemListSize(p0,p1) end
+function DatabindingSetTemplatedUiItemListSize(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -324,7 +353,8 @@ function DatabindingSetTemplatedUiItemListSize(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xd48993a61938c64d(p0,p1) end
+function N_0xd48993a61938c64d(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -334,7 +364,8 @@ function N_0xd48993a61938c64d(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingAddHashArray(p0,p1) end
+function DatabindingAddHashArray(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -344,7 +375,8 @@ function DatabindingAddHashArray(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingAddStringArray(p0,p1) end
+function DatabindingAddStringArray(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -355,7 +387,8 @@ function DatabindingAddStringArray(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x1919d59e60fd516e(p0,p1,p2) end
+function N_0x1919d59e60fd516e(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -366,7 +399,8 @@ function N_0x1919d59e60fd516e(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x7fc60c94c83c5cd7(p0,p1,p2) end
+function N_0x7fc60c94c83c5cd7(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -377,7 +411,8 @@ function N_0x7fc60c94c83c5cd7(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xc900cec8a172375b(p0,p1,p2) end
+function N_0xc900cec8a172375b(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -387,7 +422,8 @@ function N_0xc900cec8a172375b(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x02b21b6beedd83cc(p0,p1) end
+function N_0x02b21b6beedd83cc(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -398,7 +434,8 @@ function N_0x02b21b6beedd83cc(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingAddDataInt(p0,p1,p2) end
+function DatabindingAddDataInt(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -408,7 +445,8 @@ function DatabindingAddDataInt(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xf47e33f8d2523825(p0,p1) end
+function N_0xf47e33f8d2523825(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -417,7 +455,8 @@ function N_0xf47e33f8d2523825(p0,p1) end
 --@usage undefined _DATABINDING_GET_ARRAY_COUNT(Any p0);
 --@params p0 Any
 --@return undefined
-function DatabindingGetArrayCount(p0) end
+function DatabindingGetArrayCount(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -428,7 +467,8 @@ function DatabindingGetArrayCount(p0) end
 --@params p1 Any
 --@params ... 
 --@return undefined
-function DatabindingWriteDataScriptVariables(p0,p1,...) end
+function DatabindingWriteDataScriptVariables(p0, p1, ...)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -439,7 +479,8 @@ function DatabindingWriteDataScriptVariables(p0,p1,...) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingSetTemplatedUiItemHashAlias(p0,p1,p2) end
+function DatabindingSetTemplatedUiItemHashAlias(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -450,7 +491,8 @@ function DatabindingSetTemplatedUiItemHashAlias(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingWriteDataBoolFromParent(p0,p1,p2) end
+function DatabindingWriteDataBoolFromParent(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -461,7 +503,8 @@ function DatabindingWriteDataBoolFromParent(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xbfc83da249befcc9(p0,p1,p2) end
+function N_0xbfc83da249befcc9(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -470,7 +513,8 @@ function N_0xbfc83da249befcc9(p0,p1,p2) end
 --@usage undefined _0x3BF0767CF33FCC88(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x3bf0767cf33fcc88(p0) end
+function N_0x3bf0767cf33fcc88(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -480,7 +524,8 @@ function N_0x3bf0767cf33fcc88(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingWriteDataBool(p0,p1) end
+function DatabindingWriteDataBool(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -490,7 +535,8 @@ function DatabindingWriteDataBool(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingWriteDataInt(p0,p1) end
+function DatabindingWriteDataInt(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -501,7 +547,8 @@ function DatabindingWriteDataInt(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingWriteDataIntFromParentByHash(p0,p1,p2) end
+function DatabindingWriteDataIntFromParentByHash(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -512,7 +559,8 @@ function DatabindingWriteDataIntFromParentByHash(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingWriteDataIntFromParent(p0,p1,p2) end
+function DatabindingWriteDataIntFromParent(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -522,7 +570,8 @@ function DatabindingWriteDataIntFromParent(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingWriteDataFloat(p0,p1) end
+function DatabindingWriteDataFloat(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -533,7 +582,8 @@ function DatabindingWriteDataFloat(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x05ac9e1e02975afb(p0,p1,p2) end
+function N_0x05ac9e1e02975afb(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -543,7 +593,8 @@ function N_0x05ac9e1e02975afb(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingWriteDataHashString(p0,p1) end
+function DatabindingWriteDataHashString(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -554,7 +605,8 @@ function DatabindingWriteDataHashString(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingWriteDataHashStringFromParent(p0,p1,p2) end
+function DatabindingWriteDataHashStringFromParent(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -565,7 +617,8 @@ function DatabindingWriteDataHashStringFromParent(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingWriteDataHashStringFromParentByHash(p0,p1,p2) end
+function DatabindingWriteDataHashStringFromParentByHash(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -575,7 +628,8 @@ function DatabindingWriteDataHashStringFromParentByHash(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingWriteDataString(p0,p1) end
+function DatabindingWriteDataString(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -586,7 +640,8 @@ function DatabindingWriteDataString(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function DatabindingWriteDataStringFromParent(p0,p1,p2) end
+function DatabindingWriteDataStringFromParent(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -597,7 +652,8 @@ function DatabindingWriteDataStringFromParent(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xa3bd6ff95e713ee5(p0,p1,p2) end
+function N_0xa3bd6ff95e713ee5(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -608,7 +664,8 @@ function N_0xa3bd6ff95e713ee5(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xc70041408e16be2d(p0,p1,p2) end
+function N_0xc70041408e16be2d(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -619,7 +676,8 @@ function N_0xc70041408e16be2d(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xc70041408e16be2e(p0,p1,p2) end
+function N_0xc70041408e16be2e(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -629,7 +687,8 @@ function N_0xc70041408e16be2e(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x422179c7f6ad9304(p0,p1) end
+function N_0x422179c7f6ad9304(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -638,7 +697,8 @@ function N_0x422179c7f6ad9304(p0,p1) end
 --@usage undefined _DATABINDING_READ_DATA_BOOL(Any p0);
 --@params p0 Any
 --@return undefined
-function DatabindingReadDataBool(p0) end
+function DatabindingReadDataBool(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -648,7 +708,8 @@ function DatabindingReadDataBool(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingReadDataBoolFromParent(p0,p1) end
+function DatabindingReadDataBoolFromParent(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -658,7 +719,8 @@ function DatabindingReadDataBoolFromParent(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingReadDataBoolFromParentByHash(p0,p1) end
+function DatabindingReadDataBoolFromParentByHash(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -667,7 +729,8 @@ function DatabindingReadDataBoolFromParentByHash(p0,p1) end
 --@usage undefined _DATABINDING_READ_DATA_INT(Any p0);
 --@params p0 Any
 --@return undefined
-function DatabindingReadDataInt(p0) end
+function DatabindingReadDataInt(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -677,7 +740,8 @@ function DatabindingReadDataInt(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingReadDataIntFromParent(p0,p1) end
+function DatabindingReadDataIntFromParent(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -687,7 +751,8 @@ function DatabindingReadDataIntFromParent(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingReadDataIntFromParentByHash(p0,p1) end
+function DatabindingReadDataIntFromParentByHash(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -696,7 +761,8 @@ function DatabindingReadDataIntFromParentByHash(p0,p1) end
 --@usage undefined _0x5FE444EB67C70AD4(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x5fe444eb67c70ad4(p0) end
+function N_0x5fe444eb67c70ad4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -705,7 +771,8 @@ function N_0x5fe444eb67c70ad4(p0) end
 --@usage undefined _0x81D7183E7A8ECA72(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x81d7183e7a8eca72(p0) end
+function N_0x81d7183e7a8eca72(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -715,7 +782,8 @@ function N_0x81d7183e7a8eca72(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingReadDataHashStringFromParent(p0,p1) end
+function DatabindingReadDataHashStringFromParent(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -725,7 +793,8 @@ function DatabindingReadDataHashStringFromParent(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingReadDataHashStringFromParentByHash(p0,p1) end
+function DatabindingReadDataHashStringFromParentByHash(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -734,7 +803,8 @@ function DatabindingReadDataHashStringFromParentByHash(p0,p1) end
 --@usage undefined _DATABINDING_READ_DATA_STRING(Any p0);
 --@params p0 Any
 --@return undefined
-function DatabindingReadDataString(p0) end
+function DatabindingReadDataString(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -744,7 +814,8 @@ function DatabindingReadDataString(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x6329c34bee5bff4b(p0,p1) end
+function N_0x6329c34bee5bff4b(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -754,7 +825,8 @@ function N_0x6329c34bee5bff4b(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DatabindingReadDataStringFromParent(p0,p1) end
+function DatabindingReadDataStringFromParent(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -764,7 +836,8 @@ function DatabindingReadDataStringFromParent(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xe6aab897120492d6(p0,p1) end
+function N_0xe6aab897120492d6(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -775,7 +848,8 @@ function N_0xe6aab897120492d6(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xe6aab897120492d7(p0,p1,p2) end
+function N_0xe6aab897120492d7(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -786,7 +860,8 @@ function N_0xe6aab897120492d7(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xb138ca787f3dd858(p0,p1,p2) end
+function N_0xb138ca787f3dd858(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -795,7 +870,8 @@ function N_0xb138ca787f3dd858(p0,p1,p2) end
 --@usage undefined _DATABINDING_IS_DATA_ID_VALID(Any p0);
 --@params p0 Any
 --@return undefined
-function DatabindingIsDataIdValid(p0) end
+function DatabindingIsDataIdValid(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -804,7 +880,8 @@ function DatabindingIsDataIdValid(p0) end
 --@usage undefined _DATABINDING_REMOVE_DATA_ENTRY(Any p0);
 --@params p0 Any
 --@return undefined
-function DatabindingRemoveDataEntry(p0) end
+function DatabindingRemoveDataEntry(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -814,7 +891,8 @@ function DatabindingRemoveDataEntry(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function VirtualCollectionSetSize(p0,p1) end
+function VirtualCollectionSetSize(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -824,7 +902,8 @@ function VirtualCollectionSetSize(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function VirtualCollectionSetInterestIndex(p0,p1) end
+function VirtualCollectionSetInterestIndex(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -836,7 +915,8 @@ function VirtualCollectionSetInterestIndex(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function VirtualCollectionItemAdd(p0,p1,p2,p3) end
+function VirtualCollectionItemAdd(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -845,7 +925,8 @@ function VirtualCollectionItemAdd(p0,p1,p2,p3) end
 --@usage undefined _VIRTUAL_COLLECTION_RESET(Any p0);
 --@params p0 Any
 --@return undefined
-function VirtualCollectionReset(p0) end
+function VirtualCollectionReset(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -854,4 +935,5 @@ function VirtualCollectionReset(p0) end
 --@usage undefined _VIRTUAL_COLLECTION_EXISTS(Any p0);
 --@params p0 Any
 --@return undefined
-function VirtualCollectionExists(p0) end
+function VirtualCollectionExists(p0)
+end

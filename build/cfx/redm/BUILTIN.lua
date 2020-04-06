@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule BUILTIN
@@ -6,7 +5,8 @@
 --@usage undefined WAIT(int ms);
 --@params ms int
 --@return undefined
-function Wait(ms) end
+function Wait(ms)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function Wait(ms) end
 --@usage undefined TIMERA();
 
 --@return undefined
-function Timera() end
+function Timera()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function Timera() end
 --@usage undefined SETTIMERB(int value);
 --@params value int
 --@return undefined
-function Settimerb(value) end
+function Settimerb(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -33,7 +35,8 @@ function Settimerb(value) end
 --@usage undefined TIMERB();
 
 --@return undefined
-function Timerb() end
+function Timerb()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -42,7 +45,8 @@ function Timerb() end
 --@usage undefined TIMESTEP();
 
 --@return undefined
-function Timestep() end
+function Timestep()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -51,7 +55,8 @@ function Timestep() end
 --@usage undefined SIN(float value);
 --@params value float
 --@return undefined
-function Sin(value) end
+function Sin(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -60,7 +65,8 @@ function Sin(value) end
 --@usage undefined SETTIMERA(int value);
 --@params value int
 --@return undefined
-function Settimera(value) end
+function Settimera(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -70,7 +76,8 @@ function Settimera(value) end
 --@params base float
 --@params exponent float
 --@return undefined
-function Pow(base,exponent) end
+function Pow(base, exponent)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -79,7 +86,8 @@ function Pow(base,exponent) end
 --@usage undefined COS(float value);
 --@params value float
 --@return undefined
-function Cos(value) end
+function Cos(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -88,7 +96,8 @@ function Cos(value) end
 --@usage undefined _LOG10(float value);
 --@params value float
 --@return undefined
-function Log10(value) end
+function Log10(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -99,7 +108,8 @@ function Log10(value) end
 --@params y float
 --@params z float
 --@return undefined
-function Vmag(x,y,z) end
+function Vmag(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -110,7 +120,8 @@ function Vmag(x,y,z) end
 --@params y float
 --@params z float
 --@return undefined
-function Vmag2(x,y,z) end
+function Vmag2(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -124,7 +135,8 @@ function Vmag2(x,y,z) end
 --@params y2 float
 --@params z2 float
 --@return undefined
-function Vdist(x1,y1,z1,x2,y2,z2) end
+function Vdist(x1, y1, z1, x2, y2, z2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -138,7 +150,8 @@ function Vdist(x1,y1,z1,x2,y2,z2) end
 --@params y2 float
 --@params z2 float
 --@return undefined
-function Vdist2(x1,y1,z1,x2,y2,z2) end
+function Vdist2(x1, y1, z1, x2, y2, z2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -148,7 +161,8 @@ function Vdist2(x1,y1,z1,x2,y2,z2) end
 --@params value int
 --@params bitShift int
 --@return undefined
-function ShiftRight(value,bitShift) end
+function ShiftRight(value, bitShift)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -158,7 +172,8 @@ function ShiftRight(value,bitShift) end
 --@params value int
 --@params bitShift int
 --@return undefined
-function ShiftLeft(value,bitShift) end
+function ShiftLeft(value, bitShift)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -167,7 +182,8 @@ function ShiftLeft(value,bitShift) end
 --@usage undefined FLOOR(float value);
 --@params value float
 --@return undefined
-function Floor(value) end
+function Floor(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -176,7 +192,8 @@ function Floor(value) end
 --@usage undefined CEIL(float value);
 --@params value float
 --@return undefined
-function Ceil(value) end
+function Ceil(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -185,7 +202,8 @@ function Ceil(value) end
 --@usage undefined ROUND(float value);
 --@params value float
 --@return undefined
-function Round(value) end
+function Round(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -194,7 +212,8 @@ function Round(value) end
 --@usage undefined TO_FLOAT(int value);
 --@params value int
 --@return undefined
-function ToFloat(value) end
+function ToFloat(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -203,7 +222,8 @@ function ToFloat(value) end
 --@usage undefined _SET_THREAD_PRIORITY(int priority);
 --@params priority int
 --@return undefined
-function SetThreadPriority(priority) end
+function SetThreadPriority(priority)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -212,4 +232,5 @@ function SetThreadPriority(priority) end
 --@usage undefined SQRT(float value);
 --@params value float
 --@return undefined
-function Sqrt(value) end
+function Sqrt(value)
+end

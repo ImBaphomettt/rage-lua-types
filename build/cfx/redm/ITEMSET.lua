@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule ITEMSET
@@ -6,7 +5,8 @@
 --@usage undefined CREATE_ITEMSET(BOOL p0);
 --@params p0 BOOL
 --@return undefined
-function CreateItemset(p0) end
+function CreateItemset(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function CreateItemset(p0) end
 --@usage undefined DESTROY_ITEMSET(ItemSet itemset);
 --@params itemset ItemSet
 --@return undefined
-function DestroyItemset(itemset) end
+function DestroyItemset(itemset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function DestroyItemset(itemset) end
 --@usage undefined IS_ITEMSET_VALID(ItemSet itemset);
 --@params itemset ItemSet
 --@return undefined
-function IsItemsetValid(itemset) end
+function IsItemsetValid(itemset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -33,7 +35,8 @@ function IsItemsetValid(itemset) end
 --@usage undefined GET_ITEMSET_SIZE(ItemSet itemset);
 --@params itemset ItemSet
 --@return undefined
-function GetItemsetSize(itemset) end
+function GetItemsetSize(itemset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -43,7 +46,8 @@ function GetItemsetSize(itemset) end
 --@params itemset ItemSet
 --@params p1 Any
 --@return undefined
-function AddToItemset(itemset,p1) end
+function AddToItemset(itemset, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -53,7 +57,8 @@ function AddToItemset(itemset,p1) end
 --@params itemset ItemSet
 --@params p1 Any
 --@return undefined
-function GetIndexedItemInItemset(itemset,p1) end
+function GetIndexedItemInItemset(itemset, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -63,7 +68,8 @@ function GetIndexedItemInItemset(itemset,p1) end
 --@params itemset ItemSet
 --@params p1 Any
 --@return undefined
-function RemoveFromItemset(itemset,p1) end
+function RemoveFromItemset(itemset, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -73,7 +79,8 @@ function RemoveFromItemset(itemset,p1) end
 --@params itemset ItemSet
 --@params p1 Any
 --@return undefined
-function IsInItemset(itemset,p1) end
+function IsInItemset(itemset, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -83,7 +90,8 @@ function IsInItemset(itemset,p1) end
 --@params itemset ItemSet
 --@params p1 Any
 --@return undefined
-function GetIndexedScenarioPointIndexInItemset(itemset,p1) end
+function GetIndexedScenarioPointIndexInItemset(itemset, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -92,7 +100,8 @@ function GetIndexedScenarioPointIndexInItemset(itemset,p1) end
 --@usage undefined CLEAN_ITEMSET(ItemSet itemset);
 --@params itemset ItemSet
 --@return undefined
-function CleanItemset(itemset) end
+function CleanItemset(itemset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -101,4 +110,5 @@ function CleanItemset(itemset) end
 --@usage undefined _0x20A4BF0E09BEE146(ItemSet itemset);
 --@params itemset ItemSet
 --@return undefined
-function N_0x20a4bf0e09bee146(itemset) end
+function N_0x20a4bf0e09bee146(itemset)
+end

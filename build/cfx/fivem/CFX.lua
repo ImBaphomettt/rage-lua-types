@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule CFX
@@ -6,7 +5,8 @@
 --@usage int ADD_MINIMAP_OVERLAY(char* name);
 --@params name char*
 --@return int
-function AddMinimapOverlay(name) end
+function AddMinimapOverlay(name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -18,7 +18,8 @@ function AddMinimapOverlay(name) end
 --@params newTxd char*
 --@params newTxn char*
 --@return void
-function AddReplaceTexture(origTxd,origTxn,newTxd,newTxn) end
+function AddReplaceTexture(origTxd, origTxn, newTxd, newTxn)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -28,7 +29,8 @@ function AddReplaceTexture(origTxd,origTxn,newTxd,newTxn) end
 --@params miniMap int
 --@params fnName char*
 --@return BOOL
-function CallMinimapScaleformFunction(miniMap,fnName) end
+function CallMinimapScaleformFunction(miniMap, fnName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -38,7 +40,8 @@ function CallMinimapScaleformFunction(miniMap,fnName) end
 --@params entryKey char*
 --@params entryText char*
 --@return void
-function AddTextEntry(entryKey,entryText) end
+function AddTextEntry(entryKey, entryText)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -47,7 +50,8 @@ function AddTextEntry(entryKey,entryText) end
 --@usage BOOL CAN_PLAYER_START_COMMERCE_SESSION(char* playerSrc);
 --@params playerSrc char*
 --@return BOOL
-function CanPlayerStartCommerceSession(playerSrc) end
+function CanPlayerStartCommerceSession(playerSrc)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -56,7 +60,8 @@ function CanPlayerStartCommerceSession(playerSrc) end
 --@usage void CANCEL_EVENT();
 
 --@return void
-function CancelEvent() end
+function CancelEvent()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -66,7 +71,8 @@ function CancelEvent() end
 --@params entryKey Hash
 --@params entryText char*
 --@return void
-function AddTextEntryByHash(entryKey,entryText) end
+function AddTextEntryByHash(entryKey, entryText)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -77,7 +83,8 @@ function AddTextEntryByHash(entryKey,entryText) end
 --@params txn char*
 --@params duiHandle char*
 --@return long
-function CreateRuntimeTextureFromDuiHandle(txd,txn,duiHandle) end
+function CreateRuntimeTextureFromDuiHandle(txd, txn, duiHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -89,7 +96,8 @@ function CreateRuntimeTextureFromDuiHandle(txd,txn,duiHandle) end
 --@params width int
 --@params height int
 --@return long
-function CreateRuntimeTexture(txd,txn,width,height) end
+function CreateRuntimeTexture(txd, txn, width, height)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -100,7 +108,8 @@ function CreateRuntimeTexture(txd,txn,width,height) end
 --@params width int
 --@params height int
 --@return long
-function CreateDui(url,width,height) end
+function CreateDui(url, width, height)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -111,7 +120,8 @@ function CreateDui(url,width,height) end
 --@params txn char*
 --@params fileName char*
 --@return long
-function CreateRuntimeTextureFromImage(txd,txn,fileName) end
+function CreateRuntimeTextureFromImage(txd, txn, fileName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -120,7 +130,8 @@ function CreateRuntimeTextureFromImage(txd,txn,fileName) end
 --@usage long CREATE_RUNTIME_TXD(char* name);
 --@params name char*
 --@return long
-function CreateRuntimeTxd(name) end
+function CreateRuntimeTxd(name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -129,7 +140,8 @@ function CreateRuntimeTxd(name) end
 --@usage void DELETE_FUNCTION_REFERENCE(char* referenceIdentity);
 --@params referenceIdentity char*
 --@return void
-function DeleteFunctionReference(referenceIdentity) end
+function DeleteFunctionReference(referenceIdentity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -138,7 +150,8 @@ function DeleteFunctionReference(referenceIdentity) end
 --@usage void COMMIT_RUNTIME_TEXTURE(long tex);
 --@params tex long
 --@return void
-function CommitRuntimeTexture(tex) end
+function CommitRuntimeTexture(tex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -147,7 +160,8 @@ function CommitRuntimeTexture(tex) end
 --@usage void DESTROY_DUI(long duiObject);
 --@params duiObject long
 --@return void
-function DestroyDui(duiObject) end
+function DestroyDui(duiObject)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -156,7 +170,8 @@ function DestroyDui(duiObject) end
 --@usage char* DUPLICATE_FUNCTION_REFERENCE(char* referenceIdentity);
 --@params referenceIdentity char*
 --@return char*
-function DuplicateFunctionReference(referenceIdentity) end
+function DuplicateFunctionReference(referenceIdentity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -166,7 +181,8 @@ function DuplicateFunctionReference(referenceIdentity) end
 --@params playerSrc char*
 --@params skuId int
 --@return BOOL
-function DoesPlayerOwnSkuExt(playerSrc,skuId) end
+function DoesPlayerOwnSkuExt(playerSrc, skuId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -175,7 +191,8 @@ function DoesPlayerOwnSkuExt(playerSrc,skuId) end
 --@usage void DELETE_RESOURCE_KVP(char* key);
 --@params key char*
 --@return void
-function DeleteResourceKvp(key) end
+function DeleteResourceKvp(key)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -184,7 +201,8 @@ function DeleteResourceKvp(key) end
 --@usage void END_FIND_PED(int findHandle);
 --@params findHandle int
 --@return void
-function EndFindPed(findHandle) end
+function EndFindPed(findHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -194,7 +212,8 @@ function EndFindPed(findHandle) end
 --@params playerSrc char*
 --@params skuId int
 --@return BOOL
-function DoesPlayerOwnSku(playerSrc,skuId) end
+function DoesPlayerOwnSku(playerSrc, skuId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -203,7 +222,8 @@ function DoesPlayerOwnSku(playerSrc,skuId) end
 --@usage void END_FIND_OBJECT(int findHandle);
 --@params findHandle int
 --@return void
-function EndFindObject(findHandle) end
+function EndFindObject(findHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -212,7 +232,8 @@ function EndFindObject(findHandle) end
 --@usage void END_FIND_KVP(int handle);
 --@params handle int
 --@return void
-function EndFindKvp(handle) end
+function EndFindKvp(handle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -221,7 +242,8 @@ function EndFindKvp(handle) end
 --@usage void ENABLE_ENHANCED_HOST_SUPPORT(BOOL enabled);
 --@params enabled BOOL
 --@return void
-function EnableEnhancedHostSupport(enabled) end
+function EnableEnhancedHostSupport(enabled)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -231,7 +253,8 @@ function EnableEnhancedHostSupport(enabled) end
 --@params playerSrc char*
 --@params reason char*
 --@return void
-function DropPlayer(playerSrc,reason) end
+function DropPlayer(playerSrc, reason)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -240,7 +263,8 @@ function DropPlayer(playerSrc,reason) end
 --@usage void END_FIND_VEHICLE(int findHandle);
 --@params findHandle int
 --@return void
-function EndFindVehicle(findHandle) end
+function EndFindVehicle(findHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -249,7 +273,8 @@ function EndFindVehicle(findHandle) end
 --@usage void EXECUTE_COMMAND(char* commandString);
 --@params commandString char*
 --@return void
-function ExecuteCommand(commandString) end
+function ExecuteCommand(commandString)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -258,7 +283,8 @@ function ExecuteCommand(commandString) end
 --@usage char* EXPERIMENTAL_SAVE_CLONE_CREATE(Entity entity);
 --@params entity Entity
 --@return char*
-function ExperimentalSaveCloneCreate(entity) end
+function ExperimentalSaveCloneCreate(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -267,7 +293,8 @@ function ExperimentalSaveCloneCreate(entity) end
 --@usage char* EXPERIMENTAL_SAVE_CLONE_SYNC(Entity entity);
 --@params entity Entity
 --@return char*
-function ExperimentalSaveCloneSync(entity) end
+function ExperimentalSaveCloneSync(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -276,7 +303,8 @@ function ExperimentalSaveCloneSync(entity) end
 --@usage void END_FIND_PICKUP(int findHandle);
 --@params findHandle int
 --@return void
-function EndFindPickup(findHandle) end
+function EndFindPickup(findHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -287,7 +315,8 @@ function EndFindPickup(findHandle) end
 --@params objectId int
 --@params tree char*
 --@return Entity
-function ExperimentalLoadCloneCreate(data,objectId,tree) end
+function ExperimentalLoadCloneCreate(data, objectId, tree)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -297,7 +326,8 @@ function ExperimentalLoadCloneCreate(data,objectId,tree) end
 --@params entity Entity
 --@params data char*
 --@return void
-function ExperimentalLoadCloneSync(entity,data) end
+function ExperimentalLoadCloneSync(entity, data)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -306,7 +336,8 @@ function ExperimentalLoadCloneSync(entity,data) end
 --@usage char* FIND_KVP(int handle);
 --@params handle int
 --@return char*
-function FindKvp(handle) end
+function FindKvp(handle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -315,7 +346,8 @@ function FindKvp(handle) end
 --@usage int FIND_FIRST_PED(Entity* outEntity);
 --@params outEntity Entity*
 --@return int
-function FindFirstPed(outEntity) end
+function FindFirstPed(outEntity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -325,7 +357,8 @@ function FindFirstPed(outEntity) end
 --@params findHandle int
 --@params outEntity Entity*
 --@return BOOL
-function FindNextObject(findHandle,outEntity) end
+function FindNextObject(findHandle, outEntity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -334,7 +367,8 @@ function FindNextObject(findHandle,outEntity) end
 --@usage int FIND_FIRST_OBJECT(Entity* outEntity);
 --@params outEntity Entity*
 --@return int
-function FindFirstObject(outEntity) end
+function FindFirstObject(outEntity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -344,7 +378,8 @@ function FindFirstObject(outEntity) end
 --@params findHandle int
 --@params outEntity Entity*
 --@return BOOL
-function FindNextPed(findHandle,outEntity) end
+function FindNextPed(findHandle, outEntity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -353,7 +388,8 @@ function FindNextPed(findHandle,outEntity) end
 --@usage int FIND_FIRST_VEHICLE(Entity* outEntity);
 --@params outEntity Entity*
 --@return int
-function FindFirstVehicle(outEntity) end
+function FindFirstVehicle(outEntity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -362,7 +398,8 @@ function FindFirstVehicle(outEntity) end
 --@usage void FLAG_SERVER_AS_PRIVATE(BOOL private_);
 --@params private_ BOOL
 --@return void
-function FlagServerAsPrivate(private_) end
+function FlagServerAsPrivate(private_)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -371,7 +408,8 @@ function FlagServerAsPrivate(private_) end
 --@usage BOOL DOES_ENTITY_EXIST(Object entity);
 --@params entity Object
 --@return BOOL
-function DoesEntityExist(entity) end
+function DoesEntityExist(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -380,7 +418,8 @@ function DoesEntityExist(entity) end
 --@usage int FIND_FIRST_PICKUP(Entity* outEntity);
 --@params outEntity Entity*
 --@return int
-function FindFirstPickup(outEntity) end
+function FindFirstPickup(outEntity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -390,7 +429,8 @@ function FindFirstPickup(outEntity) end
 --@params findHandle int
 --@params outEntity Entity*
 --@return BOOL
-function FindNextVehicle(findHandle,outEntity) end
+function FindNextVehicle(findHandle, outEntity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -399,7 +439,8 @@ function FindNextVehicle(findHandle,outEntity) end
 --@usage object GET_ACTIVE_PLAYERS();
 
 --@return object
-function GetActivePlayers() end
+function GetActivePlayers()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -408,7 +449,8 @@ function GetActivePlayers() end
 --@usage float GET_AMBIENT_VEHICLE_RANGE_MULTIPLIER();
 
 --@return float
-function GetAmbientVehicleRangeMultiplier() end
+function GetAmbientVehicleRangeMultiplier()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -417,7 +459,8 @@ function GetAmbientVehicleRangeMultiplier() end
 --@usage char* GET_CONSOLE_BUFFER();
 
 --@return char*
-function GetConsoleBuffer() end
+function GetConsoleBuffer()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -427,7 +470,8 @@ function GetConsoleBuffer() end
 --@params findHandle int
 --@params outEntity Entity*
 --@return BOOL
-function FindNextPickup(findHandle,outEntity) end
+function FindNextPickup(findHandle, outEntity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -436,7 +480,8 @@ function FindNextPickup(findHandle,outEntity) end
 --@usage void FORCE_SNOW_PASS(BOOL enabled);
 --@params enabled BOOL
 --@return void
-function ForceSnowPass(enabled) end
+function ForceSnowPass(enabled)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -446,7 +491,8 @@ function ForceSnowPass(enabled) end
 --@params varName char*
 --@params default_ char*
 --@return char*
-function GetConvar(varName,default_) end
+function GetConvar(varName, default_)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -455,7 +501,8 @@ function GetConvar(varName,default_) end
 --@usage char* GET_CURRENT_RESOURCE_NAME();
 
 --@return char*
-function GetCurrentResourceName() end
+function GetCurrentResourceName()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -464,7 +511,8 @@ function GetCurrentResourceName() end
 --@usage float GET_AMBIENT_PED_RANGE_MULTIPLIER();
 
 --@return float
-function GetAmbientPedRangeMultiplier() end
+function GetAmbientPedRangeMultiplier()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -477,7 +525,8 @@ function GetAmbientPedRangeMultiplier() end
 --@params upVector Vector3*
 --@params position Vector3*
 --@return void
-function GetCamMatrix(camera,rightVector,forwardVector,upVector,position) end
+function GetCamMatrix(camera, rightVector, forwardVector, upVector, position)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -486,7 +535,8 @@ function GetCamMatrix(camera,rightVector,forwardVector,upVector,position) end
 --@usage float GET_ENTITY_HEADING(Entity entity);
 --@params entity Entity
 --@return float
-function GetEntityHeading(entity) end
+function GetEntityHeading(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -495,7 +545,8 @@ function GetEntityHeading(entity) end
 --@usage object GET_ALL_VEHICLES();
 
 --@return object
-function GetAllVehicles() end
+function GetAllVehicles()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -504,7 +555,8 @@ function GetAllVehicles() end
 --@usage int GET_ENTITY_HEALTH(Entity entity);
 --@params entity Entity
 --@return int
-function GetEntityHealth(entity) end
+function GetEntityHealth(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -514,7 +566,8 @@ function GetEntityHealth(entity) end
 --@params varName char*
 --@params default_ int
 --@return int
-function GetConvarInt(varName,default_) end
+function GetConvarInt(varName, default_)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -523,7 +576,8 @@ function GetConvarInt(varName,default_) end
 --@usage int GET_ENTITY_POPULATION_TYPE(Entity entity);
 --@params entity Entity
 --@return int
-function GetEntityPopulationType(entity) end
+function GetEntityPopulationType(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -532,7 +586,8 @@ function GetEntityPopulationType(entity) end
 --@usage Vector3 GET_ENTITY_ROTATION(Entity entity);
 --@params entity Entity
 --@return Vector3
-function GetEntityRotation(entity) end
+function GetEntityRotation(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -541,7 +596,8 @@ function GetEntityRotation(entity) end
 --@usage char* GET_ENTITY_SCRIPT(Entity entity);
 --@params entity Entity
 --@return char*
-function GetEntityScript(entity) end
+function GetEntityScript(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -550,7 +606,8 @@ function GetEntityScript(entity) end
 --@usage int GET_ENTITY_MAX_HEALTH(Entity entity);
 --@params entity Entity
 --@return int
-function GetEntityMaxHealth(entity) end
+function GetEntityMaxHealth(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -559,7 +616,8 @@ function GetEntityMaxHealth(entity) end
 --@usage Vector3 GET_ENTITY_VELOCITY(Entity entity);
 --@params entity Entity
 --@return Vector3
-function GetEntityVelocity(entity) end
+function GetEntityVelocity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -568,7 +626,8 @@ function GetEntityVelocity(entity) end
 --@usage Hash GET_ENTITY_MODEL(Entity entity);
 --@params entity Entity
 --@return Hash
-function GetEntityModel(entity) end
+function GetEntityModel(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -577,7 +636,8 @@ function GetEntityModel(entity) end
 --@usage long GET_GAME_TIMER();
 
 --@return long
-function GetGameTimer() end
+function GetGameTimer()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -586,7 +646,8 @@ function GetGameTimer() end
 --@usage Vector3 GET_ENTITY_ROTATION_VELOCITY(Entity entity);
 --@params entity Entity
 --@return Vector3
-function GetEntityRotationVelocity(entity) end
+function GetEntityRotationVelocity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -595,7 +656,8 @@ function GetEntityRotationVelocity(entity) end
 --@usage int GET_INTERIOR_PORTAL_COUNT(int interiorId);
 --@params interiorId int
 --@return int
-function GetInteriorPortalCount(interiorId) end
+function GetInteriorPortalCount(interiorId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -604,7 +666,8 @@ function GetInteriorPortalCount(interiorId) end
 --@usage char* GET_HOST_ID();
 
 --@return char*
-function GetHostId() end
+function GetHostId()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -613,7 +676,8 @@ function GetHostId() end
 --@usage Hash GET_HASH_KEY(char* model);
 --@params model char*
 --@return Hash
-function GetHashKey(model) end
+function GetHashKey(model)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -622,7 +686,8 @@ function GetHashKey(model) end
 --@usage int GET_ENTITY_TYPE(Entity entity);
 --@params entity Entity
 --@return int
-function GetEntityType(entity) end
+function GetEntityType(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -631,7 +696,8 @@ function GetEntityType(entity) end
 --@usage int GET_INSTANCE_ID();
 
 --@return int
-function GetInstanceId() end
+function GetInstanceId()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -646,7 +712,8 @@ function GetInstanceId() end
 --@params bbMaxY float*
 --@params bbMaxZ float*
 --@return void
-function GetInteriorEntitiesExtents(interiorId,bbMinX,bbMinY,bbMinZ,bbMaxX,bbMaxY,bbMaxZ) end
+function GetInteriorEntitiesExtents(interiorId, bbMinX, bbMinY, bbMinZ, bbMaxX, bbMaxY, bbMaxZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -656,7 +723,8 @@ function GetInteriorEntitiesExtents(interiorId,bbMinX,bbMinY,bbMinZ,bbMaxX,bbMax
 --@params interiorId int
 --@params portalIndex int
 --@return int
-function GetInteriorPortalFlag(interiorId,portalIndex) end
+function GetInteriorPortalFlag(interiorId, portalIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -666,7 +734,8 @@ function GetInteriorPortalFlag(interiorId,portalIndex) end
 --@params interiorId int
 --@params portalIndex int
 --@return int
-function GetInteriorPortalRoomTo(interiorId,portalIndex) end
+function GetInteriorPortalRoomTo(interiorId, portalIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -680,7 +749,8 @@ function GetInteriorPortalRoomTo(interiorId,portalIndex) end
 --@params posY float*
 --@params posZ float*
 --@return void
-function GetInteriorPortalCornerPosition(interiorId,portalIndex,cornerIndex,posX,posY,posZ) end
+function GetInteriorPortalCornerPosition(interiorId, portalIndex, cornerIndex, posX, posY, posZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -689,7 +759,8 @@ function GetInteriorPortalCornerPosition(interiorId,portalIndex,cornerIndex,posX
 --@usage int GET_INTERIOR_ROOM_COUNT(int interiorId);
 --@params interiorId int
 --@return int
-function GetInteriorRoomCount(interiorId) end
+function GetInteriorRoomCount(interiorId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -705,7 +776,8 @@ function GetInteriorRoomCount(interiorId) end
 --@params bbMaxY float*
 --@params bbMaxZ float*
 --@return void
-function GetInteriorRoomExtents(interiorId,roomIndex,bbMinX,bbMinY,bbMinZ,bbMaxX,bbMaxY,bbMaxZ) end
+function GetInteriorRoomExtents(interiorId, roomIndex, bbMinX, bbMinY, bbMinZ, bbMaxX, bbMaxY, bbMaxZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -717,7 +789,8 @@ function GetInteriorRoomExtents(interiorId,roomIndex,bbMinX,bbMinY,bbMinZ,bbMaxX
 --@params posY float*
 --@params posZ float*
 --@return void
-function GetInteriorPosition(interiorId,posX,posY,posZ) end
+function GetInteriorPosition(interiorId, posX, posY, posZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -727,7 +800,8 @@ function GetInteriorPosition(interiorId,posX,posY,posZ) end
 --@params interiorId int
 --@params portalIndex int
 --@return int
-function GetInteriorPortalRoomFrom(interiorId,portalIndex) end
+function GetInteriorPortalRoomFrom(interiorId, portalIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -737,7 +811,8 @@ function GetInteriorPortalRoomFrom(interiorId,portalIndex) end
 --@params interiorId int
 --@params roomHash int
 --@return int
-function GetInteriorRoomIndexByHash(interiorId,roomHash) end
+function GetInteriorRoomIndexByHash(interiorId, roomHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -747,7 +822,8 @@ function GetInteriorRoomIndexByHash(interiorId,roomHash) end
 --@params interiorId int
 --@params roomIndex int
 --@return int
-function GetInteriorRoomTimecycle(interiorId,roomIndex) end
+function GetInteriorRoomTimecycle(interiorId, roomIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -757,7 +833,8 @@ function GetInteriorRoomTimecycle(interiorId,roomIndex) end
 --@params interiorId int
 --@params roomIndex int
 --@return int
-function GetInteriorRoomFlag(interiorId,roomIndex) end
+function GetInteriorRoomFlag(interiorId, roomIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -766,7 +843,8 @@ function GetInteriorRoomFlag(interiorId,roomIndex) end
 --@usage char* GET_INVOKING_RESOURCE();
 
 --@return char*
-function GetInvokingResource() end
+function GetInvokingResource()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -775,7 +853,8 @@ function GetInvokingResource() end
 --@usage BOOL GET_IS_VEHICLE_ENGINE_RUNNING(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function GetIsVehicleEngineRunning(vehicle) end
+function GetIsVehicleEngineRunning(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -785,7 +864,8 @@ function GetIsVehicleEngineRunning(vehicle) end
 --@params interiorId int
 --@params roomIndex int
 --@return char*
-function GetInteriorRoomName(interiorId,roomIndex) end
+function GetInteriorRoomName(interiorId, roomIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -794,7 +874,8 @@ function GetInteriorRoomName(interiorId,roomIndex) end
 --@usage BOOL GET_IS_VEHICLE_SECONDARY_COLOUR_CUSTOM(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function GetIsVehicleSecondaryColourCustom(vehicle) end
+function GetIsVehicleSecondaryColourCustom(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -807,7 +888,8 @@ function GetIsVehicleSecondaryColourCustom(vehicle) end
 --@params rotZ float*
 --@params rotW float*
 --@return void
-function GetInteriorRotation(interiorId,rotx,rotY,rotZ,rotW) end
+function GetInteriorRotation(interiorId, rotx, rotY, rotZ, rotW)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -817,7 +899,8 @@ function GetInteriorRotation(interiorId,rotx,rotY,rotZ,rotW) end
 --@params x int*
 --@params y int*
 --@return void
-function GetNuiCursorPosition(x,y) end
+function GetNuiCursorPosition(x, y)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -826,7 +909,8 @@ function GetNuiCursorPosition(x,y) end
 --@usage int GET_NUM_PLAYER_INDICES();
 
 --@return int
-function GetNumPlayerIndices() end
+function GetNumPlayerIndices()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -835,7 +919,8 @@ function GetNumPlayerIndices() end
 --@usage BOOL GET_IS_VEHICLE_PRIMARY_COLOUR_CUSTOM(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function GetIsVehiclePrimaryColourCustom(vehicle) end
+function GetIsVehiclePrimaryColourCustom(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -844,7 +929,8 @@ function GetIsVehiclePrimaryColourCustom(vehicle) end
 --@usage int GET_NUM_RESOURCES();
 
 --@return int
-function GetNumResources() end
+function GetNumResources()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -858,7 +944,8 @@ function GetNumResources() end
 --@params tilesX float*
 --@params tilesY float*
 --@return BOOL
-function GetMapZoomDataLevel(index,zoomScale,zoomSpeed,scrollSpeed,tilesX,tilesY) end
+function GetMapZoomDataLevel(index, zoomScale, zoomSpeed, scrollSpeed, tilesX, tilesY)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -867,7 +954,8 @@ function GetMapZoomDataLevel(index,zoomScale,zoomSpeed,scrollSpeed,tilesX,tilesY
 --@usage char* GET_PASSWORD_HASH(char* password);
 --@params password char*
 --@return char*
-function GetPasswordHash(password) end
+function GetPasswordHash(password)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -876,7 +964,8 @@ function GetPasswordHash(password) end
 --@usage char* GET_DUI_HANDLE(long duiObject);
 --@params duiObject long
 --@return char*
-function GetDuiHandle(duiObject) end
+function GetDuiHandle(duiObject)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -885,7 +974,8 @@ function GetDuiHandle(duiObject) end
 --@usage Vector3 GET_ENTITY_COORDS(Entity entity);
 --@params entity Entity
 --@return Vector3
-function GetEntityCoords(entity) end
+function GetEntityCoords(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -894,7 +984,8 @@ function GetEntityCoords(entity) end
 --@usage int GET_PED_ARMOUR(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedArmour(ped) end
+function GetPedArmour(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -904,7 +995,8 @@ function GetPedArmour(ped) end
 --@params resourceName char*
 --@params metadataKey char*
 --@return int
-function GetNumResourceMetadata(resourceName,metadataKey) end
+function GetNumResourceMetadata(resourceName, metadataKey)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -913,7 +1005,8 @@ function GetNumResourceMetadata(resourceName,metadataKey) end
 --@usage int GET_NUM_PLAYER_IDENTIFIERS(char* playerSrc);
 --@params playerSrc char*
 --@return int
-function GetNumPlayerIdentifiers(playerSrc) end
+function GetNumPlayerIdentifiers(playerSrc)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -922,7 +1015,8 @@ function GetNumPlayerIdentifiers(playerSrc) end
 --@usage int GET_PED_EYE_COLOR(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedEyeColor(ped) end
+function GetPedEyeColor(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -931,7 +1025,8 @@ function GetPedEyeColor(ped) end
 --@usage float GET_PED_DESIRED_HEADING(Ped ped);
 --@params ped Ped
 --@return float
-function GetPedDesiredHeading(ped) end
+function GetPedDesiredHeading(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -940,7 +1035,8 @@ function GetPedDesiredHeading(ped) end
 --@usage float GET_PARKED_VEHICLE_DENSITY_MULTIPLIER();
 
 --@return float
-function GetParkedVehicleDensityMultiplier() end
+function GetParkedVehicleDensityMultiplier()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -949,7 +1045,8 @@ function GetParkedVehicleDensityMultiplier() end
 --@usage int GET_PED_HAIR_HIGHLIGHT_COLOR(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedHairHighlightColor(ped) end
+function GetPedHairHighlightColor(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -958,7 +1055,8 @@ function GetPedHairHighlightColor(ped) end
 --@usage char* GET_CURRENT_SERVER_ENDPOINT();
 
 --@return char*
-function GetCurrentServerEndpoint() end
+function GetCurrentServerEndpoint()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -967,7 +1065,8 @@ function GetCurrentServerEndpoint() end
 --@usage Hash GET_PED_CAUSE_OF_DEATH(Ped ped);
 --@params ped Ped
 --@return Hash
-function GetPedCauseOfDeath(ped) end
+function GetPedCauseOfDeath(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -976,7 +1075,8 @@ function GetPedCauseOfDeath(ped) end
 --@usage float GET_PED_DENSITY_MULTIPLIER();
 
 --@return float
-function GetPedDensityMultiplier() end
+function GetPedDensityMultiplier()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -985,7 +1085,8 @@ function GetPedDensityMultiplier() end
 --@usage int GET_PED_MAX_HEALTH(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedMaxHealth(ped) end
+function GetPedMaxHealth(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -994,7 +1095,8 @@ function GetPedMaxHealth(ped) end
 --@usage char* GET_PLAYER_FROM_INDEX(int index);
 --@params index int
 --@return char*
-function GetPlayerFromIndex(index) end
+function GetPlayerFromIndex(index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1003,7 +1105,8 @@ function GetPlayerFromIndex(index) end
 --@usage Player GET_PLAYER_FROM_SERVER_ID(int serverId);
 --@params serverId int
 --@return Player
-function GetPlayerFromServerId(serverId) end
+function GetPlayerFromServerId(serverId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1013,7 +1116,8 @@ function GetPlayerFromServerId(serverId) end
 --@params ped Ped
 --@params index int
 --@return float
-function GetPedFaceFeature(ped,index) end
+function GetPedFaceFeature(ped, index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1028,7 +1132,8 @@ function GetPedFaceFeature(ped,index) end
 --@params secondColour int*
 --@params overlayOpacity float*
 --@return BOOL
-function GetPedHeadOverlayData(ped,index,overlayValue,colourType,firstColour,secondColour,overlayOpacity) end
+function GetPedHeadOverlayData(ped, index, overlayValue, colourType, firstColour, secondColour, overlayOpacity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1037,7 +1142,8 @@ function GetPedHeadOverlayData(ped,index,overlayValue,colourType,firstColour,sec
 --@usage char* GET_PLAYER_NAME(char* playerSrc);
 --@params playerSrc char*
 --@return char*
-function GetPlayerName(playerSrc) end
+function GetPlayerName(playerSrc)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1047,7 +1153,8 @@ function GetPlayerName(playerSrc) end
 --@params playerSrc char*
 --@params identifier int
 --@return char*
-function GetPlayerIdentifier(playerSrc,identifier) end
+function GetPlayerIdentifier(playerSrc, identifier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1056,7 +1163,8 @@ function GetPlayerIdentifier(playerSrc,identifier) end
 --@usage float GET_PLAYER_MELEE_WEAPON_DEFENSE_MODIFIER(Player playerId);
 --@params playerId Player
 --@return float
-function GetPlayerMeleeWeaponDefenseModifier(playerId) end
+function GetPlayerMeleeWeaponDefenseModifier(playerId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1065,7 +1173,8 @@ function GetPlayerMeleeWeaponDefenseModifier(playerId) end
 --@usage int GET_PED_HAIR_COLOR(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedHairColor(ped) end
+function GetPedHairColor(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1074,7 +1183,8 @@ function GetPedHairColor(ped) end
 --@usage int GET_PLAYER_SERVER_ID(Player player);
 --@params player Player
 --@return int
-function GetPlayerServerId(player) end
+function GetPlayerServerId(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1083,7 +1193,8 @@ function GetPlayerServerId(player) end
 --@usage int GET_PLAYER_LAST_MSG(char* playerSrc);
 --@params playerSrc char*
 --@return int
-function GetPlayerLastMsg(playerSrc) end
+function GetPlayerLastMsg(playerSrc)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1092,7 +1203,8 @@ function GetPlayerLastMsg(playerSrc) end
 --@usage float GET_PLAYER_VEHICLE_DAMAGE_MODIFIER(Player playerId);
 --@params playerId Player
 --@return float
-function GetPlayerVehicleDamageModifier(playerId) end
+function GetPlayerVehicleDamageModifier(playerId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1101,7 +1213,8 @@ function GetPlayerVehicleDamageModifier(playerId) end
 --@usage char* GET_PLAYER_ENDPOINT(char* playerSrc);
 --@params playerSrc char*
 --@return char*
-function GetPlayerEndpoint(playerSrc) end
+function GetPlayerEndpoint(playerSrc)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1110,7 +1223,8 @@ function GetPlayerEndpoint(playerSrc) end
 --@usage float GET_PLAYER_WEAPON_DAMAGE_MODIFIER(Player playerId);
 --@params playerId Player
 --@return float
-function GetPlayerWeaponDamageModifier(playerId) end
+function GetPlayerWeaponDamageModifier(playerId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1119,7 +1233,8 @@ function GetPlayerWeaponDamageModifier(playerId) end
 --@usage float GET_PLAYER_VEHICLE_DEFENSE_MODIFIER(Player playerId);
 --@params playerId Player
 --@return float
-function GetPlayerVehicleDefenseModifier(playerId) end
+function GetPlayerVehicleDefenseModifier(playerId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1128,7 +1243,8 @@ function GetPlayerVehicleDefenseModifier(playerId) end
 --@usage char* GET_PLAYER_GUID(char* playerSrc);
 --@params playerSrc char*
 --@return char*
-function GetPlayerGuid(playerSrc) end
+function GetPlayerGuid(playerSrc)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1137,7 +1253,8 @@ function GetPlayerGuid(playerSrc) end
 --@usage float GET_PLAYER_WEAPON_DEFENSE_MODIFIER(Player playerId);
 --@params playerId Player
 --@return float
-function GetPlayerWeaponDefenseModifier(playerId) end
+function GetPlayerWeaponDefenseModifier(playerId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1146,7 +1263,8 @@ function GetPlayerWeaponDefenseModifier(playerId) end
 --@usage float GET_RANDOM_VEHICLE_DENSITY_MULTIPLIER();
 
 --@return float
-function GetRandomVehicleDensityMultiplier() end
+function GetRandomVehicleDensityMultiplier()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1155,7 +1273,8 @@ function GetRandomVehicleDensityMultiplier() end
 --@usage float GET_PLAYER_WEAPON_DEFENSE_MODIFIER_2(Player playerId);
 --@params playerId Player
 --@return float
-function GetPlayerWeaponDefenseModifier_2(playerId) end
+function GetPlayerWeaponDefenseModifier_2(playerId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1164,7 +1283,8 @@ function GetPlayerWeaponDefenseModifier_2(playerId) end
 --@usage float GET_RESOURCE_KVP_FLOAT(char* key);
 --@params key char*
 --@return float
-function GetResourceKvpFloat(key) end
+function GetResourceKvpFloat(key)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1173,7 +1293,8 @@ function GetResourceKvpFloat(key) end
 --@usage object GET_REGISTERED_COMMANDS();
 
 --@return object
-function GetRegisteredCommands() end
+function GetRegisteredCommands()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1182,7 +1303,8 @@ function GetRegisteredCommands() end
 --@usage int GET_PLAYER_PING(char* playerSrc);
 --@params playerSrc char*
 --@return int
-function GetPlayerPing(playerSrc) end
+function GetPlayerPing(playerSrc)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1191,7 +1313,8 @@ function GetPlayerPing(playerSrc) end
 --@usage Entity GET_PLAYER_PED(char* playerSrc);
 --@params playerSrc char*
 --@return Entity
-function GetPlayerPed(playerSrc) end
+function GetPlayerPed(playerSrc)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1202,7 +1325,8 @@ function GetPlayerPed(playerSrc) end
 --@params metadataKey char*
 --@params index int
 --@return char*
-function GetResourceMetadata(resourceName,metadataKey,index) end
+function GetResourceMetadata(resourceName, metadataKey, index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1211,7 +1335,8 @@ function GetResourceMetadata(resourceName,metadataKey,index) end
 --@usage char* GET_RESOURCE_BY_FIND_INDEX(int findIndex);
 --@params findIndex int
 --@return char*
-function GetResourceByFindIndex(findIndex) end
+function GetResourceByFindIndex(findIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1220,7 +1345,8 @@ function GetResourceByFindIndex(findIndex) end
 --@usage int GET_RESOURCE_KVP_INT(char* key);
 --@params key char*
 --@return int
-function GetResourceKvpInt(key) end
+function GetResourceKvpInt(key)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1229,7 +1355,8 @@ function GetResourceKvpInt(key) end
 --@usage char* GET_RESOURCE_KVP_STRING(char* key);
 --@params key char*
 --@return char*
-function GetResourceKvpString(key) end
+function GetResourceKvpString(key)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1238,7 +1365,8 @@ function GetResourceKvpString(key) end
 --@usage int GET_RUNTIME_TEXTURE_HEIGHT(long tex);
 --@params tex long
 --@return int
-function GetRuntimeTextureHeight(tex) end
+function GetRuntimeTextureHeight(tex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1247,7 +1375,8 @@ function GetRuntimeTextureHeight(tex) end
 --@usage char* GET_RESOURCE_STATE(char* resourceName);
 --@params resourceName char*
 --@return char*
-function GetResourceState(resourceName) end
+function GetResourceState(resourceName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1256,7 +1385,8 @@ function GetResourceState(resourceName) end
 --@usage float GET_SCENARIO_PED_DENSITY_MULTIPLIER();
 
 --@return float
-function GetScenarioPedDensityMultiplier() end
+function GetScenarioPedDensityMultiplier()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1265,7 +1395,8 @@ function GetScenarioPedDensityMultiplier() end
 --@usage char* GET_RESOURCE_PATH(char* resourceName);
 --@params resourceName char*
 --@return char*
-function GetResourcePath(resourceName) end
+function GetResourcePath(resourceName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1274,7 +1405,8 @@ function GetResourcePath(resourceName) end
 --@usage int GET_TRAIN_CURRENT_TRACK_NODE(Vehicle train);
 --@params train Vehicle
 --@return int
-function GetTrainCurrentTrackNode(train) end
+function GetTrainCurrentTrackNode(train)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1283,7 +1415,8 @@ function GetTrainCurrentTrackNode(train) end
 --@usage int GET_RUNTIME_TEXTURE_PITCH(long tex);
 --@params tex long
 --@return int
-function GetRuntimeTexturePitch(tex) end
+function GetRuntimeTexturePitch(tex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1292,7 +1425,8 @@ function GetRuntimeTexturePitch(tex) end
 --@usage Hash GET_SELECTED_PED_WEAPON(Ped ped);
 --@params ped Ped
 --@return Hash
-function GetSelectedPedWeapon(ped) end
+function GetSelectedPedWeapon(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1301,7 +1435,8 @@ function GetSelectedPedWeapon(ped) end
 --@usage float GET_VEHICLE_BODY_HEALTH(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleBodyHealth(vehicle) end
+function GetVehicleBodyHealth(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1310,7 +1445,8 @@ function GetVehicleBodyHealth(vehicle) end
 --@usage int GET_VEHICLE_CURRENT_GEAR(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleCurrentGear(vehicle) end
+function GetVehicleCurrentGear(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1319,7 +1455,8 @@ function GetVehicleCurrentGear(vehicle) end
 --@usage int GET_RUNTIME_TEXTURE_WIDTH(long tex);
 --@params tex long
 --@return int
-function GetRuntimeTextureWidth(tex) end
+function GetRuntimeTextureWidth(tex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1328,7 +1465,8 @@ function GetRuntimeTextureWidth(tex) end
 --@usage float GET_VEHICLE_CLUTCH(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleClutch(vehicle) end
+function GetVehicleClutch(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1337,7 +1475,8 @@ function GetVehicleClutch(vehicle) end
 --@usage float GET_VEHICLE_CURRENT_RPM(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleCurrentRpm(vehicle) end
+function GetVehicleCurrentRpm(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1346,7 +1485,8 @@ function GetVehicleCurrentRpm(vehicle) end
 --@usage int GET_VEHICLE_ALARM_TIME_LEFT(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleAlarmTimeLeft(vehicle) end
+function GetVehicleAlarmTimeLeft(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1355,7 +1495,8 @@ function GetVehicleAlarmTimeLeft(vehicle) end
 --@usage float GET_VEHICLE_CURRENT_ACCELERATION(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleCurrentAcceleration(vehicle) end
+function GetVehicleCurrentAcceleration(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1367,7 +1508,8 @@ function GetVehicleCurrentAcceleration(vehicle) end
 --@params g int*
 --@params b int*
 --@return void
-function GetVehicleCustomPrimaryColour(vehicle,r,g,b) end
+function GetVehicleCustomPrimaryColour(vehicle, r, g, b)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1379,7 +1521,8 @@ function GetVehicleCustomPrimaryColour(vehicle,r,g,b) end
 --@params g int*
 --@params b int*
 --@return void
-function GetVehicleCustomSecondaryColour(vehicle,r,g,b) end
+function GetVehicleCustomSecondaryColour(vehicle, r, g, b)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1389,7 +1532,8 @@ function GetVehicleCustomSecondaryColour(vehicle,r,g,b) end
 --@params vehicle Vehicle
 --@params color int*
 --@return void
-function GetVehicleDashboardColour(vehicle,color) end
+function GetVehicleDashboardColour(vehicle, color)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1400,7 +1544,8 @@ function GetVehicleDashboardColour(vehicle,color) end
 --@params colorPrimary int*
 --@params colorSecondary int*
 --@return void
-function GetVehicleColours(vehicle,colorPrimary,colorSecondary) end
+function GetVehicleColours(vehicle, colorPrimary, colorSecondary)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1409,7 +1554,8 @@ function GetVehicleColours(vehicle,colorPrimary,colorSecondary) end
 --@usage float GET_VEHICLE_DENSITY_MULTIPLIER();
 
 --@return float
-function GetVehicleDensityMultiplier() end
+function GetVehicleDensityMultiplier()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1418,7 +1564,8 @@ function GetVehicleDensityMultiplier() end
 --@usage float GET_VEHICLE_DIRT_LEVEL(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleDirtLevel(vehicle) end
+function GetVehicleDirtLevel(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1427,7 +1574,8 @@ function GetVehicleDirtLevel(vehicle) end
 --@usage int GET_VEHICLE_DOORS_LOCKED_FOR_PLAYER(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleDoorsLockedForPlayer(vehicle) end
+function GetVehicleDoorsLockedForPlayer(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1436,7 +1584,8 @@ function GetVehicleDoorsLockedForPlayer(vehicle) end
 --@usage float GET_VEHICLE_DASHBOARD_SPEED(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleDashboardSpeed(vehicle) end
+function GetVehicleDashboardSpeed(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1445,7 +1594,8 @@ function GetVehicleDashboardSpeed(vehicle) end
 --@usage int GET_VEHICLE_DOOR_STATUS(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleDoorStatus(vehicle) end
+function GetVehicleDoorStatus(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1454,7 +1604,8 @@ function GetVehicleDoorStatus(vehicle) end
 --@usage int GET_VEHICLE_DOOR_LOCK_STATUS(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleDoorLockStatus(vehicle) end
+function GetVehicleDoorLockStatus(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1465,7 +1616,8 @@ function GetVehicleDoorLockStatus(vehicle) end
 --@params pearlescentColor int*
 --@params wheelColor int*
 --@return void
-function GetVehicleExtraColours(vehicle,pearlescentColor,wheelColor) end
+function GetVehicleExtraColours(vehicle, pearlescentColor, wheelColor)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1474,7 +1626,8 @@ function GetVehicleExtraColours(vehicle,pearlescentColor,wheelColor) end
 --@usage float GET_VEHICLE_DRAWN_WHEEL_ANGLE_MULT(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleDrawnWheelAngleMult(vehicle) end
+function GetVehicleDrawnWheelAngleMult(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1483,7 +1636,8 @@ function GetVehicleDrawnWheelAngleMult(vehicle) end
 --@usage float GET_VEHICLE_GRAVITY_AMOUNT(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleGravityAmount(vehicle) end
+function GetVehicleGravityAmount(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1492,7 +1646,8 @@ function GetVehicleGravityAmount(vehicle) end
 --@usage float GET_VEHICLE_ENGINE_TEMPERATURE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleEngineTemperature(vehicle) end
+function GetVehicleEngineTemperature(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1501,7 +1656,8 @@ function GetVehicleEngineTemperature(vehicle) end
 --@usage float GET_VEHICLE_FUEL_LEVEL(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleFuelLevel(vehicle) end
+function GetVehicleFuelLevel(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1510,7 +1666,8 @@ function GetVehicleFuelLevel(vehicle) end
 --@usage float GET_VEHICLE_ENGINE_HEALTH(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleEngineHealth(vehicle) end
+function GetVehicleEngineHealth(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1521,7 +1678,8 @@ function GetVehicleEngineHealth(vehicle) end
 --@params class_ char*
 --@params fieldName char*
 --@return Vector3
-function GetVehicleHandlingVector(vehicle,class_,fieldName) end
+function GetVehicleHandlingVector(vehicle, class_, fieldName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1530,7 +1688,8 @@ function GetVehicleHandlingVector(vehicle,class_,fieldName) end
 --@usage BOOL GET_VEHICLE_HANDBRAKE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function GetVehicleHandbrake(vehicle) end
+function GetVehicleHandbrake(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1539,7 +1698,8 @@ function GetVehicleHandbrake(vehicle) end
 --@usage int GET_VEHICLE_HEADLIGHTS_COLOUR(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleHeadlightsColour(vehicle) end
+function GetVehicleHeadlightsColour(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1550,7 +1710,8 @@ function GetVehicleHeadlightsColour(vehicle) end
 --@params class_ char*
 --@params fieldName char*
 --@return int
-function GetVehicleHandlingInt(vehicle,class_,fieldName) end
+function GetVehicleHandlingInt(vehicle, class_, fieldName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1560,7 +1721,8 @@ function GetVehicleHandlingInt(vehicle,class_,fieldName) end
 --@params vehicle Vehicle
 --@params color int*
 --@return void
-function GetVehicleInteriorColour(vehicle,color) end
+function GetVehicleInteriorColour(vehicle, color)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1569,7 +1731,8 @@ function GetVehicleInteriorColour(vehicle,color) end
 --@usage int GET_VEHICLE_HIGH_GEAR(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleHighGear(vehicle) end
+function GetVehicleHighGear(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1580,7 +1743,8 @@ function GetVehicleHighGear(vehicle) end
 --@params class_ char*
 --@params fieldName char*
 --@return float
-function GetVehicleHandlingFloat(vehicle,class_,fieldName) end
+function GetVehicleHandlingFloat(vehicle, class_, fieldName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1589,7 +1753,8 @@ function GetVehicleHandlingFloat(vehicle,class_,fieldName) end
 --@usage int GET_VEHICLE_INDICATOR_LIGHTS(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleIndicatorLights(vehicle) end
+function GetVehicleIndicatorLights(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1600,7 +1765,8 @@ function GetVehicleIndicatorLights(vehicle) end
 --@params lightsOn BOOL*
 --@params highbeamsOn BOOL*
 --@return BOOL
-function GetVehicleLightsState(vehicle,lightsOn,highbeamsOn) end
+function GetVehicleLightsState(vehicle, lightsOn, highbeamsOn)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1609,7 +1775,8 @@ function GetVehicleLightsState(vehicle,lightsOn,highbeamsOn) end
 --@usage int GET_VEHICLE_NUMBER_OF_WHEELS(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleNumberOfWheels(vehicle) end
+function GetVehicleNumberOfWheels(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1618,7 +1785,8 @@ function GetVehicleNumberOfWheels(vehicle) end
 --@usage int GET_VEHICLE_NUMBER_PLATE_TEXT_INDEX(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleNumberPlateTextIndex(vehicle) end
+function GetVehicleNumberPlateTextIndex(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1627,7 +1795,8 @@ function GetVehicleNumberPlateTextIndex(vehicle) end
 --@usage int GET_VEHICLE_NEXT_GEAR(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleNextGear(vehicle) end
+function GetVehicleNextGear(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1636,7 +1805,8 @@ function GetVehicleNextGear(vehicle) end
 --@usage float GET_VEHICLE_OIL_LEVEL(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleOilLevel(vehicle) end
+function GetVehicleOilLevel(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1645,7 +1815,8 @@ function GetVehicleOilLevel(vehicle) end
 --@usage char* GET_VEHICLE_NUMBER_PLATE_TEXT(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return char*
-function GetVehicleNumberPlateText(vehicle) end
+function GetVehicleNumberPlateText(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1654,7 +1825,8 @@ function GetVehicleNumberPlateText(vehicle) end
 --@usage int GET_VEHICLE_RADIO_STATION_INDEX(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleRadioStationIndex(vehicle) end
+function GetVehicleRadioStationIndex(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1663,7 +1835,8 @@ function GetVehicleRadioStationIndex(vehicle) end
 --@usage float GET_VEHICLE_PETROL_TANK_HEALTH(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehiclePetrolTankHealth(vehicle) end
+function GetVehiclePetrolTankHealth(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1672,7 +1845,8 @@ function GetVehiclePetrolTankHealth(vehicle) end
 --@usage int GET_VEHICLE_ROOF_LIVERY(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleRoofLivery(vehicle) end
+function GetVehicleRoofLivery(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1681,7 +1855,8 @@ function GetVehicleRoofLivery(vehicle) end
 --@usage float GET_VEHICLE_STEERING_ANGLE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleSteeringAngle(vehicle) end
+function GetVehicleSteeringAngle(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1693,7 +1868,8 @@ function GetVehicleSteeringAngle(vehicle) end
 --@params g int*
 --@params b int*
 --@return void
-function GetVehicleTyreSmokeColor(vehicle,r,g,b) end
+function GetVehicleTyreSmokeColor(vehicle, r, g, b)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1702,7 +1878,8 @@ function GetVehicleTyreSmokeColor(vehicle,r,g,b) end
 --@usage float GET_VEHICLE_TURBO_PRESSURE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleTurboPressure(vehicle) end
+function GetVehicleTurboPressure(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1712,7 +1889,8 @@ function GetVehicleTurboPressure(vehicle) end
 --@params vehicle Vehicle
 --@params wheelIndex int
 --@return float
-function GetVehicleWheelHealth(vehicle,wheelIndex) end
+function GetVehicleWheelHealth(vehicle, wheelIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1721,7 +1899,8 @@ function GetVehicleWheelHealth(vehicle,wheelIndex) end
 --@usage float GET_VEHICLE_STEERING_SCALE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleSteeringScale(vehicle) end
+function GetVehicleSteeringScale(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1731,7 +1910,8 @@ function GetVehicleSteeringScale(vehicle) end
 --@params vehicle Vehicle
 --@params wheelIndex int
 --@return float
-function GetVehicleWheelBrakePressure(vehicle,wheelIndex) end
+function GetVehicleWheelBrakePressure(vehicle, wheelIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1741,7 +1921,8 @@ function GetVehicleWheelBrakePressure(vehicle,wheelIndex) end
 --@params vehicle Vehicle
 --@params wheelIndex int
 --@return float
-function GetVehicleWheelRimColliderSize(vehicle,wheelIndex) end
+function GetVehicleWheelRimColliderSize(vehicle, wheelIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1750,7 +1931,8 @@ function GetVehicleWheelRimColliderSize(vehicle,wheelIndex) end
 --@usage float GET_VEHICLE_WHEEL_SIZE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleWheelSize(vehicle) end
+function GetVehicleWheelSize(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1760,7 +1942,8 @@ function GetVehicleWheelSize(vehicle) end
 --@params vehicle Vehicle
 --@params wheelIndex int
 --@return float
-function GetVehicleWheelSpeed(vehicle,wheelIndex) end
+function GetVehicleWheelSpeed(vehicle, wheelIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1770,7 +1953,8 @@ function GetVehicleWheelSpeed(vehicle,wheelIndex) end
 --@params vehicle Vehicle
 --@params wheelIndex int
 --@return float
-function GetVehicleWheelTireColliderSize(vehicle,wheelIndex) end
+function GetVehicleWheelTireColliderSize(vehicle, wheelIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1780,7 +1964,8 @@ function GetVehicleWheelTireColliderSize(vehicle,wheelIndex) end
 --@params vehicle Vehicle
 --@params wheelIndex int
 --@return float
-function GetVehicleWheelTireColliderWidth(vehicle,wheelIndex) end
+function GetVehicleWheelTireColliderWidth(vehicle, wheelIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1790,7 +1975,8 @@ function GetVehicleWheelTireColliderWidth(vehicle,wheelIndex) end
 --@params vehicle Vehicle
 --@params wheelIndex int
 --@return float
-function GetVehicleWheelSteeringAngle(vehicle,wheelIndex) end
+function GetVehicleWheelSteeringAngle(vehicle, wheelIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1799,7 +1985,8 @@ function GetVehicleWheelSteeringAngle(vehicle,wheelIndex) end
 --@usage float GET_VEHICLE_WHEEL_WIDTH(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleWheelWidth(vehicle) end
+function GetVehicleWheelWidth(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1809,7 +1996,8 @@ function GetVehicleWheelWidth(vehicle) end
 --@params vehicle Vehicle
 --@params wheelIndex int
 --@return float
-function GetVehicleWheelYRotation(vehicle,wheelIndex) end
+function GetVehicleWheelYRotation(vehicle, wheelIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1818,7 +2006,8 @@ function GetVehicleWheelYRotation(vehicle,wheelIndex) end
 --@usage int GET_VEHICLE_WHEEL_TYPE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleWheelType(vehicle) end
+function GetVehicleWheelType(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1828,7 +2017,8 @@ function GetVehicleWheelType(vehicle) end
 --@params vehicle Vehicle
 --@params wheelIndex int
 --@return float
-function GetVehicleWheelXOffset(vehicle,wheelIndex) end
+function GetVehicleWheelXOffset(vehicle, wheelIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1837,7 +2027,8 @@ function GetVehicleWheelXOffset(vehicle,wheelIndex) end
 --@usage int GET_VEHICLE_WHEELIE_STATE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleWheelieState(vehicle) end
+function GetVehicleWheelieState(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1846,7 +2037,8 @@ function GetVehicleWheelieState(vehicle) end
 --@usage int GET_VEHICLE_WINDOW_TINT(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleWindowTint(vehicle) end
+function GetVehicleWindowTint(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1855,7 +2047,8 @@ function GetVehicleWindowTint(vehicle) end
 --@usage BOOL HAS_ENTITY_BEEN_MARKED_AS_NO_LONGER_NEEDED(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function HasEntityBeenMarkedAsNoLongerNeeded(vehicle) end
+function HasEntityBeenMarkedAsNoLongerNeeded(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1864,7 +2057,8 @@ function HasEntityBeenMarkedAsNoLongerNeeded(vehicle) end
 --@usage BOOL HAS_MINIMAP_OVERLAY_LOADED(int id);
 --@params id int
 --@return BOOL
-function HasMinimapOverlayLoaded(id) end
+function HasMinimapOverlayLoaded(id)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1873,7 +2067,8 @@ function HasMinimapOverlayLoaded(id) end
 --@usage BOOL HAS_VEHICLE_BEEN_OWNED_BY_PLAYER(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function HasVehicleBeenOwnedByPlayer(vehicle) end
+function HasVehicleBeenOwnedByPlayer(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1885,7 +2080,8 @@ function HasVehicleBeenOwnedByPlayer(vehicle) end
 --@params argsLength int
 --@params retvalLength int*
 --@return char*
-function InvokeFunctionReference(referenceIdentity,argsSerialized,argsLength,retvalLength) end
+function InvokeFunctionReference(referenceIdentity, argsSerialized, argsLength, retvalLength)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1894,7 +2090,8 @@ function InvokeFunctionReference(referenceIdentity,argsSerialized,argsLength,ret
 --@usage BOOL IS_BIGMAP_FULL();
 
 --@return BOOL
-function IsBigmapFull() end
+function IsBigmapFull()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1903,7 +2100,8 @@ function IsBigmapFull() end
 --@usage BOOL IS_ACE_ALLOWED(char* object);
 --@params object char*
 --@return BOOL
-function IsAceAllowed(object) end
+function IsAceAllowed(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1912,7 +2110,8 @@ function IsAceAllowed(object) end
 --@usage int GET_VEHICLE_LIVERY(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleLivery(vehicle) end
+function GetVehicleLivery(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1921,7 +2120,8 @@ function GetVehicleLivery(vehicle) end
 --@usage BOOL IS_BIGMAP_ACTIVE();
 
 --@return BOOL
-function IsBigmapActive() end
+function IsBigmapActive()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1930,7 +2130,8 @@ function IsBigmapActive() end
 --@usage BOOL IS_DUPLICITY_VERSION();
 
 --@return BOOL
-function IsDuplicityVersion() end
+function IsDuplicityVersion()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1940,7 +2141,8 @@ function IsDuplicityVersion() end
 --@params playerSrc char*
 --@params object char*
 --@return BOOL
-function IsPlayerAceAllowed(playerSrc,object) end
+function IsPlayerAceAllowed(playerSrc, object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1950,7 +2152,8 @@ function IsPlayerAceAllowed(playerSrc,object) end
 --@params principal char*
 --@params object char*
 --@return BOOL
-function IsPrincipalAceAllowed(principal,object) end
+function IsPrincipalAceAllowed(principal, object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1959,7 +2162,8 @@ function IsPrincipalAceAllowed(principal,object) end
 --@usage BOOL IS_DUI_AVAILABLE(long duiObject);
 --@params duiObject long
 --@return BOOL
-function IsDuiAvailable(duiObject) end
+function IsDuiAvailable(duiObject)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1968,7 +2172,8 @@ function IsDuiAvailable(duiObject) end
 --@usage BOOL IS_PLAYER_COMMERCE_INFO_LOADED_EXT(char* playerSrc);
 --@params playerSrc char*
 --@return BOOL
-function IsPlayerCommerceInfoLoadedExt(playerSrc) end
+function IsPlayerCommerceInfoLoadedExt(playerSrc)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1977,7 +2182,8 @@ function IsPlayerCommerceInfoLoadedExt(playerSrc) end
 --@usage BOOL IS_PLAYER_COMMERCE_INFO_LOADED(char* playerSrc);
 --@params playerSrc char*
 --@return BOOL
-function IsPlayerCommerceInfoLoaded(playerSrc) end
+function IsPlayerCommerceInfoLoaded(playerSrc)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1986,7 +2192,8 @@ function IsPlayerCommerceInfoLoaded(playerSrc) end
 --@usage BOOL IS_VEHICLE_ENGINE_STARTING(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleEngineStarting(vehicle) end
+function IsVehicleEngineStarting(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1995,7 +2202,8 @@ function IsVehicleEngineStarting(vehicle) end
 --@usage BOOL IS_VEHICLE_INTERIOR_LIGHT_ON(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleInteriorLightOn(vehicle) end
+function IsVehicleInteriorLightOn(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2004,7 +2212,8 @@ function IsVehicleInteriorLightOn(vehicle) end
 --@usage BOOL IS_STREAMING_FILE_READY(char* registerAs);
 --@params registerAs char*
 --@return BOOL
-function IsStreamingFileReady(registerAs) end
+function IsStreamingFileReady(registerAs)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2013,7 +2222,8 @@ function IsStreamingFileReady(registerAs) end
 --@usage BOOL IS_VEHICLE_PREVIOUSLY_OWNED_BY_PLAYER(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehiclePreviouslyOwnedByPlayer(vehicle) end
+function IsVehiclePreviouslyOwnedByPlayer(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2022,7 +2232,8 @@ function IsVehiclePreviouslyOwnedByPlayer(vehicle) end
 --@usage BOOL IS_VEHICLE_ALARM_SET(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleAlarmSet(vehicle) end
+function IsVehicleAlarmSet(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2031,7 +2242,8 @@ function IsVehicleAlarmSet(vehicle) end
 --@usage BOOL IS_VEHICLE_NEEDS_TO_BE_HOTWIRED(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleNeedsToBeHotwired(vehicle) end
+function IsVehicleNeedsToBeHotwired(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2042,7 +2254,8 @@ function IsVehicleNeedsToBeHotwired(vehicle) end
 --@params wheelID int
 --@params completely BOOL
 --@return BOOL
-function IsVehicleTyreBurst(vehicle,wheelID,completely) end
+function IsVehicleTyreBurst(vehicle, wheelID, completely)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2051,7 +2264,8 @@ function IsVehicleTyreBurst(vehicle,wheelID,completely) end
 --@usage BOOL IS_VEHICLE_WANTED(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleWanted(vehicle) end
+function IsVehicleWanted(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2060,7 +2274,8 @@ function IsVehicleWanted(vehicle) end
 --@usage void LOAD_PLAYER_COMMERCE_DATA(char* playerSrc);
 --@params playerSrc char*
 --@return void
-function LoadPlayerCommerceData(playerSrc) end
+function LoadPlayerCommerceData(playerSrc)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2069,7 +2284,8 @@ function LoadPlayerCommerceData(playerSrc) end
 --@usage void LOAD_PLAYER_COMMERCE_DATA_EXT(char* playerSrc);
 --@params playerSrc char*
 --@return void
-function LoadPlayerCommerceDataExt(playerSrc) end
+function LoadPlayerCommerceDataExt(playerSrc)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2079,7 +2295,8 @@ function LoadPlayerCommerceDataExt(playerSrc) end
 --@params targetId int
 --@params channel int
 --@return void
-function MumbleAddVoiceTargetChannel(targetId,channel) end
+function MumbleAddVoiceTargetChannel(targetId, channel)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2089,7 +2306,8 @@ function MumbleAddVoiceTargetChannel(targetId,channel) end
 --@params targetId int
 --@params player Player
 --@return void
-function MumbleAddVoiceTargetPlayer(targetId,player) end
+function MumbleAddVoiceTargetPlayer(targetId, player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2098,7 +2316,8 @@ function MumbleAddVoiceTargetPlayer(targetId,player) end
 --@usage void MUMBLE_SET_VOICE_TARGET(int targetId);
 --@params targetId int
 --@return void
-function MumbleSetVoiceTarget(targetId) end
+function MumbleSetVoiceTarget(targetId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2107,7 +2326,8 @@ function MumbleSetVoiceTarget(targetId) end
 --@usage void MUMBLE_CLEAR_VOICE_TARGET(int targetId);
 --@params targetId int
 --@return void
-function MumbleClearVoiceTarget(targetId) end
+function MumbleClearVoiceTarget(targetId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2117,7 +2337,8 @@ function MumbleClearVoiceTarget(targetId) end
 --@params player Player
 --@params volume float
 --@return void
-function MumbleSetVolumeOverride(player,volume) end
+function MumbleSetVolumeOverride(player, volume)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2127,7 +2348,8 @@ function MumbleSetVolumeOverride(player,volume) end
 --@params resourceName char*
 --@params fileName char*
 --@return char*
-function LoadResourceFile(resourceName,fileName) end
+function LoadResourceFile(resourceName, fileName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2137,7 +2359,8 @@ function LoadResourceFile(resourceName,fileName) end
 --@params serverId int
 --@params volume float
 --@return void
-function MumbleSetVolumeOverrideByServerId(serverId,volume) end
+function MumbleSetVolumeOverrideByServerId(serverId, volume)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2146,7 +2369,8 @@ function MumbleSetVolumeOverrideByServerId(serverId,volume) end
 --@usage BOOL IS_VEHICLE_SIREN_ON(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleSirenOn(vehicle) end
+function IsVehicleSirenOn(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2155,7 +2379,8 @@ function IsVehicleSirenOn(vehicle) end
 --@usage int NETWORK_GET_ENTITY_OWNER(Entity entity);
 --@params entity Entity
 --@return int
-function NetworkGetEntityOwner(entity) end
+function NetworkGetEntityOwner(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2164,7 +2389,8 @@ function NetworkGetEntityOwner(entity) end
 --@usage int NETWORK_GET_NETWORK_ID_FROM_ENTITY(Entity entity);
 --@params entity Entity
 --@return int
-function NetworkGetNetworkIdFromEntity(entity) end
+function NetworkGetNetworkIdFromEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2173,7 +2399,8 @@ function NetworkGetNetworkIdFromEntity(entity) end
 --@usage Entity NETWORK_GET_ENTITY_FROM_NETWORK_ID(int netId);
 --@params netId int
 --@return Entity
-function NetworkGetEntityFromNetworkId(netId) end
+function NetworkGetEntityFromNetworkId(netId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2183,7 +2410,8 @@ function NetworkGetEntityFromNetworkId(netId) end
 --@params requestData char*
 --@params requestDataLength int
 --@return int
-function PerformHttpRequestInternal(requestData,requestDataLength) end
+function PerformHttpRequestInternal(requestData, requestDataLength)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2192,7 +2420,8 @@ function PerformHttpRequestInternal(requestData,requestDataLength) end
 --@usage void PROFILER_EXIT_SCOPE();
 
 --@return void
-function ProfilerExitScope() end
+function ProfilerExitScope()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2201,7 +2430,8 @@ function ProfilerExitScope() end
 --@usage void PROFILER_ENTER_SCOPE(char* scopeName);
 --@params scopeName char*
 --@return void
-function ProfilerEnterScope(scopeName) end
+function ProfilerEnterScope(scopeName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2210,7 +2440,8 @@ function ProfilerEnterScope(scopeName) end
 --@usage void REGISTER_CONSOLE_LISTENER(func listener);
 --@params listener func
 --@return void
-function RegisterConsoleListener(listener) end
+function RegisterConsoleListener(listener)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2219,7 +2450,8 @@ function RegisterConsoleListener(listener) end
 --@usage void REGISTER_ARCHETYPES(func factory);
 --@params factory func
 --@return void
-function RegisterArchetypes(factory) end
+function RegisterArchetypes(factory)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2230,7 +2462,8 @@ function RegisterArchetypes(factory) end
 --@params handler func
 --@params restricted BOOL
 --@return void
-function RegisterCommand(commandName,handler,restricted) end
+function RegisterCommand(commandName, handler, restricted)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2239,7 +2472,8 @@ function RegisterCommand(commandName,handler,restricted) end
 --@usage void REGISTER_ENTITIES(func factory);
 --@params factory func
 --@return void
-function RegisterEntities(factory) end
+function RegisterEntities(factory)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2248,7 +2482,8 @@ function RegisterEntities(factory) end
 --@usage void REGISTER_FONT_FILE(char* fileName);
 --@params fileName char*
 --@return void
-function RegisterFontFile(fileName) end
+function RegisterFontFile(fileName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2260,7 +2495,8 @@ function RegisterFontFile(fileName) end
 --@params defaultMapper char*
 --@params defaultParameter char*
 --@return void
-function RegisterKeyMapping(commandString,description,defaultMapper,defaultParameter) end
+function RegisterKeyMapping(commandString, description, defaultMapper, defaultParameter)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2269,7 +2505,8 @@ function RegisterKeyMapping(commandString,description,defaultMapper,defaultParam
 --@usage int REGISTER_FONT_ID(char* fontName);
 --@params fontName char*
 --@return int
-function RegisterFontId(fontName) end
+function RegisterFontId(fontName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2278,7 +2515,8 @@ function RegisterFontId(fontName) end
 --@usage void REGISTER_RESOURCE_AS_EVENT_HANDLER(char* eventName);
 --@params eventName char*
 --@return void
-function RegisterResourceAsEventHandler(eventName) end
+function RegisterResourceAsEventHandler(eventName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2288,7 +2526,8 @@ function RegisterResourceAsEventHandler(eventName) end
 --@params resourceName char*
 --@params fileName char*
 --@return char*
-function RegisterResourceAsset(resourceName,fileName) end
+function RegisterResourceAsset(resourceName, fileName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2297,7 +2536,8 @@ function RegisterResourceAsset(resourceName,fileName) end
 --@usage BOOL PROFILER_IS_RECORDING();
 
 --@return BOOL
-function ProfilerIsRecording() end
+function ProfilerIsRecording()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2307,7 +2547,8 @@ function ProfilerIsRecording() end
 --@params factoryId char*
 --@params factoryFn func
 --@return void
-function RegisterResourceBuildTaskFactory(factoryId,factoryFn) end
+function RegisterResourceBuildTaskFactory(factoryId, factoryFn)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2316,7 +2557,8 @@ function RegisterResourceBuildTaskFactory(factoryId,factoryFn) end
 --@usage void REGISTER_STREAMING_FILE_FROM_KVS(char* kvsKey);
 --@params kvsKey char*
 --@return void
-function RegisterStreamingFileFromKvs(kvsKey) end
+function RegisterStreamingFileFromKvs(kvsKey)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2327,7 +2569,8 @@ function RegisterStreamingFileFromKvs(kvsKey) end
 --@params fileName char*
 --@params cacheString char*
 --@return void
-function RegisterStreamingFileFromCache(resourceName,fileName,cacheString) end
+function RegisterStreamingFileFromCache(resourceName, fileName, cacheString)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2336,7 +2579,8 @@ function RegisterStreamingFileFromCache(resourceName,fileName,cacheString) end
 --@usage void REGISTER_NUI_CALLBACK_TYPE(char* callbackType);
 --@params callbackType char*
 --@return void
-function RegisterNuiCallbackType(callbackType) end
+function RegisterNuiCallbackType(callbackType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2346,7 +2590,8 @@ function RegisterNuiCallbackType(callbackType) end
 --@params origTxd char*
 --@params origTxn char*
 --@return void
-function RemoveReplaceTexture(origTxd,origTxn) end
+function RemoveReplaceTexture(origTxd, origTxn)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2356,7 +2601,8 @@ function RemoveReplaceTexture(origTxd,origTxn) end
 --@params registerAs char*
 --@params url char*
 --@return void
-function RegisterStreamingFileFromUrl(registerAs,url) end
+function RegisterStreamingFileFromUrl(registerAs, url)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2365,7 +2611,8 @@ function RegisterStreamingFileFromUrl(registerAs,url) end
 --@usage void SCHEDULE_RESOURCE_TICK(char* resourceName);
 --@params resourceName char*
 --@return void
-function ScheduleResourceTick(resourceName) end
+function ScheduleResourceTick(resourceName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2375,7 +2622,8 @@ function ScheduleResourceTick(resourceName) end
 --@params playerSrc char*
 --@params skuId int
 --@return void
-function RequestPlayerCommerceSession(playerSrc,skuId) end
+function RequestPlayerCommerceSession(playerSrc, skuId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2387,7 +2635,8 @@ function RequestPlayerCommerceSession(playerSrc,skuId) end
 --@params data char*
 --@params dataLength int
 --@return BOOL
-function SaveResourceFile(resourceName,fileName,data,dataLength) end
+function SaveResourceFile(resourceName, fileName, data, dataLength)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2396,7 +2645,8 @@ function SaveResourceFile(resourceName,fileName,data,dataLength) end
 --@usage void RESET_MAP_ZOOM_DATA_LEVEL(int index);
 --@params index int
 --@return void
-function ResetMapZoomDataLevel(index) end
+function ResetMapZoomDataLevel(index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2406,7 +2656,8 @@ function ResetMapZoomDataLevel(index) end
 --@params duiObject long
 --@params jsonString char*
 --@return void
-function SendDuiMessage(duiObject,jsonString) end
+function SendDuiMessage(duiObject, jsonString)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2415,7 +2666,8 @@ function SendDuiMessage(duiObject,jsonString) end
 --@usage BOOL SEND_LOADING_SCREEN_MESSAGE(char* jsonString);
 --@params jsonString char*
 --@return BOOL
-function SendLoadingScreenMessage(jsonString) end
+function SendLoadingScreenMessage(jsonString)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2426,7 +2678,8 @@ function SendLoadingScreenMessage(jsonString) end
 --@params x int
 --@params y int
 --@return void
-function SendDuiMouseMove(duiObject,x,y) end
+function SendDuiMouseMove(duiObject, x, y)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2435,7 +2688,8 @@ function SendDuiMouseMove(duiObject,x,y) end
 --@usage BOOL SEND_NUI_MESSAGE(char* jsonString);
 --@params jsonString char*
 --@return BOOL
-function SendNuiMessage(jsonString) end
+function SendNuiMessage(jsonString)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2446,7 +2700,8 @@ function SendNuiMessage(jsonString) end
 --@params deltaY int
 --@params deltaX int
 --@return void
-function SendDuiMouseWheel(duiObject,deltaY,deltaX) end
+function SendDuiMouseWheel(duiObject, deltaY, deltaX)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2456,7 +2711,8 @@ function SendDuiMouseWheel(duiObject,deltaY,deltaX) end
 --@params varName char*
 --@params value char*
 --@return void
-function SetConvarServerInfo(varName,value) end
+function SetConvarServerInfo(varName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2466,7 +2722,8 @@ function SetConvarServerInfo(varName,value) end
 --@params duiObject long
 --@params button char*
 --@return void
-function SendDuiMouseDown(duiObject,button) end
+function SendDuiMouseDown(duiObject, button)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2476,7 +2733,8 @@ function SendDuiMouseDown(duiObject,button) end
 --@params duiObject long
 --@params button char*
 --@return void
-function SendDuiMouseUp(duiObject,button) end
+function SendDuiMouseUp(duiObject, button)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2486,7 +2744,8 @@ function SendDuiMouseUp(duiObject,button) end
 --@params varName char*
 --@params value char*
 --@return void
-function SetConvarReplicated(varName,value) end
+function SetConvarReplicated(varName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2496,7 +2755,8 @@ function SetConvarReplicated(varName,value) end
 --@params varName char*
 --@params value char*
 --@return void
-function SetConvar(varName,value) end
+function SetConvar(varName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2505,7 +2765,8 @@ function SetConvar(varName,value) end
 --@usage void SET_DISCORD_RICH_PRESENCE_ASSET_SMALL(char* assetName);
 --@params assetName char*
 --@return void
-function SetDiscordRichPresenceAssetSmall(assetName) end
+function SetDiscordRichPresenceAssetSmall(assetName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2515,7 +2776,8 @@ function SetDiscordRichPresenceAssetSmall(assetName) end
 --@params duiObject long
 --@params url char*
 --@return void
-function SetDuiUrl(duiObject,url) end
+function SetDuiUrl(duiObject, url)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2524,7 +2786,8 @@ function SetDuiUrl(duiObject,url) end
 --@usage void SET_DISCORD_RICH_PRESENCE_ASSET(char* assetName);
 --@params assetName char*
 --@return void
-function SetDiscordRichPresenceAsset(assetName) end
+function SetDiscordRichPresenceAsset(assetName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2533,7 +2796,8 @@ function SetDiscordRichPresenceAsset(assetName) end
 --@usage void SET_DISCORD_RICH_PRESENCE_ASSET_SMALL_TEXT(char* text);
 --@params text char*
 --@return void
-function SetDiscordRichPresenceAssetSmallText(text) end
+function SetDiscordRichPresenceAssetSmallText(text)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2542,7 +2806,8 @@ function SetDiscordRichPresenceAssetSmallText(text) end
 --@usage void SET_DISCORD_RICH_PRESENCE_ASSET_TEXT(char* text);
 --@params text char*
 --@return void
-function SetDiscordRichPresenceAssetText(text) end
+function SetDiscordRichPresenceAssetText(text)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2554,7 +2819,8 @@ function SetDiscordRichPresenceAssetText(text) end
 --@params fieldName char*
 --@params value float
 --@return void
-function SetHandlingFloat(vehicle,class_,fieldName,value) end
+function SetHandlingFloat(vehicle, class_, fieldName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2563,7 +2829,8 @@ function SetHandlingFloat(vehicle,class_,fieldName,value) end
 --@usage void SET_DISCORD_APP_ID(char* appId);
 --@params appId char*
 --@return void
-function SetDiscordAppId(appId) end
+function SetDiscordAppId(appId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2575,7 +2842,8 @@ function SetDiscordAppId(appId) end
 --@params fieldName char*
 --@params value Vector3
 --@return void
-function SetHandlingVector(vehicle,class_,fieldName,value) end
+function SetHandlingVector(vehicle, class_, fieldName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2587,7 +2855,8 @@ function SetHandlingVector(vehicle,class_,fieldName,value) end
 --@params fieldName char*
 --@params value Any
 --@return void
-function SetHandlingField(vehicle,class_,fieldName,value) end
+function SetHandlingField(vehicle, class_, fieldName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2596,7 +2865,8 @@ function SetHandlingField(vehicle,class_,fieldName,value) end
 --@usage void SET_GAME_TYPE(char* gametypeName);
 --@params gametypeName char*
 --@return void
-function SetGameType(gametypeName) end
+function SetGameType(gametypeName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2610,7 +2880,8 @@ function SetGameType(gametypeName) end
 --@params posY float
 --@params posZ float
 --@return void
-function SetInteriorPortalCornerPosition(interiorId,portalIndex,cornerIndex,posX,posY,posZ) end
+function SetInteriorPortalCornerPosition(interiorId, portalIndex, cornerIndex, posX, posY, posZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2622,7 +2893,8 @@ function SetInteriorPortalCornerPosition(interiorId,portalIndex,cornerIndex,posX
 --@params fieldName char*
 --@params value int
 --@return void
-function SetHandlingInt(vehicle,class_,fieldName,value) end
+function SetHandlingInt(vehicle, class_, fieldName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2633,7 +2905,8 @@ function SetHandlingInt(vehicle,class_,fieldName,value) end
 --@params portalIndex int
 --@params roomFrom int
 --@return void
-function SetInteriorPortalRoomFrom(interiorId,portalIndex,roomFrom) end
+function SetInteriorPortalRoomFrom(interiorId, portalIndex, roomFrom)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2644,7 +2917,8 @@ function SetInteriorPortalRoomFrom(interiorId,portalIndex,roomFrom) end
 --@params roomIndex int
 --@params flag int
 --@return void
-function SetInteriorRoomFlag(interiorId,roomIndex,flag) end
+function SetInteriorRoomFlag(interiorId, roomIndex, flag)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2660,7 +2934,8 @@ function SetInteriorRoomFlag(interiorId,roomIndex,flag) end
 --@params bbMaxY float
 --@params bbMaxZ float
 --@return void
-function SetInteriorRoomExtents(interiorId,roomIndex,bbMinX,bbMinY,bbMinZ,bbMaxX,bbMaxY,bbMaxZ) end
+function SetInteriorRoomExtents(interiorId, roomIndex, bbMinX, bbMinY, bbMinZ, bbMaxX, bbMaxY, bbMaxZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2671,7 +2946,8 @@ function SetInteriorRoomExtents(interiorId,roomIndex,bbMinX,bbMinY,bbMinZ,bbMaxX
 --@params portalIndex int
 --@params roomTo int
 --@return void
-function SetInteriorPortalRoomTo(interiorId,portalIndex,roomTo) end
+function SetInteriorPortalRoomTo(interiorId, portalIndex, roomTo)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2682,7 +2958,8 @@ function SetInteriorPortalRoomTo(interiorId,portalIndex,roomTo) end
 --@params portalIndex int
 --@params flag int
 --@return void
-function SetInteriorPortalFlag(interiorId,portalIndex,flag) end
+function SetInteriorPortalFlag(interiorId, portalIndex, flag)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2693,7 +2970,8 @@ function SetInteriorPortalFlag(interiorId,portalIndex,flag) end
 --@params roomIndex int
 --@params timecycleHash int
 --@return void
-function SetInteriorRoomTimecycle(interiorId,roomIndex,timecycleHash) end
+function SetInteriorRoomTimecycle(interiorId, roomIndex, timecycleHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2702,7 +2980,8 @@ function SetInteriorRoomTimecycle(interiorId,roomIndex,timecycleHash) end
 --@usage void SET_MANUAL_SHUTDOWN_LOADING_SCREEN_NUI(BOOL manualShutdown);
 --@params manualShutdown BOOL
 --@return void
-function SetManualShutdownLoadingScreenNui(manualShutdown) end
+function SetManualShutdownLoadingScreenNui(manualShutdown)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2716,7 +2995,8 @@ function SetManualShutdownLoadingScreenNui(manualShutdown) end
 --@params tilesX float
 --@params tilesY float
 --@return void
-function SetMapZoomDataLevel(index,zoomScale,zoomSpeed,scrollSpeed,tilesX,tilesY) end
+function SetMapZoomDataLevel(index, zoomScale, zoomSpeed, scrollSpeed, tilesX, tilesY)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2725,7 +3005,8 @@ function SetMapZoomDataLevel(index,zoomScale,zoomSpeed,scrollSpeed,tilesX,tilesY
 --@usage void SET_MILLISECONDS_PER_GAME_MINUTE(int value);
 --@params value int
 --@return void
-function SetMillisecondsPerGameMinute(value) end
+function SetMillisecondsPerGameMinute(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2739,7 +3020,8 @@ function SetMillisecondsPerGameMinute(value) end
 --@params yScale float
 --@params alpha float
 --@return void
-function SetMinimapOverlayDisplay(miniMap,x,y,xScale,yScale,alpha) end
+function SetMinimapOverlayDisplay(miniMap, x, y, xScale, yScale, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2751,7 +3033,8 @@ function SetMinimapOverlayDisplay(miniMap,x,y,xScale,yScale,alpha) end
 --@params headlightRotation float
 --@params invertRotation BOOL
 --@return void
-function SetModelHeadlightConfiguration(modelHash,ratePerSecond,headlightRotation,invertRotation) end
+function SetModelHeadlightConfiguration(modelHash, ratePerSecond, headlightRotation, invertRotation)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2761,7 +3044,8 @@ function SetModelHeadlightConfiguration(modelHash,ratePerSecond,headlightRotatio
 --@params hasFocus BOOL
 --@params hasCursor BOOL
 --@return void
-function SetNuiFocus(hasFocus,hasCursor) end
+function SetNuiFocus(hasFocus, hasCursor)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2770,7 +3054,8 @@ function SetNuiFocus(hasFocus,hasCursor) end
 --@usage void SET_NUI_FOCUS_KEEP_INPUT(BOOL keepInput);
 --@params keepInput BOOL
 --@return void
-function SetNuiFocusKeepInput(keepInput) end
+function SetNuiFocusKeepInput(keepInput)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2780,7 +3065,8 @@ function SetNuiFocusKeepInput(keepInput) end
 --@params player Player
 --@params state BOOL
 --@return void
-function SetPlayerTalkingOverride(player,state) end
+function SetPlayerTalkingOverride(player, state)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2789,7 +3075,8 @@ function SetPlayerTalkingOverride(player,state) end
 --@usage void SET_MAP_NAME(char* mapName);
 --@params mapName char*
 --@return void
-function SetMapName(mapName) end
+function SetMapName(mapName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2799,7 +3086,8 @@ function SetMapName(mapName) end
 --@params key char*
 --@params value float
 --@return void
-function SetResourceKvpFloat(key,value) end
+function SetResourceKvpFloat(key, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2808,7 +3096,8 @@ function SetResourceKvpFloat(key,value) end
 --@usage void SET_HTTP_HANDLER(func handler);
 --@params handler func
 --@return void
-function SetHttpHandler(handler) end
+function SetHttpHandler(handler)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2817,7 +3106,8 @@ function SetHttpHandler(handler) end
 --@usage void SET_RICH_PRESENCE(char* presenceState);
 --@params presenceState char*
 --@return void
-function SetRichPresence(presenceState) end
+function SetRichPresence(presenceState)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2827,7 +3117,8 @@ function SetRichPresence(presenceState) end
 --@params key char*
 --@params value int
 --@return void
-function SetResourceKvpInt(key,value) end
+function SetResourceKvpInt(key, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2838,7 +3129,8 @@ function SetResourceKvpInt(key,value) end
 --@params buffer char*
 --@params length int
 --@return BOOL
-function SetRuntimeTextureArgbData(tex,buffer,length) end
+function SetRuntimeTextureArgbData(tex, buffer, length)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2853,7 +3145,8 @@ function SetRuntimeTextureArgbData(tex,buffer,length) end
 --@params b int
 --@params a int
 --@return void
-function SetRuntimeTexturePixel(tex,x,y,r,g,b,a) end
+function SetRuntimeTexturePixel(tex, x, y, r, g, b, a)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2863,7 +3156,8 @@ function SetRuntimeTexturePixel(tex,x,y,r,g,b,a) end
 --@params key char*
 --@params value char*
 --@return void
-function SetResourceKvp(key,value) end
+function SetResourceKvp(key, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2874,7 +3168,8 @@ function SetResourceKvp(key,value) end
 --@params path char*
 --@params data char*
 --@return void
-function SetSnakeoilForEntry(name,path,data) end
+function SetSnakeoilForEntry(name, path, data)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2884,7 +3179,8 @@ function SetSnakeoilForEntry(name,path,data) end
 --@params vehicle Vehicle
 --@params value BOOL
 --@return void
-function SetVehicleAutoRepairDisabled(vehicle,value) end
+function SetVehicleAutoRepairDisabled(vehicle, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2894,7 +3190,8 @@ function SetVehicleAutoRepairDisabled(vehicle,value) end
 --@params vehicle Vehicle
 --@params clutch float
 --@return void
-function SetVehicleClutch(vehicle,clutch) end
+function SetVehicleClutch(vehicle, clutch)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2904,7 +3201,8 @@ function SetVehicleClutch(vehicle,clutch) end
 --@params vehicle Vehicle
 --@params time int
 --@return void
-function SetVehicleAlarmTimeLeft(vehicle,time) end
+function SetVehicleAlarmTimeLeft(vehicle, time)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2914,7 +3212,8 @@ function SetVehicleAlarmTimeLeft(vehicle,time) end
 --@params vehicle Vehicle
 --@params rpm float
 --@return void
-function SetVehicleCurrentRpm(vehicle,rpm) end
+function SetVehicleCurrentRpm(vehicle, rpm)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2924,7 +3223,8 @@ function SetVehicleCurrentRpm(vehicle,rpm) end
 --@params vehicle Vehicle
 --@params level float
 --@return void
-function SetVehicleFuelLevel(vehicle,level) end
+function SetVehicleFuelLevel(vehicle, level)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2934,7 +3234,8 @@ function SetVehicleFuelLevel(vehicle,level) end
 --@params vehicle Vehicle
 --@params temperature float
 --@return void
-function SetVehicleEngineTemperature(vehicle,temperature) end
+function SetVehicleEngineTemperature(vehicle, temperature)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2946,7 +3247,8 @@ function SetVehicleEngineTemperature(vehicle,temperature) end
 --@params fieldName char*
 --@params value float
 --@return void
-function SetVehicleHandlingFloat(vehicle,class_,fieldName,value) end
+function SetVehicleHandlingFloat(vehicle, class_, fieldName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2956,7 +3258,8 @@ function SetVehicleHandlingFloat(vehicle,class_,fieldName,value) end
 --@params vehicle Vehicle
 --@params gravity float
 --@return void
-function SetVehicleGravityAmount(vehicle,gravity) end
+function SetVehicleGravityAmount(vehicle, gravity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2968,7 +3271,8 @@ function SetVehicleGravityAmount(vehicle,gravity) end
 --@params fieldName char*
 --@params value Any
 --@return void
-function SetVehicleHandlingField(vehicle,class_,fieldName,value) end
+function SetVehicleHandlingField(vehicle, class_, fieldName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2977,7 +3281,8 @@ function SetVehicleHandlingField(vehicle,class_,fieldName,value) end
 --@usage BOOL SET_TEXT_CHAT_ENABLED(BOOL enabled);
 --@params enabled BOOL
 --@return BOOL
-function SetTextChatEnabled(enabled) end
+function SetTextChatEnabled(enabled)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2989,7 +3294,8 @@ function SetTextChatEnabled(enabled) end
 --@params fieldName char*
 --@params value Vector3
 --@return void
-function SetVehicleHandlingVector(vehicle,class_,fieldName,value) end
+function SetVehicleHandlingVector(vehicle, class_, fieldName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2999,7 +3305,8 @@ function SetVehicleHandlingVector(vehicle,class_,fieldName,value) end
 --@params vehicle Vehicle
 --@params gear int
 --@return void
-function SetVehicleHighGear(vehicle,gear) end
+function SetVehicleHighGear(vehicle, gear)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3011,7 +3318,8 @@ function SetVehicleHighGear(vehicle,gear) end
 --@params fieldName char*
 --@params value int
 --@return void
-function SetVehicleHandlingInt(vehicle,class_,fieldName,value) end
+function SetVehicleHandlingInt(vehicle, class_, fieldName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3021,7 +3329,8 @@ function SetVehicleHandlingInt(vehicle,class_,fieldName,value) end
 --@params vehicle Vehicle
 --@params level float
 --@return void
-function SetVehicleOilLevel(vehicle,level) end
+function SetVehicleOilLevel(vehicle, level)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3032,7 +3341,8 @@ function SetVehicleOilLevel(vehicle,level) end
 --@params wheelIndex int
 --@params value float
 --@return void
-function SetVehicleWheelRimColliderSize(vehicle,wheelIndex,value) end
+function SetVehicleWheelRimColliderSize(vehicle, wheelIndex, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3042,7 +3352,8 @@ function SetVehicleWheelRimColliderSize(vehicle,wheelIndex,value) end
 --@params vehicle Vehicle
 --@params angle float
 --@return void
-function SetVehicleSteeringAngle(vehicle,angle) end
+function SetVehicleSteeringAngle(vehicle, angle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3052,7 +3363,8 @@ function SetVehicleSteeringAngle(vehicle,angle) end
 --@params vehicle Vehicle
 --@params pressure float
 --@return void
-function SetVehicleTurboPressure(vehicle,pressure) end
+function SetVehicleTurboPressure(vehicle, pressure)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3063,7 +3375,8 @@ function SetVehicleTurboPressure(vehicle,pressure) end
 --@params wheelIndex int
 --@params value float
 --@return void
-function SetVehicleWheelTireColliderWidth(vehicle,wheelIndex,value) end
+function SetVehicleWheelTireColliderWidth(vehicle, wheelIndex, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3073,7 +3386,8 @@ function SetVehicleWheelTireColliderWidth(vehicle,wheelIndex,value) end
 --@params vehicle Vehicle
 --@params width float
 --@return BOOL
-function SetVehicleWheelWidth(vehicle,width) end
+function SetVehicleWheelWidth(vehicle, width)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3084,7 +3398,8 @@ function SetVehicleWheelWidth(vehicle,width) end
 --@params wheelIndex int
 --@params value float
 --@return void
-function SetVehicleWheelTireColliderSize(vehicle,wheelIndex,value) end
+function SetVehicleWheelTireColliderSize(vehicle, wheelIndex, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3094,7 +3409,8 @@ function SetVehicleWheelTireColliderSize(vehicle,wheelIndex,value) end
 --@params vehicle Vehicle
 --@params scale float
 --@return void
-function SetVehicleSteeringScale(vehicle,scale) end
+function SetVehicleSteeringScale(vehicle, scale)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3104,7 +3420,8 @@ function SetVehicleSteeringScale(vehicle,scale) end
 --@params vehicle Vehicle
 --@params size float
 --@return BOOL
-function SetVehicleWheelSize(vehicle,size) end
+function SetVehicleWheelSize(vehicle, size)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3115,7 +3432,8 @@ function SetVehicleWheelSize(vehicle,size) end
 --@params wheelIndex int
 --@params health float
 --@return void
-function SetVehicleWheelHealth(vehicle,wheelIndex,health) end
+function SetVehicleWheelHealth(vehicle, wheelIndex, health)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3126,7 +3444,8 @@ function SetVehicleWheelHealth(vehicle,wheelIndex,health) end
 --@params wheelIndex int
 --@params offset float
 --@return void
-function SetVehicleWheelXOffset(vehicle,wheelIndex,offset) end
+function SetVehicleWheelXOffset(vehicle, wheelIndex, offset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3137,7 +3456,8 @@ function SetVehicleWheelXOffset(vehicle,wheelIndex,offset) end
 --@params wheelIndex int
 --@params value float
 --@return void
-function SetVehicleWheelYRotation(vehicle,wheelIndex,value) end
+function SetVehicleWheelYRotation(vehicle, wheelIndex, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3147,7 +3467,8 @@ function SetVehicleWheelYRotation(vehicle,wheelIndex,value) end
 --@params vehicle Vehicle
 --@params state int
 --@return void
-function SetVehicleWheelieState(vehicle,state) end
+function SetVehicleWheelieState(vehicle, state)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3156,7 +3477,8 @@ function SetVehicleWheelieState(vehicle,state) end
 --@usage void SHUTDOWN_LOADING_SCREEN_NUI();
 
 --@return void
-function ShutdownLoadingScreenNui() end
+function ShutdownLoadingScreenNui()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3166,7 +3488,8 @@ function ShutdownLoadingScreenNui() end
 --@params name char*
 --@params value float
 --@return void
-function SetVisualSettingFloat(name,value) end
+function SetVisualSettingFloat(name, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3175,7 +3498,8 @@ function SetVisualSettingFloat(name,value) end
 --@usage BOOL STOP_RESOURCE(char* resourceName);
 --@params resourceName char*
 --@return BOOL
-function StopResource(resourceName) end
+function StopResource(resourceName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3187,7 +3511,8 @@ function StopResource(resourceName) end
 --@params eventPayload char*
 --@params payloadLength int
 --@return void
-function TriggerClientEventInternal(eventName,eventTarget,eventPayload,payloadLength) end
+function TriggerClientEventInternal(eventName, eventTarget, eventPayload, payloadLength)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3196,7 +3521,8 @@ function TriggerClientEventInternal(eventName,eventTarget,eventPayload,payloadLe
 --@usage int START_FIND_KVP(char* prefix);
 --@params prefix char*
 --@return int
-function StartFindKvp(prefix) end
+function StartFindKvp(prefix)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3206,7 +3532,8 @@ function StartFindKvp(prefix) end
 --@params playerSrc char*
 --@params reason char*
 --@return void
-function TempBanPlayer(playerSrc,reason) end
+function TempBanPlayer(playerSrc, reason)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3219,7 +3546,8 @@ function TempBanPlayer(playerSrc,reason) end
 --@params payloadLength int
 --@params bps int
 --@return void
-function TriggerLatentClientEventInternal(eventName,eventTarget,eventPayload,payloadLength,bps) end
+function TriggerLatentClientEventInternal(eventName, eventTarget, eventPayload, payloadLength, bps)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3228,7 +3556,8 @@ function TriggerLatentClientEventInternal(eventName,eventTarget,eventPayload,pay
 --@usage BOOL START_RESOURCE(char* resourceName);
 --@params resourceName char*
 --@return BOOL
-function StartResource(resourceName) end
+function StartResource(resourceName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3239,7 +3568,8 @@ function StartResource(resourceName) end
 --@params eventPayload char*
 --@params payloadLength int
 --@return void
-function TriggerServerEventInternal(eventName,eventPayload,payloadLength) end
+function TriggerServerEventInternal(eventName, eventPayload, payloadLength)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3251,7 +3581,8 @@ function TriggerServerEventInternal(eventName,eventPayload,payloadLength) end
 --@params payloadLength int
 --@params bps int
 --@return void
-function TriggerLatentServerEventInternal(eventName,eventPayload,payloadLength,bps) end
+function TriggerLatentServerEventInternal(eventName, eventPayload, payloadLength, bps)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3261,7 +3592,8 @@ function TriggerLatentServerEventInternal(eventName,eventPayload,payloadLength,b
 --@params password char*
 --@params hash char*
 --@return BOOL
-function VerifyPasswordHash(password,hash) end
+function VerifyPasswordHash(password, hash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3272,7 +3604,8 @@ function VerifyPasswordHash(password,hash) end
 --@params eventPayload char*
 --@params payloadLength int
 --@return void
-function TriggerEventInternal(eventName,eventPayload,payloadLength) end
+function TriggerEventInternal(eventName, eventPayload, payloadLength)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3281,4 +3614,5 @@ function TriggerEventInternal(eventName,eventPayload,payloadLength) end
 --@usage BOOL WAS_EVENT_CANCELED();
 
 --@return BOOL
-function WasEventCanceled() end
+function WasEventCanceled()
+end

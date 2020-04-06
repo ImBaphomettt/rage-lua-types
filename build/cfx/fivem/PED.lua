@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule PED
@@ -7,7 +6,8 @@
 --@params ped Ped
 --@params amount int
 --@return void
-function AddArmourToPed(ped,amount) end
+function AddArmourToPed(ped, amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -18,7 +18,8 @@ function AddArmourToPed(ped,amount) end
 --@params collection Hash
 --@params overlay Hash
 --@return void
-function AddPedDecorationFromHashesInCorona(ped,collection,overlay) end
+function AddPedDecorationFromHashesInCorona(ped, collection, overlay)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -29,7 +30,8 @@ function AddPedDecorationFromHashesInCorona(ped,collection,overlay) end
 --@params collection Hash
 --@params overlay Hash
 --@return void
-function AddPedDecorationFromHashes(ped,collection,overlay) end
+function AddPedDecorationFromHashes(ped, collection, overlay)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -40,7 +42,8 @@ function AddPedDecorationFromHashes(ped,collection,overlay) end
 --@params damageAmount int
 --@params armorFirst BOOL
 --@return void
-function ApplyDamageToPed(ped,damageAmount,armorFirst) end
+function ApplyDamageToPed(ped, damageAmount, armorFirst)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -50,7 +53,8 @@ function ApplyDamageToPed(ped,damageAmount,armorFirst) end
 --@params name char*
 --@params groupHash Hash*
 --@return Any
-function AddRelationshipGroup(name,groupHash) end
+function AddRelationshipGroup(name, groupHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -64,7 +68,8 @@ function AddRelationshipGroup(name,groupHash) end
 --@params zRot float
 --@params woundType char*
 --@return void
-function ApplyPedBlood(ped,boneIndex,xRot,yRot,zRot,woundType) end
+function ApplyPedBlood(ped, boneIndex, xRot, yRot, zRot, woundType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -82,7 +87,8 @@ function ApplyPedBlood(ped,boneIndex,xRot,yRot,zRot,woundType) end
 --@params p8 BOOL
 --@params p9 BOOL
 --@return int
-function AddScenarioBlockingArea(x1,y1,z1,x2,y2,z2,p6,p7,p8,p9) end
+function AddScenarioBlockingArea(x1, y1, z1, x2, y2, z2, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -99,7 +105,8 @@ function AddScenarioBlockingArea(x1,y1,z1,x2,y2,z2,p6,p7,p8,p9) end
 --@params p7 float
 --@params p8 Any*
 --@return void
-function ApplyPedBloodSpecific(ped,p1,p2,p3,p4,p5,p6,p7,p8) end
+function ApplyPedBloodSpecific(ped, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -117,7 +124,8 @@ function ApplyPedBloodSpecific(ped,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params fadeIn BOOL
 --@params decalName char*
 --@return void
-function ApplyPedDamageDecal(ped,damageZone,xOffset,yOffset,heading,scale,alpha,variation,fadeIn,decalName) end
+function ApplyPedDamageDecal(ped, damageZone, xOffset, yOffset, heading, scale, alpha, variation, fadeIn, decalName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -130,7 +138,8 @@ function ApplyPedDamageDecal(ped,damageZone,xOffset,yOffset,heading,scale,alpha,
 --@params p3 float
 --@params p4 Any*
 --@return void
-function ApplyPedBloodByZone(ped,p1,p2,p3,p4) end
+function ApplyPedBloodByZone(ped, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -143,7 +152,8 @@ function ApplyPedBloodByZone(ped,p1,p2,p3,p4) end
 --@params p3 float
 --@params p4 Any
 --@return void
-function ApplyPedBloodDamageByZone(ped,p1,p2,p3,p4) end
+function ApplyPedBloodDamageByZone(ped, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -153,7 +163,8 @@ function ApplyPedBloodDamageByZone(ped,p1,p2,p3,p4) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function BlockPedDeadBodyShockingEvents(ped,toggle) end
+function BlockPedDeadBodyShockingEvents(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -165,7 +176,8 @@ function BlockPedDeadBodyShockingEvents(ped,toggle) end
 --@params damage float
 --@params mult float
 --@return void
-function ApplyPedDamagePack(ped,damagePack,damage,mult) end
+function ApplyPedDamagePack(ped, damagePack, damage, mult)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -176,7 +188,8 @@ function ApplyPedDamagePack(ped,damagePack,damage,mult) end
 --@params entity Entity
 --@params boneIndex int
 --@return void
-function AttachSynchronizedSceneToEntity(sceneID,entity,boneIndex) end
+function AttachSynchronizedSceneToEntity(sceneID, entity, boneIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -185,7 +198,8 @@ function AttachSynchronizedSceneToEntity(sceneID,entity,boneIndex) end
 --@usage BOOL CAN_CREATE_RANDOM_BIKE_RIDER();
 
 --@return BOOL
-function CanCreateRandomBikeRider() end
+function CanCreateRandomBikeRider()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -194,7 +208,8 @@ function CanCreateRandomBikeRider() end
 --@usage BOOL CAN_KNOCK_PED_OFF_VEHICLE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function CanKnockPedOffVehicle(ped) end
+function CanKnockPedOffVehicle(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -203,7 +218,8 @@ function CanKnockPedOffVehicle(ped) end
 --@usage BOOL CAN_CREATE_RANDOM_PED(BOOL unk);
 --@params unk BOOL
 --@return BOOL
-function CanCreateRandomPed(unk) end
+function CanCreateRandomPed(unk)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -212,7 +228,8 @@ function CanCreateRandomPed(unk) end
 --@usage BOOL CAN_CREATE_RANDOM_COPS();
 
 --@return BOOL
-function CanCreateRandomCops() end
+function CanCreateRandomCops()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -221,7 +238,8 @@ function CanCreateRandomCops() end
 --@usage BOOL CAN_CREATE_RANDOM_DRIVER();
 
 --@return BOOL
-function CanCreateRandomDriver() end
+function CanCreateRandomDriver()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -231,7 +249,8 @@ function CanCreateRandomDriver() end
 --@params ped Ped
 --@params target Ped
 --@return BOOL
-function CanPedInCombatSeeTarget(ped,target) end
+function CanPedInCombatSeeTarget(ped, target)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -240,7 +259,8 @@ function CanPedInCombatSeeTarget(ped,target) end
 --@usage void CLEAR_ALL_PED_VEHICLE_FORCED_SEAT_USAGE(Ped ped);
 --@params ped Ped
 --@return void
-function ClearAllPedVehicleForcedSeatUsage(ped) end
+function ClearAllPedVehicleForcedSeatUsage(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -249,7 +269,8 @@ function ClearAllPedVehicleForcedSeatUsage(ped) end
 --@usage BOOL CAN_PED_RAGDOLL(Ped ped);
 --@params ped Ped
 --@return BOOL
-function CanPedRagdoll(ped) end
+function CanPedRagdoll(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -258,7 +279,8 @@ function CanPedRagdoll(ped) end
 --@usage void CLEAR_ALL_PED_PROPS(Ped ped);
 --@params ped Ped
 --@return void
-function ClearAllPedProps(ped) end
+function ClearAllPedProps(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -268,7 +290,8 @@ function ClearAllPedProps(ped) end
 --@params ped1 Ped
 --@params ped2 Ped
 --@return BOOL
-function CanPedSeeHatedPed(ped1,ped2) end
+function CanPedSeeHatedPed(ped1, ped2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -278,7 +301,8 @@ function CanPedSeeHatedPed(ped1,ped2) end
 --@params ped Ped
 --@params p1 float
 --@return void
-function ClearPedAlternateWalkAnim(ped,p1) end
+function ClearPedAlternateWalkAnim(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -289,7 +313,8 @@ function ClearPedAlternateWalkAnim(ped,p1) end
 --@params stance int
 --@params p2 float
 --@return void
-function ClearPedAlternateMovementAnim(ped,stance,p2) end
+function ClearPedAlternateMovementAnim(ped, stance, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -298,7 +323,8 @@ function ClearPedAlternateMovementAnim(ped,stance,p2) end
 --@usage void _CLEAR_PED_COVER_CLIPSET_OVERRIDE(Ped ped);
 --@params ped Ped
 --@return void
-function ClearPedCoverClipsetOverride(ped) end
+function ClearPedCoverClipsetOverride(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -308,7 +334,8 @@ function ClearPedCoverClipsetOverride(ped) end
 --@params ped Ped
 --@params p1 int
 --@return void
-function ClearPedBloodDamageByZone(ped,p1) end
+function ClearPedBloodDamageByZone(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -319,7 +346,8 @@ function ClearPedBloodDamageByZone(ped,p1) end
 --@params p1 int
 --@params p2 char*
 --@return void
-function ClearPedDamageDecalByZone(ped,p1,p2) end
+function ClearPedDamageDecalByZone(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -328,7 +356,8 @@ function ClearPedDamageDecalByZone(ped,p1,p2) end
 --@usage void CLEAR_PED_DECORATIONS(Ped ped);
 --@params ped Ped
 --@return void
-function ClearPedDecorations(ped) end
+function ClearPedDecorations(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -337,7 +366,8 @@ function ClearPedDecorations(ped) end
 --@usage void CLEAR_PED_BLOOD_DAMAGE(Ped ped);
 --@params ped Ped
 --@return void
-function ClearPedBloodDamage(ped) end
+function ClearPedBloodDamage(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -346,7 +376,8 @@ function ClearPedBloodDamage(ped) end
 --@usage void CLEAR_PED_DRIVE_BY_CLIPSET_OVERRIDE(Ped ped);
 --@params ped Ped
 --@return void
-function ClearPedDriveByClipsetOverride(ped) end
+function ClearPedDriveByClipsetOverride(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -355,7 +386,8 @@ function ClearPedDriveByClipsetOverride(ped) end
 --@usage void CLEAR_PED_ENV_DIRT(Ped ped);
 --@params ped Ped
 --@return void
-function ClearPedEnvDirt(ped) end
+function ClearPedEnvDirt(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -364,7 +396,8 @@ function ClearPedEnvDirt(ped) end
 --@usage void CLEAR_PED_DECORATIONS_LEAVE_SCARS(Ped ped);
 --@params ped Ped
 --@return void
-function ClearPedDecorationsLeaveScars(ped) end
+function ClearPedDecorationsLeaveScars(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -373,7 +406,8 @@ function ClearPedDecorationsLeaveScars(ped) end
 --@usage void CLEAR_FACIAL_IDLE_ANIM_OVERRIDE(Ped ped);
 --@params ped Ped
 --@return void
-function ClearFacialIdleAnimOverride(ped) end
+function ClearFacialIdleAnimOverride(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -383,7 +417,8 @@ function ClearFacialIdleAnimOverride(ped) end
 --@params ped Ped
 --@params propId int
 --@return void
-function ClearPedProp(ped,propId) end
+function ClearPedProp(ped, propId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -392,7 +427,8 @@ function ClearPedProp(ped,propId) end
 --@usage void CLEAR_PED_PARACHUTE_PACK_VARIATION(Ped ped);
 --@params ped Ped
 --@return void
-function ClearPedParachutePackVariation(ped) end
+function ClearPedParachutePackVariation(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -401,7 +437,8 @@ function ClearPedParachutePackVariation(ped) end
 --@usage void CLEAR_PED_SCUBA_GEAR_VARIATION(Ped ped);
 --@params ped Ped
 --@return void
-function ClearPedScubaGearVariation(ped) end
+function ClearPedScubaGearVariation(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -410,7 +447,8 @@ function ClearPedScubaGearVariation(ped) end
 --@usage void CLEAR_PED_NON_CREATION_AREA();
 
 --@return void
-function ClearPedNonCreationArea() end
+function ClearPedNonCreationArea()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -419,7 +457,8 @@ function ClearPedNonCreationArea() end
 --@usage void CLEAR_PED_LAST_DAMAGE_BONE(Ped ped);
 --@params ped Ped
 --@return void
-function ClearPedLastDamageBone(ped) end
+function ClearPedLastDamageBone(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -430,7 +469,8 @@ function ClearPedLastDamageBone(ped) end
 --@params group1 Hash
 --@params group2 Hash
 --@return void
-function ClearRelationshipBetweenGroups(relationship,group1,group2) end
+function ClearRelationshipBetweenGroups(relationship, group1, group2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -440,7 +480,8 @@ function ClearRelationshipBetweenGroups(relationship,group1,group2) end
 --@params ped Ped
 --@params flags int
 --@return void
-function ClearRagdollBlockingFlags(ped,flags) end
+function ClearRagdollBlockingFlags(ped, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -452,7 +493,8 @@ function ClearRagdollBlockingFlags(ped,flags) end
 --@params isNetwork BOOL
 --@params thisScriptCheck BOOL
 --@return Ped
-function ClonePed(ped,heading,isNetwork,thisScriptCheck) end
+function ClonePed(ped, heading, isNetwork, thisScriptCheck)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -463,7 +505,8 @@ function ClonePed(ped,heading,isNetwork,thisScriptCheck) end
 --@params targetPed Ped
 --@params p2 Any
 --@return void
-function ClonePedToTargetEx(ped,targetPed,p2) end
+function ClonePedToTargetEx(ped, targetPed, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -472,7 +515,8 @@ function ClonePedToTargetEx(ped,targetPed,p2) end
 --@usage void CLEAR_PED_WETNESS(Ped ped);
 --@params ped Ped
 --@return void
-function ClearPedWetness(ped) end
+function ClearPedWetness(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -482,7 +526,8 @@ function ClearPedWetness(ped) end
 --@params ped Ped
 --@params targetPed Ped
 --@return void
-function ClonePedToTarget(ped,targetPed) end
+function ClonePedToTarget(ped, targetPed)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -492,7 +537,8 @@ function ClonePedToTarget(ped,targetPed) end
 --@params startImmediately BOOL
 --@params messageId int
 --@return void
-function CreateNmMessage(startImmediately,messageId) end
+function CreateNmMessage(startImmediately, messageId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -505,7 +551,8 @@ function CreateNmMessage(startImmediately,messageId) end
 --@params thisScriptCheck Any
 --@params p4 Any
 --@return Ped
-function ClonePed_2(ped,heading,isNetwork,thisScriptCheck,p4) end
+function ClonePed_2(ped, heading, isNetwork, thisScriptCheck, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -521,7 +568,8 @@ function ClonePed_2(ped,heading,isNetwork,thisScriptCheck,p4) end
 --@params isNetwork BOOL
 --@params thisScriptCheck BOOL
 --@return Ped
-function CreatePed(pedType,modelHash,x,y,z,heading,isNetwork,thisScriptCheck) end
+function CreatePed(pedType, modelHash, x, y, z, heading, isNetwork, thisScriptCheck)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -535,7 +583,8 @@ function CreatePed(pedType,modelHash,x,y,z,heading,isNetwork,thisScriptCheck) en
 --@params isNetwork BOOL
 --@params thisScriptCheck BOOL
 --@return Ped
-function CreatePedInsideVehicle(vehicle,pedType,modelHash,seat,isNetwork,thisScriptCheck) end
+function CreatePedInsideVehicle(vehicle, pedType, modelHash, seat, isNetwork, thisScriptCheck)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -544,7 +593,8 @@ function CreatePedInsideVehicle(vehicle,pedType,modelHash,seat,isNetwork,thisScr
 --@usage int CREATE_GROUP(int unused);
 --@params unused int
 --@return int
-function CreateGroup(unused) end
+function CreateGroup(unused)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -555,7 +605,8 @@ function CreateGroup(unused) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return Object
-function CreateParachuteObject(ped,p1,p2) end
+function CreateParachuteObject(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -570,7 +621,8 @@ function CreateParachuteObject(ped,p1,p2) end
 --@params yaw float
 --@params p6 int
 --@return int
-function CreateSynchronizedScene(x,y,z,roll,pitch,yaw,p6) end
+function CreateSynchronizedScene(x, y, z, roll, pitch, yaw, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -580,7 +632,8 @@ function CreateSynchronizedScene(x,y,z,roll,pitch,yaw,p6) end
 --@params vehicle Vehicle
 --@params returnHandle BOOL
 --@return Ped
-function CreateRandomPedAsDriver(vehicle,returnHandle) end
+function CreateRandomPedAsDriver(vehicle, returnHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -589,7 +642,8 @@ function CreateRandomPedAsDriver(vehicle,returnHandle) end
 --@usage void DISABLE_HEAD_BLEND_PALETTE_COLOR(Ped ped);
 --@params ped Ped
 --@return void
-function DisableHeadBlendPaletteColor(ped) end
+function DisableHeadBlendPaletteColor(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -600,7 +654,8 @@ function DisableHeadBlendPaletteColor(ped) end
 --@params posY float
 --@params posZ float
 --@return Ped
-function CreateRandomPed(posX,posY,posZ) end
+function CreateRandomPed(posX, posY, posZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -613,7 +668,8 @@ function CreateRandomPed(posX,posY,posZ) end
 --@params radius float
 --@params object Hash
 --@return int
-function CreateSynchronizedScene_2(x,y,z,radius,object) end
+function CreateSynchronizedScene_2(x, y, z, radius, object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -622,7 +678,8 @@ function CreateSynchronizedScene_2(x,y,z,radius,object) end
 --@usage void _DISPOSE_SYNCHRONIZED_SCENE(int scene);
 --@params scene int
 --@return void
-function DisposeSynchronizedScene(scene) end
+function DisposeSynchronizedScene(scene)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -631,7 +688,8 @@ function DisposeSynchronizedScene(scene) end
 --@usage void DETACH_SYNCHRONIZED_SCENE(int sceneID);
 --@params sceneID int
 --@return void
-function DetachSynchronizedScene(sceneID) end
+function DetachSynchronizedScene(sceneID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -640,7 +698,8 @@ function DetachSynchronizedScene(sceneID) end
 --@usage void DISABLE_PED_HEATSCALE_OVERRIDE(Ped ped);
 --@params ped Ped
 --@return void
-function DisablePedHeatscaleOverride(ped) end
+function DisablePedHeatscaleOverride(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -649,7 +708,8 @@ function DisablePedHeatscaleOverride(ped) end
 --@usage BOOL _DOES_RELATIONSHIP_GROUP_EXIST(Any groupHash);
 --@params groupHash Any
 --@return BOOL
-function DoesRelationshipGroupExist(groupHash) end
+function DoesRelationshipGroupExist(groupHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -658,7 +718,8 @@ function DoesRelationshipGroupExist(groupHash) end
 --@usage void DROP_AMBIENT_PROP(Ped ped);
 --@params ped Ped
 --@return void
-function DropAmbientProp(ped) end
+function DropAmbientProp(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -667,7 +728,8 @@ function DropAmbientProp(ped) end
 --@usage BOOL DOES_GROUP_EXIST(int groupId);
 --@params groupId int
 --@return BOOL
-function DoesGroupExist(groupId) end
+function DoesGroupExist(groupId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -676,7 +738,8 @@ function DoesGroupExist(groupId) end
 --@usage void FORCE_PED_TO_OPEN_PARACHUTE(Ped ped);
 --@params ped Ped
 --@return void
-function ForcePedToOpenParachute(ped) end
+function ForcePedToOpenParachute(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -685,7 +748,8 @@ function ForcePedToOpenParachute(ped) end
 --@usage void DELETE_PED(Ped* ped);
 --@params ped Ped*
 --@return void
-function DeletePed(ped) end
+function DeletePed(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -694,7 +758,8 @@ function DeletePed(ped) end
 --@usage void _FREEZE_PED_CAMERA_ROTATION(Ped ped);
 --@params ped Ped
 --@return void
-function FreezePedCameraRotation(ped) end
+function FreezePedCameraRotation(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -704,7 +769,8 @@ function FreezePedCameraRotation(ped) end
 --@params ped Ped
 --@params weaponHash Hash
 --@return void
-function ExplodePedHead(ped,weaponHash) end
+function ExplodePedHead(ped, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -717,7 +783,8 @@ function ExplodePedHead(ped,weaponHash) end
 --@params p3 BOOL
 --@params p4 BOOL
 --@return BOOL
-function ForcePedMotionState(ped,motionStateHash,p2,p3,p4) end
+function ForcePedMotionState(ped, motionStateHash, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -735,7 +802,8 @@ function ForcePedMotionState(ped,motionStateHash,p2,p3,p4) end
 --@params p8 float
 --@params p9 int
 --@return Vector3
-function GetAnimInitialOffsetPosition(animDict,animName,x,y,z,xRot,yRot,zRot,p8,p9) end
+function GetAnimInitialOffsetPosition(animDict, animName, x, y, z, xRot, yRot, zRot, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -753,7 +821,8 @@ function GetAnimInitialOffsetPosition(animDict,animName,x,y,z,xRot,yRot,zRot,p8,
 --@params p8 float
 --@params p9 int
 --@return Vector3
-function GetAnimInitialOffsetRotation(animDict,animName,x,y,z,xRot,yRot,zRot,p8,p9) end
+function GetAnimInitialOffsetRotation(animDict, animName, x, y, z, xRot, yRot, zRot, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -767,7 +836,8 @@ function GetAnimInitialOffsetRotation(animDict,animName,x,y,z,xRot,yRot,zRot,p8,
 --@params y2 float
 --@params z2 float
 --@return BOOL
-function DoesScenarioBlockingAreaExist(x1,y1,z1,x2,y2,z2) end
+function DoesScenarioBlockingAreaExist(x1, y1, z1, x2, y2, z2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -785,7 +855,8 @@ function DoesScenarioBlockingAreaExist(x1,y1,z1,x2,y2,z2) end
 --@params p8 BOOL
 --@params pedType int
 --@return BOOL
-function GetClosestPed(x,y,z,radius,p4,p5,outPed,p7,p8,pedType) end
+function GetClosestPed(x, y, z, radius, p4, p5, outPed, p7, p8, pedType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -794,7 +865,8 @@ function GetClosestPed(x,y,z,radius,p4,p5,outPed,p7,p8,pedType) end
 --@usage Ped GET_JACK_TARGET(Ped ped);
 --@params ped Ped
 --@return Ped
-function GetJackTarget(ped) end
+function GetJackTarget(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -805,7 +877,8 @@ function GetJackTarget(ped) end
 --@params unknown Any*
 --@params sizeInMembers int*
 --@return void
-function GetGroupSize(groupID,unknown,sizeInMembers) end
+function GetGroupSize(groupID, unknown, sizeInMembers)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -816,7 +889,8 @@ function GetGroupSize(groupID,unknown,sizeInMembers) end
 --@params p1 float
 --@params p2 float
 --@return Vector3
-function GetDeadPedPickupCoords(ped,p1,p2) end
+function GetDeadPedPickupCoords(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -825,7 +899,8 @@ function GetDeadPedPickupCoords(ped,p1,p2) end
 --@usage Ped GET_MELEE_TARGET_FOR_PED(Ped ped);
 --@params ped Ped
 --@return Ped
-function GetMeleeTargetForPed(ped) end
+function GetMeleeTargetForPed(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -835,7 +910,8 @@ function GetMeleeTargetForPed(ped) end
 --@params ped Ped
 --@params p1 int
 --@return float
-function GetCombatFloat(ped,p1) end
+function GetCombatFloat(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -844,7 +920,8 @@ function GetCombatFloat(ped,p1) end
 --@usage Ped GET_MOUNT(Ped ped);
 --@params ped Ped
 --@return Ped
-function GetMount(ped) end
+function GetMount(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -853,7 +930,8 @@ function GetMount(ped) end
 --@usage int _GET_NUM_HAIR_COLORS();
 
 --@return int
-function GetNumHairColors() end
+function GetNumHairColors()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -863,7 +941,8 @@ function GetNumHairColors() end
 --@params ped Ped
 --@params componentId int
 --@return int
-function GetNumberOfPedDrawableVariations(ped,componentId) end
+function GetNumberOfPedDrawableVariations(ped, componentId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -872,7 +951,8 @@ function GetNumberOfPedDrawableVariations(ped,componentId) end
 --@usage int _GET_NUM_PARENT_PEDS_OF_TYPE(int type);
 --@params type int
 --@return int
-function GetNumParentPedsOfType(type) end
+function GetNumParentPedsOfType(type)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -882,7 +962,8 @@ function GetNumParentPedsOfType(type) end
 --@params ped Ped
 --@params propId int
 --@return int
-function GetNumberOfPedPropDrawableVariations(ped,propId) end
+function GetNumberOfPedPropDrawableVariations(ped, propId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -893,7 +974,8 @@ function GetNumberOfPedPropDrawableVariations(ped,propId) end
 --@params propId int
 --@params drawableId int
 --@return int
-function GetNumberOfPedPropTextureVariations(ped,propId,drawableId) end
+function GetNumberOfPedPropTextureVariations(ped, propId, drawableId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -904,7 +986,8 @@ function GetNumberOfPedPropTextureVariations(ped,propId,drawableId) end
 --@params componentId int
 --@params drawableId int
 --@return int
-function GetNumberOfPedTextureVariations(ped,componentId,drawableId) end
+function GetNumberOfPedTextureVariations(ped, componentId, drawableId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -913,7 +996,8 @@ function GetNumberOfPedTextureVariations(ped,componentId,drawableId) end
 --@usage int GET_PED_ALERTNESS(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedAlertness(ped) end
+function GetPedAlertness(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -922,7 +1006,8 @@ function GetPedAlertness(ped) end
 --@usage int GET_PED_ARMOUR(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedArmour(ped) end
+function GetPedArmour(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -931,7 +1016,8 @@ function GetPedArmour(ped) end
 --@usage int GET_PED_ACCURACY(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedAccuracy(ped) end
+function GetPedAccuracy(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -941,7 +1027,8 @@ function GetPedAccuracy(ped) end
 --@params groupID int
 --@params memberNumber int
 --@return Ped
-function GetPedAsGroupMember(groupID,memberNumber) end
+function GetPedAsGroupMember(groupID, memberNumber)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -954,7 +1041,8 @@ function GetPedAsGroupMember(groupID,memberNumber) end
 --@params offsetY float
 --@params offsetZ float
 --@return Vector3
-function GetPedBoneCoords(ped,boneId,offsetX,offsetY,offsetZ) end
+function GetPedBoneCoords(ped, boneId, offsetX, offsetY, offsetZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -963,7 +1051,8 @@ function GetPedBoneCoords(ped,boneId,offsetX,offsetY,offsetZ) end
 --@usage int _GET_NUM_MAKEUP_COLORS();
 
 --@return int
-function GetNumMakeupColors() end
+function GetNumMakeupColors()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -973,7 +1062,8 @@ function GetNumMakeupColors() end
 --@params ped Ped
 --@params boneId int
 --@return int
-function GetPedBoneIndex(ped,boneId) end
+function GetPedBoneIndex(ped, boneId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -982,7 +1072,8 @@ function GetPedBoneIndex(ped,boneId) end
 --@usage int GET_PED_COMBAT_MOVEMENT(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedCombatMovement(ped) end
+function GetPedCombatMovement(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -991,7 +1082,8 @@ function GetPedCombatMovement(ped) end
 --@usage Hash GET_PED_CAUSE_OF_DEATH(Ped ped);
 --@params ped Ped
 --@return Hash
-function GetPedCauseOfDeath(ped) end
+function GetPedCauseOfDeath(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1000,7 +1092,8 @@ function GetPedCauseOfDeath(ped) end
 --@usage Ped GET_PED_AS_GROUP_LEADER(int groupID);
 --@params groupID int
 --@return Ped
-function GetPedAsGroupLeader(groupID) end
+function GetPedAsGroupLeader(groupID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1011,7 +1104,8 @@ function GetPedAsGroupLeader(groupID) end
 --@params flagId int
 --@params p2 BOOL
 --@return BOOL
-function GetPedConfigFlag(ped,flagId,p2) end
+function GetPedConfigFlag(ped, flagId, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1021,7 +1115,8 @@ function GetPedConfigFlag(ped,flagId,p2) end
 --@params collection Hash
 --@params overlay Hash
 --@return int
-function GetPedDecorationZoneFromHashes(collection,overlay) end
+function GetPedDecorationZoneFromHashes(collection, overlay)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1031,7 +1126,8 @@ function GetPedDecorationZoneFromHashes(collection,overlay) end
 --@params ped Ped
 --@params p1 BOOL
 --@return Vector3
-function GetPedDefensiveAreaPosition(ped,p1) end
+function GetPedDefensiveAreaPosition(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1040,7 +1136,8 @@ function GetPedDefensiveAreaPosition(ped,p1) end
 --@usage int GET_PED_DECORATIONS_STATE(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedDecorationsState(ped) end
+function GetPedDecorationsState(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1050,7 +1147,8 @@ function GetPedDecorationsState(ped) end
 --@params ped Ped
 --@params componentId int
 --@return int
-function GetPedDrawableVariation(ped,componentId) end
+function GetPedDrawableVariation(ped, componentId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1060,7 +1158,8 @@ function GetPedDrawableVariation(ped,componentId) end
 --@params ped Ped
 --@params worldSpace BOOL
 --@return Vector3
-function GetPedExtractedDisplacement(ped,worldSpace) end
+function GetPedExtractedDisplacement(ped, worldSpace)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1069,7 +1168,8 @@ function GetPedExtractedDisplacement(ped,worldSpace) end
 --@usage int GET_PED_GROUP_INDEX(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedGroupIndex(ped) end
+function GetPedGroupIndex(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1078,7 +1178,8 @@ function GetPedGroupIndex(ped) end
 --@usage float GET_PED_ENVEFF_SCALE(Ped ped);
 --@params ped Ped
 --@return float
-function GetPedEnveffScale(ped) end
+function GetPedEnveffScale(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1090,7 +1191,8 @@ function GetPedEnveffScale(ped) end
 --@params outG int*
 --@params outB int*
 --@return void
-function GetPedHairRgbColor(hairColorIndex,outR,outG,outB) end
+function GetPedHairRgbColor(hairColorIndex, outR, outG, outB)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1100,7 +1202,8 @@ function GetPedHairRgbColor(hairColorIndex,outR,outG,outB) end
 --@params ped Ped
 --@params headBlendData Any*
 --@return BOOL
-function GetPedHeadBlendData(ped,headBlendData) end
+function GetPedHeadBlendData(ped, headBlendData)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1109,7 +1212,8 @@ function GetPedHeadBlendData(ped,headBlendData) end
 --@usage int GET_PED_HEAD_OVERLAY_NUM(int overlayID);
 --@params overlayID int
 --@return int
-function GetPedHeadOverlayNum(overlayID) end
+function GetPedHeadOverlayNum(overlayID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1118,7 +1222,8 @@ function GetPedHeadOverlayNum(overlayID) end
 --@usage int GET_PED_HEAD_BLEND_FIRST_INDEX(int type);
 --@params type int
 --@return int
-function GetPedHeadBlendFirstIndex(type) end
+function GetPedHeadBlendFirstIndex(type)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1127,7 +1232,8 @@ function GetPedHeadBlendFirstIndex(type) end
 --@usage float _GET_PED_ILLUMINATED_CLOTHING_GLOW_INTENSITY(Ped ped);
 --@params ped Ped
 --@return float
-function GetPedIlluminatedClothingGlowIntensity(ped) end
+function GetPedIlluminatedClothingGlowIntensity(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1137,7 +1243,8 @@ function GetPedIlluminatedClothingGlowIntensity(ped) end
 --@params ped Ped
 --@params overlayID int
 --@return int
-function GetPedHeadOverlayValue(ped,overlayID) end
+function GetPedHeadOverlayValue(ped, overlayID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1147,7 +1254,8 @@ function GetPedHeadOverlayValue(ped,overlayID) end
 --@params ped Ped
 --@params outBone int*
 --@return BOOL
-function GetPedLastDamageBone(ped,outBone) end
+function GetPedLastDamageBone(ped, outBone)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1159,7 +1267,8 @@ function GetPedLastDamageBone(ped,outBone) end
 --@params outG int*
 --@params outB int*
 --@return void
-function GetPedMakeupRgbColor(makeupColorIndex,outR,outG,outB) end
+function GetPedMakeupRgbColor(makeupColorIndex, outR, outG, outB)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1168,7 +1277,8 @@ function GetPedMakeupRgbColor(makeupColorIndex,outR,outG,outB) end
 --@usage int GET_PED_COMBAT_RANGE(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedCombatRange(ped) end
+function GetPedCombatRange(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1179,7 +1289,8 @@ function GetPedCombatRange(ped) end
 --@params sizeAndPeds int*
 --@params ignore int
 --@return int
-function GetPedNearbyPeds(ped,sizeAndPeds,ignore) end
+function GetPedNearbyPeds(ped, sizeAndPeds, ignore)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1189,7 +1300,8 @@ function GetPedNearbyPeds(ped,sizeAndPeds,ignore) end
 --@params ped Ped
 --@params componentId int
 --@return int
-function GetPedPaletteVariation(ped,componentId) end
+function GetPedPaletteVariation(ped, componentId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1198,7 +1310,8 @@ function GetPedPaletteVariation(ped,componentId) end
 --@usage int GET_PED_MONEY(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedMoney(ped) end
+function GetPedMoney(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1207,7 +1320,8 @@ function GetPedMoney(ped) end
 --@usage int GET_PED_MAX_HEALTH(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedMaxHealth(ped) end
+function GetPedMaxHealth(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1216,7 +1330,8 @@ function GetPedMaxHealth(ped) end
 --@usage int GET_PED_PARACHUTE_STATE(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedParachuteState(ped) end
+function GetPedParachuteState(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1225,7 +1340,8 @@ function GetPedParachuteState(ped) end
 --@usage int GET_PED_PARACHUTE_LANDING_TYPE(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedParachuteLandingType(ped) end
+function GetPedParachuteLandingType(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1235,7 +1351,8 @@ function GetPedParachuteLandingType(ped) end
 --@params ped Ped
 --@params sizeAndVehs int*
 --@return int
-function GetPedNearbyVehicles(ped,sizeAndVehs) end
+function GetPedNearbyVehicles(ped, sizeAndVehs)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1245,7 +1362,8 @@ function GetPedNearbyVehicles(ped,sizeAndVehs) end
 --@params ped Ped
 --@params componentId int
 --@return int
-function GetPedPropIndex(ped,componentId) end
+function GetPedPropIndex(ped, componentId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1255,7 +1373,8 @@ function GetPedPropIndex(ped,componentId) end
 --@params ped Ped
 --@params outTintIndex int*
 --@return void
-function GetPedParachuteTintIndex(ped,outTintIndex) end
+function GetPedParachuteTintIndex(ped, outTintIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1265,7 +1384,8 @@ function GetPedParachuteTintIndex(ped,outTintIndex) end
 --@params ped Ped
 --@params componentId int
 --@return int
-function GetPedPropTextureIndex(ped,componentId) end
+function GetPedPropTextureIndex(ped, componentId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1275,7 +1395,8 @@ function GetPedPropTextureIndex(ped,componentId) end
 --@params ped Ped
 --@params bone int
 --@return int
-function GetPedRagdollBoneIndex(ped,bone) end
+function GetPedRagdollBoneIndex(ped, bone)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1284,7 +1405,8 @@ function GetPedRagdollBoneIndex(ped,bone) end
 --@usage Hash GET_PED_RELATIONSHIP_GROUP_DEFAULT_HASH(Ped ped);
 --@params ped Ped
 --@return Hash
-function GetPedRelationshipGroupDefaultHash(ped) end
+function GetPedRelationshipGroupDefaultHash(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1293,7 +1415,8 @@ function GetPedRelationshipGroupDefaultHash(ped) end
 --@usage Hash GET_PED_RELATIONSHIP_GROUP_HASH(Ped ped);
 --@params ped Ped
 --@return Hash
-function GetPedRelationshipGroupHash(ped) end
+function GetPedRelationshipGroupHash(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1302,7 +1425,8 @@ function GetPedRelationshipGroupHash(ped) end
 --@usage BOOL GET_PED_STEALTH_MOVEMENT(Ped ped);
 --@params ped Ped
 --@return BOOL
-function GetPedStealthMovement(ped) end
+function GetPedStealthMovement(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1312,7 +1436,8 @@ function GetPedStealthMovement(ped) end
 --@params ped Ped
 --@params flagId int
 --@return BOOL
-function GetPedResetFlag(ped,flagId) end
+function GetPedResetFlag(ped, flagId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1321,7 +1446,8 @@ function GetPedResetFlag(ped,flagId) end
 --@usage int GET_PED_TIME_OF_DEATH(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedTimeOfDeath(ped) end
+function GetPedTimeOfDeath(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1330,7 +1456,8 @@ function GetPedTimeOfDeath(ped) end
 --@usage Entity GET_PED_SOURCE_OF_DEATH(Ped ped);
 --@params ped Ped
 --@return Entity
-function GetPedSourceOfDeath(ped) end
+function GetPedSourceOfDeath(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1339,7 +1466,8 @@ function GetPedSourceOfDeath(ped) end
 --@usage int GET_PED_TYPE(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedType(ped) end
+function GetPedType(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1349,7 +1477,8 @@ function GetPedType(ped) end
 --@params ped Ped
 --@params componentId int
 --@return int
-function GetPedTextureVariation(ped,componentId) end
+function GetPedTextureVariation(ped, componentId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1364,7 +1493,8 @@ function GetPedTextureVariation(ped,componentId) end
 --@params zRadius float
 --@params pedType int
 --@return Ped
-function GetRandomPedAtCoord(x,y,z,xRadius,yRadius,zRadius,pedType) end
+function GetRandomPedAtCoord(x, y, z, xRadius, yRadius, zRadius, pedType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1373,7 +1503,8 @@ function GetRandomPedAtCoord(x,y,z,xRadius,yRadius,zRadius,pedType) end
 --@usage float _GET_PED_VISUAL_FIELD_CENTER_ANGLE(Ped ped);
 --@params ped Ped
 --@return float
-function GetPedVisualFieldCenterAngle(ped) end
+function GetPedVisualFieldCenterAngle(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1383,7 +1514,8 @@ function GetPedVisualFieldCenterAngle(ped) end
 --@params ped1 Ped
 --@params ped2 Ped
 --@return int
-function GetRelationshipBetweenPeds(ped1,ped2) end
+function GetRelationshipBetweenPeds(ped1, ped2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1392,7 +1524,8 @@ function GetRelationshipBetweenPeds(ped1,ped2) end
 --@usage char* GET_PEDHEADSHOT_TXD_STRING(int handle);
 --@params handle int
 --@return char*
-function GetPedheadshotTxdString(handle) end
+function GetPedheadshotTxdString(handle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1401,7 +1534,8 @@ function GetPedheadshotTxdString(handle) end
 --@usage float GET_SYNCHRONIZED_SCENE_PHASE(int sceneID);
 --@params sceneID int
 --@return float
-function GetSynchronizedScenePhase(sceneID) end
+function GetSynchronizedScenePhase(sceneID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1411,7 +1545,8 @@ function GetSynchronizedScenePhase(sceneID) end
 --@params group1 Hash
 --@params group2 Hash
 --@return int
-function GetRelationshipBetweenGroups(group1,group2) end
+function GetRelationshipBetweenGroups(group1, group2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1420,7 +1555,8 @@ function GetRelationshipBetweenGroups(group1,group2) end
 --@usage Ped GET_PEDS_JACKER(Ped ped);
 --@params ped Ped
 --@return Ped
-function GetPedsJacker(ped) end
+function GetPedsJacker(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1429,7 +1565,8 @@ function GetPedsJacker(ped) end
 --@usage Player GET_PLAYER_PED_IS_FOLLOWING(Ped ped);
 --@params ped Ped
 --@return Player
-function GetPlayerPedIsFollowing(ped) end
+function GetPlayerPedIsFollowing(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1438,7 +1575,8 @@ function GetPlayerPedIsFollowing(ped) end
 --@usage int GET_SEAT_PED_IS_TRYING_TO_ENTER(Ped ped);
 --@params ped Ped
 --@return int
-function GetSeatPedIsTryingToEnter(ped) end
+function GetSeatPedIsTryingToEnter(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1447,7 +1585,8 @@ function GetSeatPedIsTryingToEnter(ped) end
 --@usage float GET_SYNCHRONIZED_SCENE_RATE(int sceneID);
 --@params sceneID int
 --@return float
-function GetSynchronizedSceneRate(sceneID) end
+function GetSynchronizedSceneRate(sceneID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1457,7 +1596,8 @@ function GetSynchronizedSceneRate(sceneID) end
 --@params ped Ped
 --@params weaponHash Any
 --@return int
-function GetTimeOfLastPedWeaponDamage(ped,weaponHash) end
+function GetTimeOfLastPedWeaponDamage(ped, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1467,7 +1607,8 @@ function GetTimeOfLastPedWeaponDamage(ped,weaponHash) end
 --@params ped Ped
 --@params lastVehicle BOOL
 --@return Vehicle
-function GetVehiclePedIsIn(ped,lastVehicle) end
+function GetVehiclePedIsIn(ped, lastVehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1479,7 +1620,8 @@ function GetVehiclePedIsIn(ped,lastVehicle) end
 --@params helmetFlag int
 --@params textureIndex int
 --@return void
-function GivePedHelmet(ped,cannotRemove,helmetFlag,textureIndex) end
+function GivePedHelmet(ped, cannotRemove, helmetFlag, textureIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1488,7 +1630,8 @@ function GivePedHelmet(ped,cannotRemove,helmetFlag,textureIndex) end
 --@usage BOOL HAS_ACTION_MODE_ASSET_LOADED(char* asset);
 --@params asset char*
 --@return BOOL
-function HasActionModeAssetLoaded(asset) end
+function HasActionModeAssetLoaded(asset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1497,7 +1640,8 @@ function HasActionModeAssetLoaded(asset) end
 --@usage Vehicle GET_VEHICLE_PED_IS_TRYING_TO_ENTER(Ped ped);
 --@params ped Ped
 --@return Vehicle
-function GetVehiclePedIsTryingToEnter(ped) end
+function GetVehiclePedIsTryingToEnter(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1506,7 +1650,8 @@ function GetVehiclePedIsTryingToEnter(ped) end
 --@usage void GIVE_PED_NM_MESSAGE(Ped ped);
 --@params ped Ped
 --@return void
-function GivePedNmMessage(ped) end
+function GivePedNmMessage(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1515,7 +1660,8 @@ function GivePedNmMessage(ped) end
 --@usage Vehicle GET_VEHICLE_PED_IS_USING(Ped ped);
 --@params ped Ped
 --@return Vehicle
-function GetVehiclePedIsUsing(ped) end
+function GetVehiclePedIsUsing(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1524,7 +1670,8 @@ function GetVehiclePedIsUsing(ped) end
 --@usage BOOL HAS_PED_HEAD_BLEND_FINISHED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function HasPedHeadBlendFinished(ped) end
+function HasPedHeadBlendFinished(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1533,7 +1680,8 @@ function HasPedHeadBlendFinished(ped) end
 --@usage BOOL HAS_PED_PRELOAD_PROP_DATA_FINISHED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function HasPedPreloadPropDataFinished(ped) end
+function HasPedPreloadPropDataFinished(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1542,7 +1690,8 @@ function HasPedPreloadPropDataFinished(ped) end
 --@usage BOOL HAS_PED_PRELOAD_VARIATION_DATA_FINISHED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function HasPedPreloadVariationDataFinished(ped) end
+function HasPedPreloadVariationDataFinished(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1551,7 +1700,8 @@ function HasPedPreloadVariationDataFinished(ped) end
 --@usage Any HAS_PEDHEADSHOT_IMG_UPLOAD_SUCCEEDED();
 
 --@return Any
-function HasPedheadshotImgUploadSucceeded() end
+function HasPedheadshotImgUploadSucceeded()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1560,7 +1710,8 @@ function HasPedheadshotImgUploadSucceeded() end
 --@usage Vehicle GET_VEHICLE_PED_IS_ENTERING(Ped ped);
 --@params ped Ped
 --@return Vehicle
-function GetVehiclePedIsEntering(ped) end
+function GetVehiclePedIsEntering(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1570,7 +1721,8 @@ function GetVehiclePedIsEntering(ped) end
 --@params ped Ped
 --@params eventId int
 --@return BOOL
-function HasPedReceivedEvent(ped,eventId) end
+function HasPedReceivedEvent(ped, eventId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1579,7 +1731,8 @@ function HasPedReceivedEvent(ped,eventId) end
 --@usage BOOL _HAS_STREAMED_PED_ASSETS_LOADED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function HasStreamedPedAssetsLoaded(ped) end
+function HasStreamedPedAssetsLoaded(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1588,7 +1741,8 @@ function HasStreamedPedAssetsLoaded(ped) end
 --@usage BOOL HAS_STEALTH_MODE_ASSET_LOADED(char* asset);
 --@params asset char*
 --@return BOOL
-function HasStealthModeAssetLoaded(asset) end
+function HasStealthModeAssetLoaded(asset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1599,7 +1753,8 @@ function HasStealthModeAssetLoaded(asset) end
 --@params p1 Any
 --@params p2 BOOL
 --@return void
-function HidePedBloodDamageByZone(ped,p1,p2) end
+function HidePedBloodDamageByZone(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1612,7 +1767,8 @@ function HidePedBloodDamageByZone(ped,p1,p2) end
 --@params z float
 --@params radius float
 --@return BOOL
-function IsAnyHostilePedNearPoint(ped,x,y,z,radius) end
+function IsAnyHostilePedNearPoint(ped, x, y, z, radius)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1621,7 +1777,8 @@ function IsAnyHostilePedNearPoint(ped,x,y,z,radius) end
 --@usage Any HAS_PEDHEADSHOT_IMG_UPLOAD_FAILED();
 
 --@return Any
-function HasPedheadshotImgUploadFailed() end
+function HasPedheadshotImgUploadFailed()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1633,7 +1790,8 @@ function HasPedheadshotImgUploadFailed() end
 --@params z float
 --@params radius float
 --@return BOOL
-function IsAnyPedNearPoint(x,y,z,radius) end
+function IsAnyPedNearPoint(x, y, z, radius)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1647,7 +1805,8 @@ function IsAnyPedNearPoint(x,y,z,radius) end
 --@params y2 float
 --@params z2 float
 --@return BOOL
-function IsCopPedInArea_3d(x1,y1,z1,x2,y2,z2) end
+function IsCopPedInArea_3d(x1, y1, z1, x2, y2, z2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1656,7 +1815,8 @@ function IsCopPedInArea_3d(x1,y1,z1,x2,y2,z2) end
 --@usage BOOL IS_PED_A_PLAYER(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedAPlayer(ped) end
+function IsPedAPlayer(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1672,7 +1832,8 @@ function IsPedAPlayer(ped) end
 --@params p6 BOOL
 --@params p7 BOOL
 --@return BOOL
-function IsAnyPedShootingInArea(x1,y1,z1,x2,y2,z2,p6,p7) end
+function IsAnyPedShootingInArea(x1, y1, z1, x2, y2, z2, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1681,7 +1842,8 @@ function IsAnyPedShootingInArea(x1,y1,z1,x2,y2,z2,p6,p7) end
 --@usage BOOL IS_CONVERSATION_PED_DEAD(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsConversationPedDead(ped) end
+function IsConversationPedDead(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1690,7 +1852,8 @@ function IsConversationPedDead(ped) end
 --@usage BOOL IS_PED_BEING_STEALTH_KILLED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedBeingStealthKilled(ped) end
+function IsPedBeingStealthKilled(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1700,7 +1863,8 @@ function IsPedBeingStealthKilled(ped) end
 --@params ped Ped
 --@params p1 int
 --@return BOOL
-function IsPedBeingStunned(ped,p1) end
+function IsPedBeingStunned(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1709,7 +1873,8 @@ function IsPedBeingStunned(ped,p1) end
 --@usage BOOL IS_PED_BEING_JACKED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedBeingJacked(ped) end
+function IsPedBeingJacked(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1718,7 +1883,8 @@ function IsPedBeingJacked(ped) end
 --@usage BOOL IS_PED_AIMING_FROM_COVER(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedAimingFromCover(ped) end
+function IsPedAimingFromCover(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1727,7 +1893,8 @@ function IsPedAimingFromCover(ped) end
 --@usage BOOL _IS_PED_BLUSH_COLOR_VALID_2(int colorID);
 --@params colorID int
 --@return BOOL
-function IsPedBlushColorValid_2(colorID) end
+function IsPedBlushColorValid_2(colorID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1739,7 +1906,8 @@ function IsPedBlushColorValid_2(colorID) end
 --@params drawableId int
 --@params textureId int
 --@return BOOL
-function IsPedComponentVariationValid(ped,componentId,drawableId,textureId) end
+function IsPedComponentVariationValid(ped, componentId, drawableId, textureId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1748,7 +1916,8 @@ function IsPedComponentVariationValid(ped,componentId,drawableId,textureId) end
 --@usage BOOL _IS_PED_BLUSH_COLOR_VALID(int colorID);
 --@params colorID int
 --@return BOOL
-function IsPedBlushColorValid(colorID) end
+function IsPedBlushColorValid(colorID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1758,7 +1927,8 @@ function IsPedBlushColorValid(colorID) end
 --@params ped Ped
 --@params p1 BOOL
 --@return BOOL
-function IsPedDeadOrDying(ped,p1) end
+function IsPedDeadOrDying(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1768,7 +1938,8 @@ function IsPedDeadOrDying(ped,p1) end
 --@params ped Ped
 --@params p1 BOOL
 --@return BOOL
-function IsPedDefensiveAreaActive(ped,p1) end
+function IsPedDefensiveAreaActive(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1777,7 +1948,8 @@ function IsPedDefensiveAreaActive(ped,p1) end
 --@usage BOOL IS_PED_DIVING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedDiving(ped) end
+function IsPedDiving(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1786,7 +1958,8 @@ function IsPedDiving(ped) end
 --@usage BOOL IS_PED_CLIMBING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedClimbing(ped) end
+function IsPedClimbing(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1796,7 +1969,8 @@ function IsPedClimbing(ped) end
 --@params ped Ped
 --@params evadingEntity Entity*
 --@return BOOL
-function IsPedEvasiveDiving(ped,evadingEntity) end
+function IsPedEvasiveDiving(ped, evadingEntity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1805,7 +1979,8 @@ function IsPedEvasiveDiving(ped,evadingEntity) end
 --@usage BOOL IS_PED_DOING_DRIVEBY(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedDoingDriveby(ped) end
+function IsPedDoingDriveby(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1816,7 +1991,8 @@ function IsPedDoingDriveby(ped) end
 --@params otherPed Ped
 --@params angle float
 --@return BOOL
-function IsPedFacingPed(ped,otherPed,angle) end
+function IsPedFacingPed(ped, otherPed, angle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1825,7 +2001,8 @@ function IsPedFacingPed(ped,otherPed,angle) end
 --@usage BOOL IS_PED_DUCKING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedDucking(ped) end
+function IsPedDucking(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1834,7 +2011,8 @@ function IsPedDucking(ped) end
 --@usage BOOL IS_PED_FATALLY_INJURED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedFatallyInjured(ped) end
+function IsPedFatallyInjured(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1843,7 +2021,8 @@ function IsPedFatallyInjured(ped) end
 --@usage BOOL IS_PED_GETTING_INTO_A_VEHICLE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedGettingIntoAVehicle(ped) end
+function IsPedGettingIntoAVehicle(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1852,7 +2031,8 @@ function IsPedGettingIntoAVehicle(ped) end
 --@usage BOOL IS_PED_FALLING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedFalling(ped) end
+function IsPedFalling(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1861,7 +2041,8 @@ function IsPedFalling(ped) end
 --@usage BOOL IS_PED_GOING_INTO_COVER(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedGoingIntoCover(ped) end
+function IsPedGoingIntoCover(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1870,7 +2051,8 @@ function IsPedGoingIntoCover(ped) end
 --@usage BOOL _IS_PED_HAIR_COLOR_VALID(int colorID);
 --@params colorID int
 --@return BOOL
-function IsPedHairColorValid(colorID) end
+function IsPedHairColorValid(colorID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1880,7 +2062,8 @@ function IsPedHairColorValid(colorID) end
 --@params ped Ped
 --@params groupId int
 --@return BOOL
-function IsPedGroupMember(ped,groupId) end
+function IsPedGroupMember(ped, groupId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1889,7 +2072,8 @@ function IsPedGroupMember(ped,groupId) end
 --@usage BOOL _IS_PED_HAIR_COLOR_VALID_2(int colorID);
 --@params colorID int
 --@return BOOL
-function IsPedHairColorValid_2(colorID) end
+function IsPedHairColorValid_2(colorID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1898,7 +2082,8 @@ function IsPedHairColorValid_2(colorID) end
 --@usage BOOL IS_PED_HANGING_ON_TO_VEHICLE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedHangingOnToVehicle(ped) end
+function IsPedHangingOnToVehicle(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1911,7 +2096,8 @@ function IsPedHangingOnToVehicle(ped) end
 --@params z float
 --@params p4 float
 --@return BOOL
-function IsPedHeadingTowardsPosition(ped,x,y,z,p4) end
+function IsPedHeadingTowardsPosition(ped, x, y, z, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1920,7 +2106,8 @@ function IsPedHeadingTowardsPosition(ped,x,y,z,p4) end
 --@usage BOOL _IS_PED_HELMET_UNK(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedHelmetUnk(ped) end
+function IsPedHelmetUnk(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1930,7 +2117,8 @@ function IsPedHelmetUnk(ped) end
 --@params ped1 Ped
 --@params ped2 Ped
 --@return BOOL
-function IsPedHeadtrackingPed(ped1,ped2) end
+function IsPedHeadtrackingPed(ped1, ped2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1940,7 +2128,8 @@ function IsPedHeadtrackingPed(ped1,ped2) end
 --@params ped Ped
 --@params entity Entity
 --@return BOOL
-function IsPedHeadtrackingEntity(ped,entity) end
+function IsPedHeadtrackingEntity(ped, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1949,7 +2138,8 @@ function IsPedHeadtrackingEntity(ped,entity) end
 --@usage BOOL IS_PED_HURT(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedHurt(ped) end
+function IsPedHurt(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1958,7 +2148,8 @@ function IsPedHurt(ped) end
 --@usage BOOL IS_PED_HUMAN(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedHuman(ped) end
+function IsPedHuman(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1967,7 +2158,8 @@ function IsPedHuman(ped) end
 --@usage BOOL IS_PED_IN_ANY_HELI(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInAnyHeli(ped) end
+function IsPedInAnyHeli(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1976,7 +2168,8 @@ function IsPedInAnyHeli(ped) end
 --@usage BOOL IS_PED_IN_ANY_POLICE_VEHICLE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInAnyPoliceVehicle(ped) end
+function IsPedInAnyPoliceVehicle(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1985,7 +2178,8 @@ function IsPedInAnyPoliceVehicle(ped) end
 --@usage BOOL IS_PED_FLEEING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedFleeing(ped) end
+function IsPedFleeing(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1994,7 +2188,8 @@ function IsPedFleeing(ped) end
 --@usage BOOL IS_PED_IN_ANY_BOAT(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInAnyBoat(ped) end
+function IsPedInAnyBoat(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2003,7 +2198,8 @@ function IsPedInAnyBoat(ped) end
 --@usage BOOL IS_PED_IN_ANY_TAXI(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInAnyTaxi(ped) end
+function IsPedInAnyTaxi(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2012,7 +2208,8 @@ function IsPedInAnyTaxi(ped) end
 --@usage BOOL IS_PED_IN_ANY_PLANE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInAnyPlane(ped) end
+function IsPedInAnyPlane(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2022,7 +2219,8 @@ function IsPedInAnyPlane(ped) end
 --@params ped Ped
 --@params atGetIn BOOL
 --@return BOOL
-function IsPedInAnyVehicle(ped,atGetIn) end
+function IsPedInAnyVehicle(ped, atGetIn)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2031,7 +2229,8 @@ function IsPedInAnyVehicle(ped,atGetIn) end
 --@usage BOOL IS_PED_IN_ANY_TRAIN(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInAnyTrain(ped) end
+function IsPedInAnyTrain(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2041,7 +2240,8 @@ function IsPedInAnyTrain(ped) end
 --@params ped Ped
 --@params target Ped
 --@return BOOL
-function IsPedInCombat(ped,target) end
+function IsPedInCombat(ped, target)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2051,7 +2251,8 @@ function IsPedInCombat(ped,target) end
 --@params ped Ped
 --@params exceptUseWeapon BOOL
 --@return BOOL
-function IsPedInCover(ped,exceptUseWeapon) end
+function IsPedInCover(ped, exceptUseWeapon)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2060,7 +2261,8 @@ function IsPedInCover(ped,exceptUseWeapon) end
 --@usage BOOL IS_PED_IN_FLYING_VEHICLE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInFlyingVehicle(ped) end
+function IsPedInFlyingVehicle(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2069,7 +2271,8 @@ function IsPedInFlyingVehicle(ped) end
 --@usage BOOL IS_PED_IN_COVER_FACING_LEFT(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInCoverFacingLeft(ped) end
+function IsPedInCoverFacingLeft(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2078,7 +2281,8 @@ function IsPedInCoverFacingLeft(ped) end
 --@usage BOOL IS_PED_IN_ANY_SUB(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInAnySub(ped) end
+function IsPedInAnySub(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2087,7 +2291,8 @@ function IsPedInAnySub(ped) end
 --@usage BOOL IS_PED_IN_MELEE_COMBAT(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInMeleeCombat(ped) end
+function IsPedInMeleeCombat(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2097,7 +2302,8 @@ function IsPedInMeleeCombat(ped) end
 --@params ped Ped
 --@params modelHash Hash
 --@return BOOL
-function IsPedInModel(ped,modelHash) end
+function IsPedInModel(ped, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2106,7 +2312,8 @@ function IsPedInModel(ped,modelHash) end
 --@usage BOOL IS_PED_IN_GROUP(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInGroup(ped) end
+function IsPedInGroup(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2115,7 +2322,8 @@ function IsPedInGroup(ped) end
 --@usage BOOL IS_PED_IN_PARACHUTE_FREE_FALL(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInParachuteFreeFall(ped) end
+function IsPedInParachuteFreeFall(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2124,7 +2332,8 @@ function IsPedInParachuteFreeFall(ped) end
 --@usage BOOL IS_PED_JACKING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedJacking(ped) end
+function IsPedJacking(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2135,7 +2344,8 @@ function IsPedJacking(ped) end
 --@params vehicle Vehicle
 --@params atGetIn BOOL
 --@return BOOL
-function IsPedInVehicle(ped,vehicle,atGetIn) end
+function IsPedInVehicle(ped, vehicle, atGetIn)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2144,7 +2354,8 @@ function IsPedInVehicle(ped,vehicle,atGetIn) end
 --@usage BOOL IS_PED_IN_HIGH_COVER(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInHighCover(ped) end
+function IsPedInHighCover(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2153,7 +2364,8 @@ function IsPedInHighCover(ped) end
 --@usage BOOL IS_PED_INJURED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInjured(ped) end
+function IsPedInjured(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2162,7 +2374,8 @@ function IsPedInjured(ped) end
 --@usage BOOL IS_PED_JUMPING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedJumping(ped) end
+function IsPedJumping(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2171,7 +2384,8 @@ function IsPedJumping(ped) end
 --@usage BOOL IS_PED_JUMPING_OUT_OF_VEHICLE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedJumpingOutOfVehicle(ped) end
+function IsPedJumpingOutOfVehicle(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2180,7 +2394,8 @@ function IsPedJumpingOutOfVehicle(ped) end
 --@usage BOOL _IS_PED_LIPSTICK_COLOR_VALID(int colorID);
 --@params colorID int
 --@return BOOL
-function IsPedLipstickColorValid(colorID) end
+function IsPedLipstickColorValid(colorID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2189,7 +2404,8 @@ function IsPedLipstickColorValid(colorID) end
 --@usage BOOL _IS_PED_LIPSTICK_COLOR_VALID_2(int colorID);
 --@params colorID int
 --@return BOOL
-function IsPedLipstickColorValid_2(colorID) end
+function IsPedLipstickColorValid_2(colorID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2199,7 +2415,8 @@ function IsPedLipstickColorValid_2(colorID) end
 --@params ped Ped
 --@params modelHash Hash
 --@return BOOL
-function IsPedModel(ped,modelHash) end
+function IsPedModel(ped, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2208,7 +2425,8 @@ function IsPedModel(ped,modelHash) end
 --@usage BOOL IS_PED_MALE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedMale(ped) end
+function IsPedMale(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2217,7 +2435,8 @@ function IsPedMale(ped) end
 --@usage BOOL IS_PED_ON_FOOT(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedOnFoot(ped) end
+function IsPedOnFoot(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2226,7 +2445,8 @@ function IsPedOnFoot(ped) end
 --@usage BOOL IS_PED_ON_ANY_BIKE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedOnAnyBike(ped) end
+function IsPedOnAnyBike(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2235,7 +2455,8 @@ function IsPedOnAnyBike(ped) end
 --@usage BOOL IS_PED_ON_MOUNT(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedOnMount(ped) end
+function IsPedOnMount(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2244,7 +2465,8 @@ function IsPedOnMount(ped) end
 --@usage BOOL IS_PED_ON_VEHICLE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedOnVehicle(ped) end
+function IsPedOnVehicle(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2253,7 +2475,8 @@ function IsPedOnVehicle(ped) end
 --@usage BOOL IS_PED_PERFORMING_DEPENDENT_COMBO_LIMIT(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedPerformingDependentComboLimit(ped) end
+function IsPedPerformingDependentComboLimit(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2263,7 +2486,8 @@ function IsPedPerformingDependentComboLimit(ped) end
 --@params ped Ped
 --@params vehicle Vehicle
 --@return BOOL
-function IsPedOnSpecificVehicle(ped,vehicle) end
+function IsPedOnSpecificVehicle(ped, vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2272,7 +2496,8 @@ function IsPedOnSpecificVehicle(ped,vehicle) end
 --@usage BOOL _IS_PED_OPENING_A_DOOR(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedOpeningADoor(ped) end
+function IsPedOpeningADoor(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2281,7 +2506,8 @@ function IsPedOpeningADoor(ped) end
 --@usage BOOL IS_PED_PERFORMING_MELEE_ACTION(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedPerformingMeleeAction(ped) end
+function IsPedPerformingMeleeAction(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2290,7 +2516,8 @@ function IsPedPerformingMeleeAction(ped) end
 --@usage BOOL IS_PED_PLANTING_BOMB(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedPlantingBomb(ped) end
+function IsPedPlantingBomb(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2299,7 +2526,8 @@ function IsPedPlantingBomb(ped) end
 --@usage BOOL IS_PED_PERFORMING_STEALTH_KILL(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedPerformingStealthKill(ped) end
+function IsPedPerformingStealthKill(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2308,7 +2536,8 @@ function IsPedPerformingStealthKill(ped) end
 --@usage BOOL IS_PED_PRONE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedProne(ped) end
+function IsPedProne(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2317,7 +2546,8 @@ function IsPedProne(ped) end
 --@usage BOOL IS_PED_RAGDOLL(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedRagdoll(ped) end
+function IsPedRagdoll(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2326,7 +2556,8 @@ function IsPedRagdoll(ped) end
 --@usage BOOL IS_PED_RELOADING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedReloading(ped) end
+function IsPedReloading(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2336,7 +2567,8 @@ function IsPedReloading(ped) end
 --@params ped Ped
 --@params event Any
 --@return BOOL
-function IsPedRespondingToEvent(ped,event) end
+function IsPedRespondingToEvent(ped, event)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2345,7 +2577,8 @@ function IsPedRespondingToEvent(ped,event) end
 --@usage BOOL IS_PED_RUNNING_MELEE_TASK(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedRunningMeleeTask(ped) end
+function IsPedRunningMeleeTask(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2354,7 +2587,8 @@ function IsPedRunningMeleeTask(ped) end
 --@usage BOOL IS_PED_RUNNING_MOBILE_PHONE_TASK(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedRunningMobilePhoneTask(ped) end
+function IsPedRunningMobilePhoneTask(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2363,7 +2597,8 @@ function IsPedRunningMobilePhoneTask(ped) end
 --@usage BOOL IS_PED_RUNNING_RAGDOLL_TASK(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedRunningRagdollTask(ped) end
+function IsPedRunningRagdollTask(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2380,7 +2615,8 @@ function IsPedRunningRagdollTask(ped) end
 --@params p7 BOOL
 --@params p8 BOOL
 --@return BOOL
-function IsPedShootingInArea(ped,x1,y1,z1,x2,y2,z2,p7,p8) end
+function IsPedShootingInArea(ped, x1, y1, z1, x2, y2, z2, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2389,7 +2625,8 @@ function IsPedShootingInArea(ped,x1,y1,z1,x2,y2,z2,p7,p8) end
 --@usage BOOL IS_PED_SITTING_IN_ANY_VEHICLE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedSittingInAnyVehicle(ped) end
+function IsPedSittingInAnyVehicle(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2398,7 +2635,8 @@ function IsPedSittingInAnyVehicle(ped) end
 --@usage BOOL IS_PED_SHOOTING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedShooting(ped) end
+function IsPedShooting(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2407,7 +2645,8 @@ function IsPedShooting(ped) end
 --@usage BOOL _IS_PED_SHADER_EFFECT_VALID(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedShaderEffectValid(ped) end
+function IsPedShaderEffectValid(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2417,7 +2656,8 @@ function IsPedShaderEffectValid(ped) end
 --@params ped Ped
 --@params vehicle Vehicle
 --@return BOOL
-function IsPedSittingInVehicle(ped,vehicle) end
+function IsPedSittingInVehicle(ped, vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2426,7 +2666,8 @@ function IsPedSittingInVehicle(ped,vehicle) end
 --@usage BOOL IS_PED_STOPPED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedStopped(ped) end
+function IsPedStopped(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2435,7 +2676,8 @@ function IsPedStopped(ped) end
 --@usage BOOL IS_PED_SWIMMING_UNDER_WATER(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedSwimmingUnderWater(ped) end
+function IsPedSwimmingUnderWater(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2444,7 +2686,8 @@ function IsPedSwimmingUnderWater(ped) end
 --@usage BOOL IS_PED_SWIMMING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedSwimming(ped) end
+function IsPedSwimming(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2453,7 +2696,8 @@ function IsPedSwimming(ped) end
 --@usage BOOL IS_PED_TRACKED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedTracked(ped) end
+function IsPedTracked(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2462,7 +2706,8 @@ function IsPedTracked(ped) end
 --@usage BOOL IS_PED_TRYING_TO_ENTER_A_LOCKED_VEHICLE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedTryingToEnterALockedVehicle(ped) end
+function IsPedTryingToEnterALockedVehicle(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2471,7 +2716,8 @@ function IsPedTryingToEnterALockedVehicle(ped) end
 --@usage BOOL IS_PED_USING_ACTION_MODE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedUsingActionMode(ped) end
+function IsPedUsingActionMode(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2480,7 +2726,8 @@ function IsPedUsingActionMode(ped) end
 --@usage BOOL IS_PED_USING_ANY_SCENARIO(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedUsingAnyScenario(ped) end
+function IsPedUsingAnyScenario(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2490,7 +2737,8 @@ function IsPedUsingAnyScenario(ped) end
 --@params ped Ped
 --@params scenario char*
 --@return BOOL
-function IsPedUsingScenario(ped,scenario) end
+function IsPedUsingScenario(ped, scenario)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2499,7 +2747,8 @@ function IsPedUsingScenario(ped,scenario) end
 --@usage BOOL IS_PED_VAULTING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedVaulting(ped) end
+function IsPedVaulting(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2508,7 +2757,8 @@ function IsPedVaulting(ped) end
 --@usage BOOL IS_PED_WEARING_HELMET(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedWearingHelmet(ped) end
+function IsPedWearingHelmet(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2517,7 +2767,8 @@ function IsPedWearingHelmet(ped) end
 --@usage Any IS_PEDHEADSHOT_IMG_UPLOAD_AVAILABLE();
 
 --@return Any
-function IsPedheadshotImgUploadAvailable() end
+function IsPedheadshotImgUploadAvailable()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2526,7 +2777,8 @@ function IsPedheadshotImgUploadAvailable() end
 --@usage BOOL IS_PEDHEADSHOT_READY(int id);
 --@params id int
 --@return BOOL
-function IsPedheadshotReady(id) end
+function IsPedheadshotReady(id)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2535,7 +2787,8 @@ function IsPedheadshotReady(id) end
 --@usage BOOL IS_PEDHEADSHOT_VALID(int handle);
 --@params handle int
 --@return BOOL
-function IsPedheadshotValid(handle) end
+function IsPedheadshotValid(handle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2546,7 +2799,8 @@ function IsPedheadshotValid(handle) end
 --@params animDict char*
 --@params anim char*
 --@return BOOL
-function IsScriptedScenarioPedUsingConditionalAnim(ped,animDict,anim) end
+function IsScriptedScenarioPedUsingConditionalAnim(ped, animDict, anim)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2555,7 +2809,8 @@ function IsScriptedScenarioPedUsingConditionalAnim(ped,animDict,anim) end
 --@usage BOOL _IS_SCUBA_GEAR_LIGHT_ENABLED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsScubaGearLightEnabled(ped) end
+function IsScubaGearLightEnabled(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2564,7 +2819,8 @@ function IsScubaGearLightEnabled(ped) end
 --@usage BOOL IS_SYNCHRONIZED_SCENE_LOOPED(int sceneID);
 --@params sceneID int
 --@return BOOL
-function IsSynchronizedSceneLooped(sceneID) end
+function IsSynchronizedSceneLooped(sceneID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2573,7 +2829,8 @@ function IsSynchronizedSceneLooped(sceneID) end
 --@usage BOOL IS_SYNCHRONIZED_SCENE_RUNNING(int sceneId);
 --@params sceneId int
 --@return BOOL
-function IsSynchronizedSceneRunning(sceneId) end
+function IsSynchronizedSceneRunning(sceneId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2582,7 +2839,8 @@ function IsSynchronizedSceneRunning(sceneId) end
 --@usage BOOL IS_TRACKED_PED_VISIBLE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsTrackedPedVisible(ped) end
+function IsTrackedPedVisible(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2595,7 +2853,8 @@ function IsTrackedPedVisible(ped) end
 --@params p3 BOOL
 --@params p4 BOOL
 --@return void
-function KnockOffPedProp(ped,p1,p2,p3,p4) end
+function KnockOffPedProp(ped, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2604,7 +2863,8 @@ function KnockOffPedProp(ped,p1,p2,p3,p4) end
 --@usage void KNOCK_PED_OFF_VEHICLE(Ped ped);
 --@params ped Ped
 --@return void
-function KnockPedOffVehicle(ped) end
+function KnockPedOffVehicle(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2618,7 +2878,8 @@ function KnockPedOffVehicle(ped) end
 --@params p4 float
 --@params p5 float
 --@return BOOL
-function N_0x06087579e7aa85a9(p0,p1,p2,p3,p4,p5) end
+function N_0x06087579e7aa85a9(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2628,7 +2889,8 @@ function N_0x06087579e7aa85a9(p0,p1,p2,p3,p4,p5) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function N_0x061cb768363d6424(ped,toggle) end
+function N_0x061cb768363d6424(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2637,7 +2899,8 @@ function N_0x061cb768363d6424(ped,toggle) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x09e7eca981d9b210(p0) end
+function N_0x09e7eca981d9b210(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2647,7 +2910,8 @@ function N_0x09e7eca981d9b210(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x0b3e35ac043707d9(p0,p1) end
+function N_0x0b3e35ac043707d9(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2658,7 +2922,8 @@ function N_0x0b3e35ac043707d9(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x0f62619393661d6e(p0,p1,p2) end
+function N_0x0f62619393661d6e(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2668,7 +2933,8 @@ function N_0x0f62619393661d6e(p0,p1,p2) end
 --@params ped Ped
 --@params p1 float
 --@return void
-function N_0x110f526ab784111f(ped,p1) end
+function N_0x110f526ab784111f(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2678,7 +2944,8 @@ function N_0x110f526ab784111f(ped,p1) end
 --@params ped Ped
 --@params p1 int
 --@return void
-function N_0x1a330d297aac6bc1(ped,p1) end
+function N_0x1a330d297aac6bc1(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2695,7 +2962,8 @@ function N_0x1a330d297aac6bc1(ped,p1) end
 --@params p7 BOOL
 --@params p8 Any
 --@return BOOL
-function N_0x03ea03af85a85cb7(ped,p1,p2,p3,p4,p5,p6,p7,p8) end
+function N_0x03ea03af85a85cb7(ped, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2704,7 +2972,8 @@ function N_0x03ea03af85a85cb7(ped,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@usage BOOL undefined(Ped ped);
 --@params ped Ped
 --@return BOOL
-function N_0x14590ddbedb1ec85(ped) end
+function N_0x14590ddbedb1ec85(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2714,7 +2983,8 @@ function N_0x14590ddbedb1ec85(ped) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x1216e0bfa72cc703(p0,p1) end
+function N_0x1216e0bfa72cc703(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2723,7 +2993,8 @@ function N_0x1216e0bfa72cc703(p0,p1) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x1e77fa7a62ee6c4c(p0) end
+function N_0x1e77fa7a62ee6c4c(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2733,7 +3004,8 @@ function N_0x1e77fa7a62ee6c4c(p0) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function N_0x2016c603d6b8987c(ped,toggle) end
+function N_0x2016c603d6b8987c(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2743,7 +3015,8 @@ function N_0x2016c603d6b8987c(ped,toggle) end
 --@params ped Ped
 --@params p1 float
 --@return void
-function N_0x2735233a786b1bef(ped,p1) end
+function N_0x2735233a786b1bef(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2754,7 +3027,8 @@ function N_0x2735233a786b1bef(ped,p1) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function N_0x2208438012482a1a(ped,p1,p2) end
+function N_0x2208438012482a1a(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2766,7 +3040,8 @@ function N_0x2208438012482a1a(ped,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return Any
-function N_0x25361a96e0f7e419(p0,p1,p2,p3) end
+function N_0x25361a96e0f7e419(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2778,7 +3053,8 @@ function N_0x25361a96e0f7e419(p0,p1,p2,p3) end
 --@params p2 Any*
 --@params p3 Any*
 --@return void
-function N_0x280c7e3ac7f56e90(p0,p1,p2,p3) end
+function N_0x280c7e3ac7f56e90(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2788,7 +3064,8 @@ function N_0x280c7e3ac7f56e90(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 BOOL
 --@return void
-function N_0x2b5aa717a181fb4c(p0,p1) end
+function N_0x2b5aa717a181fb4c(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2798,7 +3075,8 @@ function N_0x2b5aa717a181fb4c(p0,p1) end
 --@params p0 Any
 --@params p1 float
 --@return void
-function N_0x288df530c92dad6f(p0,p1) end
+function N_0x288df530c92dad6f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2808,7 +3086,8 @@ function N_0x288df530c92dad6f(p0,p1) end
 --@params ped Ped
 --@params p1 BOOL
 --@return void
-function N_0x2b694afcf64e6994(ped,p1) end
+function N_0x2b694afcf64e6994(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2824,7 +3103,8 @@ function N_0x2b694afcf64e6994(ped,p1) end
 --@params scale float
 --@params duration int
 --@return void
-function N_0x2df9038c90ad5264(p0,p1,p2,p3,p4,interiorFlags,scale,duration) end
+function N_0x2df9038c90ad5264(p0, p1, p2, p3, p4, interiorFlags, scale, duration)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2839,7 +3119,8 @@ function N_0x2df9038c90ad5264(p0,p1,p2,p3,p4,interiorFlags,scale,duration) end
 --@params p5 float
 --@params p6 float
 --@return void
-function N_0x2f074c904d85129e(p0,p1,p2,p3,p4,p5,p6) end
+function N_0x2f074c904d85129e(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2849,7 +3130,8 @@ function N_0x2f074c904d85129e(p0,p1,p2,p3,p4,p5,p6) end
 --@params ped Ped
 --@params p1 int*
 --@return BOOL
-function N_0x2dfc81c9b9608549(ped,p1) end
+function N_0x2dfc81c9b9608549(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2862,7 +3144,8 @@ function N_0x2dfc81c9b9608549(ped,p1) end
 --@params p3 float
 --@params p4 float
 --@return Any
-function N_0x336b3d200ab007cb(p0,p1,p2,p3,p4) end
+function N_0x336b3d200ab007cb(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2871,7 +3154,8 @@ function N_0x336b3d200ab007cb(p0,p1,p2,p3,p4) end
 --@usage BOOL undefined(Ped Ped);
 --@params Ped Ped
 --@return BOOL
-function N_0x3795688a307e1eb6(Ped) end
+function N_0x3795688a307e1eb6(Ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2881,7 +3165,8 @@ function N_0x3795688a307e1eb6(Ped) end
 --@params p0 Any
 --@params p1 BOOL
 --@return void
-function N_0x2f3c3d9f50681de4(p0,p1) end
+function N_0x2f3c3d9f50681de4(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2891,7 +3176,8 @@ function N_0x2f3c3d9f50681de4(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x3e9679c1dfcf422c(p0,p1) end
+function N_0x3e9679c1dfcf422c(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2901,7 +3187,8 @@ function N_0x3e9679c1dfcf422c(p0,p1) end
 --@params ped Ped
 --@params p1 BOOL
 --@return void
-function N_0x425aecf167663f48(ped,p1) end
+function N_0x425aecf167663f48(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2910,7 +3197,8 @@ function N_0x425aecf167663f48(ped,p1) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x3c67506996001f5e() end
+function N_0x3c67506996001f5e()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2919,7 +3207,8 @@ function N_0x3c67506996001f5e() end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x451d05012ccec234(p0) end
+function N_0x451d05012ccec234(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2928,7 +3217,8 @@ function N_0x451d05012ccec234(p0) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x412f1364fa066cfb(p0) end
+function N_0x412f1364fa066cfb(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2937,7 +3227,8 @@ function N_0x412f1364fa066cfb(p0) end
 --@usage int undefined(Ped ped);
 --@params ped Ped
 --@return int
-function N_0x451294e859ecc018(ped) end
+function N_0x451294e859ecc018(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2947,7 +3238,8 @@ function N_0x451294e859ecc018(ped) end
 --@params ped Ped
 --@params flag int
 --@return BOOL
-function N_0x46b05bcae43856b0(ped,flag) end
+function N_0x46b05bcae43856b0(ped, flag)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2956,7 +3248,8 @@ function N_0x46b05bcae43856b0(ped,flag) end
 --@usage void undefined(Ped ped);
 --@params ped Ped
 --@return void
-function N_0x4668d80430d6c299(ped) end
+function N_0x4668d80430d6c299(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2966,7 +3259,8 @@ function N_0x4668d80430d6c299(ped) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function N_0x49e50bdb8ba4dab2(ped,toggle) end
+function N_0x49e50bdb8ba4dab2(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2975,7 +3269,8 @@ function N_0x49e50bdb8ba4dab2(ped,toggle) end
 --@usage void undefined();
 
 --@return void
-function N_0x4759cc730f947c81() end
+function N_0x4759cc730f947c81()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2984,7 +3279,8 @@ function N_0x4759cc730f947c81() end
 --@usage int undefined(Ped ped);
 --@params ped Ped
 --@return int
-function N_0x511f1a683387c7e2(ped) end
+function N_0x511f1a683387c7e2(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2994,7 +3290,8 @@ function N_0x511f1a683387c7e2(ped) end
 --@params ped Ped
 --@params animDict char*
 --@return void
-function N_0x5687c7f05b39e401(ped,animDict) end
+function N_0x5687c7f05b39e401(ped, animDict)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3003,7 +3300,8 @@ function N_0x5687c7f05b39e401(ped,animDict) end
 --@usage int undefined(Any p0);
 --@params p0 Any
 --@return int
-function N_0x5407b7288d0478b7(p0) end
+function N_0x5407b7288d0478b7(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3013,7 +3311,8 @@ function N_0x5407b7288d0478b7(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x5615e0c5eb2bc6e2(p0,p1) end
+function N_0x5615e0c5eb2bc6e2(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3023,7 +3322,8 @@ function N_0x5615e0c5eb2bc6e2(p0,p1) end
 --@params p0 Any
 --@params p1 BOOL
 --@return void
-function N_0x5b6010b3cbc29095(p0,p1) end
+function N_0x5b6010b3cbc29095(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3032,7 +3332,8 @@ function N_0x5b6010b3cbc29095(p0,p1) end
 --@usage void undefined();
 
 --@return void
-function N_0x5a7f62fda59759bd() end
+function N_0x5a7f62fda59759bd()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3041,7 +3342,8 @@ function N_0x5a7f62fda59759bd() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x637822dc2afeebf8(p0) end
+function N_0x637822dc2afeebf8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3050,7 +3352,8 @@ function N_0x637822dc2afeebf8(p0) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x6b0e6172c9a4d902(p0) end
+function N_0x6b0e6172c9a4d902(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3059,7 +3362,8 @@ function N_0x6b0e6172c9a4d902(p0) end
 --@usage void undefined(Ped ped);
 --@params ped Ped
 --@return void
-function N_0x687c0b594907d2e8(ped) end
+function N_0x687c0b594907d2e8(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3069,7 +3373,8 @@ function N_0x687c0b594907d2e8(ped) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x711794453cfd692b(p0,p1) end
+function N_0x711794453cfd692b(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3078,7 +3383,8 @@ function N_0x711794453cfd692b(p0,p1) end
 --@usage void undefined(Ped ped);
 --@params ped Ped
 --@return void
-function N_0x733c87d4ce22bea2(ped) end
+function N_0x733c87d4ce22bea2(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3088,7 +3394,8 @@ function N_0x733c87d4ce22bea2(ped) end
 --@params ped Ped
 --@params p1 BOOL
 --@return void
-function N_0x75ba1cb3b7d40caf(ped,p1) end
+function N_0x75ba1cb3b7d40caf(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3097,7 +3404,8 @@ function N_0x75ba1cb3b7d40caf(ped,p1) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x76bba2cee66d47e9(p0) end
+function N_0x76bba2cee66d47e9(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3106,7 +3414,8 @@ function N_0x76bba2cee66d47e9(p0) end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0x7f2f4f13ac5257ef(p0) end
+function N_0x7f2f4f13ac5257ef(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3115,7 +3424,8 @@ function N_0x7f2f4f13ac5257ef(p0) end
 --@usage void undefined(Ped ped);
 --@params ped Ped
 --@return void
-function N_0x80054d7fcc70eec6(ped) end
+function N_0x80054d7fcc70eec6(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3125,7 +3435,8 @@ function N_0x80054d7fcc70eec6(ped) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x820e9892a77e97cd(p0,p1) end
+function N_0x820e9892a77e97cd(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3135,7 +3446,8 @@ function N_0x820e9892a77e97cd(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x83a169eabcdb10a2(p0,p1) end
+function N_0x83a169eabcdb10a2(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3144,7 +3456,8 @@ function N_0x83a169eabcdb10a2(p0,p1) end
 --@usage void undefined(float multiplier);
 --@params multiplier float
 --@return void
-function N_0x87ddeb611b329a9c(multiplier) end
+function N_0x87ddeb611b329a9c(multiplier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3154,7 +3467,8 @@ function N_0x87ddeb611b329a9c(multiplier) end
 --@params ped Ped
 --@params p1 Any*
 --@return BOOL
-function N_0x9c6a6c19b6c0c496(ped,p1) end
+function N_0x9c6a6c19b6c0c496(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3163,7 +3477,8 @@ function N_0x9c6a6c19b6c0c496(ped,p1) end
 --@usage int undefined(Ped ped);
 --@params ped Ped
 --@return int
-function N_0x9d728c1e12bf5518(ped) end
+function N_0x9d728c1e12bf5518(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3172,7 +3487,8 @@ function N_0x9d728c1e12bf5518(ped) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x9911f4a24485f653(p0) end
+function N_0x9911f4a24485f653(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3182,7 +3498,8 @@ function N_0x9911f4a24485f653(p0) end
 --@params p0 Any
 --@params p1 BOOL
 --@return void
-function N_0x9a77dfd295e29b09(p0,p1) end
+function N_0x9a77dfd295e29b09(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3192,7 +3509,8 @@ function N_0x9a77dfd295e29b09(p0,p1) end
 --@params p0 Any*
 --@params p1 Any*
 --@return BOOL
-function N_0x9e30e91fb03a2caf(p0,p1) end
+function N_0x9e30e91fb03a2caf(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3201,7 +3519,8 @@ function N_0x9e30e91fb03a2caf(p0,p1) end
 --@usage BOOL undefined(Ped ped);
 --@params ped Ped
 --@return BOOL
-function N_0xa3f3564a5b3646c0(ped) end
+function N_0xa3f3564a5b3646c0(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3210,7 +3529,8 @@ function N_0xa3f3564a5b3646c0(ped) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xa635c11b8c44afc2() end
+function N_0xa635c11b8c44afc2()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3220,7 +3540,8 @@ function N_0xa635c11b8c44afc2() end
 --@params p0 Any
 --@params p1 BOOL
 --@return void
-function N_0xa660faf550eb37e5(p0,p1) end
+function N_0xa660faf550eb37e5(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3229,7 +3550,8 @@ function N_0xa660faf550eb37e5(p0,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xa3a9299c4f2adb98(p0) end
+function N_0xa3a9299c4f2adb98(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3238,7 +3560,8 @@ function N_0xa3a9299c4f2adb98(p0) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xaaa6a3698a69e048(p0) end
+function N_0xaaa6a3698a69e048(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3247,7 +3570,8 @@ function N_0xaaa6a3698a69e048(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xa52d5247a4227e14(p0) end
+function N_0xa52d5247a4227e14(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3256,7 +3580,8 @@ function N_0xa52d5247a4227e14(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xa586fbeb32a53dbb() end
+function N_0xa586fbeb32a53dbb()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3266,7 +3591,8 @@ function N_0xa586fbeb32a53dbb() end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function N_0xafc976fd0580c7b3(ped,toggle) end
+function N_0xafc976fd0580c7b3(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3276,7 +3602,8 @@ function N_0xafc976fd0580c7b3(ped,toggle) end
 --@params p0 Any
 --@params p1 BOOL
 --@return void
-function N_0xa9b61a329bfdcbea(p0,p1) end
+function N_0xa9b61a329bfdcbea(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3294,7 +3621,8 @@ function N_0xa9b61a329bfdcbea(p0,p1) end
 --@params scale float
 --@params duration int
 --@return void
-function N_0xb2aff10216defa2f(x,y,z,p3,p4,p5,p6,interiorFlags,scale,duration) end
+function N_0xb2aff10216defa2f(x, y, z, p3, p4, p5, p6, interiorFlags, scale, duration)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3303,7 +3631,8 @@ function N_0xb2aff10216defa2f(x,y,z,p3,p4,p5,p6,interiorFlags,scale,duration) en
 --@usage BOOL undefined(Ped ped);
 --@params ped Ped
 --@return BOOL
-function N_0xb8b52e498014f5b0(ped) end
+function N_0xb8b52e498014f5b0(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3317,7 +3646,8 @@ function N_0xb8b52e498014f5b0(ped) end
 --@params p4 Any
 --@params p5 Any
 --@return void
-function N_0xad27d957598e49e9(p0,p1,p2,p3,p4,p5) end
+function N_0xad27d957598e49e9(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3328,7 +3658,8 @@ function N_0xad27d957598e49e9(p0,p1,p2,p3,p4,p5) end
 --@params p1 Any
 --@params p2 Any
 --@return Any
-function N_0xc56fbf2f228e1dac(modelHash,p1,p2) end
+function N_0xc56fbf2f228e1dac(modelHash, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3338,7 +3669,8 @@ function N_0xc56fbf2f228e1dac(modelHash,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xb282749d5e028163(p0,p1) end
+function N_0xb282749d5e028163(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3347,7 +3679,8 @@ function N_0xb282749d5e028163(p0,p1) end
 --@usage void undefined(Ped ped);
 --@params ped Ped
 --@return void
-function N_0xd33daa36272177c4(ped) end
+function N_0xd33daa36272177c4(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3357,7 +3690,8 @@ function N_0xd33daa36272177c4(ped) end
 --@params p0 Any
 --@params p1 Any*
 --@return void
-function N_0xb782f8238512bad5(p0,p1) end
+function N_0xb782f8238512bad5(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3366,7 +3700,8 @@ function N_0xb782f8238512bad5(p0,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xdfe68c4b787e1bfb(p0) end
+function N_0xdfe68c4b787e1bfb(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3375,7 +3710,8 @@ function N_0xdfe68c4b787e1bfb(p0) end
 --@usage void undefined(Ped ped);
 --@params ped Ped
 --@return void
-function N_0xc2ee020f5fb4db53(ped) end
+function N_0xc2ee020f5fb4db53(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3386,7 +3722,8 @@ function N_0xc2ee020f5fb4db53(ped) end
 --@params p1 BOOL
 --@params p2 int
 --@return void
-function N_0xe861d0b05c7662b8(ped,p1,p2) end
+function N_0xe861d0b05c7662b8(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3395,7 +3732,8 @@ function N_0xe861d0b05c7662b8(ped,p1,p2) end
 --@usage int undefined(Any p0);
 --@params p0 Any
 --@return int
-function N_0xea9960d07dadcf10(p0) end
+function N_0xea9960d07dadcf10(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3405,7 +3743,8 @@ function N_0xea9960d07dadcf10(p0) end
 --@params ped Ped
 --@params p1 BOOL
 --@return void
-function N_0xcd018c591f94cb43(ped,p1) end
+function N_0xcd018c591f94cb43(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3415,7 +3754,8 @@ function N_0xcd018c591f94cb43(ped,p1) end
 --@params ped Ped
 --@params unk float
 --@return void
-function N_0xec4b4b3b9908052a(ped,unk) end
+function N_0xec4b4b3b9908052a(ped, unk)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3425,7 +3765,8 @@ function N_0xec4b4b3b9908052a(ped,unk) end
 --@params p0 Any
 --@params p1 BOOL
 --@return void
-function N_0xceda60a74219d064(p0,p1) end
+function N_0xceda60a74219d064(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3437,7 +3778,8 @@ function N_0xceda60a74219d064(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return Any
-function N_0xeeed8fafec331a70(p0,p1,p2,p3) end
+function N_0xeeed8fafec331a70(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3446,7 +3788,8 @@ function N_0xeeed8fafec331a70(p0,p1,p2,p3) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xf033419d1b81fae8(p0) end
+function N_0xf033419d1b81fae8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3456,7 +3799,8 @@ function N_0xf033419d1b81fae8(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xe906ec930f5fe7c8(p0,p1) end
+function N_0xe906ec930f5fe7c8(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3468,7 +3812,8 @@ function N_0xe906ec930f5fe7c8(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return Any
-function N_0xec6935ebe0847b90(p0,p1,p2,p3) end
+function N_0xec6935ebe0847b90(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3477,7 +3822,8 @@ function N_0xec6935ebe0847b90(p0,p1,p2,p3) end
 --@usage BOOL undefined(Ped ped);
 --@params ped Ped
 --@return BOOL
-function N_0xf2385935bffd4d92(ped) end
+function N_0xf2385935bffd4d92(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3486,7 +3832,8 @@ function N_0xf2385935bffd4d92(ped) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xf445de8da80a1792() end
+function N_0xf445de8da80a1792()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3495,7 +3842,8 @@ function N_0xf445de8da80a1792() end
 --@usage void undefined(Ped ped);
 --@params ped Ped
 --@return void
-function N_0xed3c76adfa6d07c4(ped) end
+function N_0xed3c76adfa6d07c4(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3504,7 +3852,8 @@ function N_0xed3c76adfa6d07c4(ped) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xf1c03a5352243a30(p0) end
+function N_0xf1c03a5352243a30(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3515,7 +3864,8 @@ function N_0xf1c03a5352243a30(p0) end
 --@params p1 Any*
 --@params p2 Any*
 --@return BOOL
-function N_0xf60165e1d2c5370b(ped,p1,p2) end
+function N_0xf60165e1d2c5370b(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3524,7 +3874,8 @@ function N_0xf60165e1d2c5370b(ped,p1,p2) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0xf2bebcdfafdaa19e(toggle) end
+function N_0xf2bebcdfafdaa19e(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3534,7 +3885,8 @@ function N_0xf2bebcdfafdaa19e(toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function N_0xfd325494792302d7(ped,toggle) end
+function N_0xfd325494792302d7(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3544,7 +3896,8 @@ function N_0xfd325494792302d7(ped,toggle) end
 --@params ped Ped
 --@params p1 BOOL
 --@return void
-function N_0xf9acf4a08098ea25(ped,p1) end
+function N_0xf9acf4a08098ea25(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3553,7 +3906,8 @@ function N_0xf9acf4a08098ea25(ped,p1) end
 --@usage void undefined();
 
 --@return void
-function N_0xfee4a5459472a9f8() end
+function N_0xfee4a5459472a9f8()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3563,7 +3917,8 @@ function N_0xfee4a5459472a9f8() end
 --@params p0 float
 --@params p1 Any
 --@return void
-function N_0xff4803bc019852d9(p0,p1) end
+function N_0xff4803bc019852d9(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3572,7 +3927,8 @@ function N_0xff4803bc019852d9(p0,p1) end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0xfec9a3b1820f3331(p0) end
+function N_0xfec9a3b1820f3331(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3582,7 +3938,8 @@ function N_0xfec9a3b1820f3331(p0) end
 --@params ped Ped
 --@params radius float
 --@return void
-function RegisterHatedTargetsAroundPed(ped,radius) end
+function RegisterHatedTargetsAroundPed(ped, radius)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3591,7 +3948,8 @@ function RegisterHatedTargetsAroundPed(ped,radius) end
 --@usage int REGISTER_PEDHEADSHOT_TRANSPARENT(Ped ped);
 --@params ped Ped
 --@return int
-function RegisterPedheadshotTransparent(ped) end
+function RegisterPedheadshotTransparent(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3602,7 +3960,8 @@ function RegisterPedheadshotTransparent(ped) end
 --@params animName char*
 --@params animDict char*
 --@return void
-function PlayFacialAnim(ped,animName,animDict) end
+function PlayFacialAnim(ped, animName, animDict)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3612,7 +3971,8 @@ function PlayFacialAnim(ped,animName,animDict) end
 --@params ped Ped
 --@params target Ped
 --@return void
-function RegisterTarget(ped,target) end
+function RegisterTarget(ped, target)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3621,7 +3981,8 @@ function RegisterTarget(ped,target) end
 --@usage void RELEASE_PED_PRELOAD_PROP_DATA(Ped ped);
 --@params ped Ped
 --@return void
-function ReleasePedPreloadPropData(ped) end
+function ReleasePedPreloadPropData(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3630,7 +3991,8 @@ function ReleasePedPreloadPropData(ped) end
 --@usage void RELEASE_PED_PRELOAD_VARIATION_DATA(Ped ped);
 --@params ped Ped
 --@return void
-function ReleasePedPreloadVariationData(ped) end
+function ReleasePedPreloadVariationData(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3639,7 +4001,8 @@ function ReleasePedPreloadVariationData(ped) end
 --@usage int _REGISTER_PEDHEADSHOT_3(Ped ped);
 --@params ped Ped
 --@return int
-function RegisterPedheadshot_3(ped) end
+function RegisterPedheadshot_3(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3648,7 +4011,8 @@ function RegisterPedheadshot_3(ped) end
 --@usage int REGISTER_PEDHEADSHOT(Ped ped);
 --@params ped Ped
 --@return int
-function RegisterPedheadshot(ped) end
+function RegisterPedheadshot(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3657,7 +4021,8 @@ function RegisterPedheadshot(ped) end
 --@usage void RELEASE_PEDHEADSHOT_IMG_UPLOAD(int id);
 --@params id int
 --@return void
-function ReleasePedheadshotImgUpload(id) end
+function ReleasePedheadshotImgUpload(id)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3667,7 +4032,8 @@ function ReleasePedheadshotImgUpload(id) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function RemovePedDefensiveArea(ped,toggle) end
+function RemovePedDefensiveArea(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3676,7 +4042,8 @@ function RemovePedDefensiveArea(ped,toggle) end
 --@usage void REMOVE_GROUP(int groupId);
 --@params groupId int
 --@return void
-function RemoveGroup(groupId) end
+function RemoveGroup(groupId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3685,7 +4052,8 @@ function RemoveGroup(groupId) end
 --@usage void REMOVE_ACTION_MODE_ASSET(char* asset);
 --@params asset char*
 --@return void
-function RemoveActionModeAsset(asset) end
+function RemoveActionModeAsset(asset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3694,7 +4062,8 @@ function RemoveActionModeAsset(asset) end
 --@usage void REMOVE_PED_ELEGANTLY(Ped* ped);
 --@params ped Ped*
 --@return void
-function RemovePedElegantly(ped) end
+function RemovePedElegantly(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3703,7 +4072,8 @@ function RemovePedElegantly(ped) end
 --@usage void REMOVE_PED_FROM_GROUP(Ped ped);
 --@params ped Ped
 --@return void
-function RemovePedFromGroup(ped) end
+function RemovePedFromGroup(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3712,7 +4082,8 @@ function RemovePedFromGroup(ped) end
 --@usage void REMOVE_PED_PREFERRED_COVER_SET(Ped ped);
 --@params ped Ped
 --@return void
-function RemovePedPreferredCoverSet(ped) end
+function RemovePedPreferredCoverSet(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3722,7 +4093,8 @@ function RemovePedPreferredCoverSet(ped) end
 --@params ped Ped
 --@params instantly BOOL
 --@return void
-function RemovePedHelmet(ped,instantly) end
+function RemovePedHelmet(ped, instantly)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3732,7 +4104,8 @@ function RemovePedHelmet(ped,instantly) end
 --@params p0 Any
 --@params p1 BOOL
 --@return void
-function RemoveScenarioBlockingArea(p0,p1) end
+function RemoveScenarioBlockingArea(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3741,7 +4114,8 @@ function RemoveScenarioBlockingArea(p0,p1) end
 --@usage void REMOVE_RELATIONSHIP_GROUP(Hash groupHash);
 --@params groupHash Hash
 --@return void
-function RemoveRelationshipGroup(groupHash) end
+function RemoveRelationshipGroup(groupHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3750,7 +4124,8 @@ function RemoveRelationshipGroup(groupHash) end
 --@usage void REMOVE_SCENARIO_BLOCKING_AREAS();
 
 --@return void
-function RemoveScenarioBlockingAreas() end
+function RemoveScenarioBlockingAreas()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3759,7 +4134,8 @@ function RemoveScenarioBlockingAreas() end
 --@usage void REMOVE_STEALTH_MODE_ASSET(char* asset);
 --@params asset char*
 --@return void
-function RemoveStealthModeAsset(asset) end
+function RemoveStealthModeAsset(asset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3768,7 +4144,8 @@ function RemoveStealthModeAsset(asset) end
 --@usage void REQUEST_PED_VISIBILITY_TRACKING(Ped ped);
 --@params ped Ped
 --@return void
-function RequestPedVisibilityTracking(ped) end
+function RequestPedVisibilityTracking(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3778,7 +4155,8 @@ function RequestPedVisibilityTracking(ped) end
 --@params ped Ped
 --@params p1 BOOL
 --@return void
-function RequestPedVehicleVisibilityTracking(ped,p1) end
+function RequestPedVehicleVisibilityTracking(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3787,7 +4165,8 @@ function RequestPedVehicleVisibilityTracking(ped,p1) end
 --@usage BOOL REQUEST_PEDHEADSHOT_IMG_UPLOAD(int id);
 --@params id int
 --@return BOOL
-function RequestPedheadshotImgUpload(id) end
+function RequestPedheadshotImgUpload(id)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3796,7 +4175,8 @@ function RequestPedheadshotImgUpload(id) end
 --@usage void REQUEST_STEALTH_MODE_ASSET(char* asset);
 --@params asset char*
 --@return void
-function RequestStealthModeAsset(asset) end
+function RequestStealthModeAsset(asset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3805,7 +4185,8 @@ function RequestStealthModeAsset(asset) end
 --@usage void REQUEST_ACTION_MODE_ASSET(char* asset);
 --@params asset char*
 --@return void
-function RequestActionModeAsset(asset) end
+function RequestActionModeAsset(asset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3814,7 +4195,8 @@ function RequestActionModeAsset(asset) end
 --@usage void RESET_AI_MELEE_WEAPON_DAMAGE_MODIFIER();
 
 --@return void
-function ResetAiMeleeWeaponDamageModifier() end
+function ResetAiMeleeWeaponDamageModifier()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3823,7 +4205,8 @@ function ResetAiMeleeWeaponDamageModifier() end
 --@usage void RESET_AI_WEAPON_DAMAGE_MODIFIER();
 
 --@return void
-function ResetAiWeaponDamageModifier() end
+function ResetAiWeaponDamageModifier()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3832,7 +4215,8 @@ function ResetAiWeaponDamageModifier() end
 --@usage void RESET_GROUP_FORMATION_DEFAULT_SPACING(int groupHandle);
 --@params groupHandle int
 --@return void
-function ResetGroupFormationDefaultSpacing(groupHandle) end
+function ResetGroupFormationDefaultSpacing(groupHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3841,7 +4225,8 @@ function ResetGroupFormationDefaultSpacing(groupHandle) end
 --@usage void RESET_PED_LAST_VEHICLE(Ped ped);
 --@params ped Ped
 --@return void
-function ResetPedLastVehicle(ped) end
+function ResetPedLastVehicle(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3850,7 +4235,8 @@ function ResetPedLastVehicle(ped) end
 --@usage void RESET_PED_IN_VEHICLE_CONTEXT(Ped ped);
 --@params ped Ped
 --@return void
-function ResetPedInVehicleContext(ped) end
+function ResetPedInVehicleContext(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3859,7 +4245,8 @@ function ResetPedInVehicleContext(ped) end
 --@usage void RESET_PED_RAGDOLL_TIMER(Ped ped);
 --@params ped Ped
 --@return void
-function ResetPedRagdollTimer(ped) end
+function ResetPedRagdollTimer(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3869,7 +4256,8 @@ function ResetPedRagdollTimer(ped) end
 --@params ped Ped
 --@params p1 float
 --@return void
-function ResetPedMovementClipset(ped,p1) end
+function ResetPedMovementClipset(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3878,7 +4266,8 @@ function ResetPedMovementClipset(ped,p1) end
 --@usage void RESET_PED_STRAFE_CLIPSET(Ped ped);
 --@params ped Ped
 --@return void
-function ResetPedStrafeClipset(ped) end
+function ResetPedStrafeClipset(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3887,7 +4276,8 @@ function ResetPedStrafeClipset(ped) end
 --@usage Any RESET_PED_VISIBLE_DAMAGE(Ped ped);
 --@params ped Ped
 --@return Any
-function ResetPedVisibleDamage(ped) end
+function ResetPedVisibleDamage(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3896,7 +4286,8 @@ function ResetPedVisibleDamage(ped) end
 --@usage void RESET_PED_WEAPON_MOVEMENT_CLIPSET(Ped ped);
 --@params ped Ped
 --@return void
-function ResetPedWeaponMovementClipset(ped) end
+function ResetPedWeaponMovementClipset(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3905,7 +4296,8 @@ function ResetPedWeaponMovementClipset(ped) end
 --@usage void SET_AI_MELEE_WEAPON_DAMAGE_MODIFIER(float modifier);
 --@params modifier float
 --@return void
-function SetAiMeleeWeaponDamageModifier(modifier) end
+function SetAiMeleeWeaponDamageModifier(modifier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3914,7 +4306,8 @@ function SetAiMeleeWeaponDamageModifier(modifier) end
 --@usage void REVIVE_INJURED_PED(Ped ped);
 --@params ped Ped
 --@return void
-function ReviveInjuredPed(ped) end
+function ReviveInjuredPed(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3923,7 +4316,8 @@ function ReviveInjuredPed(ped) end
 --@usage void SET_AI_WEAPON_DAMAGE_MODIFIER(float value);
 --@params value float
 --@return void
-function SetAiWeaponDamageModifier(value) end
+function SetAiWeaponDamageModifier(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3933,7 +4327,8 @@ function SetAiWeaponDamageModifier(value) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetBlockingOfNonTemporaryEvents(ped,toggle) end
+function SetBlockingOfNonTemporaryEvents(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3944,7 +4339,8 @@ function SetBlockingOfNonTemporaryEvents(ped,toggle) end
 --@params toggle BOOL
 --@params p2 BOOL
 --@return void
-function SetCanAttackFriendly(ped,toggle,p2) end
+function SetCanAttackFriendly(ped, toggle, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3953,7 +4349,8 @@ function SetCanAttackFriendly(ped,toggle,p2) end
 --@usage void RESURRECT_PED(Ped ped);
 --@params ped Ped
 --@return void
-function ResurrectPed(ped) end
+function ResurrectPed(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3964,7 +4361,8 @@ function ResurrectPed(ped) end
 --@params combatType int
 --@params p2 float
 --@return void
-function SetCombatFloat(ped,combatType,p2) end
+function SetCombatFloat(ped, combatType, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3973,7 +4371,8 @@ function SetCombatFloat(ped,combatType,p2) end
 --@usage void SET_CREATE_RANDOM_COPS(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetCreateRandomCops(toggle) end
+function SetCreateRandomCops(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3982,7 +4381,8 @@ function SetCreateRandomCops(toggle) end
 --@usage void SET_CREATE_RANDOM_COPS_NOT_ON_SCENARIOS(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetCreateRandomCopsNotOnScenarios(toggle) end
+function SetCreateRandomCopsNotOnScenarios(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3991,7 +4391,8 @@ function SetCreateRandomCopsNotOnScenarios(toggle) end
 --@usage void SET_CREATE_RANDOM_COPS_ON_SCENARIOS(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetCreateRandomCopsOnScenarios(toggle) end
+function SetCreateRandomCopsOnScenarios(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4001,7 +4402,8 @@ function SetCreateRandomCopsOnScenarios(toggle) end
 --@params driver Ped
 --@params aggressiveness float
 --@return void
-function SetDriverAggressiveness(driver,aggressiveness) end
+function SetDriverAggressiveness(driver, aggressiveness)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4011,7 +4413,8 @@ function SetDriverAggressiveness(driver,aggressiveness) end
 --@params driver Ped
 --@params ability float
 --@return void
-function SetDriverAbility(driver,ability) end
+function SetDriverAbility(driver, ability)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4021,7 +4424,8 @@ function SetDriverAbility(driver,ability) end
 --@params driver Ped
 --@params modifier float
 --@return void
-function SetDriverRacingModifier(driver,modifier) end
+function SetDriverRacingModifier(driver, modifier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4031,7 +4435,8 @@ function SetDriverRacingModifier(driver,modifier) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetEnableHandcuffs(ped,toggle) end
+function SetEnableHandcuffs(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4041,7 +4446,8 @@ function SetEnableHandcuffs(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetEnableBoundAnkles(ped,toggle) end
+function SetEnableBoundAnkles(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4051,7 +4457,8 @@ function SetEnableBoundAnkles(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetEnableScubaGearLight(ped,toggle) end
+function SetEnableScubaGearLight(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4062,7 +4469,8 @@ function SetEnableScubaGearLight(ped,toggle) end
 --@params animName char*
 --@params animDict char*
 --@return void
-function SetFacialIdleAnimOverride(ped,animName,animDict) end
+function SetFacialIdleAnimOverride(ped, animName, animDict)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4072,7 +4480,8 @@ function SetFacialIdleAnimOverride(ped,animName,animDict) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetForceFootstepUpdate(ped,toggle) end
+function SetForceFootstepUpdate(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4082,7 +4491,8 @@ function SetForceFootstepUpdate(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetEnablePedEnveffScale(ped,toggle) end
+function SetEnablePedEnveffScale(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4092,7 +4502,8 @@ function SetEnablePedEnveffScale(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetEnableScuba(ped,toggle) end
+function SetEnableScuba(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4104,7 +4515,8 @@ function SetEnableScuba(ped,toggle) end
 --@params type int
 --@params p3 int
 --@return void
-function SetForceStepType(ped,p1,type,p3) end
+function SetForceStepType(ped, p1, type, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4114,7 +4526,8 @@ function SetForceStepType(ped,p1,type,p3) end
 --@params groupId int
 --@params formationType int
 --@return void
-function SetGroupFormation(groupId,formationType) end
+function SetGroupFormation(groupId, formationType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4126,7 +4539,8 @@ function SetGroupFormation(groupId,formationType) end
 --@params p2 float
 --@params p3 float
 --@return void
-function SetGroupFormationSpacing(groupId,p1,p2,p3) end
+function SetGroupFormationSpacing(groupId, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4136,7 +4550,8 @@ function SetGroupFormationSpacing(groupId,p1,p2,p3) end
 --@params groupHandle int
 --@params separationRange float
 --@return void
-function SetGroupSeparationRange(groupHandle,separationRange) end
+function SetGroupSeparationRange(groupHandle, separationRange)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4154,7 +4569,8 @@ function SetGroupSeparationRange(groupHandle,separationRange) end
 --@params blendInDuration int
 --@params blendOutDuration int
 --@return void
-function SetIkTarget(ped,ikIndex,entityLookAt,boneLookAt,offsetX,offsetY,offsetZ,p7,blendInDuration,blendOutDuration) end
+function SetIkTarget(ped, ikIndex, entityLookAt, boneLookAt, offsetX, offsetY, offsetZ, p7, blendInDuration, blendOutDuration)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4164,7 +4580,8 @@ function SetIkTarget(ped,ikIndex,entityLookAt,boneLookAt,offsetX,offsetY,offsetZ
 --@params ped Ped
 --@params name char*
 --@return void
-function SetMovementModeOverride(ped,name) end
+function SetMovementModeOverride(ped, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4177,7 +4594,8 @@ function SetMovementModeOverride(ped,name) end
 --@params b int
 --@params id int
 --@return void
-function SetHeadBlendPaletteColor(ped,r,g,b,id) end
+function SetHeadBlendPaletteColor(ped, r, g, b, id)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4187,7 +4605,8 @@ function SetHeadBlendPaletteColor(ped,r,g,b,id) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedAllowVehiclesOverride(ped,toggle) end
+function SetPedAllowVehiclesOverride(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4201,7 +4620,8 @@ function SetPedAllowVehiclesOverride(ped,toggle) end
 --@params p4 float
 --@params p5 BOOL
 --@return void
-function SetPedAlternateMovementAnim(ped,stance,animDictionary,animationName,p4,p5) end
+function SetPedAlternateMovementAnim(ped, stance, animDictionary, animationName, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4211,7 +4631,8 @@ function SetPedAlternateMovementAnim(ped,stance,animDictionary,animationName,p4,
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedAllowedToDuck(ped,toggle) end
+function SetPedAllowedToDuck(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4224,7 +4645,8 @@ function SetPedAllowedToDuck(ped,toggle) end
 --@params p3 float
 --@params p4 BOOL
 --@return void
-function SetPedAlternateWalkAnim(ped,animDict,animName,p3,p4) end
+function SetPedAlternateWalkAnim(ped, animDict, animName, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4234,7 +4656,8 @@ function SetPedAlternateWalkAnim(ped,animDict,animName,p3,p4) end
 --@params ped Ped
 --@params accuracy int
 --@return Any
-function SetPedAccuracy(ped,accuracy) end
+function SetPedAccuracy(ped, accuracy)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4244,7 +4667,8 @@ function SetPedAccuracy(ped,accuracy) end
 --@params ped Ped
 --@params value int
 --@return void
-function SetPedAlertness(ped,value) end
+function SetPedAlertness(ped, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4262,7 +4686,8 @@ function SetPedAlertness(ped,value) end
 --@params p8 BOOL
 --@params p9 BOOL
 --@return void
-function SetPedAngledDefensiveArea(ped,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function SetPedAngledDefensiveArea(ped, p1, p2, p3, p4, p5, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4272,7 +4697,8 @@ function SetPedAngledDefensiveArea(ped,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedAsCop(ped,toggle) end
+function SetPedAsCop(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4282,7 +4708,8 @@ function SetPedAsCop(ped,toggle) end
 --@params ped Ped
 --@params amount int
 --@return void
-function SetPedArmour(ped,amount) end
+function SetPedArmour(ped, amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4292,7 +4719,8 @@ function SetPedArmour(ped,amount) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedAsEnemy(ped,toggle) end
+function SetPedAsEnemy(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4302,7 +4730,8 @@ function SetPedAsEnemy(ped,toggle) end
 --@params ped Ped
 --@params groupId int
 --@return void
-function SetPedAsGroupLeader(ped,groupId) end
+function SetPedAsGroupLeader(ped, groupId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4312,7 +4741,8 @@ function SetPedAsGroupLeader(ped,groupId) end
 --@params ped Ped
 --@params p1 BOOL
 --@return void
-function SetPedBlocksPathingWhenDead(ped,p1) end
+function SetPedBlocksPathingWhenDead(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4325,7 +4755,8 @@ function SetPedBlocksPathingWhenDead(ped,p1) end
 --@params fathersSide float
 --@params mothersSide float
 --@return void
-function SetPedBlendFromParents(ped,father,mother,fathersSide,mothersSide) end
+function SetPedBlendFromParents(ped, father, mother, fathersSide, mothersSide)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4335,7 +4766,8 @@ function SetPedBlendFromParents(ped,father,mother,fathersSide,mothersSide) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanArmIk(ped,toggle) end
+function SetPedCanArmIk(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4345,7 +4777,8 @@ function SetPedCanArmIk(ped,toggle) end
 --@params ped Ped
 --@params groupId int
 --@return void
-function SetPedAsGroupMember(ped,groupId) end
+function SetPedAsGroupMember(ped, groupId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4359,7 +4792,8 @@ function SetPedAsGroupMember(ped,groupId) end
 --@params p4 float
 --@params p5 float
 --@return void
-function SetPedBoundsOrientation(ped,p1,p2,p3,p4,p5) end
+function SetPedBoundsOrientation(ped, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4369,7 +4803,8 @@ function SetPedBoundsOrientation(ped,p1,p2,p3,p4,p5) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanBeDraggedOut(ped,toggle) end
+function SetPedCanBeDraggedOut(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4379,7 +4814,8 @@ function SetPedCanBeDraggedOut(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanBeShotInVehicle(ped,toggle) end
+function SetPedCanBeShotInVehicle(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4389,7 +4825,8 @@ function SetPedCanBeShotInVehicle(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanBeTargetedWithoutLos(ped,toggle) end
+function SetPedCanBeTargetedWithoutLos(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4399,7 +4836,8 @@ function SetPedCanBeTargetedWithoutLos(ped,toggle) end
 --@params ped Ped
 --@params state int
 --@return void
-function SetPedCanBeKnockedOffVehicle(ped,state) end
+function SetPedCanBeKnockedOffVehicle(ped, state)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4410,7 +4848,8 @@ function SetPedCanBeKnockedOffVehicle(ped,state) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPedCanBeTargettedByPlayer(ped,player,toggle) end
+function SetPedCanBeTargettedByPlayer(ped, player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4420,7 +4859,8 @@ function SetPedCanBeTargettedByPlayer(ped,player,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanBeTargetedWhenInjured(ped,toggle) end
+function SetPedCanBeTargetedWhenInjured(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4430,7 +4870,8 @@ function SetPedCanBeTargetedWhenInjured(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanCowerInCover(ped,toggle) end
+function SetPedCanCowerInCover(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4440,7 +4881,8 @@ function SetPedCanCowerInCover(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanBeTargetted(ped,toggle) end
+function SetPedCanBeTargetted(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4450,7 +4892,8 @@ function SetPedCanBeTargetted(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanEvasiveDive(ped,toggle) end
+function SetPedCanEvasiveDive(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4461,7 +4904,8 @@ function SetPedCanEvasiveDive(ped,toggle) end
 --@params team int
 --@params toggle BOOL
 --@return void
-function SetPedCanBeTargettedByTeam(ped,team,toggle) end
+function SetPedCanBeTargettedByTeam(ped, team, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4471,7 +4915,8 @@ function SetPedCanBeTargettedByTeam(ped,team,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanPeekInCover(ped,toggle) end
+function SetPedCanPeekInCover(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4481,7 +4926,8 @@ function SetPedCanPeekInCover(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanHeadIk(ped,toggle) end
+function SetPedCanHeadIk(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4491,7 +4937,8 @@ function SetPedCanHeadIk(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanPlayAmbientAnims(ped,toggle) end
+function SetPedCanPlayAmbientAnims(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4501,7 +4948,8 @@ function SetPedCanPlayAmbientAnims(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanLegIk(ped,toggle) end
+function SetPedCanLegIk(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4511,7 +4959,8 @@ function SetPedCanLegIk(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanPlayAmbientBaseAnims(ped,toggle) end
+function SetPedCanPlayAmbientBaseAnims(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4521,7 +4970,8 @@ function SetPedCanPlayAmbientBaseAnims(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanPlayGestureAnims(ped,toggle) end
+function SetPedCanPlayGestureAnims(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4532,7 +4982,8 @@ function SetPedCanPlayGestureAnims(ped,toggle) end
 --@params toggle BOOL
 --@params p2 BOOL
 --@return void
-function SetPedCanPlayVisemeAnims(ped,toggle,p2) end
+function SetPedCanPlayVisemeAnims(ped, toggle, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4542,7 +4993,8 @@ function SetPedCanPlayVisemeAnims(ped,toggle,p2) end
 --@params ped Ped
 --@params p1 BOOL
 --@return void
-function SetPedCanPlayInjuredAnims(ped,p1) end
+function SetPedCanPlayInjuredAnims(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4552,7 +5004,8 @@ function SetPedCanPlayInjuredAnims(ped,p1) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanRagdoll(ped,toggle) end
+function SetPedCanRagdoll(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4562,7 +5015,8 @@ function SetPedCanRagdoll(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanRagdollFromPlayerImpact(ped,toggle) end
+function SetPedCanRagdollFromPlayerImpact(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4573,7 +5027,8 @@ function SetPedCanRagdollFromPlayerImpact(ped,toggle) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function SetPedCanSmashGlass(ped,p1,p2) end
+function SetPedCanSmashGlass(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4583,7 +5038,8 @@ function SetPedCanSmashGlass(ped,p1,p2) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanSwitchWeapon(ped,toggle) end
+function SetPedCanSwitchWeapon(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4594,7 +5050,8 @@ function SetPedCanSwitchWeapon(ped,toggle) end
 --@params groupHandle int
 --@params toggle BOOL
 --@return void
-function SetPedCanTeleportToGroupLeader(pedHandle,groupHandle,toggle) end
+function SetPedCanTeleportToGroupLeader(pedHandle, groupHandle, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4604,7 +5061,8 @@ function SetPedCanTeleportToGroupLeader(pedHandle,groupHandle,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanTorsoIk(ped,toggle) end
+function SetPedCanTorsoIk(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4614,7 +5072,8 @@ function SetPedCanTorsoIk(ped,toggle) end
 --@params ped Ped
 --@params p1 BOOL
 --@return void
-function SetPedCanTorsoVehicleIk(ped,p1) end
+function SetPedCanTorsoVehicleIk(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4624,7 +5083,8 @@ function SetPedCanTorsoVehicleIk(ped,p1) end
 --@params ped Ped
 --@params p1 BOOL
 --@return void
-function SetPedCanTorsoReactIk(ped,p1) end
+function SetPedCanTorsoReactIk(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4634,7 +5094,8 @@ function SetPedCanTorsoReactIk(ped,p1) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedCanUseAutoConversationLookat(ped,toggle) end
+function SetPedCanUseAutoConversationLookat(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4644,7 +5105,8 @@ function SetPedCanUseAutoConversationLookat(ped,toggle) end
 --@params ped Ped
 --@params value float
 --@return void
-function SetPedCapsule(ped,value) end
+function SetPedCapsule(ped, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4654,7 +5116,8 @@ function SetPedCapsule(ped,value) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function SetPedClothProne(p0,p1) end
+function SetPedClothProne(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4664,7 +5127,8 @@ function SetPedClothProne(p0,p1) end
 --@params ped Ped
 --@params p1 int
 --@return void
-function SetPedClothPackageIndex(ped,p1) end
+function SetPedClothPackageIndex(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4674,7 +5138,8 @@ function SetPedClothPackageIndex(ped,p1) end
 --@params ped Ped
 --@params p1 int
 --@return void
-function SetPedCombatAbility(ped,p1) end
+function SetPedCombatAbility(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4685,7 +5150,8 @@ function SetPedCombatAbility(ped,p1) end
 --@params attributeIndex int
 --@params enabled BOOL
 --@return void
-function SetPedCombatAttributes(ped,attributeIndex,enabled) end
+function SetPedCombatAttributes(ped, attributeIndex, enabled)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4695,7 +5161,8 @@ function SetPedCombatAttributes(ped,attributeIndex,enabled) end
 --@params ped Ped
 --@params combatMovement int
 --@return void
-function SetPedCombatMovement(ped,combatMovement) end
+function SetPedCombatMovement(ped, combatMovement)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4706,7 +5173,8 @@ function SetPedCombatMovement(ped,combatMovement) end
 --@params flagId int
 --@params value BOOL
 --@return void
-function SetPedConfigFlag(ped,flagId,value) end
+function SetPedConfigFlag(ped, flagId, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4716,7 +5184,8 @@ function SetPedConfigFlag(ped,flagId,value) end
 --@params ped Ped
 --@params p1 int
 --@return void
-function SetPedCombatRange(ped,p1) end
+function SetPedCombatRange(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4729,7 +5198,8 @@ function SetPedCombatRange(ped,p1) end
 --@params textureId int
 --@params paletteId int
 --@return void
-function SetPedComponentVariation(ped,componentId,drawableId,textureId,paletteId) end
+function SetPedComponentVariation(ped, componentId, drawableId, textureId, paletteId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4741,7 +5211,8 @@ function SetPedComponentVariation(ped,componentId,drawableId,textureId,paletteId
 --@params posY float
 --@params posZ float
 --@return void
-function SetPedCoordsKeepVehicle(ped,posX,posY,posZ) end
+function SetPedCoordsKeepVehicle(ped, posX, posY, posZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4751,7 +5222,8 @@ function SetPedCoordsKeepVehicle(ped,posX,posY,posZ) end
 --@params ped Ped
 --@params p1 char*
 --@return void
-function SetPedCoverClipsetOverride(ped,p1) end
+function SetPedCoverClipsetOverride(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4763,7 +5235,8 @@ function SetPedCoverClipsetOverride(ped,p1) end
 --@params posY float
 --@params posZ float
 --@return void
-function SetPedCoordsNoGang(ped,posX,posY,posZ) end
+function SetPedCoordsNoGang(ped, posX, posY, posZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4773,7 +5246,8 @@ function SetPedCoordsNoGang(ped,posX,posY,posZ) end
 --@params ped Ped
 --@params p1 char*
 --@return void
-function SetPedCowerHash(ped,p1) end
+function SetPedCowerHash(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4792,7 +5266,8 @@ function SetPedCowerHash(ped,p1) end
 --@params p9 BOOL
 --@params p10 BOOL
 --@return void
-function SetPedDefensiveAreaAttachedToPed(ped,attachPed,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function SetPedDefensiveAreaAttachedToPed(ped, attachPed, p2, p3, p4, p5, p6, p7, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4801,7 +5276,8 @@ function SetPedDefensiveAreaAttachedToPed(ped,attachPed,p2,p3,p4,p5,p6,p7,p8,p9,
 --@usage void SET_PED_DEFAULT_COMPONENT_VARIATION(Ped ped);
 --@params ped Ped
 --@return void
-function SetPedDefaultComponentVariation(ped) end
+function SetPedDefaultComponentVariation(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4814,7 +5290,8 @@ function SetPedDefaultComponentVariation(ped) end
 --@params p3 float
 --@params p4 BOOL
 --@return void
-function SetPedDefensiveAreaDirection(ped,p1,p2,p3,p4) end
+function SetPedDefensiveAreaDirection(ped, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4829,7 +5306,8 @@ function SetPedDefensiveAreaDirection(ped,p1,p2,p3,p4) end
 --@params radius float
 --@params p6 BOOL
 --@return void
-function SetPedDefensiveSphereAttachedToPed(ped,target,xOffset,yOffset,zOffset,radius,p6) end
+function SetPedDefensiveSphereAttachedToPed(ped, target, xOffset, yOffset, zOffset, radius, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4844,7 +5322,8 @@ function SetPedDefensiveSphereAttachedToPed(ped,target,xOffset,yOffset,zOffset,r
 --@params radius float
 --@params p6 BOOL
 --@return void
-function SetPedDefensiveSphereAttachedToVehicle(ped,target,xOffset,yOffset,zOffset,radius,p6) end
+function SetPedDefensiveSphereAttachedToVehicle(ped, target, xOffset, yOffset, zOffset, radius, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4854,7 +5333,8 @@ function SetPedDefensiveSphereAttachedToVehicle(ped,target,xOffset,yOffset,zOffs
 --@params ped Ped
 --@params heading float
 --@return void
-function SetPedDesiredHeading(ped,heading) end
+function SetPedDesiredHeading(ped, heading)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4863,7 +5343,8 @@ function SetPedDesiredHeading(ped,heading) end
 --@usage void SET_PED_DENSITY_MULTIPLIER_THIS_FRAME(float multiplier);
 --@params multiplier float
 --@return void
-function SetPedDensityMultiplierThisFrame(multiplier) end
+function SetPedDensityMultiplierThisFrame(multiplier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4873,7 +5354,8 @@ function SetPedDensityMultiplierThisFrame(multiplier) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedDiesInSinkingVehicle(ped,toggle) end
+function SetPedDiesInSinkingVehicle(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4883,7 +5365,8 @@ function SetPedDiesInSinkingVehicle(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedDiesInVehicle(ped,toggle) end
+function SetPedDiesInVehicle(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4893,7 +5376,8 @@ function SetPedDiesInVehicle(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedDiesInWater(ped,toggle) end
+function SetPedDiesInWater(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4903,7 +5387,8 @@ function SetPedDiesInWater(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedDiesInstantlyInWater(ped,toggle) end
+function SetPedDiesInstantlyInWater(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4913,7 +5398,8 @@ function SetPedDiesInstantlyInWater(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return Any
-function SetPedDiesWhenInjured(ped,toggle) end
+function SetPedDiesWhenInjured(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4923,7 +5409,8 @@ function SetPedDiesWhenInjured(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedDucking(ped,toggle) end
+function SetPedDucking(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4933,7 +5420,8 @@ function SetPedDucking(ped,toggle) end
 --@params ped Ped
 --@params clipset char*
 --@return void
-function SetPedDriveByClipsetOverride(ped,clipset) end
+function SetPedDriveByClipsetOverride(ped, clipset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4945,7 +5433,8 @@ function SetPedDriveByClipsetOverride(ped,clipset) end
 --@params g int
 --@params b int
 --@return void
-function SetPedEnveffColorModulator(ped,r,g,b) end
+function SetPedEnveffColorModulator(ped, r, g, b)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4955,7 +5444,8 @@ function SetPedEnveffColorModulator(ped,r,g,b) end
 --@params ped Ped
 --@params toggle BOOL
 --@return Any
-function SetPedEnableWeaponBlocking(ped,toggle) end
+function SetPedEnableWeaponBlocking(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4965,7 +5455,8 @@ function SetPedEnableWeaponBlocking(ped,toggle) end
 --@params ped Ped
 --@params value float
 --@return void
-function SetPedEnveffScale(ped,value) end
+function SetPedEnveffScale(ped, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4976,7 +5467,8 @@ function SetPedEnveffScale(ped,value) end
 --@params index int
 --@params scale float
 --@return void
-function SetPedFaceFeature(ped,index,scale) end
+function SetPedFaceFeature(ped, index, scale)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4986,7 +5478,8 @@ function SetPedFaceFeature(ped,index,scale) end
 --@params ped Ped
 --@params index int
 --@return void
-function SetPedEyeColor(ped,index) end
+function SetPedEyeColor(ped, index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4996,7 +5489,8 @@ function SetPedEyeColor(ped,index) end
 --@params ped Ped
 --@params patternHash Hash
 --@return void
-function SetPedFiringPattern(ped,patternHash) end
+function SetPedFiringPattern(ped, patternHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5007,7 +5501,8 @@ function SetPedFiringPattern(ped,patternHash) end
 --@params attributeFlags int
 --@params enable BOOL
 --@return void
-function SetPedFleeAttributes(ped,attributeFlags,enable) end
+function SetPedFleeAttributes(ped, attributeFlags, enable)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5017,7 +5512,8 @@ function SetPedFleeAttributes(ped,attributeFlags,enable) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedGeneratesDeadBodyEvents(ped,toggle) end
+function SetPedGeneratesDeadBodyEvents(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5027,7 +5523,8 @@ function SetPedGeneratesDeadBodyEvents(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedGetOutUpsideDownVehicle(ped,toggle) end
+function SetPedGetOutUpsideDownVehicle(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5037,7 +5534,8 @@ function SetPedGetOutUpsideDownVehicle(ped,toggle) end
 --@params ped Ped
 --@params animGroupGesture char*
 --@return void
-function SetPedGestureGroup(ped,animGroupGesture) end
+function SetPedGestureGroup(ped, animGroupGesture)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5047,7 +5545,8 @@ function SetPedGestureGroup(ped,animGroupGesture) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedGravity(ped,toggle) end
+function SetPedGravity(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5057,7 +5556,8 @@ function SetPedGravity(ped,toggle) end
 --@params ped Ped
 --@params index int
 --@return void
-function SetPedGroupMemberPassengerIndex(ped,index) end
+function SetPedGroupMemberPassengerIndex(ped, index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5068,7 +5568,8 @@ function SetPedGroupMemberPassengerIndex(ped,index) end
 --@params colorID int
 --@params highlightColorID int
 --@return void
-function SetPedHairColor(ped,colorID,highlightColorID) end
+function SetPedHairColor(ped, colorID, highlightColorID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5081,7 +5582,8 @@ function SetPedHairColor(ped,colorID,highlightColorID) end
 --@params colorID int
 --@params secondColorID int
 --@return void
-function SetPedHeadOverlayColor(ped,overlayID,colorType,colorID,secondColorID) end
+function SetPedHeadOverlayColor(ped, overlayID, colorType, colorID, secondColorID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5100,7 +5602,8 @@ function SetPedHeadOverlayColor(ped,overlayID,colorType,colorID,secondColorID) e
 --@params thirdMix float
 --@params isParent BOOL
 --@return void
-function SetPedHeadBlendData(ped,shapeFirstID,shapeSecondID,shapeThirdID,skinFirstID,skinSecondID,skinThirdID,shapeMix,skinMix,thirdMix,isParent) end
+function SetPedHeadBlendData(ped, shapeFirstID, shapeSecondID, shapeThirdID, skinFirstID, skinSecondID, skinThirdID, shapeMix, skinMix, thirdMix, isParent)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5112,7 +5615,8 @@ function SetPedHeadBlendData(ped,shapeFirstID,shapeSecondID,shapeThirdID,skinFir
 --@params index int
 --@params opacity float
 --@return void
-function SetPedHeadOverlay(ped,overlayID,index,opacity) end
+function SetPedHeadOverlay(ped, overlayID, index, opacity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5122,7 +5626,8 @@ function SetPedHeadOverlay(ped,overlayID,index,opacity) end
 --@params ped Ped
 --@params value float
 --@return void
-function SetPedHearingRange(ped,value) end
+function SetPedHearingRange(ped, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5132,7 +5637,8 @@ function SetPedHearingRange(ped,value) end
 --@params ped Ped
 --@params helmetFlag int
 --@return void
-function SetPedHelmetFlag(ped,helmetFlag) end
+function SetPedHelmetFlag(ped, helmetFlag)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5142,7 +5648,8 @@ function SetPedHelmetFlag(ped,helmetFlag) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function SetPedHeatscaleOverride(p0,p1) end
+function SetPedHeatscaleOverride(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5152,7 +5659,8 @@ function SetPedHeatscaleOverride(p0,p1) end
 --@params ped Ped
 --@params canWearHelmet BOOL
 --@return void
-function SetPedHelmet(ped,canWearHelmet) end
+function SetPedHelmet(ped, canWearHelmet)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5162,7 +5670,8 @@ function SetPedHelmet(ped,canWearHelmet) end
 --@params ped Ped
 --@params textureIndex int
 --@return void
-function SetPedHelmetTextureIndex(ped,textureIndex) end
+function SetPedHelmetTextureIndex(ped, textureIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5172,7 +5681,8 @@ function SetPedHelmetTextureIndex(ped,textureIndex) end
 --@params ped Ped
 --@params propIndex int
 --@return void
-function SetPedHelmetPropIndex(ped,propIndex) end
+function SetPedHelmetPropIndex(ped, propIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5184,7 +5694,8 @@ function SetPedHelmetPropIndex(ped,propIndex) end
 --@params p2 int
 --@params p3 int
 --@return void
-function SetPedHelmetUnk(ped,p1,p2,p3) end
+function SetPedHelmetUnk(ped, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5194,7 +5705,8 @@ function SetPedHelmetUnk(ped,p1,p2,p3) end
 --@params ped Ped
 --@params value float
 --@return void
-function SetPedIdRange(ped,value) end
+function SetPedIdRange(ped, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5204,7 +5716,8 @@ function SetPedIdRange(ped,value) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedHighlyPerceptive(ped,toggle) end
+function SetPedHighlyPerceptive(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5214,7 +5727,8 @@ function SetPedHighlyPerceptive(ped,toggle) end
 --@params ped Ped
 --@params context Hash
 --@return void
-function SetPedInVehicleContext(ped,context) end
+function SetPedInVehicleContext(ped, context)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5224,7 +5738,8 @@ function SetPedInVehicleContext(ped,context) end
 --@params ped Ped
 --@params intensity float
 --@return void
-function SetPedIlluminatedClothingGlowIntensity(ped,intensity) end
+function SetPedIlluminatedClothingGlowIntensity(ped, intensity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5235,7 +5750,8 @@ function SetPedIlluminatedClothingGlowIntensity(ped,intensity) end
 --@params vehicle Vehicle
 --@params seatIndex int
 --@return void
-function SetPedIntoVehicle(ped,vehicle,seatIndex) end
+function SetPedIntoVehicle(ped, vehicle, seatIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5244,7 +5760,8 @@ function SetPedIntoVehicle(ped,vehicle,seatIndex) end
 --@usage void SET_PED_INCREASED_AVOIDANCE_RADIUS(Ped ped);
 --@params ped Ped
 --@return void
-function SetPedIncreasedAvoidanceRadius(ped) end
+function SetPedIncreasedAvoidanceRadius(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5254,7 +5771,8 @@ function SetPedIncreasedAvoidanceRadius(ped) end
 --@params ped Ped
 --@params mode int
 --@return void
-function SetPedLegIkMode(ped,mode) end
+function SetPedLegIkMode(ped, mode)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5264,7 +5782,8 @@ function SetPedLegIkMode(ped,mode) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedKeepTask(ped,toggle) end
+function SetPedKeepTask(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5274,7 +5793,8 @@ function SetPedKeepTask(ped,toggle) end
 --@params ped Ped
 --@params value int
 --@return void
-function SetPedMaxHealth(ped,value) end
+function SetPedMaxHealth(ped, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5284,7 +5804,8 @@ function SetPedMaxHealth(ped,value) end
 --@params ped Ped
 --@params multiplier float
 --@return void
-function SetPedLodMultiplier(ped,multiplier) end
+function SetPedLodMultiplier(ped, multiplier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5294,7 +5815,8 @@ function SetPedLodMultiplier(ped,multiplier) end
 --@params ped Ped
 --@params value float
 --@return void
-function SetPedMaxMoveBlendRatio(ped,value) end
+function SetPedMaxMoveBlendRatio(ped, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5304,7 +5826,8 @@ function SetPedMaxMoveBlendRatio(ped,value) end
 --@params ped Ped
 --@params value float
 --@return void
-function SetPedMaxTimeInWater(ped,value) end
+function SetPedMaxTimeInWater(ped, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5314,7 +5837,8 @@ function SetPedMaxTimeInWater(ped,value) end
 --@params ped Ped
 --@params value float
 --@return void
-function SetPedMaxTimeUnderwater(ped,value) end
+function SetPedMaxTimeUnderwater(ped, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5324,7 +5848,8 @@ function SetPedMaxTimeUnderwater(ped,value) end
 --@params ped Ped
 --@params ms int
 --@return void
-function SetPedMinGroundTimeForStungun(ped,ms) end
+function SetPedMinGroundTimeForStungun(ped, ms)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5334,7 +5859,8 @@ function SetPedMinGroundTimeForStungun(ped,ms) end
 --@params ped Ped
 --@params value float
 --@return void
-function SetPedMinMoveBlendRatio(ped,value) end
+function SetPedMinMoveBlendRatio(ped, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5344,7 +5870,8 @@ function SetPedMinMoveBlendRatio(ped,value) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedMotionBlur(ped,toggle) end
+function SetPedMotionBlur(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5354,7 +5881,8 @@ function SetPedMotionBlur(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedModelIsSuppressed(ped,toggle) end
+function SetPedModelIsSuppressed(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5365,7 +5893,8 @@ function SetPedModelIsSuppressed(ped,toggle) end
 --@params clipSet char*
 --@params p2 float
 --@return void
-function SetPedMovementClipset(ped,clipSet,p2) end
+function SetPedMovementClipset(ped, clipSet, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5375,7 +5904,8 @@ function SetPedMovementClipset(ped,clipSet,p2) end
 --@params ped Ped
 --@params value float
 --@return void
-function SetPedMoveRateOverride(ped,value) end
+function SetPedMoveRateOverride(ped, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5385,7 +5915,8 @@ function SetPedMoveRateOverride(ped,value) end
 --@params ped Ped
 --@params amount int
 --@return void
-function SetPedMoney(ped,amount) end
+function SetPedMoney(ped, amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5394,7 +5925,8 @@ function SetPedMoney(ped,amount) end
 --@usage void SET_PED_MOVE_ANIMS_BLEND_OUT(Ped ped);
 --@params ped Ped
 --@return void
-function SetPedMoveAnimsBlendOut(ped) end
+function SetPedMoveAnimsBlendOut(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5404,7 +5936,8 @@ function SetPedMoveAnimsBlendOut(ped) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedNeverLeavesGroup(ped,toggle) end
+function SetPedNeverLeavesGroup(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5416,7 +5949,8 @@ function SetPedNeverLeavesGroup(ped,toggle) end
 --@params y float
 --@params z float
 --@return Any
-function SetPedPanicExitScenario(ped,x,y,z) end
+function SetPedPanicExitScenario(ped, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5427,7 +5961,8 @@ function SetPedPanicExitScenario(ped,x,y,z) end
 --@params pinned BOOL
 --@params p2 int
 --@return Any
-function SetPedPinnedDown(ped,pinned,p2) end
+function SetPedPinnedDown(ped, pinned, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5437,7 +5972,8 @@ function SetPedPinnedDown(ped,pinned,p2) end
 --@params ped Ped
 --@params name char*
 --@return void
-function SetPedNameDebug(ped,name) end
+function SetPedNameDebug(ped, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5447,7 +5983,8 @@ function SetPedNameDebug(ped,name) end
 --@params ped Ped
 --@params itemSet Any
 --@return void
-function SetPedPreferredCoverSet(ped,itemSet) end
+function SetPedPreferredCoverSet(ped, itemSet)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5461,7 +5998,8 @@ function SetPedPreferredCoverSet(ped,itemSet) end
 --@params y2 float
 --@params z2 float
 --@return void
-function SetPedNonCreationArea(x1,y1,z1,x2,y2,z2) end
+function SetPedNonCreationArea(x1, y1, z1, x2, y2, z2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5473,7 +6011,8 @@ function SetPedNonCreationArea(x1,y1,z1,x2,y2,z2) end
 --@params drawableId int
 --@params textureId int
 --@return Any
-function SetPedPreloadVariationData(ped,slot,drawableId,textureId) end
+function SetPedPreloadVariationData(ped, slot, drawableId, textureId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5483,7 +6022,8 @@ function SetPedPreloadVariationData(ped,slot,drawableId,textureId) end
 --@params ped Ped
 --@params tintIndex int
 --@return void
-function SetPedParachuteTintIndex(ped,tintIndex) end
+function SetPedParachuteTintIndex(ped, tintIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5496,7 +6036,8 @@ function SetPedParachuteTintIndex(ped,tintIndex) end
 --@params textureId int
 --@params attach BOOL
 --@return void
-function SetPedPropIndex(ped,componentId,drawableId,textureId,attach) end
+function SetPedPropIndex(ped, componentId, drawableId, textureId, attach)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5506,7 +6047,8 @@ function SetPedPropIndex(ped,componentId,drawableId,textureId,attach) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedPlaysHeadOnHornAnimWhenDiesInVehicle(ped,toggle) end
+function SetPedPlaysHeadOnHornAnimWhenDiesInVehicle(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5518,7 +6060,8 @@ function SetPedPlaysHeadOnHornAnimWhenDiesInVehicle(ped,toggle) end
 --@params drawableId int
 --@params TextureId int
 --@return BOOL
-function SetPedPreloadPropData(ped,componentId,drawableId,TextureId) end
+function SetPedPreloadPropData(ped, componentId, drawableId, TextureId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5528,7 +6071,8 @@ function SetPedPreloadPropData(ped,componentId,drawableId,TextureId) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedRagdollOnCollision(ped,toggle) end
+function SetPedRagdollOnCollision(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5538,7 +6082,8 @@ function SetPedRagdollOnCollision(ped,toggle) end
 --@params ped Ped
 --@params p1 BOOL
 --@return void
-function SetPedRandomComponentVariation(ped,p1) end
+function SetPedRandomComponentVariation(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5548,7 +6093,8 @@ function SetPedRandomComponentVariation(ped,p1) end
 --@params ped Ped
 --@params lookAt Ped
 --@return void
-function SetPedPrimaryLookat(ped,lookAt) end
+function SetPedPrimaryLookat(ped, lookAt)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5558,7 +6104,8 @@ function SetPedPrimaryLookat(ped,lookAt) end
 --@params ped Ped
 --@params hash Hash
 --@return void
-function SetPedRelationshipGroupDefaultHash(ped,hash) end
+function SetPedRelationshipGroupDefaultHash(ped, hash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5567,7 +6114,8 @@ function SetPedRelationshipGroupDefaultHash(ped,hash) end
 --@usage Any SET_PED_RAGDOLL_FORCE_FALL(Ped ped);
 --@params ped Ped
 --@return Any
-function SetPedRagdollForceFall(ped) end
+function SetPedRagdollForceFall(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5577,7 +6125,8 @@ function SetPedRagdollForceFall(ped) end
 --@params ped Ped
 --@params hash Hash
 --@return void
-function SetPedRelationshipGroupHash(ped,hash) end
+function SetPedRelationshipGroupHash(ped, hash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5586,7 +6135,8 @@ function SetPedRelationshipGroupHash(ped,hash) end
 --@usage void SET_PED_RANDOM_PROPS(Ped ped);
 --@params ped Ped
 --@return void
-function SetPedRandomProps(ped) end
+function SetPedRandomProps(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5595,7 +6145,8 @@ function SetPedRandomProps(ped) end
 --@usage void _SET_PED_SCUBA_GEAR_VARIATION(Ped ped);
 --@params ped Ped
 --@return void
-function SetPedScubaGearVariation(ped) end
+function SetPedScubaGearVariation(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5605,7 +6156,8 @@ function SetPedScubaGearVariation(ped) end
 --@params ped Ped
 --@params p1 Any
 --@return void
-function SetPedReserveParachuteTintIndex(ped,p1) end
+function SetPedReserveParachuteTintIndex(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5615,7 +6167,8 @@ function SetPedReserveParachuteTintIndex(ped,p1) end
 --@params ped Ped
 --@params value float
 --@return void
-function SetPedSeeingRange(ped,value) end
+function SetPedSeeingRange(ped, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5626,7 +6179,8 @@ function SetPedSeeingRange(ped,value) end
 --@params flagId int
 --@params doReset BOOL
 --@return void
-function SetPedResetFlag(ped,flagId,doReset) end
+function SetPedResetFlag(ped, flagId, doReset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5636,7 +6190,8 @@ function SetPedResetFlag(ped,flagId,doReset) end
 --@params ped Ped
 --@params shootRate int
 --@return void
-function SetPedShootRate(ped,shootRate) end
+function SetPedShootRate(ped, shootRate)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5651,7 +6206,8 @@ function SetPedShootRate(ped,shootRate) end
 --@params p5 BOOL
 --@params p6 BOOL
 --@return void
-function SetPedSphereDefensiveArea(ped,x,y,z,radius,p5,p6) end
+function SetPedSphereDefensiveArea(ped, x, y, z, radius, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5664,7 +6220,8 @@ function SetPedSphereDefensiveArea(ped,x,y,z,radius,p5,p6) end
 --@params z float
 --@params toggle BOOL
 --@return void
-function SetPedShootsAtCoord(ped,x,y,z,toggle) end
+function SetPedShootsAtCoord(ped, x, y, z, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5675,7 +6232,8 @@ function SetPedShootsAtCoord(ped,x,y,z,toggle) end
 --@params p1 BOOL
 --@params action char*
 --@return void
-function SetPedStealthMovement(ped,p1,action) end
+function SetPedStealthMovement(ped, p1, action)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5685,7 +6243,8 @@ function SetPedStealthMovement(ped,p1,action) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedStayInVehicleWhenJacked(ped,toggle) end
+function SetPedStayInVehicleWhenJacked(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5695,7 +6254,8 @@ function SetPedStayInVehicleWhenJacked(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedSteersAroundPeds(ped,toggle) end
+function SetPedSteersAroundPeds(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5705,7 +6265,8 @@ function SetPedSteersAroundPeds(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedSteersAroundObjects(ped,toggle) end
+function SetPedSteersAroundObjects(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5715,7 +6276,8 @@ function SetPedSteersAroundObjects(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedSuffersCriticalHits(ped,toggle) end
+function SetPedSuffersCriticalHits(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5725,7 +6287,8 @@ function SetPedSuffersCriticalHits(ped,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedSteersAroundVehicles(ped,toggle) end
+function SetPedSteersAroundVehicles(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5735,7 +6298,8 @@ function SetPedSteersAroundVehicles(ped,toggle) end
 --@params ped Ped
 --@params responseType int
 --@return void
-function SetPedTargetLossResponse(ped,responseType) end
+function SetPedTargetLossResponse(ped, responseType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5745,7 +6309,8 @@ function SetPedTargetLossResponse(ped,responseType) end
 --@params ped Ped
 --@params clipSet char*
 --@return void
-function SetPedStrafeClipset(ped,clipSet) end
+function SetPedStrafeClipset(ped, clipSet)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5756,7 +6321,8 @@ function SetPedStrafeClipset(ped,clipSet) end
 --@params radius float
 --@params maxFriends int
 --@return void
-function SetPedToInformRespectedFriends(ped,radius,maxFriends) end
+function SetPedToInformRespectedFriends(ped, radius, maxFriends)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5771,7 +6337,8 @@ function SetPedToInformRespectedFriends(ped,radius,maxFriends) end
 --@params p5 BOOL
 --@params p6 BOOL
 --@return BOOL
-function SetPedToRagdoll(ped,time1,time2,ragdollType,p4,p5,p6) end
+function SetPedToRagdoll(ped, time1, time2, ragdollType, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5781,7 +6348,8 @@ function SetPedToRagdoll(ped,time1,time2,ragdollType,p4,p5,p6) end
 --@params ped Ped
 --@params sweat float
 --@return void
-function SetPedSweat(ped,sweat) end
+function SetPedSweat(ped, sweat)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5791,7 +6359,8 @@ function SetPedSweat(ped,sweat) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedToLoadCover(ped,toggle) end
+function SetPedToLoadCover(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5803,7 +6372,8 @@ function SetPedToLoadCover(ped,toggle) end
 --@params p2 int
 --@params action char*
 --@return void
-function SetPedUsingActionMode(ped,p1,p2,action) end
+function SetPedUsingActionMode(ped, p1, p2, action)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5813,7 +6383,8 @@ function SetPedUsingActionMode(ped,p1,p2,action) end
 --@params ped Ped
 --@params angle float
 --@return void
-function SetPedVisualFieldCenterAngle(ped,angle) end
+function SetPedVisualFieldCenterAngle(ped, angle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5835,7 +6406,8 @@ function SetPedVisualFieldCenterAngle(ped,angle) end
 --@params p12 float
 --@params p13 float
 --@return BOOL
-function SetPedToRagdollWithFall(ped,time,p2,ragdollType,x,y,z,p7,p8,p9,p10,p11,p12,p13) end
+function SetPedToRagdollWithFall(ped, time, p2, ragdollType, x, y, z, p7, p8, p9, p10, p11, p12, p13)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5847,7 +6419,8 @@ function SetPedToRagdollWithFall(ped,time,p2,ragdollType,x,y,z,p7,p8,p9,p10,p11,
 --@params seatIndex int
 --@params flags int
 --@return void
-function SetPedVehicleForcedSeatUsage(ped,vehicle,seatIndex,flags) end
+function SetPedVehicleForcedSeatUsage(ped, vehicle, seatIndex, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5857,7 +6430,8 @@ function SetPedVehicleForcedSeatUsage(ped,vehicle,seatIndex,flags) end
 --@params ped Ped
 --@params angle float
 --@return void
-function SetPedVisualFieldMaxElevationAngle(ped,angle) end
+function SetPedVisualFieldMaxElevationAngle(ped, angle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5867,7 +6441,8 @@ function SetPedVisualFieldMaxElevationAngle(ped,angle) end
 --@params ped Ped
 --@params value float
 --@return void
-function SetPedVisualFieldMinAngle(ped,value) end
+function SetPedVisualFieldMinAngle(ped, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5877,7 +6452,8 @@ function SetPedVisualFieldMinAngle(ped,value) end
 --@params ped Ped
 --@params value float
 --@return void
-function SetPedVisualFieldMaxAngle(ped,value) end
+function SetPedVisualFieldMaxAngle(ped, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5887,7 +6463,8 @@ function SetPedVisualFieldMaxAngle(ped,value) end
 --@params ped Ped
 --@params range float
 --@return void
-function SetPedVisualFieldPeripheralRange(ped,range) end
+function SetPedVisualFieldPeripheralRange(ped, range)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5896,7 +6473,8 @@ function SetPedVisualFieldPeripheralRange(ped,range) end
 --@usage void SET_PED_WETNESS_ENABLED_THIS_FRAME(Ped ped);
 --@params ped Ped
 --@return void
-function SetPedWetnessEnabledThisFrame(ped) end
+function SetPedWetnessEnabledThisFrame(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5906,7 +6484,8 @@ function SetPedWetnessEnabledThisFrame(ped) end
 --@params ped Ped
 --@params angle float
 --@return void
-function SetPedVisualFieldMinElevationAngle(ped,angle) end
+function SetPedVisualFieldMinElevationAngle(ped, angle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5919,7 +6498,8 @@ function SetPedVisualFieldMinElevationAngle(ped,angle) end
 --@params p3 float
 --@params p4 float
 --@return void
-function SetPopControlSphereThisFrame(x,y,z,p3,p4) end
+function SetPopControlSphereThisFrame(x, y, z, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5929,7 +6509,8 @@ function SetPopControlSphereThisFrame(x,y,z,p3,p4) end
 --@params ped Ped
 --@params clipSet char*
 --@return void
-function SetPedWeaponMovementClipset(ped,clipSet) end
+function SetPedWeaponMovementClipset(ped, clipSet)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5939,7 +6520,8 @@ function SetPedWeaponMovementClipset(ped,clipSet) end
 --@params ped Ped
 --@params height float
 --@return void
-function SetPedWetnessHeight(ped,height) end
+function SetPedWetnessHeight(ped, height)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5950,7 +6532,8 @@ function SetPedWetnessHeight(ped,height) end
 --@params group1 Hash
 --@params group2 Hash
 --@return void
-function SetRelationshipBetweenGroups(relationship,group1,group2) end
+function SetRelationshipBetweenGroups(relationship, group1, group2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5960,7 +6543,8 @@ function SetRelationshipBetweenGroups(relationship,group1,group2) end
 --@params ped Ped
 --@params flags int
 --@return void
-function SetRagdollBlockingFlags(ped,flags) end
+function SetRagdollBlockingFlags(ped, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5973,7 +6557,8 @@ function SetRagdollBlockingFlags(ped,flags) end
 --@params range float
 --@params p4 int
 --@return void
-function SetScenarioPedsSpawnInSphereArea(x,y,z,range,p4) end
+function SetScenarioPedsSpawnInSphereArea(x, y, z, range, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5982,7 +6567,8 @@ function SetScenarioPedsSpawnInSphereArea(x,y,z,range,p4) end
 --@usage void SET_SCENARIO_PEDS_TO_BE_RETURNED_BY_NEXT_COMMAND(BOOL value);
 --@params value BOOL
 --@return void
-function SetScenarioPedsToBeReturnedByNextCommand(value) end
+function SetScenarioPedsToBeReturnedByNextCommand(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5992,7 +6578,8 @@ function SetScenarioPedsToBeReturnedByNextCommand(value) end
 --@params p0 float
 --@params p1 float
 --@return void
-function SetScenarioPedDensityMultiplierThisFrame(p0,p1) end
+function SetScenarioPedDensityMultiplierThisFrame(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6002,7 +6589,8 @@ function SetScenarioPedDensityMultiplierThisFrame(p0,p1) end
 --@params sceneID int
 --@params toggle BOOL
 --@return void
-function SetSynchronizedSceneLooped(sceneID,toggle) end
+function SetSynchronizedSceneLooped(sceneID, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6012,7 +6600,8 @@ function SetSynchronizedSceneLooped(sceneID,toggle) end
 --@params sceneID Any
 --@params p1 BOOL
 --@return void
-function SetSynchronizedSceneOcclusionPortal(sceneID,p1) end
+function SetSynchronizedSceneOcclusionPortal(sceneID, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6022,7 +6611,8 @@ function SetSynchronizedSceneOcclusionPortal(sceneID,p1) end
 --@params ped Ped
 --@params p1 float
 --@return void
-function SetScriptedAnimSeatOffset(ped,p1) end
+function SetScriptedAnimSeatOffset(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6032,7 +6622,8 @@ function SetScriptedAnimSeatOffset(ped,p1) end
 --@params sceneID int
 --@params rate float
 --@return void
-function SetSynchronizedSceneRate(sceneID,rate) end
+function SetSynchronizedSceneRate(sceneID, rate)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6043,7 +6634,8 @@ function SetSynchronizedSceneRate(sceneID,rate) end
 --@params y float
 --@params z float
 --@return void
-function SetScriptedConversionCoordThisFrame(x,y,z) end
+function SetScriptedConversionCoordThisFrame(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6052,7 +6644,8 @@ function SetScriptedConversionCoordThisFrame(x,y,z) end
 --@usage void STOP_ANY_PED_MODEL_BEING_SUPPRESSED();
 
 --@return void
-function StopAnyPedModelBeingSuppressed() end
+function StopAnyPedModelBeingSuppressed()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6061,7 +6654,8 @@ function StopAnyPedModelBeingSuppressed() end
 --@usage void UNREGISTER_PEDHEADSHOT(int id);
 --@params id int
 --@return void
-function UnregisterPedheadshot(id) end
+function UnregisterPedheadshot(id)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6077,7 +6671,8 @@ function UnregisterPedheadshot(id) end
 --@params yaw float
 --@params p7 BOOL
 --@return void
-function SetSynchronizedSceneOrigin(sceneID,x,y,z,roll,pitch,yaw,p7) end
+function SetSynchronizedSceneOrigin(sceneID, x, y, z, roll, pitch, yaw, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6087,7 +6682,8 @@ function SetSynchronizedSceneOrigin(sceneID,x,y,z,roll,pitch,yaw,p7) end
 --@params sceneID int
 --@params phase float
 --@return void
-function SetSynchronizedScenePhase(sceneID,phase) end
+function SetSynchronizedScenePhase(sceneID, phase)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6099,7 +6695,8 @@ function SetSynchronizedScenePhase(sceneID,phase) end
 --@params skinMix float
 --@params thirdMix float
 --@return void
-function UpdatePedHeadBlendData(ped,shapeMix,skinMix,thirdMix) end
+function UpdatePedHeadBlendData(ped, shapeMix, skinMix, thirdMix)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6108,7 +6705,8 @@ function UpdatePedHeadBlendData(ped,shapeMix,skinMix,thirdMix) end
 --@usage void STOP_PED_WEAPON_FIRING_WHEN_DROPPED(Ped ped);
 --@params ped Ped
 --@return void
-function StopPedWeaponFiringWhenDropped(ped) end
+function StopPedWeaponFiringWhenDropped(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6117,7 +6715,8 @@ function StopPedWeaponFiringWhenDropped(ped) end
 --@usage BOOL WAS_PED_KILLED_BY_TAKEDOWN(Ped ped);
 --@params ped Ped
 --@return BOOL
-function WasPedKilledByTakedown(ped) end
+function WasPedKilledByTakedown(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6126,7 +6725,8 @@ function WasPedKilledByTakedown(ped) end
 --@usage BOOL WAS_PED_KILLED_BY_STEALTH(Ped ped);
 --@params ped Ped
 --@return BOOL
-function WasPedKilledByStealth(ped) end
+function WasPedKilledByStealth(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6135,7 +6735,8 @@ function WasPedKilledByStealth(ped) end
 --@usage BOOL WAS_PED_KNOCKED_OUT(Ped ped);
 --@params ped Ped
 --@return BOOL
-function WasPedKnockedOut(ped) end
+function WasPedKnockedOut(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6144,4 +6745,5 @@ function WasPedKnockedOut(ped) end
 --@usage BOOL WAS_PED_SKELETON_UPDATED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function WasPedSkeletonUpdated(ped) end
+function WasPedSkeletonUpdated(ped)
+end

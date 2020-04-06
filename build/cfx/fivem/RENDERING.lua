@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule RENDERING
@@ -6,7 +5,8 @@
 --@usage void _ACTIVATE_ROCKSTAR_EDITOR();
 
 --@return void
-function ActivateRockstarEditor() end
+function ActivateRockstarEditor()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function ActivateRockstarEditor() end
 --@usage void undefined();
 
 --@return void
-function N_0x5ad3932daeb1e5d3() end
+function N_0x5ad3932daeb1e5d3()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function N_0x5ad3932daeb1e5d3() end
 --@usage void _RESET_EDITOR_VALUES();
 
 --@return void
-function ResetEditorValues() end
+function ResetEditorValues()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -33,7 +35,8 @@ function ResetEditorValues() end
 --@usage BOOL _IS_INTERIOR_RENDERING_DISABLED();
 
 --@return BOOL
-function IsInteriorRenderingDisabled() end
+function IsInteriorRenderingDisabled()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -42,7 +45,8 @@ function IsInteriorRenderingDisabled() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0xe058175f8eafe79a(p0) end
+function N_0xe058175f8eafe79a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -52,4 +56,5 @@ function N_0xe058175f8eafe79a(p0) end
 --@params p0 char*
 --@params p1 BOOL
 --@return void
-function N_0x7e2bd3ef6c205f09(p0,p1) end
+function N_0x7e2bd3ef6c205f09(p0, p1)
+end

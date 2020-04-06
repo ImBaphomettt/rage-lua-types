@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule BRAIN
@@ -15,7 +14,8 @@
 --@params p8 BOOL
 --@params p9 BOOL
 --@return void
-function AddCoverBlockingArea(playerX,playerY,playerZ,radiusX,radiusY,radiusZ,p6,p7,p8,p9) end
+function AddCoverBlockingArea(playerX, playerY, playerZ, radiusX, radiusY, radiusZ, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -31,7 +31,8 @@ function AddCoverBlockingArea(playerX,playerY,playerZ,radiusX,radiusY,radiusZ,p6
 --@params p6 Any
 --@params p7 BOOL
 --@return ScrHandle
-function AddCoverPoint(p0,p1,p2,p3,p4,p5,p6,p7) end
+function AddCoverPoint(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -43,7 +44,8 @@ function AddCoverPoint(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params y float
 --@params z float
 --@return void
-function AddVehicleSubtaskAttackCoord(ped,x,y,z) end
+function AddVehicleSubtaskAttackCoord(ped, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -60,7 +62,8 @@ function AddVehicleSubtaskAttackCoord(ped,x,y,z) end
 --@params z2 float
 --@params p8 int
 --@return void
-function AddPatrolRouteNode(p0,p1,x1,y1,z1,x2,y2,z2,p8) end
+function AddPatrolRouteNode(p0, p1, x1, y1, z1, x2, y2, z2, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -72,7 +75,8 @@ function AddPatrolRouteNode(p0,p1,x1,y1,z1,x2,y2,z2,p8) end
 --@params p2 float
 --@params p3 float
 --@return void
-function AddScriptToRandomPed(name,model,p2,p3) end
+function AddScriptToRandomPed(name, model, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -82,7 +86,8 @@ function AddScriptToRandomPed(name,model,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function AddPatrolRouteLink(p0,p1) end
+function AddPatrolRouteLink(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -92,7 +97,8 @@ function AddPatrolRouteLink(p0,p1) end
 --@params ped Ped
 --@params ped2 Ped
 --@return void
-function AddVehicleSubtaskAttackPed(ped,ped2) end
+function AddVehicleSubtaskAttackPed(ped, ped2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -101,7 +107,8 @@ function AddVehicleSubtaskAttackPed(ped,ped2) end
 --@usage void ASSISTED_MOVEMENT_REQUEST_ROUTE(char* route);
 --@params route char*
 --@return void
-function AssistedMovementRequestRoute(route) end
+function AssistedMovementRequestRoute(route)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -110,7 +117,8 @@ function AssistedMovementRequestRoute(route) end
 --@usage void ASSISTED_MOVEMENT_OVERRIDE_LOAD_DISTANCE_THIS_FRAME(float dist);
 --@params dist float
 --@return void
-function AssistedMovementOverrideLoadDistanceThisFrame(dist) end
+function AssistedMovementOverrideLoadDistanceThisFrame(dist)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -119,7 +127,8 @@ function AssistedMovementOverrideLoadDistanceThisFrame(dist) end
 --@usage BOOL ASSISTED_MOVEMENT_IS_ROUTE_LOADED(char* route);
 --@params route char*
 --@return BOOL
-function AssistedMovementIsRouteLoaded(route) end
+function AssistedMovementIsRouteLoaded(route)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -128,7 +137,8 @@ function AssistedMovementIsRouteLoaded(route) end
 --@usage void CLEAR_DRIVEBY_TASK_UNDERNEATH_DRIVING_TASK(Ped ped);
 --@params ped Ped
 --@return void
-function ClearDrivebyTaskUnderneathDrivingTask(ped) end
+function ClearDrivebyTaskUnderneathDrivingTask(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -138,7 +148,8 @@ function ClearDrivebyTaskUnderneathDrivingTask(ped) end
 --@params route char*
 --@params props int
 --@return void
-function AssistedMovementSetRouteProperties(route,props) end
+function AssistedMovementSetRouteProperties(route, props)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -147,7 +158,8 @@ function AssistedMovementSetRouteProperties(route,props) end
 --@usage void CLEAR_PED_TASKS(Ped ped);
 --@params ped Ped
 --@return void
-function ClearPedTasks(ped) end
+function ClearPedTasks(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -156,7 +168,8 @@ function ClearPedTasks(ped) end
 --@usage void ASSISTED_MOVEMENT_REMOVE_ROUTE(char* route);
 --@params route char*
 --@return void
-function AssistedMovementRemoveRoute(route) end
+function AssistedMovementRemoveRoute(route)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -165,7 +178,8 @@ function AssistedMovementRemoveRoute(route) end
 --@usage Any CLEAR_SEQUENCE_TASK(int* taskSequenceId);
 --@params taskSequenceId int*
 --@return Any
-function ClearSequenceTask(taskSequenceId) end
+function ClearSequenceTask(taskSequenceId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -174,7 +188,8 @@ function ClearSequenceTask(taskSequenceId) end
 --@usage void CLEAR_PED_SECONDARY_TASK(Ped ped);
 --@params ped Ped
 --@return void
-function ClearPedSecondaryTask(ped) end
+function ClearPedSecondaryTask(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -183,7 +198,8 @@ function ClearPedSecondaryTask(ped) end
 --@usage void CLEAR_PED_TASKS_IMMEDIATELY(Ped ped);
 --@params ped Ped
 --@return void
-function ClearPedTasksImmediately(ped) end
+function ClearPedTasksImmediately(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -192,7 +208,8 @@ function ClearPedTasksImmediately(ped) end
 --@usage void CREATE_PATROL_ROUTE();
 
 --@return void
-function CreatePatrolRoute() end
+function CreatePatrolRoute()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -201,7 +218,8 @@ function CreatePatrolRoute() end
 --@usage Any CLOSE_SEQUENCE_TASK(int taskSequenceId);
 --@params taskSequenceId int
 --@return Any
-function CloseSequenceTask(taskSequenceId) end
+function CloseSequenceTask(taskSequenceId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -210,7 +228,8 @@ function CloseSequenceTask(taskSequenceId) end
 --@usage void CLOSE_PATROL_ROUTE();
 
 --@return void
-function ClosePatrolRoute() end
+function ClosePatrolRoute()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -219,7 +238,8 @@ function ClosePatrolRoute() end
 --@usage BOOL CONTROL_MOUNTED_WEAPON(Ped ped);
 --@params ped Ped
 --@return BOOL
-function ControlMountedWeapon(ped) end
+function ControlMountedWeapon(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -228,7 +248,8 @@ function ControlMountedWeapon(ped) end
 --@usage void DISABLE_SCRIPT_BRAIN_SET(int brainSet);
 --@params brainSet int
 --@return void
-function DisableScriptBrainSet(brainSet) end
+function DisableScriptBrainSet(brainSet)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -241,7 +262,8 @@ function DisableScriptBrainSet(brainSet) end
 --@params radius float
 --@params b BOOL
 --@return BOOL
-function DoesScenarioExistInArea(x,y,z,radius,b) end
+function DoesScenarioExistInArea(x, y, z, radius, b)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -255,7 +277,8 @@ function DoesScenarioExistInArea(x,y,z,radius,b) end
 --@params p4 float
 --@params p5 BOOL
 --@return BOOL
-function DoesScenarioOfTypeExistInArea(p0,p1,p2,p3,p4,p5) end
+function DoesScenarioOfTypeExistInArea(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -264,7 +287,8 @@ function DoesScenarioOfTypeExistInArea(p0,p1,p2,p3,p4,p5) end
 --@usage BOOL DOES_SCENARIO_GROUP_EXIST(char* scenarioGroup);
 --@params scenarioGroup char*
 --@return BOOL
-function DoesScenarioGroupExist(scenarioGroup) end
+function DoesScenarioGroupExist(scenarioGroup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -273,7 +297,8 @@ function DoesScenarioGroupExist(scenarioGroup) end
 --@usage void ENABLE_SCRIPT_BRAIN_SET(int brainSet);
 --@params brainSet int
 --@return void
-function EnableScriptBrainSet(brainSet) end
+function EnableScriptBrainSet(brainSet)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -282,7 +307,8 @@ function EnableScriptBrainSet(brainSet) end
 --@usage void DELETE_PATROL_ROUTE(char* patrolRoute);
 --@params patrolRoute char*
 --@return void
-function DeletePatrolRoute(patrolRoute) end
+function DeletePatrolRoute(patrolRoute)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -292,7 +318,8 @@ function DeletePatrolRoute(patrolRoute) end
 --@params ped Ped
 --@params taskIndex int
 --@return BOOL
-function GetIsTaskActive(ped,taskIndex) end
+function GetIsTaskActive(ped, taskIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -301,7 +328,8 @@ function GetIsTaskActive(ped,taskIndex) end
 --@usage int GET_ACTIVE_VEHICLE_MISSION_TYPE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetActiveVehicleMissionType(vehicle) end
+function GetActiveVehicleMissionType(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -312,7 +340,8 @@ function GetActiveVehicleMissionType(vehicle) end
 --@params distRemaining float*
 --@params isPathReady BOOL*
 --@return int
-function GetNavmeshRouteDistanceRemaining(ped,distRemaining,isPathReady) end
+function GetNavmeshRouteDistanceRemaining(ped, distRemaining, isPathReady)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -321,7 +350,8 @@ function GetNavmeshRouteDistanceRemaining(ped,distRemaining,isPathReady) end
 --@usage char* GET_CLIP_SET_FOR_SCRIPTED_GUN_TASK(int p0);
 --@params p0 int
 --@return char*
-function GetClipSetForScriptedGunTask(p0) end
+function GetClipSetForScriptedGunTask(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -330,7 +360,8 @@ function GetClipSetForScriptedGunTask(p0) end
 --@usage BOOL GET_IS_WAYPOINT_RECORDING_LOADED(char* name);
 --@params name char*
 --@return BOOL
-function GetIsWaypointRecordingLoaded(name) end
+function GetIsWaypointRecordingLoaded(name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -341,7 +372,8 @@ function GetIsWaypointRecordingLoaded(name) end
 --@params y float
 --@params z float
 --@return BOOL
-function DoesScriptedCoverPointExistAtCoords(x,y,z) end
+function DoesScriptedCoverPointExistAtCoords(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -350,7 +382,8 @@ function DoesScriptedCoverPointExistAtCoords(x,y,z) end
 --@usage float GET_PED_DESIRED_MOVE_BLEND_RATIO(Ped ped);
 --@params ped Ped
 --@return float
-function GetPedDesiredMoveBlendRatio(ped) end
+function GetPedDesiredMoveBlendRatio(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -359,7 +392,8 @@ function GetPedDesiredMoveBlendRatio(ped) end
 --@usage int GET_NAVMESH_ROUTE_RESULT(Ped ped);
 --@params ped Ped
 --@return int
-function GetNavmeshRouteResult(ped) end
+function GetNavmeshRouteResult(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -368,7 +402,8 @@ function GetNavmeshRouteResult(ped) end
 --@usage float GET_PED_WAYPOINT_DISTANCE(Any p0);
 --@params p0 Any
 --@return float
-function GetPedWaypointDistance(p0) end
+function GetPedWaypointDistance(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -377,7 +412,8 @@ function GetPedWaypointDistance(p0) end
 --@usage float GET_PHONE_GESTURE_ANIM_CURRENT_TIME(Ped ped);
 --@params ped Ped
 --@return float
-function GetPhoneGestureAnimCurrentTime(ped) end
+function GetPhoneGestureAnimCurrentTime(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -387,7 +423,8 @@ function GetPhoneGestureAnimCurrentTime(ped) end
 --@params targetPed Ped
 --@params taskHash Hash
 --@return int
-function GetScriptTaskStatus(targetPed,taskHash) end
+function GetScriptTaskStatus(targetPed, taskHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -396,7 +433,8 @@ function GetScriptTaskStatus(targetPed,taskHash) end
 --@usage int GET_PED_WAYPOINT_PROGRESS(Ped ped);
 --@params ped Ped
 --@return int
-function GetPedWaypointProgress(ped) end
+function GetPedWaypointProgress(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -405,7 +443,8 @@ function GetPedWaypointProgress(ped) end
 --@usage Vector3 GET_SCRIPTED_COVER_POINT_COORDS(ScrHandle coverpoint);
 --@params coverpoint ScrHandle
 --@return Vector3
-function GetScriptedCoverPointCoords(coverpoint) end
+function GetScriptedCoverPointCoords(coverpoint)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -415,7 +454,8 @@ function GetScriptedCoverPointCoords(coverpoint) end
 --@params ped Ped
 --@params eventName char*
 --@return BOOL
-function GetTaskMoveNetworkEvent(ped,eventName) end
+function GetTaskMoveNetworkEvent(ped, eventName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -424,7 +464,8 @@ function GetTaskMoveNetworkEvent(ped,eventName) end
 --@usage float GET_PHONE_GESTURE_ANIM_TOTAL_TIME(Ped ped);
 --@params ped Ped
 --@return float
-function GetPhoneGestureAnimTotalTime(ped) end
+function GetPhoneGestureAnimTotalTime(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -434,7 +475,8 @@ function GetPhoneGestureAnimTotalTime(ped) end
 --@params ped Ped
 --@params signalName char*
 --@return BOOL
-function GetTaskMoveNetworkSignalBool(ped,signalName) end
+function GetTaskMoveNetworkSignalBool(ped, signalName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -444,7 +486,8 @@ function GetTaskMoveNetworkSignalBool(ped,signalName) end
 --@params ped Ped
 --@params signalName char*
 --@return float
-function GetTaskMoveNetworkSignalFloat(ped,signalName) end
+function GetTaskMoveNetworkSignalFloat(ped, signalName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -453,7 +496,8 @@ function GetTaskMoveNetworkSignalFloat(ped,signalName) end
 --@usage int GET_VEHICLE_WAYPOINT_PROGRESS(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleWaypointProgress(vehicle) end
+function GetVehicleWaypointProgress(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -462,7 +506,8 @@ function GetVehicleWaypointProgress(vehicle) end
 --@usage char* GET_TASK_MOVE_NETWORK_STATE(Ped ped);
 --@params ped Ped
 --@return char*
-function GetTaskMoveNetworkState(ped) end
+function GetTaskMoveNetworkState(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -471,7 +516,8 @@ function GetTaskMoveNetworkState(ped) end
 --@usage int GET_VEHICLE_WAYPOINT_TARGET_POINT(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleWaypointTargetPoint(vehicle) end
+function GetVehicleWaypointTargetPoint(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -480,7 +526,8 @@ function GetVehicleWaypointTargetPoint(vehicle) end
 --@usage BOOL IS_MOUNTED_WEAPON_TASK_UNDERNEATH_DRIVING_TASK(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsMountedWeaponTaskUnderneathDrivingTask(ped) end
+function IsMountedWeaponTaskUnderneathDrivingTask(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -489,7 +536,8 @@ function IsMountedWeaponTaskUnderneathDrivingTask(ped) end
 --@usage int GET_SEQUENCE_PROGRESS(Ped ped);
 --@params ped Ped
 --@return int
-function GetSequenceProgress(ped) end
+function GetSequenceProgress(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -499,7 +547,8 @@ function GetSequenceProgress(ped) end
 --@params p0 char*
 --@params p1 int
 --@return float
-function GetWaypointDistanceAlongRoute(p0,p1) end
+function GetWaypointDistanceAlongRoute(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -508,7 +557,8 @@ function GetWaypointDistanceAlongRoute(p0,p1) end
 --@usage BOOL IS_MOVE_BLEND_RATIO_RUNNING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsMoveBlendRatioRunning(ped) end
+function IsMoveBlendRatioRunning(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -517,7 +567,8 @@ function IsMoveBlendRatioRunning(ped) end
 --@usage BOOL IS_DRIVEBY_TASK_UNDERNEATH_DRIVING_TASK(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsDrivebyTaskUnderneathDrivingTask(ped) end
+function IsDrivebyTaskUnderneathDrivingTask(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -526,7 +577,8 @@ function IsDrivebyTaskUnderneathDrivingTask(ped) end
 --@usage BOOL IS_MOVE_BLEND_RATIO_WALKING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsMoveBlendRatioWalking(ped) end
+function IsMoveBlendRatioWalking(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -535,7 +587,8 @@ function IsMoveBlendRatioWalking(ped) end
 --@usage BOOL IS_MOVE_BLEND_RATIO_SPRINTING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsMoveBlendRatioSprinting(ped) end
+function IsMoveBlendRatioSprinting(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -544,7 +597,8 @@ function IsMoveBlendRatioSprinting(ped) end
 --@usage BOOL IS_OBJECT_WITHIN_BRAIN_ACTIVATION_RANGE(Object object);
 --@params object Object
 --@return BOOL
-function IsObjectWithinBrainActivationRange(object) end
+function IsObjectWithinBrainActivationRange(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -553,7 +607,8 @@ function IsObjectWithinBrainActivationRange(object) end
 --@usage BOOL IS_PED_BEING_ARRESTED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedBeingArrested(ped) end
+function IsPedBeingArrested(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -562,7 +617,8 @@ function IsPedBeingArrested(ped) end
 --@usage BOOL IS_MOVE_BLEND_RATIO_STILL(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsMoveBlendRatioStill(ped) end
+function IsMoveBlendRatioStill(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -571,7 +627,8 @@ function IsMoveBlendRatioStill(ped) end
 --@usage BOOL IS_PED_ACTIVE_IN_SCENARIO(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedActiveInScenario(ped) end
+function IsPedActiveInScenario(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -580,7 +637,8 @@ function IsPedActiveInScenario(ped) end
 --@usage BOOL IS_PED_IN_WRITHE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInWrithe(ped) end
+function IsPedInWrithe(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -589,7 +647,8 @@ function IsPedInWrithe(ped) end
 --@usage BOOL IS_PED_GETTING_UP(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedGettingUp(ped) end
+function IsPedGettingUp(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -598,7 +657,8 @@ function IsPedGettingUp(ped) end
 --@usage BOOL IS_PED_CUFFED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedCuffed(ped) end
+function IsPedCuffed(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -607,7 +667,8 @@ function IsPedCuffed(ped) end
 --@usage BOOL IS_PED_SPRINTING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedSprinting(ped) end
+function IsPedSprinting(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -616,7 +677,8 @@ function IsPedSprinting(ped) end
 --@usage BOOL IS_PED_RUNNING_ARREST_TASK(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedRunningArrestTask(ped) end
+function IsPedRunningArrestTask(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -625,7 +687,8 @@ function IsPedRunningArrestTask(ped) end
 --@usage BOOL IS_PED_STILL(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedStill(ped) end
+function IsPedStill(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -634,7 +697,8 @@ function IsPedStill(ped) end
 --@usage BOOL IS_PED_STRAFING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedStrafing(ped) end
+function IsPedStrafing(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -643,7 +707,8 @@ function IsPedStrafing(ped) end
 --@usage BOOL IS_PLAYING_PHONE_GESTURE_ANIM(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPlayingPhoneGestureAnim(ped) end
+function IsPlayingPhoneGestureAnim(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -652,7 +717,8 @@ function IsPlayingPhoneGestureAnim(ped) end
 --@usage BOOL IS_SCENARIO_TYPE_ENABLED(char* scenarioType);
 --@params scenarioType char*
 --@return BOOL
-function IsScenarioTypeEnabled(scenarioType) end
+function IsScenarioTypeEnabled(scenarioType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -661,7 +727,8 @@ function IsScenarioTypeEnabled(scenarioType) end
 --@usage BOOL IS_PED_WALKING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedWalking(ped) end
+function IsPedWalking(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -670,7 +737,8 @@ function IsPedWalking(ped) end
 --@usage BOOL IS_SCENARIO_GROUP_ENABLED(char* scenarioGroup);
 --@params scenarioGroup char*
 --@return BOOL
-function IsScenarioGroupEnabled(scenarioGroup) end
+function IsScenarioGroupEnabled(scenarioGroup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -683,7 +751,8 @@ function IsScenarioGroupEnabled(scenarioGroup) end
 --@params p3 float
 --@params p4 BOOL
 --@return BOOL
-function IsScenarioOccupied(p0,p1,p2,p3,p4) end
+function IsScenarioOccupied(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -692,7 +761,8 @@ function IsScenarioOccupied(p0,p1,p2,p3,p4) end
 --@usage BOOL IS_WAYPOINT_PLAYBACK_GOING_ON_FOR_PED(Any p0);
 --@params p0 Any
 --@return BOOL
-function IsWaypointPlaybackGoingOnForPed(p0) end
+function IsWaypointPlaybackGoingOnForPed(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -701,7 +771,8 @@ function IsWaypointPlaybackGoingOnForPed(p0) end
 --@usage BOOL IS_TASK_MOVE_NETWORK_READY_FOR_TRANSITION(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsTaskMoveNetworkReadyForTransition(ped) end
+function IsTaskMoveNetworkReadyForTransition(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -710,7 +781,8 @@ function IsTaskMoveNetworkReadyForTransition(ped) end
 --@usage BOOL IS_TASK_MOVE_NETWORK_ACTIVE(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsTaskMoveNetworkActive(ped) end
+function IsTaskMoveNetworkActive(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -719,7 +791,8 @@ function IsTaskMoveNetworkActive(ped) end
 --@usage BOOL IS_WORLD_POINT_WITHIN_BRAIN_ACTIVATION_RANGE();
 
 --@return BOOL
-function IsWorldPointWithinBrainActivationRange() end
+function IsWorldPointWithinBrainActivationRange()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -728,7 +801,8 @@ function IsWorldPointWithinBrainActivationRange() end
 --@usage BOOL IS_WAYPOINT_PLAYBACK_GOING_ON_FOR_VEHICLE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsWaypointPlaybackGoingOnForVehicle(vehicle) end
+function IsWaypointPlaybackGoingOnForVehicle(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -746,7 +820,8 @@ function IsWaypointPlaybackGoingOnForVehicle(vehicle) end
 --@params p8 Any
 --@params p9 Any
 --@return void
-function N_0x1f351cf1c6475734(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function N_0x1f351cf1c6475734(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -755,7 +830,8 @@ function N_0x1f351cf1c6475734(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@usage void undefined();
 
 --@return void
-function N_0x4d953df78ebf8158() end
+function N_0x4d953df78ebf8158()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -764,7 +840,8 @@ function N_0x4d953df78ebf8158() end
 --@usage BOOL IS_PED_RUNNING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedRunning(ped) end
+function IsPedRunning(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -773,7 +850,8 @@ function IsPedRunning(ped) end
 --@usage BOOL undefined(Ped ped);
 --@params ped Ped
 --@return BOOL
-function N_0x621c6e4729388e41(ped) end
+function N_0x621c6e4729388e41(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -782,7 +860,8 @@ function N_0x621c6e4729388e41(ped) end
 --@usage void undefined(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function N_0x53ddc75bc3ac0a90(vehicle) end
+function N_0x53ddc75bc3ac0a90(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -791,7 +870,8 @@ function N_0x53ddc75bc3ac0a90(vehicle) end
 --@usage void undefined(char* action);
 --@params action char*
 --@return void
-function N_0x6d6840cee8845831(action) end
+function N_0x6d6840cee8845831(action)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -800,7 +880,8 @@ function N_0x6d6840cee8845831(action) end
 --@usage BOOL undefined(Ped ped);
 --@params ped Ped
 --@return BOOL
-function N_0x3e38e28a1d80ddf6(ped) end
+function N_0x3e38e28a1d80ddf6(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -809,7 +890,8 @@ function N_0x3e38e28a1d80ddf6(ped) end
 --@usage void undefined(char* action);
 --@params action char*
 --@return void
-function N_0x6e91b04e08773030(action) end
+function N_0x6e91b04e08773030(action)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -820,7 +902,8 @@ function N_0x6e91b04e08773030(action) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x8423541e8b3a1589(p0,p1,p2) end
+function N_0x8423541e8b3a1589(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -831,7 +914,8 @@ function N_0x8423541e8b3a1589(p0,p1,p2) end
 --@params p1 char*
 --@params value float
 --@return void
-function N_0x8634cef2522d987b(ped,p1,value) end
+function N_0x8634cef2522d987b(ped, p1, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -840,7 +924,8 @@ function N_0x8634cef2522d987b(ped,p1,value) end
 --@usage void undefined();
 
 --@return void
-function N_0x0b40ed49d7d6ff84() end
+function N_0x0b40ed49d7d6ff84()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -851,7 +936,8 @@ function N_0x0b40ed49d7d6ff84() end
 --@params y float
 --@params z float
 --@return void
-function N_0xfa83ca6776038f64(x,y,z) end
+function N_0xfa83ca6776038f64(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -860,7 +946,8 @@ function N_0xfa83ca6776038f64(x,y,z) end
 --@usage Any OPEN_SEQUENCE_TASK(int* taskSequenceId);
 --@params taskSequenceId int*
 --@return Any
-function OpenSequenceTask(taskSequenceId) end
+function OpenSequenceTask(taskSequenceId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -869,7 +956,8 @@ function OpenSequenceTask(taskSequenceId) end
 --@usage void undefined(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function N_0xdbbc7a2432524127(vehicle) end
+function N_0xdbbc7a2432524127(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -878,7 +966,8 @@ function N_0xdbbc7a2432524127(vehicle) end
 --@usage BOOL PED_HAS_USE_SCENARIO_TASK(Ped ped);
 --@params ped Ped
 --@return BOOL
-function PedHasUseScenarioTask(ped) end
+function PedHasUseScenarioTask(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -889,7 +978,8 @@ function PedHasUseScenarioTask(ped) end
 --@params animDict char*
 --@params animName char*
 --@return void
-function PlayAnimOnRunningScenario(ped,animDict,animName) end
+function PlayAnimOnRunningScenario(ped, animDict, animName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -899,7 +989,8 @@ function PlayAnimOnRunningScenario(ped,animDict,animName) end
 --@params ped Ped
 --@params p1 char*
 --@return Any
-function N_0xab13a5565480b6d9(ped,p1) end
+function N_0xab13a5565480b6d9(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -908,7 +999,8 @@ function N_0xab13a5565480b6d9(ped,p1) end
 --@usage void OPEN_PATROL_ROUTE(char* patrolRoute);
 --@params patrolRoute char*
 --@return void
-function OpenPatrolRoute(patrolRoute) end
+function OpenPatrolRoute(patrolRoute)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -917,7 +1009,8 @@ function OpenPatrolRoute(patrolRoute) end
 --@usage void REMOVE_ALL_COVER_BLOCKING_AREAS();
 
 --@return void
-function RemoveAllCoverBlockingAreas() end
+function RemoveAllCoverBlockingAreas()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -931,7 +1024,8 @@ function RemoveAllCoverBlockingAreas() end
 --@params p4 int
 --@params p5 int
 --@return void
-function RegisterObjectScriptBrain(scriptName,modelHash,p2,activationRange,p4,p5) end
+function RegisterObjectScriptBrain(scriptName, modelHash, p2, activationRange, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -945,7 +1039,8 @@ function RegisterObjectScriptBrain(scriptName,modelHash,p2,activationRange,p4,p5
 --@params p4 float
 --@params p5 float
 --@return void
-function PlayEntityScriptedAnim(p0,p1,p2,p3,p4,p5) end
+function PlayEntityScriptedAnim(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -954,7 +1049,8 @@ function PlayEntityScriptedAnim(p0,p1,p2,p3,p4,p5) end
 --@usage void REMOVE_WAYPOINT_RECORDING(char* name);
 --@params name char*
 --@return void
-function RemoveWaypointRecording(name) end
+function RemoveWaypointRecording(name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -965,7 +1061,8 @@ function RemoveWaypointRecording(name) end
 --@params activationRange float
 --@params p2 int
 --@return void
-function RegisterWorldPointScriptBrain(scriptName,activationRange,p2) end
+function RegisterWorldPointScriptBrain(scriptName, activationRange, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -974,7 +1071,8 @@ function RegisterWorldPointScriptBrain(scriptName,activationRange,p2) end
 --@usage void REMOVE_COVER_POINT(ScrHandle coverpoint);
 --@params coverpoint ScrHandle
 --@return void
-function RemoveCoverPoint(coverpoint) end
+function RemoveCoverPoint(coverpoint)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -984,7 +1082,8 @@ function RemoveCoverPoint(coverpoint) end
 --@params ped Ped
 --@params name char*
 --@return BOOL
-function RequestTaskMoveNetworkStateTransition(ped,name) end
+function RequestTaskMoveNetworkStateTransition(ped, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -993,7 +1092,8 @@ function RequestTaskMoveNetworkStateTransition(ped,name) end
 --@usage void REQUEST_WAYPOINT_RECORDING(char* name);
 --@params name char*
 --@return void
-function RequestWaypointRecording(name) end
+function RequestWaypointRecording(name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1005,7 +1105,8 @@ function RequestWaypointRecording(name) end
 --@params p2 Any
 --@params p3 BOOL
 --@return void
-function SetAnimLooped(p0,p1,p2,p3) end
+function SetAnimLooped(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1014,7 +1115,8 @@ function SetAnimLooped(p0,p1,p2,p3) end
 --@usage void RESET_SCENARIO_TYPES_ENABLED();
 
 --@return void
-function ResetScenarioTypesEnabled() end
+function ResetScenarioTypesEnabled()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1023,7 +1125,8 @@ function ResetScenarioTypesEnabled() end
 --@usage void RESET_EXCLUSIVE_SCENARIO_GROUP();
 
 --@return void
-function ResetExclusiveScenarioGroup() end
+function ResetExclusiveScenarioGroup()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1036,7 +1139,8 @@ function ResetExclusiveScenarioGroup() end
 --@params p3 Any
 --@params p4 BOOL
 --@return void
-function SetAnimWeight(p0,p1,p2,p3,p4) end
+function SetAnimWeight(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1046,7 +1150,8 @@ function SetAnimWeight(p0,p1,p2,p3,p4) end
 --@params ped Ped
 --@params drivingStyle int
 --@return void
-function SetDriveTaskDrivingStyle(ped,drivingStyle) end
+function SetDriveTaskDrivingStyle(ped, drivingStyle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1055,7 +1160,8 @@ function SetDriveTaskDrivingStyle(ped,drivingStyle) end
 --@usage void RESET_SCENARIO_GROUPS_ENABLED();
 
 --@return void
-function ResetScenarioGroupsEnabled() end
+function ResetScenarioGroupsEnabled()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1065,7 +1171,8 @@ function ResetScenarioGroupsEnabled() end
 --@params p0 Any
 --@params p1 float
 --@return void
-function SetDriveTaskMaxCruiseSpeed(p0,p1) end
+function SetDriveTaskMaxCruiseSpeed(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1077,7 +1184,8 @@ function SetDriveTaskMaxCruiseSpeed(p0,p1) end
 --@params p2 Any
 --@params p3 BOOL
 --@return void
-function SetAnimRate(p0,p1,p2,p3) end
+function SetAnimRate(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1087,7 +1195,8 @@ function SetAnimRate(p0,p1,p2,p3) end
 --@params driver Ped
 --@params cruiseSpeed float
 --@return void
-function SetDriveTaskCruiseSpeed(driver,cruiseSpeed) end
+function SetDriveTaskCruiseSpeed(driver, cruiseSpeed)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1099,7 +1208,8 @@ function SetDriveTaskCruiseSpeed(driver,cruiseSpeed) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function SetHighFallTask(ped,p1,p2,p3) end
+function SetHighFallTask(ped, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1113,7 +1223,8 @@ function SetHighFallTask(ped,p1,p2,p3) end
 --@params y float
 --@params z float
 --@return void
-function SetDrivebyTaskTarget(shootingPed,targetPed,targetVehicle,x,y,z) end
+function SetDrivebyTaskTarget(shootingPed, targetPed, targetVehicle, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1122,7 +1233,8 @@ function SetDrivebyTaskTarget(shootingPed,targetPed,targetVehicle,x,y,z) end
 --@usage void SET_GLOBAL_MIN_BIRD_FLIGHT_HEIGHT(float height);
 --@params height float
 --@return void
-function SetGlobalMinBirdFlightHeight(height) end
+function SetGlobalMinBirdFlightHeight(height)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1131,7 +1243,8 @@ function SetGlobalMinBirdFlightHeight(height) end
 --@usage void SET_EXCLUSIVE_SCENARIO_GROUP(char* scenarioGroup);
 --@params scenarioGroup char*
 --@return void
-function SetExclusiveScenarioGroup(scenarioGroup) end
+function SetExclusiveScenarioGroup(scenarioGroup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1145,7 +1258,8 @@ function SetExclusiveScenarioGroup(scenarioGroup) end
 --@params y float
 --@params z float
 --@return void
-function SetMountedWeaponTarget(shootingPed,targetPed,targetVehicle,x,y,z) end
+function SetMountedWeaponTarget(shootingPed, targetPed, targetVehicle, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1156,7 +1270,8 @@ function SetMountedWeaponTarget(shootingPed,targetPed,targetVehicle,x,y,z) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function SetPedCanPlayAmbientIdles(ped,p1,p2) end
+function SetPedCanPlayAmbientIdles(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1168,7 +1283,8 @@ function SetPedCanPlayAmbientIdles(ped,p1,p2) end
 --@params y float
 --@params z float
 --@return void
-function SetParachuteTaskTarget(ped,x,y,z) end
+function SetParachuteTaskTarget(ped, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1178,7 +1294,8 @@ function SetParachuteTaskTarget(ped,x,y,z) end
 --@params ped Ped
 --@params p1 float
 --@return void
-function SetPedDesiredMoveBlendRatio(ped,p1) end
+function SetPedDesiredMoveBlendRatio(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1187,7 +1304,8 @@ function SetPedDesiredMoveBlendRatio(ped,p1) end
 --@usage void SET_NEXT_DESIRED_MOVE_STATE(float p0);
 --@params p0 float
 --@return void
-function SetNextDesiredMoveState(p0) end
+function SetNextDesiredMoveState(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1197,7 +1315,8 @@ function SetNextDesiredMoveState(p0) end
 --@params ped Ped
 --@params avoidFire BOOL
 --@return void
-function SetPedPathAvoidFire(ped,avoidFire) end
+function SetPedPathAvoidFire(ped, avoidFire)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1207,7 +1326,8 @@ function SetPedPathAvoidFire(ped,avoidFire) end
 --@params ped Ped
 --@params Toggle BOOL
 --@return Any
-function SetPedPathCanUseLadders(ped,Toggle) end
+function SetPedPathCanUseLadders(ped, Toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1217,7 +1337,8 @@ function SetPedPathCanUseLadders(ped,Toggle) end
 --@params ped Ped
 --@params Toggle BOOL
 --@return void
-function SetPedPathCanDropFromHeight(ped,Toggle) end
+function SetPedPathCanDropFromHeight(ped, Toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1227,7 +1348,8 @@ function SetPedPathCanDropFromHeight(ped,Toggle) end
 --@params ped Ped
 --@params mayEnterWater BOOL
 --@return void
-function SetPedPathMayEnterWater(ped,mayEnterWater) end
+function SetPedPathMayEnterWater(ped, mayEnterWater)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1237,7 +1359,8 @@ function SetPedPathMayEnterWater(ped,mayEnterWater) end
 --@params ped Ped
 --@params thrust float
 --@return void
-function SetParachuteTaskThrust(ped,thrust) end
+function SetParachuteTaskThrust(ped, thrust)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1247,7 +1370,8 @@ function SetParachuteTaskThrust(ped,thrust) end
 --@params ped Ped
 --@params Toggle BOOL
 --@return Any
-function SetPedPathCanUseClimbovers(ped,Toggle) end
+function SetPedPathCanUseClimbovers(ped, Toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1257,7 +1381,8 @@ function SetPedPathCanUseClimbovers(ped,Toggle) end
 --@params ped Ped
 --@params avoidWater BOOL
 --@return void
-function SetPedPathPreferToAvoidWater(ped,avoidWater) end
+function SetPedPathPreferToAvoidWater(ped, avoidWater)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1269,7 +1394,8 @@ function SetPedPathPreferToAvoidWater(ped,avoidWater) end
 --@params p2 Any
 --@params p3 Any
 --@return Any
-function SetPedWaypointRouteOffset(p0,p1,p2,p3) end
+function SetPedWaypointRouteOffset(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1279,7 +1405,8 @@ function SetPedWaypointRouteOffset(p0,p1,p2,p3) end
 --@params ped Ped
 --@params p1 float
 --@return void
-function SetPedPathClimbCostModifier(ped,p1) end
+function SetPedPathClimbCostModifier(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1289,7 +1416,8 @@ function SetPedPathClimbCostModifier(ped,p1) end
 --@params scenarioType char*
 --@params toggle BOOL
 --@return void
-function SetScenarioTypeEnabled(scenarioType,toggle) end
+function SetScenarioTypeEnabled(scenarioType, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1300,7 +1428,8 @@ function SetScenarioTypeEnabled(scenarioType,toggle) end
 --@params signalName char*
 --@params value BOOL
 --@return void
-function SetTaskMoveNetworkSignalBool(ped,signalName,value) end
+function SetTaskMoveNetworkSignalBool(ped, signalName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1311,7 +1440,8 @@ function SetTaskMoveNetworkSignalBool(ped,signalName,value) end
 --@params signalName char*
 --@params value float
 --@return void
-function SetTaskMoveNetworkSignalFloat(ped,signalName,value) end
+function SetTaskMoveNetworkSignalFloat(ped, signalName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1322,7 +1452,8 @@ function SetTaskMoveNetworkSignalFloat(ped,signalName,value) end
 --@params signalName char*
 --@params value float
 --@return void
-function SetTaskMoveNetworkSignalFloat_2(ped,signalName,value) end
+function SetTaskMoveNetworkSignalFloat_2(ped, signalName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1333,7 +1464,8 @@ function SetTaskMoveNetworkSignalFloat_2(ped,signalName,value) end
 --@params flag int
 --@params set BOOL
 --@return void
-function SetTaskVehicleChaseBehaviorFlag(ped,flag,set) end
+function SetTaskVehicleChaseBehaviorFlag(ped, flag, set)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1343,7 +1475,8 @@ function SetTaskVehicleChaseBehaviorFlag(ped,flag,set) end
 --@params scenarioGroup char*
 --@params p1 BOOL
 --@return void
-function SetScenarioGroupEnabled(scenarioGroup,p1) end
+function SetScenarioGroupEnabled(scenarioGroup, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1353,7 +1486,8 @@ function SetScenarioGroupEnabled(scenarioGroup,p1) end
 --@params ped Ped
 --@params distance float
 --@return void
-function SetTaskVehicleChaseIdealPursuitDistance(ped,distance) end
+function SetTaskVehicleChaseIdealPursuitDistance(ped, distance)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1365,7 +1499,8 @@ function SetTaskVehicleChaseIdealPursuitDistance(ped,distance) end
 --@params animationName char*
 --@params p3 float
 --@return void
-function StopAnimTask(ped,animDictionary,animationName,p3) end
+function StopAnimTask(ped, animDictionary, animationName, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1375,7 +1510,8 @@ function StopAnimTask(ped,animDictionary,animationName,p3) end
 --@params ped Ped
 --@params ped2 Ped
 --@return void
-function TaskAgitatedAction(ped,ped2) end
+function TaskAgitatedAction(ped, ped2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1386,7 +1522,8 @@ function TaskAgitatedAction(ped,ped2) end
 --@params p1 int
 --@params p2 BOOL
 --@return void
-function StopAnimPlayback(ped,p1,p2) end
+function StopAnimPlayback(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1396,7 +1533,8 @@ function StopAnimPlayback(ped,p1,p2) end
 --@params taskSequenceId int
 --@params repeat BOOL
 --@return void
-function SetSequenceToRepeat(taskSequenceId,repeat) end
+function SetSequenceToRepeat(taskSequenceId,
+repeat ) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1408,7 +1546,8 @@ function SetSequenceToRepeat(taskSequenceId,repeat) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function TaskAimGunScripted(ped,scriptTask,p2,p3) end
+function TaskAimGunScripted(ped, scriptTask, p2,p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1420,7 +1559,8 @@ function TaskAimGunScripted(ped,scriptTask,p2,p3) end
 --@params duration int
 --@params p3 BOOL
 --@return void
-function TaskAimGunAtEntity(ped,entity,duration,p3) end
+function TaskAimGunAtEntity(ped, entity,duration, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1435,7 +1575,8 @@ function TaskAimGunAtEntity(ped,entity,duration,p3) end
 --@params p5 BOOL
 --@params p6 BOOL
 --@return void
-function TaskAimGunAtCoord(ped,x,y,z,time,p5,p6) end
+function TaskAimGunAtCoord(ped,x, y, z, time, p5,p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1451,7 +1592,8 @@ function TaskAimGunAtCoord(ped,x,y,z,time,p5,p6) end
 --@params p6 BOOL
 --@params p7 BOOL
 --@return void
-function TaskAimGunScriptedWithTarget(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskAimGunScriptedWithTarget(p0, p1,p2, p3, p4, p5, p6,p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1467,7 +1609,8 @@ function TaskAimGunScriptedWithTarget(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p6 float
 --@params p7 float
 --@return void
-function TaskChatToPed(ped,target,p2,p3,p4,p5,p6,p7) end
+function TaskChatToPed(ped, target,p2, p3, p4, p5, p6,p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1477,7 +1620,7 @@ function TaskChatToPed(ped,target,p2,p3,p4,p5,p6,p7) end
 --@params ped Ped
 --@params target Ped
 --@return void
-function TaskArrestPed(ped,target) end
+function TaskArrestPed(ped, target) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1488,7 +1631,7 @@ function TaskArrestPed(ped,target) end
 --@params heading float
 --@params timeout int
 --@return void
-function TaskAchieveHeading(ped,heading,timeout) end
+function TaskAchieveHeading(ped, heading, timeout) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1508,7 +1651,8 @@ function TaskAchieveHeading(ped,heading,timeout) end
 --@params p10 float
 --@params p11 Any
 --@return void
-function TaskBoatMission(pedDriver,boat,p2,p3,x,y,z,p7,maxSpeed,drivingStyle,p10,p11) end
+function TaskBoatMission(pedDriver, boat, p2,p3, x, y, z, p7,maxSpeed, drivingStyle, p10, p11)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1517,7 +1661,8 @@ function TaskBoatMission(pedDriver,boat,p2,p3,x,y,z,p7,maxSpeed,drivingStyle,p10
 --@usage void TASK_CLEAR_DEFENSIVE_AREA(Any p0);
 --@params p0 Any
 --@return void
-function TaskClearDefensiveArea(p0) end
+function TaskClearDefensiveArea(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1536,7 +1681,8 @@ function TaskClearLookAt(ped) end
 --@params ped Ped
 --@params unused BOOL
 --@return void
-function TaskClimb(ped,unused) end
+function TaskClimb(ped, unused)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1548,7 +1694,7 @@ function TaskClimb(ped,unused) end
 --@params p2 int
 --@params p3 int
 --@return void
-function TaskCombatPed(ped,targetPed,p2,p3) end
+function TaskCombatPed(ped, targetPed, p2, p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1560,7 +1706,8 @@ function TaskCombatPed(ped,targetPed,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function TaskCombatHatedTargetsAroundPedTimed(p0,p1,p2,p3) end
+function TaskCombatHatedTargetsAroundPedTimed(p0, p1, p2,p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1570,7 +1717,7 @@ function TaskCombatHatedTargetsAroundPedTimed(p0,p1,p2,p3) end
 --@params ped Ped
 --@params p1 int
 --@return void
-function TaskClimbLadder(ped,p1) end
+function TaskClimbLadder(ped, p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1581,7 +1728,7 @@ function TaskClimbLadder(ped,p1) end
 --@params radius float
 --@params p2 int
 --@return void
-function TaskCombatHatedTargetsAroundPed(ped,radius,p2) end
+function TaskCombatHatedTargetsAroundPed(ped, radius, p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1596,7 +1743,8 @@ function TaskCombatHatedTargetsAroundPed(ped,radius,p2) end
 --@params flag int
 --@params p6 Any
 --@return void
-function TaskEnterVehicle(ped,vehicle,timeout,seat,speed,flag,p6) end
+function TaskEnterVehicle(ped, vehicle, timeout,seat, speed, flag, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1609,7 +1757,8 @@ function TaskEnterVehicle(ped,vehicle,timeout,seat,speed,flag,p6) end
 --@params p3 float
 --@params p4 float
 --@return void
-function TaskExitCover(p0,p1,p2,p3,p4) end
+function TaskExitCover(p0, p1, p2, p3,p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1623,7 +1772,8 @@ function TaskExitCover(p0,p1,p2,p3,p4) end
 --@params radius float
 --@params p5 Any
 --@return void
-function TaskCombatHatedTargetsInArea(ped,x,y,z,radius,p5) end
+function TaskCombatHatedTargetsInArea(ped, x,y, z, radius, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1641,7 +1791,8 @@ function TaskCombatHatedTargetsInArea(ped,x,y,z,radius,p5) end
 --@params p8 BOOL
 --@params firingPattern Hash
 --@return void
-function TaskDriveBy(driverPed,targetPed,targetVehicle,targetX,targetY,targetZ,distanceToShoot,pedAccuracy,p8,firingPattern) end
+function TaskDriveBy(driverPed, targetPed, targetVehicle, targetX,targetY, targetZ, distanceToShoot, pedAccuracy, p8,firingPattern)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1651,7 +1802,7 @@ function TaskDriveBy(driverPed,targetPed,targetVehicle,targetX,targetY,targetZ,d
 --@params ped Ped
 --@params duration int
 --@return void
-function TaskCower(ped,duration) end
+function TaskCower(ped, duration) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1662,7 +1813,7 @@ function TaskCower(ped,duration) end
 --@params y float
 --@params z float
 --@return void
-function TaskExtendRoute(x,y,z) end
+function TaskExtendRoute(x, y, z) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1679,7 +1830,8 @@ function TaskExtendRoute(x,y,z) end
 --@params persistFollowing BOOL
 --@params unk float
 --@return void
-function TaskFollowNavMeshToCoord(ped,x,y,z,speed,timeout,stoppingRange,persistFollowing,unk) end
+function TaskFollowNavMeshToCoord(ped, x, y,z, speed, timeout, stoppingRange, persistFollowing,unk)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1691,7 +1843,8 @@ function TaskFollowNavMeshToCoord(ped,x,y,z,speed,timeout,stoppingRange,persistF
 --@params p2 int
 --@params p3 Any
 --@return void
-function TaskCombatPedTimed(p0,ped,p2,p3) end
+function TaskCombatPedTimed(p0, ped,p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1702,7 +1855,8 @@ function TaskCombatPedTimed(p0,ped,p2,p3) end
 --@params speed float
 --@params unknown int
 --@return void
-function TaskFollowPointRoute(ped,speed,unknown) end
+function TaskFollowPointRoute(ped,speed, unknown)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1722,7 +1876,8 @@ function TaskFollowPointRoute(ped,speed,unknown) end
 --@params unkZ float
 --@params unk_40000f float
 --@return void
-function TaskFollowNavMeshToCoordAdvanced(ped,x,y,z,speed,timeout,unkFloat,unkInt,unkX,unkY,unkZ,unk_40000f) end
+function TaskFollowNavMeshToCoordAdvanced(ped,x, y, z, speed, timeout,unkFloat, unkInt, unkX, unkY, unkZ,unk_40000f)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1731,7 +1886,8 @@ function TaskFollowNavMeshToCoordAdvanced(ped,x,y,z,speed,timeout,unkFloat,unkIn
 --@usage void TASK_EVERYONE_LEAVE_VEHICLE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function TaskEveryoneLeaveVehicle(vehicle) end
+function TaskEveryoneLeaveVehicle(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1748,7 +1904,7 @@ function TaskEveryoneLeaveVehicle(vehicle) end
 --@params stoppingRange float
 --@params persistFollowing BOOL
 --@return void
-function TaskFollowToOffsetOfEntity(ped,entity,offsetX,offsetY,offsetZ,movementSpeed,timeout,stoppingRange,persistFollowing) end
+function TaskFollowToOffsetOfEntity(ped, entity, offsetX, offsetY,offsetZ, movementSpeed, timeout, stoppingRange, persistFollowing) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1757,7 +1913,8 @@ function TaskFollowToOffsetOfEntity(ped,entity,offsetX,offsetY,offsetZ,movementS
 --@usage void TASK_FLUSH_ROUTE();
 
 --@return void
-function TaskFlushRoute() end
+function TaskFlushRoute()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1770,7 +1927,8 @@ function TaskFlushRoute() end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function TaskFollowWaypointRecording(p0,p1,p2,p3,p4) end
+function TaskFollowWaypointRecording(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1786,7 +1944,8 @@ function TaskFollowWaypointRecording(p0,p1,p2,p3,p4) end
 --@params targetHeading float
 --@params distanceToSlide float
 --@return void
-function TaskGoStraightToCoord(ped,x,y,z,speed,timeout,targetHeading,distanceToSlide) end
+function TaskGoStraightToCoord(ped, x, y, z, speed, timeout, targetHeading, distanceToSlide)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1809,7 +1968,8 @@ function TaskGoStraightToCoord(ped,x,y,z,speed,timeout,targetHeading,distanceToS
 --@params aimingFlag int
 --@params firingPattern Hash
 --@return void
-function TaskGoToCoordAndAimAtHatedEntitiesNearCoord(pedHandle,goToLocationX,goToLocationY,goToLocationZ,focusLocationX,focusLocationY,focusLocationZ,speed,shootAtEnemies,distanceToStopAt,noRoadsDistance,unkTrue,unkFlag,aimingFlag,firingPattern) end
+function TaskGoToCoordAndAimAtHatedEntitiesNearCoord(pedHandle, goToLocationX, goToLocationY, goToLocationZ, focusLocationX, focusLocationY, focusLocationZ, speed, shootAtEnemies, distanceToStopAt, noRoadsDistance, unkTrue, unkFlag, aimingFlag, firingPattern)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1819,7 +1979,8 @@ function TaskGoToCoordAndAimAtHatedEntitiesNearCoord(pedHandle,goToLocationX,goT
 --@params ped Ped
 --@params boat Vehicle
 --@return void
-function TaskGetOffBoat(ped,boat) end
+function TaskGetOffBoat(ped, boat)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1830,7 +1991,8 @@ function TaskGetOffBoat(ped,boat) end
 --@params state Hash
 --@params p2 BOOL
 --@return void
-function TaskForceMotionState(ped,state,p2) end
+function TaskForceMotionState(ped, state, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1845,7 +2007,8 @@ function TaskForceMotionState(ped,state,p2) end
 --@params p5 float
 --@params p6 Any
 --@return void
-function TaskGoStraightToCoordRelativeToEntity(entity1,entity2,p2,p3,p4,p5,p6) end
+function TaskGoStraightToCoordRelativeToEntity(entity1, entity2, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1866,7 +2029,8 @@ function TaskGoStraightToCoordRelativeToEntity(entity1,entity2,p2,p3,p4,p5,p6) e
 --@params p11 Any
 --@params p12 Any
 --@return void
-function TaskGoToCoordAnyMeansExtraParamsWithCruiseSpeed(ped,x,y,z,speed,p5,p6,walkingStyle,p8,p9,p10,p11,p12) end
+function TaskGoToCoordAnyMeansExtraParamsWithCruiseSpeed(ped, x, y, z, speed, p5, p6, walkingStyle, p8, p9, p10, p11, p12)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1889,7 +2053,8 @@ function TaskGoToCoordAnyMeansExtraParamsWithCruiseSpeed(ped,x,y,z,speed,p5,p6,w
 --@params p13 BOOL
 --@params firingPattern Hash
 --@return void
-function TaskGoToCoordWhileAimingAtCoord(ped,x,y,z,aimAtX,aimAtY,aimAtZ,moveSpeed,p8,p9,p10,p11,flags,p13,firingPattern) end
+function TaskGoToCoordWhileAimingAtCoord(ped, x, y, z, aimAtX, aimAtY, aimAtZ, moveSpeed, p8, p9, p10, p11, flags, p13, firingPattern)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1906,7 +2071,8 @@ function TaskGoToCoordWhileAimingAtCoord(ped,x,y,z,aimAtX,aimAtY,aimAtZ,moveSpee
 --@params walkingStyle int
 --@params p8 float
 --@return void
-function TaskGoToCoordAnyMeans(ped,x,y,z,speed,p5,p6,walkingStyle,p8) end
+function TaskGoToCoordAnyMeans(ped, x, y, z, speed, p5, p6, walkingStyle, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1926,7 +2092,8 @@ function TaskGoToCoordAnyMeans(ped,x,y,z,speed,p5,p6,walkingStyle,p8) end
 --@params p10 Any
 --@params p11 Any
 --@return void
-function TaskGoToCoordAnyMeansExtraParams(ped,x,y,z,speed,p5,p6,walkingStyle,p8,p9,p10,p11) end
+function TaskGoToCoordAnyMeansExtraParams(ped, x, y, z, speed, p5, p6, walkingStyle, p8, p9, p10, p11)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1946,7 +2113,8 @@ function TaskGoToCoordAnyMeansExtraParams(ped,x,y,z,speed,p5,p6,walkingStyle,p8,
 --@params p10 BOOL
 --@params p11 Any
 --@return void
-function TaskGoToEntityWhileAimingAtCoord(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) end
+function TaskGoToEntityWhileAimingAtCoord(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1968,7 +2136,8 @@ function TaskGoToEntityWhileAimingAtCoord(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11)
 --@params p12 Any
 --@params p13 Any
 --@return void
-function TaskGoToCoordWhileAimingAtEntity(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13) end
+function TaskGoToCoordWhileAimingAtEntity(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1986,7 +2155,8 @@ function TaskGoToCoordWhileAimingAtEntity(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,
 --@params p8 BOOL
 --@params firingPattern Hash
 --@return void
-function TaskGoToEntityWhileAimingAtEntity(ped,entityToWalkTo,entityToAimAt,speed,shootatEntity,p5,p6,p7,p8,firingPattern) end
+function TaskGoToEntityWhileAimingAtEntity(ped, entityToWalkTo, entityToAimAt, speed, shootatEntity, p5, p6, p7, p8, firingPattern)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2001,7 +2171,8 @@ function TaskGoToEntityWhileAimingAtEntity(ped,entityToWalkTo,entityToAimAt,spee
 --@params z float
 --@params duration int
 --@return void
-function TaskGotoEntityOffset(ped,p1,p2,x,y,z,duration) end
+function TaskGotoEntityOffset(ped, p1, p2, x, y, z, duration)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2016,7 +2187,8 @@ function TaskGotoEntityOffset(ped,p1,p2,x,y,z,duration) end
 --@params p5 float
 --@params p6 Any
 --@return void
-function TaskGuardAssignedDefensiveArea(p0,p1,p2,p3,p4,p5,p6) end
+function TaskGuardAssignedDefensiveArea(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2031,7 +2203,8 @@ function TaskGuardAssignedDefensiveArea(p0,p1,p2,p3,p4,p5,p6) end
 --@params p5 float
 --@params p6 int
 --@return void
-function TaskGoToEntity(entity,target,duration,distance,speed,p5,p6) end
+function TaskGoToEntity(entity, target, duration, distance, speed, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2047,7 +2220,8 @@ function TaskGoToEntity(entity,target,duration,distance,speed,p5,p6) end
 --@params moveBlendRatio float
 --@params useNavmesh BOOL
 --@return void
-function TaskGotoEntityOffsetXy(ped,entity,duration,xOffset,yOffset,zOffset,moveBlendRatio,useNavmesh) end
+function TaskGotoEntityOffsetXy(ped, entity, duration, xOffset, yOffset, zOffset, moveBlendRatio, useNavmesh)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2066,7 +2240,8 @@ function TaskGotoEntityOffsetXy(ped,entity,duration,xOffset,yOffset,zOffset,move
 --@params p9 float
 --@params p10 float
 --@return void
-function TaskGuardSphereDefensiveArea(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function TaskGuardSphereDefensiveArea(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2078,7 +2253,8 @@ function TaskGuardSphereDefensiveArea(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
 --@params distanceToStopAt float
 --@params StartAimingDist float
 --@return void
-function TaskGotoEntityAiming(ped,target,distanceToStopAt,StartAimingDist) end
+function TaskGotoEntityAiming(ped, target, distanceToStopAt, StartAimingDist)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2091,7 +2267,8 @@ function TaskGotoEntityAiming(ped,target,distanceToStopAt,StartAimingDist) end
 --@params y float
 --@params z float
 --@return void
-function TaskHeliChase(pilot,entityToFollow,x,y,z) end
+function TaskHeliChase(pilot, entityToFollow, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2103,7 +2280,8 @@ function TaskHeliChase(pilot,entityToFollow,x,y,z) end
 --@params p2 float
 --@params p3 BOOL
 --@return void
-function TaskGuardCurrentPosition(p0,p1,p2,p3) end
+function TaskGuardCurrentPosition(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2117,7 +2295,8 @@ function TaskGuardCurrentPosition(p0,p1,p2,p3) end
 --@params p4 float
 --@params p5 float
 --@return void
-function TaskHeliEscortHeli(pilot,heli1,heli2,p3,p4,p5) end
+function TaskHeliEscortHeli(pilot, heli1, heli2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2140,7 +2319,8 @@ function TaskHeliEscortHeli(pilot,heli1,heli2,p3,p4,p5) end
 --@params unk3 Hash
 --@params landingFlags int
 --@return void
-function TaskHeliMission(pilot,aircraft,targetVehicle,targetPed,destinationX,destinationY,destinationZ,missionFlag,maxSpeed,landingRadius,targetHeading,unk1,unk2,unk3,landingFlags) end
+function TaskHeliMission(pilot, aircraft, targetVehicle, targetPed, destinationX, destinationY, destinationZ, missionFlag, maxSpeed, landingRadius, targetHeading, unk1, unk2, unk3, landingFlags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2150,7 +2330,8 @@ function TaskHeliMission(pilot,aircraft,targetVehicle,targetPed,destinationX,des
 --@params ped Ped
 --@params unused BOOL
 --@return void
-function TaskJump(ped,unused) end
+function TaskJump(ped, unused)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2163,7 +2344,8 @@ function TaskJump(ped,unused) end
 --@params p3 int
 --@params p4 BOOL
 --@return void
-function TaskHandsUp(ped,duration,facingPed,p3,p4) end
+function TaskHandsUp(ped, duration, facingPed, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2178,7 +2360,8 @@ function TaskHandsUp(ped,duration,facingPed,p3,p4) end
 --@params p5 Any
 --@params p6 Any
 --@return void
-function TaskLookAtCoord(entity,x,y,z,duration,p5,p6) end
+function TaskLookAtCoord(entity, x, y, z, duration, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2191,7 +2374,8 @@ function TaskLookAtCoord(entity,x,y,z,duration,p5,p6) end
 --@params unknown1 int
 --@params unknown2 int
 --@return void
-function TaskLookAtEntity(ped,lookAt,duration,unknown1,unknown2) end
+function TaskLookAtEntity(ped, lookAt, duration, unknown1, unknown2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2202,7 +2386,8 @@ function TaskLookAtEntity(ped,lookAt,duration,unknown1,unknown2) end
 --@params p1 int
 --@params p2 int
 --@return void
-function TaskLeaveAnyVehicle(ped,p1,p2) end
+function TaskLeaveAnyVehicle(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2217,7 +2402,8 @@ function TaskLeaveAnyVehicle(ped,p1,p2) end
 --@params animDict char*
 --@params flags int
 --@return void
-function TaskMoveNetworkScripted(ped,p1,data,p3,p4,animDict,flags) end
+function TaskMoveNetworkScripted(ped, p1, data, p3, p4, animDict, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2227,7 +2413,8 @@ function TaskMoveNetworkScripted(ped,p1,data,p3,p4,animDict,flags) end
 --@params ped Ped
 --@params p1 BOOL
 --@return void
-function TaskParachute(ped,p1) end
+function TaskParachute(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2248,7 +2435,8 @@ function TaskParachute(ped,p1) end
 --@params animDict char*
 --@params flags int
 --@return void
-function TaskMoveNetworkAdvancedByName(ped,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,animDict,flags) end
+function TaskMoveNetworkAdvancedByName(ped, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, animDict, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2259,7 +2447,8 @@ function TaskMoveNetworkAdvancedByName(ped,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,animDi
 --@params vehicle Vehicle
 --@params flags int
 --@return void
-function TaskLeaveVehicle(ped,vehicle,flags) end
+function TaskLeaveVehicle(ped, vehicle, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2273,7 +2462,8 @@ function TaskLeaveVehicle(ped,vehicle,flags) end
 --@params animDict char*
 --@params flags int
 --@return void
-function TaskMoveNetworkByName(ped,task,multiplier,p3,animDict,flags) end
+function TaskMoveNetworkByName(ped, task, multiplier, p3, animDict, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2286,7 +2476,8 @@ function TaskMoveNetworkByName(ped,task,multiplier,p3,animDict,flags) end
 --@params doorIndex int
 --@params speed float
 --@return void
-function TaskOpenVehicleDoor(ped,vehicle,timeOut,doorIndex,speed) end
+function TaskOpenVehicleDoor(ped, vehicle, timeOut, doorIndex, speed)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2300,7 +2491,8 @@ function TaskOpenVehicleDoor(ped,vehicle,timeOut,doorIndex,speed) end
 --@params heading float
 --@params duration float
 --@return void
-function TaskPedSlideToCoord(ped,x,y,z,heading,duration) end
+function TaskPedSlideToCoord(ped, x, y, z, heading, duration)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2310,7 +2502,8 @@ function TaskPedSlideToCoord(ped,x,y,z,heading,duration) end
 --@params ped Ped
 --@params taskSequenceId int
 --@return void
-function TaskPerformSequenceLocally(ped,taskSequenceId) end
+function TaskPerformSequenceLocally(ped, taskSequenceId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2322,7 +2515,8 @@ function TaskPerformSequenceLocally(ped,taskSequenceId) end
 --@params y float
 --@params z float
 --@return void
-function TaskParachuteToTarget(ped,x,y,z) end
+function TaskParachuteToTarget(ped, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2337,7 +2531,8 @@ function TaskParachuteToTarget(ped,x,y,z) end
 --@params p5 float
 --@params p6 float
 --@return void
-function TaskPedSlideToCoordHdgRate(ped,x,y,z,heading,p5,p6) end
+function TaskPedSlideToCoordHdgRate(ped, x, y, z, heading, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2350,7 +2545,8 @@ function TaskPedSlideToCoordHdgRate(ped,x,y,z,heading,p5,p6) end
 --@params y float
 --@params z float
 --@return void
-function TaskPlaneChase(pilot,entityToFollow,x,y,z) end
+function TaskPlaneChase(pilot, entityToFollow, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2363,7 +2559,8 @@ function TaskPlaneChase(pilot,entityToFollow,x,y,z) end
 --@params p3 BOOL
 --@params p4 BOOL
 --@return void
-function TaskPatrol(ped,p1,p2,p3,p4) end
+function TaskPatrol(ped, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2379,7 +2576,8 @@ function TaskPatrol(ped,p1,p2,p3,p4) end
 --@params runwayEndY float
 --@params runwayEndZ float
 --@return void
-function TaskPlaneLand(pilot,plane,runwayStartX,runwayStartY,runwayStartZ,runwayEndX,runwayEndY,runwayEndZ) end
+function TaskPlaneLand(pilot, plane, runwayStartX, runwayStartY, runwayStartZ, runwayEndX, runwayEndY, runwayEndZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2389,7 +2587,8 @@ function TaskPlaneLand(pilot,plane,runwayStartX,runwayStartY,runwayStartZ,runway
 --@params ped Ped
 --@params ms int
 --@return void
-function TaskPause(ped,ms) end
+function TaskPause(ped, ms)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2399,7 +2598,8 @@ function TaskPause(ped,ms) end
 --@params ped Ped
 --@params taskSequenceId int
 --@return Any
-function TaskPerformSequence(ped,taskSequenceId) end
+function TaskPerformSequence(ped, taskSequenceId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2417,7 +2617,8 @@ function TaskPerformSequence(ped,taskSequenceId) end
 --@params p8 Any
 --@params p9 Any
 --@return void
-function TaskPlaneGotoPreciseVtol(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function TaskPlaneGotoPreciseVtol(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2430,7 +2631,8 @@ function TaskPlaneGotoPreciseVtol(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@params z float
 --@params heading float
 --@return void
-function TaskPlantBomb(ped,x,y,z,heading) end
+function TaskPlantBomb(ped, x, y, z, heading)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2442,7 +2644,8 @@ function TaskPlantBomb(ped,x,y,z,heading) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function TaskPerformSequenceFromProgress(p0,p1,p2,p3) end
+function TaskPerformSequenceFromProgress(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2466,7 +2669,8 @@ function TaskPerformSequenceFromProgress(p0,p1,p2,p3) end
 --@params p14 Any
 --@params p15 Any
 --@return void
-function TaskPlayAnimAdvanced(ped,animDict,animName,posX,posY,posZ,rotX,rotY,rotZ,speed,speedMultiplier,duration,flag,animTime,p14,p15) end
+function TaskPlayAnimAdvanced(ped, animDict, animName, posX, posY, posZ, rotX, rotY, rotZ, speed, speedMultiplier, duration, flag, animTime, p14, p15)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2480,7 +2684,8 @@ function TaskPlayAnimAdvanced(ped,animDict,animName,posX,posY,posZ,rotX,rotY,rot
 --@params p4 float
 --@params p5 BOOL
 --@return void
-function TaskPutPedDirectlyIntoMelee(ped,meleeTarget,p2,p3,p4,p5) end
+function TaskPutPedDirectlyIntoMelee(ped, meleeTarget, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2501,7 +2706,8 @@ function TaskPutPedDirectlyIntoMelee(ped,meleeTarget,p2,p3,p4,p5) end
 --@params maxZ float
 --@params minZ float
 --@return void
-function TaskPlaneMission(pilot,aircraft,targetVehicle,targetPed,destinationX,destinationY,destinationZ,missionFlag,angularDrag,unk,targetHeading,maxZ,minZ) end
+function TaskPlaneMission(pilot, aircraft, targetVehicle, targetPed, destinationX, destinationY, destinationZ, missionFlag, angularDrag, unk, targetHeading, maxZ, minZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2517,7 +2723,8 @@ function TaskPlaneMission(pilot,aircraft,targetVehicle,targetPed,destinationX,de
 --@params p6 BOOL
 --@params p7 BOOL
 --@return void
-function TaskPlayPhoneGestureAnimation(ped,animDict,animation,boneMaskType,p4,p5,p6,p7) end
+function TaskPlayPhoneGestureAnimation(ped, animDict, animation, boneMaskType, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2536,7 +2743,8 @@ function TaskPlayPhoneGestureAnimation(ped,animDict,animation,boneMaskType,p4,p5
 --@params lockY BOOL
 --@params lockZ BOOL
 --@return void
-function TaskPlayAnim(ped,animDictionary,animationName,blendInSpeed,blendOutSpeed,duration,flag,playbackRate,lockX,lockY,lockZ) end
+function TaskPlayAnim(ped, animDictionary, animationName, blendInSpeed, blendOutSpeed, duration, flag, playbackRate, lockX, lockY, lockZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2546,7 +2754,8 @@ function TaskPlayAnim(ped,animDictionary,animationName,blendInSpeed,blendOutSpee
 --@params ped Ped
 --@params unused BOOL
 --@return void
-function TaskReloadWeapon(ped,unused) end
+function TaskReloadWeapon(ped, unused)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2561,7 +2770,8 @@ function TaskReloadWeapon(ped,unused) end
 --@params p5 Any
 --@params p6 Any
 --@return void
-function TaskPlaneTaxi(p0,p1,p2,p3,p4,p5,p6) end
+function TaskPlaneTaxi(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2571,7 +2781,8 @@ function TaskPlaneTaxi(p0,p1,p2,p3,p4,p5,p6) end
 --@params ped Ped
 --@params fleeTarget Ped
 --@return void
-function TaskReactAndFleePed(ped,fleeTarget) end
+function TaskReactAndFleePed(ped, fleeTarget)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2583,7 +2794,8 @@ function TaskReactAndFleePed(ped,fleeTarget) end
 --@params duration int
 --@params p3 BOOL
 --@return void
-function TaskSeekCoverFromPed(ped,target,duration,p3) end
+function TaskSeekCoverFromPed(ped, target, duration, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2602,7 +2814,8 @@ function TaskSeekCoverFromPed(ped,target,duration,p3) end
 --@params p9 Any
 --@params p10 BOOL
 --@return void
-function TaskPutPedDirectlyIntoCover(ped,x,y,z,timeout,p5,p6,p7,p8,p9,p10) end
+function TaskPutPedDirectlyIntoCover(ped, x, y, z, timeout, p5, p6, p7, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2619,7 +2832,8 @@ function TaskPutPedDirectlyIntoCover(ped,x,y,z,timeout,p5,p6,p7,p8,p9,p10) end
 --@params p7 Any
 --@params p8 BOOL
 --@return void
-function TaskSeekCoverToCoords(ped,x1,y1,z1,x2,y2,z2,p7,p8) end
+function TaskSeekCoverToCoords(ped, x1, y1, z1, x2, y2, z2, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2629,7 +2843,8 @@ function TaskSeekCoverToCoords(ped,x1,y1,z1,x2,y2,z2,p7,p8) end
 --@params ped Ped
 --@params unused int
 --@return void
-function TaskRappelFromHeli(ped,unused) end
+function TaskRappelFromHeli(ped, unused)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2644,7 +2859,8 @@ function TaskRappelFromHeli(ped,unused) end
 --@params p5 Any
 --@params p6 BOOL
 --@return void
-function TaskSeekCoverToCoverPoint(p0,p1,p2,p3,p4,p5,p6) end
+function TaskSeekCoverToCoverPoint(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2654,7 +2870,8 @@ function TaskSeekCoverToCoverPoint(p0,p1,p2,p3,p4,p5,p6) end
 --@params ped Ped
 --@params p1 Hash
 --@return void
-function TaskSetDecisionMaker(ped,p1) end
+function TaskSetDecisionMaker(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2668,7 +2885,8 @@ function TaskSetDecisionMaker(ped,p1) end
 --@params duration int
 --@params p5 BOOL
 --@return void
-function TaskSeekCoverFromPos(ped,x,y,z,duration,p5) end
+function TaskSeekCoverFromPos(ped, x, y, z, duration, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2678,7 +2896,8 @@ function TaskSeekCoverFromPos(ped,x,y,z,duration,p5) end
 --@params ped Ped
 --@params eventHandle int
 --@return void
-function TaskShockingEventReact(ped,eventHandle) end
+function TaskShockingEventReact(ped, eventHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2692,7 +2911,8 @@ function TaskShockingEventReact(ped,eventHandle) end
 --@params p4 float
 --@params p5 float
 --@return void
-function TaskScriptedAnimation(ped,p1,p2,p3,p4,p5) end
+function TaskScriptedAnimation(ped, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2704,7 +2924,8 @@ function TaskScriptedAnimation(ped,p1,p2,p3,p4,p5) end
 --@params duration int
 --@params firingPattern Hash
 --@return void
-function TaskShootAtEntity(entity,target,duration,firingPattern) end
+function TaskShootAtEntity(entity, target, duration, firingPattern)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2717,7 +2938,8 @@ function TaskShootAtEntity(entity,target,duration,firingPattern) end
 --@params p3 float
 --@params p4 float
 --@return void
-function TaskSetSphereDefensiveArea(p0,p1,p2,p3,p4) end
+function TaskSetSphereDefensiveArea(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2731,7 +2953,8 @@ function TaskSetSphereDefensiveArea(p0,p1,p2,p3,p4) end
 --@params duration int
 --@params firingPattern Hash
 --@return void
-function TaskShootAtCoord(ped,x,y,z,duration,firingPattern) end
+function TaskShootAtCoord(ped, x, y, z, duration, firingPattern)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2740,7 +2963,8 @@ function TaskShootAtCoord(ped,x,y,z,duration,firingPattern) end
 --@usage void TASK_SKY_DIVE(Ped ped);
 --@params ped Ped
 --@return void
-function TaskSkyDive(ped) end
+function TaskSkyDive(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2750,7 +2974,8 @@ function TaskSkyDive(ped) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function TaskSetBlockingOfNonTemporaryEvents(ped,toggle) end
+function TaskSetBlockingOfNonTemporaryEvents(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2764,7 +2989,8 @@ function TaskSetBlockingOfNonTemporaryEvents(ped,toggle) end
 --@params p4 BOOL
 --@params p5 BOOL
 --@return void
-function TaskSmartFleePed(ped,fleeTarget,distance,fleeTime,p4,p5) end
+function TaskSmartFleePed(ped, fleeTarget, distance, fleeTime, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2780,7 +3006,8 @@ function TaskSmartFleePed(ped,fleeTarget,distance,fleeTime,p4,p5) end
 --@params p6 BOOL
 --@params p7 BOOL
 --@return void
-function TaskSmartFleeCoord(ped,x,y,z,distance,time,p6,p7) end
+function TaskSmartFleeCoord(ped, x, y, z, distance, time, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2790,7 +3017,8 @@ function TaskSmartFleeCoord(ped,x,y,z,distance,time,p6,p7) end
 --@params ped Ped
 --@params time int
 --@return void
-function TaskStandStill(ped,time) end
+function TaskStandStill(ped, time)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2800,7 +3028,8 @@ function TaskStandStill(ped,time) end
 --@params ped Ped
 --@params vehicle Vehicle
 --@return void
-function TaskShuffleToNextVehicleSeat(ped,vehicle) end
+function TaskShuffleToNextVehicleSeat(ped, vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2812,7 +3041,8 @@ function TaskShuffleToNextVehicleSeat(ped,vehicle) end
 --@params unkDelay int
 --@params playEnterAnim BOOL
 --@return void
-function TaskStartScenarioInPlace(ped,scenarioName,unkDelay,playEnterAnim) end
+function TaskStartScenarioInPlace(ped, scenarioName, unkDelay, playEnterAnim)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2829,7 +3059,8 @@ function TaskStartScenarioInPlace(ped,scenarioName,unkDelay,playEnterAnim) end
 --@params sittingScenario BOOL
 --@params teleport BOOL
 --@return void
-function TaskStartScenarioAtPosition(ped,scenarioName,x,y,z,heading,duration,sittingScenario,teleport) end
+function TaskStartScenarioAtPosition(ped, scenarioName, x, y, z, heading, duration, sittingScenario, teleport)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2838,7 +3069,8 @@ function TaskStartScenarioAtPosition(ped,scenarioName,x,y,z,heading,duration,sit
 --@usage void TASK_STOP_PHONE_GESTURE_ANIMATION(Ped ped);
 --@params ped Ped
 --@return void
-function TaskStopPhoneGestureAnimation(ped) end
+function TaskStopPhoneGestureAnimation(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2851,7 +3083,8 @@ function TaskStopPhoneGestureAnimation(ped) end
 --@params p3 float
 --@params p4 Any
 --@return void
-function TaskStealthKill(killer,target,actionType,p3,p4) end
+function TaskStealthKill(killer, target, actionType, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2865,7 +3098,8 @@ function TaskStealthKill(killer,target,actionType,p3,p4) end
 --@params heading float
 --@params scenarioName char*
 --@return void
-function TaskStandGuard(ped,x,y,z,heading,scenarioName) end
+function TaskStandGuard(ped, x, y, z, heading, scenarioName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2874,7 +3108,8 @@ function TaskStandGuard(ped,x,y,z,heading,scenarioName) end
 --@usage void TASK_STAY_IN_COVER(Ped ped);
 --@params ped Ped
 --@return void
-function TaskStayInCover(ped) end
+function TaskStayInCover(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2884,7 +3119,8 @@ function TaskStayInCover(ped) end
 --@params ped Ped
 --@params p1 BOOL
 --@return void
-function TaskSwapWeapon(ped,p1) end
+function TaskSwapWeapon(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2901,7 +3137,8 @@ function TaskSwapWeapon(ped,p1) end
 --@params p7 float
 --@params p8 float
 --@return void
-function TaskSweepAimEntity(ped,anim,p2,p3,p4,p5,vehicle,p7,p8) end
+function TaskSweepAimEntity(ped, anim, p2, p3, p4, p5, vehicle, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2920,7 +3157,8 @@ function TaskSweepAimEntity(ped,anim,p2,p3,p4,p5,vehicle,p7,p8) end
 --@params p9 float
 --@params p10 float
 --@return void
-function TaskSweepAimPosition(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function TaskSweepAimPosition(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2938,7 +3176,8 @@ function TaskSweepAimPosition(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
 --@params playbackRate float
 --@params p9 Any
 --@return void
-function TaskSynchronizedScene(ped,scene,animDictionary,animationName,blendInSpeed,blendOutSpeed,duration,flag,playbackRate,p9) end
+function TaskSynchronizedScene(ped, scene, animDictionary, animationName, blendInSpeed, blendOutSpeed, duration, flag, playbackRate, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2951,7 +3190,8 @@ function TaskSynchronizedScene(ped,scene,animDictionary,animationName,blendInSpe
 --@params z float
 --@params duration int
 --@return void
-function TaskTurnPedToFaceCoord(ped,x,y,z,duration) end
+function TaskTurnPedToFaceCoord(ped, x, y, z, duration)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2963,7 +3203,8 @@ function TaskTurnPedToFaceCoord(ped,x,y,z,duration) end
 --@params y float
 --@params z float
 --@return void
-function TaskThrowProjectile(ped,x,y,z) end
+function TaskThrowProjectile(ped, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2974,7 +3215,8 @@ function TaskThrowProjectile(ped,x,y,z) end
 --@params entity Entity
 --@params duration int
 --@return void
-function TaskTurnPedToFaceEntity(ped,entity,duration) end
+function TaskTurnPedToFaceEntity(ped, entity, duration)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2984,7 +3226,8 @@ function TaskTurnPedToFaceEntity(ped,entity,duration) end
 --@params p0 BOOL
 --@params p1 BOOL
 --@return void
-function TaskToggleDuck(p0,p1) end
+function TaskToggleDuck(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2994,7 +3237,8 @@ function TaskToggleDuck(p0,p1) end
 --@params ped Ped
 --@params p1 int
 --@return void
-function TaskUseMobilePhone(ped,p1) end
+function TaskUseMobilePhone(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3008,7 +3252,8 @@ function TaskUseMobilePhone(ped,p1) end
 --@params p4 float
 --@params p5 Any
 --@return void
-function TaskUseNearestScenarioChainToCoord(p0,p1,p2,p3,p4,p5) end
+function TaskUseNearestScenarioChainToCoord(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3022,7 +3267,8 @@ function TaskUseNearestScenarioChainToCoord(p0,p1,p2,p3,p4,p5) end
 --@params distance float
 --@params duration int
 --@return void
-function TaskUseNearestScenarioToCoord(ped,x,y,z,distance,duration) end
+function TaskUseNearestScenarioToCoord(ped, x, y, z, distance, duration)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3036,7 +3282,8 @@ function TaskUseNearestScenarioToCoord(ped,x,y,z,distance,duration) end
 --@params p4 float
 --@params p5 Any
 --@return void
-function TaskUseNearestScenarioChainToCoordWarp(p0,p1,p2,p3,p4,p5) end
+function TaskUseNearestScenarioChainToCoordWarp(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3048,7 +3295,8 @@ function TaskUseNearestScenarioChainToCoordWarp(p0,p1,p2,p3,p4,p5) end
 --@params y float
 --@params z float
 --@return void
-function TaskVehicleAimAtCoord(ped,x,y,z) end
+function TaskVehicleAimAtCoord(ped, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3062,7 +3310,8 @@ function TaskVehicleAimAtCoord(ped,x,y,z) end
 --@params radius float
 --@params p5 Any
 --@return void
-function TaskUseNearestScenarioToCoordWarp(ped,x,y,z,radius,p5) end
+function TaskUseNearestScenarioToCoordWarp(ped, x, y, z, radius, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3072,7 +3321,8 @@ function TaskUseNearestScenarioToCoordWarp(ped,x,y,z,radius,p5) end
 --@params driver Ped
 --@params targetEnt Entity
 --@return void
-function TaskVehicleChase(driver,targetEnt) end
+function TaskVehicleChase(driver, targetEnt)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3088,7 +3338,8 @@ function TaskVehicleChase(driver,targetEnt) end
 --@params driveMode int
 --@params stopRange float
 --@return void
-function TaskVehicleDriveToCoordLongrange(ped,vehicle,x,y,z,speed,driveMode,stopRange) end
+function TaskVehicleDriveToCoordLongrange(ped, vehicle, x, y, z, speed, driveMode, stopRange)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3107,7 +3358,8 @@ function TaskVehicleDriveToCoordLongrange(ped,vehicle,x,y,z,speed,driveMode,stop
 --@params stopRange float
 --@params p10 float
 --@return void
-function TaskVehicleDriveToCoord(ped,vehicle,x,y,z,speed,p6,vehicleModel,drivingMode,stopRange,p10) end
+function TaskVehicleDriveToCoord(ped, vehicle, x, y, z, speed, p6, vehicleModel, drivingMode, stopRange, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3117,7 +3369,8 @@ function TaskVehicleDriveToCoord(ped,vehicle,x,y,z,speed,p6,vehicleModel,driving
 --@params ped Ped
 --@params target Ped
 --@return void
-function TaskVehicleAimAtPed(ped,target) end
+function TaskVehicleAimAtPed(ped, target)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3129,7 +3382,8 @@ function TaskVehicleAimAtPed(ped,target) end
 --@params speed float
 --@params drivingStyle int
 --@return void
-function TaskVehicleDriveWander(ped,vehicle,speed,drivingStyle) end
+function TaskVehicleDriveWander(ped, vehicle, speed, drivingStyle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3145,7 +3399,8 @@ function TaskVehicleDriveWander(ped,vehicle,speed,drivingStyle) end
 --@params behaviorFlag int
 --@params stoppingRange float
 --@return void
-function TaskVehicleGotoNavmesh(ped,vehicle,x,y,z,speed,behaviorFlag,stoppingRange) end
+function TaskVehicleGotoNavmesh(ped, vehicle, x, y, z, speed, behaviorFlag, stoppingRange)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3162,7 +3417,8 @@ function TaskVehicleGotoNavmesh(ped,vehicle,x,y,z,speed,behaviorFlag,stoppingRan
 --@params p7 int
 --@params noRoadsDistance float
 --@return void
-function TaskVehicleEscort(ped,vehicle,targetVehicle,mode,speed,drivingStyle,minDistance,p7,noRoadsDistance) end
+function TaskVehicleEscort(ped, vehicle, targetVehicle, mode, speed, drivingStyle, minDistance, p7, noRoadsDistance)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3172,7 +3428,8 @@ function TaskVehicleEscort(ped,vehicle,targetVehicle,mode,speed,drivingStyle,min
 --@params ped Ped
 --@params duration int
 --@return void
-function TaskUseMobilePhoneTimed(ped,duration) end
+function TaskUseMobilePhoneTimed(ped, duration)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3186,7 +3443,8 @@ function TaskUseMobilePhoneTimed(ped,duration) end
 --@params drivingStyle int
 --@params minDistance int
 --@return void
-function TaskVehicleFollow(driver,vehicle,targetEntity,speed,drivingStyle,minDistance) end
+function TaskVehicleFollow(driver, vehicle, targetEntity, speed, drivingStyle, minDistance)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3202,7 +3460,8 @@ function TaskVehicleFollow(driver,vehicle,targetEntity,speed,drivingStyle,minDis
 --@params altitude int
 --@params p7 int
 --@return void
-function TaskVehicleHeliProtect(pilot,vehicle,entityToFollow,targetSpeed,p4,radius,altitude,p7) end
+function TaskVehicleHeliProtect(pilot, vehicle, entityToFollow, targetSpeed, p4, radius, altitude, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3220,7 +3479,8 @@ function TaskVehicleHeliProtect(pilot,vehicle,entityToFollow,targetSpeed,p4,radi
 --@params p8 BOOL
 --@params p9 float
 --@return void
-function TaskVehicleFollowWaypointRecording(ped,vehicle,WPRecording,p3,p4,p5,p6,p7,p8,p9) end
+function TaskVehicleFollowWaypointRecording(ped, vehicle, WPRecording, p3, p4, p5, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3237,7 +3497,8 @@ function TaskVehicleFollowWaypointRecording(ped,vehicle,WPRecording,p3,p4,p5,p6,
 --@params radius float
 --@params keepEngineOn BOOL
 --@return void
-function TaskVehiclePark(ped,vehicle,x,y,z,heading,mode,radius,keepEngineOn) end
+function TaskVehiclePark(ped, vehicle, x, y, z, heading, mode, radius, keepEngineOn)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3256,7 +3517,8 @@ function TaskVehiclePark(ped,vehicle,x,y,z,heading,mode,radius,keepEngineOn) end
 --@params p9 float
 --@params p10 BOOL
 --@return void
-function TaskVehicleMissionCoorsTarget(ped,vehicle,x,y,z,p5,p6,p7,p8,p9,p10) end
+function TaskVehicleMissionCoorsTarget(ped, vehicle, x, y, z, p5, p6, p7, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3273,7 +3535,8 @@ function TaskVehicleMissionCoorsTarget(ped,vehicle,x,y,z,p5,p6,p7,p8,p9,p10) end
 --@params p7 float
 --@params p8 BOOL
 --@return void
-function TaskVehicleMissionPedTarget(ped,vehicle,pedTarget,mode,maxSpeed,drivingStyle,minDistance,p7,p8) end
+function TaskVehicleMissionPedTarget(ped, vehicle, pedTarget, mode, maxSpeed, drivingStyle, minDistance, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3286,7 +3549,8 @@ function TaskVehicleMissionPedTarget(ped,vehicle,pedTarget,mode,maxSpeed,driving
 --@params z float
 --@params p4 float
 --@return void
-function TaskVehicleShootAtCoord(ped,x,y,z,p4) end
+function TaskVehicleShootAtCoord(ped, x, y, z, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3297,7 +3561,8 @@ function TaskVehicleShootAtCoord(ped,x,y,z,p4) end
 --@params animation_set char*
 --@params animation_name char*
 --@return void
-function TaskVehiclePlayAnim(vehicle,animation_set,animation_name) end
+function TaskVehiclePlayAnim(vehicle, animation_set, animation_name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3308,7 +3573,8 @@ function TaskVehiclePlayAnim(vehicle,animation_set,animation_name) end
 --@params target Ped
 --@params p2 float
 --@return void
-function TaskVehicleShootAtPed(ped,target,p2) end
+function TaskVehicleShootAtPed(ped, target, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3325,7 +3591,8 @@ function TaskVehicleShootAtPed(ped,target,p2) end
 --@params p7 float
 --@params p8 BOOL
 --@return void
-function TaskVehicleMission(p0,p1,veh,p3,p4,p5,p6,p7,p8) end
+function TaskVehicleMission(p0, p1, veh, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3336,7 +3603,8 @@ function TaskVehicleMission(p0,p1,veh,p3,p4,p5,p6,p7,p8) end
 --@params vehicle Vehicle
 --@params seat int
 --@return void
-function TaskWarpPedIntoVehicle(ped,vehicle,seat) end
+function TaskWarpPedIntoVehicle(ped, vehicle, seat)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3348,7 +3616,8 @@ function TaskWarpPedIntoVehicle(ped,vehicle,seat) end
 --@params action int
 --@params time int
 --@return void
-function TaskVehicleTempAction(driver,vehicle,action,time) end
+function TaskVehicleTempAction(driver, vehicle, action, time)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3363,7 +3632,8 @@ function TaskVehicleTempAction(driver,vehicle,action,time) end
 --@params minimalLength float
 --@params timeBetweenWalks float
 --@return void
-function TaskWanderInArea(ped,x,y,z,radius,minimalLength,timeBetweenWalks) end
+function TaskWanderInArea(ped, x, y, z, radius, minimalLength, timeBetweenWalks)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3374,7 +3644,8 @@ function TaskWanderInArea(ped,x,y,z,radius,minimalLength,timeBetweenWalks) end
 --@params p1 float
 --@params p2 int
 --@return void
-function TaskWanderStandard(ped,p1,p2) end
+function TaskWanderStandard(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3386,7 +3657,8 @@ function TaskWanderStandard(ped,p1,p2) end
 --@params time int
 --@params p3 int
 --@return void
-function TaskWrithe(ped,target,time,p3) end
+function TaskWrithe(ped, target, time, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3400,7 +3672,8 @@ function TaskWrithe(ped,target,time,p3) end
 --@params p4 float
 --@params p5 BOOL
 --@return void
-function UpdateTaskAimGunScriptedTarget(p0,p1,p2,p3,p4,p5) end
+function UpdateTaskAimGunScriptedTarget(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3410,7 +3683,8 @@ function UpdateTaskAimGunScriptedTarget(p0,p1,p2,p3,p4,p5) end
 --@params ped Ped
 --@params duration int
 --@return void
-function UpdateTaskHandsUpDuration(ped,duration) end
+function UpdateTaskHandsUpDuration(ped, duration)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3422,133 +3696,146 @@ function UpdateTaskHandsUpDuration(ped,duration) end
 --@params p2 float
 --@params p3 float
 --@return void
-function UpdateTaskSweepAimPosition(p0,p1,p2,p3) end
+function UpdateTaskSweepAimPosition(p0, p1, p2, p3)
+end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule BRAIN
---@see VEHICLE_WAYPOINT_PLAYBACK_OVERRIDE_SPEED
---@usage void VEHICLE_WAYPOINT_PLAYBACK_OVERRIDE_SPEED(Vehicle vehicle,float speed);
---@params vehicle Vehicle
---@params speed float
---@return void
-function VehicleWaypointPlaybackOverrideSpeed(vehicle,speed) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule BRAIN
+    --@see VEHICLE_WAYPOINT_PLAYBACK_OVERRIDE_SPEED
+    --@usage void VEHICLE_WAYPOINT_PLAYBACK_OVERRIDE_SPEED(Vehicle vehicle,float speed);
+    --@params vehicle Vehicle
+    --@params speed float
+    --@return void
+    function VehicleWaypointPlaybackOverrideSpeed(vehicle, speed)
+    end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule BRAIN
---@see UPDATE_TASK_SWEEP_AIM_ENTITY
---@usage void UPDATE_TASK_SWEEP_AIM_ENTITY(Ped ped,Entity entity);
---@params ped Ped
---@params entity Entity
---@return void
-function UpdateTaskSweepAimEntity(ped,entity) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule BRAIN
+    --@see UPDATE_TASK_SWEEP_AIM_ENTITY
+    --@usage void UPDATE_TASK_SWEEP_AIM_ENTITY(Ped ped,Entity entity);
+    --@params ped Ped
+    --@params entity Entity
+    --@return void
+    function UpdateTaskSweepAimEntity(ped, entity)
+    end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule BRAIN
---@see VEHICLE_WAYPOINT_PLAYBACK_PAUSE
---@usage void VEHICLE_WAYPOINT_PLAYBACK_PAUSE(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function VehicleWaypointPlaybackPause(vehicle) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule BRAIN
+    --@see VEHICLE_WAYPOINT_PLAYBACK_PAUSE
+    --@usage void VEHICLE_WAYPOINT_PLAYBACK_PAUSE(Vehicle vehicle);
+    --@params vehicle Vehicle
+    --@return void
+    function VehicleWaypointPlaybackPause(vehicle)
+    end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule BRAIN
---@see USE_WAYPOINT_RECORDING_AS_ASSISTED_MOVEMENT_ROUTE
---@usage void USE_WAYPOINT_RECORDING_AS_ASSISTED_MOVEMENT_ROUTE(char* name,BOOL p1,float p2,float p3);
---@params name char*
---@params p1 BOOL
---@params p2 float
---@params p3 float
---@return void
-function UseWaypointRecordingAsAssistedMovementRoute(name,p1,p2,p3) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule BRAIN
+    --@see USE_WAYPOINT_RECORDING_AS_ASSISTED_MOVEMENT_ROUTE
+    --@usage void USE_WAYPOINT_RECORDING_AS_ASSISTED_MOVEMENT_ROUTE(char* name,BOOL p1,float p2,float p3);
+    --@params name char*
+    --@params p1 BOOL
+    --@params p2 float
+    --@params p3 float
+    --@return void
+    function UseWaypointRecordingAsAssistedMovementRoute(name, p1, p2, p3)
+    end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule BRAIN
---@see VEHICLE_WAYPOINT_PLAYBACK_USE_DEFAULT_SPEED
---@usage void VEHICLE_WAYPOINT_PLAYBACK_USE_DEFAULT_SPEED(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function VehicleWaypointPlaybackUseDefaultSpeed(vehicle) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule BRAIN
+    --@see VEHICLE_WAYPOINT_PLAYBACK_USE_DEFAULT_SPEED
+    --@usage void VEHICLE_WAYPOINT_PLAYBACK_USE_DEFAULT_SPEED(Vehicle vehicle);
+    --@params vehicle Vehicle
+    --@return void
+    function VehicleWaypointPlaybackUseDefaultSpeed(vehicle)
+    end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule BRAIN
---@see VEHICLE_WAYPOINT_PLAYBACK_RESUME
---@usage void VEHICLE_WAYPOINT_PLAYBACK_RESUME(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function VehicleWaypointPlaybackResume(vehicle) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule BRAIN
+    --@see VEHICLE_WAYPOINT_PLAYBACK_RESUME
+    --@usage void VEHICLE_WAYPOINT_PLAYBACK_RESUME(Vehicle vehicle);
+    --@params vehicle Vehicle
+    --@return void
+    function VehicleWaypointPlaybackResume(vehicle)
+    end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule BRAIN
---@see WAYPOINT_PLAYBACK_OVERRIDE_SPEED
---@usage void WAYPOINT_PLAYBACK_OVERRIDE_SPEED(Any p0,float p1,BOOL p2);
---@params p0 Any
---@params p1 float
---@params p2 BOOL
---@return void
-function WaypointPlaybackOverrideSpeed(p0,p1,p2) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule BRAIN
+    --@see WAYPOINT_PLAYBACK_OVERRIDE_SPEED
+    --@usage void WAYPOINT_PLAYBACK_OVERRIDE_SPEED(Any p0,float p1,BOOL p2);
+    --@params p0 Any
+    --@params p1 float
+    --@params p2 BOOL
+    --@return void
+    function WaypointPlaybackOverrideSpeed(p0, p1, p2)
+    end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule BRAIN
---@see UNCUFF_PED
---@usage void UNCUFF_PED(Ped ped);
---@params ped Ped
---@return void
-function UncuffPed(ped) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule BRAIN
+    --@see UNCUFF_PED
+    --@usage void UNCUFF_PED(Ped ped);
+    --@params ped Ped
+    --@return void
+    function UncuffPed(ped)
+    end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule BRAIN
---@see WAYPOINT_PLAYBACK_GET_IS_PAUSED
---@usage BOOL WAYPOINT_PLAYBACK_GET_IS_PAUSED(Any p0);
---@params p0 Any
---@return BOOL
-function WaypointPlaybackGetIsPaused(p0) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule BRAIN
+    --@see WAYPOINT_PLAYBACK_GET_IS_PAUSED
+    --@usage BOOL WAYPOINT_PLAYBACK_GET_IS_PAUSED(Any p0);
+    --@params p0 Any
+    --@return BOOL
+    function WaypointPlaybackGetIsPaused(p0)
+    end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule BRAIN
---@see WAYPOINT_PLAYBACK_START_AIMING_AT_PED
---@usage void WAYPOINT_PLAYBACK_START_AIMING_AT_PED(Any p0,Any p1,BOOL p2);
---@params p0 Any
---@params p1 Any
---@params p2 BOOL
---@return void
-function WaypointPlaybackStartAimingAtPed(p0,p1,p2) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule BRAIN
+    --@see WAYPOINT_PLAYBACK_START_AIMING_AT_PED
+    --@usage void WAYPOINT_PLAYBACK_START_AIMING_AT_PED(Any p0,Any p1,BOOL p2);
+    --@params p0 Any
+    --@params p1 Any
+    --@params p2 BOOL
+    --@return void
+    function WaypointPlaybackStartAimingAtPed(p0, p1, p2)
+    end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule BRAIN
---@see WAYPOINT_PLAYBACK_START_AIMING_AT_COORD
---@usage void WAYPOINT_PLAYBACK_START_AIMING_AT_COORD(Any p0,float p1,float p2,float p3,BOOL p4);
---@params p0 Any
---@params p1 float
---@params p2 float
---@params p3 float
---@params p4 BOOL
---@return void
-function WaypointPlaybackStartAimingAtCoord(p0,p1,p2,p3,p4) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule BRAIN
+    --@see WAYPOINT_PLAYBACK_START_AIMING_AT_COORD
+    --@usage void WAYPOINT_PLAYBACK_START_AIMING_AT_COORD(Any p0,float p1,float p2,float p3,BOOL p4);
+    --@params p0 Any
+    --@params p1 float
+    --@params p2 float
+    --@params p3 float
+    --@params p4 BOOL
+    --@return void
+    function WaypointPlaybackStartAimingAtCoord(p0, p1, p2, p3, p4)
+    end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule BRAIN
---@see WAYPOINT_PLAYBACK_START_SHOOTING_AT_COORD
---@usage void WAYPOINT_PLAYBACK_START_SHOOTING_AT_COORD(Any p0,float p1,float p2,float p3,BOOL p4,Any p5);
---@params p0 Any
---@params p1 float
---@params p2 float
---@params p3 float
---@params p4 BOOL
---@params p5 Any
---@return void
-function WaypointPlaybackStartShootingAtCoord(p0,p1,p2,p3,p4,p5) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule BRAIN
+    --@see WAYPOINT_PLAYBACK_START_SHOOTING_AT_COORD
+    --@usage void WAYPOINT_PLAYBACK_START_SHOOTING_AT_COORD(Any p0,float p1,float p2,float p3,BOOL p4,Any p5);
+    --@params p0 Any
+    --@params p1 float
+    --@params p2 float
+    --@params p3 float
+    --@params p4 BOOL
+    --@params p5 Any
+    --@return void
+    function WaypointPlaybackStartShootingAtCoord(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3560,19 +3847,21 @@ function WaypointPlaybackStartShootingAtCoord(p0,p1,p2,p3,p4,p5) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function WaypointPlaybackResume(p0,p1,p2,p3) end
+function WaypointPlaybackResume(p0, p1, p2, p3)
+end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule BRAIN
---@see WAYPOINT_PLAYBACK_START_SHOOTING_AT_PED
---@usage void WAYPOINT_PLAYBACK_START_SHOOTING_AT_PED(Any p0,Any p1,BOOL p2,Any p3);
---@params p0 Any
---@params p1 Any
---@params p2 BOOL
---@params p3 Any
---@return void
-function WaypointPlaybackStartShootingAtPed(p0,p1,p2,p3) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule BRAIN
+    --@see WAYPOINT_PLAYBACK_START_SHOOTING_AT_PED
+    --@usage void WAYPOINT_PLAYBACK_START_SHOOTING_AT_PED(Any p0,Any p1,BOOL p2,Any p3);
+    --@params p0 Any
+    --@params p1 Any
+    --@params p2 BOOL
+    --@params p3 Any
+    --@return void
+    function WaypointPlaybackStartShootingAtPed(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3581,7 +3870,8 @@ function WaypointPlaybackStartShootingAtPed(p0,p1,p2,p3) end
 --@usage void WAYPOINT_PLAYBACK_USE_DEFAULT_SPEED(Any p0);
 --@params p0 Any
 --@return void
-function WaypointPlaybackUseDefaultSpeed(p0) end
+function WaypointPlaybackUseDefaultSpeed(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3592,7 +3882,8 @@ function WaypointPlaybackUseDefaultSpeed(p0) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function WaypointPlaybackPause(p0,p1,p2) end
+function WaypointPlaybackPause(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3602,7 +3893,8 @@ function WaypointPlaybackPause(p0,p1,p2) end
 --@params name char*
 --@params point int
 --@return float
-function WaypointRecordingGetSpeedAtPoint(name,point) end
+function WaypointRecordingGetSpeedAtPoint(name, point)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3613,7 +3905,8 @@ function WaypointRecordingGetSpeedAtPoint(name,point) end
 --@params point int
 --@params coord Vector3*
 --@return BOOL
-function WaypointRecordingGetCoord(name,point,coord) end
+function WaypointRecordingGetCoord(name, point, coord)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3626,23 +3919,26 @@ function WaypointRecordingGetCoord(name,point,coord) end
 --@params z float
 --@params point int*
 --@return BOOL
-function WaypointRecordingGetClosestWaypoint(name,x,y,z,point) end
+function WaypointRecordingGetClosestWaypoint(name, x, y, z, point)
+end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule BRAIN
---@see WAYPOINT_PLAYBACK_STOP_AIMING_OR_SHOOTING
---@usage void WAYPOINT_PLAYBACK_STOP_AIMING_OR_SHOOTING(Any p0);
---@params p0 Any
---@return void
-function WaypointPlaybackStopAimingOrShooting(p0) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule BRAIN
+    --@see WAYPOINT_PLAYBACK_STOP_AIMING_OR_SHOOTING
+    --@usage void WAYPOINT_PLAYBACK_STOP_AIMING_OR_SHOOTING(Any p0);
+    --@params p0 Any
+    --@return void
+    function WaypointPlaybackStopAimingOrShooting(p0)
+    end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule BRAIN
---@see WAYPOINT_RECORDING_GET_NUM_POINTS
---@usage BOOL WAYPOINT_RECORDING_GET_NUM_POINTS(char* name,int* points);
---@params name char*
---@params points int*
---@return BOOL
-function WaypointRecordingGetNumPoints(name,points) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule BRAIN
+    --@see WAYPOINT_RECORDING_GET_NUM_POINTS
+    --@usage BOOL WAYPOINT_RECORDING_GET_NUM_POINTS(char* name,int* points);
+    --@params name char*
+    --@params points int*
+    --@return BOOL
+    function WaypointRecordingGetNumPoints(name, points)
+    end

@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule OBJECT
@@ -13,7 +12,8 @@
 --@params p6 BOOL
 --@params p7 BOOL
 --@return void
-function AddDoorToSystem(doorHash,modelHash,x,y,z,p5,p6,p7) end
+function AddDoorToSystem(doorHash, modelHash, x, y, z, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -23,7 +23,8 @@ function AddDoorToSystem(doorHash,modelHash,x,y,z,p5,p6,p7) end
 --@params ped Ped
 --@params p1 Any
 --@return void
-function AttachPortablePickupToPed(ped,p1) end
+function AttachPortablePickupToPed(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -40,7 +41,8 @@ function AttachPortablePickupToPed(ped,p1) end
 --@params returnHandle BOOL
 --@params p8 BOOL
 --@return Pickup
-function CreateAmbientPickup(pickupHash,posX,posY,posZ,flags,value,modelHash,returnHandle,p8) end
+function CreateAmbientPickup(pickupHash, posX, posY, posZ, flags, value, modelHash, returnHandle, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -55,7 +57,8 @@ function CreateAmbientPickup(pickupHash,posX,posY,posZ,flags,value,modelHash,ret
 --@params thisScriptCheck BOOL
 --@params dynamic BOOL
 --@return Object
-function CreateObject(modelHash,x,y,z,isNetwork,thisScriptCheck,dynamic) end
+function CreateObject(modelHash, x, y, z, isNetwork, thisScriptCheck, dynamic)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -69,7 +72,8 @@ function CreateObject(modelHash,x,y,z,isNetwork,thisScriptCheck,dynamic) end
 --@params amount int
 --@params model Hash
 --@return void
-function CreateMoneyPickups(x,y,z,value,amount,model) end
+function CreateMoneyPickups(x, y, z, value, amount, model)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -82,7 +86,8 @@ function CreateMoneyPickups(x,y,z,value,amount,model) end
 --@params p3 BOOL
 --@params p4 Any
 --@return BOOL
-function AreEntitiesEntirelyInsideGarage(garageHash,p1,p2,p3,p4) end
+function AreEntitiesEntirelyInsideGarage(garageHash, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -98,7 +103,8 @@ function AreEntitiesEntirelyInsideGarage(garageHash,p1,p2,p3,p4) end
 --@params p6 BOOL
 --@params modelHash Hash
 --@return Pickup
-function CreatePickup(pickupHash,posX,posY,posZ,p4,value,p6,modelHash) end
+function CreatePickup(pickupHash, posX, posY, posZ, p4, value, p6, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -112,7 +118,8 @@ function CreatePickup(pickupHash,posX,posY,posZ,p4,value,p6,modelHash) end
 --@params placeOnGround BOOL
 --@params modelHash Hash
 --@return Pickup
-function CreatePortablePickup(pickupHash,x,y,z,placeOnGround,modelHash) end
+function CreatePortablePickup(pickupHash, x, y, z, placeOnGround, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -132,7 +139,8 @@ function CreatePortablePickup(pickupHash,x,y,z,placeOnGround,modelHash) end
 --@params p10 BOOL
 --@params modelHash Hash
 --@return Pickup
-function CreatePickupRotate(pickupHash,posX,posY,posZ,rotX,rotY,rotZ,flag,amount,p9,p10,modelHash) end
+function CreatePickupRotate(pickupHash, posX, posY, posZ, rotX, rotY, rotZ, flag, amount, p9, p10, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -142,7 +150,8 @@ function CreatePickupRotate(pickupHash,posX,posY,posZ,rotX,rotY,rotZ,flag,amount
 --@params garageHash Any
 --@params isNetwork BOOL
 --@return void
-function ClearGarageArea(garageHash,isNetwork) end
+function ClearGarageArea(garageHash, isNetwork)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -157,7 +166,8 @@ function ClearGarageArea(garageHash,isNetwork) end
 --@params thisScriptCheck BOOL
 --@params dynamic BOOL
 --@return Object
-function CreateObjectNoOffset(modelHash,x,y,z,isNetwork,thisScriptCheck,dynamic) end
+function CreateObjectNoOffset(modelHash, x, y, z, isNetwork, thisScriptCheck, dynamic)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -171,7 +181,8 @@ function CreateObjectNoOffset(modelHash,x,y,z,isNetwork,thisScriptCheck,dynamic)
 --@params placeOnGround BOOL
 --@params modelHash Hash
 --@return Pickup
-function CreatePortablePickup_2(pickupHash,x,y,z,placeOnGround,modelHash) end
+function CreatePortablePickup_2(pickupHash, x, y, z, placeOnGround, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -180,7 +191,8 @@ function CreatePortablePickup_2(pickupHash,x,y,z,placeOnGround,modelHash) end
 --@usage void DETACH_PORTABLE_PICKUP_FROM_PED(Ped ped);
 --@params ped Ped
 --@return void
-function DetachPortablePickupFromPed(ped) end
+function DetachPortablePickupFromPed(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -194,7 +206,8 @@ function DetachPortablePickupFromPed(ped) end
 --@params hash Hash
 --@params p5 BOOL
 --@return BOOL
-function DoesObjectOfTypeExistAtCoords(x,y,z,radius,hash,p5) end
+function DoesObjectOfTypeExistAtCoords(x, y, z, radius, hash, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -203,7 +216,8 @@ function DoesObjectOfTypeExistAtCoords(x,y,z,radius,hash,p5) end
 --@usage BOOL DOES_PICKUP_EXIST(Pickup pickup);
 --@params pickup Pickup
 --@return BOOL
-function DoesPickupExist(pickup) end
+function DoesPickupExist(pickup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -212,7 +226,8 @@ function DoesPickupExist(pickup) end
 --@usage BOOL DOES_PICKUP_OBJECT_EXIST(Object pickupObject);
 --@params pickupObject Object
 --@return BOOL
-function DoesPickupObjectExist(pickupObject) end
+function DoesPickupObjectExist(pickupObject)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -225,7 +240,8 @@ function DoesPickupObjectExist(pickupObject) end
 --@params z float
 --@params radius float
 --@return BOOL
-function DoesPickupOfTypeExistInArea(pickupHash,x,y,z,radius) end
+function DoesPickupOfTypeExistInArea(pickupHash, x, y, z, radius)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -234,7 +250,8 @@ function DoesPickupOfTypeExistInArea(pickupHash,x,y,z,radius) end
 --@usage BOOL DOES_RAYFIRE_MAP_OBJECT_EXIST(Object object);
 --@params object Object
 --@return BOOL
-function DoesRayfireMapObjectExist(object) end
+function DoesRayfireMapObjectExist(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -247,7 +264,8 @@ function DoesRayfireMapObjectExist(object) end
 --@params modelHash Any
 --@params doorOutPointer Any*
 --@return BOOL
-function DoorSystemFindExistingDoor(x,y,z,modelHash,doorOutPointer) end
+function DoorSystemFindExistingDoor(x, y, z, modelHash, doorOutPointer)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -263,7 +281,8 @@ function DoorSystemFindExistingDoor(x,y,z,modelHash,doorOutPointer) end
 --@params yRotMult float
 --@params zRotMult float
 --@return void
-function DoorControl(doorHash,x,y,z,locked,xRotMult,yRotMult,zRotMult) end
+function DoorControl(doorHash, x, y, z, locked, xRotMult, yRotMult, zRotMult)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -272,7 +291,8 @@ function DoorControl(doorHash,x,y,z,locked,xRotMult,yRotMult,zRotMult) end
 --@usage void DELETE_OBJECT(Object* object);
 --@params object Object*
 --@return void
-function DeleteObject(object) end
+function DeleteObject(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -281,7 +301,8 @@ function DeleteObject(object) end
 --@usage int DOOR_SYSTEM_GET_DOOR_PENDING_STATE(Hash doorHash);
 --@params doorHash Hash
 --@return int
-function DoorSystemGetDoorPendingState(doorHash) end
+function DoorSystemGetDoorPendingState(doorHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -293,7 +314,8 @@ function DoorSystemGetDoorPendingState(doorHash) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function DoorSystemSetAutomaticDistance(doorHash,heading,p2,p3) end
+function DoorSystemSetAutomaticDistance(doorHash, heading, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -302,7 +324,8 @@ function DoorSystemSetAutomaticDistance(doorHash,heading,p2,p3) end
 --@usage int DOOR_SYSTEM_GET_DOOR_STATE(Hash doorHash);
 --@params doorHash Hash
 --@return int
-function DoorSystemGetDoorState(doorHash) end
+function DoorSystemGetDoorState(doorHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -311,7 +334,8 @@ function DoorSystemGetDoorState(doorHash) end
 --@usage BOOL DOOR_SYSTEM_GET_IS_PHYSICS_LOADED(Any doorHash);
 --@params doorHash Any
 --@return BOOL
-function DoorSystemGetIsPhysicsLoaded(doorHash) end
+function DoorSystemGetIsPhysicsLoaded(doorHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -323,7 +347,8 @@ function DoorSystemGetIsPhysicsLoaded(doorHash) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function DoorSystemSetAutomaticRate(doorHash,p1,p2,p3) end
+function DoorSystemSetAutomaticRate(doorHash, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -335,7 +360,8 @@ function DoorSystemSetAutomaticRate(doorHash,p1,p2,p3) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function DoorSystemSetDoorState(doorHash,limit,p2,p3) end
+function DoorSystemSetDoorState(doorHash, limit, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -344,7 +370,8 @@ function DoorSystemSetDoorState(doorHash,limit,p2,p3) end
 --@usage float DOOR_SYSTEM_GET_OPEN_RATIO(Hash doorHash);
 --@params doorHash Hash
 --@return float
-function DoorSystemGetOpenRatio(doorHash) end
+function DoorSystemGetOpenRatio(doorHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -356,7 +383,8 @@ function DoorSystemGetOpenRatio(doorHash) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function DoorSystemSetOpenRatio(doorHash,ajar,p2,p3) end
+function DoorSystemSetOpenRatio(doorHash, ajar, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -368,7 +396,8 @@ function DoorSystemSetOpenRatio(doorHash,ajar,p2,p3) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function DoorSystemSetSpringRemoved(doorHash,p1,p2,p3) end
+function DoorSystemSetSpringRemoved(doorHash, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -384,7 +413,8 @@ function DoorSystemSetSpringRemoved(doorHash,p1,p2,p3) end
 --@params p6 BOOL
 --@params p7 BOOL
 --@return Object
-function GetClosestObjectOfType(x,y,z,radius,modelHash,isMission,p6,p7) end
+function GetClosestObjectOfType(x, y, z, radius, modelHash, isMission, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -394,7 +424,8 @@ function GetClosestObjectOfType(x,y,z,radius,modelHash,isMission,p6,p7) end
 --@params garageHash Hash
 --@params toggle BOOL
 --@return void
-function EnableSavingInGarage(garageHash,toggle) end
+function EnableSavingInGarage(garageHash, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -404,7 +435,8 @@ function EnableSavingInGarage(garageHash,toggle) end
 --@params entity Entity
 --@params p1 Any
 --@return Any
-function GetIsArenaPropPhysicsDisabled(entity,p1) end
+function GetIsArenaPropPhysicsDisabled(entity, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -420,7 +452,8 @@ function GetIsArenaPropPhysicsDisabled(entity,p1) end
 --@params outRotation Vector3*
 --@params rotationOrder int
 --@return Any
-function GetCoordsAndRotationOfClosestObjectOfType(x,y,z,radius,modelHash,outPosition,outRotation,rotationOrder) end
+function GetCoordsAndRotationOfClosestObjectOfType(x, y, z, radius, modelHash, outPosition, outRotation, rotationOrder)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -430,7 +463,8 @@ function GetCoordsAndRotationOfClosestObjectOfType(x,y,z,radius,modelHash,outPos
 --@params doorHash Hash
 --@params p1 BOOL
 --@return void
-function DoorSystemSetHoldOpen(doorHash,p1) end
+function DoorSystemSetHoldOpen(doorHash, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -445,7 +479,8 @@ function DoorSystemSetHoldOpen(doorHash,p1) end
 --@params yOffset float
 --@params zOffset float
 --@return Vector3
-function GetObjectOffsetFromCoords(xPos,yPos,zPos,heading,xOffset,yOffset,zOffset) end
+function GetObjectOffsetFromCoords(xPos, yPos, zPos, heading, xOffset, yOffset, zOffset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -454,7 +489,8 @@ function GetObjectOffsetFromCoords(xPos,yPos,zPos,heading,xOffset,yOffset,zOffse
 --@usage Hash _GET_PICKUP_HASH(Pickup pickupHash);
 --@params pickupHash Pickup
 --@return Hash
-function GetPickupHash(pickupHash) end
+function GetPickupHash(pickupHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -464,7 +500,8 @@ function GetPickupHash(pickupHash) end
 --@params p0 Any
 --@params p1 BOOL
 --@return float
-function GetObjectFragmentDamageHealth(p0,p1) end
+function GetObjectFragmentDamageHealth(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -477,7 +514,8 @@ function GetObjectFragmentDamageHealth(p0,p1) end
 --@params radius float
 --@params name char*
 --@return Object
-function GetRayfireMapObject(x,y,z,radius,name) end
+function GetRayfireMapObject(x, y, z, radius, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -486,7 +524,8 @@ function GetRayfireMapObject(x,y,z,radius,name) end
 --@usage int _GET_OBJECT_TEXTURE_VARIATION(Object object);
 --@params object Object
 --@return int
-function GetObjectTextureVariation(object) end
+function GetObjectTextureVariation(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -499,7 +538,8 @@ function GetObjectTextureVariation(object) end
 --@params p3 Any
 --@params p4 Any
 --@return Vector3
-function GetSafePickupCoords(x,y,z,p3,p4) end
+function GetSafePickupCoords(x, y, z, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -508,7 +548,8 @@ function GetSafePickupCoords(x,y,z,p3,p4) end
 --@usage Vector3 GET_PICKUP_COORDS(Pickup pickup);
 --@params pickup Pickup
 --@return Vector3
-function GetPickupCoords(pickup) end
+function GetPickupCoords(pickup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -517,7 +558,8 @@ function GetPickupCoords(pickup) end
 --@usage int GET_STATE_OF_RAYFIRE_MAP_OBJECT(Object object);
 --@params object Object
 --@return int
-function GetStateOfRayfireMapObject(object) end
+function GetStateOfRayfireMapObject(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -526,7 +568,8 @@ function GetStateOfRayfireMapObject(object) end
 --@usage Object GET_PICKUP_OBJECT(Pickup pickup);
 --@params pickup Pickup
 --@return Object
-function GetPickupObject(pickup) end
+function GetPickupObject(pickup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -535,7 +578,8 @@ function GetPickupObject(pickup) end
 --@usage float _GET_PICKUP_GENERATION_RANGE_MULTIPLIER();
 
 --@return float
-function GetPickupGenerationRangeMultiplier() end
+function GetPickupGenerationRangeMultiplier()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -544,7 +588,8 @@ function GetPickupGenerationRangeMultiplier() end
 --@usage float GET_RAYFIRE_MAP_OBJECT_ANIM_PHASE(Object object);
 --@params object Object
 --@return float
-function GetRayfireMapObjectAnimPhase(object) end
+function GetRayfireMapObjectAnimPhase(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -553,7 +598,8 @@ function GetRayfireMapObjectAnimPhase(object) end
 --@usage Hash GET_WEAPON_TYPE_FROM_PICKUP_TYPE(Pickup pickupHash);
 --@params pickupHash Pickup
 --@return Hash
-function GetWeaponTypeFromPickupType(pickupHash) end
+function GetWeaponTypeFromPickupType(pickupHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -567,7 +613,8 @@ function GetWeaponTypeFromPickupType(pickupHash) end
 --@params locked BOOL*
 --@params heading float*
 --@return void
-function GetStateOfClosestDoorOfType(type,x,y,z,locked,heading) end
+function GetStateOfClosestDoorOfType(type, x, y, z, locked, heading)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -581,7 +628,8 @@ function GetStateOfClosestDoorOfType(type,x,y,z,locked,heading) end
 --@params modelHash Hash
 --@params p5 BOOL
 --@return BOOL
-function HasClosestObjectOfTypeBeenCompletelyDestroyed(x,y,z,radius,modelHash,p5) end
+function HasClosestObjectOfTypeBeenCompletelyDestroyed(x, y, z, radius, modelHash, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -594,7 +642,8 @@ function HasClosestObjectOfTypeBeenCompletelyDestroyed(x,y,z,radius,modelHash,p5
 --@params range float
 --@params p4 BOOL
 --@return BOOL
-function IsAnyObjectNearPoint(x,y,z,range,p4) end
+function IsAnyObjectNearPoint(x, y, z, range, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -606,7 +655,8 @@ function IsAnyObjectNearPoint(x,y,z,range,p4) end
 --@params z float
 --@params colorIndex int
 --@return void
-function HighlightPlacementCoords(x,y,z,colorIndex) end
+function HighlightPlacementCoords(x, y, z, colorIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -620,7 +670,8 @@ function HighlightPlacementCoords(x,y,z,colorIndex) end
 --@params modelHash Hash
 --@params p5 Any
 --@return BOOL
-function HasClosestObjectOfTypeBeenBroken(p0,p1,p2,p3,modelHash,p5) end
+function HasClosestObjectOfTypeBeenBroken(p0, p1, p2, p3, modelHash, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -629,7 +680,8 @@ function HasClosestObjectOfTypeBeenBroken(p0,p1,p2,p3,modelHash,p5) end
 --@usage BOOL HAS_PICKUP_BEEN_COLLECTED(Pickup pickup);
 --@params pickup Pickup
 --@return BOOL
-function HasPickupBeenCollected(pickup) end
+function HasPickupBeenCollected(pickup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -639,7 +691,8 @@ function HasPickupBeenCollected(pickup) end
 --@params pickup Pickup
 --@params toggle BOOL
 --@return void
-function HidePickup(pickup,toggle) end
+function HidePickup(pickup, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -650,7 +703,8 @@ function HidePickup(pickup,toggle) end
 --@params p1 BOOL
 --@params p2 int
 --@return BOOL
-function IsGarageEmpty(garageHash,p1,p2) end
+function IsGarageEmpty(garageHash, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -663,7 +717,8 @@ function IsGarageEmpty(garageHash,p1,p2) end
 --@params z float
 --@params range float
 --@return BOOL
-function IsObjectNearPoint(objectHash,x,y,z,range) end
+function IsObjectNearPoint(objectHash, x, y, z, range)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -676,7 +731,8 @@ function IsObjectNearPoint(objectHash,x,y,z,range) end
 --@params p3 BOOL
 --@params p4 Any
 --@return BOOL
-function IsAnyEntityEntirelyInsideGarage(garageHash,p1,p2,p3,p4) end
+function IsAnyEntityEntirelyInsideGarage(garageHash, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -685,7 +741,8 @@ function IsAnyEntityEntirelyInsideGarage(garageHash,p1,p2,p3,p4) end
 --@usage BOOL HAS_OBJECT_BEEN_BROKEN(Object object);
 --@params object Object
 --@return BOOL
-function HasObjectBeenBroken(object) end
+function HasObjectBeenBroken(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -694,7 +751,8 @@ function HasObjectBeenBroken(object) end
 --@usage BOOL IS_DOOR_REGISTERED_WITH_SYSTEM(Hash doorHash);
 --@params doorHash Hash
 --@return BOOL
-function IsDoorRegisteredWithSystem(doorHash) end
+function IsDoorRegisteredWithSystem(doorHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -703,7 +761,8 @@ function IsDoorRegisteredWithSystem(doorHash) end
 --@usage BOOL IS_OBJECT_VISIBLE(Object object);
 --@params object Object
 --@return BOOL
-function IsObjectVisible(object) end
+function IsObjectVisible(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -715,7 +774,8 @@ function IsObjectVisible(object) end
 --@params p2 float
 --@params p3 int
 --@return BOOL
-function IsPlayerEntirelyInsideGarage(garageHash,player,p2,p3) end
+function IsPlayerEntirelyInsideGarage(garageHash, player, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -727,7 +787,8 @@ function IsPlayerEntirelyInsideGarage(garageHash,player,p2,p3) end
 --@params p2 float
 --@params p3 int
 --@return BOOL
-function IsObjectEntirelyInsideGarage(garageHash,entity,p2,p3) end
+function IsObjectEntirelyInsideGarage(garageHash, entity, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -738,7 +799,8 @@ function IsObjectEntirelyInsideGarage(garageHash,entity,p2,p3) end
 --@params player Player
 --@params p2 int
 --@return BOOL
-function IsPlayerPartiallyInsideGarage(garageHash,player,p2) end
+function IsPlayerPartiallyInsideGarage(garageHash, player, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -747,7 +809,8 @@ function IsPlayerPartiallyInsideGarage(garageHash,player,p2) end
 --@usage void _MARK_OBJECT_FOR_DELETION(Object object);
 --@params object Object
 --@return void
-function MarkObjectForDeletion(object) end
+function MarkObjectForDeletion(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -758,7 +821,8 @@ function MarkObjectForDeletion(object) end
 --@params entity Entity
 --@params p2 int
 --@return BOOL
-function IsObjectPartiallyInsideGarage(garageHash,entity,p2) end
+function IsObjectPartiallyInsideGarage(garageHash, entity, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -767,7 +831,8 @@ function IsObjectPartiallyInsideGarage(garageHash,entity,p2) end
 --@usage BOOL IS_PICKUP_WEAPON_OBJECT_VALID(Object object);
 --@params object Object
 --@return BOOL
-function IsPickupWeaponObjectValid(object) end
+function IsPickupWeaponObjectValid(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -776,7 +841,8 @@ function IsPickupWeaponObjectValid(object) end
 --@usage BOOL IS_DOOR_CLOSED(Hash doorHash);
 --@params doorHash Hash
 --@return BOOL
-function IsDoorClosed(doorHash) end
+function IsDoorClosed(doorHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -786,7 +852,8 @@ function IsDoorClosed(doorHash) end
 --@params modelHash Hash
 --@params p1 int
 --@return void
-function N_0x0bf3b3bd47d79c08(modelHash,p1) end
+function N_0x0bf3b3bd47d79c08(modelHash, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -806,7 +873,8 @@ function N_0x0bf3b3bd47d79c08(modelHash,p1) end
 --@params p10 BOOL
 --@params p11 BOOL
 --@return BOOL
-function IsPointInAngledArea(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) end
+function IsPointInAngledArea(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -819,7 +887,8 @@ function IsPointInAngledArea(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) end
 --@params objects BOOL
 --@params isNetwork BOOL
 --@return void
-function N_0x190428512b240692(garageHash,vehicles,peds,objects,isNetwork) end
+function N_0x190428512b240692(garageHash, vehicles, peds, objects, isNetwork)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -828,7 +897,8 @@ function N_0x190428512b240692(garageHash,vehicles,peds,objects,isNetwork) end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0x0378c08504160d0d(p0) end
+function N_0x0378c08504160d0d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -838,7 +908,8 @@ function N_0x0378c08504160d0d(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x1c57c94a6446492a(p0,p1) end
+function N_0x1c57c94a6446492a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -848,7 +919,8 @@ function N_0x1c57c94a6446492a(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x1e3f1b1b891a2aaa(p0,p1) end
+function N_0x1e3f1b1b891a2aaa(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -858,7 +930,8 @@ function N_0x1e3f1b1b891a2aaa(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x0596843b34b95ce5(p0,p1) end
+function N_0x0596843b34b95ce5(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -868,7 +941,8 @@ function N_0x0596843b34b95ce5(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x1c1b69fae509ba97(p0,p1) end
+function N_0x1c1b69fae509ba97(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -877,7 +951,8 @@ function N_0x1c1b69fae509ba97(p0,p1) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x31f924b53eaddf65(p0) end
+function N_0x31f924b53eaddf65(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -887,7 +962,8 @@ function N_0x31f924b53eaddf65(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x1a6cbb06e2d0d79d(p0,p1) end
+function N_0x1a6cbb06e2d0d79d(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -896,7 +972,8 @@ function N_0x1a6cbb06e2d0d79d(p0,p1) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x2542269291c6ac84(p0) end
+function N_0x2542269291c6ac84(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -906,7 +983,8 @@ function N_0x2542269291c6ac84(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x3ed2b83ab2e82799(p0,p1) end
+function N_0x3ed2b83ab2e82799(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -915,7 +993,8 @@ function N_0x3ed2b83ab2e82799(p0,p1) end
 --@usage void undefined();
 
 --@return void
-function N_0x394cd08e31313c28() end
+function N_0x394cd08e31313c28()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -925,7 +1004,8 @@ function N_0x394cd08e31313c28() end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function N_0x3bd770d281982db5(p0,p1) end
+function N_0x3bd770d281982db5(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -936,7 +1016,8 @@ function N_0x3bd770d281982db5(p0,p1) end
 --@params pickupHash Hash
 --@params toggle BOOL
 --@return void
-function N_0x616093ec6b139dd9(player,pickupHash,toggle) end
+function N_0x616093ec6b139dd9(player, pickupHash, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -946,7 +1027,8 @@ function N_0x616093ec6b139dd9(player,pickupHash,toggle) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x39a5fb7eaf150840(p0,p1) end
+function N_0x39a5fb7eaf150840(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -956,7 +1038,8 @@ function N_0x39a5fb7eaf150840(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x46f3add1e2d5baf2(p0,p1) end
+function N_0x46f3add1e2d5baf2(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -966,7 +1049,8 @@ function N_0x46f3add1e2d5baf2(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x4c134b4df76025d0(p0,p1) end
+function N_0x4c134b4df76025d0(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -975,7 +1059,8 @@ function N_0x4c134b4df76025d0(p0,p1) end
 --@usage void undefined();
 
 --@return void
-function N_0x66a49d021870fe88() end
+function N_0x66a49d021870fe88()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -984,7 +1069,8 @@ function N_0x66a49d021870fe88() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x62454a641b41f3c5(p0) end
+function N_0x62454a641b41f3c5(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -994,7 +1080,8 @@ function N_0x62454a641b41f3c5(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x659f9d71f52843f8(p0,p1) end
+function N_0x659f9d71f52843f8(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1004,7 +1091,8 @@ function N_0x659f9d71f52843f8(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x734e1714d077da9a(p0,p1) end
+function N_0x734e1714d077da9a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1014,7 +1102,8 @@ function N_0x734e1714d077da9a(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x63ecf581bc70e363(p0,p1) end
+function N_0x63ecf581bc70e363(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1023,7 +1112,8 @@ function N_0x63ecf581bc70e363(p0,p1) end
 --@usage void undefined();
 
 --@return void
-function N_0x701fda1e82076ba4() end
+function N_0x701fda1e82076ba4()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1032,7 +1122,8 @@ function N_0x701fda1e82076ba4() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x758a5c1b3b1e1990(p0) end
+function N_0x758a5c1b3b1e1990(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1042,7 +1133,8 @@ function N_0x758a5c1b3b1e1990(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x826d1ee4d1cafc78(p0,p1) end
+function N_0x826d1ee4d1cafc78(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1051,7 +1143,8 @@ function N_0x826d1ee4d1cafc78(p0,p1) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x78857fc65cadb909(p0) end
+function N_0x78857fc65cadb909(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1061,7 +1154,8 @@ function N_0x78857fc65cadb909(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x641f272b52e2f0f8(p0,p1) end
+function N_0x641f272b52e2f0f8(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1070,7 +1164,8 @@ function N_0x641f272b52e2f0f8(p0,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x762db2d380b48d04(p0) end
+function N_0x762db2d380b48d04(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1079,7 +1174,8 @@ function N_0x762db2d380b48d04(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x8881c98a31117998(p0) end
+function N_0x8881c98a31117998(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1090,7 +1186,8 @@ function N_0x8881c98a31117998(p0) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function N_0x92aefb5f6e294023(object,p1,p2) end
+function N_0x92aefb5f6e294023(object, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1099,7 +1196,8 @@ function N_0x92aefb5f6e294023(object,p1,p2) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x8caab2bd3ea58bd4(p0) end
+function N_0x8caab2bd3ea58bd4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1109,7 +1207,8 @@ function N_0x8caab2bd3ea58bd4(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x858ec9fd25de04aa(p0,p1) end
+function N_0x858ec9fd25de04aa(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1120,7 +1219,8 @@ function N_0x858ec9fd25de04aa(p0,p1) end
 --@params p1 float
 --@params p2 BOOL
 --@return void
-function N_0xa08fe5e49bdc39dd(p0,p1,p2) end
+function N_0xa08fe5e49bdc39dd(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1129,7 +1229,8 @@ function N_0xa08fe5e49bdc39dd(p0,p1,p2) end
 --@usage void undefined();
 
 --@return void
-function N_0xa2c1f5e92afe49ed() end
+function N_0xa2c1f5e92afe49ed()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1139,7 +1240,8 @@ function N_0xa2c1f5e92afe49ed() end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x8dca505a5c196f05(p0,p1) end
+function N_0x8dca505a5c196f05(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1149,7 +1251,8 @@ function N_0x8dca505a5c196f05(p0,p1) end
 --@params doorHash Hash
 --@params p1 BOOL
 --@return void
-function N_0xa85a21582451e951(doorHash,p1) end
+function N_0xa85a21582451e951(doorHash, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1159,7 +1262,8 @@ function N_0xa85a21582451e951(doorHash,p1) end
 --@params object Object
 --@params toggle BOOL
 --@return void
-function N_0xb2d0bde54f0e8e5a(object,toggle) end
+function N_0xb2d0bde54f0e8e5a(object, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1169,7 +1273,8 @@ function N_0xb2d0bde54f0e8e5a(object,toggle) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xaa059c615de9dd03(p0,p1) end
+function N_0xaa059c615de9dd03(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1179,7 +1284,8 @@ function N_0xaa059c615de9dd03(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xb5b7742424bd4445(p0,p1) end
+function N_0xb5b7742424bd4445(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1188,7 +1294,8 @@ function N_0xb5b7742424bd4445(p0,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x8cff648fbd7330f1(p0) end
+function N_0x8cff648fbd7330f1(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1198,7 +1305,8 @@ function N_0x8cff648fbd7330f1(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xa90e7227a9303fa9(p0,p1) end
+function N_0xa90e7227a9303fa9(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1208,7 +1316,8 @@ function N_0xa90e7227a9303fa9(p0,p1) end
 --@params object Object
 --@params toggle BOOL
 --@return void
-function N_0xc6033d32241f6fb5(object,toggle) end
+function N_0xc6033d32241f6fb5(object, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1218,7 +1327,8 @@ function N_0xc6033d32241f6fb5(object,toggle) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xbffe53ae7e67fcdc(p0,p1) end
+function N_0xbffe53ae7e67fcdc(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1228,7 +1338,8 @@ function N_0xbffe53ae7e67fcdc(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xd05a3241b9a86f19(p0,p1) end
+function N_0xd05a3241b9a86f19(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1237,7 +1348,8 @@ function N_0xd05a3241b9a86f19(p0,p1) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xadf084fb8f075d06(p0) end
+function N_0xadf084fb8f075d06(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1246,7 +1358,8 @@ function N_0xadf084fb8f075d06(p0) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0xc7f29ca00f46350e(p0) end
+function N_0xc7f29ca00f46350e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1258,7 +1371,8 @@ function N_0xc7f29ca00f46350e(p0) end
 --@params z float
 --@params radius float
 --@return void
-function N_0xd4a7a435b3710d05(x,y,z,radius) end
+function N_0xd4a7a435b3710d05(x, y, z, radius)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1267,7 +1381,8 @@ function N_0xd4a7a435b3710d05(x,y,z,radius) end
 --@usage void undefined();
 
 --@return void
-function N_0xb7c6d80fb371659a() end
+function N_0xb7c6d80fb371659a()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1276,7 +1391,8 @@ function N_0xb7c6d80fb371659a() end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xd6429a016084f1a5(p0) end
+function N_0xd6429a016084f1a5(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1287,7 +1403,8 @@ function N_0xd6429a016084f1a5(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0xe05f6aeefeb0bb02(p0,p1,p2) end
+function N_0xe05f6aeefeb0bb02(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1298,7 +1415,8 @@ function N_0xe05f6aeefeb0bb02(p0,p1,p2) end
 --@params p1 Any
 --@params p2 BOOL
 --@return void
-function N_0xe7e4c198b0185900(p0,p1,p2) end
+function N_0xe7e4c198b0185900(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1307,7 +1425,8 @@ function N_0xe7e4c198b0185900(p0,p1,p2) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xdb41d07a45a6d4b7(p0) end
+function N_0xdb41d07a45a6d4b7(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1317,7 +1436,8 @@ function N_0xdb41d07a45a6d4b7(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xf92099527db8e2a7(p0,p1) end
+function N_0xf92099527db8e2a7(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1326,7 +1446,8 @@ function N_0xf92099527db8e2a7(p0,p1) end
 --@usage void undefined(Object object);
 --@params object Object
 --@return void
-function N_0xf9c1681347c8bd15(object) end
+function N_0xf9c1681347c8bd15(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1336,7 +1457,8 @@ function N_0xf9c1681347c8bd15(object) end
 --@params p0 Any
 --@params p1 BOOL
 --@return void
-function N_0xeb6f1a9b5510a5d2(p0,p1) end
+function N_0xeb6f1a9b5510a5d2(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1345,7 +1467,8 @@ function N_0xeb6f1a9b5510a5d2(p0,p1) end
 --@usage BOOL PLACE_OBJECT_ON_GROUND_PROPERLY(Object object);
 --@params object Object
 --@return BOOL
-function PlaceObjectOnGroundProperly(object) end
+function PlaceObjectOnGroundProperly(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1359,7 +1482,8 @@ function PlaceObjectOnGroundProperly(object) end
 --@params p4 Any
 --@params p5 Any
 --@return Any
-function N_0xf12e33034d887f66(p0,p1,p2,p3,p4,p5) end
+function N_0xf12e33034d887f66(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1368,7 +1492,8 @@ function N_0xf12e33034d887f66(p0,p1,p2,p3,p4,p5) end
 --@usage BOOL _PLACE_OBJECT_ON_GROUND_PROPERLY_2(Object object);
 --@params object Object
 --@return BOOL
-function PlaceObjectOnGroundProperly_2(object) end
+function PlaceObjectOnGroundProperly_2(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1377,7 +1502,8 @@ function PlaceObjectOnGroundProperly_2(object) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xfc481c641ebbd27d(p0) end
+function N_0xfc481c641ebbd27d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1386,7 +1512,8 @@ function N_0xfc481c641ebbd27d(p0) end
 --@usage void REMOVE_PICKUP(Pickup pickup);
 --@params pickup Pickup
 --@return void
-function RemovePickup(pickup) end
+function RemovePickup(pickup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1395,7 +1522,8 @@ function RemovePickup(pickup) end
 --@usage void REMOVE_ALL_PICKUPS_OF_TYPE(Hash pickupHash);
 --@params pickupHash Hash
 --@return void
-function RemoveAllPickupsOfType(pickupHash) end
+function RemoveAllPickupsOfType(pickupHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1406,7 +1534,8 @@ function RemoveAllPickupsOfType(pickupHash) end
 --@params p1 BOOL
 --@params p2 int
 --@return void
-function SetEnableArenaPropPhysics(entity,p1,p2) end
+function SetEnableArenaPropPhysics(entity, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1415,7 +1544,8 @@ function SetEnableArenaPropPhysics(entity,p1,p2) end
 --@usage void REMOVE_OBJECT_HIGH_DETAIL_MODEL(Any p0);
 --@params p0 Any
 --@return void
-function RemoveObjectHighDetailModel(p0) end
+function RemoveObjectHighDetailModel(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1427,7 +1557,8 @@ function RemoveObjectHighDetailModel(p0) end
 --@params z Any
 --@params p3 Any
 --@return void
-function SetForceObjectThisFrame(x,y,z,p3) end
+function SetForceObjectThisFrame(x, y, z, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1437,7 +1568,8 @@ function SetForceObjectThisFrame(x,y,z,p3) end
 --@params object Object
 --@params toggle BOOL
 --@return void
-function SetActivateObjectPhysicsAsSoonAsItIsUnfrozen(object,toggle) end
+function SetActivateObjectPhysicsAsSoonAsItIsUnfrozen(object, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1446,7 +1578,8 @@ function SetActivateObjectPhysicsAsSoonAsItIsUnfrozen(object,toggle) end
 --@usage void REMOVE_DOOR_FROM_SYSTEM(Hash doorHash);
 --@params doorHash Hash
 --@return void
-function RemoveDoorFromSystem(doorHash) end
+function RemoveDoorFromSystem(doorHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1456,7 +1589,8 @@ function RemoveDoorFromSystem(doorHash) end
 --@params modelHash Hash
 --@params toggle BOOL
 --@return void
-function SetLocalPlayerCanUsePickupsWithThisModel(modelHash,toggle) end
+function SetLocalPlayerCanUsePickupsWithThisModel(modelHash, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1468,7 +1602,8 @@ function SetLocalPlayerCanUsePickupsWithThisModel(modelHash,toggle) end
 --@params p2 int
 --@params ped Ped
 --@return void
-function SetEnableArenaPropPhysicsOnPed(entity,p1,p2,ped) end
+function SetEnableArenaPropPhysicsOnPed(entity, p1, p2, ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1478,7 +1613,8 @@ function SetEnableArenaPropPhysicsOnPed(entity,p1,p2,ped) end
 --@params object Object
 --@params toggle BOOL
 --@return void
-function SetCreateWeaponObjectLightSource(object,toggle) end
+function SetCreateWeaponObjectLightSource(object, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1498,7 +1634,8 @@ function SetCreateWeaponObjectLightSource(object,toggle) end
 --@params p10 float
 --@params buoyancy float
 --@return void
-function SetObjectPhysicsParams(object,weight,p2,p3,p4,p5,gravity,p7,p8,p9,p10,buoyancy) end
+function SetObjectPhysicsParams(object, weight, p2, p3, p4, p5, gravity, p7, p8, p9, p10, buoyancy)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1508,7 +1645,8 @@ function SetObjectPhysicsParams(object,weight,p2,p3,p4,p5,gravity,p7,p8,p9,p10,b
 --@params object Object
 --@params toggle BOOL
 --@return void
-function SetObjectCanClimbOn(object,toggle) end
+function SetObjectCanClimbOn(object, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1521,7 +1659,8 @@ function SetObjectCanClimbOn(object,toggle) end
 --@params g int
 --@params b int
 --@return Any
-function SetObjectLightColor(object,p1,r,g,b) end
+function SetObjectLightColor(object, p1, r, g, b)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1531,7 +1670,8 @@ function SetObjectLightColor(object,p1,r,g,b) end
 --@params object Object
 --@params duration float
 --@return void
-function SetObjectStuntPropDuration(object,duration) end
+function SetObjectStuntPropDuration(object, duration)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1544,7 +1684,8 @@ function SetObjectStuntPropDuration(object,duration) end
 --@params G int
 --@params B int
 --@return void
-function SetObjectColour(object,toggle,R,G,B) end
+function SetObjectColour(object, toggle, R, G, B)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1554,7 +1695,8 @@ function SetObjectColour(object,toggle,R,G,B) end
 --@params object Object
 --@params p1 BOOL
 --@return void
-function SetObjectSomething(object,p1) end
+function SetObjectSomething(object, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1564,7 +1706,8 @@ function SetObjectSomething(object,p1) end
 --@params object Object
 --@params targettable BOOL
 --@return Any
-function SetObjectTargettable(object,targettable) end
+function SetObjectTargettable(object, targettable)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1573,7 +1716,8 @@ function SetObjectTargettable(object,targettable) end
 --@usage void SET_PICKUP_GENERATION_RANGE_MULTIPLIER(float multiplier);
 --@params multiplier float
 --@return void
-function SetPickupGenerationRangeMultiplier(multiplier) end
+function SetPickupGenerationRangeMultiplier(multiplier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1588,7 +1732,8 @@ function SetPickupGenerationRangeMultiplier(multiplier) end
 --@params heading float
 --@params p6 BOOL
 --@return void
-function SetStateOfClosestDoorOfType(type,x,y,z,locked,heading,p6) end
+function SetStateOfClosestDoorOfType(type, x, y, z, locked, heading, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1598,7 +1743,8 @@ function SetStateOfClosestDoorOfType(type,x,y,z,locked,heading,p6) end
 --@params pickup Pickup
 --@params duration int
 --@return void
-function SetPickupRegenerationTime(pickup,duration) end
+function SetPickupRegenerationTime(pickup, duration)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1608,7 +1754,8 @@ function SetPickupRegenerationTime(pickup,duration) end
 --@params object Object
 --@params p1 Any
 --@return void
-function SetObjectStuntPropSpeedup(object,p1) end
+function SetObjectStuntPropSpeedup(object, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1617,7 +1764,8 @@ function SetObjectStuntPropSpeedup(object,p1) end
 --@usage void _SET_UNK_GLOBAL_BOOL_RELATED_TO_DAMAGE(BOOL value);
 --@params value BOOL
 --@return void
-function SetUnkGlobalBoolRelatedToDamage(value) end
+function SetUnkGlobalBoolRelatedToDamage(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1628,7 +1776,8 @@ function SetUnkGlobalBoolRelatedToDamage(value) end
 --@params p1 Any
 --@params p2 BOOL
 --@return void
-function SetTeamPickupObject(object,p1,p2) end
+function SetTeamPickupObject(object, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1638,7 +1787,8 @@ function SetTeamPickupObject(object,p1,p2) end
 --@params object Object
 --@params state int
 --@return void
-function SetStateOfRayfireMapObject(object,state) end
+function SetStateOfRayfireMapObject(object, state)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1648,7 +1798,8 @@ function SetStateOfRayfireMapObject(object,state) end
 --@params object Object
 --@params textureVariation int
 --@return void
-function SetObjectTextureVariant(object,textureVariation) end
+function SetObjectTextureVariant(object, textureVariation)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1664,7 +1815,8 @@ function SetObjectTextureVariant(object,textureVariation) end
 --@params speedZ float
 --@params collision BOOL
 --@return BOOL
-function SlideObject(object,toX,toY,toZ,speedX,speedY,speedZ,collision) end
+function SlideObject(object, toX, toY, toZ, speedX, speedY, speedZ, collision)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1673,4 +1825,5 @@ function SlideObject(object,toX,toY,toZ,speedX,speedY,speedZ,collision) end
 --@usage void TRACK_OBJECT_VISIBILITY(Object object);
 --@params object Object
 --@return void
-function TrackObjectVisibility(object) end
+function TrackObjectVisibility(object)
+end

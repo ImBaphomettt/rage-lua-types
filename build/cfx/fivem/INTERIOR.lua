@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule INTERIOR
@@ -7,7 +6,8 @@
 --@params pickup Pickup
 --@params roomName char*
 --@return void
-function AddPickupToInteriorRoomByName(pickup,roomName) end
+function AddPickupToInteriorRoomByName(pickup, roomName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -17,7 +17,8 @@ function AddPickupToInteriorRoomByName(pickup,roomName) end
 --@params interior int
 --@params entitySetName char*
 --@return void
-function ActivateInteriorEntitySet(interior,entitySetName) end
+function ActivateInteriorEntitySet(interior, entitySetName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -28,7 +29,8 @@ function ActivateInteriorEntitySet(interior,entitySetName) end
 --@params y float
 --@params z float
 --@return BOOL
-function AreCoordsCollidingWithExterior(x,y,z) end
+function AreCoordsCollidingWithExterior(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -37,7 +39,8 @@ function AreCoordsCollidingWithExterior(x,y,z) end
 --@usage void CLEAR_ROOM_FOR_ENTITY(Entity entity);
 --@params entity Entity
 --@return void
-function ClearRoomForEntity(entity) end
+function ClearRoomForEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -46,7 +49,8 @@ function ClearRoomForEntity(entity) end
 --@usage void CLEAR_ROOM_FOR_GAME_VIEWPORT();
 
 --@return void
-function ClearRoomForGameViewport() end
+function ClearRoomForGameViewport()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -56,7 +60,8 @@ function ClearRoomForGameViewport() end
 --@params interior int
 --@params entitySetName char*
 --@return void
-function DeactivateInteriorEntitySet(interior,entitySetName) end
+function DeactivateInteriorEntitySet(interior, entitySetName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -66,7 +71,8 @@ function DeactivateInteriorEntitySet(interior,entitySetName) end
 --@params interiorID int
 --@params toggle BOOL
 --@return void
-function CapInterior(interiorID,toggle) end
+function CapInterior(interiorID, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -75,7 +81,8 @@ function CapInterior(interiorID,toggle) end
 --@usage void ENABLE_EXTERIOR_CULL_MODEL_THIS_FRAME(Hash mapObjectHash);
 --@params mapObjectHash Hash
 --@return void
-function EnableExteriorCullModelThisFrame(mapObjectHash) end
+function EnableExteriorCullModelThisFrame(mapObjectHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -85,7 +92,8 @@ function EnableExteriorCullModelThisFrame(mapObjectHash) end
 --@params interiorID int
 --@params toggle BOOL
 --@return void
-function DisableInterior(interiorID,toggle) end
+function DisableInterior(interiorID, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -94,7 +102,8 @@ function DisableInterior(interiorID,toggle) end
 --@usage void _ENABLE_SCRIPT_CULL_MODEL_THIS_FRAME(Any mapObjectHash);
 --@params mapObjectHash Any
 --@return void
-function EnableScriptCullModelThisFrame(mapObjectHash) end
+function EnableScriptCullModelThisFrame(mapObjectHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -106,7 +115,8 @@ function EnableScriptCullModelThisFrame(mapObjectHash) end
 --@params z float
 --@params interiorType char*
 --@return int
-function GetInteriorAtCoordsWithType(x,y,z,interiorType) end
+function GetInteriorAtCoordsWithType(x, y, z, interiorType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -117,7 +127,8 @@ function GetInteriorAtCoordsWithType(x,y,z,interiorType) end
 --@params y float
 --@params z float
 --@return int
-function GetInteriorAtCoords(x,y,z) end
+function GetInteriorAtCoords(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -127,7 +138,8 @@ function GetInteriorAtCoords(x,y,z) end
 --@params interiorID int
 --@params roomHashKey Hash
 --@return void
-function ForceRoomForGameViewport(interiorID,roomHashKey) end
+function ForceRoomForGameViewport(interiorID, roomHashKey)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -138,7 +150,8 @@ function ForceRoomForGameViewport(interiorID,roomHashKey) end
 --@params interior int
 --@params roomHashKey Hash
 --@return void
-function ForceRoomForEntity(entity,interior,roomHashKey) end
+function ForceRoomForEntity(entity, interior, roomHashKey)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -149,7 +162,8 @@ function ForceRoomForEntity(entity,interior,roomHashKey) end
 --@params y float
 --@params z float
 --@return int
-function GetInteriorFromCollision(x,y,z) end
+function GetInteriorFromCollision(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -161,7 +175,8 @@ function GetInteriorFromCollision(x,y,z) end
 --@params z float
 --@params typeHash int
 --@return int
-function GetInteriorAtCoordsWithTypehash(x,y,z,typeHash) end
+function GetInteriorAtCoordsWithTypehash(x, y, z, typeHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -170,7 +185,8 @@ function GetInteriorAtCoordsWithTypehash(x,y,z,typeHash) end
 --@usage float _GET_INTERIOR_HEADING(int interior);
 --@params interior int
 --@return float
-function GetInteriorHeading(interior) end
+function GetInteriorHeading(interior)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -179,7 +195,8 @@ function GetInteriorHeading(interior) end
 --@usage int GET_INTERIOR_FROM_ENTITY(Entity entity);
 --@params entity Entity
 --@return int
-function GetInteriorFromEntity(entity) end
+function GetInteriorFromEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -188,7 +205,8 @@ function GetInteriorFromEntity(entity) end
 --@usage int GET_INTERIOR_GROUP_ID(int interior);
 --@params interior int
 --@return int
-function GetInteriorGroupId(interior) end
+function GetInteriorGroupId(interior)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -199,7 +217,8 @@ function GetInteriorGroupId(interior) end
 --@params position Vector3*
 --@params nameHash Hash*
 --@return void
-function GetInteriorInfo(interior,position,nameHash) end
+function GetInteriorInfo(interior, position, nameHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -211,7 +230,8 @@ function GetInteriorInfo(interior,position,nameHash) end
 --@params y float
 --@params z float
 --@return Vector3
-function GetOffsetFromInteriorInWorldCoords(interior,x,y,z) end
+function GetOffsetFromInteriorInWorldCoords(interior, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -220,7 +240,8 @@ function GetOffsetFromInteriorInWorldCoords(interior,x,y,z) end
 --@usage int _GET_INTERIOR_FROM_GAMEPLAY_CAM();
 
 --@return int
-function GetInteriorFromGameplayCam() end
+function GetInteriorFromGameplayCam()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -229,7 +250,8 @@ function GetInteriorFromGameplayCam() end
 --@usage Hash GET_ROOM_KEY_FOR_GAME_VIEWPORT();
 
 --@return Hash
-function GetRoomKeyForGameViewport() end
+function GetRoomKeyForGameViewport()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -238,7 +260,8 @@ function GetRoomKeyForGameViewport() end
 --@usage Hash GET_ROOM_KEY_FROM_ENTITY(Entity entity);
 --@params entity Entity
 --@return Hash
-function GetRoomKeyFromEntity(entity) end
+function GetRoomKeyFromEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -247,7 +270,8 @@ function GetRoomKeyFromEntity(entity) end
 --@usage BOOL IS_INTERIOR_CAPPED(int interiorID);
 --@params interiorID int
 --@return BOOL
-function IsInteriorCapped(interiorID) end
+function IsInteriorCapped(interiorID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -256,7 +280,8 @@ function IsInteriorCapped(interiorID) end
 --@usage Hash GET_KEY_FOR_ENTITY_IN_ROOM(Entity entity);
 --@params entity Entity
 --@return Hash
-function GetKeyForEntityInRoom(entity) end
+function GetKeyForEntityInRoom(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -266,7 +291,8 @@ function GetKeyForEntityInRoom(entity) end
 --@params interior int
 --@params entitySetName char*
 --@return BOOL
-function IsInteriorEntitySetActive(interior,entitySetName) end
+function IsInteriorEntitySetActive(interior, entitySetName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -275,7 +301,8 @@ function IsInteriorEntitySetActive(interior,entitySetName) end
 --@usage BOOL IS_INTERIOR_READY(int interiorID);
 --@params interiorID int
 --@return BOOL
-function IsInteriorReady(interiorID) end
+function IsInteriorReady(interiorID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -284,7 +311,8 @@ function IsInteriorReady(interiorID) end
 --@usage BOOL IS_INTERIOR_DISABLED(int interior);
 --@params interior int
 --@return BOOL
-function IsInteriorDisabled(interior) end
+function IsInteriorDisabled(interior)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -294,7 +322,8 @@ function IsInteriorDisabled(interior) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x38c1cb1cb119a016(p0,p1) end
+function N_0x38c1cb1cb119a016(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -303,7 +332,8 @@ function N_0x38c1cb1cb119a016(p0,p1) end
 --@usage BOOL IS_VALID_INTERIOR(int interiorID);
 --@params interiorID int
 --@return BOOL
-function IsValidInterior(interiorID) end
+function IsValidInterior(interiorID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -312,7 +342,8 @@ function IsValidInterior(interiorID) end
 --@usage void undefined();
 
 --@return void
-function N_0x483aca1176ca93f1() end
+function N_0x483aca1176ca93f1()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -321,7 +352,8 @@ function N_0x483aca1176ca93f1() end
 --@usage void undefined(Hash roomHashKey);
 --@params roomHashKey Hash
 --@return void
-function N_0x405dc2aef6af95b9(roomHashKey) end
+function N_0x405dc2aef6af95b9(roomHashKey)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -331,7 +363,8 @@ function N_0x405dc2aef6af95b9(roomHashKey) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function N_0x7241ccb7d020db69(entity,toggle) end
+function N_0x7241ccb7d020db69(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -340,7 +373,8 @@ function N_0x7241ccb7d020db69(entity,toggle) end
 --@usage Any undefined(int interiorID);
 --@params interiorID int
 --@return Any
-function N_0x4c2330e61d3deb56(interiorID) end
+function N_0x4c2330e61d3deb56(interiorID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -350,7 +384,8 @@ function N_0x4c2330e61d3deb56(interiorID) end
 --@params entity Entity
 --@params interiorID int
 --@return void
-function N_0x82ebb79e258fa2b7(entity,interiorID) end
+function N_0x82ebb79e258fa2b7(entity, interiorID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -359,7 +394,8 @@ function N_0x82ebb79e258fa2b7(entity,interiorID) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x9e6542f0ce8e70a3(toggle) end
+function N_0x9e6542f0ce8e70a3(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -368,7 +404,8 @@ function N_0x9e6542f0ce8e70a3(toggle) end
 --@usage void undefined(char* roomName);
 --@params roomName char*
 --@return void
-function N_0xaf348afcb575a441(roomName) end
+function N_0xaf348afcb575a441(roomName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -377,7 +414,8 @@ function N_0xaf348afcb575a441(roomName) end
 --@usage void PIN_INTERIOR_IN_MEMORY(int interior);
 --@params interior int
 --@return void
-function PinInteriorInMemory(interior) end
+function PinInteriorInMemory(interior)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -386,7 +424,8 @@ function PinInteriorInMemory(interior) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x7ecdf98587e92dec(p0) end
+function N_0x7ecdf98587e92dec(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -397,7 +436,8 @@ function N_0x7ecdf98587e92dec(p0) end
 --@params entitySetName char*
 --@params color int
 --@return void
-function SetInteriorEntitySetColor(interior,entitySetName,color) end
+function SetInteriorEntitySetColor(interior, entitySetName, color)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -406,7 +446,8 @@ function SetInteriorEntitySetColor(interior,entitySetName,color) end
 --@usage void REFRESH_INTERIOR(int interiorID);
 --@params interiorID int
 --@return void
-function RefreshInterior(interiorID) end
+function RefreshInterior(interiorID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -415,7 +456,8 @@ function RefreshInterior(interiorID) end
 --@usage void UNPIN_INTERIOR(int interior);
 --@params interior int
 --@return void
-function UnpinInterior(interior) end
+function UnpinInterior(interior)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -424,4 +466,5 @@ function UnpinInterior(interior) end
 --@usage BOOL IS_INTERIOR_SCENE();
 
 --@return BOOL
-function IsInteriorScene() end
+function IsInteriorScene()
+end

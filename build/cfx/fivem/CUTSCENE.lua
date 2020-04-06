@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule CUTSCENE
@@ -6,7 +5,8 @@
 --@usage BOOL CAN_REQUEST_ASSETS_FOR_CUTSCENE_ENTITY();
 
 --@return BOOL
-function CanRequestAssetsForCutsceneEntity() end
+function CanRequestAssetsForCutsceneEntity()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function CanRequestAssetsForCutsceneEntity() end
 --@usage BOOL CAN_SET_EXIT_STATE_FOR_CAMERA(BOOL p0);
 --@params p0 BOOL
 --@return BOOL
-function CanSetExitStateForCamera(p0) end
+function CanSetExitStateForCamera(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -25,7 +26,8 @@ function CanSetExitStateForCamera(p0) end
 --@params cutsceneEntName char*
 --@params modelHash Hash
 --@return BOOL
-function DoesCutsceneEntityExist(cutsceneEntName,modelHash) end
+function DoesCutsceneEntityExist(cutsceneEntName, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -34,7 +36,8 @@ function DoesCutsceneEntityExist(cutsceneEntName,modelHash) end
 --@usage int _GET_CUT_FILE_NUM_SECTIONS(char* cutsceneName);
 --@params cutsceneName char*
 --@return int
-function GetCutFileNumSections(cutsceneName) end
+function GetCutFileNumSections(cutsceneName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -44,7 +47,8 @@ function GetCutFileNumSections(cutsceneName) end
 --@params cutsceneEntName char*
 --@params modelHash Hash
 --@return BOOL
-function CanSetEnterStateForRegisteredEntity(cutsceneEntName,modelHash) end
+function CanSetEnterStateForRegisteredEntity(cutsceneEntName, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -53,7 +57,8 @@ function CanSetEnterStateForRegisteredEntity(cutsceneEntName,modelHash) end
 --@usage int GET_CUTSCENE_TIME();
 
 --@return int
-function GetCutsceneTime() end
+function GetCutsceneTime()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -63,7 +68,8 @@ function GetCutsceneTime() end
 --@params cutsceneEntName char*
 --@params modelHash Hash
 --@return BOOL
-function CanSetExitStateForRegisteredEntity(cutsceneEntName,modelHash) end
+function CanSetExitStateForRegisteredEntity(cutsceneEntName, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -73,7 +79,8 @@ function CanSetExitStateForRegisteredEntity(cutsceneEntName,modelHash) end
 --@params cutsceneEntName char*
 --@params modelHash Hash
 --@return Entity
-function GetEntityIndexOfCutsceneEntity(cutsceneEntName,modelHash) end
+function GetEntityIndexOfCutsceneEntity(cutsceneEntName, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -82,7 +89,8 @@ function GetEntityIndexOfCutsceneEntity(cutsceneEntName,modelHash) end
 --@usage int GET_CUTSCENE_TOTAL_DURATION();
 
 --@return int
-function GetCutsceneTotalDuration() end
+function GetCutsceneTotalDuration()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -91,7 +99,8 @@ function GetCutsceneTotalDuration() end
 --@usage BOOL HAS_CUTSCENE_CUT_THIS_FRAME();
 
 --@return BOOL
-function HasCutsceneCutThisFrame() end
+function HasCutsceneCutThisFrame()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -101,7 +110,8 @@ function HasCutsceneCutThisFrame() end
 --@params cutsceneEntName char*
 --@params modelHash Hash
 --@return Entity
-function GetEntityIndexOfRegisteredEntity(cutsceneEntName,modelHash) end
+function GetEntityIndexOfRegisteredEntity(cutsceneEntName, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -110,7 +120,8 @@ function GetEntityIndexOfRegisteredEntity(cutsceneEntName,modelHash) end
 --@usage int GET_CUTSCENE_SECTION_PLAYING();
 
 --@return int
-function GetCutsceneSectionPlaying() end
+function GetCutsceneSectionPlaying()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -119,7 +130,8 @@ function GetCutsceneSectionPlaying() end
 --@usage BOOL HAS_CUT_FILE_LOADED(char* cutsceneName);
 --@params cutsceneName char*
 --@return BOOL
-function HasCutFileLoaded(cutsceneName) end
+function HasCutFileLoaded(cutsceneName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -128,7 +140,8 @@ function HasCutFileLoaded(cutsceneName) end
 --@usage BOOL HAS_THIS_CUTSCENE_LOADED(char* cutsceneName);
 --@params cutsceneName char*
 --@return BOOL
-function HasThisCutsceneLoaded(cutsceneName) end
+function HasThisCutsceneLoaded(cutsceneName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -137,7 +150,8 @@ function HasThisCutsceneLoaded(cutsceneName) end
 --@usage BOOL HAS_CUTSCENE_LOADED();
 
 --@return BOOL
-function HasCutsceneLoaded() end
+function HasCutsceneLoaded()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -146,7 +160,8 @@ function HasCutsceneLoaded() end
 --@usage BOOL HAS_CUTSCENE_FINISHED();
 
 --@return BOOL
-function HasCutsceneFinished() end
+function HasCutsceneFinished()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -155,7 +170,8 @@ function HasCutsceneFinished() end
 --@usage BOOL IS_CUTSCENE_PLAYBACK_FLAG_SET(int flag);
 --@params flag int
 --@return BOOL
-function IsCutscenePlaybackFlagSet(flag) end
+function IsCutscenePlaybackFlagSet(flag)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -164,7 +180,8 @@ function IsCutscenePlaybackFlagSet(flag) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x06ee9048fd080382(p0) end
+function N_0x06ee9048fd080382(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -173,7 +190,8 @@ function N_0x06ee9048fd080382(p0) end
 --@usage BOOL IS_CUTSCENE_PLAYING();
 
 --@return BOOL
-function IsCutscenePlaying() end
+function IsCutscenePlaying()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -182,7 +200,8 @@ function IsCutscenePlaying() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x2f137b508de238f2(p0) end
+function N_0x2f137b508de238f2(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -197,7 +216,8 @@ function N_0x2f137b508de238f2(p0) end
 --@params z2 float
 --@params p6 int
 --@return void
-function N_0x011883f41211432a(x1,y1,z1,x2,y2,z2,p6) end
+function N_0x011883f41211432a(x1, y1, z1, x2, y2, z2, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -209,7 +229,8 @@ function N_0x011883f41211432a(x1,y1,z1,x2,y2,z2,p6) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function N_0x20746f7b1032a3c7(p0,p1,p2,p3) end
+function N_0x20746f7b1032a3c7(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -218,7 +239,8 @@ function N_0x20746f7b1032a3c7(p0,p1,p2,p3) end
 --@usage BOOL IS_CUTSCENE_ACTIVE();
 
 --@return BOOL
-function IsCutsceneActive() end
+function IsCutsceneActive()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -227,7 +249,8 @@ function IsCutsceneActive() end
 --@usage BOOL undefined(char* cutsceneName);
 --@params cutsceneName char*
 --@return BOOL
-function N_0x4cebc1ed31e8925e(cutsceneName) end
+function N_0x4cebc1ed31e8925e(cutsceneName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -236,7 +259,8 @@ function N_0x4cebc1ed31e8925e(cutsceneName) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x4fcd976da686580c(p0) end
+function N_0x4fcd976da686580c(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -245,7 +269,8 @@ function N_0x4fcd976da686580c(p0) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x41faa8fb2ece8720(p0) end
+function N_0x41faa8fb2ece8720(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -254,7 +279,8 @@ function N_0x41faa8fb2ece8720(p0) end
 --@usage void undefined(Hash modelHash);
 --@params modelHash Hash
 --@return void
-function N_0x7f96f23fa9b73327(modelHash) end
+function N_0x7f96f23fa9b73327(modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -263,7 +289,8 @@ function N_0x7f96f23fa9b73327(modelHash) end
 --@usage int undefined();
 
 --@return int
-function N_0x583df8e3d4afbd98() end
+function N_0x583df8e3d4afbd98()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -272,7 +299,8 @@ function N_0x583df8e3d4afbd98() end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x5edef0cf8c1dab3c() end
+function N_0x5edef0cf8c1dab3c()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -281,7 +309,8 @@ function N_0x5edef0cf8c1dab3c() end
 --@usage void undefined(int threadId);
 --@params threadId int
 --@return void
-function N_0x8d9df6eca8768583(threadId) end
+function N_0x8d9df6eca8768583(threadId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -290,7 +319,8 @@ function N_0x8d9df6eca8768583(threadId) end
 --@usage int undefined();
 
 --@return int
-function N_0xa0fe76168a189ddb() end
+function N_0xa0fe76168a189ddb()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -299,7 +329,8 @@ function N_0xa0fe76168a189ddb() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0xe36a98d8ab3d3c66(p0) end
+function N_0xe36a98d8ab3d3c66(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -308,7 +339,8 @@ function N_0xe36a98d8ab3d3c66(p0) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0xc61b86c9f61eb404(toggle) end
+function N_0xc61b86c9f61eb404(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -321,7 +353,8 @@ function N_0xc61b86c9f61eb404(toggle) end
 --@params modelHash Hash
 --@params p4 int
 --@return void
-function RegisterEntityForCutscene(cutscenePed,cutsceneEntName,p2,modelHash,p4) end
+function RegisterEntityForCutscene(cutscenePed, cutsceneEntName, p2, modelHash, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -330,7 +363,8 @@ function RegisterEntityForCutscene(cutscenePed,cutsceneEntName,p2,modelHash,p4) 
 --@usage void REMOVE_CUTSCENE();
 
 --@return void
-function RemoveCutscene() end
+function RemoveCutscene()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -339,7 +373,8 @@ function RemoveCutscene() end
 --@usage void REGISTER_SYNCHRONISED_SCRIPT_SPEECH();
 
 --@return void
-function RegisterSynchronisedScriptSpeech() end
+function RegisterSynchronisedScriptSpeech()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -349,7 +384,8 @@ function RegisterSynchronisedScriptSpeech() end
 --@params cutsceneName char*
 --@params flags int
 --@return void
-function RequestCutscene(cutsceneName,flags) end
+function RequestCutscene(cutsceneName, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -360,7 +396,8 @@ function RequestCutscene(cutsceneName,flags) end
 --@params p1 int
 --@params p2 int
 --@return void
-function SetCutsceneEntityStreamingFlags(cutsceneEntName,p1,p2) end
+function SetCutsceneEntityStreamingFlags(cutsceneEntName, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -369,7 +406,8 @@ function SetCutsceneEntityStreamingFlags(cutsceneEntName,p1,p2) end
 --@usage void REQUEST_CUT_FILE(char* cutsceneName);
 --@params cutsceneName char*
 --@return void
-function RequestCutFile(cutsceneName) end
+function RequestCutFile(cutsceneName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -380,7 +418,8 @@ function RequestCutFile(cutsceneName) end
 --@params playbackFlags int
 --@params flags int
 --@return void
-function RequestCutsceneWithPlaybackList(cutsceneName,playbackFlags,flags) end
+function RequestCutsceneWithPlaybackList(cutsceneName, playbackFlags, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -393,7 +432,8 @@ function RequestCutsceneWithPlaybackList(cutsceneName,playbackFlags,flags) end
 --@params p3 int
 --@params modelHash Hash
 --@return void
-function SetCutscenePedComponentVariation(cutsceneEntName,p1,p2,p3,modelHash) end
+function SetCutscenePedComponentVariation(cutsceneEntName, p1, p2, p3, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -406,7 +446,8 @@ function SetCutscenePedComponentVariation(cutsceneEntName,p1,p2,p3,modelHash) en
 --@params p3 float
 --@params p4 int
 --@return void
-function SetCutsceneOrigin(x,y,z,p3,p4) end
+function SetCutsceneOrigin(x, y, z, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -419,7 +460,8 @@ function SetCutsceneOrigin(x,y,z,p3,p4) end
 --@params p3 int
 --@params modelHash Hash
 --@return void
-function SetCutscenePedPropVariation(cutsceneEntName,p1,p2,p3,modelHash) end
+function SetCutscenePedPropVariation(cutsceneEntName, p1, p2, p3, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -431,7 +473,8 @@ function SetCutscenePedPropVariation(cutsceneEntName,p1,p2,p3,modelHash) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function SetCutsceneFadeValues(p0,p1,p2,p3) end
+function SetCutsceneFadeValues(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -442,7 +485,8 @@ function SetCutsceneFadeValues(p0,p1,p2,p3) end
 --@params ped Ped
 --@params modelHash Hash
 --@return void
-function SetCutscenePedComponentVariationFromPed(cutsceneEntName,ped,modelHash) end
+function SetCutscenePedComponentVariationFromPed(cutsceneEntName, ped, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -451,7 +495,8 @@ function SetCutscenePedComponentVariationFromPed(cutsceneEntName,ped,modelHash) 
 --@usage void REMOVE_CUT_FILE(char* cutsceneName);
 --@params cutsceneName char*
 --@return void
-function RemoveCutFile(cutsceneName) end
+function RemoveCutFile(cutsceneName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -465,7 +510,8 @@ function RemoveCutFile(cutsceneName) end
 --@params p4 float
 --@params p5 float
 --@return void
-function SetCutsceneTriggerArea(p0,p1,p2,p3,p4,p5) end
+function SetCutsceneTriggerArea(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -477,7 +523,8 @@ function SetCutsceneTriggerArea(p0,p1,p2,p3,p4,p5) end
 --@params z float
 --@params flags int
 --@return void
-function StartCutsceneAtCoords(x,y,z,flags) end
+function StartCutsceneAtCoords(x, y, z, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -486,7 +533,8 @@ function StartCutsceneAtCoords(x,y,z,flags) end
 --@usage void START_CUTSCENE(int flags);
 --@params flags int
 --@return void
-function StartCutscene(flags) end
+function StartCutscene(flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -495,7 +543,8 @@ function StartCutscene(flags) end
 --@usage BOOL WAS_CUTSCENE_SKIPPED();
 
 --@return BOOL
-function WasCutsceneSkipped() end
+function WasCutsceneSkipped()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -504,7 +553,8 @@ function WasCutsceneSkipped() end
 --@usage void STOP_CUTSCENE_IMMEDIATELY();
 
 --@return void
-function StopCutsceneImmediately() end
+function StopCutsceneImmediately()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -513,4 +563,5 @@ function StopCutsceneImmediately() end
 --@usage void STOP_CUTSCENE(BOOL p0);
 --@params p0 BOOL
 --@return void
-function StopCutscene(p0) end
+function StopCutscene(p0)
+end

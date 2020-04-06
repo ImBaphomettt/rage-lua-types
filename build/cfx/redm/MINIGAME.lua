@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule MINIGAME
@@ -6,7 +5,8 @@
 --@usage undefined _0x6480723D3BE535B6(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6480723d3be535b6(p0) end
+function N_0x6480723d3be535b6(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function N_0x6480723d3be535b6(p0) end
 --@usage undefined _0x3DF7EE3A76185108();
 
 --@return undefined
-function N_0x3df7ee3a76185108() end
+function N_0x3df7ee3a76185108()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -26,7 +27,8 @@ function N_0x3df7ee3a76185108() end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xe1f365c4c8f259d8(p0,p1,p2) end
+function N_0xe1f365c4c8f259d8(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -35,7 +37,8 @@ function N_0xe1f365c4c8f259d8(p0,p1,p2) end
 --@usage undefined _0x0876326238914A3F();
 
 --@return undefined
-function N_0x0876326238914a3f() end
+function N_0x0876326238914a3f()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -45,7 +48,8 @@ function N_0x0876326238914a3f() end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x580f34c726387226(p0,p1) end
+function N_0x580f34c726387226(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -55,7 +59,8 @@ function N_0x580f34c726387226(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x3ffe60dd8a936551(p0,p1) end
+function N_0x3ffe60dd8a936551(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -64,7 +69,8 @@ function N_0x3ffe60dd8a936551(p0,p1) end
 --@usage undefined _0xE53A308AC35877A8();
 
 --@return undefined
-function N_0xe53a308ac35877a8() end
+function N_0xe53a308ac35877a8()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -73,7 +79,8 @@ function N_0xe53a308ac35877a8() end
 --@usage undefined _MINIGAME_IS_CONNECTED_TO_SERVER(Any p0);
 --@params p0 Any
 --@return undefined
-function MinigameIsConnectedToServer(p0) end
+function MinigameIsConnectedToServer(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -82,7 +89,8 @@ function MinigameIsConnectedToServer(p0) end
 --@usage undefined _0x39654E1F68B78287();
 
 --@return undefined
-function N_0x39654e1f68b78287() end
+function N_0x39654e1f68b78287()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -91,7 +99,8 @@ function N_0x39654e1f68b78287() end
 --@usage undefined _0xD39D32EB3B52DD83(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xd39d32eb3b52dd83(p0) end
+function N_0xd39d32eb3b52dd83(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -100,7 +109,8 @@ function N_0xd39d32eb3b52dd83(p0) end
 --@usage undefined _0x18A0D48DF9211C07();
 
 --@return undefined
-function N_0x18a0d48df9211c07() end
+function N_0x18a0d48df9211c07()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -109,7 +119,8 @@ function N_0x18a0d48df9211c07() end
 --@usage undefined _0x8593A8CB0ED2C3B4(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x8593a8cb0ed2c3b4(p0) end
+function N_0x8593a8cb0ed2c3b4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -118,7 +129,8 @@ function N_0x8593a8cb0ed2c3b4(p0) end
 --@usage undefined _MINIGAME_LEAVE_TABLE(Any p0);
 --@params p0 Any
 --@return undefined
-function MinigameLeaveTable(p0) end
+function MinigameLeaveTable(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -127,7 +139,8 @@ function MinigameLeaveTable(p0) end
 --@usage undefined _MINIGAME_GET_NEXT_EVENT_TYPE();
 
 --@return undefined
-function MinigameGetNextEventType() end
+function MinigameGetNextEventType()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -137,7 +150,8 @@ function MinigameGetNextEventType() end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function MinigameGetNextEvent(p0,p1) end
+function MinigameGetNextEvent(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -146,7 +160,8 @@ function MinigameGetNextEvent(p0,p1) end
 --@usage undefined _MINIGAME_POP_NEXT_EVENT();
 
 --@return undefined
-function MinigamePopNextEvent() end
+function MinigamePopNextEvent()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -155,7 +170,8 @@ function MinigamePopNextEvent() end
 --@usage undefined _MINIGAME_REQUEST_SEAT_AT_TABLE(Any* data);
 --@params data Any*
 --@return undefined
-function MinigameRequestSeatAtTable(data) end
+function MinigameRequestSeatAtTable(data)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -164,7 +180,8 @@ function MinigameRequestSeatAtTable(data) end
 --@usage undefined _0x3B31732FADE5BAF3();
 
 --@return undefined
-function N_0x3b31732fade5baf3() end
+function N_0x3b31732fade5baf3()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -173,7 +190,8 @@ function N_0x3b31732fade5baf3() end
 --@usage undefined _0x578907F59BA01B6D(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x578907f59ba01b6d(p0) end
+function N_0x578907f59ba01b6d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -182,7 +200,8 @@ function N_0x578907f59ba01b6d(p0) end
 --@usage undefined _MINIGAME_IS_REQUEST_PENDING(Any p0);
 --@params p0 Any
 --@return undefined
-function MinigameIsRequestPending(p0) end
+function MinigameIsRequestPending(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -193,7 +212,8 @@ function MinigameIsRequestPending(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xdf728c5ae137fc14(p0,p1,p2) end
+function N_0xdf728c5ae137fc14(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -202,7 +222,8 @@ function N_0xdf728c5ae137fc14(p0,p1,p2) end
 --@usage undefined _0x3EECAADAB0D9FE29();
 
 --@return undefined
-function N_0x3eecaadab0d9fe29() end
+function N_0x3eecaadab0d9fe29()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -212,7 +233,8 @@ function N_0x3eecaadab0d9fe29() end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x10342cc82e8356e9(p0,p1) end
+function N_0x10342cc82e8356e9(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -223,7 +245,8 @@ function N_0x10342cc82e8356e9(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x32a7c216344d623b(p0,p1,p2) end
+function N_0x32a7c216344d623b(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -233,7 +256,8 @@ function N_0x32a7c216344d623b(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x644439b5387ee57e(p0,p1) end
+function N_0x644439b5387ee57e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -249,7 +273,8 @@ function N_0x644439b5387ee57e(p0,p1) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function N_0xec819d612038ef4b(p0,p1,p2,p3,p4,p5,p6,p7) end
+function N_0xec819d612038ef4b(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -258,7 +283,8 @@ function N_0xec819d612038ef4b(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@usage undefined _POKER_GET_GAME_SETTINGS_FOR_ID(Any p0);
 --@params p0 Any
 --@return undefined
-function PokerGetGameSettingsForId(p0) end
+function PokerGetGameSettingsForId(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -268,7 +294,8 @@ function PokerGetGameSettingsForId(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function PokerCall(p0,p1) end
+function PokerCall(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -278,7 +305,8 @@ function PokerCall(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function PokerBuyIn(p0,p1) end
+function PokerBuyIn(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -287,7 +315,8 @@ function PokerBuyIn(p0,p1) end
 --@usage undefined _0x15E90B6A993017AA();
 
 --@return undefined
-function N_0x15e90b6a993017aa() end
+function N_0x15e90b6a993017aa()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -297,7 +326,8 @@ function N_0x15e90b6a993017aa() end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function PokerCheck(p0,p1) end
+function PokerCheck(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -306,7 +336,8 @@ function PokerCheck(p0,p1) end
 --@usage undefined _POKER_FOLD(Any p0);
 --@params p0 Any
 --@return undefined
-function PokerFold(p0) end
+function PokerFold(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -315,7 +346,8 @@ function PokerFold(p0) end
 --@usage undefined _POKER_REVEAL(Any p0);
 --@params p0 Any
 --@return undefined
-function PokerReveal(p0) end
+function PokerReveal(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -324,7 +356,8 @@ function PokerReveal(p0) end
 --@usage undefined _0xF6DE98516FD3AC9B();
 
 --@return undefined
-function N_0xf6de98516fd3ac9b() end
+function N_0xf6de98516fd3ac9b()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -334,7 +367,8 @@ function N_0xf6de98516fd3ac9b() end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function PokerRaise(p0,p1) end
+function PokerRaise(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -345,7 +379,8 @@ function PokerRaise(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x58521e6dcde97d74(p0,p1,p2) end
+function N_0x58521e6dcde97d74(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -355,7 +390,8 @@ function N_0x58521e6dcde97d74(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x012027c28f421f46(p0,p1) end
+function N_0x012027c28f421f46(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -365,7 +401,8 @@ function N_0x012027c28f421f46(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x3ae451860f03ca8a(p0,p1) end
+function N_0x3ae451860f03ca8a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -374,7 +411,8 @@ function N_0x3ae451860f03ca8a(p0,p1) end
 --@usage undefined _0x3F4FD4BED07AB8C4(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x3f4fd4bed07ab8c4(p0) end
+function N_0x3f4fd4bed07ab8c4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -383,7 +421,8 @@ function N_0x3f4fd4bed07ab8c4(p0) end
 --@usage undefined _0x455ECCA0715C507F();
 
 --@return undefined
-function N_0x455ecca0715c507f() end
+function N_0x455ecca0715c507f()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -392,7 +431,8 @@ function N_0x455ecca0715c507f() end
 --@usage undefined _DOMINOES_BUY_IN(Any p0);
 --@params p0 Any
 --@return undefined
-function DominoesBuyIn(p0) end
+function DominoesBuyIn(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -402,7 +442,8 @@ function DominoesBuyIn(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DominoesPlaceDomino(p0,p1) end
+function DominoesPlaceDomino(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -411,7 +452,8 @@ function DominoesPlaceDomino(p0,p1) end
 --@usage undefined _DOMINOES_REQUEST_VALID_PLACEMENTS(Any p0);
 --@params p0 Any
 --@return undefined
-function DominoesRequestValidPlacements(p0) end
+function DominoesRequestValidPlacements(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -421,7 +463,8 @@ function DominoesRequestValidPlacements(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xa2db3c6270c122e3(p0,p1) end
+function N_0xa2db3c6270c122e3(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -432,7 +475,8 @@ function N_0xa2db3c6270c122e3(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x398066f893149856(p0,p1,p2) end
+function N_0x398066f893149856(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -441,7 +485,8 @@ function N_0x398066f893149856(p0,p1,p2) end
 --@usage undefined _0xBEA7D3CB47E1479C();
 
 --@return undefined
-function N_0xbea7d3cb47e1479c() end
+function N_0xbea7d3cb47e1479c()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -450,7 +495,8 @@ function N_0xbea7d3cb47e1479c() end
 --@usage undefined _0x910B088E51A511AC();
 
 --@return undefined
-function N_0x910b088e51a511ac() end
+function N_0x910b088e51a511ac()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -460,4 +506,5 @@ function N_0x910b088e51a511ac() end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x9dd95b405ab4983e(p0,p1) end
+function N_0x9dd95b405ab4983e(p0, p1)
+end

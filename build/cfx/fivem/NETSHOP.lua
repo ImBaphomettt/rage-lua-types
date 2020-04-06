@@ -1,3 +1,12 @@
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule NETSHOP
+--@see undefined
+--@usage BOOL undefined(Any* p0);
+--@params p0 Any*
+--@return BOOL
+function N_0x0395cb47b022e62c(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6,16 +15,8 @@
 --@usage BOOL undefined(Any* p0);
 --@params p0 Any*
 --@return BOOL
-function N_0x0395cb47b022e62c(p0) end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule NETSHOP
---@see undefined
---@usage BOOL undefined(Any* p0);
---@params p0 Any*
---@return BOOL
-function N_0x170910093218c8b9(p0) end
+function N_0x170910093218c8b9(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function N_0x170910093218c8b9(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x357b152ef96c30b6() end
+function N_0x357b152ef96c30b6()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -33,7 +35,8 @@ function N_0x357b152ef96c30b6() end
 --@usage char* _GET_ONLINE_VERSION();
 
 --@return char*
-function GetOnlineVersion() end
+function GetOnlineVersion()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -42,7 +45,8 @@ function GetOnlineVersion() end
 --@usage int undefined(int p0);
 --@params p0 int
 --@return int
-function N_0x74a0fd0688f1ee45(p0) end
+function N_0x74a0fd0688f1ee45(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -51,7 +55,8 @@ function N_0x74a0fd0688f1ee45(p0) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x72eb7ba9b69bf6ab() end
+function N_0x72eb7ba9b69bf6ab()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -60,7 +65,8 @@ function N_0x72eb7ba9b69bf6ab() end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x613f125ba3bd2eb9() end
+function N_0x613f125ba3bd2eb9()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -69,7 +75,8 @@ function N_0x613f125ba3bd2eb9() end
 --@usage BOOL undefined(int transactionId);
 --@params transactionId int
 --@return BOOL
-function N_0x79edac677ca62f81(transactionId) end
+function N_0x79edac677ca62f81(transactionId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -78,7 +85,8 @@ function N_0x79edac677ca62f81(transactionId) end
 --@usage BOOL undefined(Any* p0);
 --@params p0 Any*
 --@return BOOL
-function N_0xc13c38e47ea5df31(p0) end
+function N_0xc13c38e47ea5df31(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -87,7 +95,8 @@ function N_0xc13c38e47ea5df31(p0) end
 --@usage BOOL undefined(int transactionId);
 --@params transactionId int
 --@return BOOL
-function N_0xc830417d630a50f9(transactionId) end
+function N_0xc830417d630a50f9(transactionId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -96,7 +105,8 @@ function N_0xc830417d630a50f9(transactionId) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xe3e5a7c64ca2c6ed() end
+function N_0xe3e5a7c64ca2c6ed()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -106,7 +116,8 @@ function N_0xe3e5a7c64ca2c6ed() end
 --@params p0 Any
 --@params p1 Any*
 --@return BOOL
-function NetGameserverBasketApplyServerData(p0,p1) end
+function NetGameserverBasketApplyServerData(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -115,7 +126,8 @@ function NetGameserverBasketApplyServerData(p0,p1) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xe547e9114277098f() end
+function N_0xe547e9114277098f()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -124,7 +136,8 @@ function N_0xe547e9114277098f() end
 --@usage BOOL _NET_GAMESERVER_BASKET_END();
 
 --@return BOOL
-function NetGameserverBasketEnd() end
+function NetGameserverBasketEnd()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -134,7 +147,8 @@ function NetGameserverBasketEnd() end
 --@params itemData Any*
 --@params quantity int
 --@return BOOL
-function NetGameserverBasketAddItem(itemData,quantity) end
+function NetGameserverBasketAddItem(itemData, quantity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -143,7 +157,8 @@ function NetGameserverBasketAddItem(itemData,quantity) end
 --@usage BOOL _NET_GAMESERVER_BASKET_DELETE();
 
 --@return BOOL
-function NetGameserverBasketDelete() end
+function NetGameserverBasketDelete()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -157,7 +172,8 @@ function NetGameserverBasketDelete() end
 --@params value int
 --@params flags int
 --@return BOOL
-function NetGameserverBeginService(transactionId,categoryHash,itemHash,actionTypeHash,value,flags) end
+function NetGameserverBeginService(transactionId, categoryHash, itemHash, actionTypeHash, value, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -166,7 +182,8 @@ function NetGameserverBeginService(transactionId,categoryHash,itemHash,actionTyp
 --@usage Any _NET_GAMESERVER_BASKET_IS_FULL();
 
 --@return Any
-function NetGameserverBasketIsFull() end
+function NetGameserverBasketIsFull()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -178,7 +195,8 @@ function NetGameserverBasketIsFull() end
 --@params actionHash int
 --@params flags int
 --@return BOOL
-function NetGameserverBasketStart(transactionId,categoryHash,actionHash,flags) end
+function NetGameserverBasketStart(transactionId, categoryHash, actionHash, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -187,7 +205,8 @@ function NetGameserverBasketStart(transactionId,categoryHash,actionHash,flags) e
 --@usage BOOL _NET_GAMESERVER_CATALOG_IS_READY();
 
 --@return BOOL
-function NetGameserverCatalogIsReady() end
+function NetGameserverCatalogIsReady()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -196,7 +215,8 @@ function NetGameserverCatalogIsReady() end
 --@usage BOOL _NET_GAMESERVER_CHECKOUT_START(int transactionId);
 --@params transactionId int
 --@return BOOL
-function NetGameserverCheckoutStart(transactionId) end
+function NetGameserverCheckoutStart(transactionId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -205,7 +225,8 @@ function NetGameserverCheckoutStart(transactionId) end
 --@usage int _NET_GAMESERVER_DELETE_CHARACTER_SLOT_GET_STATUS();
 
 --@return int
-function NetGameserverDeleteCharacterSlotGetStatus() end
+function NetGameserverDeleteCharacterSlotGetStatus()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -216,7 +237,8 @@ function NetGameserverDeleteCharacterSlotGetStatus() end
 --@params transfer BOOL
 --@params reason Any
 --@return BOOL
-function NetGameserverDeleteCharacterSlot(slot,transfer,reason) end
+function NetGameserverDeleteCharacterSlot(slot, transfer, reason)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -225,7 +247,8 @@ function NetGameserverDeleteCharacterSlot(slot,transfer,reason) end
 --@usage BOOL _NET_GAMESERVER_GET_CATALOG_STATE(Any* state);
 --@params state Any*
 --@return BOOL
-function NetGameserverGetCatalogState(state) end
+function NetGameserverGetCatalogState(state)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -234,7 +257,8 @@ function NetGameserverGetCatalogState(state) end
 --@usage BOOL _NET_GAMESERVER_END_SERVICE(int transactionId);
 --@params transactionId int
 --@return BOOL
-function NetGameserverEndService(transactionId) end
+function NetGameserverEndService(transactionId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -244,7 +268,8 @@ function NetGameserverEndService(transactionId) end
 --@params p0 Any*
 --@params p1 BOOL*
 --@return BOOL
-function NetGameserverGetTransactionManagerData(p0,p1) end
+function NetGameserverGetTransactionManagerData(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -253,7 +278,8 @@ function NetGameserverGetTransactionManagerData(p0,p1) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x85f6c9aba1de2bcf() end
+function N_0x85f6c9aba1de2bcf()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -262,7 +288,8 @@ function N_0x85f6c9aba1de2bcf() end
 --@usage BOOL _NET_GAMESERVER_IS_SESSION_REFRESH_PENDING();
 
 --@return BOOL
-function NetGameserverIsSessionRefreshPending() end
+function NetGameserverIsSessionRefreshPending()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -273,7 +300,8 @@ function NetGameserverIsSessionRefreshPending() end
 --@params categoryHash Hash
 --@params p2 BOOL
 --@return int
-function NetGameserverGetPrice(itemHash,categoryHash,p2) end
+function NetGameserverGetPrice(itemHash, categoryHash, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -282,7 +310,8 @@ function NetGameserverGetPrice(itemHash,categoryHash,p2) end
 --@usage BOOL _NET_GAMESERVER_IS_CATALOG_VALID();
 
 --@return BOOL
-function NetGameserverIsCatalogValid() end
+function NetGameserverIsCatalogValid()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -291,7 +320,8 @@ function NetGameserverIsCatalogValid() end
 --@usage Any _NET_GAMESERVER_DELETE_SET_TELEMETRY_NONCE_SEED();
 
 --@return Any
-function NetGameserverDeleteSetTelemetryNonceSeed() end
+function NetGameserverDeleteSetTelemetryNonceSeed()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -300,7 +330,8 @@ function NetGameserverDeleteSetTelemetryNonceSeed() end
 --@usage BOOL _NET_GAMESERVER_IS_SESSION_VALID(int charSlot);
 --@params charSlot int
 --@return BOOL
-function NetGameserverIsSessionValid(charSlot) end
+function NetGameserverIsSessionValid(charSlot)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -309,7 +340,8 @@ function NetGameserverIsSessionValid(charSlot) end
 --@usage BOOL _NET_GAMESERVER_START_SESSION(int charSlot);
 --@params charSlot int
 --@return BOOL
-function NetGameserverStartSession(charSlot) end
+function NetGameserverStartSession(charSlot)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -318,7 +350,8 @@ function NetGameserverStartSession(charSlot) end
 --@usage BOOL _NET_GAMESERVER_SET_TELEMETRY_NONCE_SEED(int p0);
 --@params p0 int
 --@return BOOL
-function NetGameserverSetTelemetryNonceSeed(p0) end
+function NetGameserverSetTelemetryNonceSeed(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -328,7 +361,8 @@ function NetGameserverSetTelemetryNonceSeed(p0) end
 --@params charSlot int
 --@params amount int
 --@return BOOL
-function NetGameserverTransferBankToWallet(charSlot,amount) end
+function NetGameserverTransferBankToWallet(charSlot, amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -338,7 +372,8 @@ function NetGameserverTransferBankToWallet(charSlot,amount) end
 --@params charSlot int
 --@params amount int
 --@return BOOL
-function NetGameserverTransferWalletToBank(charSlot,amount) end
+function NetGameserverTransferWalletToBank(charSlot, amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -347,7 +382,8 @@ function NetGameserverTransferWalletToBank(charSlot,amount) end
 --@usage BOOL _NET_GAMESERVER_TRANSFER_CASH_SET_TELEMETRY_NONCE_SEED();
 
 --@return BOOL
-function NetGameserverTransferCashSetTelemetryNonceSeed() end
+function NetGameserverTransferCashSetTelemetryNonceSeed()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -356,7 +392,8 @@ function NetGameserverTransferCashSetTelemetryNonceSeed() end
 --@usage int _NET_GAMESERVER_TRANSFER_CASH_GET_STATUS_2();
 
 --@return int
-function NetGameserverTransferCashGetStatus_2() end
+function NetGameserverTransferCashGetStatus_2()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -365,7 +402,8 @@ function NetGameserverTransferCashGetStatus_2() end
 --@usage int _NET_GAMESERVER_TRANSFER_CASH_GET_STATUS();
 
 --@return int
-function NetGameserverTransferCashGetStatus() end
+function NetGameserverTransferCashGetStatus()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -374,7 +412,8 @@ function NetGameserverTransferCashGetStatus() end
 --@usage BOOL _NET_GAMESERVER_USE_SERVER_TRANSACTIONS();
 
 --@return BOOL
-function NetGameserverUseServerTransactions() end
+function NetGameserverUseServerTransactions()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -384,7 +423,8 @@ function NetGameserverUseServerTransactions() end
 --@params inventory BOOL
 --@params playerbalance BOOL
 --@return BOOL
-function NetGameserverGetBalance(inventory,playerbalance) end
+function NetGameserverGetBalance(inventory, playerbalance)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -393,4 +433,5 @@ function NetGameserverGetBalance(inventory,playerbalance) end
 --@usage BOOL _NET_GAMESERVER_SESSION_APPLY_RECEIVED_DATA(int charSlot);
 --@params charSlot int
 --@return BOOL
-function NetGameserverSessionApplyReceivedData(charSlot) end
+function NetGameserverSessionApplyReceivedData(charSlot)
+end

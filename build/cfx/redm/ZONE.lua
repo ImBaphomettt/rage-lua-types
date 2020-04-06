@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule ZONE
@@ -9,7 +8,8 @@
 --@params z float
 --@params type int
 --@return undefined
-function GetMapZoneAtCoords(x,y,z,type) end
+function GetMapZoneAtCoords(x, y, z, type)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -20,4 +20,5 @@ function GetMapZoneAtCoords(x,y,z,type) end
 --@params y float
 --@params z float
 --@return undefined
-function GetWaterMapZoneAtCoords(x,y,z) end
+function GetWaterMapZoneAtCoords(x, y, z)
+end

@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule DLC
@@ -6,7 +5,8 @@
 --@usage BOOL GET_IS_LOADING_SCREEN_ACTIVE();
 
 --@return BOOL
-function GetIsLoadingScreenActive() end
+function GetIsLoadingScreenActive()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function GetIsLoadingScreenActive() end
 --@usage BOOL _GET_EXTRA_CONTENT_PACK_HAS_BEEN_INSTALLED();
 
 --@return BOOL
-function GetExtraContentPackHasBeenInstalled() end
+function GetExtraContentPackHasBeenInstalled()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function GetExtraContentPackHasBeenInstalled() end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0xf2e07819ef1a5289() end
+function N_0xf2e07819ef1a5289()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -34,7 +36,8 @@ function N_0xf2e07819ef1a5289() end
 --@params variable Any*
 --@params unused Any
 --@return BOOL
-function HasCloudRequestsFinished(variable,unused) end
+function HasCloudRequestsFinished(variable, unused)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -43,7 +46,8 @@ function HasCloudRequestsFinished(variable,unused) end
 --@usage BOOL IS_DLC_PRESENT(Hash dlcHash);
 --@params dlcHash Hash
 --@return BOOL
-function IsDlcPresent(dlcHash) end
+function IsDlcPresent(dlcHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -52,7 +56,8 @@ function IsDlcPresent(dlcHash) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0xa213b11dff526300() end
+function N_0xa213b11dff526300()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -61,7 +66,8 @@ function N_0xa213b11dff526300() end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x9489659372a81585() end
+function N_0x9489659372a81585()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -70,7 +76,8 @@ function N_0x9489659372a81585() end
 --@usage void ON_ENTER_SP();
 
 --@return void
-function OnEnterSp() end
+function OnEnterSp()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -79,4 +86,5 @@ function OnEnterSp() end
 --@usage void ON_ENTER_MP();
 
 --@return void
-function OnEnterMp() end
+function OnEnterMp()
+end

@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule POPULATION
@@ -6,7 +5,8 @@
 --@usage undefined GET_NUM_MODELS_IN_POPULATION_SET(Hash popSetHash);
 --@params popSetHash Hash
 --@return undefined
-function GetNumModelsInPopulationSet(popSetHash) end
+function GetNumModelsInPopulationSet(popSetHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -16,7 +16,8 @@ function GetNumModelsInPopulationSet(popSetHash) end
 --@params popSetHash Hash
 --@params index int
 --@return undefined
-function GetPedModelNameInPopulationSet(popSetHash,index) end
+function GetPedModelNameInPopulationSet(popSetHash, index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -32,7 +33,8 @@ function GetPedModelNameInPopulationSet(popSetHash,index) end
 --@params y float
 --@params z float
 --@return undefined
-function GetRandomModelFromPopulationSet(popSetHash,flags,p2,p3,p4,x,y,z) end
+function GetRandomModelFromPopulationSet(popSetHash, flags, p2, p3, p4, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -41,7 +43,8 @@ function GetRandomModelFromPopulationSet(popSetHash,flags,p2,p3,p4,x,y,z) end
 --@usage undefined _IS_POPZONE_VALID(PopZone popZone);
 --@params popZone PopZone
 --@return undefined
-function IsPopzoneValid(popZone) end
+function IsPopzoneValid(popZone)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -50,7 +53,8 @@ function IsPopzoneValid(popZone) end
 --@usage undefined _CREATE_POPZONE_FROM_VOLUME(Volume volume);
 --@params volume Volume
 --@return undefined
-function CreatePopzoneFromVolume(volume) end
+function CreatePopzoneFromVolume(volume)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -60,7 +64,8 @@ function CreatePopzoneFromVolume(volume) end
 --@params popZone PopZone
 --@params populationSetHash Hash
 --@return undefined
-function SetPopzonePopulationSet(popZone,populationSetHash) end
+function SetPopzonePopulationSet(popZone, populationSetHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -69,7 +74,8 @@ function SetPopzonePopulationSet(popZone,populationSetHash) end
 --@usage undefined _DELETE_SCRIPT_POPZONE(PopZone popZone);
 --@params popZone PopZone
 --@return undefined
-function DeleteScriptPopzone(popZone) end
+function DeleteScriptPopzone(popZone)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -79,7 +85,8 @@ function DeleteScriptPopzone(popZone) end
 --@params popZone PopZone
 --@params p1 BOOL
 --@return undefined
-function N_0x08892122769770d5(popZone,p1) end
+function N_0x08892122769770d5(popZone, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -90,7 +97,8 @@ function N_0x08892122769770d5(popZone,p1) end
 --@params p1 int
 --@params p2 int
 --@return undefined
-function N_0x7e6bc0b94f5928f0(popZone,p1,p2) end
+function N_0x7e6bc0b94f5928f0(popZone, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -101,7 +109,8 @@ function N_0x7e6bc0b94f5928f0(popZone,p1,p2) end
 --@params p1 Hash
 --@params priority int
 --@return undefined
-function SetSpawnerInfoPriority(p0,p1,priority) end
+function SetSpawnerInfoPriority(p0, p1, priority)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -111,7 +120,8 @@ function SetSpawnerInfoPriority(p0,p1,priority) end
 --@params p0 Hash
 --@params p1 Hash
 --@return undefined
-function ClearSpawnerInfoPriority(p0,p1) end
+function ClearSpawnerInfoPriority(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -121,7 +131,8 @@ function ClearSpawnerInfoPriority(p0,p1) end
 --@params popZone PopZone
 --@params p1 BOOL
 --@return undefined
-function N_0x0f1861101c9a9944(popZone,p1) end
+function N_0x0f1861101c9a9944(popZone, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -131,7 +142,8 @@ function N_0x0f1861101c9a9944(popZone,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x638fcfc6042a9473(p0,p1) end
+function N_0x638fcfc6042a9473(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -141,7 +153,8 @@ function N_0x638fcfc6042a9473(p0,p1) end
 --@params popZone PopZone
 --@params p1 int
 --@return undefined
-function N_0x578e2fa64e847c60(popZone,p1) end
+function N_0x578e2fa64e847c60(popZone, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -156,7 +169,8 @@ function N_0x578e2fa64e847c60(popZone,p1) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function N_0xb56d41a694e42e86(p0,p1,p2,p3,p4,p5,p6) end
+function N_0xb56d41a694e42e86(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -171,7 +185,8 @@ function N_0xb56d41a694e42e86(p0,p1,p2,p3,p4,p5,p6) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function N_0x18262cafebb5fbe1(p0,p1,p2,p3,p4,p5,p6) end
+function N_0x18262cafebb5fbe1(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -180,7 +195,8 @@ function N_0x18262cafebb5fbe1(p0,p1,p2,p3,p4,p5,p6) end
 --@usage undefined _0x74C2B3DC0B294102(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x74c2b3dc0b294102(p0) end
+function N_0x74c2b3dc0b294102(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -194,7 +210,8 @@ function N_0x74c2b3dc0b294102(p0) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0x2161278c6322f740(p0,p1,p2,p3,p4,p5) end
+function N_0x2161278c6322f740(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -203,7 +220,8 @@ function N_0x2161278c6322f740(p0,p1,p2,p3,p4,p5) end
 --@usage undefined _0xA1CFB35069D23C23(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xa1cfb35069d23c23(p0) end
+function N_0xa1cfb35069d23c23(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -216,7 +234,8 @@ function N_0xa1cfb35069d23c23(p0) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0xf45e46deecf7df6e(p0,p1,p2,p3,p4) end
+function N_0xf45e46deecf7df6e(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -225,7 +244,8 @@ function N_0xf45e46deecf7df6e(p0,p1,p2,p3,p4) end
 --@usage undefined _0x247F86595D396344(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x247f86595d396344(p0) end
+function N_0x247f86595d396344(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -235,7 +255,8 @@ function N_0x247f86595d396344(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xdbbf12ea7c1029b2(p0,p1) end
+function N_0xdbbf12ea7c1029b2(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -244,7 +265,8 @@ function N_0xdbbf12ea7c1029b2(p0,p1) end
 --@usage undefined _0xC4533E3E87125C9E(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xc4533e3e87125c9e(p0) end
+function N_0xc4533e3e87125c9e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -253,7 +275,8 @@ function N_0xc4533e3e87125c9e(p0) end
 --@usage undefined _0xBC90BDF4E5228EA1();
 
 --@return undefined
-function N_0xbc90bdf4e5228ea1() end
+function N_0xbc90bdf4e5228ea1()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -262,7 +285,8 @@ function N_0xbc90bdf4e5228ea1() end
 --@usage undefined _0xC6DCC2A3A8825C85(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xc6dcc2a3a8825c85(p0) end
+function N_0xc6dcc2a3a8825c85(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -271,7 +295,8 @@ function N_0xc6dcc2a3a8825c85(p0) end
 --@usage undefined _0xEC116EDB683AD479(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xec116edb683ad479(p0) end
+function N_0xec116edb683ad479(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -280,7 +305,8 @@ function N_0xec116edb683ad479(p0) end
 --@usage undefined _0x324AB2A68AD8AEE5();
 
 --@return undefined
-function N_0x324ab2a68ad8aee5() end
+function N_0x324ab2a68ad8aee5()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -289,7 +315,8 @@ function N_0x324ab2a68ad8aee5() end
 --@usage undefined _0x595478B3BBC3076D();
 
 --@return undefined
-function N_0x595478b3bbc3076d() end
+function N_0x595478b3bbc3076d()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -299,7 +326,8 @@ function N_0x595478b3bbc3076d() end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xf74e134f40192884(p0,p1) end
+function N_0xf74e134f40192884(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -313,4 +341,5 @@ function N_0xf74e134f40192884(p0,p1) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0x8ec7cd701f872f87(p0,p1,p2,p3,p4,p5) end
+function N_0x8ec7cd701f872f87(p0, p1, p2, p3, p4, p5)
+end

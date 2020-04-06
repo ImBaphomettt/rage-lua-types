@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule DECORATOR
@@ -8,7 +7,8 @@
 --@params propertyName const char*
 --@params value BOOL
 --@return undefined
-function DecorSetBool(entity,propertyName,value) end
+function DecorSetBool(entity, propertyName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -19,7 +19,8 @@ function DecorSetBool(entity,propertyName,value) end
 --@params propertyName const char*
 --@params value float
 --@return undefined
-function DecorSetFloat(entity,propertyName,value) end
+function DecorSetFloat(entity, propertyName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -30,7 +31,8 @@ function DecorSetFloat(entity,propertyName,value) end
 --@params propertyName const char*
 --@params value int
 --@return undefined
-function DecorSetInt(entity,propertyName,value) end
+function DecorSetInt(entity, propertyName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -41,7 +43,8 @@ function DecorSetInt(entity,propertyName,value) end
 --@params propertyName const char*
 --@params value const char*
 --@return undefined
-function DecorSetString(entity,propertyName,value) end
+function DecorSetString(entity, propertyName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -51,7 +54,8 @@ function DecorSetString(entity,propertyName,value) end
 --@params entity Entity
 --@params propertyName const char*
 --@return undefined
-function DecorGetInt(entity,propertyName) end
+function DecorGetInt(entity, propertyName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -62,7 +66,8 @@ function DecorGetInt(entity,propertyName) end
 --@params propertyName const char*
 --@params value int
 --@return undefined
-function DecorSetUint8(entity,propertyName,value) end
+function DecorSetUint8(entity, propertyName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -72,7 +77,8 @@ function DecorSetUint8(entity,propertyName,value) end
 --@params entity Entity
 --@params propertyName const char*
 --@return undefined
-function DecorGetUint8(entity,propertyName) end
+function DecorGetUint8(entity, propertyName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -82,7 +88,8 @@ function DecorGetUint8(entity,propertyName) end
 --@params entity Entity
 --@params propertyName const char*
 --@return undefined
-function DecorExistOn(entity,propertyName) end
+function DecorExistOn(entity, propertyName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -92,7 +99,8 @@ function DecorExistOn(entity,propertyName) end
 --@params entity Entity
 --@params propertyName const char*
 --@return undefined
-function DecorGetFloat(entity,propertyName) end
+function DecorGetFloat(entity, propertyName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -101,7 +109,8 @@ function DecorGetFloat(entity,propertyName) end
 --@usage undefined _DECOR_REMOVE_ALL(Entity entity);
 --@params entity Entity
 --@return undefined
-function DecorRemoveAll(entity) end
+function DecorRemoveAll(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -111,7 +120,8 @@ function DecorRemoveAll(entity) end
 --@params entity Entity
 --@params propertyName const char*
 --@return undefined
-function DecorRemove(entity,propertyName) end
+function DecorRemove(entity, propertyName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -121,7 +131,8 @@ function DecorRemove(entity,propertyName) end
 --@params entity Entity
 --@params propertyName const char*
 --@return undefined
-function DecorGetBool(entity,propertyName) end
+function DecorGetBool(entity, propertyName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -132,7 +143,8 @@ function DecorGetBool(entity,propertyName) end
 --@params type int
 --@params p2 BOOL
 --@return undefined
-function DecorRegister_2(propertyName,type,p2) end
+function DecorRegister_2(propertyName, type, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -142,7 +154,8 @@ function DecorRegister_2(propertyName,type,p2) end
 --@params propertyName const char*
 --@params type int
 --@return undefined
-function DecorIsRegisteredAsType(propertyName,type) end
+function DecorIsRegisteredAsType(propertyName, type)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -152,4 +165,5 @@ function DecorIsRegisteredAsType(propertyName,type) end
 --@params propertyName const char*
 --@params type int
 --@return undefined
-function DecorRegister(propertyName,type) end
+function DecorRegister(propertyName, type)
+end

@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule SCRIPT
@@ -6,7 +5,8 @@
 --@usage void BG_END_CONTEXT(char* contextName);
 --@params contextName char*
 --@return void
-function BgEndContext(contextName) end
+function BgEndContext(contextName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function BgEndContext(contextName) end
 --@usage void BG_START_CONTEXT(char* contextName);
 --@params contextName char*
 --@return void
-function BgStartContext(contextName) end
+function BgStartContext(contextName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function BgStartContext(contextName) end
 --@usage void BG_END_CONTEXT_HASH(Hash contextHash);
 --@params contextHash Hash
 --@return void
-function BgEndContextHash(contextHash) end
+function BgEndContextHash(contextHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -33,7 +35,8 @@ function BgEndContextHash(contextHash) end
 --@usage void BG_START_CONTEXT_HASH(Hash contextHash);
 --@params contextHash Hash
 --@return void
-function BgStartContextHash(contextHash) end
+function BgStartContextHash(contextHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -42,7 +45,8 @@ function BgStartContextHash(contextHash) end
 --@usage BOOL DOES_SCRIPT_WITH_NAME_HASH_EXIST(Hash scriptHash);
 --@params scriptHash Hash
 --@return BOOL
-function DoesScriptWithNameHashExist(scriptHash) end
+function DoesScriptWithNameHashExist(scriptHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -52,7 +56,8 @@ function DoesScriptWithNameHashExist(scriptHash) end
 --@params eventGroup int
 --@params eventIndex int
 --@return int
-function GetEventAtIndex(eventGroup,eventIndex) end
+function GetEventAtIndex(eventGroup, eventIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -64,7 +69,8 @@ function GetEventAtIndex(eventGroup,eventIndex) end
 --@params argStruct int*
 --@params argStructSize int
 --@return BOOL
-function GetEventData(eventGroup,eventIndex,argStruct,argStructSize) end
+function GetEventData(eventGroup, eventIndex, argStruct, argStructSize)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -73,7 +79,8 @@ function GetEventData(eventGroup,eventIndex,argStruct,argStructSize) end
 --@usage Hash GET_HASH_OF_THIS_SCRIPT_NAME();
 
 --@return Hash
-function GetHashOfThisScriptName() end
+function GetHashOfThisScriptName()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -83,7 +90,8 @@ function GetHashOfThisScriptName() end
 --@params eventGroup int
 --@params eventIndex int
 --@return BOOL
-function GetEventExists(eventGroup,eventIndex) end
+function GetEventExists(eventGroup, eventIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -92,7 +100,8 @@ function GetEventExists(eventGroup,eventIndex) end
 --@usage char* _GET_NAME_OF_THREAD(int threadId);
 --@params threadId int
 --@return char*
-function GetNameOfThread(threadId) end
+function GetNameOfThread(threadId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -101,7 +110,8 @@ function GetNameOfThread(threadId) end
 --@usage BOOL DOES_SCRIPT_EXIST(char* scriptName);
 --@params scriptName char*
 --@return BOOL
-function DoesScriptExist(scriptName) end
+function DoesScriptExist(scriptName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -110,7 +120,8 @@ function DoesScriptExist(scriptName) end
 --@usage BOOL GET_NO_LOADING_SCREEN();
 
 --@return BOOL
-function GetNoLoadingScreen() end
+function GetNoLoadingScreen()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -119,7 +130,8 @@ function GetNoLoadingScreen() end
 --@usage int GET_NUMBER_OF_EVENTS(int eventGroup);
 --@params eventGroup int
 --@return int
-function GetNumberOfEvents(eventGroup) end
+function GetNumberOfEvents(eventGroup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -128,7 +140,8 @@ function GetNumberOfEvents(eventGroup) end
 --@usage int _GET_NUMBER_OF_INSTANCES_OF_SCRIPT_WITH_NAME_HASH(Hash scriptHash);
 --@params scriptHash Hash
 --@return int
-function GetNumberOfInstancesOfScriptWithNameHash(scriptHash) end
+function GetNumberOfInstancesOfScriptWithNameHash(scriptHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -137,7 +150,8 @@ function GetNumberOfInstancesOfScriptWithNameHash(scriptHash) end
 --@usage BOOL HAS_SCRIPT_LOADED(char* scriptName);
 --@params scriptName char*
 --@return BOOL
-function HasScriptLoaded(scriptName) end
+function HasScriptLoaded(scriptName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -146,7 +160,8 @@ function HasScriptLoaded(scriptName) end
 --@usage int GET_ID_OF_THIS_THREAD();
 
 --@return int
-function GetIdOfThisThread() end
+function GetIdOfThisThread()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -155,7 +170,8 @@ function GetIdOfThisThread() end
 --@usage char* GET_THIS_SCRIPT_NAME();
 
 --@return char*
-function GetThisScriptName() end
+function GetThisScriptName()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -165,7 +181,8 @@ function GetThisScriptName() end
 --@params scriptIndex int
 --@params p1 char*
 --@return BOOL
-function N_0x0f6f1ebbc4e1d5e6(scriptIndex,p1) end
+function N_0x0f6f1ebbc4e1d5e6(scriptIndex, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -174,7 +191,8 @@ function N_0x0f6f1ebbc4e1d5e6(scriptIndex,p1) end
 --@usage BOOL HAS_SCRIPT_WITH_NAME_HASH_LOADED(Hash scriptHash);
 --@params scriptHash Hash
 --@return BOOL
-function HasScriptWithNameHashLoaded(scriptHash) end
+function HasScriptWithNameHashLoaded(scriptHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -183,7 +201,8 @@ function HasScriptWithNameHashLoaded(scriptHash) end
 --@usage void undefined();
 
 --@return void
-function N_0x760910b49d2b98ea() end
+function N_0x760910b49d2b98ea()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -193,7 +212,8 @@ function N_0x760910b49d2b98ea() end
 --@params scriptIndex int
 --@params p1 char*
 --@return int
-function N_0x22e21fbcfc88c149(scriptIndex,p1) end
+function N_0x22e21fbcfc88c149(scriptIndex, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -202,7 +222,8 @@ function N_0x22e21fbcfc88c149(scriptIndex,p1) end
 --@usage BOOL IS_THREAD_ACTIVE(int threadId);
 --@params threadId int
 --@return BOOL
-function IsThreadActive(threadId) end
+function IsThreadActive(threadId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -211,7 +232,8 @@ function IsThreadActive(threadId) end
 --@usage void undefined();
 
 --@return void
-function N_0xb1577667c3708f9b() end
+function N_0xb1577667c3708f9b()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -220,7 +242,8 @@ function N_0xb1577667c3708f9b() end
 --@usage int undefined(Hash p0);
 --@params p0 Hash
 --@return int
-function N_0x829cd22e043a2577(p0) end
+function N_0x829cd22e043a2577(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -229,7 +252,8 @@ function N_0x829cd22e043a2577(p0) end
 --@usage void REQUEST_SCRIPT(char* scriptName);
 --@params scriptName char*
 --@return void
-function RequestScript(scriptName) end
+function RequestScript(scriptName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -238,7 +262,8 @@ function RequestScript(scriptName) end
 --@usage int SCRIPT_THREAD_ITERATOR_GET_NEXT_THREAD_ID();
 
 --@return int
-function ScriptThreadIteratorGetNextThreadId() end
+function ScriptThreadIteratorGetNextThreadId()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -247,7 +272,8 @@ function ScriptThreadIteratorGetNextThreadId() end
 --@usage void REQUEST_SCRIPT_WITH_NAME_HASH(Hash scriptHash);
 --@params scriptHash Hash
 --@return void
-function RequestScriptWithNameHash(scriptHash) end
+function RequestScriptWithNameHash(scriptHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -256,7 +282,8 @@ function RequestScriptWithNameHash(scriptHash) end
 --@usage void SET_NO_LOADING_SCREEN(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetNoLoadingScreen(toggle) end
+function SetNoLoadingScreen(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -265,7 +292,8 @@ function SetNoLoadingScreen(toggle) end
 --@usage void SCRIPT_THREAD_ITERATOR_RESET();
 
 --@return void
-function ScriptThreadIteratorReset() end
+function ScriptThreadIteratorReset()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -274,7 +302,8 @@ function ScriptThreadIteratorReset() end
 --@usage void SET_SCRIPT_WITH_NAME_HASH_AS_NO_LONGER_NEEDED(Hash scriptHash);
 --@params scriptHash Hash
 --@return void
-function SetScriptWithNameHashAsNoLongerNeeded(scriptHash) end
+function SetScriptWithNameHashAsNoLongerNeeded(scriptHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -283,7 +312,8 @@ function SetScriptWithNameHashAsNoLongerNeeded(scriptHash) end
 --@usage void SET_SCRIPT_AS_NO_LONGER_NEEDED(char* scriptName);
 --@params scriptName char*
 --@return void
-function SetScriptAsNoLongerNeeded(scriptName) end
+function SetScriptAsNoLongerNeeded(scriptName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -292,7 +322,8 @@ function SetScriptAsNoLongerNeeded(scriptName) end
 --@usage void TERMINATE_THIS_THREAD();
 
 --@return void
-function TerminateThisThread() end
+function TerminateThisThread()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -301,7 +332,8 @@ function TerminateThisThread() end
 --@usage void SHUTDOWN_LOADING_SCREEN();
 
 --@return void
-function ShutdownLoadingScreen() end
+function ShutdownLoadingScreen()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -310,7 +342,8 @@ function ShutdownLoadingScreen() end
 --@usage void TERMINATE_THREAD(int threadId);
 --@params threadId int
 --@return void
-function TerminateThread(threadId) end
+function TerminateThread(threadId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -322,7 +355,8 @@ function TerminateThread(threadId) end
 --@params argCount int
 --@params bit int
 --@return void
-function TriggerScriptEvent(eventGroup,args,argCount,bit) end
+function TriggerScriptEvent(eventGroup, args, argCount, bit)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -334,7 +368,8 @@ function TriggerScriptEvent(eventGroup,args,argCount,bit) end
 --@params argCount int
 --@params bit int
 --@return void
-function TriggerScriptEvent_2(eventGroup,args,argCount,bit) end
+function TriggerScriptEvent_2(eventGroup, args, argCount, bit)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -343,4 +378,5 @@ function TriggerScriptEvent_2(eventGroup,args,argCount,bit) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x836b62713e0534ca() end
+function N_0x836b62713e0534ca()
+end

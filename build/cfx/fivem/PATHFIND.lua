@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule PATHFIND
@@ -6,7 +5,8 @@
 --@usage BOOL ARE_ALL_NAVMESH_REGIONS_LOADED();
 
 --@return BOOL
-function AreAllNavmeshRegionsLoaded() end
+function AreAllNavmeshRegionsLoaded()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function AreAllNavmeshRegionsLoaded() end
 --@usage void CLEAR_GPS_DISABLED_ZONE_AT_INDEX(int index);
 --@params index int
 --@return void
-function ClearGpsDisabledZoneAtIndex(index) end
+function ClearGpsDisabledZoneAtIndex(index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -32,7 +33,8 @@ function ClearGpsDisabledZoneAtIndex(index) end
 --@params p7 BOOL
 --@params p8 Any
 --@return Any
-function AddNavmeshBlockingObject(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function AddNavmeshBlockingObject(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -43,7 +45,8 @@ function AddNavmeshBlockingObject(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params y float
 --@params radius float
 --@return void
-function AddNavmeshRequiredRegion(x,y,radius) end
+function AddNavmeshRequiredRegion(x, y, radius)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -58,7 +61,8 @@ function AddNavmeshRequiredRegion(x,y,radius) end
 --@params p5 Any
 --@params p6 Any
 --@return void
-function DisableNavmeshInArea(p0,p1,p2,p3,p4,p5,p6) end
+function DisableNavmeshInArea(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -73,7 +77,8 @@ function DisableNavmeshInArea(p0,p1,p2,p3,p4,p5,p6) end
 --@params vehicle float*
 --@params distToNxJunction float*
 --@return int
-function GenerateDirectionsToCoord(x,y,z,p3,direction,vehicle,distToNxJunction) end
+function GenerateDirectionsToCoord(x, y, z, p3, direction, vehicle, distToNxJunction)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -87,7 +92,8 @@ function GenerateDirectionsToCoord(x,y,z,p3,direction,vehicle,distToNxJunction) 
 --@params unknown1 float
 --@params unknown2 int
 --@return BOOL
-function GetClosestMajorVehicleNode(x,y,z,outPosition,unknown1,unknown2) end
+function GetClosestMajorVehicleNode(x, y, z, outPosition, unknown1, unknown2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -103,7 +109,8 @@ function GetClosestMajorVehicleNode(x,y,z,outPosition,unknown1,unknown2) end
 --@params p6 float
 --@params p7 int
 --@return BOOL
-function GetClosestVehicleNodeWithHeading(x,y,z,outPosition,outHeading,nodeType,p6,p7) end
+function GetClosestVehicleNodeWithHeading(x, y, z, outPosition, outHeading, nodeType, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -117,7 +124,8 @@ function GetClosestVehicleNodeWithHeading(x,y,z,outPosition,outHeading,nodeType,
 --@params y2 float
 --@params z2 float
 --@return float
-function CalculateTravelDistanceBetweenPoints(x1,y1,z1,x2,y2,z2) end
+function CalculateTravelDistanceBetweenPoints(x1, y1, z1, x2, y2, z2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -126,7 +134,8 @@ function CalculateTravelDistanceBetweenPoints(x1,y1,z1,x2,y2,z2) end
 --@usage int GET_GPS_BLIP_ROUTE_LENGTH();
 
 --@return int
-function GetGpsBlipRouteLength() end
+function GetGpsBlipRouteLength()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -135,7 +144,8 @@ function GetGpsBlipRouteLength() end
 --@usage BOOL DOES_NAVMESH_BLOCKING_OBJECT_EXIST(Any p0);
 --@params p0 Any
 --@return BOOL
-function DoesNavmeshBlockingObjectExist(p0) end
+function DoesNavmeshBlockingObjectExist(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -145,7 +155,8 @@ function DoesNavmeshBlockingObjectExist(p0) end
 --@params x float
 --@params y float
 --@return float
-function GetHeightmapBottomZForPosition(x,y) end
+function GetHeightmapBottomZForPosition(x, y)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -157,7 +168,8 @@ function GetHeightmapBottomZForPosition(x,y) end
 --@params x2 float
 --@params y2 float
 --@return BOOL
-function ArePathNodesLoadedInArea(x1,y1,x2,y2) end
+function ArePathNodesLoadedInArea(x1, y1, x2, y2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -176,7 +188,8 @@ function ArePathNodesLoadedInArea(x1,y1,x2,y2) end
 --@params p9 float*
 --@params p10 BOOL
 --@return Any
-function GetClosestRoad(x,y,z,p3,p4,p5,p6,p7,p8,p9,p10) end
+function GetClosestRoad(x, y, z, p3, p4, p5, p6, p7, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -192,7 +205,8 @@ function GetClosestRoad(x,y,z,p3,p4,p5,p6,p7,p8,p9,p10) end
 --@params unknown2 Any
 --@params unknown3 Any
 --@return BOOL
-function GetNthClosestVehicleNode(x,y,z,nthClosest,outPosition,unknown1,unknown2,unknown3) end
+function GetNthClosestVehicleNode(x, y, z, nthClosest, outPosition, unknown1, unknown2, unknown3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -212,7 +226,8 @@ function GetNthClosestVehicleNode(x,y,z,nthClosest,outPosition,unknown1,unknown2
 --@params p10 Any
 --@params p11 Any
 --@return BOOL
-function GetNthClosestVehicleNodeFavourDirection(x,y,z,desiredX,desiredY,desiredZ,nthClosest,outPosition,outHeading,nodetype,p10,p11) end
+function GetNthClosestVehicleNodeFavourDirection(x, y, z, desiredX, desiredY, desiredZ, nthClosest, outPosition, outHeading, nodetype, p10, p11)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -222,7 +237,8 @@ function GetNthClosestVehicleNodeFavourDirection(x,y,z,desiredX,desiredY,desired
 --@params x float
 --@params y float
 --@return float
-function GetHeightmapTopZForPosition(x,y) end
+function GetHeightmapTopZForPosition(x, y)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -239,7 +255,8 @@ function GetHeightmapTopZForPosition(x,y) end
 --@params p7 float
 --@params p8 float
 --@return Any
-function GetNthClosestVehicleNodeIdWithHeading(x,y,z,nthClosest,outPosition,outHeading,p6,p7,p8) end
+function GetNthClosestVehicleNodeIdWithHeading(x, y, z, nthClosest, outPosition, outHeading, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -248,7 +265,8 @@ function GetNthClosestVehicleNodeIdWithHeading(x,y,z,nthClosest,outPosition,outH
 --@usage BOOL GET_GPS_BLIP_ROUTE_FOUND();
 
 --@return BOOL
-function GetGpsBlipRouteFound() end
+function GetGpsBlipRouteFound()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -261,7 +279,8 @@ function GetGpsBlipRouteFound() end
 --@params p3 int
 --@params outPosition Vector3*
 --@return BOOL
-function GetPointOnRoadSide(x,y,z,p3,outPosition) end
+function GetPointOnRoadSide(x, y, z, p3, outPosition)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -276,7 +295,8 @@ function GetPointOnRoadSide(x,y,z,p3,outPosition) end
 --@params p5 float
 --@params p6 float
 --@return BOOL
-function GetClosestVehicleNode(x,y,z,outPosition,nodeType,p5,p6) end
+function GetClosestVehicleNode(x, y, z, outPosition, nodeType, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -293,7 +313,8 @@ function GetClosestVehicleNode(x,y,z,outPosition,nodeType,p5,p6) end
 --@params outPosition Vector3*
 --@params nodeId int*
 --@return BOOL
-function GetRandomVehicleNode(x,y,z,radius,p4,p5,p6,outPosition,nodeId) end
+function GetRandomVehicleNode(x, y, z, radius, p4, p5, p6, outPosition, nodeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -302,7 +323,8 @@ function GetRandomVehicleNode(x,y,z,radius,p4,p5,p6,outPosition,nodeId) end
 --@usage int GET_NEXT_GPS_DISABLED_ZONE_INDEX(int index);
 --@params index int
 --@return int
-function GetNextGpsDisabledZoneIndex(index) end
+function GetNextGpsDisabledZoneIndex(index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -316,7 +338,8 @@ function GetNextGpsDisabledZoneIndex(index) end
 --@params outPosition Vector3*
 --@params flags int
 --@return BOOL
-function GetSafeCoordForPed(x,y,z,onGround,outPosition,flags) end
+function GetSafeCoordForPed(x, y, z, onGround, outPosition, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -331,7 +354,8 @@ function GetSafeCoordForPed(x,y,z,onGround,outPosition,flags) end
 --@params p5 float
 --@params p6 float
 --@return int
-function GetNthClosestVehicleNodeId(x,y,z,nth,nodetype,p5,p6) end
+function GetNthClosestVehicleNodeId(x, y, z, nth, nodetype, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -344,7 +368,8 @@ function GetNthClosestVehicleNodeId(x,y,z,nth,nodetype,p5,p6) end
 --@params streetName Hash*
 --@params crossingRoad Hash*
 --@return void
-function GetStreetNameAtCoord(x,y,z,streetName,crossingRoad) end
+function GetStreetNameAtCoord(x, y, z, streetName, crossingRoad)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -356,7 +381,8 @@ function GetStreetNameAtCoord(x,y,z,streetName,crossingRoad) end
 --@params x2 float
 --@params y2 float
 --@return float
-function GetHeightmapTopZForArea(x1,y1,x2,y2) end
+function GetHeightmapTopZForArea(x1, y1, x2, y2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -365,7 +391,8 @@ function GetHeightmapTopZForArea(x1,y1,x2,y2) end
 --@usage BOOL GET_VEHICLE_NODE_IS_SWITCHED_OFF(int nodeID);
 --@params nodeID int
 --@return BOOL
-function GetVehicleNodeIsSwitchedOff(nodeID) end
+function GetVehicleNodeIsSwitchedOff(nodeID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -383,7 +410,8 @@ function GetVehicleNodeIsSwitchedOff(nodeID) end
 --@params unknown3 float
 --@params unknown4 float
 --@return BOOL
-function GetNthClosestVehicleNodeWithHeading(x,y,z,nthClosest,outPosition,heading,unknown1,unknown2,unknown3,unknown4) end
+function GetNthClosestVehicleNodeWithHeading(x, y, z, nthClosest, outPosition, heading, unknown1, unknown2, unknown3, unknown4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -395,7 +423,8 @@ function GetNthClosestVehicleNodeWithHeading(x,y,z,nthClosest,outPosition,headin
 --@params x2 float
 --@params y2 float
 --@return float
-function GetHeightmapBottomZForArea(x1,y1,x2,y2) end
+function GetHeightmapBottomZForArea(x1, y1, x2, y2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -409,7 +438,8 @@ function GetHeightmapBottomZForArea(x1,y1,x2,y2) end
 --@params y2 float
 --@params z2 float
 --@return BOOL
-function IsNavmeshLoadedInArea(x1,y1,z1,x2,y2,z2) end
+function IsNavmeshLoadedInArea(x1, y1, z1, x2, y2, z2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -422,7 +452,8 @@ function IsNavmeshLoadedInArea(x1,y1,z1,x2,y2,z2) end
 --@params heading float
 --@params outPosition Vector3*
 --@return BOOL
-function GetRoadSidePointWithHeading(x,y,z,heading,outPosition) end
+function GetRoadSidePointWithHeading(x, y, z, heading, outPosition)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -434,7 +465,8 @@ function GetRoadSidePointWithHeading(x,y,z,heading,outPosition) end
 --@params z float
 --@params vehicle Vehicle
 --@return BOOL
-function IsPointOnRoad(x,y,z,vehicle) end
+function IsPointOnRoad(x, y, z, vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -447,7 +479,8 @@ function IsPointOnRoad(x,y,z,vehicle) end
 --@params density int*
 --@params flags int*
 --@return BOOL
-function GetVehicleNodeProperties(x,y,z,density,flags) end
+function GetVehicleNodeProperties(x, y, z, density, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -456,7 +489,8 @@ function GetVehicleNodeProperties(x,y,z,density,flags) end
 --@usage BOOL IS_VEHICLE_NODE_ID_VALID(int vehicleNodeId);
 --@params vehicleNodeId int
 --@return BOOL
-function IsVehicleNodeIdValid(vehicleNodeId) end
+function IsVehicleNodeIdValid(vehicleNodeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -465,7 +499,8 @@ function IsVehicleNodeIdValid(vehicleNodeId) end
 --@usage BOOL _IS_NAVMESH_REQUIRED_REGION_OWNED_BY_ANY_THREAD();
 
 --@return BOOL
-function IsNavmeshRequiredRegionOwnedByAnyThread() end
+function IsNavmeshRequiredRegionOwnedByAnyThread()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -479,7 +514,8 @@ function IsNavmeshRequiredRegionOwnedByAnyThread() end
 --@params p4 float
 --@params p5 float
 --@return Any
-function N_0x01708e8dd3ff8c65(p0,p1,p2,p3,p4,p5) end
+function N_0x01708e8dd3ff8c65(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -489,7 +525,8 @@ function N_0x01708e8dd3ff8c65(p0,p1,p2,p3,p4,p5) end
 --@params nodeId int
 --@params outPosition Vector3*
 --@return void
-function GetVehicleNodePosition(nodeId,outPosition) end
+function GetVehicleNodePosition(nodeId, outPosition)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -498,7 +535,8 @@ function GetVehicleNodePosition(nodeId,outPosition) end
 --@usage void REMOVE_NAVMESH_REQUIRED_REGIONS();
 
 --@return void
-function RemoveNavmeshRequiredRegions() end
+function RemoveNavmeshRequiredRegions()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -510,7 +548,8 @@ function RemoveNavmeshRequiredRegions() end
 --@params p2 Any
 --@params p3 Any
 --@return Any
-function N_0xf3162836c28f9da5(p0,p1,p2,p3) end
+function N_0xf3162836c28f9da5(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -524,7 +563,8 @@ function N_0xf3162836c28f9da5(p0,p1,p2,p3) end
 --@params y2 Any
 --@params z3 Any
 --@return void
-function SetGpsDisabledZone(x1,y1,z1,x2,y2,z3) end
+function SetGpsDisabledZone(x1, y1, z1, x2, y2, z3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -539,7 +579,8 @@ function SetGpsDisabledZone(x1,y1,z1,x2,y2,z3) end
 --@params p5 Any
 --@params p6 Any
 --@return void
-function N_0xaa76052dda9bfc3e(p0,p1,p2,p3,p4,p5,p6) end
+function N_0xaa76052dda9bfc3e(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -548,7 +589,8 @@ function N_0xaa76052dda9bfc3e(p0,p1,p2,p3,p4,p5,p6) end
 --@usage void _SET_ALL_PATHS_CACHE_BOUNDINGSTRUCT(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetAllPathsCacheBoundingstruct(toggle) end
+function SetAllPathsCacheBoundingstruct(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -557,7 +599,8 @@ function SetAllPathsCacheBoundingstruct(toggle) end
 --@usage void REMOVE_NAVMESH_BLOCKING_OBJECT(Any p0);
 --@params p0 Any
 --@return void
-function RemoveNavmeshBlockingObject(p0) end
+function RemoveNavmeshBlockingObject(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -569,7 +612,8 @@ function RemoveNavmeshBlockingObject(p0) end
 --@params x2 float
 --@params y2 float
 --@return BOOL
-function RequestPathsPreferAccurateBoundingstruct(x1,y1,x2,y2) end
+function RequestPathsPreferAccurateBoundingstruct(x1, y1, x2, y2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -578,7 +622,8 @@ function RequestPathsPreferAccurateBoundingstruct(x1,y1,x2,y2) end
 --@usage BOOL LOAD_ALL_PATH_NODES(BOOL keepInMemory);
 --@params keepInMemory BOOL
 --@return BOOL
-function LoadAllPathNodes(keepInMemory) end
+function LoadAllPathNodes(keepInMemory)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -592,7 +637,8 @@ function LoadAllPathNodes(keepInMemory) end
 --@params p4 Any
 --@params p5 Any
 --@return void
-function SetPedPathsBackToOriginal(p0,p1,p2,p3,p4,p5) end
+function SetPedPathsBackToOriginal(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -606,7 +652,8 @@ function SetPedPathsBackToOriginal(p0,p1,p2,p3,p4,p5) end
 --@params p4 float
 --@params p5 float
 --@return void
-function SetRoadsBackToOriginal(p0,p1,p2,p3,p4,p5) end
+function SetRoadsBackToOriginal(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -615,7 +662,8 @@ function SetRoadsBackToOriginal(p0,p1,p2,p3,p4,p5) end
 --@usage void SET_AMBIENT_PED_RANGE_MULTIPLIER_THIS_FRAME(float multiplier);
 --@params multiplier float
 --@return void
-function SetAmbientPedRangeMultiplierThisFrame(multiplier) end
+function SetAmbientPedRangeMultiplierThisFrame(multiplier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -630,7 +678,8 @@ function SetAmbientPedRangeMultiplierThisFrame(multiplier) end
 --@params z2 float
 --@params index int
 --@return void
-function SetGpsDisabledZoneAtIndex(x1,y1,z1,x2,y2,z2,index) end
+function SetGpsDisabledZoneAtIndex(x1, y1, z1, x2, y2, z2, index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -648,7 +697,8 @@ function SetGpsDisabledZoneAtIndex(x1,y1,z1,x2,y2,z2,index) end
 --@params unknown2 BOOL
 --@params unknown3 BOOL
 --@return void
-function SetRoadsInAngledArea(x1,y1,z1,x2,y2,z2,angle,unknown1,unknown2,unknown3) end
+function SetRoadsInAngledArea(x1, y1, z1, x2, y2, z2, angle, unknown1, unknown2, unknown3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -657,7 +707,8 @@ function SetRoadsInAngledArea(x1,y1,z1,x2,y2,z2,angle,unknown1,unknown2,unknown3
 --@usage void _SET_IGNORE_SECONDARY_ROUTE_NODES(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetIgnoreSecondaryRouteNodes(toggle) end
+function SetIgnoreSecondaryRouteNodes(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -673,7 +724,8 @@ function SetIgnoreSecondaryRouteNodes(toggle) end
 --@params unknown1 BOOL
 --@params unknown2 BOOL
 --@return void
-function SetRoadsInArea(x1,y1,z1,x2,y2,z2,unknown1,unknown2) end
+function SetRoadsInArea(x1, y1, z1, x2, y2, z2, unknown1, unknown2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -682,7 +734,8 @@ function SetRoadsInArea(x1,y1,z1,x2,y2,z2,unknown1,unknown2) end
 --@usage BOOL GET_VEHICLE_NODE_IS_GPS_ALLOWED(int nodeID);
 --@params nodeID int
 --@return BOOL
-function GetVehicleNodeIsGpsAllowed(nodeID) end
+function GetVehicleNodeIsGpsAllowed(nodeID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -699,7 +752,8 @@ function GetVehicleNodeIsGpsAllowed(nodeID) end
 --@params p7 float
 --@params p8 Any
 --@return void
-function UpdateNavmeshBlockingObject(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function UpdateNavmeshBlockingObject(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -714,7 +768,8 @@ function UpdateNavmeshBlockingObject(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params z2 float
 --@params p6 float
 --@return void
-function SetRoadsBackToOriginalInAngledArea(x1,y1,z1,x2,y2,z2,p6) end
+function SetRoadsBackToOriginalInAngledArea(x1, y1, z1, x2, y2, z2, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -723,7 +778,8 @@ function SetRoadsBackToOriginalInAngledArea(x1,y1,z1,x2,y2,z2,p6) end
 --@usage void SET_IGNORE_NO_GPS_FLAG(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetIgnoreNoGpsFlag(toggle) end
+function SetIgnoreNoGpsFlag(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -738,4 +794,5 @@ function SetIgnoreNoGpsFlag(toggle) end
 --@params z2 float
 --@params unknown BOOL
 --@return void
-function SetPedPathsInArea(x1,y1,z1,x2,y2,z2,unknown) end
+function SetPedPathsInArea(x1, y1, z1, x2, y2, z2, unknown)
+end

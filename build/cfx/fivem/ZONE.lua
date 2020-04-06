@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule ZONE
@@ -8,7 +7,8 @@
 --@params y float
 --@params z float
 --@return char*
-function GetNameOfZone(x,y,z) end
+function GetNameOfZone(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -19,7 +19,8 @@ function GetNameOfZone(x,y,z) end
 --@params y float
 --@params z float
 --@return int
-function GetZoneAtCoords(x,y,z) end
+function GetZoneAtCoords(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -28,7 +29,8 @@ function GetZoneAtCoords(x,y,z) end
 --@usage void CLEAR_POPSCHEDULE_OVERRIDE_VEHICLE_MODEL(int scheduleId);
 --@params scheduleId int
 --@return void
-function ClearPopscheduleOverrideVehicleModel(scheduleId) end
+function ClearPopscheduleOverrideVehicleModel(scheduleId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -39,7 +41,8 @@ function ClearPopscheduleOverrideVehicleModel(scheduleId) end
 --@params y float
 --@params z float
 --@return Hash
-function GetHashOfMapAreaAtCoords(x,y,z) end
+function GetHashOfMapAreaAtCoords(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -48,7 +51,8 @@ function GetHashOfMapAreaAtCoords(x,y,z) end
 --@usage int GET_ZONE_SCUMMINESS(int zoneId);
 --@params zoneId int
 --@return int
-function GetZoneScumminess(zoneId) end
+function GetZoneScumminess(zoneId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -58,7 +62,8 @@ function GetZoneScumminess(zoneId) end
 --@params zoneId int
 --@params toggle BOOL
 --@return void
-function SetZoneEnabled(zoneId,toggle) end
+function SetZoneEnabled(zoneId, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -67,7 +72,8 @@ function SetZoneEnabled(zoneId,toggle) end
 --@usage int GET_ZONE_POPSCHEDULE(int zoneId);
 --@params zoneId int
 --@return int
-function GetZonePopschedule(zoneId) end
+function GetZonePopschedule(zoneId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -77,7 +83,8 @@ function GetZonePopschedule(zoneId) end
 --@params scheduleId int
 --@params vehicleHash Hash
 --@return void
-function OverridePopscheduleVehicleModel(scheduleId,vehicleHash) end
+function OverridePopscheduleVehicleModel(scheduleId, vehicleHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -86,4 +93,5 @@ function OverridePopscheduleVehicleModel(scheduleId,vehicleHash) end
 --@usage int GET_ZONE_FROM_NAME_ID(char* zoneName);
 --@params zoneName char*
 --@return int
-function GetZoneFromNameId(zoneName) end
+function GetZoneFromNameId(zoneName)
+end

@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule STATS
@@ -10,7 +9,8 @@
 --@params character int
 --@params section char*
 --@return Hash
-function GetNgstatBoolHash(index,spStat,charStat,character,section) end
+function GetNgstatBoolHash(index, spStat, charStat, character, section)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -23,7 +23,8 @@ function GetNgstatBoolHash(index,spStat,charStat,character,section) end
 --@params character int
 --@params section char*
 --@return Hash
-function GetNgstatIntHash(index,spStat,charStat,character,section) end
+function GetNgstatIntHash(index, spStat, charStat, character, section)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -35,7 +36,8 @@ function GetNgstatIntHash(index,spStat,charStat,character,section) end
 --@params charStat BOOL
 --@params character int
 --@return Hash
-function GetPackedTitleUpdateBoolStatKey(index,spStat,charStat,character) end
+function GetPackedTitleUpdateBoolStatKey(index, spStat, charStat, character)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -47,7 +49,8 @@ function GetPackedTitleUpdateBoolStatKey(index,spStat,charStat,character) end
 --@params charStat BOOL
 --@params character int
 --@return Hash
-function GetPackedBoolStatKey(index,spStat,charStat,character) end
+function GetPackedBoolStatKey(index, spStat, charStat, character)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -57,7 +60,8 @@ function GetPackedBoolStatKey(index,spStat,charStat,character) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function HiredLimo(p0,p1) end
+function HiredLimo(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -69,7 +73,8 @@ function HiredLimo(p0,p1) end
 --@params charStat BOOL
 --@params character int
 --@return Hash
-function GetPackedIntStatKey(index,spStat,charStat,character) end
+function GetPackedIntStatKey(index, spStat, charStat, character)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -80,7 +85,8 @@ function GetPackedIntStatKey(index,spStat,charStat,character) end
 --@params gamerHandleCsv char*
 --@params platformName char*
 --@return BOOL
-function Leaderboards2ReadByPlatform(p0,gamerHandleCsv,platformName) end
+function Leaderboards2ReadByPlatform(p0, gamerHandleCsv, platformName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -92,7 +98,8 @@ function Leaderboards2ReadByPlatform(p0,gamerHandleCsv,platformName) end
 --@params charStat BOOL
 --@params character int
 --@return Hash
-function GetPackedTitleUpdateIntStatKey(index,spStat,charStat,character) end
+function GetPackedTitleUpdateIntStatKey(index, spStat, charStat, character)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -102,7 +109,8 @@ function GetPackedTitleUpdateIntStatKey(index,spStat,charStat,character) end
 --@params p0 Any*
 --@params p1 Any*
 --@return BOOL
-function Leaderboards2ReadByHandle(p0,p1) end
+function Leaderboards2ReadByHandle(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -113,7 +121,8 @@ function Leaderboards2ReadByHandle(p0,p1) end
 --@params p1 Any
 --@params p2 Any*
 --@return BOOL
-function Leaderboards2ReadByRadius(p0,p1,p2) end
+function Leaderboards2ReadByRadius(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -124,7 +133,8 @@ function Leaderboards2ReadByRadius(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return BOOL
-function Leaderboards2ReadByRank(p0,p1,p2) end
+function Leaderboards2ReadByRank(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -135,7 +145,8 @@ function Leaderboards2ReadByRank(p0,p1,p2) end
 --@params p1 float
 --@params p2 Any
 --@return BOOL
-function Leaderboards2ReadByScoreFloat(p0,p1,p2) end
+function Leaderboards2ReadByScoreFloat(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -149,7 +160,8 @@ function Leaderboards2ReadByScoreFloat(p0,p1,p2) end
 --@params p4 Any
 --@params p5 Any
 --@return BOOL
-function Leaderboards2ReadFriendsByRow(p0,p1,p2,p3,p4,p5) end
+function Leaderboards2ReadFriendsByRow(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -164,7 +176,8 @@ function Leaderboards2ReadFriendsByRow(p0,p1,p2,p3,p4,p5) end
 --@params p5 Any*
 --@params p6 Any
 --@return BOOL
-function Leaderboards2ReadByRow(p0,p1,p2,p3,p4,p5,p6) end
+function Leaderboards2ReadByRow(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -173,7 +186,8 @@ function Leaderboards2ReadByRow(p0,p1,p2,p3,p4,p5,p6) end
 --@usage BOOL LEADERBOARDS2_WRITE_DATA(Any* p0);
 --@params p0 Any*
 --@return BOOL
-function Leaderboards2WriteData(p0) end
+function Leaderboards2WriteData(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -184,7 +198,8 @@ function Leaderboards2WriteData(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return BOOL
-function Leaderboards2ReadByScoreInt(p0,p1,p2) end
+function Leaderboards2ReadByScoreInt(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -195,7 +210,8 @@ function Leaderboards2ReadByScoreInt(p0,p1,p2) end
 --@params p1 Any*
 --@params p2 Any*
 --@return BOOL
-function Leaderboards2ReadRankPrediction(p0,p1,p2) end
+function Leaderboards2ReadRankPrediction(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -205,7 +221,8 @@ function Leaderboards2ReadRankPrediction(p0,p1,p2) end
 --@params p0 Any*
 --@params p1 Any*
 --@return BOOL
-function Leaderboards2WriteDataForEventType(p0,p1) end
+function Leaderboards2WriteDataForEventType(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -215,7 +232,8 @@ function Leaderboards2WriteDataForEventType(p0,p1) end
 --@params statName Hash
 --@params value float
 --@return void
-function LeaderboardsDeaths(statName,value) end
+function LeaderboardsDeaths(statName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -226,7 +244,8 @@ function LeaderboardsDeaths(statName,value) end
 --@params p1 Any
 --@params p2 Any*
 --@return BOOL
-function LeaderboardsGetCacheDataRow(p0,p1,p2) end
+function LeaderboardsGetCacheDataRow(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -235,7 +254,8 @@ function LeaderboardsGetCacheDataRow(p0,p1,p2) end
 --@usage void LEADERBOARDS_CLEAR_CACHE_DATA();
 
 --@return void
-function LeaderboardsClearCacheData() end
+function LeaderboardsClearCacheData()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -244,7 +264,8 @@ function LeaderboardsClearCacheData() end
 --@usage BOOL LEADERBOARDS_GET_CACHE_EXISTS(Any p0);
 --@params p0 Any
 --@return BOOL
-function LeaderboardsGetCacheExists(p0) end
+function LeaderboardsGetCacheExists(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -253,7 +274,8 @@ function LeaderboardsGetCacheExists(p0) end
 --@usage int LEADERBOARDS_GET_CACHE_NUMBER_OF_ROWS(Any p0);
 --@params p0 Any
 --@return int
-function LeaderboardsGetCacheNumberOfRows(p0) end
+function LeaderboardsGetCacheNumberOfRows(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -262,7 +284,8 @@ function LeaderboardsGetCacheNumberOfRows(p0) end
 --@usage Any LEADERBOARDS_GET_CACHE_TIME(Any p0);
 --@params p0 Any
 --@return Any
-function LeaderboardsGetCacheTime(p0) end
+function LeaderboardsGetCacheTime(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -271,7 +294,8 @@ function LeaderboardsGetCacheTime(p0) end
 --@usage BOOL LEADERBOARDS_CACHE_DATA_ROW(Any* p0);
 --@params p0 Any*
 --@return BOOL
-function LeaderboardsCacheDataRow(p0) end
+function LeaderboardsCacheDataRow(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -281,7 +305,8 @@ function LeaderboardsCacheDataRow(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function LeaderboardsGetNumberOfColumns(p0,p1) end
+function LeaderboardsGetNumberOfColumns(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -292,7 +317,8 @@ function LeaderboardsGetNumberOfColumns(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return Any
-function LeaderboardsGetColumnId(p0,p1,p2) end
+function LeaderboardsGetColumnId(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -303,7 +329,8 @@ function LeaderboardsGetColumnId(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return Any
-function LeaderboardsGetColumnType(p0,p1,p2) end
+function LeaderboardsGetColumnType(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -314,7 +341,8 @@ function LeaderboardsGetColumnType(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return Any
-function LeaderboardsReadClear(p0,p1,p2) end
+function LeaderboardsReadClear(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -323,7 +351,8 @@ function LeaderboardsReadClear(p0,p1,p2) end
 --@usage BOOL LEADERBOARDS_READ_ANY_PENDING();
 
 --@return BOOL
-function LeaderboardsReadAnyPending() end
+function LeaderboardsReadAnyPending()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -334,7 +363,8 @@ function LeaderboardsReadAnyPending() end
 --@params p1 Any
 --@params p2 Any
 --@return BOOL
-function LeaderboardsReadSuccessful(p0,p1,p2) end
+function LeaderboardsReadSuccessful(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -345,7 +375,8 @@ function LeaderboardsReadSuccessful(p0,p1,p2) end
 --@params p1 Any
 --@params p2 float
 --@return void
-function LeaderboardsWriteAddColumn(p0,p1,p2) end
+function LeaderboardsWriteAddColumn(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -356,7 +387,8 @@ function LeaderboardsWriteAddColumn(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function LeaderboardsWriteAddColumnLong(p0,p1,p2) end
+function LeaderboardsWriteAddColumnLong(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -365,7 +397,8 @@ function LeaderboardsWriteAddColumnLong(p0,p1,p2) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x015b03ee1c43e6ec(p0) end
+function N_0x015b03ee1c43e6ec(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -380,7 +413,8 @@ function N_0x015b03ee1c43e6ec(p0) end
 --@params p5 Any
 --@params p6 Any
 --@return void
-function N_0x03c2eebb04b3fb72(p0,p1,p2,p3,p4,p5,p6) end
+function N_0x03c2eebb04b3fb72(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -389,7 +423,8 @@ function N_0x03c2eebb04b3fb72(p0,p1,p2,p3,p4,p5,p6) end
 --@usage void undefined();
 
 --@return void
-function N_0x047cbed6f6f8b63c() end
+function N_0x047cbed6f6f8b63c()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -398,7 +433,8 @@ function N_0x047cbed6f6f8b63c() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x06eaf70ae066441e(p0) end
+function N_0x06eaf70ae066441e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -409,7 +445,8 @@ function N_0x06eaf70ae066441e(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return BOOL
-function LeaderboardsReadPending(p0,p1,p2) end
+function LeaderboardsReadPending(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -418,7 +455,8 @@ function LeaderboardsReadPending(p0,p1,p2) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x0a9c7f36e5d7b683(p0) end
+function N_0x0a9c7f36e5d7b683(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -427,7 +465,8 @@ function N_0x0a9c7f36e5d7b683(p0) end
 --@usage Any LEADERBOARDS_READ_CLEAR_ALL();
 
 --@return Any
-function LeaderboardsReadClearAll() end
+function LeaderboardsReadClearAll()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -436,7 +475,8 @@ function LeaderboardsReadClearAll() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x0b8b7f74bf061c6d() end
+function N_0x0b8b7f74bf061c6d()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -451,7 +491,8 @@ function N_0x0b8b7f74bf061c6d() end
 --@params p5 Any
 --@params p6 Any
 --@return void
-function N_0x0b565b0aae56a0e8(p0,p1,p2,p3,p4,p5,p6) end
+function N_0x0b565b0aae56a0e8(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -460,7 +501,8 @@ function N_0x0b565b0aae56a0e8(p0,p1,p2,p3,p4,p5,p6) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x04d90ba8207ada2d(p0) end
+function N_0x04d90ba8207ada2d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -472,7 +514,8 @@ function N_0x04d90ba8207ada2d(p0) end
 --@params p2 Any*
 --@params p3 Any*
 --@return void
-function N_0x14e0b2d1ad1044e0(p0,p1,p2,p3) end
+function N_0x14e0b2d1ad1044e0(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -481,7 +524,8 @@ function N_0x14e0b2d1ad1044e0(p0,p1,p2,p3) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x164c5ff663790845(p0) end
+function N_0x164c5ff663790845(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -491,7 +535,8 @@ function N_0x164c5ff663790845(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x0d01d20616fc73fb(p0,p1) end
+function N_0x0d01d20616fc73fb(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -500,7 +545,8 @@ function N_0x0d01d20616fc73fb(p0,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x1a7ce7cd3e653485(p0) end
+function N_0x1a7ce7cd3e653485(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -509,7 +555,8 @@ function N_0x1a7ce7cd3e653485(p0) end
 --@usage void undefined(int p0);
 --@params p0 int
 --@return void
-function N_0x26d7399b9587fe89(p0) end
+function N_0x26d7399b9587fe89(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -518,7 +565,8 @@ function N_0x26d7399b9587fe89(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x14eda9ee27bd1626(p0) end
+function N_0x14eda9ee27bd1626(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -527,7 +575,8 @@ function N_0x14eda9ee27bd1626(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x282b6739644f4347(p0) end
+function N_0x282b6739644f4347(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -545,7 +594,8 @@ function N_0x282b6739644f4347(p0) end
 --@params p8 Any
 --@params p9 Any
 --@return void
-function N_0x27aa1c973cacfe63(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function N_0x27aa1c973cacfe63(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -554,7 +604,8 @@ function N_0x27aa1c973cacfe63(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x2605663bd4f23b5d(p0) end
+function N_0x2605663bd4f23b5d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -567,7 +618,8 @@ function N_0x2605663bd4f23b5d(p0) end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function N_0x28ecb8ac2f607db2(p0,p1,p2,p3,p4) end
+function N_0x28ecb8ac2f607db2(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -576,7 +628,8 @@ function N_0x28ecb8ac2f607db2(p0,p1,p2,p3,p4) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x2d7a9b577e72385e(p0) end
+function N_0x2d7a9b577e72385e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -585,7 +638,8 @@ function N_0x2d7a9b577e72385e(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x2cd90358f67d0aa8(p0) end
+function N_0x2cd90358f67d0aa8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -594,7 +648,8 @@ function N_0x2cd90358f67d0aa8(p0) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x1a8ea222f9c67dbb(p0) end
+function N_0x1a8ea222f9c67dbb(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -603,7 +658,8 @@ function N_0x1a8ea222f9c67dbb(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x316db59cd14c1774(p0) end
+function N_0x316db59cd14c1774(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -613,7 +669,8 @@ function N_0x316db59cd14c1774(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function N_0x33d72899e24c3365(p0,p1) end
+function N_0x33d72899e24c3365(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -623,7 +680,8 @@ function N_0x33d72899e24c3365(p0,p1) end
 --@params p0 Any
 --@params p1 Any*
 --@return BOOL
-function N_0x34770b9ce0e03b91(p0,p1) end
+function N_0x34770b9ce0e03b91(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -632,7 +690,8 @@ function N_0x34770b9ce0e03b91(p0,p1) end
 --@usage void undefined(int value);
 --@params value int
 --@return void
-function N_0x38baaa5dd4c9d19f(value) end
+function N_0x38baaa5dd4c9d19f(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -642,7 +701,8 @@ function N_0x38baaa5dd4c9d19f(value) end
 --@params p0 Any
 --@params p1 Any
 --@return float
-function N_0x38491439b6ba7f7d(p0,p1) end
+function N_0x38491439b6ba7f7d(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -651,7 +711,8 @@ function N_0x38491439b6ba7f7d(p0,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x3de3aa516fb126a4(p0) end
+function N_0x3de3aa516fb126a4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -660,7 +721,8 @@ function N_0x3de3aa516fb126a4(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x419615486bbf1956(p0) end
+function N_0x419615486bbf1956(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -669,7 +731,8 @@ function N_0x419615486bbf1956(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x32cac93c9de73d32() end
+function N_0x32cac93c9de73d32()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -678,7 +741,8 @@ function N_0x32cac93c9de73d32() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x44919cc079bb60bf(p0) end
+function N_0x44919cc079bb60bf(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -687,7 +751,8 @@ function N_0x44919cc079bb60bf(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x53cae13e9b426993(p0) end
+function N_0x53cae13e9b426993(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -696,7 +761,8 @@ function N_0x53cae13e9b426993(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x3ebeac6c3f81f6bd(p0) end
+function N_0x3ebeac6c3f81f6bd(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -705,7 +771,8 @@ function N_0x3ebeac6c3f81f6bd(p0) end
 --@usage void undefined(int value);
 --@params value int
 --@return void
-function N_0x55384438fc55ad8e(value) end
+function N_0x55384438fc55ad8e(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -714,7 +781,8 @@ function N_0x55384438fc55ad8e(value) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x5a556b229a169402() end
+function N_0x5a556b229a169402()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -723,7 +791,8 @@ function N_0x5a556b229a169402() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x4c89fe2bdeb3f169() end
+function N_0x4c89fe2bdeb3f169()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -732,7 +801,8 @@ function N_0x4c89fe2bdeb3f169() end
 --@usage void undefined(int p0);
 --@params p0 int
 --@return void
-function N_0x5688585e6d563cd8(p0) end
+function N_0x5688585e6d563cd8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -741,7 +811,8 @@ function N_0x5688585e6d563cd8(p0) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x5ead2bf6484852e4() end
+function N_0x5ead2bf6484852e4()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -750,7 +821,8 @@ function N_0x5ead2bf6484852e4() end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x5bd5f255321c4aaf(p0) end
+function N_0x5bd5f255321c4aaf(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -762,7 +834,8 @@ function N_0x5bd5f255321c4aaf(p0) end
 --@params p2 Any
 --@params p3 Any*
 --@return void
-function N_0x6483c25849031c4f(p0,p1,p2,p3) end
+function N_0x6483c25849031c4f(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -771,7 +844,8 @@ function N_0x6483c25849031c4f(p0,p1,p2,p3) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x5ff2c33b13a02a11(p0) end
+function N_0x5ff2c33b13a02a11(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -780,7 +854,8 @@ function N_0x5ff2c33b13a02a11(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x678f86d8fc040bdb(p0) end
+function N_0x678f86d8fc040bdb(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -789,7 +864,8 @@ function N_0x678f86d8fc040bdb(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x6a60e43998228229(p0) end
+function N_0x6a60e43998228229(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -798,7 +874,8 @@ function N_0x6a60e43998228229(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x6551b1f7f6cd46ea(p0) end
+function N_0x6551b1f7f6cd46ea(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -809,7 +886,8 @@ function N_0x6551b1f7f6cd46ea(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x6bc0acd0673acebe(p0,p1,p2) end
+function N_0x6bc0acd0673acebe(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -819,7 +897,8 @@ function N_0x6bc0acd0673acebe(p0,p1,p2) end
 --@params playerAccountId Any*
 --@params posixTime Any*
 --@return BOOL
-function N_0x6dee77aff8c21bd1(playerAccountId,posixTime) end
+function N_0x6dee77aff8c21bd1(playerAccountId, posixTime)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -828,7 +907,8 @@ function N_0x6dee77aff8c21bd1(playerAccountId,posixTime) end
 --@usage void undefined();
 
 --@return void
-function N_0x6f361b8889a792a3() end
+function N_0x6f361b8889a792a3()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -837,7 +917,8 @@ function N_0x6f361b8889a792a3() end
 --@usage void undefined();
 
 --@return void
-function N_0x71b008056e5692d6() end
+function N_0x71b008056e5692d6()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -846,7 +927,8 @@ function N_0x71b008056e5692d6() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x6e0a5253375c4584() end
+function N_0x6e0a5253375c4584()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -855,7 +937,8 @@ function N_0x6e0a5253375c4584() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x7033eefd9b28088e(p0) end
+function N_0x7033eefd9b28088e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -864,7 +947,8 @@ function N_0x7033eefd9b28088e(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x73001e34f85137f8(p0) end
+function N_0x73001e34f85137f8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -873,7 +957,8 @@ function N_0x73001e34f85137f8(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x60eedc12af66e846(p0) end
+function N_0x60eedc12af66e846(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -883,7 +968,8 @@ function N_0x60eedc12af66e846(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x723c1ce13fbfdb67(p0,p1) end
+function N_0x723c1ce13fbfdb67(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -892,7 +978,8 @@ function N_0x723c1ce13fbfdb67(p0,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x7b18da61f6bae9d5(p0) end
+function N_0x7b18da61f6bae9d5(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -901,7 +988,8 @@ function N_0x7b18da61f6bae9d5(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x7d36291161859389(p0) end
+function N_0x7d36291161859389(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -914,7 +1002,8 @@ function N_0x7d36291161859389(p0) end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function N_0x6bccf9948492fd85(p0,p1,p2,p3,p4) end
+function N_0x6bccf9948492fd85(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -923,7 +1012,8 @@ function N_0x6bccf9948492fd85(p0,p1,p2,p3,p4) end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0x7e6946f68a38b74f(p0) end
+function N_0x7e6946f68a38b74f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -934,7 +1024,8 @@ function N_0x7e6946f68a38b74f(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x7eec2a316c250073(p0,p1,p2) end
+function N_0x7eec2a316c250073(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -943,7 +1034,8 @@ function N_0x7eec2a316c250073(p0,p1,p2) end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0x7f2c4cdf2e82df4c(p0) end
+function N_0x7f2c4cdf2e82df4c(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -952,7 +1044,8 @@ function N_0x7f2c4cdf2e82df4c(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x84a810b375e69c0e() end
+function N_0x84a810b375e69c0e()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -961,7 +1054,8 @@ function N_0x84a810b375e69c0e() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x830c3a44eb3f2cf9(p0) end
+function N_0x830c3a44eb3f2cf9(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -970,7 +1064,8 @@ function N_0x830c3a44eb3f2cf9(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x84dfc579c2fc214c(p0) end
+function N_0x84dfc579c2fc214c(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -979,7 +1074,8 @@ function N_0x84dfc579c2fc214c(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x88087ee1f28024ae(p0) end
+function N_0x88087ee1f28024ae(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -989,7 +1085,8 @@ function N_0x88087ee1f28024ae(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function N_0x88578f6ec36b4a3a(p0,p1) end
+function N_0x88578f6ec36b4a3a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1004,7 +1101,8 @@ function N_0x88578f6ec36b4a3a(p0,p1) end
 --@params p5 Any
 --@params p6 Any
 --@return void
-function N_0x8989cbd7b4e82534(p0,p1,p2,p3,p4,p5,p6) end
+function N_0x8989cbd7b4e82534(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1013,7 +1111,8 @@ function N_0x8989cbd7b4e82534(p0,p1,p2,p3,p4,p5,p6) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x8b9cdbd6c566c38c() end
+function N_0x8b9cdbd6c566c38c()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1022,7 +1121,8 @@ function N_0x8b9cdbd6c566c38c() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x8c9d11605e59d955(p0) end
+function N_0x8c9d11605e59d955(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1031,7 +1131,8 @@ function N_0x8c9d11605e59d955(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x8d8adb562f09a245(p0) end
+function N_0x8d8adb562f09a245(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1040,7 +1141,8 @@ function N_0x8d8adb562f09a245(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x8ec74ceb042e7cff(p0) end
+function N_0x8ec74ceb042e7cff(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1049,7 +1151,8 @@ function N_0x8ec74ceb042e7cff(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x930f504203f561c9(p0) end
+function N_0x930f504203f561c9(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1058,7 +1161,8 @@ function N_0x930f504203f561c9(p0) end
 --@usage int undefined(int p0);
 --@params p0 int
 --@return int
-function N_0x94f12abf9c79e339(p0) end
+function N_0x94f12abf9c79e339(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1069,7 +1173,8 @@ function N_0x94f12abf9c79e339(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x96e6d5150dbf1c09(p0,p1,p2) end
+function N_0x96e6d5150dbf1c09(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1078,7 +1183,8 @@ function N_0x96e6d5150dbf1c09(p0,p1,p2) end
 --@usage void undefined();
 
 --@return void
-function N_0x98e2bc1ca26287c3() end
+function N_0x98e2bc1ca26287c3()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1087,7 +1193,8 @@ function N_0x98e2bc1ca26287c3() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x7d8ba05688ad64c7(p0) end
+function N_0x7d8ba05688ad64c7(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1096,7 +1203,8 @@ function N_0x7d8ba05688ad64c7(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0x629526aba383bcaa() end
+function N_0x629526aba383bcaa()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1105,7 +1213,8 @@ function N_0x629526aba383bcaa() end
 --@usage void undefined();
 
 --@return void
-function N_0x9b4bd21d69b1e609() end
+function N_0x9b4bd21d69b1e609()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1114,7 +1223,8 @@ function N_0x9b4bd21d69b1e609() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x9ec8858184cd253a() end
+function N_0x9ec8858184cd253a()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1124,7 +1234,8 @@ function N_0x9ec8858184cd253a() end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xa3c53804bdb68ed2(p0,p1) end
+function N_0xa3c53804bdb68ed2(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1133,7 +1244,8 @@ function N_0xa3c53804bdb68ed2(p0,p1) end
 --@usage BOOL undefined(Any* p0);
 --@params p0 Any*
 --@return BOOL
-function N_0xa0f93d5465b3094d(p0) end
+function N_0xa0f93d5465b3094d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1145,7 +1257,8 @@ function N_0xa0f93d5465b3094d(p0) end
 --@params p2 Any*
 --@params p3 Any*
 --@return void
-function N_0xa736cf7fb7c5bff4(p0,p1,p2,p3) end
+function N_0xa736cf7fb7c5bff4(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1155,7 +1268,8 @@ function N_0xa736cf7fb7c5bff4(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xa071e0ed98f91286(p0,p1) end
+function N_0xa071e0ed98f91286(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1164,7 +1278,8 @@ function N_0xa071e0ed98f91286(p0,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xa6f54bb2ffca35ea(p0) end
+function N_0xa6f54bb2ffca35ea(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1173,7 +1288,8 @@ function N_0xa6f54bb2ffca35ea(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xa8733668d1047b51(p0) end
+function N_0xa8733668d1047b51(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1182,7 +1298,8 @@ function N_0xa8733668d1047b51(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xa761d4ac6115623d() end
+function N_0xa761d4ac6115623d()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1191,7 +1308,8 @@ function N_0xa761d4ac6115623d() end
 --@usage Any undefined();
 
 --@return Any
-function N_0xa943fd1722e11efd() end
+function N_0xa943fd1722e11efd()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1202,7 +1320,8 @@ function N_0xa943fd1722e11efd() end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0xaa525dff66bb82f5(p0,p1,p2) end
+function N_0xaa525dff66bb82f5(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1211,7 +1330,8 @@ function N_0xaa525dff66bb82f5(p0,p1,p2) end
 --@usage void undefined(int p0);
 --@params p0 int
 --@return void
-function N_0xa78b8fa58200da56(p0) end
+function N_0xa78b8fa58200da56(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1220,7 +1340,8 @@ function N_0xa78b8fa58200da56(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x55a8becaf28a4eb7() end
+function N_0x55a8becaf28a4eb7()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1229,7 +1350,8 @@ function N_0x55a8becaf28a4eb7() end
 --@usage Any undefined();
 
 --@return Any
-function N_0xaff47709f1d5dcce() end
+function N_0xaff47709f1d5dcce()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1238,7 +1360,8 @@ function N_0xaff47709f1d5dcce() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xb26f670685631727(p0) end
+function N_0xb26f670685631727(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1247,7 +1370,8 @@ function N_0xb26f670685631727(p0) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0xb3da2606774a8e2d() end
+function N_0xb3da2606774a8e2d()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1256,7 +1380,8 @@ function N_0xb3da2606774a8e2d() end
 --@usage int undefined();
 
 --@return int
-function N_0x9a62ec95ae10e011() end
+function N_0x9a62ec95ae10e011()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1265,7 +1390,8 @@ function N_0x9a62ec95ae10e011() end
 --@usage Any undefined();
 
 --@return Any
-function N_0xba9749cc94c1fd85() end
+function N_0xba9749cc94c1fd85()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1274,7 +1400,8 @@ function N_0xba9749cc94c1fd85() end
 --@usage Any undefined();
 
 --@return Any
-function N_0xbe3db208333d9844() end
+function N_0xbe3db208333d9844()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1283,7 +1410,8 @@ function N_0xbe3db208333d9844() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xbaa2f0490e146be8(p0) end
+function N_0xbaa2f0490e146be8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1294,7 +1422,8 @@ function N_0xbaa2f0490e146be8(p0) end
 --@params p1 int
 --@params outValue float*
 --@return BOOL
-function N_0xbed9f5693f34ed17(statName,p1,outValue) end
+function N_0xbed9f5693f34ed17(statName, p1, outValue)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1303,7 +1432,8 @@ function N_0xbed9f5693f34ed17(statName,p1,outValue) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xc0e0d686ddfc6eae() end
+function N_0xc0e0d686ddfc6eae()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1312,7 +1442,8 @@ function N_0xc0e0d686ddfc6eae() end
 --@usage void undefined();
 
 --@return void
-function N_0xb475f27c6a994d65() end
+function N_0xb475f27c6a994d65()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1321,7 +1452,8 @@ function N_0xb475f27c6a994d65() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xbf371cd2b64212fd(p0) end
+function N_0xbf371cd2b64212fd(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1330,7 +1462,8 @@ function N_0xbf371cd2b64212fd(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xbfafdb5faaa5c5ab(p0) end
+function N_0xbfafdb5faaa5c5ab(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1339,7 +1472,8 @@ function N_0xbfafdb5faaa5c5ab(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0xc141b8917e0017ec() end
+function N_0xc141b8917e0017ec()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1348,7 +1482,8 @@ function N_0xc141b8917e0017ec() end
 --@usage Any undefined();
 
 --@return Any
-function N_0xc6e0e2616a7576bb() end
+function N_0xc6e0e2616a7576bb()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1357,7 +1492,8 @@ function N_0xc6e0e2616a7576bb() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xc729991a9065376e(p0) end
+function N_0xc729991a9065376e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1370,7 +1506,8 @@ function N_0xc729991a9065376e(p0) end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function N_0xc5be134ec7ba96a0(p0,p1,p2,p3,p4) end
+function N_0xc5be134ec7ba96a0(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1379,7 +1516,8 @@ function N_0xc5be134ec7ba96a0(p0,p1,p2,p3,p4) end
 --@usage void undefined(int p0);
 --@params p0 int
 --@return void
-function N_0xd1032e482629049e(p0) end
+function N_0xd1032e482629049e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1388,7 +1526,8 @@ function N_0xd1032e482629049e(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0xc847b43f369ac0b5() end
+function N_0xc847b43f369ac0b5()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1397,7 +1536,8 @@ function N_0xc847b43f369ac0b5() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xd1a1ee3b4fa8e760(p0) end
+function N_0xd1a1ee3b4fa8e760(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1410,7 +1550,8 @@ function N_0xd1a1ee3b4fa8e760(p0) end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function N_0xd558bec0bba7e8d2(p0,p1,p2,p3,p4) end
+function N_0xd558bec0bba7e8d2(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1423,7 +1564,8 @@ function N_0xd558bec0bba7e8d2(p0,p1,p2,p3,p4) end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function N_0xcc25a4553dfbf9ea(p0,p1,p2,p3,p4) end
+function N_0xcc25a4553dfbf9ea(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1434,7 +1576,8 @@ function N_0xcc25a4553dfbf9ea(p0,p1,p2,p3,p4) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0xd1c9b92bdd3f151d(p0,p1,p2) end
+function N_0xd1c9b92bdd3f151d(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1444,7 +1587,8 @@ function N_0xd1c9b92bdd3f151d(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any*
 --@return Any
-function N_0xdeaaf77eb3687e97(p0,p1) end
+function N_0xdeaaf77eb3687e97(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1453,7 +1597,8 @@ function N_0xdeaaf77eb3687e97(p0,p1) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0xb1d2bb1e1631f5b1() end
+function N_0xb1d2bb1e1631f5b1()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1462,7 +1607,8 @@ function N_0xb1d2bb1e1631f5b1() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xe3261d791eb44acb(p0) end
+function N_0xe3261d791eb44acb(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1471,7 +1617,8 @@ function N_0xe3261d791eb44acb(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xc14bd9f5337219b2(p0) end
+function N_0xc14bd9f5337219b2(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1480,7 +1627,8 @@ function N_0xc14bd9f5337219b2(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xdaf80797fc534bec(p0) end
+function N_0xdaf80797fc534bec(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1489,7 +1637,8 @@ function N_0xdaf80797fc534bec(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xe8853fbce7d8d0d6() end
+function N_0xe8853fbce7d8d0d6()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1498,7 +1647,8 @@ function N_0xe8853fbce7d8d0d6() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xedbf6c9b0d2c65c8(p0) end
+function N_0xedbf6c9b0d2c65c8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1507,7 +1657,8 @@ function N_0xedbf6c9b0d2c65c8(p0) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xf11f01d98113536a(p0) end
+function N_0xf11f01d98113536a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1516,7 +1667,8 @@ function N_0xf11f01d98113536a(p0) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xe496a53ba5f50a56(p0) end
+function N_0xe496a53ba5f50a56(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1525,7 +1677,8 @@ function N_0xe496a53ba5f50a56(p0) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0xecb41ac6ab754401() end
+function N_0xecb41ac6ab754401()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1534,7 +1687,8 @@ function N_0xecb41ac6ab754401() end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0xf434a10ba01c37d0(toggle) end
+function N_0xf434a10ba01c37d0(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1543,7 +1697,8 @@ function N_0xf434a10ba01c37d0(toggle) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xf06a6f41cb445443(p0) end
+function N_0xf06a6f41cb445443(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1552,7 +1707,8 @@ function N_0xf06a6f41cb445443(p0) end
 --@usage int undefined(int p0);
 --@params p0 int
 --@return int
-function N_0xf4d8e7ac2a27758c(p0) end
+function N_0xf4d8e7ac2a27758c(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1561,7 +1717,8 @@ function N_0xf4d8e7ac2a27758c(p0) end
 --@usage void undefined(int value);
 --@params value int
 --@return void
-function N_0xf1a1803d3476f215(value) end
+function N_0xf1a1803d3476f215(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1574,7 +1731,8 @@ function N_0xf1a1803d3476f215(value) end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function N_0xf534d94dfa2ead26(p0,p1,p2,p3,p4) end
+function N_0xf534d94dfa2ead26(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1583,7 +1741,8 @@ function N_0xf534d94dfa2ead26(p0,p1,p2,p3,p4) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xf9f2922717b819ec() end
+function N_0xf9f2922717b819ec()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1592,7 +1751,8 @@ function N_0xf9f2922717b819ec() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xd6781e42755531f7(p0) end
+function N_0xd6781e42755531f7(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1604,7 +1764,8 @@ function N_0xd6781e42755531f7(p0) end
 --@params p2 Any*
 --@params p3 Any*
 --@return void
-function N_0xf8c54a461c3e11dc(p0,p1,p2,p3) end
+function N_0xf8c54a461c3e11dc(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1615,7 +1776,8 @@ function N_0xf8c54a461c3e11dc(p0,p1,p2,p3) end
 --@params p1 Any
 --@params vehicleHash Any
 --@return void
-function OrderedBossVehicle(p0,p1,vehicleHash) end
+function OrderedBossVehicle(p0, p1, vehicleHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1628,7 +1790,8 @@ function OrderedBossVehicle(p0,p1,vehicleHash) end
 --@params p3 int
 --@params p4 int
 --@return void
-function PlaystatsArenaWarSpectator(p0,p1,p2,p3,p4) end
+function PlaystatsArenaWarSpectator(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1637,7 +1800,8 @@ function PlaystatsArenaWarSpectator(p0,p1,p2,p3,p4) end
 --@usage void _PLAYSTATS_ARENA_WARS_ENDED(Any* data);
 --@params data Any*
 --@return void
-function PlaystatsArenaWarsEnded(data) end
+function PlaystatsArenaWarsEnded(data)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1649,7 +1813,8 @@ function PlaystatsArenaWarsEnded(data) end
 --@params p2 Any*
 --@params p3 Any*
 --@return void
-function N_0xf5bb8dac426a52c0(p0,p1,p2,p3) end
+function N_0xf5bb8dac426a52c0(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1660,7 +1825,8 @@ function N_0xf5bb8dac426a52c0(p0,p1,p2,p3) end
 --@params type Any
 --@params category Any
 --@return void
-function PlaystatsAwardXp(amount,type,category) end
+function PlaystatsAwardXp(amount, type, category)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1669,7 +1835,8 @@ function PlaystatsAwardXp(amount,type,category) end
 --@usage void PLAYSTATS_ACQUIRED_HIDDEN_PACKAGE(Any p0);
 --@params p0 Any
 --@return void
-function PlaystatsAcquiredHiddenPackage(p0) end
+function PlaystatsAcquiredHiddenPackage(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1678,7 +1845,8 @@ function PlaystatsAcquiredHiddenPackage(p0) end
 --@usage void _PLAYSTATS_BAN_ALERT(int p0);
 --@params p0 int
 --@return void
-function PlaystatsBanAlert(p0) end
+function PlaystatsBanAlert(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1691,7 +1859,8 @@ function PlaystatsBanAlert(p0) end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function PlaystatsChangeMcEmblem(p0,p1,p2,p3,p4) end
+function PlaystatsChangeMcEmblem(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1700,7 +1869,8 @@ function PlaystatsChangeMcEmblem(p0,p1,p2,p3,p4) end
 --@usage void _PLAYSTATS_AWARD_BADSPORT(int id);
 --@params id int
 --@return void
-function PlaystatsAwardBadsport(id) end
+function PlaystatsAwardBadsport(id)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1715,7 +1885,8 @@ function PlaystatsAwardBadsport(id) end
 --@params p5 Any
 --@params p6 Any
 --@return void
-function PlaystatsCopyRankIntoNewSlot(p0,p1,p2,p3,p4,p5,p6) end
+function PlaystatsCopyRankIntoNewSlot(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1726,7 +1897,8 @@ function PlaystatsCopyRankIntoNewSlot(p0,p1,p2,p3,p4,p5,p6) end
 --@params p1 float
 --@params p2 float
 --@return void
-function PlaystatsCrateCreated(p0,p1,p2) end
+function PlaystatsCrateCreated(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1736,7 +1908,8 @@ function PlaystatsCrateCreated(p0,p1,p2) end
 --@params action char*
 --@params value int
 --@return void
-function PlaystatsBackgroundScriptAction(action,value) end
+function PlaystatsBackgroundScriptAction(action, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1745,7 +1918,8 @@ function PlaystatsBackgroundScriptAction(action,value) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xfcc228e07217fcac(p0) end
+function N_0xfcc228e07217fcac(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1759,7 +1933,8 @@ function N_0xfcc228e07217fcac(p0) end
 --@params p4 Any
 --@params p5 Any
 --@return void
-function PlaystatsEarnedMcPoints(p0,p1,p2,p3,p4,p5) end
+function PlaystatsEarnedMcPoints(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1768,7 +1943,8 @@ function PlaystatsEarnedMcPoints(p0,p1,p2,p3,p4,p5) end
 --@usage void _PLAYSTATS_DIRECTOR_MODE(Any* p0);
 --@params p0 Any*
 --@return void
-function PlaystatsDirectorMode(p0) end
+function PlaystatsDirectorMode(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1777,7 +1953,8 @@ function PlaystatsDirectorMode(p0) end
 --@usage void _PLAYSTATS_DUPE_DETECTION(Any* data);
 --@params data Any*
 --@return void
-function PlaystatsDupeDetection(data) end
+function PlaystatsDupeDetection(data)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1791,7 +1968,8 @@ function PlaystatsDupeDetection(data) end
 --@params p4 Any
 --@params p5 Any
 --@return void
-function PlaystatsCrateDrop(p0,p1,p2,p3,p4,p5) end
+function PlaystatsCrateDrop(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1800,7 +1978,8 @@ function PlaystatsCrateDrop(p0,p1,p2,p3,p4,p5) end
 --@usage void _PLAYSTATS_DAR_MISSION_END(Any* data);
 --@params data Any*
 --@return void
-function PlaystatsDarMissionEnd(data) end
+function PlaystatsDarMissionEnd(data)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1813,7 +1992,8 @@ function PlaystatsDarMissionEnd(data) end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function PlaystatsClothChange(p0,p1,p2,p3,p4) end
+function PlaystatsClothChange(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1822,7 +2002,8 @@ function PlaystatsClothChange(p0,p1,p2,p3,p4) end
 --@usage void _PLAYSTATS_GUNRUN_MISSION_ENDED(Any* data);
 --@params data Any*
 --@return void
-function PlaystatsGunrunMissionEnded(data) end
+function PlaystatsGunrunMissionEnded(data)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1831,7 +2012,8 @@ function PlaystatsGunrunMissionEnded(data) end
 --@usage void _PLAYSTATS_H2_FMPREP_END(Any* data);
 --@params data Any*
 --@return void
-function PlaystatsH2FmprepEnd(data) end
+function PlaystatsH2FmprepEnd(data)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1840,7 +2022,8 @@ function PlaystatsH2FmprepEnd(data) end
 --@usage void _PLAYSTATS_ENTER_SESSION_PACK(Any* data);
 --@params data Any*
 --@return void
-function PlaystatsEnterSessionPack(data) end
+function PlaystatsEnterSessionPack(data)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1850,7 +2033,8 @@ function PlaystatsEnterSessionPack(data) end
 --@params hash Any
 --@params p1 int
 --@return void
-function PlaystatsHeistSaveCheat(hash,p1) end
+function PlaystatsHeistSaveCheat(hash, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1861,7 +2045,8 @@ function PlaystatsHeistSaveCheat(hash,p1) end
 --@params p1 int
 --@params p2 int
 --@return void
-function PlaystatsDroneUsage(p0,p1,p2) end
+function PlaystatsDroneUsage(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1870,7 +2055,8 @@ function PlaystatsDroneUsage(p0,p1,p2) end
 --@usage void PLAYSTATS_CHEAT_APPLIED(char* cheat);
 --@params cheat char*
 --@return void
-function PlaystatsCheatApplied(cheat) end
+function PlaystatsCheatApplied(cheat)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1882,7 +2068,8 @@ function PlaystatsCheatApplied(cheat) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function PlaystatsImpExp(p0,p1,p2,p3) end
+function PlaystatsImpExp(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1894,7 +2081,8 @@ function PlaystatsImpExp(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function PlaystatsH2InstanceEnd(data,p1,p2,p3) end
+function PlaystatsH2InstanceEnd(data, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1906,7 +2094,8 @@ function PlaystatsH2InstanceEnd(data,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function PlaystatsMissionCheckpoint(p0,p1,p2,p3) end
+function PlaystatsMissionCheckpoint(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1916,7 +2105,8 @@ function PlaystatsMissionCheckpoint(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function PlaystatsFriendActivity(p0,p1) end
+function PlaystatsFriendActivity(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1928,7 +2118,8 @@ function PlaystatsFriendActivity(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function PlaystatsHoldUp(p0,p1,p2,p3) end
+function PlaystatsHoldUp(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1942,7 +2133,8 @@ function PlaystatsHoldUp(p0,p1,p2,p3) end
 --@params p4 BOOL
 --@params p5 BOOL
 --@return void
-function PlaystatsMissionOver(p0,p1,p2,p3,p4,p5) end
+function PlaystatsMissionOver(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1957,7 +2149,8 @@ function PlaystatsMissionOver(p0,p1,p2,p3,p4,p5) end
 --@params p5 Any
 --@params p6 Any
 --@return void
-function PlaystatsMatchStarted(p0,p1,p2,p3,p4,p5,p6) end
+function PlaystatsMatchStarted(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1966,7 +2159,8 @@ function PlaystatsMatchStarted(p0,p1,p2,p3,p4,p5,p6) end
 --@usage void PLAYSTATS_IDLE_KICK(int time);
 --@params time int
 --@return void
-function PlaystatsIdleKick(time) end
+function PlaystatsIdleKick(time)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1975,7 +2169,8 @@ function PlaystatsIdleKick(time) end
 --@usage void _PLAYSTATS_PEGASAIRCRAFT(Hash modelHash);
 --@params modelHash Hash
 --@return void
-function PlaystatsPegasaircraft(modelHash) end
+function PlaystatsPegasaircraft(modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1987,7 +2182,8 @@ function PlaystatsPegasaircraft(modelHash) end
 --@params p2 Any
 --@params p3 BOOL
 --@return void
-function PlaystatsMissionStarted(p0,p1,p2,p3) end
+function PlaystatsMissionStarted(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1996,7 +2192,8 @@ function PlaystatsMissionStarted(p0,p1,p2,p3) end
 --@usage void _PLAYSTATS_PI_MENU_HIDE_SETTINGS(Any* data);
 --@params data Any*
 --@return void
-function PlaystatsPiMenuHideSettings(data) end
+function PlaystatsPiMenuHideSettings(data)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2007,7 +2204,8 @@ function PlaystatsPiMenuHideSettings(data) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function PlaystatsOddjobDone(p0,p1,p2) end
+function PlaystatsOddjobDone(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2019,7 +2217,8 @@ function PlaystatsOddjobDone(p0,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function PlaystatsPropChange(p0,p1,p2,p3) end
+function PlaystatsPropChange(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2032,7 +2231,8 @@ function PlaystatsPropChange(p0,p1,p2,p3) end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function PlaystatsRaceCheckpoint(p0,p1,p2,p3,p4) end
+function PlaystatsRaceCheckpoint(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2044,7 +2244,8 @@ function PlaystatsRaceCheckpoint(p0,p1,p2,p3,p4) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function PlaystatsRandomMissionDone(name,p1,p2,p3) end
+function PlaystatsRandomMissionDone(name, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2062,7 +2263,8 @@ function PlaystatsRandomMissionDone(name,p1,p2,p3) end
 --@params p8 Any
 --@params p9 Any
 --@return void
-function PlaystatsRaceToPoint(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function PlaystatsRaceToPoint(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2072,7 +2274,8 @@ function PlaystatsRaceToPoint(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@params element int
 --@params item char*
 --@return void
-function PlaystatsQuickfixTool(element,item) end
+function PlaystatsQuickfixTool(element, item)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2081,7 +2284,8 @@ function PlaystatsQuickfixTool(element,item) end
 --@usage void PLAYSTATS_RANK_UP(int rank);
 --@params rank int
 --@return void
-function PlaystatsRankUp(rank) end
+function PlaystatsRankUp(rank)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2094,7 +2298,8 @@ function PlaystatsRankUp(rank) end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function PlaystatsShopItem(p0,p1,p2,p3,p4) end
+function PlaystatsShopItem(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2103,7 +2308,8 @@ function PlaystatsShopItem(p0,p1,p2,p3,p4) end
 --@usage void _PLAYSTATS_SMUG_MISSION_ENDED(Any* data);
 --@params data Any*
 --@return void
-function PlaystatsSmugMissionEnded(data) end
+function PlaystatsSmugMissionEnded(data)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2115,7 +2321,8 @@ function PlaystatsSmugMissionEnded(data) end
 --@params p2 int
 --@params p3 int
 --@return void
-function PlaystatsSpectatorWheelSpin(p0,p1,p2,p3) end
+function PlaystatsSpectatorWheelSpin(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2124,7 +2331,8 @@ function PlaystatsSpectatorWheelSpin(p0,p1,p2,p3) end
 --@usage void _PLAYSTATS_STONE_HATCHET_END(Any* data);
 --@params data Any*
 --@return void
-function PlaystatsStoneHatchetEnd(data) end
+function PlaystatsStoneHatchetEnd(data)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2133,7 +2341,8 @@ function PlaystatsStoneHatchetEnd(data) end
 --@usage void _PLAYSTATS_STUNT_PERFORMED_EVENT_DISALLOW_TRIGGER();
 
 --@return void
-function PlaystatsStuntPerformedEventDisallowTrigger() end
+function PlaystatsStuntPerformedEventDisallowTrigger()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2142,7 +2351,8 @@ function PlaystatsStuntPerformedEventDisallowTrigger() end
 --@usage void _PLAYSTATS_START_OFFLINE_MODE();
 
 --@return void
-function PlaystatsStartOfflineMode() end
+function PlaystatsStartOfflineMode()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2151,7 +2361,8 @@ function PlaystatsStartOfflineMode() end
 --@usage void _PLAYSTATS_STUNT_PERFORMED_EVENT_ALLOW_TRIGGER();
 
 --@return void
-function PlaystatsStuntPerformedEventAllowTrigger() end
+function PlaystatsStuntPerformedEventAllowTrigger()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2160,7 +2371,8 @@ function PlaystatsStuntPerformedEventAllowTrigger() end
 --@usage void _SET_HAS_CONTENT_UNLOCKS_FLAGS(int value);
 --@params value int
 --@return void
-function SetHasContentUnlocksFlags(value) end
+function SetHasContentUnlocksFlags(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2169,7 +2381,8 @@ function SetHasContentUnlocksFlags(value) end
 --@usage Any STAT_CLEAR_SLOT_FOR_RELOAD(int statSlot);
 --@params statSlot int
 --@return Any
-function StatClearSlotForReload(statSlot) end
+function StatClearSlotForReload(statSlot)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2180,7 +2393,8 @@ function StatClearSlotForReload(statSlot) end
 --@params componentHashTo Any
 --@params componentHashFrom Any
 --@return void
-function PlaystatsWeaponModeChange(weaponHash,componentHashTo,componentHashFrom) end
+function PlaystatsWeaponModeChange(weaponHash, componentHashTo, componentHashFrom)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2189,7 +2403,8 @@ function PlaystatsWeaponModeChange(weaponHash,componentHashTo,componentHashFrom)
 --@usage Any STAT_DELETE_SLOT(Any p0);
 --@params p0 Any
 --@return Any
-function StatDeleteSlot(p0) end
+function StatDeleteSlot(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2199,7 +2414,8 @@ function StatDeleteSlot(p0) end
 --@params scaleformHash Hash
 --@params p1 int
 --@return void
-function PlaystatsWebsiteVisited(scaleformHash,p1) end
+function PlaystatsWebsiteVisited(scaleformHash, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2210,7 +2426,8 @@ function PlaystatsWebsiteVisited(scaleformHash,p1) end
 --@params mask int
 --@params p2 int
 --@return BOOL
-function StatGetBoolMasked(statName,mask,p2) end
+function StatGetBoolMasked(statName, mask, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2219,7 +2436,8 @@ function StatGetBoolMasked(statName,mask,p2) end
 --@usage void _SET_SAVE_MIGRATION_TRANSACTION_ID(int transactionId);
 --@params transactionId int
 --@return void
-function SetSaveMigrationTransactionId(transactionId) end
+function SetSaveMigrationTransactionId(transactionId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2231,7 +2449,8 @@ function SetSaveMigrationTransactionId(transactionId) end
 --@params p2 Any
 --@params p3 Any
 --@return BOOL
-function StatGetDate(statHash,p1,p2,p3) end
+function StatGetDate(statHash, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2240,7 +2459,8 @@ function StatGetDate(statHash,p1,p2,p3) end
 --@usage void _PLAYSTATS_SPENT_PI_CUSTOM_LOADOUT(int amount);
 --@params amount int
 --@return void
-function PlaystatsSpentPiCustomLoadout(amount) end
+function PlaystatsSpentPiCustomLoadout(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2251,7 +2471,8 @@ function PlaystatsSpentPiCustomLoadout(amount) end
 --@params outValue BOOL*
 --@params p2 Any
 --@return BOOL
-function StatGetBool(statHash,outValue,p2) end
+function StatGetBool(statHash, outValue, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2263,7 +2484,8 @@ function StatGetBool(statHash,outValue,p2) end
 --@params player Player
 --@params cm float
 --@return void
-function PlaystatsRosBet(amount,act,player,cm) end
+function PlaystatsRosBet(amount, act, player, cm)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2272,7 +2494,8 @@ function PlaystatsRosBet(amount,act,player,cm) end
 --@usage int _STAT_GET_CANCEL_SAVE_MIGRATION_STATUS();
 
 --@return int
-function StatGetCancelSaveMigrationStatus() end
+function StatGetCancelSaveMigrationStatus()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2281,7 +2504,8 @@ function StatGetCancelSaveMigrationStatus() end
 --@usage char* STAT_GET_LICENSE_PLATE(Hash statName);
 --@params statName Hash
 --@return char*
-function StatGetLicensePlate(statName) end
+function StatGetLicensePlate(statName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2292,7 +2516,8 @@ function StatGetLicensePlate(statName) end
 --@params outValue float*
 --@params p2 Any
 --@return BOOL
-function StatGetFloat(statHash,outValue,p2) end
+function StatGetFloat(statHash, outValue, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2303,7 +2528,8 @@ function StatGetFloat(statHash,outValue,p2) end
 --@params outValue int*
 --@params p2 int
 --@return BOOL
-function StatGetInt(statHash,outValue,p2) end
+function StatGetInt(statHash, outValue, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2316,7 +2542,8 @@ function StatGetInt(statHash,outValue,p2) end
 --@params p3 Any
 --@params p4 Any
 --@return BOOL
-function StatGetMaskedInt(p0,p1,p2,p3,p4) end
+function StatGetMaskedInt(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2325,7 +2552,8 @@ function StatGetMaskedInt(p0,p1,p2,p3,p4) end
 --@usage int STAT_GET_NUMBER_OF_MINUTES(Hash statName);
 --@params statName Hash
 --@return int
-function StatGetNumberOfMinutes(statName) end
+function StatGetNumberOfMinutes(statName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2334,7 +2562,8 @@ function StatGetNumberOfMinutes(statName) end
 --@usage void PLAYSTATS_NPC_INVITE(Any* p0);
 --@params p0 Any*
 --@return void
-function PlaystatsNpcInvite(p0) end
+function PlaystatsNpcInvite(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2343,7 +2572,8 @@ function PlaystatsNpcInvite(p0) end
 --@usage int STAT_GET_NUMBER_OF_SECONDS(Hash statName);
 --@params statName Hash
 --@return int
-function StatGetNumberOfSeconds(statName) end
+function StatGetNumberOfSeconds(statName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2356,7 +2586,8 @@ function StatGetNumberOfSeconds(statName) end
 --@params p3 Any*
 --@params p4 Any
 --@return BOOL
-function StatGetPos(p0,p1,p2,p3,p4) end
+function StatGetPos(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2365,7 +2596,8 @@ function StatGetPos(p0,p1,p2,p3,p4) end
 --@usage int _STAT_GET_SAVE_MIGRATION_CONSUME_CONTENT_UNLOCK_STATUS(Any* p0);
 --@params p0 Any*
 --@return int
-function StatGetSaveMigrationConsumeContentUnlockStatus(p0) end
+function StatGetSaveMigrationConsumeContentUnlockStatus(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2374,7 +2606,8 @@ function StatGetSaveMigrationConsumeContentUnlockStatus(p0) end
 --@usage int STAT_GET_NUMBER_OF_DAYS(Hash statName);
 --@params statName Hash
 --@return int
-function StatGetNumberOfDays(statName) end
+function StatGetNumberOfDays(statName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2384,7 +2617,8 @@ function StatGetNumberOfDays(statName) end
 --@params statHash Hash
 --@params p1 int
 --@return char*
-function StatGetString(statHash,p1) end
+function StatGetString(statHash, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2393,7 +2627,8 @@ function StatGetString(statHash,p1) end
 --@usage char* STAT_GET_USER_ID(Any p0);
 --@params p0 Any
 --@return char*
-function StatGetUserId(p0) end
+function StatGetUserId(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2403,7 +2638,8 @@ function StatGetUserId(p0) end
 --@params statName Hash
 --@params value float
 --@return void
-function StatIncrement(statName,value) end
+function StatIncrement(statName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2412,7 +2648,8 @@ function StatIncrement(statName,value) end
 --@usage int STAT_GET_SAVE_MIGRATION_STATUS(Any* data);
 --@params data Any*
 --@return int
-function StatGetSaveMigrationStatus(data) end
+function StatGetSaveMigrationStatus(data)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2421,7 +2658,8 @@ function StatGetSaveMigrationStatus(data) end
 --@usage BOOL _STAT_MIGRATE_SAVE(char* platformName);
 --@params platformName char*
 --@return BOOL
-function StatMigrateSave(platformName) end
+function StatMigrateSave(platformName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2430,7 +2668,8 @@ function StatMigrateSave(platformName) end
 --@usage int STAT_GET_NUMBER_OF_HOURS(Hash statName);
 --@params statName Hash
 --@return int
-function StatGetNumberOfHours(statName) end
+function StatGetNumberOfHours(statName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2439,7 +2678,8 @@ function StatGetNumberOfHours(statName) end
 --@usage BOOL STAT_LOAD(int p0);
 --@params p0 int
 --@return BOOL
-function StatLoad(p0) end
+function StatLoad(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2450,7 +2690,8 @@ function StatLoad(p0) end
 --@params srcPlatform char*
 --@params srcGamerHandle char*
 --@return BOOL
-function StatSaveMigrationConsumeContentUnlock(contentId,srcPlatform,srcGamerHandle) end
+function StatSaveMigrationConsumeContentUnlock(contentId, srcPlatform, srcGamerHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2459,7 +2700,8 @@ function StatSaveMigrationConsumeContentUnlock(contentId,srcPlatform,srcGamerHan
 --@usage BOOL STAT_SAVE_MIGRATION_STATUS_START();
 
 --@return BOOL
-function StatSaveMigrationStatusStart() end
+function StatSaveMigrationStatusStart()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2470,7 +2712,8 @@ function StatSaveMigrationStatusStart() end
 --@params p1 BOOL
 --@params p2 int
 --@return BOOL
-function StatSave(p0,p1,p2) end
+function StatSave(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2479,7 +2722,8 @@ function StatSave(p0,p1,p2) end
 --@usage BOOL STAT_LOAD_PENDING(Any p0);
 --@params p0 Any
 --@return BOOL
-function StatLoadPending(p0) end
+function StatLoadPending(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2488,7 +2732,8 @@ function StatLoadPending(p0) end
 --@usage Any STAT_SAVE_PENDING();
 
 --@return Any
-function StatSavePending() end
+function StatSavePending()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2499,7 +2744,8 @@ function StatSavePending() end
 --@params value BOOL
 --@params save BOOL
 --@return BOOL
-function StatSetBool(statName,value,save) end
+function StatSetBool(statName, value, save)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2511,7 +2757,8 @@ function StatSetBool(statName,value,save) end
 --@params mask int
 --@params save BOOL
 --@return BOOL
-function StatSetBoolMasked(statName,value,mask,save) end
+function StatSetBoolMasked(statName, value, mask, save)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2521,7 +2768,8 @@ function StatSetBoolMasked(statName,value,mask,save) end
 --@params statName Hash
 --@params p1 BOOL
 --@return BOOL
-function StatSetCurrentPosixTime(statName,p1) end
+function StatSetCurrentPosixTime(statName, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2532,7 +2780,8 @@ function StatSetCurrentPosixTime(statName,p1) end
 --@params value char*
 --@params save BOOL
 --@return BOOL
-function StatSetGxtLabel(statName,value,save) end
+function StatSetGxtLabel(statName, value, save)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2543,7 +2792,8 @@ function StatSetGxtLabel(statName,value,save) end
 --@params value float
 --@params save BOOL
 --@return BOOL
-function StatSetFloat(statName,value,save) end
+function StatSetFloat(statName, value, save)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2554,7 +2804,8 @@ function StatSetFloat(statName,value,save) end
 --@params value int
 --@params save BOOL
 --@return BOOL
-function StatSetInt(statName,value,save) end
+function StatSetInt(statName, value, save)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2567,7 +2818,8 @@ function StatSetInt(statName,value,save) end
 --@params z float
 --@params save BOOL
 --@return BOOL
-function StatSetPos(statName,x,y,z,save) end
+function StatSetPos(statName, x, y, z, save)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2579,7 +2831,8 @@ function StatSetPos(statName,x,y,z,save) end
 --@params numFields int
 --@params save BOOL
 --@return BOOL
-function StatSetDate(statName,value,numFields,save) end
+function StatSetDate(statName, value, numFields, save)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2588,7 +2841,8 @@ function StatSetDate(statName,value,numFields,save) end
 --@usage Any STAT_SAVE_PENDING_OR_REQUESTED();
 
 --@return Any
-function StatSavePendingOrRequested() end
+function StatSavePendingOrRequested()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2599,7 +2853,8 @@ function StatSavePendingOrRequested() end
 --@params value char*
 --@params save BOOL
 --@return BOOL
-function StatSetString(statName,value,save) end
+function StatSetString(statName, value, save)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2612,7 +2867,8 @@ function StatSetString(statName,value,save) end
 --@params p3 int
 --@params save BOOL
 --@return BOOL
-function StatSetMaskedInt(statName,p1,p2,p3,save) end
+function StatSetMaskedInt(statName, p1, p2, p3, save)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2622,7 +2878,8 @@ function StatSetMaskedInt(statName,p1,p2,p3,save) end
 --@params statName Hash
 --@params str char*
 --@return BOOL
-function StatSetLicensePlate(statName,str) end
+function StatSetLicensePlate(statName, str)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2633,7 +2890,8 @@ function StatSetLicensePlate(statName,str) end
 --@params value char*
 --@params save BOOL
 --@return BOOL
-function StatSetUserId(statName,value,save) end
+function StatSetUserId(statName, value, save)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2642,7 +2900,8 @@ function StatSetUserId(statName,value,save) end
 --@usage BOOL STAT_SLOT_IS_LOADED(Any p0);
 --@params p0 Any
 --@return BOOL
-function StatSlotIsLoaded(p0) end
+function StatSlotIsLoaded(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2653,7 +2912,8 @@ function StatSlotIsLoaded(p0) end
 --@params value float
 --@params p2 int
 --@return void
-function UpdateStatFloat(statHash,value,p2) end
+function UpdateStatFloat(statHash, value, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2664,7 +2924,8 @@ function UpdateStatFloat(statHash,value,p2) end
 --@params value int
 --@params p2 int
 --@return void
-function UpdateStatInt(statHash,value,p2) end
+function UpdateStatInt(statHash, value, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2673,7 +2934,8 @@ function UpdateStatInt(statHash,value,p2) end
 --@usage BOOL _STAT_SAVE_MIGRATION_CANCEL();
 
 --@return BOOL
-function StatSaveMigrationCancel() end
+function StatSaveMigrationCancel()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2683,4 +2945,5 @@ function StatSaveMigrationCancel() end
 --@params profileSetting int
 --@params value int
 --@return void
-function StatSetProfileSettingValue(profileSetting,value) end
+function StatSetProfileSettingValue(profileSetting, value)
+end

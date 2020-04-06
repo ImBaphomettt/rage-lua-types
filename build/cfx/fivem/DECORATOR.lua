@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule DECORATOR
@@ -7,7 +6,8 @@
 --@params entity Entity
 --@params propertyName char*
 --@return BOOL
-function DecorGetBool(entity,propertyName) end
+function DecorGetBool(entity, propertyName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -17,7 +17,8 @@ function DecorGetBool(entity,propertyName) end
 --@params entity Entity
 --@params propertyName char*
 --@return float
-function DecorGetFloat(entity,propertyName) end
+function DecorGetFloat(entity, propertyName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -27,7 +28,8 @@ function DecorGetFloat(entity,propertyName) end
 --@params propertyName char*
 --@params type int
 --@return BOOL
-function DecorIsRegisteredAsType(propertyName,type) end
+function DecorIsRegisteredAsType(propertyName, type)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -37,7 +39,8 @@ function DecorIsRegisteredAsType(propertyName,type) end
 --@params entity Entity
 --@params propertyName char*
 --@return int
-function DecorGetInt(entity,propertyName) end
+function DecorGetInt(entity, propertyName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -47,7 +50,8 @@ function DecorGetInt(entity,propertyName) end
 --@params entity Entity
 --@params propertyName char*
 --@return BOOL
-function DecorExistOn(entity,propertyName) end
+function DecorExistOn(entity, propertyName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -58,7 +62,8 @@ function DecorExistOn(entity,propertyName) end
 --@params propertyName char*
 --@params value BOOL
 --@return BOOL
-function DecorSetBool(entity,propertyName,value) end
+function DecorSetBool(entity, propertyName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -68,7 +73,8 @@ function DecorSetBool(entity,propertyName,value) end
 --@params entity Entity
 --@params propertyName char*
 --@return BOOL
-function DecorRemove(entity,propertyName) end
+function DecorRemove(entity, propertyName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -77,7 +83,8 @@ function DecorRemove(entity,propertyName) end
 --@usage void DECOR_REGISTER_LOCK();
 
 --@return void
-function DecorRegisterLock() end
+function DecorRegisterLock()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -87,7 +94,8 @@ function DecorRegisterLock() end
 --@params propertyName char*
 --@params type int
 --@return void
-function DecorRegister(propertyName,type) end
+function DecorRegister(propertyName, type)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -98,7 +106,8 @@ function DecorRegister(propertyName,type) end
 --@params propertyName char*
 --@params value float
 --@return BOOL
-function DecorSetFloat(entity,propertyName,value) end
+function DecorSetFloat(entity, propertyName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -109,7 +118,8 @@ function DecorSetFloat(entity,propertyName,value) end
 --@params propertyName char*
 --@params value int
 --@return BOOL
-function DecorSetInt(entity,propertyName,value) end
+function DecorSetInt(entity, propertyName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -120,7 +130,8 @@ function DecorSetInt(entity,propertyName,value) end
 --@params propertyName char*
 --@params timestamp int
 --@return BOOL
-function DecorSetTime(entity,propertyName,timestamp) end
+function DecorSetTime(entity, propertyName, timestamp)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -129,4 +140,5 @@ function DecorSetTime(entity,propertyName,timestamp) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x241fca5b1aa14f75() end
+function N_0x241fca5b1aa14f75()
+end

@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule AUDIO
@@ -6,7 +5,8 @@
 --@usage void ACTIVATE_AUDIO_SLOWMO_MODE(char* p0);
 --@params p0 char*
 --@return void
-function ActivateAudioSlowmoMode(p0) end
+function ActivateAudioSlowmoMode(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -27,7 +27,8 @@ function ActivateAudioSlowmoMode(p0) end
 --@params p11 BOOL
 --@params p12 BOOL
 --@return void
-function AddLineToConversation(index,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12) end
+function AddLineToConversation(index, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -36,7 +37,8 @@ function AddLineToConversation(index,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12) end
 --@usage void BLIP_SIREN(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function BlipSiren(vehicle) end
+function BlipSiren(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -47,7 +49,8 @@ function BlipSiren(vehicle) end
 --@params groupName char*
 --@params p2 float
 --@return void
-function AddEntityToAudioMixGroup(entity,groupName,p2) end
+function AddEntityToAudioMixGroup(entity, groupName, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -56,7 +59,8 @@ function AddEntityToAudioMixGroup(entity,groupName,p2) end
 --@usage Any AUDIO_IS_SCRIPTED_MUSIC_PLAYING();
 
 --@return Any
-function AudioIsScriptedMusicPlaying() end
+function AudioIsScriptedMusicPlaying()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -65,7 +69,8 @@ function AudioIsScriptedMusicPlaying() end
 --@usage BOOL CANCEL_MUSIC_EVENT(char* eventName);
 --@params eventName char*
 --@return BOOL
-function CancelMusicEvent(eventName) end
+function CancelMusicEvent(eventName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -74,7 +79,8 @@ function CancelMusicEvent(eventName) end
 --@usage void BLOCK_DEATH_JINGLE(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function BlockDeathJingle(toggle) end
+function BlockDeathJingle(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -85,7 +91,8 @@ function BlockDeathJingle(toggle) end
 --@params speechName char*
 --@params unk BOOL
 --@return BOOL
-function CanPedSpeak(ped,speechName,unk) end
+function CanPedSpeak(ped, speechName, unk)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -96,7 +103,8 @@ function CanPedSpeak(ped,speechName,unk) end
 --@params ped Ped
 --@params p2 char*
 --@return void
-function AddPedToConversation(index,ped,p2) end
+function AddPedToConversation(index, ped, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -105,7 +113,8 @@ function AddPedToConversation(index,ped,p2) end
 --@usage void CREATE_NEW_SCRIPTED_CONVERSATION();
 
 --@return void
-function CreateNewScriptedConversation() end
+function CreateNewScriptedConversation()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -115,7 +124,8 @@ function CreateNewScriptedConversation() end
 --@params p0 Any*
 --@params p1 BOOL
 --@return void
-function ClearAmbientZoneListState(p0,p1) end
+function ClearAmbientZoneListState(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -124,7 +134,8 @@ function ClearAmbientZoneListState(p0,p1) end
 --@usage void CLEAR_ALL_BROKEN_GLASS();
 
 --@return void
-function ClearAllBrokenGlass() end
+function ClearAllBrokenGlass()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -133,7 +144,8 @@ function ClearAllBrokenGlass() end
 --@usage void DEACTIVATE_AUDIO_SLOWMO_MODE(char* p0);
 --@params p0 char*
 --@return void
-function DeactivateAudioSlowmoMode(p0) end
+function DeactivateAudioSlowmoMode(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -142,7 +154,8 @@ function DeactivateAudioSlowmoMode(p0) end
 --@usage void _CANCEL_CURRENT_POLICE_REPORT();
 
 --@return void
-function CancelCurrentPoliceReport() end
+function CancelCurrentPoliceReport()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -151,7 +164,8 @@ function CancelCurrentPoliceReport() end
 --@usage void CLEAR_CUSTOM_RADIO_TRACK_LIST(char* radioStation);
 --@params radioStation char*
 --@return void
-function ClearCustomRadioTrackList(radioStation) end
+function ClearCustomRadioTrackList(radioStation)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -161,7 +175,8 @@ function ClearCustomRadioTrackList(radioStation) end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function EnableVehicleExhaustPops(vehicle,toggle) end
+function EnableVehicleExhaustPops(vehicle, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -171,7 +186,8 @@ function EnableVehicleExhaustPops(vehicle,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function DisablePedPainAudio(ped,toggle) end
+function DisablePedPainAudio(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -181,7 +197,8 @@ function DisablePedPainAudio(ped,toggle) end
 --@params zoneName char*
 --@params p1 BOOL
 --@return void
-function ClearAmbientZoneState(zoneName,p1) end
+function ClearAmbientZoneState(zoneName, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -191,7 +208,8 @@ function ClearAmbientZoneState(zoneName,p1) end
 --@params vehicle Vehicle
 --@params audioName char*
 --@return void
-function ForceVehicleEngineAudio(vehicle,audioName) end
+function ForceVehicleEngineAudio(vehicle, audioName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -200,7 +218,8 @@ function ForceVehicleEngineAudio(vehicle,audioName) end
 --@usage void FREEZE_RADIO_STATION(char* radioStation);
 --@params radioStation char*
 --@return void
-function FreezeRadioStation(radioStation) end
+function FreezeRadioStation(radioStation)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -210,7 +229,8 @@ function FreezeRadioStation(radioStation) end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function EnableStallWarningSounds(vehicle,toggle) end
+function EnableStallWarningSounds(vehicle, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -219,7 +239,8 @@ function EnableStallWarningSounds(vehicle,toggle) end
 --@usage void DISTANT_COP_CAR_SIRENS(BOOL value);
 --@params value BOOL
 --@return void
-function DistantCopCarSirens(value) end
+function DistantCopCarSirens(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -228,7 +249,8 @@ function DistantCopCarSirens(value) end
 --@usage Any _GET_AMBIENT_VOICE_NAME_HASH(Ped ped);
 --@params ped Ped
 --@return Any
-function GetAmbientVoiceNameHash(ped) end
+function GetAmbientVoiceNameHash(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -237,7 +259,8 @@ function GetAmbientVoiceNameHash(ped) end
 --@usage BOOL DOES_PLAYER_VEH_HAVE_RADIO();
 
 --@return BOOL
-function DoesPlayerVehHaveRadio() end
+function DoesPlayerVehHaveRadio()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -246,7 +269,8 @@ function DoesPlayerVehHaveRadio() end
 --@usage int GET_CURRENT_SCRIPTED_CONVERSATION_LINE();
 
 --@return int
-function GetCurrentScriptedConversationLine() end
+function GetCurrentScriptedConversationLine()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -255,7 +279,8 @@ function GetCurrentScriptedConversationLine() end
 --@usage int GET_AUDIBLE_MUSIC_TRACK_TEXT_ID();
 
 --@return int
-function GetAudibleMusicTrackTextId() end
+function GetAudibleMusicTrackTextId()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -264,7 +289,8 @@ function GetAudibleMusicTrackTextId() end
 --@usage int GET_MUSIC_PLAYTIME();
 
 --@return int
-function GetMusicPlaytime() end
+function GetMusicPlaytime()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -273,7 +299,8 @@ function GetMusicPlaytime() end
 --@usage BOOL GET_IS_PRELOADED_CONVERSATION_READY();
 
 --@return BOOL
-function GetIsPreloadedConversationReady() end
+function GetIsPreloadedConversationReady()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -282,7 +309,8 @@ function GetIsPreloadedConversationReady() end
 --@usage int GET_NUM_UNLOCKED_RADIO_STATIONS();
 
 --@return int
-function GetNumUnlockedRadioStations() end
+function GetNumUnlockedRadioStations()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -291,7 +319,8 @@ function GetNumUnlockedRadioStations() end
 --@usage int GET_NETWORK_ID_FROM_SOUND_ID(int soundId);
 --@params soundId int
 --@return int
-function GetNetworkIdFromSoundId(soundId) end
+function GetNetworkIdFromSoundId(soundId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -300,7 +329,8 @@ function GetNetworkIdFromSoundId(soundId) end
 --@usage int GET_PLAYER_RADIO_STATION_INDEX();
 
 --@return int
-function GetPlayerRadioStationIndex() end
+function GetPlayerRadioStationIndex()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -309,7 +339,8 @@ function GetPlayerRadioStationIndex() end
 --@usage int GET_PLAYER_RADIO_STATION_GENRE();
 
 --@return int
-function GetPlayerRadioStationGenre() end
+function GetPlayerRadioStationGenre()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -318,7 +349,8 @@ function GetPlayerRadioStationGenre() end
 --@usage void FREEZE_MICROPHONE();
 
 --@return void
-function FreezeMicrophone() end
+function FreezeMicrophone()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -327,7 +359,8 @@ function FreezeMicrophone() end
 --@usage char* GET_PLAYER_RADIO_STATION_NAME();
 
 --@return char*
-function GetPlayerRadioStationName() end
+function GetPlayerRadioStationName()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -336,7 +369,8 @@ function GetPlayerRadioStationName() end
 --@usage int GET_STREAM_PLAY_TIME();
 
 --@return int
-function GetStreamPlayTime() end
+function GetStreamPlayTime()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -345,7 +379,8 @@ function GetStreamPlayTime() end
 --@usage char* GET_RADIO_STATION_NAME(int radioStation);
 --@params radioStation int
 --@return char*
-function GetRadioStationName(radioStation) end
+function GetRadioStationName(radioStation)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -354,7 +389,8 @@ function GetRadioStationName(radioStation) end
 --@usage Hash GET_VEHICLE_DEFAULT_HORN(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return Hash
-function GetVehicleDefaultHorn(vehicle) end
+function GetVehicleDefaultHorn(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -363,7 +399,8 @@ function GetVehicleDefaultHorn(vehicle) end
 --@usage BOOL _HAS_MULTIPLAYER_AUDIO_DATA_LOADED();
 
 --@return BOOL
-function HasMultiplayerAudioDataLoaded() end
+function HasMultiplayerAudioDataLoaded()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -372,7 +409,8 @@ function HasMultiplayerAudioDataLoaded() end
 --@usage int GET_SOUND_ID_FROM_NETWORK_ID(int netId);
 --@params netId int
 --@return int
-function GetSoundIdFromNetworkId(netId) end
+function GetSoundIdFromNetworkId(netId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -381,7 +419,8 @@ function GetSoundIdFromNetworkId(netId) end
 --@usage BOOL _HAS_MULTIPLAYER_AUDIO_DATA_UNLOADED();
 
 --@return BOOL
-function HasMultiplayerAudioDataUnloaded() end
+function HasMultiplayerAudioDataUnloaded()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -390,7 +429,8 @@ function HasMultiplayerAudioDataUnloaded() end
 --@usage Hash GET_VEHICLE_DEFAULT_HORN_IGNORE_MODS(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return Hash
-function GetVehicleDefaultHornIgnoreMods(vehicle) end
+function GetVehicleDefaultHornIgnoreMods(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -400,7 +440,8 @@ function GetVehicleDefaultHornIgnoreMods(vehicle) end
 --@params p0 Any
 --@params p1 int
 --@return Any
-function HintAmbientAudioBank(p0,p1) end
+function HintAmbientAudioBank(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -409,7 +450,8 @@ function HintAmbientAudioBank(p0,p1) end
 --@usage int _GET_VEHICLE_DEFAULT_HORN_VARIATION(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleDefaultHornVariation(vehicle) end
+function GetVehicleDefaultHornVariation(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -418,7 +460,8 @@ function GetVehicleDefaultHornVariation(vehicle) end
 --@usage BOOL HAS_SOUND_FINISHED(int soundId);
 --@params soundId int
 --@return BOOL
-function HasSoundFinished(soundId) end
+function HasSoundFinished(soundId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -429,7 +472,8 @@ function HasSoundFinished(soundId) end
 --@params p1 Any*
 --@params p2 Any*
 --@return void
-function InterruptConversation(p0,p1,p2) end
+function InterruptConversation(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -439,7 +483,8 @@ function InterruptConversation(p0,p1,p2) end
 --@params p0 Any
 --@params p1 int
 --@return Any
-function HintScriptAudioBank(p0,p1) end
+function HintScriptAudioBank(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -448,7 +493,8 @@ function HintScriptAudioBank(p0,p1) end
 --@usage BOOL IS_ALARM_PLAYING(char* alarmName);
 --@params alarmName char*
 --@return BOOL
-function IsAlarmPlaying(alarmName) end
+function IsAlarmPlaying(alarmName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -459,7 +505,8 @@ function IsAlarmPlaying(alarmName) end
 --@params p1 char*
 --@params p2 char*
 --@return void
-function InterruptConversationAndPause(p0,p1,p2) end
+function InterruptConversationAndPause(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -468,7 +515,8 @@ function InterruptConversationAndPause(p0,p1,p2) end
 --@usage BOOL IS_AMBIENT_SPEECH_DISABLED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsAmbientSpeechDisabled(ped) end
+function IsAmbientSpeechDisabled(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -477,7 +525,8 @@ function IsAmbientSpeechDisabled(ped) end
 --@usage BOOL IS_AMBIENT_ZONE_ENABLED(char* ambientZone);
 --@params ambientZone char*
 --@return BOOL
-function IsAmbientZoneEnabled(ambientZone) end
+function IsAmbientZoneEnabled(ambientZone)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -486,7 +535,8 @@ function IsAmbientZoneEnabled(ambientZone) end
 --@usage BOOL IS_AMBIENT_SPEECH_PLAYING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsAmbientSpeechPlaying(ped) end
+function IsAmbientSpeechPlaying(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -495,7 +545,8 @@ function IsAmbientSpeechPlaying(ped) end
 --@usage BOOL IS_ANY_SPEECH_PLAYING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsAnySpeechPlaying(ped) end
+function IsAnySpeechPlaying(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -504,7 +555,8 @@ function IsAnySpeechPlaying(ped) end
 --@usage BOOL IS_ANIMAL_VOCALIZATION_PLAYING(Ped pedHandle);
 --@params pedHandle Ped
 --@return BOOL
-function IsAnimalVocalizationPlaying(pedHandle) end
+function IsAnimalVocalizationPlaying(pedHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -513,7 +565,8 @@ function IsAnimalVocalizationPlaying(pedHandle) end
 --@usage BOOL IS_GAME_IN_CONTROL_OF_MUSIC();
 
 --@return BOOL
-function IsGameInControlOfMusic() end
+function IsGameInControlOfMusic()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -522,7 +575,8 @@ function IsGameInControlOfMusic() end
 --@usage BOOL IS_AUDIO_SCENE_ACTIVE(char* scene);
 --@params scene char*
 --@return BOOL
-function IsAudioSceneActive(scene) end
+function IsAudioSceneActive(scene)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -531,7 +585,8 @@ function IsAudioSceneActive(scene) end
 --@usage BOOL IS_MISSION_COMPLETE_PLAYING();
 
 --@return BOOL
-function IsMissionCompletePlaying() end
+function IsMissionCompletePlaying()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -540,7 +595,8 @@ function IsMissionCompletePlaying() end
 --@usage BOOL IS_HORN_ACTIVE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsHornActive(vehicle) end
+function IsHornActive(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -549,7 +605,8 @@ function IsHornActive(vehicle) end
 --@usage BOOL IS_MISSION_COMPLETE_READY_FOR_UI();
 
 --@return BOOL
-function IsMissionCompleteReadyForUi() end
+function IsMissionCompleteReadyForUi()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -558,7 +615,8 @@ function IsMissionCompleteReadyForUi() end
 --@usage int IS_MISSION_NEWS_STORY_UNLOCKED(int newsStory);
 --@params newsStory int
 --@return int
-function IsMissionNewsStoryUnlocked(newsStory) end
+function IsMissionNewsStoryUnlocked(newsStory)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -567,7 +625,8 @@ function IsMissionNewsStoryUnlocked(newsStory) end
 --@usage BOOL IS_MOBILE_PHONE_CALL_ONGOING();
 
 --@return BOOL
-function IsMobilePhoneCallOngoing() end
+function IsMobilePhoneCallOngoing()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -576,7 +635,8 @@ function IsMobilePhoneCallOngoing() end
 --@usage int FIND_RADIO_STATION_INDEX(int station);
 --@params station int
 --@return int
-function FindRadioStationIndex(station) end
+function FindRadioStationIndex(station)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -585,7 +645,8 @@ function FindRadioStationIndex(station) end
 --@usage BOOL IS_MUSIC_ONESHOT_PLAYING();
 
 --@return BOOL
-function IsMusicOneshotPlaying() end
+function IsMusicOneshotPlaying()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -594,7 +655,8 @@ function IsMusicOneshotPlaying() end
 --@usage BOOL IS_PED_IN_CURRENT_CONVERSATION(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedInCurrentConversation(ped) end
+function IsPedInCurrentConversation(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -603,7 +665,8 @@ function IsPedInCurrentConversation(ped) end
 --@usage BOOL IS_PLAYER_VEH_RADIO_ENABLE();
 
 --@return BOOL
-function IsPlayerVehRadioEnable() end
+function IsPlayerVehRadioEnable()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -612,7 +675,8 @@ function IsPlayerVehRadioEnable() end
 --@usage BOOL IS_PED_RINGTONE_PLAYING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedRingtonePlaying(ped) end
+function IsPedRingtonePlaying(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -621,7 +685,8 @@ function IsPedRingtonePlaying(ped) end
 --@usage BOOL IS_RADIO_RETUNING();
 
 --@return BOOL
-function IsRadioRetuning() end
+function IsRadioRetuning()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -630,7 +695,8 @@ function IsRadioRetuning() end
 --@usage BOOL IS_RADIO_FADED_OUT();
 
 --@return BOOL
-function IsRadioFadedOut() end
+function IsRadioFadedOut()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -639,7 +705,8 @@ function IsRadioFadedOut() end
 --@usage BOOL IS_SCRIPTED_CONVERSATION_ONGOING();
 
 --@return BOOL
-function IsScriptedConversationOngoing() end
+function IsScriptedConversationOngoing()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -648,7 +715,8 @@ function IsScriptedConversationOngoing() end
 --@usage BOOL IS_SCRIPTED_CONVERSATION_LOADED();
 
 --@return BOOL
-function IsScriptedConversationLoaded() end
+function IsScriptedConversationLoaded()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -657,7 +725,8 @@ function IsScriptedConversationLoaded() end
 --@usage BOOL IS_SCRIPTED_SPEECH_PLAYING(Any p0);
 --@params p0 Any
 --@return BOOL
-function IsScriptedSpeechPlaying(p0) end
+function IsScriptedSpeechPlaying(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -666,7 +735,8 @@ function IsScriptedSpeechPlaying(p0) end
 --@usage BOOL IS_STREAM_PLAYING();
 
 --@return BOOL
-function IsStreamPlaying() end
+function IsStreamPlaying()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -675,7 +745,8 @@ function IsStreamPlaying() end
 --@usage BOOL _IS_VEHICLE_RADIO_LOUD(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleRadioLoud(vehicle) end
+function IsVehicleRadioLoud(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -685,7 +756,8 @@ function IsVehicleRadioLoud(vehicle) end
 --@params emitterName char*
 --@params entity Entity
 --@return void
-function LinkStaticEmitterToEntity(emitterName,entity) end
+function LinkStaticEmitterToEntity(emitterName, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -695,7 +767,8 @@ function LinkStaticEmitterToEntity(emitterName,entity) end
 --@params streamName char*
 --@params soundSet char*
 --@return BOOL
-function LoadStream(streamName,soundSet) end
+function LoadStream(streamName, soundSet)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -706,7 +779,8 @@ function LoadStream(streamName,soundSet) end
 --@params startOffset int
 --@params soundSet char*
 --@return BOOL
-function LoadStreamWithStartOffset(streamName,startOffset,soundSet) end
+function LoadStreamWithStartOffset(streamName, startOffset, soundSet)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -716,7 +790,8 @@ function LoadStreamWithStartOffset(streamName,startOffset,soundSet) end
 --@params radioStationName char*
 --@params toggle BOOL
 --@return void
-function LockRadioStation(radioStationName,toggle) end
+function LockRadioStation(radioStationName, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -725,7 +800,8 @@ function LockRadioStation(radioStationName,toggle) end
 --@usage void undefined();
 
 --@return void
-function N_0x0150b6ff25a9e2e5() end
+function N_0x0150b6ff25a9e2e5()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -734,7 +810,8 @@ function N_0x0150b6ff25a9e2e5() end
 --@usage BOOL IS_MOBILE_PHONE_RADIO_ACTIVE();
 
 --@return BOOL
-function IsMobilePhoneRadioActive() end
+function IsMobilePhoneRadioActive()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -744,7 +821,8 @@ function IsMobilePhoneRadioActive() end
 --@params vehicle Vehicle
 --@params p1 float
 --@return void
-function N_0x01bb4d577d38bd9e(vehicle,p1) end
+function N_0x01bb4d577d38bd9e(vehicle, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -754,7 +832,8 @@ function N_0x01bb4d577d38bd9e(vehicle,p1) end
 --@params vehicle Vehicle
 --@params value int
 --@return void
-function N_0x0350e7e17ba767d0(vehicle,value) end
+function N_0x0350e7e17ba767d0(vehicle, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -763,7 +842,8 @@ function N_0x0350e7e17ba767d0(vehicle,value) end
 --@usage void undefined();
 
 --@return void
-function N_0x062d5ead4da2fa6a() end
+function N_0x062d5ead4da2fa6a()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -773,7 +853,8 @@ function N_0x062d5ead4da2fa6a() end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function N_0x0653b735bfbdfe87(ped,toggle) end
+function N_0x0653b735bfbdfe87(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -782,7 +863,8 @@ function N_0x0653b735bfbdfe87(ped,toggle) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x0b568201dd99f0eb(p0) end
+function N_0x0b568201dd99f0eb(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -791,7 +873,8 @@ function N_0x0b568201dd99f0eb(p0) end
 --@usage BOOL undefined(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function N_0x0be4be946463f917(vehicle) end
+function N_0x0be4be946463f917(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -800,7 +883,8 @@ function N_0x0be4be946463f917(vehicle) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x11579d940949c49e(p0) end
+function N_0x11579d940949c49e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -810,7 +894,8 @@ function N_0x11579d940949c49e(p0) end
 --@params p0 float
 --@params p1 float
 --@return void
-function N_0x149aee66f0cb3a99(p0,p1) end
+function N_0x149aee66f0cb3a99(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -819,7 +904,8 @@ function N_0x149aee66f0cb3a99(p0,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x159b7318403a1cd8(p0) end
+function N_0x159b7318403a1cd8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -828,7 +914,8 @@ function N_0x159b7318403a1cd8(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0x19af7ed9b9d23058() end
+function N_0x19af7ed9b9d23058()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -839,7 +926,8 @@ function N_0x19af7ed9b9d23058() end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x1b7abe26cbcbf8c7(ped,p1,p2) end
+function N_0x1b7abe26cbcbf8c7(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -849,7 +937,8 @@ function N_0x1b7abe26cbcbf8c7(ped,p1,p2) end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function N_0x1c073274e065c6d2(vehicle,toggle) end
+function N_0x1c073274e065c6d2(vehicle, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -859,7 +948,8 @@ function N_0x1c073274e065c6d2(vehicle,toggle) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function N_0x29da3ca8d8b2692d(ped,toggle) end
+function N_0x29da3ca8d8b2692d(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -868,7 +958,8 @@ function N_0x29da3ca8d8b2692d(ped,toggle) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x2dd39bf3e2f9c47f() end
+function N_0x2dd39bf3e2f9c47f()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -880,7 +971,8 @@ function N_0x2dd39bf3e2f9c47f() end
 --@params p2 float
 --@params p3 float
 --@return void
-function N_0x33e3c6c6f2f0b506(p0,p1,p2,p3) end
+function N_0x33e3c6c6f2f0b506(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -889,7 +981,8 @@ function N_0x33e3c6c6f2f0b506(p0,p1,p2,p3) end
 --@usage Hash undefined(char* radioStationName);
 --@params radioStationName char*
 --@return Hash
-function N_0x34d66bc058019ce0(radioStationName) end
+function N_0x34d66bc058019ce0(radioStationName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -898,7 +991,8 @@ function N_0x34d66bc058019ce0(radioStationName) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x3a48ab4445d499be() end
+function N_0x3a48ab4445d499be()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -907,7 +1001,8 @@ function N_0x3a48ab4445d499be() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x3d120012440e6683() end
+function N_0x3d120012440e6683()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -916,7 +1011,8 @@ function N_0x3d120012440e6683() end
 --@usage int undefined(char* radioStationName);
 --@params radioStationName char*
 --@return int
-function N_0x3e65cde5215832c1(radioStationName) end
+function N_0x3e65cde5215832c1(radioStationName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -926,7 +1022,8 @@ function N_0x3e65cde5215832c1(radioStationName) end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function N_0x43fa0dfc5df87815(vehicle,p1) end
+function N_0x43fa0dfc5df87815(vehicle, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -937,7 +1034,8 @@ function N_0x43fa0dfc5df87815(vehicle,p1) end
 --@params p1 int
 --@params p2 int
 --@return Any
-function N_0x40763ea7b9b783e7(p0,p1,p2) end
+function N_0x40763ea7b9b783e7(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -947,7 +1045,8 @@ function N_0x40763ea7b9b783e7(p0,p1,p2) end
 --@params p0 BOOL
 --@params p1 BOOL
 --@return void
-function N_0x58bb377bec7cd5f4(p0,p1) end
+function N_0x58bb377bec7cd5f4(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -961,7 +1060,8 @@ function N_0x58bb377bec7cd5f4(p0,p1) end
 --@params p4 Any
 --@params p5 Any
 --@return void
-function N_0x5b9853296731e88d(p0,p1,p2,p3,p4,p5) end
+function N_0x5b9853296731e88d(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -970,7 +1070,8 @@ function N_0x5b9853296731e88d(p0,p1,p2,p3,p4,p5) end
 --@usage void undefined();
 
 --@return void
-function N_0x5d2bfaab8d956e0e() end
+function N_0x5d2bfaab8d956e0e()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -979,7 +1080,8 @@ function N_0x5d2bfaab8d956e0e() end
 --@usage BOOL undefined(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function N_0x5db8010ee71fdef2(vehicle) end
+function N_0x5db8010ee71fdef2(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -988,7 +1090,8 @@ function N_0x5db8010ee71fdef2(vehicle) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x61631f5df50d1c34(p0) end
+function N_0x61631f5df50d1c34(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -997,7 +1100,8 @@ function N_0x61631f5df50d1c34(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x66c3fb05206041ba(p0) end
+function N_0x66c3fb05206041ba(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1007,7 +1111,8 @@ function N_0x66c3fb05206041ba(p0) end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function N_0x6fddad856e36988a(vehicle,toggle) end
+function N_0x6fddad856e36988a(vehicle, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1017,7 +1122,8 @@ function N_0x6fddad856e36988a(vehicle,toggle) end
 --@params p0 BOOL
 --@params p1 Any
 --@return void
-function N_0x70b8ec8fc108a634(p0,p1) end
+function N_0x70b8ec8fc108a634(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1029,7 +1135,8 @@ function N_0x70b8ec8fc108a634(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function N_0x7ec3c679d0e7e46b(p0,p1,p2,p3) end
+function N_0x7ec3c679d0e7e46b(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1039,7 +1146,8 @@ function N_0x7ec3c679d0e7e46b(p0,p1,p2,p3) end
 --@params p0 int
 --@params entity Entity
 --@return void
-function N_0x892b6ab8f33606f5(p0,entity) end
+function N_0x892b6ab8f33606f5(p0, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1049,7 +1157,8 @@ function N_0x892b6ab8f33606f5(p0,entity) end
 --@params p0 float
 --@params p1 float
 --@return void
-function N_0x8bf907833be275de(p0,p1) end
+function N_0x8bf907833be275de(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1058,7 +1167,8 @@ function N_0x8bf907833be275de(p0,p1) end
 --@usage void undefined();
 
 --@return void
-function N_0x9ac92eed5e4793ab() end
+function N_0x9ac92eed5e4793ab()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1069,7 +1179,8 @@ function N_0x9ac92eed5e4793ab() end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x9bd7bd55e4533183(p0,p1,p2) end
+function N_0x9bd7bd55e4533183(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1079,7 +1190,8 @@ function N_0x9bd7bd55e4533183(p0,p1,p2) end
 --@params vehicle Vehicle
 --@params p1 float
 --@return void
-function N_0x9d3af56e94c9ae98(vehicle,p1) end
+function N_0x9d3af56e94c9ae98(vehicle, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1089,7 +1201,8 @@ function N_0x9d3af56e94c9ae98(vehicle,p1) end
 --@params ped Ped
 --@params p1 BOOL
 --@return void
-function N_0xa5342d390cda41d6(ped,p1) end
+function N_0xa5342d390cda41d6(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1098,7 +1211,8 @@ function N_0xa5342d390cda41d6(ped,p1) end
 --@usage void undefined(int p0);
 --@params p0 int
 --@return void
-function N_0xa5f377b175a699c5(p0) end
+function N_0xa5f377b175a699c5(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1108,7 +1222,8 @@ function N_0xa5f377b175a699c5(p0) end
 --@params p0 char*
 --@params p1 int
 --@return void
-function N_0xa8a7d434afb4b97b(p0,p1) end
+function N_0xa8a7d434afb4b97b(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1117,7 +1232,8 @@ function N_0xa8a7d434afb4b97b(p0,p1) end
 --@usage Any undefined(Any* p0);
 --@params p0 Any*
 --@return Any
-function N_0xaa19f5572c38b564(p0) end
+function N_0xaa19f5572c38b564(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1126,7 +1242,8 @@ function N_0xaa19f5572c38b564(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0xb81cf134aeb56ffb() end
+function N_0xb81cf134aeb56ffb()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1135,7 +1252,8 @@ function N_0xb81cf134aeb56ffb() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0xb542de8c3d1cb210(p0) end
+function N_0xb542de8c3d1cb210(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1144,7 +1262,8 @@ function N_0xb542de8c3d1cb210(p0) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0xbef34b1d9624d5dd(p0) end
+function N_0xbef34b1d9624d5dd(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1155,7 +1274,8 @@ function N_0xbef34b1d9624d5dd(p0) end
 --@params p1 BOOL
 --@params hash Any
 --@return void
-function N_0xbf4dc1784be94dfa(ped,p1,hash) end
+function N_0xbf4dc1784be94dfa(ped, p1, hash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1164,7 +1284,8 @@ function N_0xbf4dc1784be94dfa(ped,p1,hash) end
 --@usage void undefined(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function N_0xc1805d05e6d4fe10(vehicle) end
+function N_0xc1805d05e6d4fe10(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1175,7 +1296,8 @@ function N_0xc1805d05e6d4fe10(vehicle) end
 --@params p1 Any*
 --@params p2 int*
 --@return BOOL
-function N_0xc64a06d939f826f5(p0,p1,p2) end
+function N_0xc64a06d939f826f5(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1184,7 +1306,8 @@ function N_0xc64a06d939f826f5(p0,p1,p2) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0xc8b1b2425604cdd0() end
+function N_0xc8b1b2425604cdd0()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1196,7 +1319,8 @@ function N_0xc8b1b2425604cdd0() end
 --@params p2 float
 --@params p3 float
 --@return void
-function N_0xc8ede9bdbccba6d4(p0,p1,p2,p3) end
+function N_0xc8ede9bdbccba6d4(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1205,7 +1329,8 @@ function N_0xc8ede9bdbccba6d4(p0,p1,p2,p3) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xd2dccd8e16e20997(p0) end
+function N_0xd2dccd8e16e20997(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1214,7 +1339,8 @@ function N_0xd2dccd8e16e20997(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xca4cea6ae0000a7e(p0) end
+function N_0xca4cea6ae0000a7e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1223,7 +1349,8 @@ function N_0xca4cea6ae0000a7e(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xda07819e452ffe8f(p0) end
+function N_0xda07819e452ffe8f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1232,7 +1359,8 @@ function N_0xda07819e452ffe8f(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0xdd6bcf9e94425df9() end
+function N_0xdd6bcf9e94425df9()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1243,7 +1371,8 @@ function N_0xdd6bcf9e94425df9() end
 --@params p1 char*
 --@params p2 char*
 --@return void
-function N_0xf1f8157b8c3f171c(vehicle,p1,p2) end
+function N_0xf1f8157b8c3f171c(vehicle, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1252,7 +1381,8 @@ function N_0xf1f8157b8c3f171c(vehicle,p1,p2) end
 --@usage void undefined();
 
 --@return void
-function N_0xe4e6dd5566d28c82() end
+function N_0xe4e6dd5566d28c82()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1262,7 +1392,8 @@ function N_0xe4e6dd5566d28c82() end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function N_0xf3365489e0dd50f9(vehicle,toggle) end
+function N_0xf3365489e0dd50f9(vehicle, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1271,7 +1402,8 @@ function N_0xf3365489e0dd50f9(vehicle,toggle) end
 --@usage void undefined();
 
 --@return void
-function N_0xff266d1d0eb1195d() end
+function N_0xff266d1d0eb1195d()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1281,7 +1413,8 @@ function N_0xff266d1d0eb1195d() end
 --@params hash Any
 --@params toggle BOOL
 --@return void
-function OverridePlayerGroundMaterial(hash,toggle) end
+function OverridePlayerGroundMaterial(hash, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1291,7 +1424,8 @@ function OverridePlayerGroundMaterial(hash,toggle) end
 --@params hash Any
 --@params toggle BOOL
 --@return void
-function OverrideMicrophoneSettings(hash,toggle) end
+function OverrideMicrophoneSettings(hash, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1300,7 +1434,8 @@ function OverrideMicrophoneSettings(hash,toggle) end
 --@usage void OVERRIDE_TREVOR_RAGE(Any* p0);
 --@params p0 Any*
 --@return void
-function OverrideTrevorRage(p0) end
+function OverrideTrevorRage(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1310,7 +1445,8 @@ function OverrideTrevorRage(p0) end
 --@params p0 Any*
 --@params p1 BOOL
 --@return void
-function OverrideUnderwaterStream(p0,p1) end
+function OverrideUnderwaterStream(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1321,7 +1457,8 @@ function OverrideUnderwaterStream(p0,p1) end
 --@params override BOOL
 --@params hornHash int
 --@return void
-function OverrideVehHorn(vehicle,override,hornHash) end
+function OverrideVehHorn(vehicle, override, hornHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1330,7 +1467,8 @@ function OverrideVehHorn(vehicle,override,hornHash) end
 --@usage void PAUSE_SCRIPTED_CONVERSATION(BOOL p0);
 --@params p0 BOOL
 --@return void
-function PauseScriptedConversation(p0) end
+function PauseScriptedConversation(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1341,7 +1479,8 @@ function PauseScriptedConversation(p0) end
 --@params speechName char*
 --@params speechParam char*
 --@return void
-function PlayAmbientSpeech1(ped,speechName,speechParam) end
+function PlayAmbientSpeech1(ped, speechName, speechParam)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1352,7 +1491,8 @@ function PlayAmbientSpeech1(ped,speechName,speechParam) end
 --@params speechName char*
 --@params speechParam char*
 --@return void
-function PlayAmbientSpeech2(ped,speechName,speechParam) end
+function PlayAmbientSpeech2(ped, speechName, speechParam)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1365,7 +1505,8 @@ function PlayAmbientSpeech2(ped,speechName,speechParam) end
 --@params speechParam char*
 --@params p4 BOOL
 --@return void
-function PlayAmbientSpeechWithVoice(p0,speechName,voiceName,speechParam,p4) end
+function PlayAmbientSpeechWithVoice(p0, speechName, voiceName, speechParam, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1379,7 +1520,8 @@ function PlayAmbientSpeechWithVoice(p0,speechName,voiceName,speechParam,p4) end
 --@params p4 float
 --@params p5 char*
 --@return void
-function PlayAmbientSpeechAtCoords(p0,p1,p2,p3,p4,p5) end
+function PlayAmbientSpeechAtCoords(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1390,7 +1532,8 @@ function PlayAmbientSpeechAtCoords(p0,p1,p2,p3,p4,p5) end
 --@params p1 int
 --@params p2 char*
 --@return void
-function PlayAnimalVocalization(pedHandle,p1,p2) end
+function PlayAnimalVocalization(pedHandle, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1400,7 +1543,8 @@ function PlayAnimalVocalization(pedHandle,p1,p2) end
 --@params soundName char*
 --@params soundsetName char*
 --@return void
-function PlayDeferredSoundFrontend(soundName,soundsetName) end
+function PlayDeferredSoundFrontend(soundName, soundsetName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1409,7 +1553,8 @@ function PlayDeferredSoundFrontend(soundName,soundsetName) end
 --@usage void PLAY_END_CREDITS_MUSIC(BOOL play);
 --@params play BOOL
 --@return void
-function PlayEndCreditsMusic(play) end
+function PlayEndCreditsMusic(play)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1418,7 +1563,8 @@ function PlayEndCreditsMusic(play) end
 --@usage void PLAY_MISSION_COMPLETE_AUDIO(char* audioName);
 --@params audioName char*
 --@return void
-function PlayMissionCompleteAudio(audioName) end
+function PlayMissionCompleteAudio(audioName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1429,7 +1575,8 @@ function PlayMissionCompleteAudio(audioName) end
 --@params painID int
 --@params p1 int
 --@return void
-function PlayPain(ped,painID,p1) end
+function PlayPain(ped, painID, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1440,7 +1587,8 @@ function PlayPain(ped,painID,p1) end
 --@params ped Ped
 --@params p2 BOOL
 --@return void
-function PlayPedRingtone(ringtoneName,ped,p2) end
+function PlayPedRingtone(ringtoneName, ped, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1450,7 +1598,8 @@ function PlayPedRingtone(ringtoneName,ped,p2) end
 --@params name char*
 --@params p1 float
 --@return int
-function PlayPoliceReport(name,p1) end
+function PlayPoliceReport(name, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1464,7 +1613,8 @@ function PlayPoliceReport(name,p1) end
 --@params p4 Any
 --@params p5 BOOL
 --@return void
-function PlaySound(soundId,audioName,audioRef,p3,p4,p5) end
+function PlaySound(soundId, audioName, audioRef, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1478,7 +1628,8 @@ function PlaySound(soundId,audioName,audioRef,p3,p4,p5) end
 --@params p4 BOOL
 --@params p5 Any
 --@return void
-function PlaySoundFromEntity(soundId,audioName,entity,audioRef,p4,p5) end
+function PlaySoundFromEntity(soundId, audioName, entity, audioRef, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1495,7 +1646,8 @@ function PlaySoundFromEntity(soundId,audioName,entity,audioRef,p4,p5) end
 --@params range int
 --@params p8 BOOL
 --@return void
-function PlaySoundFromCoord(soundId,audioName,x,y,z,audioRef,p6,range,p8) end
+function PlaySoundFromCoord(soundId, audioName, x, y, z, audioRef, p6, range, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1507,7 +1659,8 @@ function PlaySoundFromCoord(soundId,audioName,x,y,z,audioRef,p6,range,p8) end
 --@params audioRef char*
 --@params p3 BOOL
 --@return void
-function PlaySoundFrontend(soundId,audioName,audioRef,p3) end
+function PlaySoundFrontend(soundId, audioName, audioRef, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1516,7 +1669,8 @@ function PlaySoundFrontend(soundId,audioName,audioRef,p3) end
 --@usage void PLAY_STREAM_FROM_OBJECT(Object object);
 --@params object Object
 --@return void
-function PlayStreamFromObject(object) end
+function PlayStreamFromObject(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1527,7 +1681,8 @@ function PlayStreamFromObject(object) end
 --@params y float
 --@params z float
 --@return void
-function PlayStreamFromPosition(x,y,z) end
+function PlayStreamFromPosition(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1536,7 +1691,8 @@ function PlayStreamFromPosition(x,y,z) end
 --@usage void PLAY_STREAM_FROM_PED(Ped ped);
 --@params ped Ped
 --@return void
-function PlayStreamFromPed(ped) end
+function PlayStreamFromPed(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1545,7 +1701,8 @@ function PlayStreamFromPed(ped) end
 --@usage void PLAY_STREAM_FROM_VEHICLE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function PlayStreamFromVehicle(vehicle) end
+function PlayStreamFromVehicle(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1554,7 +1711,8 @@ function PlayStreamFromVehicle(vehicle) end
 --@usage void PLAY_STREAM_FRONTEND();
 
 --@return void
-function PlayStreamFrontend() end
+function PlayStreamFrontend()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1563,7 +1721,8 @@ function PlayStreamFrontend() end
 --@usage BOOL PLAY_SYNCHRONIZED_AUDIO_EVENT(Any p0);
 --@params p0 Any
 --@return BOOL
-function PlaySynchronizedAudioEvent(p0) end
+function PlaySynchronizedAudioEvent(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1573,7 +1732,8 @@ function PlaySynchronizedAudioEvent(p0) end
 --@params vehicle Vehicle
 --@params doorIndex int
 --@return void
-function PlayVehicleDoorCloseSound(vehicle,doorIndex) end
+function PlayVehicleDoorCloseSound(vehicle, doorIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1583,7 +1743,8 @@ function PlayVehicleDoorCloseSound(vehicle,doorIndex) end
 --@params vehicle Vehicle
 --@params doorIndex int
 --@return void
-function PlayVehicleDoorOpenSound(vehicle,doorIndex) end
+function PlayVehicleDoorOpenSound(vehicle, doorIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1595,7 +1756,8 @@ function PlayVehicleDoorOpenSound(vehicle,doorIndex) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function PreloadScriptConversation(p0,p1,p2,p3) end
+function PreloadScriptConversation(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1604,7 +1766,8 @@ function PreloadScriptConversation(p0,p1,p2,p3) end
 --@usage BOOL PREPARE_ALARM(char* alarmName);
 --@params alarmName char*
 --@return BOOL
-function PrepareAlarm(alarmName) end
+function PrepareAlarm(alarmName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1614,7 +1777,8 @@ function PrepareAlarm(alarmName) end
 --@params p0 BOOL
 --@params p1 BOOL
 --@return void
-function PreloadScriptPhoneConversation(p0,p1) end
+function PreloadScriptPhoneConversation(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1623,7 +1787,8 @@ function PreloadScriptPhoneConversation(p0,p1) end
 --@usage BOOL PREPARE_MUSIC_EVENT(char* eventName);
 --@params eventName char*
 --@return BOOL
-function PrepareMusicEvent(eventName) end
+function PrepareMusicEvent(eventName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1635,7 +1800,8 @@ function PrepareMusicEvent(eventName) end
 --@params z float
 --@params radius float
 --@return void
-function RecordBrokenGlass(x,y,z,radius) end
+function RecordBrokenGlass(x, y, z, radius)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1645,7 +1811,8 @@ function RecordBrokenGlass(x,y,z,radius) end
 --@params p0 char*
 --@params p1 Any
 --@return Any
-function PrepareSynchronizedAudioEvent(p0,p1) end
+function PrepareSynchronizedAudioEvent(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1655,7 +1822,8 @@ function PrepareSynchronizedAudioEvent(p0,p1) end
 --@params p0 Any
 --@params p1 Any*
 --@return BOOL
-function PrepareSynchronizedAudioEventForScene(p0,p1) end
+function PrepareSynchronizedAudioEventForScene(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1664,7 +1832,8 @@ function PrepareSynchronizedAudioEventForScene(p0,p1) end
 --@usage void RELEASE_MISSION_AUDIO_BANK();
 
 --@return void
-function ReleaseMissionAudioBank() end
+function ReleaseMissionAudioBank()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1673,7 +1842,8 @@ function ReleaseMissionAudioBank() end
 --@usage void REGISTER_SCRIPT_WITH_AUDIO(int p0);
 --@params p0 int
 --@return void
-function RegisterScriptWithAudio(p0) end
+function RegisterScriptWithAudio(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1682,7 +1852,8 @@ function RegisterScriptWithAudio(p0) end
 --@usage void RELEASE_AMBIENT_AUDIO_BANK();
 
 --@return void
-function ReleaseAmbientAudioBank() end
+function ReleaseAmbientAudioBank()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1691,7 +1862,8 @@ function ReleaseAmbientAudioBank() end
 --@usage void RELEASE_SCRIPT_AUDIO_BANK();
 
 --@return void
-function ReleaseScriptAudioBank() end
+function ReleaseScriptAudioBank()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1700,7 +1872,8 @@ function ReleaseScriptAudioBank() end
 --@usage void RELEASE_WEAPON_AUDIO();
 
 --@return void
-function ReleaseWeaponAudio() end
+function ReleaseWeaponAudio()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1709,7 +1882,8 @@ function ReleaseWeaponAudio() end
 --@usage void RELEASE_NAMED_SCRIPT_AUDIO_BANK(char* audioBank);
 --@params audioBank char*
 --@return void
-function ReleaseNamedScriptAudioBank(audioBank) end
+function ReleaseNamedScriptAudioBank(audioBank)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1718,7 +1892,8 @@ function ReleaseNamedScriptAudioBank(audioBank) end
 --@usage void RELEASE_SOUND_ID(int soundId);
 --@params soundId int
 --@return void
-function ReleaseSoundId(soundId) end
+function ReleaseSoundId(soundId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1727,7 +1902,8 @@ function ReleaseSoundId(soundId) end
 --@usage void REMOVE_PORTAL_SETTINGS_OVERRIDE(char* p0);
 --@params p0 char*
 --@return void
-function RemovePortalSettingsOverride(p0) end
+function RemovePortalSettingsOverride(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1737,7 +1913,8 @@ function RemovePortalSettingsOverride(p0) end
 --@params entity Entity
 --@params p1 float
 --@return void
-function RemoveEntityFromAudioMixGroup(entity,p1) end
+function RemoveEntityFromAudioMixGroup(entity, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1747,7 +1924,8 @@ function RemoveEntityFromAudioMixGroup(entity,p1) end
 --@params p0 char*
 --@params p1 BOOL
 --@return BOOL
-function RequestMissionAudioBank(p0,p1) end
+function RequestMissionAudioBank(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1757,7 +1935,8 @@ function RequestMissionAudioBank(p0,p1) end
 --@params p0 char*
 --@params p1 BOOL
 --@return BOOL
-function RequestAmbientAudioBank(p0,p1) end
+function RequestAmbientAudioBank(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1766,7 +1945,8 @@ function RequestAmbientAudioBank(p0,p1) end
 --@usage void RESET_PED_AUDIO_FLAGS(Ped ped);
 --@params ped Ped
 --@return void
-function ResetPedAudioFlags(ped) end
+function ResetPedAudioFlags(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1775,7 +1955,8 @@ function ResetPedAudioFlags(ped) end
 --@usage void RESTART_SCRIPTED_CONVERSATION();
 
 --@return void
-function RestartScriptedConversation() end
+function RestartScriptedConversation()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1785,7 +1966,8 @@ function RestartScriptedConversation() end
 --@params ped Ped
 --@params name char*
 --@return void
-function SetAmbientVoiceName(ped,name) end
+function SetAmbientVoiceName(ped, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1795,7 +1977,8 @@ function SetAmbientVoiceName(ped,name) end
 --@params p0 char*
 --@params p1 BOOL
 --@return BOOL
-function RequestScriptAudioBank(p0,p1) end
+function RequestScriptAudioBank(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1804,7 +1987,8 @@ function RequestScriptAudioBank(p0,p1) end
 --@usage void RESET_TREVOR_RAGE();
 
 --@return void
-function ResetTrevorRage() end
+function ResetTrevorRage()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1815,7 +1999,8 @@ function ResetTrevorRage() end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function SetAmbientZoneListState(p0,p1,p2) end
+function SetAmbientZoneListState(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1826,7 +2011,8 @@ function SetAmbientZoneListState(p0,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function SetAmbientZoneState(zoneName,p1,p2) end
+function SetAmbientZoneState(zoneName, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1837,7 +2023,8 @@ function SetAmbientZoneState(zoneName,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function SetAmbientZoneStatePersistent(ambientZone,p1,p2) end
+function SetAmbientZoneStatePersistent(ambientZone, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1846,7 +2033,8 @@ function SetAmbientZoneStatePersistent(ambientZone,p1,p2) end
 --@usage void SET_AGGRESSIVE_HORNS(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetAggressiveHorns(toggle) end
+function SetAggressiveHorns(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1856,7 +2044,8 @@ function SetAggressiveHorns(toggle) end
 --@params ped Ped
 --@params hash Any
 --@return void
-function SetAmbientVoiceNameHash(ped,hash) end
+function SetAmbientVoiceNameHash(ped, hash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1866,7 +2055,8 @@ function SetAmbientVoiceNameHash(ped,hash) end
 --@params flagName char*
 --@params toggle BOOL
 --@return void
-function SetAudioFlag(flagName,toggle) end
+function SetAudioFlag(flagName, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1875,7 +2065,8 @@ function SetAudioFlag(flagName,toggle) end
 --@usage void SET_AUDIO_SPECIAL_EFFECT_MODE(int mode);
 --@params mode int
 --@return void
-function SetAudioSpecialEffectMode(mode) end
+function SetAudioSpecialEffectMode(mode)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1886,7 +2077,8 @@ function SetAudioSpecialEffectMode(mode) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function SetAmbientZoneListStatePersistent(ambientZone,p1,p2) end
+function SetAmbientZoneListStatePersistent(ambientZone, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1896,7 +2088,8 @@ function SetAmbientZoneListStatePersistent(ambientZone,p1,p2) end
 --@params vehicle Vehicle
 --@params p1 Any
 --@return void
-function SetAudioVehiclePriority(vehicle,p1) end
+function SetAudioVehiclePriority(vehicle, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1906,7 +2099,8 @@ function SetAudioVehiclePriority(vehicle,p1) end
 --@params animal Ped
 --@params mood int
 --@return void
-function SetAnimalMood(animal,mood) end
+function SetAnimalMood(animal, mood)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1917,7 +2111,8 @@ function SetAnimalMood(animal,mood) end
 --@params variable char*
 --@params value float
 --@return void
-function SetAudioSceneVariable(scene,variable,value) end
+function SetAudioSceneVariable(scene, variable, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1928,7 +2123,8 @@ function SetAudioSceneVariable(scene,variable,value) end
 --@params trackListName char*
 --@params p2 BOOL
 --@return void
-function SetCustomRadioTrackList(radioStation,trackListName,p2) end
+function SetCustomRadioTrackList(radioStation, trackListName, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1937,7 +2133,8 @@ function SetCustomRadioTrackList(radioStation,trackListName,p2) end
 --@usage void SET_CUTSCENE_AUDIO_OVERRIDE(char* name);
 --@params name char*
 --@return void
-function SetCutsceneAudioOverride(name) end
+function SetCutsceneAudioOverride(name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1947,7 +2144,8 @@ function SetCutsceneAudioOverride(name) end
 --@params emitterName char*
 --@params radioStation char*
 --@return void
-function SetEmitterRadioStation(emitterName,radioStation) end
+function SetEmitterRadioStation(emitterName, radioStation)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1956,7 +2154,8 @@ function SetEmitterRadioStation(emitterName,radioStation) end
 --@usage void SET_FRONTEND_RADIO_ACTIVE(BOOL active);
 --@params active BOOL
 --@return void
-function SetFrontendRadioActive(active) end
+function SetFrontendRadioActive(active)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1965,7 +2164,8 @@ function SetFrontendRadioActive(active) end
 --@usage void SET_GPS_ACTIVE(BOOL active);
 --@params active BOOL
 --@return void
-function SetGpsActive(active) end
+function SetGpsActive(active)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1975,7 +2175,8 @@ function SetGpsActive(active) end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetHornEnabled(vehicle,toggle) end
+function SetHornEnabled(vehicle, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1984,7 +2185,8 @@ function SetHornEnabled(vehicle,toggle) end
 --@usage void SET_INITIAL_PLAYER_STATION(char* radioStation);
 --@params radioStation char*
 --@return void
-function SetInitialPlayerStation(radioStation) end
+function SetInitialPlayerStation(radioStation)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2002,7 +2204,8 @@ function SetInitialPlayerStation(radioStation) end
 --@params y3 float
 --@params z3 float
 --@return void
-function SetMicrophonePosition(p0,x1,y1,z1,x2,y2,z2,x3,y3,z3) end
+function SetMicrophonePosition(p0, x1, y1, z1, x2, y2, z2, x3, y3, z3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2011,7 +2214,8 @@ function SetMicrophonePosition(p0,x1,y1,z1,x2,y2,z2,x3,y3,z3) end
 --@usage void SET_MOBILE_RADIO_ENABLED_DURING_GAMEPLAY(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetMobileRadioEnabledDuringGameplay(toggle) end
+function SetMobileRadioEnabledDuringGameplay(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2020,7 +2224,8 @@ function SetMobileRadioEnabledDuringGameplay(toggle) end
 --@usage void SET_MOBILE_PHONE_RADIO_STATE(BOOL state);
 --@params state BOOL
 --@return void
-function SetMobilePhoneRadioState(state) end
+function SetMobilePhoneRadioState(state)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2029,7 +2234,8 @@ function SetMobilePhoneRadioState(state) end
 --@usage void _SET_PED_SCREAM(Ped ped);
 --@params ped Ped
 --@return void
-function SetPedScream(ped) end
+function SetPedScream(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2039,7 +2245,8 @@ function SetPedScream(ped) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedIsDrunk(ped,toggle) end
+function SetPedIsDrunk(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2049,7 +2256,8 @@ function SetPedIsDrunk(ped,toggle) end
 --@params ped Ped
 --@params voiceGroupHash Hash
 --@return void
-function SetPedVoiceGroup(ped,voiceGroupHash) end
+function SetPedVoiceGroup(ped, voiceGroupHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2058,7 +2266,8 @@ function SetPedVoiceGroup(ped,voiceGroupHash) end
 --@usage void _SET_PED_TALK(Ped ped);
 --@params ped Ped
 --@return void
-function SetPedTalk(ped) end
+function SetPedTalk(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2068,7 +2277,8 @@ function SetPedTalk(ped) end
 --@params p0 char*
 --@params p1 char*
 --@return void
-function SetPortalSettingsOverride(p0,p1) end
+function SetPortalSettingsOverride(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2078,7 +2288,8 @@ function SetPortalSettingsOverride(p0,p1) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPlayerAngry(ped,toggle) end
+function SetPlayerAngry(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2087,7 +2298,8 @@ function SetPlayerAngry(ped,toggle) end
 --@usage void SET_RADIO_AUTO_UNFREEZE(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetRadioAutoUnfreeze(toggle) end
+function SetRadioAutoUnfreeze(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2096,7 +2308,8 @@ function SetRadioAutoUnfreeze(toggle) end
 --@usage void SET_RADIO_FRONTEND_FADE_TIME(float p0);
 --@params p0 float
 --@return void
-function SetRadioFrontendFadeTime(p0) end
+function SetRadioFrontendFadeTime(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2106,7 +2319,8 @@ function SetRadioFrontendFadeTime(p0) end
 --@params radioStation char*
 --@params toggle BOOL
 --@return void
-function SetRadioStationMusicOnly(radioStation,toggle) end
+function SetRadioStationMusicOnly(radioStation, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2115,7 +2329,8 @@ function SetRadioStationMusicOnly(radioStation,toggle) end
 --@usage void SET_RADIO_TO_STATION_INDEX(int radioStation);
 --@params radioStation int
 --@return void
-function SetRadioToStationIndex(radioStation) end
+function SetRadioToStationIndex(radioStation)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2124,7 +2339,8 @@ function SetRadioToStationIndex(radioStation) end
 --@usage void SET_RADIO_TO_STATION_NAME(char* stationName);
 --@params stationName char*
 --@return void
-function SetRadioToStationName(stationName) end
+function SetRadioToStationName(stationName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2134,7 +2350,8 @@ function SetRadioToStationName(stationName) end
 --@params radioStation char*
 --@params radioTrack char*
 --@return void
-function SetRadioTrack(radioStation,radioTrack) end
+function SetRadioTrack(radioStation, radioTrack)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2144,7 +2361,8 @@ function SetRadioTrack(radioStation,radioTrack) end
 --@params doorHash Any
 --@params toggle BOOL
 --@return void
-function SetScriptUpdateDoorAudio(doorHash,toggle) end
+function SetScriptUpdateDoorAudio(doorHash, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2155,7 +2373,8 @@ function SetScriptUpdateDoorAudio(doorHash,toggle) end
 --@params mixName char*
 --@params p2 int
 --@return void
-function SetRadioTrackMix(radioStationName,mixName,p2) end
+function SetRadioTrackMix(radioStationName, mixName, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2165,7 +2384,8 @@ function SetRadioTrackMix(radioStationName,mixName,p2) end
 --@params vehicle Vehicle
 --@params toggle ScrHandle*
 --@return void
-function SetSirenWithNoDriver(vehicle,toggle) end
+function SetSirenWithNoDriver(vehicle, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2175,7 +2395,8 @@ function SetSirenWithNoDriver(vehicle,toggle) end
 --@params p0 char*
 --@params p1 Entity
 --@return void
-function SetSynchronizedAudioEventPositionThisFrame(p0,p1) end
+function SetSynchronizedAudioEventPositionThisFrame(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2185,7 +2406,8 @@ function SetSynchronizedAudioEventPositionThisFrame(p0,p1) end
 --@params emitterName char*
 --@params toggle BOOL
 --@return void
-function SetStaticEmitterEnabled(emitterName,toggle) end
+function SetStaticEmitterEnabled(emitterName, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2194,7 +2416,8 @@ function SetStaticEmitterEnabled(emitterName,toggle) end
 --@usage void SET_USER_RADIO_CONTROL_ENABLED(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetUserRadioControlEnabled(toggle) end
+function SetUserRadioControlEnabled(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2204,7 +2427,8 @@ function SetUserRadioControlEnabled(toggle) end
 --@params variableName char*
 --@params value float
 --@return void
-function SetVariableOnCutsceneAudio(variableName,value) end
+function SetVariableOnCutsceneAudio(variableName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2215,7 +2439,8 @@ function SetVariableOnCutsceneAudio(variableName,value) end
 --@params variableName char*
 --@params value float
 --@return void
-function SetVariableOnSound(soundId,variableName,value) end
+function SetVariableOnSound(soundId, variableName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2225,7 +2450,8 @@ function SetVariableOnSound(soundId,variableName,value) end
 --@params p0 char*
 --@params p1 float
 --@return void
-function SetVariableOnStream(p0,p1) end
+function SetVariableOnStream(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2235,7 +2461,8 @@ function SetVariableOnStream(p0,p1) end
 --@params variableName char*
 --@params value float
 --@return void
-function SetVariableOnUnderWaterStream(variableName,value) end
+function SetVariableOnUnderWaterStream(variableName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2244,7 +2471,8 @@ function SetVariableOnUnderWaterStream(variableName,value) end
 --@usage void undefined(char* p0);
 --@params p0 char*
 --@return void
-function N_0x2acabed337622df2(p0) end
+function N_0x2acabed337622df2(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2254,7 +2482,8 @@ function N_0x2acabed337622df2(p0) end
 --@params vehicle Vehicle
 --@params radioStation char*
 --@return void
-function SetVehRadioStation(vehicle,radioStation) end
+function SetVehRadioStation(vehicle, radioStation)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2264,7 +2493,8 @@ function SetVehRadioStation(vehicle,radioStation) end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleRadioLoud(vehicle,toggle) end
+function SetVehicleRadioLoud(vehicle, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2273,7 +2503,8 @@ function SetVehicleRadioLoud(vehicle,toggle) end
 --@usage void SKIP_TO_NEXT_SCRIPTED_CONVERSATION_LINE();
 
 --@return void
-function SkipToNextScriptedConversationLine() end
+function SkipToNextScriptedConversationLine()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2282,7 +2513,8 @@ function SkipToNextScriptedConversationLine() end
 --@usage void _SOUND_VEHICLE_HORN_THIS_FRAME(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function SoundVehicleHornThisFrame(vehicle) end
+function SoundVehicleHornThisFrame(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2291,7 +2523,8 @@ function SoundVehicleHornThisFrame(vehicle) end
 --@usage BOOL START_AUDIO_SCENE(char* scene);
 --@params scene char*
 --@return BOOL
-function StartAudioScene(scene) end
+function StartAudioScene(scene)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2300,7 +2533,8 @@ function StartAudioScene(scene) end
 --@usage void START_PRELOADED_CONVERSATION();
 
 --@return void
-function StartPreloadedConversation() end
+function StartPreloadedConversation()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2310,7 +2544,8 @@ function StartPreloadedConversation() end
 --@params alarmName char*
 --@params p2 BOOL
 --@return void
-function StartAlarm(alarmName,p2) end
+function StartAlarm(alarmName, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2320,7 +2555,8 @@ function StartAlarm(alarmName,p2) end
 --@params alarmName char*
 --@params toggle BOOL
 --@return void
-function StopAlarm(alarmName,toggle) end
+function StopAlarm(alarmName, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2329,7 +2565,8 @@ function StopAlarm(alarmName,toggle) end
 --@usage void STOP_AUDIO_SCENE(char* scene);
 --@params scene char*
 --@return void
-function StopAudioScene(scene) end
+function StopAudioScene(scene)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2341,7 +2578,8 @@ function StopAudioScene(scene) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function StartScriptConversation(p0,p1,p2,p3) end
+function StartScriptConversation(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2350,7 +2588,8 @@ function StartScriptConversation(p0,p1,p2,p3) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x02e93c796abd3a97(p0) end
+function N_0x02e93c796abd3a97(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2360,7 +2599,8 @@ function N_0x02e93c796abd3a97(p0) end
 --@params p0 BOOL
 --@params p1 BOOL
 --@return void
-function StartScriptPhoneConversation(p0,p1) end
+function StartScriptPhoneConversation(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2369,7 +2609,8 @@ function StartScriptPhoneConversation(p0,p1) end
 --@usage void STOP_ALL_ALARMS(BOOL stop);
 --@params stop BOOL
 --@return void
-function StopAllAlarms(stop) end
+function StopAllAlarms(stop)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2378,7 +2619,8 @@ function StopAllAlarms(stop) end
 --@usage void STOP_CUTSCENE_AUDIO();
 
 --@return void
-function StopCutsceneAudio() end
+function StopCutsceneAudio()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2388,7 +2630,8 @@ function StopCutsceneAudio() end
 --@params vehicle Vehicle
 --@params damageFactor float
 --@return void
-function SetVehicleAudioEngineDamageFactor(vehicle,damageFactor) end
+function SetVehicleAudioEngineDamageFactor(vehicle, damageFactor)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2397,7 +2640,8 @@ function SetVehicleAudioEngineDamageFactor(vehicle,damageFactor) end
 --@usage void STOP_AUDIO_SCENES();
 
 --@return void
-function StopAudioScenes() end
+function StopAudioScenes()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2406,7 +2650,8 @@ function StopAudioScenes() end
 --@usage void STOP_CURRENT_PLAYING_SPEECH(Ped ped);
 --@params ped Ped
 --@return void
-function StopCurrentPlayingSpeech(ped) end
+function StopCurrentPlayingSpeech(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2416,7 +2661,8 @@ function StopCurrentPlayingSpeech(ped) end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleBoostActive(vehicle,toggle) end
+function SetVehicleBoostActive(vehicle, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2425,7 +2671,8 @@ function SetVehicleBoostActive(vehicle,toggle) end
 --@usage void STOP_PED_RINGTONE(Ped ped);
 --@params ped Ped
 --@return void
-function StopPedRingtone(ped) end
+function StopPedRingtone(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2435,7 +2682,8 @@ function StopPedRingtone(ped) end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleRadioEnabled(vehicle,toggle) end
+function SetVehicleRadioEnabled(vehicle, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2444,7 +2692,8 @@ function SetVehicleRadioEnabled(vehicle,toggle) end
 --@usage void STOP_SOUND(int soundId);
 --@params soundId int
 --@return void
-function StopSound(soundId) end
+function StopSound(soundId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2453,7 +2702,8 @@ function StopSound(soundId) end
 --@usage int STOP_SCRIPTED_CONVERSATION(BOOL p0);
 --@params p0 BOOL
 --@return int
-function StopScriptedConversation(p0) end
+function StopScriptedConversation(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2463,7 +2713,8 @@ function StopScriptedConversation(p0) end
 --@params ped Ped
 --@params shaking BOOL
 --@return void
-function StopPedSpeaking(ped,shaking) end
+function StopPedSpeaking(ped, shaking)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2472,7 +2723,8 @@ function StopPedSpeaking(ped,shaking) end
 --@usage void STOP_STREAM();
 
 --@return void
-function StopStream() end
+function StopStream()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2481,7 +2733,8 @@ function StopStream() end
 --@usage void UNFREEZE_RADIO_STATION(char* radioStation);
 --@params radioStation char*
 --@return void
-function UnfreezeRadioStation(radioStation) end
+function UnfreezeRadioStation(radioStation)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2490,7 +2743,8 @@ function UnfreezeRadioStation(radioStation) end
 --@usage BOOL STOP_SYNCHRONIZED_AUDIO_EVENT(Any p0);
 --@params p0 Any
 --@return BOOL
-function StopSynchronizedAudioEvent(p0) end
+function StopSynchronizedAudioEvent(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2499,7 +2753,8 @@ function StopSynchronizedAudioEvent(p0) end
 --@usage BOOL TRIGGER_MUSIC_EVENT(char* eventName);
 --@params eventName char*
 --@return BOOL
-function TriggerMusicEvent(eventName) end
+function TriggerMusicEvent(eventName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2508,7 +2763,8 @@ function TriggerMusicEvent(eventName) end
 --@usage void UNLOCK_MISSION_NEWS_STORY(int newsStory);
 --@params newsStory int
 --@return void
-function UnlockMissionNewsStory(newsStory) end
+function UnlockMissionNewsStory(newsStory)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2517,7 +2773,8 @@ function UnlockMissionNewsStory(newsStory) end
 --@usage void UNREGISTER_SCRIPT_WITH_AUDIO();
 
 --@return void
-function UnregisterScriptWithAudio() end
+function UnregisterScriptWithAudio()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2527,7 +2784,8 @@ function UnregisterScriptWithAudio() end
 --@params radioStation char*
 --@params trackListName char*
 --@return void
-function UnlockRadioStationTrackList(radioStation,trackListName) end
+function UnlockRadioStationTrackList(radioStation, trackListName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2536,7 +2794,8 @@ function UnlockRadioStationTrackList(radioStation,trackListName) end
 --@usage void _UPDATE_LSUR(BOOL enableMixes);
 --@params enableMixes BOOL
 --@return void
-function UpdateLsur(enableMixes) end
+function UpdateLsur(enableMixes)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2546,7 +2805,8 @@ function UpdateLsur(enableMixes) end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function UseSirenAsHorn(vehicle,toggle) end
+function UseSirenAsHorn(vehicle, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2555,7 +2815,8 @@ function UseSirenAsHorn(vehicle,toggle) end
 --@usage int GET_SOUND_ID();
 
 --@return int
-function GetSoundId() end
+function GetSoundId()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2564,7 +2825,8 @@ function GetSoundId() end
 --@usage void SKIP_RADIO_FORWARD();
 
 --@return void
-function SkipRadioForward() end
+function SkipRadioForward()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2573,4 +2835,5 @@ function SkipRadioForward() end
 --@usage void STOP_CURRENT_PLAYING_AMBIENT_SPEECH(Ped ped);
 --@params ped Ped
 --@return void
-function StopCurrentPlayingAmbientSpeech(ped) end
+function StopCurrentPlayingAmbientSpeech(ped)
+end

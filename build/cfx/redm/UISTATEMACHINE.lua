@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule UISTATEMACHINE
@@ -6,7 +5,8 @@
 --@usage undefined _UIFLOWBLOCK_REQUEST(Any p0);
 --@params p0 Any
 --@return undefined
-function UiflowblockRequest(p0) end
+function UiflowblockRequest(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function UiflowblockRequest(p0) end
 --@usage undefined _UIFLOWBLOCK_RELEASE(Any p0);
 --@params p0 Any
 --@return undefined
-function UiflowblockRelease(p0) end
+function UiflowblockRelease(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -25,7 +26,8 @@ function UiflowblockRelease(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function UiflowblockEnter(p0,p1) end
+function UiflowblockEnter(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -35,7 +37,8 @@ function UiflowblockEnter(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function UistatemachineCreate(p0,p1) end
+function UistatemachineCreate(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -44,7 +47,8 @@ function UistatemachineCreate(p0,p1) end
 --@usage undefined _UIFLOWBLOCK_IS_LOADED(Any p0);
 --@params p0 Any
 --@return undefined
-function UiflowblockIsLoaded(p0) end
+function UiflowblockIsLoaded(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -53,7 +57,8 @@ function UiflowblockIsLoaded(p0) end
 --@usage undefined _0xF7C180F57F85D0B8(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xf7c180f57f85d0b8(p0) end
+function N_0xf7c180f57f85d0b8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -62,7 +67,8 @@ function N_0xf7c180f57f85d0b8(p0) end
 --@usage undefined _UISTATEMACHINE_EXISTS(Any p0);
 --@params p0 Any
 --@return undefined
-function UistatemachineExists(p0) end
+function UistatemachineExists(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -71,7 +77,8 @@ function UistatemachineExists(p0) end
 --@usage undefined _UISTATEMACHINE_DESTROY(Any p0);
 --@params p0 Any
 --@return undefined
-function UistatemachineDestroy(p0) end
+function UistatemachineDestroy(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -81,7 +88,8 @@ function UistatemachineDestroy(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x6b9fe4f0ba521a19(p0,p1) end
+function N_0x6b9fe4f0ba521a19(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -90,7 +98,8 @@ function N_0x6b9fe4f0ba521a19(p0,p1) end
 --@usage undefined _UISTATEMACHINE_DESTROY_AND_CLEAR(Any* p0);
 --@params p0 Any*
 --@return undefined
-function UistatemachineDestroyAndClear(p0) end
+function UistatemachineDestroyAndClear(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -99,7 +108,8 @@ function UistatemachineDestroyAndClear(p0) end
 --@usage undefined _0x11E73195E735B25B(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x11e73195e735b25b(p0) end
+function N_0x11e73195e735b25b(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -109,4 +119,5 @@ function N_0x11e73195e735b25b(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function UistatemachineRequestTransition(p0,p1) end
+function UistatemachineRequestTransition(p0, p1)
+end

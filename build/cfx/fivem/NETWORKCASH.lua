@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule NETWORKCASH
@@ -6,7 +5,8 @@
 --@usage BOOL undefined(int amount);
 --@params amount int
 --@return BOOL
-function N_0x08e8eeadfd0dc4a0(amount) end
+function N_0x08e8eeadfd0dc4a0(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function N_0x08e8eeadfd0dc4a0(amount) end
 --@usage BOOL DEPOSIT_VC(int amount);
 --@params amount int
 --@return BOOL
-function DepositVc(amount) end
+function DepositVc(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function DepositVc(amount) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x1fda0aa679c9919b(p0) end
+function N_0x1fda0aa679c9919b(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -35,7 +37,8 @@ function N_0x1fda0aa679c9919b(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x0b39cf0d53f1c883(p0,p1,p2) end
+function N_0x0b39cf0d53f1c883(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -47,7 +50,8 @@ function N_0x0b39cf0d53f1c883(p0,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function N_0x1dc9b749e7ae282b(p0,p1,p2,p3) end
+function N_0x1dc9b749e7ae282b(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -58,7 +62,8 @@ function N_0x1dc9b749e7ae282b(p0,p1,p2,p3) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x2a7cec72c3443bcc(p0,p1,p2) end
+function N_0x2a7cec72c3443bcc(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -69,7 +74,8 @@ function N_0x2a7cec72c3443bcc(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x11b0a20c493f7e36(p0,p1,p2) end
+function N_0x11b0a20c493f7e36(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -81,7 +87,8 @@ function N_0x11b0a20c493f7e36(p0,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function N_0x2a93c46aab1eacc9(p0,p1,p2,p3) end
+function N_0x2a93c46aab1eacc9(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -93,7 +100,8 @@ function N_0x2a93c46aab1eacc9(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function N_0x226c284c830d0ca8(p0,p1,p2,p3) end
+function N_0x226c284c830d0ca8(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -107,7 +115,8 @@ function N_0x226c284c830d0ca8(p0,p1,p2,p3) end
 --@params p4 Any
 --@params p5 Any
 --@return void
-function N_0x65482bfd0923c8a1(p0,p1,p2,p3,p4,p5) end
+function N_0x65482bfd0923c8a1(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -116,7 +125,8 @@ function N_0x65482bfd0923c8a1(p0,p1,p2,p3,p4,p5) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x42fce14f50f27291(p0) end
+function N_0x42fce14f50f27291(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -126,7 +136,8 @@ function N_0x42fce14f50f27291(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x31ba138f6304fb9f(p0,p1) end
+function N_0x31ba138f6304fb9f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -139,7 +150,8 @@ function N_0x31ba138f6304fb9f(p0,p1) end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function N_0x6b7e4fb50d5f3d65(p0,p1,p2,p3,p4) end
+function N_0x6b7e4fb50d5f3d65(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -148,7 +160,8 @@ function N_0x6b7e4fb50d5f3d65(p0,p1,p2,p3,p4) end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0x6fcf8ddea146c45b(p0) end
+function N_0x6fcf8ddea146c45b(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -159,7 +172,8 @@ function N_0x6fcf8ddea146c45b(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x9d4fdbb035229669(p0,p1,p2) end
+function N_0x9d4fdbb035229669(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -168,7 +182,8 @@ function N_0x9d4fdbb035229669(p0,p1,p2) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x9b5016a6433a68c5() end
+function N_0x9b5016a6433a68c5()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -177,7 +192,8 @@ function N_0x9b5016a6433a68c5() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xb4deae67f35e2acd(p0) end
+function N_0xb4deae67f35e2acd(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -186,7 +202,8 @@ function N_0xb4deae67f35e2acd(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xa75eac69f59e96e7(p0) end
+function N_0xa75eac69f59e96e7(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -201,7 +218,8 @@ function N_0xa75eac69f59e96e7(p0) end
 --@params p5 Any
 --@params p6 Any
 --@return void
-function N_0xc6e74cf8c884c880(p0,p1,p2,p3,p4,p5,p6) end
+function N_0xc6e74cf8c884c880(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -210,7 +228,8 @@ function N_0xc6e74cf8c884c880(p0,p1,p2,p3,p4,p5,p6) end
 --@usage void undefined();
 
 --@return void
-function N_0xcd0f5b5d932ae473() end
+function N_0xcd0f5b5d932ae473()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -219,7 +238,8 @@ function N_0xcd0f5b5d932ae473() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xc5156361f26e2212(p0) end
+function N_0xc5156361f26e2212(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -230,7 +250,8 @@ function N_0xc5156361f26e2212(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0xd20d79671a598594(p0,p1,p2) end
+function N_0xd20d79671a598594(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -239,7 +260,8 @@ function N_0xd20d79671a598594(p0,p1,p2) end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0xe154b48b68ef72bc(p0) end
+function N_0xe154b48b68ef72bc(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -251,7 +273,8 @@ function N_0xe154b48b68ef72bc(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function N_0xed76d195e6e3bf7f(p0,p1,p2,p3) end
+function N_0xed76d195e6e3bf7f(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -260,7 +283,8 @@ function N_0xed76d195e6e3bf7f(p0,p1,p2,p3) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xe0f82d68c7039158(p0) end
+function N_0xe0f82d68c7039158(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -269,7 +293,8 @@ function N_0xe0f82d68c7039158(p0) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x7c4fccd2e4deb394() end
+function N_0x7c4fccd2e4deb394()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -278,7 +303,8 @@ function N_0x7c4fccd2e4deb394() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xfffba1b1f7c0b6f4(p0) end
+function N_0xfffba1b1f7c0b6f4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -290,7 +316,8 @@ function N_0xfffba1b1f7c0b6f4(p0) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkBuyBounty(amount,victim,p2,p3) end
+function NetworkBuyBounty(amount, victim, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -302,7 +329,8 @@ function NetworkBuyBounty(amount,victim,p2,p3) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkBuyBackupGang(p0,p1,p2,p3) end
+function NetworkBuyBackupGang(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -311,7 +339,8 @@ function NetworkBuyBackupGang(p0,p1,p2,p3) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xf6b170f9a02e9e87(p0) end
+function N_0xf6b170f9a02e9e87(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -322,7 +351,8 @@ function N_0xf6b170f9a02e9e87(p0) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkBuyAirstrike(cost,p1,p2) end
+function NetworkBuyAirstrike(cost, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -334,7 +364,8 @@ function NetworkBuyAirstrike(cost,p1,p2) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkBuyFairgroundRide(amountSpent,p1,p2,p3) end
+function NetworkBuyFairgroundRide(amountSpent, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -352,7 +383,8 @@ function NetworkBuyFairgroundRide(amountSpent,p1,p2,p3) end
 --@params p8 Any
 --@params p9 BOOL
 --@return void
-function NetworkBuyItem(amount,item,p2,p3,p4,item_name,p6,p7,p8,p9) end
+function NetworkBuyItem(amount, item, p2, p3, p4, item_name, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -364,7 +396,8 @@ function NetworkBuyItem(amount,item,p2,p3,p4,item_name,p6,p7,p8,p9) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkBuyProperty(propertyCost,propertyName,p2,p3) end
+function NetworkBuyProperty(propertyCost, propertyName, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -375,7 +408,8 @@ function NetworkBuyProperty(propertyCost,propertyName,p2,p3) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkBuyHeliStrike(cost,p1,p2) end
+function NetworkBuyHeliStrike(cost, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -387,7 +421,8 @@ function NetworkBuyHeliStrike(cost,p1,p2) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkBuyLotteryTicket(p0,p1,p2,p3) end
+function NetworkBuyLotteryTicket(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -396,7 +431,8 @@ function NetworkBuyLotteryTicket(p0,p1,p2,p3) end
 --@usage BOOL NETWORK_CAN_BET(int amount);
 --@params amount int
 --@return BOOL
-function NetworkCanBet(amount) end
+function NetworkCanBet(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -407,7 +443,8 @@ function NetworkCanBet(amount) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkBuyHealthcare(cost,p1,p2) end
+function NetworkBuyHealthcare(cost, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -418,7 +455,8 @@ function NetworkBuyHealthcare(cost,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkBuySmokes(p0,p1,p2) end
+function NetworkBuySmokes(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -430,7 +468,8 @@ function NetworkBuySmokes(p0,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return BOOL
-function NetworkCanReceivePlayerCash(p0,p1,p2,p3) end
+function NetworkCanReceivePlayerCash(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -439,7 +478,8 @@ function NetworkCanReceivePlayerCash(p0,p1,p2,p3) end
 --@usage BOOL NETWORK_CAN_SHARE_JOB_CASH();
 
 --@return BOOL
-function NetworkCanShareJobCash() end
+function NetworkCanShareJobCash()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -453,7 +493,8 @@ function NetworkCanShareJobCash() end
 --@params p4 Any*
 --@params p5 Any
 --@return BOOL
-function NetworkCanSpendMoney_2(p0,p1,p2,p3,p4,p5) end
+function NetworkCanSpendMoney_2(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -467,7 +508,8 @@ function NetworkCanSpendMoney_2(p0,p1,p2,p3,p4,p5) end
 --@params p4 BOOL
 --@params p5 BOOL
 --@return void
-function NetworkDeductCash(amount,p1,p2,p3,p4,p5) end
+function NetworkDeductCash(amount, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -476,7 +518,8 @@ function NetworkDeductCash(amount,p1,p2,p3,p4,p5) end
 --@usage void NETWORK_CLEAR_CHARACTER_WALLET(int characterSlot);
 --@params characterSlot int
 --@return void
-function NetworkClearCharacterWallet(characterSlot) end
+function NetworkClearCharacterWallet(characterSlot)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -489,7 +532,8 @@ function NetworkClearCharacterWallet(characterSlot) end
 --@params p3 BOOL
 --@params p4 Any
 --@return BOOL
-function NetworkCanSpendMoney(p0,p1,p2,p3,p4) end
+function NetworkCanSpendMoney(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -500,7 +544,8 @@ function NetworkCanSpendMoney(p0,p1,p2,p3,p4) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkDeleteCharacter(characterSlot,p1,p2) end
+function NetworkDeleteCharacter(characterSlot, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -509,7 +554,8 @@ function NetworkDeleteCharacter(characterSlot,p1,p2) end
 --@usage BOOL NETWORK_CAN_BUY_LOTTERY_TICKET(int cost);
 --@params cost int
 --@return BOOL
-function NetworkCanBuyLotteryTicket(cost) end
+function NetworkCanBuyLotteryTicket(cost)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -519,7 +565,8 @@ function NetworkCanBuyLotteryTicket(cost) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function NetworkEarnFromAiTargetKill(p0,p1) end
+function NetworkEarnFromAiTargetKill(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -530,7 +577,8 @@ function NetworkEarnFromAiTargetKill(p0,p1) end
 --@params p1 char*
 --@params p2 Any*
 --@return void
-function NetworkEarnFromAmbientJob(p0,p1,p2) end
+function NetworkEarnFromAmbientJob(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -542,7 +590,8 @@ function NetworkEarnFromAmbientJob(p0,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function NetworkEarnFromArenaWar(amount,p1,p2,p3) end
+function NetworkEarnFromArenaWar(amount, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -552,7 +601,8 @@ function NetworkEarnFromArenaWar(amount,p1,p2,p3) end
 --@params amount int
 --@params p1 Any
 --@return void
-function NetworkEarnFromArenaSkillLevelProgression(amount,p1) end
+function NetworkEarnFromArenaSkillLevelProgression(amount, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -561,7 +611,8 @@ function NetworkEarnFromArenaSkillLevelProgression(amount,p1) end
 --@usage void _NETWORK_EARN_FROM_ASSASSINATE_TARGET_KILLED(int amount);
 --@params amount int
 --@return void
-function NetworkEarnFromAssassinateTargetKilled(amount) end
+function NetworkEarnFromAssassinateTargetKilled(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -571,7 +622,8 @@ function NetworkEarnFromAssassinateTargetKilled(amount) end
 --@params amount int
 --@params p1 Any
 --@return void
-function NetworkEarnFromArenaCareerProgression(amount,p1) end
+function NetworkEarnFromArenaCareerProgression(amount, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -580,7 +632,8 @@ function NetworkEarnFromArenaCareerProgression(amount,p1) end
 --@usage void _NETWORK_EARN_FROM_ASSASSINATE_TARGET_KILLED_2(int amount);
 --@params amount int
 --@return void
-function NetworkEarnFromAssassinateTargetKilled_2(amount) end
+function NetworkEarnFromAssassinateTargetKilled_2(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -589,7 +642,8 @@ function NetworkEarnFromAssassinateTargetKilled_2(amount) end
 --@usage void _NETWORK_EARN_FROM_ARMOUR_TRUCK(int amount);
 --@params amount int
 --@return void
-function NetworkEarnFromArmourTruck(amount) end
+function NetworkEarnFromArmourTruck(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -601,7 +655,8 @@ function NetworkEarnFromArmourTruck(amount) end
 --@params p2 Any*
 --@params p3 Any
 --@return void
-function NetworkEarnFromBounty(amount,networkHandle,p2,p3) end
+function NetworkEarnFromBounty(amount, networkHandle, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -612,7 +667,8 @@ function NetworkEarnFromBounty(amount,networkHandle,p2,p3) end
 --@params p1 Any*
 --@params p2 BOOL
 --@return void
-function NetworkEarnFromChallengeWin(p0,p1,p2) end
+function NetworkEarnFromChallengeWin(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -621,7 +677,8 @@ function NetworkEarnFromChallengeWin(p0,p1,p2) end
 --@usage void _NETWORK_EARN_FROM_BB_EVENT_BONUS(int amount);
 --@params amount int
 --@return void
-function NetworkEarnFromBbEventBonus(amount) end
+function NetworkEarnFromBbEventBonus(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -631,7 +688,8 @@ function NetworkEarnFromBbEventBonus(amount) end
 --@params amount int
 --@params p1 char*
 --@return void
-function NetworkEarnFromBetting(amount,p1) end
+function NetworkEarnFromBetting(amount, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -642,7 +700,8 @@ function NetworkEarnFromBetting(amount,p1) end
 --@params p1 char*
 --@params p2 int
 --@return void
-function NetworkEarnFromDailyObjectives(p0,p1,p2) end
+function NetworkEarnFromDailyObjectives(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -652,7 +711,8 @@ function NetworkEarnFromDailyObjectives(p0,p1,p2) end
 --@params amount int
 --@params vehicleHash Hash
 --@return void
-function NetworkEarnFromDoomsdayFinaleBonus(amount,vehicleHash) end
+function NetworkEarnFromDoomsdayFinaleBonus(amount, vehicleHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -661,7 +721,8 @@ function NetworkEarnFromDoomsdayFinaleBonus(amount,vehicleHash) end
 --@usage void NETWORK_EARN_FROM_CRATE_DROP(int amount);
 --@params amount int
 --@return void
-function NetworkEarnFromCrateDrop(amount) end
+function NetworkEarnFromCrateDrop(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -671,7 +732,8 @@ function NetworkEarnFromCrateDrop(amount) end
 --@params amount int
 --@params p1 Any
 --@return void
-function NetworkEarnFromDarChallenge(amount,p1) end
+function NetworkEarnFromDarChallenge(amount, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -682,7 +744,8 @@ function NetworkEarnFromDarChallenge(amount,p1) end
 --@params unk char*
 --@params p2 Any
 --@return void
-function NetworkEarnFromGangopsAwards(amount,unk,p2) end
+function NetworkEarnFromGangopsAwards(amount, unk, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -692,7 +755,8 @@ function NetworkEarnFromGangopsAwards(amount,unk,p2) end
 --@params amount int
 --@params unk char*
 --@return void
-function NetworkEarnFromGangopsJobsFinale(amount,unk) end
+function NetworkEarnFromGangopsJobsFinale(amount, unk)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -702,7 +766,8 @@ function NetworkEarnFromGangopsJobsFinale(amount,unk) end
 --@params amount int
 --@params unk char*
 --@return void
-function NetworkEarnFromGangopsJobsSetup(amount,unk) end
+function NetworkEarnFromGangopsJobsSetup(amount, unk)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -711,7 +776,8 @@ function NetworkEarnFromGangopsJobsSetup(amount,unk) end
 --@usage void _NETWORK_EARN_FROM_GANG_PICKUP(int amount);
 --@params amount int
 --@return void
-function NetworkEarnFromGangPickup(amount) end
+function NetworkEarnFromGangPickup(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -720,7 +786,8 @@ function NetworkEarnFromGangPickup(amount) end
 --@usage void _NETWORK_EARN_FROM_BB_EVENT_CARGO(int amount);
 --@params amount int
 --@return void
-function NetworkEarnFromBbEventCargo(amount) end
+function NetworkEarnFromBbEventCargo(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -729,7 +796,8 @@ function NetworkEarnFromBbEventCargo(amount) end
 --@usage void _NETWORK_EARN_FROM_CASHING_OUT(int amount);
 --@params amount int
 --@return void
-function NetworkEarnFromCashingOut(amount) end
+function NetworkEarnFromCashingOut(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -739,7 +807,8 @@ function NetworkEarnFromCashingOut(amount) end
 --@params amount int
 --@params heistHash char*
 --@return void
-function NetworkEarnFromBendJob(amount,heistHash) end
+function NetworkEarnFromBendJob(amount, heistHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -749,7 +818,8 @@ function NetworkEarnFromBendJob(amount,heistHash) end
 --@params amount int
 --@params p1 int
 --@return void
-function NetworkEarnFromGangopsWagesBonus(amount,p1) end
+function NetworkEarnFromGangopsWagesBonus(amount, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -761,7 +831,8 @@ function NetworkEarnFromGangopsWagesBonus(amount,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function NetworkEarnFromHackerTruckMission(p0,amount,p2,p3) end
+function NetworkEarnFromHackerTruckMission(p0, amount, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -771,7 +842,8 @@ function NetworkEarnFromHackerTruckMission(p0,amount,p2,p3) end
 --@params amount int
 --@params modelHash Any
 --@return void
-function NetworkEarnFromImportExport(amount,modelHash) end
+function NetworkEarnFromImportExport(amount, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -780,7 +852,8 @@ function NetworkEarnFromImportExport(amount,modelHash) end
 --@usage void _NETWORK_EARN_FROM_GANGOPS_JOBS_PREP_PARTICIPATION(int amount);
 --@params amount int
 --@return void
-function NetworkEarnFromGangopsJobsPrepParticipation(amount) end
+function NetworkEarnFromGangopsJobsPrepParticipation(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -789,7 +862,8 @@ function NetworkEarnFromGangopsJobsPrepParticipation(amount) end
 --@usage void NETWORK_EARN_FROM_NOT_BADSPORT(int amount);
 --@params amount int
 --@return void
-function NetworkEarnFromNotBadsport(amount) end
+function NetworkEarnFromNotBadsport(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -800,7 +874,8 @@ function NetworkEarnFromNotBadsport(amount) end
 --@params p1 Any*
 --@params p2 Any*
 --@return void
-function NetworkEarnFromJobBonus(p0,p1,p2) end
+function NetworkEarnFromJobBonus(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -809,7 +884,8 @@ function NetworkEarnFromJobBonus(p0,p1,p2) end
 --@usage void NETWORK_EARN_FROM_HOLDUPS(int amount);
 --@params amount int
 --@return void
-function NetworkEarnFromHoldups(amount) end
+function NetworkEarnFromHoldups(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -819,7 +895,8 @@ function NetworkEarnFromHoldups(amount) end
 --@params amount int
 --@params p1 int
 --@return void
-function NetworkEarnFromGangopsWages(amount,p1) end
+function NetworkEarnFromGangopsWages(amount, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -830,7 +907,8 @@ function NetworkEarnFromGangopsWages(amount,p1) end
 --@params unk char*
 --@params actIndex int
 --@return void
-function NetworkEarnFromGangopsElite(amount,unk,actIndex) end
+function NetworkEarnFromGangopsElite(amount, unk, actIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -847,7 +925,8 @@ function NetworkEarnFromGangopsElite(amount,unk,actIndex) end
 --@params p7 Any
 --@params p8 Any
 --@return void
-function NetworkEarnFromPersonalVehicle(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function NetworkEarnFromPersonalVehicle(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -856,7 +935,8 @@ function NetworkEarnFromPersonalVehicle(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@usage Any NETWORK_EARN_FROM_PICKUP(int amount);
 --@params amount int
 --@return Any
-function NetworkEarnFromPickup(amount) end
+function NetworkEarnFromPickup(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -866,7 +946,8 @@ function NetworkEarnFromPickup(amount) end
 --@params amount int
 --@params p1 Any
 --@return void
-function NetworkEarnFromRdrBonus(amount,p1) end
+function NetworkEarnFromRdrBonus(amount, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -876,7 +957,8 @@ function NetworkEarnFromRdrBonus(amount,p1) end
 --@params amount int
 --@params baseNameHash Hash
 --@return void
-function NetworkEarnFromSellBase(amount,baseNameHash) end
+function NetworkEarnFromSellBase(amount, baseNameHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -885,7 +967,8 @@ function NetworkEarnFromSellBase(amount,baseNameHash) end
 --@usage void NETWORK_EARN_FROM_ROCKSTAR(int amount);
 --@params amount int
 --@return void
-function NetworkEarnFromRockstar(amount) end
+function NetworkEarnFromRockstar(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -895,7 +978,8 @@ function NetworkEarnFromRockstar(amount) end
 --@params amount int
 --@params p1 char*
 --@return void
-function NetworkEarnFromJob(amount,p1) end
+function NetworkEarnFromJob(amount, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -907,7 +991,8 @@ function NetworkEarnFromJob(amount,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function NetworkEarnFromSmuggling(amount,p1,p2,p3) end
+function NetworkEarnFromSmuggling(amount, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -917,7 +1002,8 @@ function NetworkEarnFromSmuggling(amount,p1,p2,p3) end
 --@params amount int
 --@params p1 int
 --@return void
-function NetworkEarnFromTargetRefund(amount,p1) end
+function NetworkEarnFromTargetRefund(amount, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -927,7 +1013,8 @@ function NetworkEarnFromTargetRefund(amount,p1) end
 --@params amount int
 --@params propertyName Hash
 --@return void
-function NetworkEarnFromProperty(amount,propertyName) end
+function NetworkEarnFromProperty(amount, propertyName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -943,7 +1030,8 @@ function NetworkEarnFromProperty(amount,propertyName) end
 --@params p6 Any
 --@params p7 Any
 --@return void
-function NetworkEarnFromVehicle(p0,p1,p2,p3,p4,p5,p6,p7) end
+function NetworkEarnFromVehicle(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -952,7 +1040,8 @@ function NetworkEarnFromVehicle(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@usage void _NETWORK_EARN_FROM_WAGE_PAYMENT(int amount);
 --@params amount int
 --@return void
-function NetworkEarnFromWagePayment(amount) end
+function NetworkEarnFromWagePayment(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -961,7 +1050,8 @@ function NetworkEarnFromWagePayment(amount) end
 --@usage void _NETWORK_EARN_FROM_WAGE_PAYMENT_BONUS(int amount);
 --@params amount int
 --@return void
-function NetworkEarnFromWagePaymentBonus(amount) end
+function NetworkEarnFromWagePaymentBonus(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -970,7 +1060,8 @@ function NetworkEarnFromWagePaymentBonus(amount) end
 --@usage void _NETWORK_EARN_FROM_SPIN_THE_WHEEL_CASH(int amount);
 --@params amount int
 --@return void
-function NetworkEarnFromSpinTheWheelCash(amount) end
+function NetworkEarnFromSpinTheWheelCash(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -979,7 +1070,8 @@ function NetworkEarnFromSpinTheWheelCash(amount) end
 --@usage int NETWORK_GET_PVC_BALANCE();
 
 --@return int
-function NetworkGetPvcBalance() end
+function NetworkGetPvcBalance()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -988,7 +1080,8 @@ function NetworkGetPvcBalance() end
 --@usage BOOL _NETWORK_GET_IS_HIGH_EARNER();
 
 --@return BOOL
-function NetworkGetIsHighEarner() end
+function NetworkGetIsHighEarner()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -997,7 +1090,8 @@ function NetworkGetIsHighEarner() end
 --@usage int NETWORK_GET_PVC_TRANSFER_BALANCE();
 
 --@return int
-function NetworkGetPvcTransferBalance() end
+function NetworkGetPvcTransferBalance()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1006,7 +1100,8 @@ function NetworkGetPvcTransferBalance() end
 --@usage int _NETWORK_GET_REMAINING_VC_DAILY_TRANSFERS_2();
 
 --@return int
-function NetworkGetRemainingVcDailyTransfers_2() end
+function NetworkGetRemainingVcDailyTransfers_2()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1015,7 +1110,8 @@ function NetworkGetRemainingVcDailyTransfers_2() end
 --@usage char* NETWORK_GET_STRING_BANK_WALLET_BALANCE();
 
 --@return char*
-function NetworkGetStringBankWalletBalance() end
+function NetworkGetStringBankWalletBalance()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1024,7 +1120,8 @@ function NetworkGetStringBankWalletBalance() end
 --@usage char* NETWORK_GET_STRING_BANK_BALANCE();
 
 --@return char*
-function NetworkGetStringBankBalance() end
+function NetworkGetStringBankBalance()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1033,7 +1130,8 @@ function NetworkGetStringBankBalance() end
 --@usage int NETWORK_GET_EVC_BALANCE();
 
 --@return int
-function NetworkGetEvcBalance() end
+function NetworkGetEvcBalance()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1042,7 +1140,8 @@ function NetworkGetEvcBalance() end
 --@usage char* NETWORK_GET_STRING_WALLET_BALANCE(int characterSlot);
 --@params characterSlot int
 --@return char*
-function NetworkGetStringWalletBalance(characterSlot) end
+function NetworkGetStringWalletBalance(characterSlot)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1051,7 +1150,8 @@ function NetworkGetStringWalletBalance(characterSlot) end
 --@usage BOOL _NETWORK_GET_VC_BANK_BALANCE_IS_NOT_LESS_THAN(int amount);
 --@params amount int
 --@return BOOL
-function NetworkGetVcBankBalanceIsNotLessThan(amount) end
+function NetworkGetVcBankBalanceIsNotLessThan(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1061,7 +1161,8 @@ function NetworkGetVcBankBalanceIsNotLessThan(amount) end
 --@params amount int
 --@params characterSlot int
 --@return BOOL
-function NetworkGetVcBankWalletBalanceIsNotLessThan(amount,characterSlot) end
+function NetworkGetVcBankWalletBalanceIsNotLessThan(amount, characterSlot)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1070,7 +1171,8 @@ function NetworkGetVcBankWalletBalanceIsNotLessThan(amount,characterSlot) end
 --@usage int NETWORK_GET_VC_BALANCE();
 
 --@return int
-function NetworkGetVcBalance() end
+function NetworkGetVcBalance()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1080,7 +1182,8 @@ function NetworkGetVcBalance() end
 --@params amount int
 --@params characterSlot int
 --@return BOOL
-function NetworkGetVcWalletBalanceIsNotLessThan(amount,characterSlot) end
+function NetworkGetVcWalletBalanceIsNotLessThan(amount, characterSlot)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1090,7 +1193,8 @@ function NetworkGetVcWalletBalanceIsNotLessThan(amount,characterSlot) end
 --@params wallet int
 --@params bank int
 --@return void
-function NetworkInitializeCash(wallet,bank) end
+function NetworkInitializeCash(wallet, bank)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1099,7 +1203,8 @@ function NetworkInitializeCash(wallet,bank) end
 --@usage int NETWORK_GET_VC_WALLET_BALANCE(int characterSlot);
 --@params characterSlot int
 --@return int
-function NetworkGetVcWalletBalance(characterSlot) end
+function NetworkGetVcWalletBalance(characterSlot)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1110,7 +1215,8 @@ function NetworkGetVcWalletBalance(characterSlot) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return BOOL
-function NetworkMoneyCanBet(amount,p1,p2) end
+function NetworkMoneyCanBet(amount, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1120,7 +1226,8 @@ function NetworkMoneyCanBet(amount,p1,p2) end
 --@params amount int
 --@params networkHandle int*
 --@return void
-function NetworkGivePlayerJobshareCash(amount,networkHandle) end
+function NetworkGivePlayerJobshareCash(amount, networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1131,7 +1238,8 @@ function NetworkGivePlayerJobshareCash(amount,networkHandle) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkPayUtilityBill(amount,p1,p2) end
+function NetworkPayUtilityBill(amount, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1140,7 +1248,8 @@ function NetworkPayUtilityBill(amount,p1,p2) end
 --@usage int NETWORK_GET_VC_BANK_BALANCE();
 
 --@return int
-function NetworkGetVcBankBalance() end
+function NetworkGetVcBankBalance()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1151,7 +1260,8 @@ function NetworkGetVcBankBalance() end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkPayEmployeeWage(p0,p1,p2) end
+function NetworkPayEmployeeWage(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1162,7 +1272,8 @@ function NetworkPayEmployeeWage(p0,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentAmmoDrop(p0,p1,p2) end
+function NetworkSpentAmmoDrop(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1174,7 +1285,8 @@ function NetworkSpentAmmoDrop(p0,p1,p2) end
 --@params reason char*
 --@params unk BOOL
 --@return void
-function NetworkRefundCash(index,context,reason,unk) end
+function NetworkRefundCash(index, context, reason, unk)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1186,7 +1298,8 @@ function NetworkRefundCash(index,context,reason,unk) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkPayMatchEntryFee(amount,matchId,p2,p3) end
+function NetworkPayMatchEntryFee(amount, matchId, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1198,7 +1311,8 @@ function NetworkPayMatchEntryFee(amount,matchId,p2,p3) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkSpentArenaJoinSpectator(amount,p1,p2,p3) end
+function NetworkSpentArenaJoinSpectator(amount, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1207,7 +1321,8 @@ function NetworkSpentArenaJoinSpectator(amount,p1,p2,p3) end
 --@usage void _NETWORK_RIVAL_DELIVERY_COMPLETED(int earnedMoney);
 --@params earnedMoney int
 --@return void
-function NetworkRivalDeliveryCompleted(earnedMoney) end
+function NetworkRivalDeliveryCompleted(earnedMoney)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1217,7 +1332,8 @@ function NetworkRivalDeliveryCompleted(earnedMoney) end
 --@params value int
 --@params networkHandle int*
 --@return void
-function NetworkReceivePlayerJobshareCash(value,networkHandle) end
+function NetworkReceivePlayerJobshareCash(value, networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1228,7 +1344,8 @@ function NetworkReceivePlayerJobshareCash(value,networkHandle) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentArrestBail(p0,p1,p2) end
+function NetworkSpentArrestBail(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1240,7 +1357,8 @@ function NetworkSpentArrestBail(p0,p1,p2) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkSpentArenaSpectatorBox(amount,p1,p2,p3) end
+function NetworkSpentArenaSpectatorBox(amount, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1253,7 +1371,8 @@ function NetworkSpentArenaSpectatorBox(amount,p1,p2,p3) end
 --@params p3 BOOL
 --@params p4 BOOL
 --@return void
-function NetworkSpentBetting(amount,p1,matchId,p3,p4) end
+function NetworkSpentBetting(amount, p1, matchId, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1264,7 +1383,8 @@ function NetworkSpentBetting(amount,p1,matchId,p3,p4) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentBounty(p0,p1,p2) end
+function NetworkSpentBounty(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1275,7 +1395,8 @@ function NetworkSpentBounty(p0,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentArenaPremium(amount,p1,p2) end
+function NetworkSpentArenaPremium(amount, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1286,7 +1407,8 @@ function NetworkSpentArenaPremium(amount,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentBountyHunterMission(amount,p1,p2) end
+function NetworkSpentBountyHunterMission(amount, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1297,7 +1419,8 @@ function NetworkSpentBountyHunterMission(amount,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentBoatPickup(p0,p1,p2) end
+function NetworkSpentBoatPickup(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1308,7 +1431,8 @@ function NetworkSpentBoatPickup(p0,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentBankInterest(p0,p1,p2) end
+function NetworkSpentBankInterest(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1320,7 +1444,8 @@ function NetworkSpentBankInterest(p0,p1,p2) end
 --@params p2 BOOL
 --@params p3 char*
 --@return void
-function NetworkSpentBuyArena(amount,p1,p2,p3) end
+function NetworkSpentBuyArena(amount, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1331,7 +1456,8 @@ function NetworkSpentBuyArena(amount,p1,p2,p3) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentBullShark(p0,p1,p2) end
+function NetworkSpentBullShark(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1342,7 +1468,8 @@ function NetworkSpentBullShark(p0,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentBuyOfftheradar(p0,p1,p2) end
+function NetworkSpentBuyOfftheradar(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1353,7 +1480,8 @@ function NetworkSpentBuyOfftheradar(p0,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentBuyPassiveMode(p0,p1,p2) end
+function NetworkSpentBuyPassiveMode(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1364,7 +1492,8 @@ function NetworkSpentBuyPassiveMode(p0,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentBuyRevealPlayers(p0,p1,p2) end
+function NetworkSpentBuyRevealPlayers(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1376,7 +1505,8 @@ function NetworkSpentBuyRevealPlayers(p0,p1,p2) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkSpentBuyWantedlevel(p0,p1,p2,p3) end
+function NetworkSpentBuyWantedlevel(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1389,7 +1519,8 @@ function NetworkSpentBuyWantedlevel(p0,p1,p2,p3) end
 --@params p3 BOOL
 --@params p4 BOOL
 --@return void
-function NetworkSpentCarwash(p0,p1,p2,p3,p4) end
+function NetworkSpentCarwash(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1400,7 +1531,8 @@ function NetworkSpentCarwash(p0,p1,p2,p3,p4) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentCashDrop(amount,p1,p2) end
+function NetworkSpentCashDrop(amount, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1412,7 +1544,8 @@ function NetworkSpentCashDrop(amount,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function NetworkSpentBuyTiltrotor(p0,p1,p2,p3) end
+function NetworkSpentBuyTiltrotor(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1424,7 +1557,8 @@ function NetworkSpentBuyTiltrotor(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function NetworkSpentEmployAssassins(p0,p1,p2,p3) end
+function NetworkSpentEmployAssassins(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1436,7 +1570,8 @@ function NetworkSpentEmployAssassins(p0,p1,p2,p3) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkSpentCinema(p0,p1,p2,p3) end
+function NetworkSpentCinema(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1448,7 +1583,8 @@ function NetworkSpentCinema(p0,p1,p2,p3) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkSpentCallPlayer(p0,p1,p2,p3) end
+function NetworkSpentCallPlayer(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1460,7 +1596,8 @@ function NetworkSpentCallPlayer(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function NetworkSpentGangopsCannon(p0,p1,p2,p3) end
+function NetworkSpentGangopsCannon(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1471,7 +1608,8 @@ function NetworkSpentGangopsCannon(p0,p1,p2,p3) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentFromRockstar(bank,p1,p2) end
+function NetworkSpentFromRockstar(bank, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1483,7 +1621,8 @@ function NetworkSpentFromRockstar(bank,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function NetworkSpentGangopsStartMission(p0,p1,p2,p3) end
+function NetworkSpentGangopsStartMission(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1495,7 +1634,8 @@ function NetworkSpentGangopsStartMission(p0,p1,p2,p3) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkSpentGangopsStartStrand(type,amount,p2,p3) end
+function NetworkSpentGangopsStartStrand(type, amount, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1506,7 +1646,8 @@ function NetworkSpentGangopsStartStrand(type,amount,p2,p3) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentHangarUtilityCharges(amount,p1,p2) end
+function NetworkSpentHangarUtilityCharges(amount, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1517,7 +1658,8 @@ function NetworkSpentHangarUtilityCharges(amount,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentGangopsTripSkip(amount,p1,p2) end
+function NetworkSpentGangopsTripSkip(amount, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1528,7 +1670,8 @@ function NetworkSpentGangopsTripSkip(amount,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentHireMercenary(p0,p1,p2) end
+function NetworkSpentHireMercenary(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1539,7 +1682,8 @@ function NetworkSpentHireMercenary(p0,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentHangarStaffCharges(amount,p1,p2) end
+function NetworkSpentHangarStaffCharges(amount, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1550,7 +1694,8 @@ function NetworkSpentHangarStaffCharges(amount,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentHireMugger(p0,p1,p2) end
+function NetworkSpentHireMugger(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1561,7 +1706,8 @@ function NetworkSpentHireMugger(p0,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentHoldups(p0,p1,p2) end
+function NetworkSpentHoldups(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1573,7 +1719,8 @@ function NetworkSpentHoldups(p0,p1,p2) end
 --@params p2 Any
 --@params p3 BOOL
 --@return void
-function NetworkSpentInStripclub(p0,p1,p2,p3) end
+function NetworkSpentInStripclub(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1585,7 +1732,8 @@ function NetworkSpentInStripclub(p0,p1,p2,p3) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkSpentJobSkip(amount,matchId,p2,p3) end
+function NetworkSpentJobSkip(amount, matchId, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1596,7 +1744,8 @@ function NetworkSpentJobSkip(amount,matchId,p2,p3) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentMakeItRain(amount,p1,p2) end
+function NetworkSpentMakeItRain(amount, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1608,7 +1757,8 @@ function NetworkSpentMakeItRain(amount,p1,p2) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkSpentNightclubBarDrink(amount,p1,p2,p3) end
+function NetworkSpentNightclubBarDrink(amount, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1619,7 +1769,8 @@ function NetworkSpentNightclubBarDrink(amount,p1,p2,p3) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentNoCops(p0,p1,p2) end
+function NetworkSpentNoCops(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1632,7 +1783,8 @@ function NetworkSpentNoCops(p0,p1,p2) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkSpentNightclubEntryFee(player,amount,p1,p2,p3) end
+function NetworkSpentNightclubEntryFee(player, amount, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1645,7 +1797,8 @@ function NetworkSpentNightclubEntryFee(player,amount,p1,p2,p3) end
 --@params notBankrupt BOOL
 --@params hasTheMoney BOOL
 --@return void
-function NetworkSpentPayVehicleInsurancePremium(amount,vehicleModel,networkHandle,notBankrupt,hasTheMoney) end
+function NetworkSpentPayVehicleInsurancePremium(amount, vehicleModel, networkHandle, notBankrupt, hasTheMoney)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1656,7 +1809,8 @@ function NetworkSpentPayVehicleInsurancePremium(amount,vehicleModel,networkHandl
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentHeliPickup(p0,p1,p2) end
+function NetworkSpentHeliPickup(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1668,7 +1822,8 @@ function NetworkSpentHeliPickup(p0,p1,p2) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkSpentPlayerHealthcare(p0,p1,p2,p3) end
+function NetworkSpentPlayerHealthcare(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1680,7 +1835,8 @@ function NetworkSpentPlayerHealthcare(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function NetworkSpentPurchaseHangar(p0,p1,p2,p3) end
+function NetworkSpentPurchaseHangar(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1692,7 +1848,8 @@ function NetworkSpentPurchaseHangar(p0,p1,p2,p3) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkSpentRehireDj(amount,p1,p2,p3) end
+function NetworkSpentRehireDj(amount, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1703,7 +1860,8 @@ function NetworkSpentRehireDj(amount,p1,p2,p3) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentRdrhatchetBonus(amount,p1,p2) end
+function NetworkSpentRdrhatchetBonus(amount, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1714,7 +1872,8 @@ function NetworkSpentRdrhatchetBonus(amount,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentRequestJob(p0,p1,p2) end
+function NetworkSpentRequestJob(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1725,7 +1884,8 @@ function NetworkSpentRequestJob(p0,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentRequestHeist(p0,p1,p2) end
+function NetworkSpentRequestHeist(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1737,7 +1897,8 @@ function NetworkSpentRequestHeist(p0,p1,p2) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return void
-function NetworkSpentSpinTheWheelPayment(amount,p1,p2,p3) end
+function NetworkSpentSpinTheWheelPayment(amount, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1748,7 +1909,8 @@ function NetworkSpentSpinTheWheelPayment(amount,p1,p2,p3) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentRobbedByMugger(amount,p1,p2) end
+function NetworkSpentRobbedByMugger(amount, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1759,7 +1921,8 @@ function NetworkSpentRobbedByMugger(amount,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentTelescope(p0,p1,p2) end
+function NetworkSpentTelescope(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1771,7 +1934,8 @@ function NetworkSpentTelescope(p0,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function NetworkSpentBuyBase(p0,p1,p2,p3) end
+function NetworkSpentBuyBase(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1783,7 +1947,8 @@ function NetworkSpentBuyBase(p0,p1,p2,p3) end
 --@params p2 BOOL
 --@params p3 char*
 --@return void
-function NetworkSpentUpgradeArena(amount,p1,p2,p3) end
+function NetworkSpentUpgradeArena(amount, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1794,7 +1959,8 @@ function NetworkSpentUpgradeArena(amount,p1,p2,p3) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentTaxi(amount,p1,p2) end
+function NetworkSpentTaxi(amount, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1806,7 +1972,8 @@ function NetworkSpentTaxi(amount,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function NetworkSpentUpgradeBase(p0,p1,p2,p3) end
+function NetworkSpentUpgradeBase(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1818,7 +1985,8 @@ function NetworkSpentUpgradeBase(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function NetworkSpentUpgradeHangar(p0,p1,p2,p3) end
+function NetworkSpentUpgradeHangar(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1830,7 +1998,8 @@ function NetworkSpentUpgradeHangar(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function NetworkSpentUpgradeTiltrotor(p0,p1,p2,p3) end
+function NetworkSpentUpgradeTiltrotor(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1839,7 +2008,8 @@ function NetworkSpentUpgradeTiltrotor(p0,p1,p2,p3) end
 --@usage int WITHDRAW_VC(int amount);
 --@params amount int
 --@return int
-function WithdrawVc(amount) end
+function WithdrawVc(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1850,7 +2020,8 @@ function WithdrawVc(amount) end
 --@params p1 int*
 --@params p2 char*
 --@return char*
-function ProcessCashGift(p0,p1,p2) end
+function ProcessCashGift(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1861,4 +2032,5 @@ function ProcessCashGift(p0,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function NetworkSpentProstitutes(p0,p1,p2) end
+function NetworkSpentProstitutes(p0, p1, p2)
+end

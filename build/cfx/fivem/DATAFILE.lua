@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule DATAFILE
@@ -7,7 +6,8 @@
 --@params arrayData Any*
 --@params value float
 --@return void
-function ArrayValueAddFloat(arrayData,value) end
+function ArrayValueAddFloat(arrayData, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -16,7 +16,8 @@ function ArrayValueAddFloat(arrayData,value) end
 --@usage Any* _ARRAY_VALUE_ADD_OBJECT(Any* arrayData);
 --@params arrayData Any*
 --@return Any*
-function ArrayValueAddObject(arrayData) end
+function ArrayValueAddObject(arrayData)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -26,7 +27,8 @@ function ArrayValueAddObject(arrayData) end
 --@params arrayData Any*
 --@params value BOOL
 --@return void
-function ArrayValueAddBoolean(arrayData,value) end
+function ArrayValueAddBoolean(arrayData, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -36,7 +38,8 @@ function ArrayValueAddBoolean(arrayData,value) end
 --@params arrayData Any*
 --@params arrayIndex int
 --@return BOOL
-function ArrayValueGetBoolean(arrayData,arrayIndex) end
+function ArrayValueGetBoolean(arrayData, arrayIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -46,7 +49,8 @@ function ArrayValueGetBoolean(arrayData,arrayIndex) end
 --@params arrayData Any*
 --@params value int
 --@return void
-function ArrayValueAddInteger(arrayData,value) end
+function ArrayValueAddInteger(arrayData, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -56,7 +60,8 @@ function ArrayValueAddInteger(arrayData,value) end
 --@params arrayData Any*
 --@params value char*
 --@return void
-function ArrayValueAddString(arrayData,value) end
+function ArrayValueAddString(arrayData, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -68,7 +73,8 @@ function ArrayValueAddString(arrayData,value) end
 --@params valueY float
 --@params valueZ float
 --@return void
-function ArrayValueAddVector3(arrayData,valueX,valueY,valueZ) end
+function ArrayValueAddVector3(arrayData, valueX, valueY, valueZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -78,7 +84,8 @@ function ArrayValueAddVector3(arrayData,valueX,valueY,valueZ) end
 --@params arrayData Any*
 --@params arrayIndex int
 --@return char*
-function ArrayValueGetString(arrayData,arrayIndex) end
+function ArrayValueGetString(arrayData, arrayIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -88,7 +95,8 @@ function ArrayValueGetString(arrayData,arrayIndex) end
 --@params arrayData Any*
 --@params arrayIndex int
 --@return int
-function ArrayValueGetInteger(arrayData,arrayIndex) end
+function ArrayValueGetInteger(arrayData, arrayIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -97,7 +105,8 @@ function ArrayValueGetInteger(arrayData,arrayIndex) end
 --@usage int _ARRAY_VALUE_GET_SIZE(Any* arrayData);
 --@params arrayData Any*
 --@return int
-function ArrayValueGetSize(arrayData) end
+function ArrayValueGetSize(arrayData)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -107,7 +116,8 @@ function ArrayValueGetSize(arrayData) end
 --@params arrayData Any*
 --@params arrayIndex int
 --@return float
-function ArrayValueGetFloat(arrayData,arrayIndex) end
+function ArrayValueGetFloat(arrayData, arrayIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -116,7 +126,8 @@ function ArrayValueGetFloat(arrayData,arrayIndex) end
 --@usage void DATAFILE_CLEAR_WATCH_LIST();
 
 --@return void
-function DatafileClearWatchList() end
+function DatafileClearWatchList()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -125,7 +136,8 @@ function DatafileClearWatchList() end
 --@usage void DATAFILE_DELETE();
 
 --@return void
-function DatafileDelete() end
+function DatafileDelete()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -135,7 +147,8 @@ function DatafileDelete() end
 --@params arrayData Any*
 --@params arrayIndex int
 --@return Any*
-function ArrayValueGetObject(arrayData,arrayIndex) end
+function ArrayValueGetObject(arrayData, arrayIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -145,7 +158,8 @@ function ArrayValueGetObject(arrayData,arrayIndex) end
 --@params arrayData Any*
 --@params arrayIndex int
 --@return Vector3
-function ArrayValueGetVector3(arrayData,arrayIndex) end
+function ArrayValueGetVector3(arrayData, arrayIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -154,7 +168,8 @@ function ArrayValueGetVector3(arrayData,arrayIndex) end
 --@usage void DATAFILE_FLUSH_MISSION_HEADER();
 
 --@return void
-function DatafileFlushMissionHeader() end
+function DatafileFlushMissionHeader()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -163,7 +178,8 @@ function DatafileFlushMissionHeader() end
 --@usage BOOL DATAFILE_HAS_LOADED_FILE_DATA(Any p0);
 --@params p0 Any
 --@return BOOL
-function DatafileHasLoadedFileData(p0) end
+function DatafileHasLoadedFileData(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -172,7 +188,8 @@ function DatafileHasLoadedFileData(p0) end
 --@usage BOOL DATAFILE_DELETE_REQUESTED_FILE(Any p0);
 --@params p0 Any
 --@return BOOL
-function DatafileDeleteRequestedFile(p0) end
+function DatafileDeleteRequestedFile(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -182,7 +199,8 @@ function DatafileDeleteRequestedFile(p0) end
 --@params arrayData Any*
 --@params arrayIndex int
 --@return int
-function ArrayValueGetType(arrayData,arrayIndex) end
+function ArrayValueGetType(arrayData, arrayIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -191,7 +209,8 @@ function ArrayValueGetType(arrayData,arrayIndex) end
 --@usage BOOL DATAFILE_HAS_VALID_FILE_DATA(Any p0);
 --@params p0 Any
 --@return BOOL
-function DatafileHasValidFileData(p0) end
+function DatafileHasValidFileData(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -200,7 +219,8 @@ function DatafileHasValidFileData(p0) end
 --@usage BOOL DATAFILE_LOAD_OFFLINE_UGC(char* filename);
 --@params filename char*
 --@return BOOL
-function DatafileLoadOfflineUgc(filename) end
+function DatafileLoadOfflineUgc(filename)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -209,7 +229,8 @@ function DatafileLoadOfflineUgc(filename) end
 --@usage BOOL DATAFILE_IS_SAVE_PENDING();
 
 --@return BOOL
-function DatafileIsSavePending() end
+function DatafileIsSavePending()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -218,7 +239,8 @@ function DatafileIsSavePending() end
 --@usage BOOL DATAFILE_IS_VALID_REQUEST_ID(int index);
 --@params index int
 --@return BOOL
-function DatafileIsValidRequestId(index) end
+function DatafileIsValidRequestId(index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -227,7 +249,8 @@ function DatafileIsValidRequestId(index) end
 --@usage void DATAFILE_CREATE();
 
 --@return void
-function DatafileCreate() end
+function DatafileCreate()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -236,7 +259,8 @@ function DatafileCreate() end
 --@usage BOOL DATAFILE_SELECT_CREATOR_STATS(int p0);
 --@params p0 int
 --@return BOOL
-function DatafileSelectCreatorStats(p0) end
+function DatafileSelectCreatorStats(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -245,7 +269,8 @@ function DatafileSelectCreatorStats(p0) end
 --@usage char* DATAFILE_GET_FILE_DICT();
 
 --@return char*
-function DatafileGetFileDict() end
+function DatafileGetFileDict()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -254,7 +279,8 @@ function DatafileGetFileDict() end
 --@usage BOOL DATAFILE_SELECT_UGC_DATA(int p0);
 --@params p0 int
 --@return BOOL
-function DatafileSelectUgcData(p0) end
+function DatafileSelectUgcData(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -263,7 +289,8 @@ function DatafileSelectUgcData(p0) end
 --@usage BOOL DATAFILE_START_SAVE_TO_CLOUD(char* filename);
 --@params filename char*
 --@return BOOL
-function DatafileStartSaveToCloud(filename) end
+function DatafileStartSaveToCloud(filename)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -273,7 +300,8 @@ function DatafileStartSaveToCloud(filename) end
 --@params p0 int
 --@params p1 BOOL
 --@return BOOL
-function DatafileSelectUgcStats(p0,p1) end
+function DatafileSelectUgcStats(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -282,7 +310,8 @@ function DatafileSelectUgcStats(p0,p1) end
 --@usage BOOL DATAFILE_UPDATE_SAVE_TO_CLOUD(BOOL* p0);
 --@params p0 BOOL*
 --@return BOOL
-function DatafileUpdateSaveToCloud(p0) end
+function DatafileUpdateSaveToCloud(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -291,7 +320,8 @@ function DatafileUpdateSaveToCloud(p0) end
 --@usage BOOL DATAFILE_SELECT_UGC_PLAYER_DATA(int p0);
 --@params p0 int
 --@return BOOL
-function DatafileSelectUgcPlayerData(p0) end
+function DatafileSelectUgcPlayerData(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -300,7 +330,8 @@ function DatafileSelectUgcPlayerData(p0) end
 --@usage void DATAFILE_WATCH_REQUEST_ID(int id);
 --@params id int
 --@return void
-function DatafileWatchRequestId(id) end
+function DatafileWatchRequestId(id)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -309,7 +340,8 @@ function DatafileWatchRequestId(id) end
 --@usage BOOL DATAFILE_SELECT_ACTIVE_FILE(Any p0);
 --@params p0 Any
 --@return BOOL
-function DatafileSelectActiveFile(p0) end
+function DatafileSelectActiveFile(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -320,7 +352,8 @@ function DatafileSelectActiveFile(p0) end
 --@params key char*
 --@params value BOOL
 --@return void
-function ObjectValueAddBoolean(objectData,key,value) end
+function ObjectValueAddBoolean(objectData, key, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -330,7 +363,8 @@ function ObjectValueAddBoolean(objectData,key,value) end
 --@params objectData Any*
 --@params key char*
 --@return Any*
-function ObjectValueAddArray(objectData,key) end
+function ObjectValueAddArray(objectData, key)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -341,7 +375,8 @@ function ObjectValueAddArray(objectData,key) end
 --@params key char*
 --@params value float
 --@return void
-function ObjectValueAddFloat(objectData,key,value) end
+function ObjectValueAddFloat(objectData, key, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -352,7 +387,8 @@ function ObjectValueAddFloat(objectData,key,value) end
 --@params key char*
 --@params value int
 --@return void
-function ObjectValueAddInteger(objectData,key,value) end
+function ObjectValueAddInteger(objectData, key, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -363,7 +399,8 @@ function ObjectValueAddInteger(objectData,key,value) end
 --@params key char*
 --@params value char*
 --@return void
-function ObjectValueAddString(objectData,key,value) end
+function ObjectValueAddString(objectData, key, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -373,7 +410,8 @@ function ObjectValueAddString(objectData,key,value) end
 --@params objectData Any*
 --@params key char*
 --@return Any*
-function ObjectValueAddObject(objectData,key) end
+function ObjectValueAddObject(objectData, key)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -386,7 +424,8 @@ function ObjectValueAddObject(objectData,key) end
 --@params valueY float
 --@params valueZ float
 --@return void
-function ObjectValueAddVector3(objectData,key,valueX,valueY,valueZ) end
+function ObjectValueAddVector3(objectData, key, valueX, valueY, valueZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -396,7 +435,8 @@ function ObjectValueAddVector3(objectData,key,valueX,valueY,valueZ) end
 --@params objectData Any*
 --@params key char*
 --@return Any*
-function ObjectValueGetArray(objectData,key) end
+function ObjectValueGetArray(objectData, key)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -406,7 +446,8 @@ function ObjectValueGetArray(objectData,key) end
 --@params objectData Any*
 --@params key char*
 --@return BOOL
-function ObjectValueGetBoolean(objectData,key) end
+function ObjectValueGetBoolean(objectData, key)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -415,7 +456,8 @@ function ObjectValueGetBoolean(objectData,key) end
 --@usage void DATAFILE_STORE_MISSION_HEADER();
 
 --@return void
-function DatafileStoreMissionHeader() end
+function DatafileStoreMissionHeader()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -425,7 +467,8 @@ function DatafileStoreMissionHeader() end
 --@params objectData Any*
 --@params key char*
 --@return float
-function ObjectValueGetFloat(objectData,key) end
+function ObjectValueGetFloat(objectData, key)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -435,7 +478,8 @@ function ObjectValueGetFloat(objectData,key) end
 --@params objectData Any*
 --@params key char*
 --@return Any*
-function ObjectValueGetObject(objectData,key) end
+function ObjectValueGetObject(objectData, key)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -445,7 +489,8 @@ function ObjectValueGetObject(objectData,key) end
 --@params objectData Any*
 --@params key char*
 --@return int
-function ObjectValueGetInteger(objectData,key) end
+function ObjectValueGetInteger(objectData, key)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -455,7 +500,8 @@ function ObjectValueGetInteger(objectData,key) end
 --@params objectData Any*
 --@params key char*
 --@return char*
-function ObjectValueGetString(objectData,key) end
+function ObjectValueGetString(objectData, key)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -465,7 +511,8 @@ function ObjectValueGetString(objectData,key) end
 --@params objectData Any*
 --@params key char*
 --@return Vector3
-function ObjectValueGetVector3(objectData,key) end
+function ObjectValueGetVector3(objectData, key)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -476,7 +523,8 @@ function ObjectValueGetVector3(objectData,key) end
 --@params rating float
 --@params contentTypeName char*
 --@return BOOL
-function UgcSetPlayerData(contentId,rating,contentTypeName) end
+function UgcSetPlayerData(contentId, rating, contentTypeName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -491,7 +539,8 @@ function UgcSetPlayerData(contentId,rating,contentTypeName) end
 --@params contentTypeName char*
 --@params publish BOOL
 --@return BOOL
-function UgcCreateContent(data,dataCount,contentName,description,tagsCsv,contentTypeName,publish) end
+function UgcCreateContent(data, dataCount, contentName, description, tagsCsv, contentTypeName, publish)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -506,7 +555,8 @@ function UgcCreateContent(data,dataCount,contentName,description,tagsCsv,content
 --@params tagsCsv char*
 --@params contentTypeName char*
 --@return BOOL
-function UgcUpdateContent(contentId,data,dataCount,contentName,description,tagsCsv,contentTypeName) end
+function UgcUpdateContent(contentId, data, dataCount, contentName, description, tagsCsv, contentTypeName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -519,7 +569,8 @@ function UgcUpdateContent(contentId,data,dataCount,contentName,description,tagsC
 --@params contentTypeName char*
 --@params publish BOOL
 --@return BOOL
-function UgcCreateMission(contentName,description,tagsCsv,contentTypeName,publish) end
+function UgcCreateMission(contentName, description, tagsCsv, contentTypeName, publish)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -532,7 +583,8 @@ function UgcCreateMission(contentName,description,tagsCsv,contentTypeName,publis
 --@params tagsCsv char*
 --@params contentTypeName char*
 --@return BOOL
-function UgcUpdateMission(contentId,contentName,description,tagsCsv,contentTypeName) end
+function UgcUpdateMission(contentId, contentName, description, tagsCsv, contentTypeName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -542,4 +594,5 @@ function UgcUpdateMission(contentId,contentName,description,tagsCsv,contentTypeN
 --@params objectData Any*
 --@params key char*
 --@return int
-function ObjectValueGetType(objectData,key) end
+function ObjectValueGetType(objectData, key)
+end

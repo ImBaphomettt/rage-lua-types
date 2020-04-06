@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule ATTRIBUTE
@@ -8,7 +7,8 @@
 --@params coreIndex int
 --@params p2 int
 --@return undefined
-function SetAttributeBaseRank(ped,coreIndex,p2) end
+function SetAttributeBaseRank(ped, coreIndex, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -18,7 +18,8 @@ function SetAttributeBaseRank(ped,coreIndex,p2) end
 --@params ped Ped
 --@params coreIndex int
 --@return undefined
-function GetAttributeRank(ped,coreIndex) end
+function GetAttributeRank(ped, coreIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -28,7 +29,8 @@ function GetAttributeRank(ped,coreIndex) end
 --@params ped Ped
 --@params coreIndex int
 --@return undefined
-function GetAttributeBaseRank(ped,coreIndex) end
+function GetAttributeBaseRank(ped, coreIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -38,7 +40,8 @@ function GetAttributeBaseRank(ped,coreIndex) end
 --@params ped Ped
 --@params coreIndex int
 --@return undefined
-function GetAttributeBonusRank(ped,coreIndex) end
+function GetAttributeBonusRank(ped, coreIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -49,7 +52,8 @@ function GetAttributeBonusRank(ped,coreIndex) end
 --@params coreIndex int
 --@params p2 int
 --@return undefined
-function SetAttributeBonusRank(ped,coreIndex,p2) end
+function SetAttributeBonusRank(ped, coreIndex, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -59,7 +63,8 @@ function SetAttributeBonusRank(ped,coreIndex,p2) end
 --@params ped Ped
 --@params coreIndex int
 --@return undefined
-function GetDefaultAttributeRank(ped,coreIndex) end
+function GetDefaultAttributeRank(ped, coreIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -69,7 +74,8 @@ function GetDefaultAttributeRank(ped,coreIndex) end
 --@params ped Ped
 --@params coreIndex int
 --@return undefined
-function GetDefaultMaxAttributeRank(ped,coreIndex) end
+function GetDefaultMaxAttributeRank(ped, coreIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -80,7 +86,8 @@ function GetDefaultMaxAttributeRank(ped,coreIndex) end
 --@params coreIndex int
 --@params p2 int
 --@return undefined
-function AddAttributePoints(ped,coreIndex,p2) end
+function AddAttributePoints(ped, coreIndex, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -90,7 +97,8 @@ function AddAttributePoints(ped,coreIndex,p2) end
 --@params ped Ped
 --@params coreIndex int
 --@return undefined
-function GetMaxAttributeRank(ped,coreIndex) end
+function GetMaxAttributeRank(ped, coreIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -100,7 +108,8 @@ function GetMaxAttributeRank(ped,coreIndex) end
 --@params ped Ped
 --@params coreIndex int
 --@return undefined
-function GetAttributePoints(ped,coreIndex) end
+function GetAttributePoints(ped, coreIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -110,7 +119,8 @@ function GetAttributePoints(ped,coreIndex) end
 --@params ped Ped
 --@params coreIndex int
 --@return undefined
-function GetMaxAttributePoints(ped,coreIndex) end
+function GetMaxAttributePoints(ped, coreIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -121,7 +131,8 @@ function GetMaxAttributePoints(ped,coreIndex) end
 --@params coreIndex int
 --@params p2 int
 --@return undefined
-function SetAttributeCoreValue(ped,coreIndex,p2) end
+function SetAttributeCoreValue(ped, coreIndex, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -132,7 +143,8 @@ function SetAttributeCoreValue(ped,coreIndex,p2) end
 --@params coreIndex int
 --@params p2 int
 --@return undefined
-function SetAttributePoints(ped,coreIndex,p2) end
+function SetAttributePoints(ped, coreIndex, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -144,7 +156,8 @@ function SetAttributePoints(ped,coreIndex,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xf6a7c08df2e28b28(p0,p1,p2,p3) end
+function N_0xf6a7c08df2e28b28(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -156,7 +169,8 @@ function N_0xf6a7c08df2e28b28(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function EnableAttributeOverpower(p0,p1,p2,p3) end
+function EnableAttributeOverpower(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -166,7 +180,8 @@ function EnableAttributeOverpower(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function DisableAttributeOverpower(p0,p1) end
+function DisableAttributeOverpower(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -176,7 +191,8 @@ function DisableAttributeOverpower(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x103c2f885abeb00b(p0,p1) end
+function N_0x103c2f885abeb00b(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -186,7 +202,8 @@ function N_0x103c2f885abeb00b(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x200373a8df081f22(p0,p1) end
+function N_0x200373a8df081f22(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -196,7 +213,8 @@ function N_0x200373a8df081f22(p0,p1) end
 --@params ped Ped
 --@params coreIndex int
 --@return undefined
-function GetAttributeCoreValue(ped,coreIndex) end
+function GetAttributeCoreValue(ped, coreIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -206,7 +224,8 @@ function GetAttributeCoreValue(ped,coreIndex) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x4c9f782180712742(p0,p1) end
+function N_0x4c9f782180712742(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -217,7 +236,8 @@ function N_0x4c9f782180712742(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function GetDefaultAttributePointsNeededForRank(p0,p1,p2) end
+function GetDefaultAttributePointsNeededForRank(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -227,7 +247,8 @@ function GetDefaultAttributePointsNeededForRank(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xb429f58803d285b1(p0,p1) end
+function N_0xb429f58803d285b1(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -237,7 +258,8 @@ function N_0xb429f58803d285b1(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x7e2c766adb2c5f1a(p0,p1) end
+function N_0x7e2c766adb2c5f1a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -246,7 +268,8 @@ function N_0x7e2c766adb2c5f1a(p0,p1) end
 --@usage undefined _0xD962F8579D702DB5();
 
 --@return undefined
-function N_0xd962f8579d702db5() end
+function N_0xd962f8579d702db5()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -255,7 +278,8 @@ function N_0xd962f8579d702db5() end
 --@usage undefined _0xA4D3A1C008F250DF(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xa4d3a1c008f250df(p0) end
+function N_0xa4d3a1c008f250df(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -264,7 +288,8 @@ function N_0xa4d3a1c008f250df(p0) end
 --@usage undefined _0xFB6E111908502871(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xfb6e111908502871(p0) end
+function N_0xfb6e111908502871(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -273,4 +298,5 @@ function N_0xfb6e111908502871(p0) end
 --@usage undefined _0x3FC4C027FD0936F4(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x3fc4c027fd0936f4(p0) end
+function N_0x3fc4c027fd0936f4(p0)
+end

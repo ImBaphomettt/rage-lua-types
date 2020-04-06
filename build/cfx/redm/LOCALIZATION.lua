@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule LOCALIZATION
@@ -6,7 +5,8 @@
 --@usage undefined _LOCALIZATION_GET_SYSTEM_LANGUAGE();
 
 --@return undefined
-function LocalizationGetSystemLanguage() end
+function LocalizationGetSystemLanguage()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function LocalizationGetSystemLanguage() end
 --@usage undefined GET_CURRENT_LANGUAGE();
 
 --@return undefined
-function GetCurrentLanguage() end
+function GetCurrentLanguage()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function GetCurrentLanguage() end
 --@usage undefined _LOCALIZATION_GET_USER_LANGUAGE();
 
 --@return undefined
-function LocalizationGetUserLanguage() end
+function LocalizationGetUserLanguage()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -33,4 +35,5 @@ function LocalizationGetUserLanguage() end
 --@usage undefined _0x45D50415E4D885FF();
 
 --@return undefined
-function N_0x45d50415e4d885ff() end
+function N_0x45d50415e4d885ff()
+end

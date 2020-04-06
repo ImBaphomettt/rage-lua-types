@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule CLOCK
@@ -8,7 +7,8 @@
 --@params minute int
 --@params second int
 --@return void
-function AdvanceClockTimeTo(hour,minute,second) end
+function AdvanceClockTimeTo(hour, minute, second)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -17,7 +17,8 @@ function AdvanceClockTimeTo(hour,minute,second) end
 --@usage int GET_CLOCK_HOURS();
 
 --@return int
-function GetClockHours() end
+function GetClockHours()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -28,7 +29,8 @@ function GetClockHours() end
 --@params minutes int
 --@params seconds int
 --@return void
-function AddToClockTime(hours,minutes,seconds) end
+function AddToClockTime(hours, minutes, seconds)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -37,7 +39,8 @@ function AddToClockTime(hours,minutes,seconds) end
 --@usage int GET_CLOCK_DAY_OF_MONTH();
 
 --@return int
-function GetClockDayOfMonth() end
+function GetClockDayOfMonth()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -46,7 +49,8 @@ function GetClockDayOfMonth() end
 --@usage int GET_CLOCK_MONTH();
 
 --@return int
-function GetClockMonth() end
+function GetClockMonth()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -60,7 +64,8 @@ function GetClockMonth() end
 --@params minute int*
 --@params second int*
 --@return void
-function GetLocalTime(year,month,day,hour,minute,second) end
+function GetLocalTime(year, month, day, hour, minute, second)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -69,7 +74,8 @@ function GetLocalTime(year,month,day,hour,minute,second) end
 --@usage int GET_CLOCK_SECONDS();
 
 --@return int
-function GetClockSeconds() end
+function GetClockSeconds()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -78,7 +84,8 @@ function GetClockSeconds() end
 --@usage int GET_CLOCK_MINUTES();
 
 --@return int
-function GetClockMinutes() end
+function GetClockMinutes()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -87,7 +94,8 @@ function GetClockMinutes() end
 --@usage int GET_CLOCK_DAY_OF_WEEK();
 
 --@return int
-function GetClockDayOfWeek() end
+function GetClockDayOfWeek()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -101,7 +109,8 @@ function GetClockDayOfWeek() end
 --@params minute int*
 --@params second int*
 --@return void
-function GetUtcTime(year,month,day,hour,minute,second) end
+function GetUtcTime(year, month, day, hour, minute, second)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -110,7 +119,8 @@ function GetUtcTime(year,month,day,hour,minute,second) end
 --@usage int GET_MILLISECONDS_PER_GAME_MINUTE();
 
 --@return int
-function GetMillisecondsPerGameMinute() end
+function GetMillisecondsPerGameMinute()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -121,7 +131,8 @@ function GetMillisecondsPerGameMinute() end
 --@params minute int
 --@params second int
 --@return void
-function SetClockTime(hour,minute,second) end
+function SetClockTime(hour, minute, second)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -130,7 +141,8 @@ function SetClockTime(hour,minute,second) end
 --@usage void PAUSE_CLOCK(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function PauseClock(toggle) end
+function PauseClock(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -144,7 +156,8 @@ function PauseClock(toggle) end
 --@params minute int*
 --@params second int*
 --@return void
-function GetPosixTime(year,month,day,hour,minute,second) end
+function GetPosixTime(year, month, day, hour, minute, second)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -155,7 +168,8 @@ function GetPosixTime(year,month,day,hour,minute,second) end
 --@params month int
 --@params year int
 --@return void
-function SetClockDate(day,month,year) end
+function SetClockDate(day, month, year)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -164,4 +178,5 @@ function SetClockDate(day,month,year) end
 --@usage int GET_CLOCK_YEAR();
 
 --@return int
-function GetClockYear() end
+function GetClockYear()
+end

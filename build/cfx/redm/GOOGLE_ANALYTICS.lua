@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule GOOGLE_ANALYTICS
@@ -6,7 +5,8 @@
 --@usage undefined _GOOGLE_ANALYTICS_PUSH_PAGE(const char* pageName);
 --@params pageName const char*
 --@return undefined
-function GoogleAnalyticsPushPage(pageName) end
+function GoogleAnalyticsPushPage(pageName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,4 +15,5 @@ function GoogleAnalyticsPushPage(pageName) end
 --@usage undefined _GOOGLE_ANALYTICS_POP_PAGE(const char* pageName);
 --@params pageName const char*
 --@return undefined
-function GoogleAnalyticsPopPage(pageName) end
+function GoogleAnalyticsPopPage(pageName)
+end

@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule SYSTEM
@@ -6,7 +5,8 @@
 --@usage float COS(float value);
 --@params value float
 --@return float
-function Cos(value) end
+function Cos(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -16,7 +16,8 @@ function Cos(value) end
 --@params base float
 --@params exponent float
 --@return float
-function Pow(base,exponent) end
+function Pow(base, exponent)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -25,7 +26,8 @@ function Pow(base,exponent) end
 --@usage float _LOG10(float value);
 --@params value float
 --@return float
-function Log10(value) end
+function Log10(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -34,7 +36,8 @@ function Log10(value) end
 --@usage int ROUND(float value);
 --@params value float
 --@return int
-function Round(value) end
+function Round(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -44,7 +47,8 @@ function Round(value) end
 --@params value int
 --@params bitShift int
 --@return int
-function ShiftLeft(value,bitShift) end
+function ShiftLeft(value, bitShift)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -53,7 +57,8 @@ function ShiftLeft(value,bitShift) end
 --@usage int CEIL(float value);
 --@params value float
 --@return int
-function Ceil(value) end
+function Ceil(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -62,7 +67,8 @@ function Ceil(value) end
 --@usage void SETTIMERB(int value);
 --@params value int
 --@return void
-function Settimerb(value) end
+function Settimerb(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -72,7 +78,8 @@ function Settimerb(value) end
 --@params scriptName char*
 --@params stackSize int
 --@return int
-function StartNewScript(scriptName,stackSize) end
+function StartNewScript(scriptName, stackSize)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -81,7 +88,8 @@ function StartNewScript(scriptName,stackSize) end
 --@usage void _SET_THREAD_PRIORITY(int priority);
 --@params priority int
 --@return void
-function SetThreadPriority(priority) end
+function SetThreadPriority(priority)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -90,7 +98,8 @@ function SetThreadPriority(priority) end
 --@usage void SETTIMERA(int value);
 --@params value int
 --@return void
-function Settimera(value) end
+function Settimera(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -102,7 +111,8 @@ function Settimera(value) end
 --@params argCount int
 --@params stackSize int
 --@return int
-function StartNewScriptWithArgs(scriptName,args,argCount,stackSize) end
+function StartNewScriptWithArgs(scriptName, args, argCount, stackSize)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -111,7 +121,8 @@ function StartNewScriptWithArgs(scriptName,args,argCount,stackSize) end
 --@usage float SIN(float value);
 --@params value float
 --@return float
-function Sin(value) end
+function Sin(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -123,7 +134,8 @@ function Sin(value) end
 --@params argCount int
 --@params stackSize int
 --@return int
-function StartNewScriptWithNameHashAndArgs(scriptHash,args,argCount,stackSize) end
+function StartNewScriptWithNameHashAndArgs(scriptHash, args, argCount, stackSize)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -132,7 +144,8 @@ function StartNewScriptWithNameHashAndArgs(scriptHash,args,argCount,stackSize) e
 --@usage float TIMESTEP();
 
 --@return float
-function Timestep() end
+function Timestep()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -142,7 +155,8 @@ function Timestep() end
 --@params value int
 --@params bitShift int
 --@return int
-function ShiftRight(value,bitShift) end
+function ShiftRight(value, bitShift)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -156,7 +170,8 @@ function ShiftRight(value,bitShift) end
 --@params y2 float
 --@params z2 float
 --@return float
-function Vdist(x1,y1,z1,x2,y2,z2) end
+function Vdist(x1, y1, z1, x2, y2, z2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -165,7 +180,8 @@ function Vdist(x1,y1,z1,x2,y2,z2) end
 --@usage int TIMERA();
 
 --@return int
-function Timera() end
+function Timera()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -175,7 +191,8 @@ function Timera() end
 --@params scriptHash Hash
 --@params stackSize int
 --@return int
-function StartNewScriptWithNameHash(scriptHash,stackSize) end
+function StartNewScriptWithNameHash(scriptHash, stackSize)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -189,7 +206,8 @@ function StartNewScriptWithNameHash(scriptHash,stackSize) end
 --@params y2 float
 --@params z2 float
 --@return float
-function Vdist2(x1,y1,z1,x2,y2,z2) end
+function Vdist2(x1, y1, z1, x2, y2, z2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -198,7 +216,8 @@ function Vdist2(x1,y1,z1,x2,y2,z2) end
 --@usage float TO_FLOAT(int value);
 --@params value int
 --@return float
-function ToFloat(value) end
+function ToFloat(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -207,7 +226,8 @@ function ToFloat(value) end
 --@usage int FLOOR(float value);
 --@params value float
 --@return int
-function Floor(value) end
+function Floor(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -218,7 +238,8 @@ function Floor(value) end
 --@params y float
 --@params z float
 --@return float
-function Vmag(x,y,z) end
+function Vmag(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -229,7 +250,8 @@ function Vmag(x,y,z) end
 --@params y float
 --@params z float
 --@return float
-function Vmag2(x,y,z) end
+function Vmag2(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -238,7 +260,8 @@ function Vmag2(x,y,z) end
 --@usage void WAIT(int ms);
 --@params ms int
 --@return void
-function Wait(ms) end
+function Wait(ms)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -247,7 +270,8 @@ function Wait(ms) end
 --@usage float SQRT(float value);
 --@params value float
 --@return float
-function Sqrt(value) end
+function Sqrt(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -256,4 +280,5 @@ function Sqrt(value) end
 --@usage int TIMERB();
 
 --@return int
-function Timerb() end
+function Timerb()
+end

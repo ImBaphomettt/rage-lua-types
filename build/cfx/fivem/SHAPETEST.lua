@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule SHAPETEST
@@ -10,7 +9,8 @@
 --@params surfaceNormal Vector3*
 --@params entityHit Entity*
 --@return int
-function GetShapeTestResult(rayHandle,hit,endCoords,surfaceNormal,entityHit) end
+function GetShapeTestResult(rayHandle, hit, endCoords, surfaceNormal, entityHit)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +24,8 @@ function GetShapeTestResult(rayHandle,hit,endCoords,surfaceNormal,entityHit) end
 --@params materialHash Hash*
 --@params entityHit Entity*
 --@return int
-function GetShapeTestResultIncludingMaterial(rayHandle,hit,endCoords,surfaceNormal,materialHash,entityHit) end
+function GetShapeTestResultIncludingMaterial(rayHandle, hit, endCoords, surfaceNormal, materialHash, entityHit)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -42,7 +43,8 @@ function GetShapeTestResultIncludingMaterial(rayHandle,hit,endCoords,surfaceNorm
 --@params entity Entity
 --@params p9 int
 --@return int
-function StartShapeTestCapsule(x1,y1,z1,x2,y2,z2,radius,flags,entity,p9) end
+function StartShapeTestCapsule(x1, y1, z1, x2, y2, z2, radius, flags, entity, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -51,7 +53,8 @@ function StartShapeTestCapsule(x1,y1,z1,x2,y2,z2,radius,flags,entity,p9) end
 --@usage void _SHAPE_TEST_RESULT_ENTITY(Entity entityHit);
 --@params entityHit Entity
 --@return void
-function ShapeTestResultEntity(entityHit) end
+function ShapeTestResultEntity(entityHit)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -62,7 +65,8 @@ function ShapeTestResultEntity(entityHit) end
 --@params flags1 int
 --@params flags2 int
 --@return int
-function StartShapeTestBound(entity,flags1,flags2) end
+function StartShapeTestBound(entity, flags1, flags2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -73,7 +77,8 @@ function StartShapeTestBound(entity,flags1,flags2) end
 --@params flags1 int
 --@params flags2 int
 --@return int
-function StartShapeTestBoundingBox(entity,flags1,flags2) end
+function StartShapeTestBoundingBox(entity, flags1, flags2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -90,7 +95,8 @@ function StartShapeTestBoundingBox(entity,flags1,flags2) end
 --@params ent Entity
 --@params p8 int
 --@return int
-function StartShapeTestLosProbe(x1,y1,z1,x2,y2,z2,flags,ent,p8) end
+function StartShapeTestLosProbe(x1, y1, z1, x2, y2, z2, flags, ent, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -111,7 +117,8 @@ function StartShapeTestLosProbe(x1,y1,z1,x2,y2,z2,flags,ent,p8) end
 --@params entity Any
 --@params p12 Any
 --@return int
-function StartShapeTestBox(x,y,z,x1,y2,z2,rotX,rotY,rotZ,p9,p10,entity,p12) end
+function StartShapeTestBox(x, y, z, x1, y2, z2, rotX, rotY, rotZ, p9, p10, entity, p12)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -129,7 +136,8 @@ function StartShapeTestBox(x,y,z,x1,y2,z2,rotX,rotY,rotZ,p9,p10,entity,p12) end
 --@params entity Entity
 --@params p9 Any
 --@return int
-function StartShapeTestSweptSphere(x1,y1,z1,x2,y2,z2,radius,flags,entity,p9) end
+function StartShapeTestSweptSphere(x1, y1, z1, x2, y2, z2, radius, flags, entity, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -146,7 +154,8 @@ function StartShapeTestSweptSphere(x1,y1,z1,x2,y2,z2,radius,flags,entity,p9) end
 --@params entity Entity
 --@params p8 int
 --@return int
-function StartShapeTestRay(x1,y1,z1,x2,y2,z2,flags,entity,p8) end
+function StartShapeTestRay(x1, y1, z1, x2, y2, z2, flags, entity, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -159,4 +168,5 @@ function StartShapeTestRay(x1,y1,z1,x2,y2,z2,flags,entity,p8) end
 --@params entity Entity
 --@params flag2 int
 --@return int
-function StartShapeTestSurroundingCoords(pVec1,pVec2,flag,entity,flag2) end
+function StartShapeTestSurroundingCoords(pVec1, pVec2, flag, entity, flag2)
+end

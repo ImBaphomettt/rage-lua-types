@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule PHYSICS
@@ -23,7 +22,8 @@
 --@params unkPtr Any*
 --@params p17 BOOL
 --@return undefined
-function AddRope(x,y,z,rotX,rotY,rotZ,length,ropeType,maxLength,minLength,p10,p11,p12,rigid,p14,breakWhenShot,unkPtr,p17) end
+function AddRope(x, y, z, rotX, rotY, rotZ, length, ropeType, maxLength, minLength, p10, p11, p12, rigid, p14, breakWhenShot, unkPtr, p17)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -42,7 +42,8 @@ function AddRope(x,y,z,rotX,rotY,rotZ,length,ropeType,maxLength,minLength,p10,p1
 --@params p9 Any
 --@params p10 Any
 --@return undefined
-function N_0xe9c59f6809373a99(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function N_0xe9c59f6809373a99(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -51,7 +52,8 @@ function N_0xe9c59f6809373a99(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
 --@usage undefined DELETE_ROPE(int* ropeId);
 --@params ropeId int*
 --@return undefined
-function DeleteRope(ropeId) end
+function DeleteRope(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -60,7 +62,8 @@ function DeleteRope(ropeId) end
 --@usage undefined DELETE_CHILD_ROPE(int ropeId);
 --@params ropeId int
 --@return undefined
-function DeleteChildRope(ropeId) end
+function DeleteChildRope(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -69,7 +72,8 @@ function DeleteChildRope(ropeId) end
 --@usage undefined _0x6076213101A47B3B(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6076213101a47b3b(p0) end
+function N_0x6076213101a47b3b(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -84,7 +88,8 @@ function N_0x6076213101a47b3b(p0) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function N_0x4cfa2b7fae115ecb(p0,p1,p2,p3,p4,p5,p6) end
+function N_0x4cfa2b7fae115ecb(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -94,7 +99,8 @@ function N_0x4cfa2b7fae115ecb(p0,p1,p2,p3,p4,p5,p6) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x7a54d82227a139db(p0,p1) end
+function N_0x7a54d82227a139db(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -104,7 +110,8 @@ function N_0x7a54d82227a139db(p0,p1) end
 --@params ropeId int*
 --@params toggle BOOL
 --@return undefined
-function RopeDrawShadowEnabled(ropeId,toggle) end
+function RopeDrawShadowEnabled(ropeId, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -113,7 +120,8 @@ function RopeDrawShadowEnabled(ropeId,toggle) end
 --@usage undefined DOES_ROPE_EXIST(int ropeId);
 --@params ropeId int
 --@return undefined
-function DoesRopeExist(ropeId) end
+function DoesRopeExist(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -122,7 +130,8 @@ function DoesRopeExist(ropeId) end
 --@usage undefined _0x79C2BEC82CFD7F7F(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x79c2bec82cfd7f7f(p0) end
+function N_0x79c2bec82cfd7f7f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -135,7 +144,8 @@ function N_0x79c2bec82cfd7f7f(p0) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0xe54bf2ce6c7d23a9(p0,p1,p2,p3,p4) end
+function N_0xe54bf2ce6c7d23a9(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -144,7 +154,8 @@ function N_0xe54bf2ce6c7d23a9(p0,p1,p2,p3,p4) end
 --@usage undefined _0x9C24846D0A4A2776(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x9c24846d0a4a2776(p0) end
+function N_0x9c24846d0a4a2776(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -153,7 +164,8 @@ function N_0x9c24846d0a4a2776(p0) end
 --@usage undefined GET_ROPE_VERTEX_COUNT(int ropeId);
 --@params ropeId int
 --@return undefined
-function GetRopeVertexCount(ropeId) end
+function GetRopeVertexCount(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -172,7 +184,8 @@ function GetRopeVertexCount(ropeId) end
 --@params p9 Any
 --@params p10 Any
 --@return undefined
-function N_0x21d0890d88dfb0b0(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function N_0x21d0890d88dfb0b0(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -201,7 +214,8 @@ function N_0x21d0890d88dfb0b0(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
 --@params p19 Any
 --@params p20 Any
 --@return undefined
-function AttachEntitiesToRope(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20) end
+function AttachEntitiesToRope(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -220,7 +234,8 @@ function AttachEntitiesToRope(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,
 --@params p9 Any
 --@params p10 Any
 --@return undefined
-function N_0x462ff2a432733a44(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function N_0x462ff2a432733a44(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -229,7 +244,8 @@ function N_0x462ff2a432733a44(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
 --@usage undefined _0x0CB16D05E03FB525(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x0cb16d05e03fb525(p0) end
+function N_0x0cb16d05e03fb525(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -248,7 +264,8 @@ function N_0x0cb16d05e03fb525(p0) end
 --@params p9 Any
 --@params p10 Any
 --@return undefined
-function N_0xe9cd9a67834985a7(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function N_0xe9cd9a67834985a7(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -264,7 +281,8 @@ function N_0xe9cd9a67834985a7(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function N_0xb7469cb9ac3c0fd4(p0,p1,p2,p3,p4,p5,p6,p7) end
+function N_0xb7469cb9ac3c0fd4(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -279,7 +297,8 @@ function N_0xb7469cb9ac3c0fd4(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function N_0x69c810b72291d831(p0,p1,p2,p3,p4,p5,p6) end
+function N_0x69c810b72291d831(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -295,7 +314,8 @@ function N_0x69c810b72291d831(p0,p1,p2,p3,p4,p5,p6) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function N_0xc64e7a62632ad2fe(p0,p1,p2,p3,p4,p5,p6,p7) end
+function N_0xc64e7a62632ad2fe(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -310,7 +330,8 @@ function N_0xc64e7a62632ad2fe(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function N_0xf27f1a8de4f50a1b(p0,p1,p2,p3,p4,p5,p6) end
+function N_0xf27f1a8de4f50a1b(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -320,7 +341,8 @@ function N_0xf27f1a8de4f50a1b(p0,p1,p2,p3,p4,p5,p6) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x9b4f7e3e4f9c77b3(p0,p1) end
+function N_0x9b4f7e3e4f9c77b3(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -332,7 +354,8 @@ function N_0x9b4f7e3e4f9c77b3(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x06aade17334f7a40(p0,p1,p2,p3) end
+function N_0x06aade17334f7a40(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -341,7 +364,8 @@ function N_0x06aade17334f7a40(p0,p1,p2,p3) end
 --@usage undefined _0x6EA0E93CFFA472CC(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6ea0e93cffa472cc(p0) end
+function N_0x6ea0e93cffa472cc(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -350,7 +374,8 @@ function N_0x6ea0e93cffa472cc(p0) end
 --@usage undefined _0x0348469DAA17576C(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x0348469daa17576c(p0) end
+function N_0x0348469daa17576c(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -360,7 +385,8 @@ function N_0x0348469daa17576c(p0) end
 --@params ropeId int
 --@params entity Entity
 --@return undefined
-function DetachRopeFromEntity(ropeId,entity) end
+function DetachRopeFromEntity(ropeId, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -370,7 +396,8 @@ function DetachRopeFromEntity(ropeId,entity) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xf8ca39d5c0d1d9a1(p0,p1) end
+function N_0xf8ca39d5c0d1d9a1(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -381,7 +408,8 @@ function N_0xf8ca39d5c0d1d9a1(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x32f4dbfdfcccc735(p0,p1,p2) end
+function N_0x32f4dbfdfcccc735(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -390,7 +418,8 @@ function N_0x32f4dbfdfcccc735(p0,p1,p2) end
 --@usage undefined _0xBDDA142759307528(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xbdda142759307528(p0) end
+function N_0xbdda142759307528(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -400,7 +429,8 @@ function N_0xbdda142759307528(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x31160ec47e7c9549(p0,p1) end
+function N_0x31160ec47e7c9549(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -410,7 +440,8 @@ function N_0x31160ec47e7c9549(p0,p1) end
 --@params ropeId int
 --@params p1 Any
 --@return undefined
-function RopeSetUpdateOrder(ropeId,p1) end
+function RopeSetUpdateOrder(ropeId, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -419,7 +450,8 @@ function RopeSetUpdateOrder(ropeId,p1) end
 --@usage undefined _0xEAF529446488EB18(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xeaf529446488eb18(p0) end
+function N_0xeaf529446488eb18(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -432,7 +464,8 @@ function N_0xeaf529446488eb18(p0) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0xd699e688b49c0fd2(p0,p1,p2,p3,p4) end
+function N_0xd699e688b49c0fd2(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -442,7 +475,8 @@ function N_0xd699e688b49c0fd2(p0,p1,p2,p3,p4) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x5e981c764df33117(p0,p1) end
+function N_0x5e981c764df33117(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -455,7 +489,8 @@ function N_0x5e981c764df33117(p0,p1) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0xbb3e9b073e66c3c9(p0,p1,p2,p3,p4) end
+function N_0xbb3e9b073e66c3c9(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -465,7 +500,8 @@ function N_0xbb3e9b073e66c3c9(p0,p1,p2,p3,p4) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x3900491c0d61ed4b(p0,p1) end
+function N_0x3900491c0d61ed4b(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -476,7 +512,8 @@ function N_0x3900491c0d61ed4b(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x522fa3f490e2f7ac(p0,p1,p2) end
+function N_0x522fa3f490e2f7ac(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -486,7 +523,8 @@ function N_0x522fa3f490e2f7ac(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xc89e7410a93ac19a(p0,p1) end
+function N_0xc89e7410a93ac19a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -496,7 +534,8 @@ function N_0xc89e7410a93ac19a(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xfb9153a54ac713e8(p0,p1) end
+function N_0xfb9153a54ac713e8(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -505,7 +544,8 @@ function N_0xfb9153a54ac713e8(p0,p1) end
 --@usage undefined GET_ROPE_LAST_VERTEX_COORD(int ropeId);
 --@params ropeId int
 --@return undefined
-function GetRopeLastVertexCoord(ropeId) end
+function GetRopeLastVertexCoord(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -515,7 +555,8 @@ function GetRopeLastVertexCoord(ropeId) end
 --@params ropeId int
 --@params vertex int
 --@return undefined
-function GetRopeVertexCoord(ropeId,vertex) end
+function GetRopeVertexCoord(ropeId, vertex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -528,7 +569,8 @@ function GetRopeVertexCoord(ropeId,vertex) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0x3c6490d940ff5d0b(p0,p1,p2,p3,p4) end
+function N_0x3c6490d940ff5d0b(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -538,7 +580,8 @@ function N_0x3c6490d940ff5d0b(p0,p1,p2,p3,p4) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x1d97da8acb5d2582(p0,p1) end
+function N_0x1d97da8acb5d2582(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -547,7 +590,8 @@ function N_0x1d97da8acb5d2582(p0,p1) end
 --@usage undefined STOP_ROPE_WINDING(int ropeId);
 --@params ropeId int
 --@return undefined
-function StopRopeWinding(ropeId) end
+function StopRopeWinding(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -556,7 +600,8 @@ function StopRopeWinding(ropeId) end
 --@usage undefined START_ROPE_WINDING(int ropeId);
 --@params ropeId int
 --@return undefined
-function StartRopeWinding(ropeId) end
+function StartRopeWinding(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -565,7 +610,8 @@ function StartRopeWinding(ropeId) end
 --@usage undefined START_ROPE_UNWINDING_FRONT(int ropeId);
 --@params ropeId int
 --@return undefined
-function StartRopeUnwindingFront(ropeId) end
+function StartRopeUnwindingFront(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -574,7 +620,8 @@ function StartRopeUnwindingFront(ropeId) end
 --@usage undefined _0x00F611A794A3C36E(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x00f611a794a3c36e(p0) end
+function N_0x00f611a794a3c36e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -583,7 +630,8 @@ function N_0x00f611a794a3c36e(p0) end
 --@usage undefined STOP_ROPE_UNWINDING_FRONT(int ropeId);
 --@params ropeId int
 --@return undefined
-function StopRopeUnwindingFront(ropeId) end
+function StopRopeUnwindingFront(ropeId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -593,7 +641,8 @@ function StopRopeUnwindingFront(ropeId) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x423c6b1f3786d28b(p0,p1) end
+function N_0x423c6b1f3786d28b(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -602,7 +651,8 @@ function N_0x423c6b1f3786d28b(p0,p1) end
 --@usage undefined _0x10DAA76CB8A201A1(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x10daa76cb8a201a1(p0) end
+function N_0x10daa76cb8a201a1(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -612,7 +662,8 @@ function N_0x10daa76cb8a201a1(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x461fcbdeb4d06717(p0,p1) end
+function N_0x461fcbdeb4d06717(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -621,7 +672,8 @@ function N_0x461fcbdeb4d06717(p0,p1) end
 --@usage undefined _0x3D69537039F8D824(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x3d69537039f8d824(p0) end
+function N_0x3d69537039f8d824(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -631,7 +683,8 @@ function N_0x3d69537039f8d824(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x76bad9d538bca1aa(p0,p1) end
+function N_0x76bad9d538bca1aa(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -640,7 +693,8 @@ function N_0x76bad9d538bca1aa(p0,p1) end
 --@usage undefined _0x751DF00EEFF122E3(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x751df00eeff122e3(p0) end
+function N_0x751df00eeff122e3(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -650,7 +704,8 @@ function N_0x751df00eeff122e3(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xb40ea9e0d2e2f7f3(p0,p1) end
+function N_0xb40ea9e0d2e2f7f3(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -660,7 +715,8 @@ function N_0xb40ea9e0d2e2f7f3(p0,p1) end
 --@params ropeId int
 --@params length float
 --@return undefined
-function RopeForceLength(ropeId,length) end
+function RopeForceLength(ropeId, length)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -671,7 +727,8 @@ function RopeForceLength(ropeId,length) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x814d453fcfdf119f(p0,p1,p2) end
+function N_0x814d453fcfdf119f(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -681,7 +738,8 @@ function N_0x814d453fcfdf119f(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x1fc92bdba1106bd2(p0,p1) end
+function N_0x1fc92bdba1106bd2(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -691,7 +749,8 @@ function N_0x1fc92bdba1106bd2(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xdede679ed29dd4e7(p0,p1) end
+function N_0xdede679ed29dd4e7(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -701,7 +760,8 @@ function N_0xdede679ed29dd4e7(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x8d59079c37c21d78(p0,p1) end
+function N_0x8d59079c37c21d78(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -711,7 +771,8 @@ function N_0x8d59079c37c21d78(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x5a989b7ee3672a56(p0,p1) end
+function N_0x5a989b7ee3672a56(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -722,7 +783,8 @@ function N_0x5a989b7ee3672a56(p0,p1) end
 --@params vertex int
 --@params value float
 --@return undefined
-function SetDamping(entity,vertex,value) end
+function SetDamping(entity, vertex, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -731,7 +793,8 @@ function SetDamping(entity,vertex,value) end
 --@usage undefined ACTIVATE_PHYSICS(Entity entity);
 --@params entity Entity
 --@return undefined
-function ActivatePhysics(entity) end
+function ActivatePhysics(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -741,7 +804,8 @@ function ActivatePhysics(entity) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xf1ea2a881eb7f2cd(p0,p1) end
+function N_0xf1ea2a881eb7f2cd(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -759,7 +823,8 @@ function N_0xf1ea2a881eb7f2cd(p0,p1) end
 --@params p8 Any
 --@params p9 Any
 --@return undefined
-function N_0x8eedfd8921389928(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function N_0x8eedfd8921389928(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -769,7 +834,8 @@ function N_0x8eedfd8921389928(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x483d4e917b0d35a9(p0,p1) end
+function N_0x483d4e917b0d35a9(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -788,7 +854,8 @@ function N_0x483d4e917b0d35a9(p0,p1) end
 --@params p9 Any
 --@params p10 BOOL
 --@return undefined
-function BreakEntityGlass(entity,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function BreakEntityGlass(entity, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -798,7 +865,8 @@ function BreakEntityGlass(entity,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x5bd7457221cc5ff4(p0,p1) end
+function N_0x5bd7457221cc5ff4(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -808,7 +876,8 @@ function N_0x5bd7457221cc5ff4(p0,p1) end
 --@params object Object
 --@params toggle BOOL
 --@return undefined
-function SetDisableBreaking(object,toggle) end
+function SetDisableBreaking(object, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -818,4 +887,5 @@ function SetDisableBreaking(object,toggle) end
 --@params object Object
 --@params toggle BOOL
 --@return undefined
-function SetDisableFragDamage(object,toggle) end
+function SetDisableFragDamage(object, toggle)
+end

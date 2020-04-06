@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule AITRANSPORT
@@ -6,7 +5,8 @@
 --@usage undefined TASK_ENTER_TRANSPORT(Any p0);
 --@params p0 Any
 --@return undefined
-function TaskEnterTransport(p0) end
+function TaskEnterTransport(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function TaskEnterTransport(p0) end
 --@usage undefined TASK_EXIT_TRANSPORT(Any p0);
 --@params p0 Any
 --@return undefined
-function TaskExitTransport(p0) end
+function TaskExitTransport(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -26,7 +27,8 @@ function TaskExitTransport(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xba8818212633500a(p0,p1,p2) end
+function N_0xba8818212633500a(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -36,7 +38,8 @@ function N_0xba8818212633500a(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x8886d83a430537fd(p0,p1) end
+function N_0x8886d83a430537fd(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -48,7 +51,8 @@ function N_0x8886d83a430537fd(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xe588b5a8a005cb5e(p0,p1,p2,p3) end
+function N_0xe588b5a8a005cb5e(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -58,7 +62,8 @@ function N_0xe588b5a8a005cb5e(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xe195c5a82156321d(p0,p1) end
+function N_0xe195c5a82156321d(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -69,7 +74,8 @@ function N_0xe195c5a82156321d(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xf382c92ccc1ccdbc(p0,p1,p2) end
+function N_0xf382c92ccc1ccdbc(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -79,7 +85,8 @@ function N_0xf382c92ccc1ccdbc(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x4b6c9a43f7d9109b(p0,p1) end
+function N_0x4b6c9a43f7d9109b(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -89,7 +96,8 @@ function N_0x4b6c9a43f7d9109b(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x159ef5b6edce00e8(p0,p1) end
+function N_0x159ef5b6edce00e8(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -99,7 +107,8 @@ function N_0x159ef5b6edce00e8(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xe2487779957fe897(p0,p1) end
+function N_0xe2487779957fe897(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -109,7 +118,8 @@ function N_0xe2487779957fe897(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xdd0660c997de94fd(p0,p1) end
+function N_0xdd0660c997de94fd(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -119,7 +129,8 @@ function N_0xdd0660c997de94fd(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x43ff27fc1829c202(p0,p1) end
+function N_0x43ff27fc1829c202(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -129,7 +140,8 @@ function N_0x43ff27fc1829c202(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x2e2e06023d07631e(p0,p1) end
+function N_0x2e2e06023d07631e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -140,7 +152,8 @@ function N_0x2e2e06023d07631e(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x619e63980bfc0096(p0,p1,p2) end
+function N_0x619e63980bfc0096(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -150,7 +163,8 @@ function N_0x619e63980bfc0096(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x660639bc60157048(p0,p1) end
+function N_0x660639bc60157048(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -161,7 +175,8 @@ function N_0x660639bc60157048(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x4248ab2eeb3c75ad(p0,p1,p2) end
+function N_0x4248ab2eeb3c75ad(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -174,7 +189,8 @@ function N_0x4248ab2eeb3c75ad(p0,p1,p2) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0xb7079f4c72896756(p0,p1,p2,p3,p4) end
+function N_0xb7079f4c72896756(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -183,7 +199,8 @@ function N_0xb7079f4c72896756(p0,p1,p2,p3,p4) end
 --@usage undefined _0x5639FBEA922788DA(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x5639fbea922788da(p0) end
+function N_0x5639fbea922788da(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -193,7 +210,8 @@ function N_0x5639fbea922788da(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xdc44f405a6b98d03(p0,p1) end
+function N_0xdc44f405a6b98d03(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -203,7 +221,8 @@ function N_0xdc44f405a6b98d03(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xffec4b0a1a3ed515(p0,p1) end
+function N_0xffec4b0a1a3ed515(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -212,7 +231,8 @@ function N_0xffec4b0a1a3ed515(p0,p1) end
 --@usage undefined _0xF8C20282B237E3F7(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xf8c20282b237e3f7(p0) end
+function N_0xf8c20282b237e3f7(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -222,7 +242,8 @@ function N_0xf8c20282b237e3f7(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x8c8371edfaf014a0(p0,p1) end
+function N_0x8c8371edfaf014a0(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -232,7 +253,8 @@ function N_0x8c8371edfaf014a0(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x67f7ceac2391e114(p0,p1) end
+function N_0x67f7ceac2391e114(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -242,4 +264,5 @@ function N_0x67f7ceac2391e114(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x13f138225c202f66(p0,p1) end
+function N_0x13f138225c202f66(p0, p1)
+end

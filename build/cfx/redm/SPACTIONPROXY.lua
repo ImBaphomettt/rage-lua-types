@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule SPACTIONPROXY
@@ -6,7 +5,8 @@
 --@usage undefined _SPACTIONPROXY_MANAGER_IS_READY();
 
 --@return undefined
-function SpactionproxyManagerIsReady() end
+function SpactionproxyManagerIsReady()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function SpactionproxyManagerIsReady() end
 --@usage undefined _SPACTIONPROXY_START_MANAGER();
 
 --@return undefined
-function SpactionproxyStartManager() end
+function SpactionproxyStartManager()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function SpactionproxyStartManager() end
 --@usage undefined _SPACTIONPROXY_MANAGER_IS_FAILED();
 
 --@return undefined
-function SpactionproxyManagerIsFailed() end
+function SpactionproxyManagerIsFailed()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -34,7 +36,8 @@ function SpactionproxyManagerIsFailed() end
 --@params p0 Any
 --@params p1 BOOL
 --@return undefined
-function SpactionproxyProcessAction(p0,p1) end
+function SpactionproxyProcessAction(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -43,7 +46,8 @@ function SpactionproxyProcessAction(p0,p1) end
 --@usage undefined _SPACTIONPROXY_GET_NEXT_PENDING_BUY_ACTION(Any* data);
 --@params data Any*
 --@return undefined
-function SpactionproxyGetNextPendingBuyAction(data) end
+function SpactionproxyGetNextPendingBuyAction(data)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -52,4 +56,5 @@ function SpactionproxyGetNextPendingBuyAction(data) end
 --@usage undefined _SPACTIONPROXY_GET_NEXT_PENDING_CRAFTING_ACTION(Any* data);
 --@params data Any*
 --@return undefined
-function SpactionproxyGetNextPendingCraftingAction(data) end
+function SpactionproxyGetNextPendingCraftingAction(data)
+end

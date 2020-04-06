@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule MAP
@@ -6,7 +5,8 @@
 --@usage undefined GET_BLIP_FROM_ENTITY(Entity entity);
 --@params entity Entity
 --@return undefined
-function GetBlipFromEntity(entity) end
+function GetBlipFromEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function GetBlipFromEntity(entity) end
 --@usage undefined GET_MAIN_PLAYER_BLIP_ID();
 
 --@return undefined
-function GetMainPlayerBlipId() end
+function GetMainPlayerBlipId()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function GetMainPlayerBlipId() end
 --@usage undefined _0x3E593DF9C2962EC6(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x3e593df9c2962ec6(p0) end
+function N_0x3e593df9c2962ec6(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -36,7 +38,8 @@ function N_0x3e593df9c2962ec6(p0) end
 --@params y float
 --@params z float
 --@return undefined
-function BlipAddForCoord(blipHash,x,y,z) end
+function BlipAddForCoord(blipHash, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -46,7 +49,8 @@ function BlipAddForCoord(blipHash,x,y,z) end
 --@params blipHash Hash
 --@params entity Entity
 --@return undefined
-function BlipAddForEntity(blipHash,entity) end
+function BlipAddForEntity(blipHash, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -56,7 +60,8 @@ function BlipAddForEntity(blipHash,entity) end
 --@params blipHash Hash
 --@params p1 Any
 --@return undefined
-function BlipAddForPickupPlacement(blipHash,p1) end
+function BlipAddForPickupPlacement(blipHash, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -69,7 +74,8 @@ function BlipAddForPickupPlacement(blipHash,p1) end
 --@params z float
 --@params radius float
 --@return undefined
-function BlipAddForRadius(blipHash,x,y,z,radius) end
+function BlipAddForRadius(blipHash, x, y, z, radius)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -85,7 +91,8 @@ function BlipAddForRadius(blipHash,x,y,z,radius) end
 --@params scaleZ float
 --@params p7 int
 --@return undefined
-function BlipAddForArea(blipHash,x,y,z,scaleX,scaleY,scaleZ,p7) end
+function BlipAddForArea(blipHash, x, y, z, scaleX, scaleY, scaleZ, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -95,7 +102,8 @@ function BlipAddForArea(blipHash,x,y,z,scaleX,scaleY,scaleZ,p7) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xa6ef0c54a3443e70(p0,p1) end
+function N_0xa6ef0c54a3443e70(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -105,7 +113,8 @@ function N_0xa6ef0c54a3443e70(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xedd964b7984ac291(p0,p1) end
+function N_0xedd964b7984ac291(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -115,7 +124,8 @@ function N_0xedd964b7984ac291(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xbd62d98799a3daf0(p0,p1) end
+function N_0xbd62d98799a3daf0(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -125,7 +135,8 @@ function N_0xbd62d98799a3daf0(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x662d364abf16de2f(p0,p1) end
+function N_0x662d364abf16de2f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -135,7 +146,8 @@ function N_0x662d364abf16de2f(p0,p1) end
 --@params blip Blip
 --@params hash Hash
 --@return undefined
-function SetBlipFlashStyle(blip,hash) end
+function SetBlipFlashStyle(blip, hash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -144,7 +156,8 @@ function SetBlipFlashStyle(blip,hash) end
 --@usage undefined _0x250C75EB1728CC0D(Blip blip);
 --@params blip Blip
 --@return undefined
-function N_0x250c75eb1728cc0d(blip) end
+function N_0x250c75eb1728cc0d(blip)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -155,7 +168,8 @@ function N_0x250c75eb1728cc0d(blip) end
 --@params p1 int
 --@params p2 int
 --@return undefined
-function SetBlipFlashTimer(blip,p1,p2) end
+function SetBlipFlashTimer(blip, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -166,7 +180,8 @@ function SetBlipFlashTimer(blip,p1,p2) end
 --@params p1 int*
 --@params p2 Hash*
 --@return undefined
-function SetBlipFlashes(blip,p1,p2) end
+function SetBlipFlashes(blip, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -178,7 +193,8 @@ function SetBlipFlashes(blip,p1,p2) end
 --@params y float
 --@params z float
 --@return undefined
-function TriggerSonarBlip(typeHash,x,y,z) end
+function TriggerSonarBlip(typeHash, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -188,7 +204,8 @@ function TriggerSonarBlip(typeHash,x,y,z) end
 --@params typeHash Hash
 --@params entity Entity
 --@return undefined
-function TriggerSonarBlip_2(typeHash,entity) end
+function TriggerSonarBlip_2(typeHash, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -197,7 +214,8 @@ function TriggerSonarBlip_2(typeHash,entity) end
 --@usage undefined ALLOW_SONAR_BLIPS(BOOL toggle);
 --@params toggle BOOL
 --@return undefined
-function AllowSonarBlips(toggle) end
+function AllowSonarBlips(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -209,7 +227,8 @@ function AllowSonarBlips(toggle) end
 --@params posY float
 --@params posZ float
 --@return undefined
-function SetBlipCoords(blip,posX,posY,posZ) end
+function SetBlipCoords(blip, posX, posY, posZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -218,7 +237,8 @@ function SetBlipCoords(blip,posX,posY,posZ) end
 --@usage undefined GET_BLIP_COORDS(Blip blip);
 --@params blip Blip
 --@return undefined
-function GetBlipCoords(blip) end
+function GetBlipCoords(blip)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -229,7 +249,8 @@ function GetBlipCoords(blip) end
 --@params hash Hash
 --@params p2 BOOL
 --@return undefined
-function SetBlipSprite(blip,hash,p2) end
+function SetBlipSprite(blip, hash, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -238,7 +259,8 @@ function SetBlipSprite(blip,hash,p2) end
 --@usage undefined _0x01B928CA2E198B01(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x01b928ca2e198b01(p0) end
+function N_0x01b928ca2e198b01(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -248,7 +270,8 @@ function N_0x01b928ca2e198b01(p0) end
 --@params blip Blip
 --@params textLabel const char*
 --@return undefined
-function SetBlipNameFromTextFile(blip,textLabel) end
+function SetBlipNameFromTextFile(blip, textLabel)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -258,7 +281,8 @@ function SetBlipNameFromTextFile(blip,textLabel) end
 --@params blip Blip
 --@params playerString const char*
 --@return undefined
-function SetBlipNameFromPlayerString(blip,playerString) end
+function SetBlipNameFromPlayerString(blip, playerString)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -268,7 +292,8 @@ function SetBlipNameFromPlayerString(blip,playerString) end
 --@params blip Blip
 --@params player Player
 --@return undefined
-function SetBlipNameToPlayerName(blip,player) end
+function SetBlipNameToPlayerName(blip, player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -278,7 +303,8 @@ function SetBlipNameToPlayerName(blip,player) end
 --@params blip Blip
 --@params rotation int
 --@return undefined
-function SetBlipRotation(blip,rotation) end
+function SetBlipRotation(blip, rotation)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -288,7 +314,8 @@ function SetBlipRotation(blip,rotation) end
 --@params blip Blip
 --@params scale float
 --@return undefined
-function SetBlipScale(blip,scale) end
+function SetBlipScale(blip, scale)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -297,7 +324,8 @@ function SetBlipScale(blip,scale) end
 --@usage undefined DOES_BLIP_EXIST(Blip blip);
 --@params blip Blip
 --@return undefined
-function DoesBlipExist(blip) end
+function DoesBlipExist(blip)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -306,7 +334,8 @@ function DoesBlipExist(blip) end
 --@usage undefined REMOVE_BLIP(Blip* blip);
 --@params blip Blip*
 --@return undefined
-function RemoveBlip(blip) end
+function RemoveBlip(blip)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -315,7 +344,8 @@ function RemoveBlip(blip) end
 --@usage undefined _0x9FA00E2FC134A9D0(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x9fa00e2fc134a9d0(p0) end
+function N_0x9fa00e2fc134a9d0(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -324,7 +354,8 @@ function N_0x9fa00e2fc134a9d0(p0) end
 --@usage undefined SET_RADAR_ZOOM(int zoomLevel);
 --@params zoomLevel int
 --@return undefined
-function SetRadarZoom(zoomLevel) end
+function SetRadarZoom(zoomLevel)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -333,7 +364,8 @@ function SetRadarZoom(zoomLevel) end
 --@usage undefined _0xDEEDE7C41742E011(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xdeede7c41742e011(p0) end
+function N_0xdeede7c41742e011(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -342,7 +374,8 @@ function N_0xdeede7c41742e011(p0) end
 --@usage undefined _0xE9F676788F8D5E1E(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xe9f676788f8d5e1e(p0) end
+function N_0xe9f676788f8d5e1e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -351,7 +384,8 @@ function N_0xe9f676788f8d5e1e(p0) end
 --@usage undefined IS_BLIP_ON_MINIMAP(Blip blip);
 --@params blip Blip
 --@return undefined
-function IsBlipOnMinimap(blip) end
+function IsBlipOnMinimap(blip)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -360,7 +394,8 @@ function IsBlipOnMinimap(blip) end
 --@usage undefined FORCE_SONAR_BLIPS_THIS_FRAME();
 
 --@return undefined
-function ForceSonarBlipsThisFrame() end
+function ForceSonarBlipsThisFrame()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -370,7 +405,8 @@ function ForceSonarBlipsThisFrame() end
 --@params p0 int
 --@params p1 float
 --@return undefined
-function SetGpsFlags(p0,p1) end
+function SetGpsFlags(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -379,7 +415,8 @@ function SetGpsFlags(p0,p1) end
 --@usage undefined CLEAR_GPS_FLAGS();
 
 --@return undefined
-function ClearGpsFlags() end
+function ClearGpsFlags()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -390,7 +427,8 @@ function ClearGpsFlags() end
 --@params p1 int
 --@params p2 int
 --@return undefined
-function SetGpsCustomRouteRender(p0,p1,p2) end
+function SetGpsCustomRouteRender(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -399,7 +437,8 @@ function SetGpsCustomRouteRender(p0,p1,p2) end
 --@usage undefined CLEAR_GPS_CUSTOM_ROUTE();
 
 --@return undefined
-function ClearGpsCustomRoute() end
+function ClearGpsCustomRoute()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -410,7 +449,8 @@ function ClearGpsCustomRoute() end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return undefined
-function StartGpsMultiRoute(colorNameHash,p1,p2) end
+function StartGpsMultiRoute(colorNameHash, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -422,7 +462,8 @@ function StartGpsMultiRoute(colorNameHash,p1,p2) end
 --@params z float
 --@params p3 BOOL
 --@return undefined
-function AddPointToGpsMultiRoute(x,y,z,p3) end
+function AddPointToGpsMultiRoute(x, y, z, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -431,7 +472,8 @@ function AddPointToGpsMultiRoute(x,y,z,p3) end
 --@usage undefined SET_GPS_MULTI_ROUTE_RENDER(BOOL toggle);
 --@params toggle BOOL
 --@return undefined
-function SetGpsMultiRouteRender(toggle) end
+function SetGpsMultiRouteRender(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -440,7 +482,8 @@ function SetGpsMultiRouteRender(toggle) end
 --@usage undefined CLEAR_GPS_MULTI_ROUTE();
 
 --@return undefined
-function ClearGpsMultiRoute() end
+function ClearGpsMultiRoute()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -454,7 +497,8 @@ function ClearGpsMultiRoute() end
 --@params p4 BOOL
 --@params p5 BOOL
 --@return undefined
-function StartGpsCustomRouteFromWaypointRecordingRoute(waypointRecording,point,numPoints,colorNameHash,p4,p5) end
+function StartGpsCustomRouteFromWaypointRecordingRoute(waypointRecording, point, numPoints, colorNameHash, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -463,7 +507,8 @@ function StartGpsCustomRouteFromWaypointRecordingRoute(waypointRecording,point,n
 --@usage undefined CLEAR_GPS_PLAYER_WAYPOINT();
 
 --@return undefined
-function ClearGpsPlayerWaypoint() end
+function ClearGpsPlayerWaypoint()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -472,7 +517,8 @@ function ClearGpsPlayerWaypoint() end
 --@usage undefined _0xD3F58E9316B7FC2A(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xd3f58e9316b7fc2a(p0) end
+function N_0xd3f58e9316b7fc2a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -481,7 +527,8 @@ function N_0xd3f58e9316b7fc2a(p0) end
 --@usage undefined SET_WAYPOINT_OFF();
 
 --@return undefined
-function SetWaypointOff() end
+function SetWaypointOff()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -490,7 +537,8 @@ function SetWaypointOff() end
 --@usage undefined IS_WAYPOINT_ACTIVE();
 
 --@return undefined
-function IsWaypointActive() end
+function IsWaypointActive()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -499,7 +547,8 @@ function IsWaypointActive() end
 --@usage undefined _GET_WAYPOINT_COORDS();
 
 --@return undefined
-function GetWaypointCoords() end
+function GetWaypointCoords()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -509,7 +558,8 @@ function GetWaypointCoords() end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xf08e42bfa46bdff8(p0,p1) end
+function N_0xf08e42bfa46bdff8(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -518,7 +568,8 @@ function N_0xf08e42bfa46bdff8(p0,p1) end
 --@usage undefined _0xA1B4052C2A3DCC1E();
 
 --@return undefined
-function N_0xa1b4052c2a3dcc1e() end
+function N_0xa1b4052c2a3dcc1e()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -527,7 +578,8 @@ function N_0xa1b4052c2a3dcc1e() end
 --@usage undefined _0x3FBB838AEA30C1D8();
 
 --@return undefined
-function N_0x3fbb838aea30c1d8() end
+function N_0x3fbb838aea30c1d8()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -536,7 +588,8 @@ function N_0x3fbb838aea30c1d8() end
 --@usage undefined _0xF47A1EB2A538A3A3();
 
 --@return undefined
-function N_0xf47a1eb2a538a3a3() end
+function N_0xf47a1eb2a538a3a3()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -548,7 +601,8 @@ function N_0xf47a1eb2a538a3a3() end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x3fda2b79aeee351c(p0,p1,p2,p3) end
+function N_0x3fda2b79aeee351c(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -557,7 +611,8 @@ function N_0x3fda2b79aeee351c(p0,p1,p2,p3) end
 --@usage undefined DISPLAY_RADAR(BOOL toggle);
 --@params toggle BOOL
 --@return undefined
-function DisplayRadar(toggle) end
+function DisplayRadar(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -567,7 +622,8 @@ function DisplayRadar(toggle) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x9c113883487fd53c(p0,p1) end
+function N_0x9c113883487fd53c(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -580,7 +636,8 @@ function N_0x9c113883487fd53c(p0,p1) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0x1392105da88bbffb(p0,p1,p2,p3,p4) end
+function N_0x1392105da88bbffb(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -589,7 +646,8 @@ function N_0x1392105da88bbffb(p0,p1,p2,p3,p4) end
 --@usage undefined _0xE057FEA9A22EB3EE(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xe057fea9a22eb3ee(p0) end
+function N_0xe057fea9a22eb3ee(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -598,7 +656,8 @@ function N_0xe057fea9a22eb3ee(p0) end
 --@usage undefined SET_RADAR_AS_EXTERIOR_THIS_FRAME();
 
 --@return undefined
-function SetRadarAsExteriorThisFrame() end
+function SetRadarAsExteriorThisFrame()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -607,7 +666,8 @@ function SetRadarAsExteriorThisFrame() end
 --@usage undefined SET_MINIMAP_HIDE_FOW(BOOL toggle);
 --@params toggle BOOL
 --@return undefined
-function SetMinimapHideFow(toggle) end
+function SetMinimapHideFow(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -617,7 +677,8 @@ function SetMinimapHideFow(toggle) end
 --@params toggle BOOL
 --@params p1 Any
 --@return undefined
-function SetFowUpdateEnabled(toggle,p1) end
+function SetFowUpdateEnabled(toggle, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -627,7 +688,8 @@ function SetFowUpdateEnabled(toggle,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xe5a7f70b7c0f3271(p0,p1) end
+function N_0xe5a7f70b7c0f3271(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -637,7 +699,8 @@ function N_0xe5a7f70b7c0f3271(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x632aa10bf7ea53d3(p0,p1) end
+function N_0x632aa10bf7ea53d3(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -649,7 +712,8 @@ function N_0x632aa10bf7ea53d3(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x73348402566ecb6e(p0,p1,p2,p3) end
+function N_0x73348402566ecb6e(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -659,7 +723,8 @@ function N_0x73348402566ecb6e(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x63cbbd6ca6f321f9(p0,p1) end
+function N_0x63cbbd6ca6f321f9(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -668,7 +733,8 @@ function N_0x63cbbd6ca6f321f9(p0,p1) end
 --@usage undefined _RESET_MINIMAP_FOW(Hash hash);
 --@params hash Hash
 --@return undefined
-function ResetMinimapFow(hash) end
+function ResetMinimapFow(hash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -677,7 +743,8 @@ function ResetMinimapFow(hash) end
 --@usage undefined _REVEAL_MINIMAP_FOW(Hash hash);
 --@params hash Hash
 --@return undefined
-function RevealMinimapFow(hash) end
+function RevealMinimapFow(hash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -686,7 +753,8 @@ function RevealMinimapFow(hash) end
 --@usage undefined _0xA657EC9DBC6CC900(Hash hash);
 --@params hash Hash
 --@return undefined
-function N_0xa657ec9dbc6cc900(hash) end
+function N_0xa657ec9dbc6cc900(hash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -695,7 +763,8 @@ function N_0xa657ec9dbc6cc900(hash) end
 --@usage undefined LOCK_MINIMAP_ANGLE(int angle);
 --@params angle int
 --@return undefined
-function LockMinimapAngle(angle) end
+function LockMinimapAngle(angle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -704,7 +773,8 @@ function LockMinimapAngle(angle) end
 --@usage undefined UNLOCK_MINIMAP_ANGLE();
 
 --@return undefined
-function UnlockMinimapAngle() end
+function UnlockMinimapAngle()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -714,7 +784,8 @@ function UnlockMinimapAngle() end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x563fcb6620523917(p0,p1) end
+function N_0x563fcb6620523917(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -723,7 +794,8 @@ function N_0x563fcb6620523917(p0,p1) end
 --@usage undefined _0x6786D7AFAC3162B3(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6786d7afac3162b3(p0) end
+function N_0x6786d7afac3162b3(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -733,7 +805,8 @@ function N_0x6786d7afac3162b3(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xe38450dbcbc70e3d(p0,p1) end
+function N_0xe38450dbcbc70e3d(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -742,7 +815,8 @@ function N_0xe38450dbcbc70e3d(p0,p1) end
 --@usage undefined _0xD8C7162AB2E2AF45(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xd8c7162ab2e2af45(p0) end
+function N_0xd8c7162ab2e2af45(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -751,7 +825,8 @@ function N_0xd8c7162ab2e2af45(p0) end
 --@usage undefined _0xDA98246C7A3C2189(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xda98246c7a3c2189(p0) end
+function N_0xda98246c7a3c2189(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -760,7 +835,8 @@ function N_0xda98246c7a3c2189(p0) end
 --@usage undefined _0x3F81EA4275D39D6F(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x3f81ea4275d39d6f(p0) end
+function N_0x3f81ea4275d39d6f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -772,7 +848,8 @@ function N_0x3f81ea4275d39d6f(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xe0884c184728c75b(p0,p1,p2,p3) end
+function N_0xe0884c184728c75b(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -782,7 +859,8 @@ function N_0xe0884c184728c75b(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x44813684f72b563c(p0,p1) end
+function N_0x44813684f72b563c(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -792,7 +870,8 @@ function N_0x44813684f72b563c(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x97f6f158cc5b5ca2(p0,p1) end
+function N_0x97f6f158cc5b5ca2(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -802,7 +881,8 @@ function N_0x97f6f158cc5b5ca2(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xbb68d4d3ca3de402(p0,p1) end
+function N_0xbb68d4d3ca3de402(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -812,7 +892,8 @@ function N_0xbb68d4d3ca3de402(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x3cb8859f04763c78(p0,p1) end
+function N_0x3cb8859f04763c78(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -822,7 +903,8 @@ function N_0x3cb8859f04763c78(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x7563cbca99253d1a(p0,p1) end
+function N_0x7563cbca99253d1a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -831,4 +913,5 @@ function N_0x7563cbca99253d1a(p0,p1) end
 --@usage undefined _0x1726963E6049DB53(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x1726963e6049db53(p0) end
+function N_0x1726963e6049db53(p0)
+end

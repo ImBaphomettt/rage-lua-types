@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule FILES
@@ -6,7 +5,8 @@
 --@usage int _GET_SHOP_PED_APPAREL_VARIANT_PROP_COUNT(Hash propHash);
 --@params propHash Hash
 --@return int
-function GetShopPedApparelVariantPropCount(propHash) end
+function GetShopPedApparelVariantPropCount(propHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -19,7 +19,8 @@ function GetShopPedApparelVariantPropCount(propHash) end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function GetVariantProp(p0,p1,p2,p3,p4) end
+function GetVariantProp(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -28,7 +29,8 @@ function GetVariantProp(p0,p1,p2,p3,p4) end
 --@usage void _LOAD_CONTENT_CHANGE_SET_GROUP(Hash hash);
 --@params hash Hash
 --@return void
-function LoadContentChangeSetGroup(hash) end
+function LoadContentChangeSetGroup(hash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -37,4 +39,5 @@ function LoadContentChangeSetGroup(hash) end
 --@usage void _UNLOAD_CONTENT_CHANGE_SET_GROUP(Hash hash);
 --@params hash Hash
 --@return void
-function UnloadContentChangeSetGroup(hash) end
+function UnloadContentChangeSetGroup(hash)
+end

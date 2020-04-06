@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule UILOG
@@ -13,7 +12,8 @@
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function N_0x49c63fdf69744a27(p0,p1,p2,p3,p4,p5,p6,p7) end
+function N_0x49c63fdf69744a27(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -23,7 +23,8 @@ function N_0x49c63fdf69744a27(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p0 int
 --@params p1 Hash
 --@return undefined
-function UilogIsEntryRegistered(p0,p1) end
+function UilogIsEntryRegistered(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -35,7 +36,8 @@ function UilogIsEntryRegistered(p0,p1) end
 --@params p2 Hash
 --@params p3 Hash
 --@return undefined
-function UilogSetEntryBriefTexture(p0,p1,p2,p3) end
+function UilogSetEntryBriefTexture(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -51,7 +53,8 @@ function UilogSetEntryBriefTexture(p0,p1,p2,p3) end
 --@params p6 Hash
 --@params p7 Any
 --@return undefined
-function UilogAddEntryHash(p0,p1,x,y,z,p5,p6,p7) end
+function UilogAddEntryHash(p0, p1, x, y, z, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -62,7 +65,8 @@ function UilogAddEntryHash(p0,p1,x,y,z,p5,p6,p7) end
 --@params p1 Hash
 --@params p2 BOOL
 --@return undefined
-function UilogSetEntryPinned(p0,p1,p2) end
+function UilogSetEntryPinned(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -74,7 +78,8 @@ function UilogSetEntryPinned(p0,p1,p2) end
 --@params p2 Hash
 --@params p3 Hash
 --@return undefined
-function UilogSetEntryIconTexture(p0,p1,p2,p3) end
+function UilogSetEntryIconTexture(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -86,7 +91,8 @@ function UilogSetEntryIconTexture(p0,p1,p2,p3) end
 --@params p2 int
 --@params p3 const char*
 --@return undefined
-function UilogMarkEntryAvailability(p0,p1,p2,p3) end
+function UilogMarkEntryAvailability(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -97,7 +103,8 @@ function UilogMarkEntryAvailability(p0,p1,p2,p3) end
 --@params p1 Hash
 --@params p2 const char*
 --@return undefined
-function UilogUpdateEntrySubheader(p0,p1,p2) end
+function UilogUpdateEntrySubheader(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -106,7 +113,8 @@ function UilogUpdateEntrySubheader(p0,p1,p2) end
 --@usage undefined _UILOG_MARK_MISSION_COMPLETED(Hash p0);
 --@params p0 Hash
 --@return undefined
-function UilogMarkMissionCompleted(p0) end
+function UilogMarkMissionCompleted(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -116,7 +124,8 @@ function UilogMarkMissionCompleted(p0) end
 --@params p0 int
 --@params p1 const char*
 --@return undefined
-function UilogMarkAllEntriesAvailability(p0,p1) end
+function UilogMarkAllEntriesAvailability(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -129,7 +138,8 @@ function UilogMarkAllEntriesAvailability(p0,p1) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0xa49d6d503e3ea847(p0,p1,p2,p3,p4) end
+function N_0xa49d6d503e3ea847(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -140,7 +150,8 @@ function N_0xa49d6d503e3ea847(p0,p1,p2,p3,p4) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xa31013798fadcadc(p0,p1,p2) end
+function N_0xa31013798fadcadc(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -150,7 +161,8 @@ function N_0xa31013798fadcadc(p0,p1,p2) end
 --@params p0 int
 --@params p1 Hash
 --@return undefined
-function UilogRemoveEntry(p0,p1) end
+function UilogRemoveEntry(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -161,7 +173,8 @@ function UilogRemoveEntry(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x763637f9b838b0a7(p0,p1,p2) end
+function N_0x763637f9b838b0a7(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -176,7 +189,8 @@ function N_0x763637f9b838b0a7(p0,p1,p2) end
 --@params p5 BOOL
 --@params p6 BOOL
 --@return undefined
-function UilogAddOrUpdateObjective(p0,p1,p2,p3,p4,p5,p6) end
+function UilogAddOrUpdateObjective(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -185,7 +199,8 @@ function UilogAddOrUpdateObjective(p0,p1,p2,p3,p4,p5,p6) end
 --@usage undefined _UILOG_CLEAR_CACHED_OBJECTIVE();
 
 --@return undefined
-function UilogClearCachedObjective() end
+function UilogClearCachedObjective()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -194,7 +209,8 @@ function UilogClearCachedObjective() end
 --@usage undefined _UILOG_SET_CACHED_OBJECTIVE(const char* p0);
 --@params p0 const char*
 --@return undefined
-function UilogSetCachedObjective(p0) end
+function UilogSetCachedObjective(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -208,7 +224,8 @@ function UilogSetCachedObjective(p0) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0xa20398536b7f1134(p0,p1,p2,p3,p4,p5) end
+function N_0xa20398536b7f1134(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -217,7 +234,8 @@ function N_0xa20398536b7f1134(p0,p1,p2,p3,p4,p5) end
 --@usage undefined _UILOG_CLEAR_ALL_ENTRIES();
 
 --@return undefined
-function UilogClearAllEntries() end
+function UilogClearAllEntries()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -226,7 +244,8 @@ function UilogClearAllEntries() end
 --@usage undefined _UILOG_HAS_DISPLAYED_CACHED_OBJECTIVE();
 
 --@return undefined
-function UilogHasDisplayedCachedObjective() end
+function UilogHasDisplayedCachedObjective()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -235,7 +254,8 @@ function UilogHasDisplayedCachedObjective() end
 --@usage undefined _UILOG_CLEAR_HAS_DISPLAYED_CACHED_OBJECTIVE();
 
 --@return undefined
-function UilogClearHasDisplayedCachedObjective() end
+function UilogClearHasDisplayedCachedObjective()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -244,7 +264,8 @@ function UilogClearHasDisplayedCachedObjective() end
 --@usage undefined _UILOG_SET_HAS_DISPLAYED_CACHED_OBJECTIVE();
 
 --@return undefined
-function UilogSetHasDisplayedCachedObjective() end
+function UilogSetHasDisplayedCachedObjective()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -254,7 +275,8 @@ function UilogSetHasDisplayedCachedObjective() end
 --@params p0 int
 --@params p1 Hash
 --@return undefined
-function UilogSetPendingDetailsId(p0,p1) end
+function UilogSetPendingDetailsId(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -263,7 +285,8 @@ function UilogSetPendingDetailsId(p0,p1) end
 --@usage undefined _UILOG_PRINT_CACHED_OBJECTIVE();
 
 --@return undefined
-function UilogPrintCachedObjective() end
+function UilogPrintCachedObjective()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -276,7 +299,8 @@ function UilogPrintCachedObjective() end
 --@params p3 const char*
 --@params p4 Hash
 --@return undefined
-function UilogAddTotalTakeEntry(p0,p1,p2,p3,p4) end
+function UilogAddTotalTakeEntry(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -285,7 +309,8 @@ function UilogAddTotalTakeEntry(p0,p1,p2,p3,p4) end
 --@usage undefined _UILOG_GET_CACHED_OBJECTIVE();
 
 --@return undefined
-function UilogGetCachedObjective() end
+function UilogGetCachedObjective()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -294,7 +319,8 @@ function UilogGetCachedObjective() end
 --@usage undefined _UILOG_POST_NOTIFICATION(Any* data);
 --@params data Any*
 --@return undefined
-function UilogPostNotification(data) end
+function UilogPostNotification(data)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -303,7 +329,8 @@ function UilogPostNotification(data) end
 --@usage undefined _0x2A4765812202E671();
 
 --@return undefined
-function N_0x2a4765812202e671() end
+function N_0x2a4765812202e671()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -313,7 +340,8 @@ function N_0x2a4765812202e671() end
 --@params p0 const char*
 --@params p1 const char*
 --@return undefined
-function UilogSetTotalTakeSummary(p0,p1) end
+function UilogSetTotalTakeSummary(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -322,4 +350,5 @@ function UilogSetTotalTakeSummary(p0,p1) end
 --@usage undefined _0xDA0A30153FCC0FFD();
 
 --@return undefined
-function N_0xda0a30153fcc0ffd() end
+function N_0xda0a30153fcc0ffd()
+end

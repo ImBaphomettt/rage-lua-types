@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule WEAPON
@@ -6,7 +5,8 @@
 --@usage undefined _0x865F36299079FB75(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x865f36299079fb75(p0) end
+function N_0x865f36299079fb75(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -18,7 +18,8 @@ function N_0x865f36299079fb75(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xb190bca3f4042f95(p0,p1,p2,p3) end
+function N_0xb190bca3f4042f95(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -30,7 +31,8 @@ function N_0xb190bca3f4042f95(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x106a811c6d3035f3(p0,p1,p2,p3) end
+function N_0x106a811c6d3035f3(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -42,7 +44,8 @@ function N_0x106a811c6d3035f3(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xb6cfec32e3742779(p0,p1,p2,p3) end
+function N_0xb6cfec32e3742779(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -54,7 +57,8 @@ function N_0xb6cfec32e3742779(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xf4823c813cb8277d(p0,p1,p2,p3) end
+function N_0xf4823c813cb8277d(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -65,7 +69,8 @@ function N_0xf4823c813cb8277d(p0,p1,p2,p3) end
 --@params weaponHash Hash
 --@params ammo int
 --@return undefined
-function SetPedAmmo(ped,weaponHash,ammo) end
+function SetPedAmmo(ped, weaponHash, ammo)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -74,7 +79,8 @@ function SetPedAmmo(ped,weaponHash,ammo) end
 --@usage undefined _0x1B83C0DEEBCBB214(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x1b83c0deebcbb214(p0) end
+function N_0x1b83c0deebcbb214(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -86,7 +92,8 @@ function N_0x1b83c0deebcbb214(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xbf5987e1cde63501(p0,p1,p2,p3) end
+function N_0xbf5987e1cde63501(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -98,7 +105,8 @@ function N_0xbf5987e1cde63501(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x56cb3b4305a4f7ce(p0,p1,p2,p3) end
+function N_0x56cb3b4305a4f7ce(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -109,7 +117,8 @@ function N_0x56cb3b4305a4f7ce(p0,p1,p2,p3) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x8a779706da5ca3dd(p0,p1,p2) end
+function N_0x8a779706da5ca3dd(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -120,7 +129,8 @@ function N_0x8a779706da5ca3dd(p0,p1,p2) end
 --@params toggle BOOL
 --@params weaponHash Hash
 --@return undefined
-function SetPedInfiniteAmmo(ped,toggle,weaponHash) end
+function SetPedInfiniteAmmo(ped, toggle, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -132,7 +142,8 @@ function SetPedInfiniteAmmo(ped,toggle,weaponHash) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x194d877fc5597b7d(p0,p1,p2,p3) end
+function N_0x194d877fc5597b7d(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -142,7 +153,8 @@ function N_0x194d877fc5597b7d(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x9409c62504a8f9e9(p0,p1) end
+function N_0x9409c62504a8f9e9(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -152,7 +164,8 @@ function N_0x9409c62504a8f9e9(p0,p1) end
 --@params ped Ped
 --@params toggle BOOL
 --@return undefined
-function SetPedInfiniteAmmoClip(ped,toggle) end
+function SetPedInfiniteAmmoClip(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -163,7 +176,8 @@ function SetPedInfiniteAmmoClip(ped,toggle) end
 --@params weaponHash Hash
 --@params p2 BOOL
 --@return undefined
-function GetMaxAmmoInClip(ped,weaponHash,p2) end
+function GetMaxAmmoInClip(ped, weaponHash, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -174,7 +188,8 @@ function GetMaxAmmoInClip(ped,weaponHash,p2) end
 --@params weaponHash Hash
 --@params ammo int
 --@return undefined
-function SetAmmoInClip(ped,weaponHash,ammo) end
+function SetAmmoInClip(ped, weaponHash, ammo)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -185,7 +200,8 @@ function SetAmmoInClip(ped,weaponHash,ammo) end
 --@params ammo int*
 --@params weaponHash Hash
 --@return undefined
-function GetAmmoInClip(ped,ammo,weaponHash) end
+function GetAmmoInClip(ped, ammo, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -196,7 +212,8 @@ function GetAmmoInClip(ped,ammo,weaponHash) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x678f00858980f516(p0,p1,p2) end
+function N_0x678f00858980f516(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -206,7 +223,8 @@ function N_0x678f00858980f516(p0,p1,p2) end
 --@params ped Ped
 --@params weaponHash Hash
 --@return undefined
-function GetAmmoInPedWeapon(ped,weaponHash) end
+function GetAmmoInPedWeapon(ped, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -217,7 +235,8 @@ function GetAmmoInPedWeapon(ped,weaponHash) end
 --@params ammo int*
 --@params weaponHash Hash
 --@return undefined
-function GetMaxAmmo(ped,ammo,weaponHash) end
+function GetMaxAmmo(ped, ammo, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -228,7 +247,8 @@ function GetMaxAmmo(ped,ammo,weaponHash) end
 --@params ammoType Any
 --@params ammo int
 --@return undefined
-function SetPedAmmoByType(ped,ammoType,ammo) end
+function SetPedAmmoByType(ped, ammoType, ammo)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -239,7 +259,8 @@ function SetPedAmmoByType(ped,ammoType,ammo) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function SetPedAmmoToDrop(p0,p1,p2) end
+function SetPedAmmoToDrop(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -249,7 +270,8 @@ function SetPedAmmoToDrop(p0,p1,p2) end
 --@params ped Ped
 --@params ammoType Any
 --@return undefined
-function GetPedAmmoByType(ped,ammoType) end
+function GetPedAmmoByType(ped, ammoType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -260,7 +282,8 @@ function GetPedAmmoByType(ped,ammoType) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xdf4a3404d022adde(p0,p1,p2) end
+function N_0xdf4a3404d022adde(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -269,7 +292,8 @@ function N_0xdf4a3404d022adde(p0,p1,p2) end
 --@usage undefined _0x7AA043F6C41D151E(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x7aa043f6c41d151e(p0) end
+function N_0x7aa043f6c41d151e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -279,7 +303,8 @@ function N_0x7aa043f6c41d151e(p0) end
 --@params ped Ped
 --@params weaponHash Hash
 --@return undefined
-function GetPedAmmoTypeFromWeapon(ped,weaponHash) end
+function GetPedAmmoTypeFromWeapon(ped, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -288,7 +313,8 @@ function GetPedAmmoTypeFromWeapon(ped,weaponHash) end
 --@usage undefined _0x5C2EA6C44F515F34(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x5c2ea6c44f515f34(p0) end
+function N_0x5c2ea6c44f515f34(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -297,7 +323,8 @@ function N_0x5c2ea6c44f515f34(p0) end
 --@usage undefined _GET_WEAPON_COMPONENT_TYPE_MODEL(Hash componentHash);
 --@params componentHash Hash
 --@return undefined
-function GetWeaponComponentTypeModel(componentHash) end
+function GetWeaponComponentTypeModel(componentHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -306,7 +333,8 @@ function GetWeaponComponentTypeModel(componentHash) end
 --@usage undefined GET_WEAPONTYPE_GROUP(Hash weaponHash);
 --@params weaponHash Hash
 --@return undefined
-function GetWeapontypeGroup(weaponHash) end
+function GetWeapontypeGroup(weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -315,7 +343,8 @@ function GetWeapontypeGroup(weaponHash) end
 --@usage undefined _GET_WEAPONTYPE_MODEL(Hash weaponHash);
 --@params weaponHash Hash
 --@return undefined
-function GetWeapontypeModel(weaponHash) end
+function GetWeapontypeModel(weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -327,7 +356,8 @@ function GetWeapontypeModel(weaponHash) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xf8204ef17410bf43(p0,p1,p2,p3) end
+function N_0xf8204ef17410bf43(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -336,7 +366,8 @@ function N_0xf8204ef17410bf43(p0,p1,p2,p3) end
 --@usage undefined _0x49E40483948AF062(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x49e40483948af062(p0) end
+function N_0x49e40483948af062(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -345,7 +376,8 @@ function N_0x49e40483948af062(p0) end
 --@usage undefined _0x46F032B8DDF46CDE(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x46f032b8ddf46cde(p0) end
+function N_0x46f032b8ddf46cde(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -354,7 +386,8 @@ function N_0x46f032b8ddf46cde(p0) end
 --@usage undefined _0x6ABAD7B0A854F8FB(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6abad7b0a854f8fb(p0) end
+function N_0x6abad7b0a854f8fb(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -363,7 +396,8 @@ function N_0x6abad7b0a854f8fb(p0) end
 --@usage undefined _0x79407D33328286C6(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x79407d33328286c6(p0) end
+function N_0x79407d33328286c6(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -372,7 +406,8 @@ function N_0x79407d33328286c6(p0) end
 --@usage undefined _0x506F1DE1BFC75304(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x506f1de1bfc75304(p0) end
+function N_0x506f1de1bfc75304(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -383,7 +418,8 @@ function N_0x506f1de1bfc75304(p0) end
 --@params data Any*
 --@params outData Any*
 --@return undefined
-function GiveWeaponToPed(ped,data,outData) end
+function GiveWeaponToPed(ped, data, outData)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -404,7 +440,8 @@ function GiveWeaponToPed(ped,data,outData) end
 --@params p11 float
 --@params p12 BOOL
 --@return undefined
-function GiveWeaponToPed_2(ped,weaponHash,ammoCount,equipNow,p4,weaponGroup,p6,p7,p8,p9,p10,p11,p12) end
+function GiveWeaponToPed_2(ped, weaponHash, ammoCount, equipNow, p4, weaponGroup, p6, p7, p8, p9, p10, p11, p12)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -413,7 +450,8 @@ function GiveWeaponToPed_2(ped,weaponHash,ammoCount,equipNow,p4,weaponGroup,p6,p
 --@usage undefined _0xC4DEC3CA8C365A5D(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xc4dec3ca8c365a5d(p0) end
+function N_0xc4dec3ca8c365a5d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -423,7 +461,8 @@ function N_0xc4dec3ca8c365a5d(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x5230d3f6ee56cfe6(p0,p1) end
+function N_0x5230d3f6ee56cfe6(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -434,7 +473,8 @@ function N_0x5230d3f6ee56cfe6(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xfccc886ede3c63ec(p0,p1,p2) end
+function N_0xfccc886ede3c63ec(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -444,7 +484,8 @@ function N_0xfccc886ede3c63ec(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x4820a6939d7cef28(p0,p1) end
+function N_0x4820a6939d7cef28(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -457,7 +498,8 @@ function N_0x4820a6939d7cef28(p0,p1) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0x94a3c1b804d291ec(p0,p1,p2,p3,p4) end
+function N_0x94a3c1b804d291ec(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -471,7 +513,8 @@ function N_0x94a3c1b804d291ec(p0,p1,p2,p3,p4) end
 --@params p4 BOOL
 --@params p5 BOOL
 --@return undefined
-function SetCurrentPedWeapon(ped,weaponHash,equipNow,p3,p4,p5) end
+function SetCurrentPedWeapon(ped, weaponHash, equipNow, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -481,7 +524,8 @@ function SetCurrentPedWeapon(ped,weaponHash,equipNow,p3,p4,p5) end
 --@params ped Ped
 --@params p1 int
 --@return undefined
-function GetCurrentPedWeaponEntityIndex(ped,p1) end
+function GetCurrentPedWeaponEntityIndex(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -494,7 +538,8 @@ function GetCurrentPedWeaponEntityIndex(ped,p1) end
 --@params p3 int
 --@params p4 BOOL
 --@return undefined
-function GetCurrentPedWeapon(ped,weaponHash,p2,p3,p4) end
+function GetCurrentPedWeapon(ped, weaponHash, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -503,7 +548,8 @@ function GetCurrentPedWeapon(ped,weaponHash,p2,p3,p4) end
 --@usage undefined _0xC395355843BE134B(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xc395355843be134b(p0) end
+function N_0xc395355843be134b(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -513,7 +559,8 @@ function N_0xc395355843be134b(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xc71fe230a513c30f(p0,p1) end
+function N_0xc71fe230a513c30f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -525,7 +572,8 @@ function N_0xc71fe230a513c30f(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xda37a053c1522f5d(p0,p1,p2,p3) end
+function N_0xda37a053c1522f5d(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -534,7 +582,8 @@ function N_0xda37a053c1522f5d(p0,p1,p2,p3) end
 --@usage undefined _0x9F0E1892C7F228A8(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x9f0e1892c7f228a8(p0) end
+function N_0x9f0e1892c7f228a8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -544,7 +593,8 @@ function N_0x9f0e1892c7f228a8(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x486c96a0dcd2bc92(p0,p1) end
+function N_0x486c96a0dcd2bc92(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -555,7 +605,8 @@ function N_0x486c96a0dcd2bc92(p0,p1) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return undefined
-function GetBestPedWeapon(ped,p1,p2) end
+function GetBestPedWeapon(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -567,7 +618,8 @@ function GetBestPedWeapon(ped,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xf52bd94b47ccf736(p0,p1,p2,p3) end
+function N_0xf52bd94b47ccf736(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -578,7 +630,8 @@ function N_0xf52bd94b47ccf736(p0,p1,p2,p3) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x6929e22158e52265(p0,p1,p2) end
+function N_0x6929e22158e52265(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -590,7 +643,8 @@ function N_0x6929e22158e52265(p0,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x9f67929d98e7c6e8(p0,p1,p2,p3) end
+function N_0x9f67929d98e7c6e8(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -599,7 +653,8 @@ function N_0x9f67929d98e7c6e8(p0,p1,p2,p3) end
 --@usage undefined _0x08FF1099ED2E6E21(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x08ff1099ed2e6e21(p0) end
+function N_0x08ff1099ed2e6e21(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -610,7 +665,8 @@ function N_0x08ff1099ed2e6e21(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x7b98500614c8e8b8(p0,p1,p2) end
+function N_0x7b98500614c8e8b8(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -620,7 +676,8 @@ function N_0x7b98500614c8e8b8(p0,p1,p2) end
 --@params ped Ped
 --@params weaponHash Hash
 --@return undefined
-function SetCurrentPedVehicleWeapon(ped,weaponHash) end
+function SetCurrentPedVehicleWeapon(ped, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -631,7 +688,8 @@ function SetCurrentPedVehicleWeapon(ped,weaponHash) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xbdda0c290c228159(p0,p1,p2) end
+function N_0xbdda0c290c228159(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -641,7 +699,8 @@ function N_0xbdda0c290c228159(p0,p1,p2) end
 --@params ped Ped
 --@params weaponHash Hash*
 --@return undefined
-function GetCurrentPedVehicleWeapon(ped,weaponHash) end
+function GetCurrentPedVehicleWeapon(ped, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -651,7 +710,8 @@ function GetCurrentPedVehicleWeapon(ped,weaponHash) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xa2091482ed42ef85(p0,p1) end
+function N_0xa2091482ed42ef85(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -660,7 +720,8 @@ function N_0xa2091482ed42ef85(p0,p1) end
 --@usage undefined _0x2387D6E9C6B478AA(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x2387d6e9c6b478aa(p0) end
+function N_0x2387d6e9c6b478aa(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -669,7 +730,8 @@ function N_0x2387d6e9c6b478aa(p0) end
 --@usage undefined IS_WEAPON_VALID(Hash weaponHash);
 --@params weaponHash Hash
 --@return undefined
-function IsWeaponValid(weaponHash) end
+function IsWeaponValid(weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -678,7 +740,8 @@ function IsWeaponValid(weaponHash) end
 --@usage undefined _0x1F7977C9101F807F(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x1f7977c9101f807f(p0) end
+function N_0x1f7977c9101f807f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -688,7 +751,8 @@ function N_0x1f7977c9101f807f(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xcb690f680a3ea971(p0,p1) end
+function N_0xcb690f680a3ea971(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -700,7 +764,8 @@ function N_0xcb690f680a3ea971(p0,p1) end
 --@params p2 int
 --@params p3 BOOL
 --@return undefined
-function HasPedGotWeapon(ped,weaponHash,p2,p3) end
+function HasPedGotWeapon(ped, weaponHash, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -710,7 +775,8 @@ function HasPedGotWeapon(ped,weaponHash,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xf29a186ed428b552(p0,p1) end
+function N_0xf29a186ed428b552(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -719,7 +785,8 @@ function N_0xf29a186ed428b552(p0,p1) end
 --@usage undefined _0x23BF601A42F329A0(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x23bf601a42f329a0(p0) end
+function N_0x23bf601a42f329a0(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -728,7 +795,8 @@ function N_0x23bf601a42f329a0(p0) end
 --@usage undefined IS_PED_WEAPON_READY_TO_SHOOT(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsPedWeaponReadyToShoot(ped) end
+function IsPedWeaponReadyToShoot(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -738,7 +806,8 @@ function IsPedWeaponReadyToShoot(ped) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xdbc4b552b2ae9a83(p0,p1) end
+function N_0xdbc4b552b2ae9a83(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -751,7 +820,8 @@ function N_0xdbc4b552b2ae9a83(p0,p1) end
 --@params p3 BOOL
 --@params p4 Any
 --@return undefined
-function GiveDelayedWeaponToPed(ped,weaponHash,p2,p3,p4) end
+function GiveDelayedWeaponToPed(ped, weaponHash, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -763,7 +833,8 @@ function GiveDelayedWeaponToPed(ped,weaponHash,p2,p3,p4) end
 --@params p2 BOOL
 --@params p3 Hash
 --@return undefined
-function RemoveWeaponFromPed(ped,weaponHash,p2,p3) end
+function RemoveWeaponFromPed(ped, weaponHash, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -773,7 +844,8 @@ function RemoveWeaponFromPed(ped,weaponHash,p2,p3) end
 --@params ped Ped
 --@params toggle BOOL
 --@return undefined
-function HidePedWeaponForScriptedCutscene(ped,toggle) end
+function HidePedWeaponForScriptedCutscene(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -783,7 +855,8 @@ function HidePedWeaponForScriptedCutscene(ped,toggle) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x07e1c35f0078c3f9(p0,p1) end
+function N_0x07e1c35f0078c3f9(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -796,7 +869,8 @@ function N_0x07e1c35f0078c3f9(p0,p1) end
 --@params p3 BOOL
 --@params p4 BOOL
 --@return undefined
-function SetPedCurrentWeaponVisible(ped,visible,deselectWeapon,p3,p4) end
+function SetPedCurrentWeaponVisible(ped, visible, deselectWeapon, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -807,7 +881,8 @@ function SetPedCurrentWeaponVisible(ped,visible,deselectWeapon,p3,p4) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x67e21acc5c0c970c(p0,p1,p2) end
+function N_0x67e21acc5c0c970c(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -818,7 +893,8 @@ function N_0x67e21acc5c0c970c(p0,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return undefined
-function RemoveAllPedWeapons(ped,p1,p2) end
+function RemoveAllPedWeapons(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -828,7 +904,8 @@ function RemoveAllPedWeapons(ped,p1,p2) end
 --@params ped Ped
 --@params toggle BOOL
 --@return undefined
-function SetPedDropsWeaponsWhenDead(ped,toggle) end
+function SetPedDropsWeaponsWhenDead(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -838,7 +915,8 @@ function SetPedDropsWeaponsWhenDead(ped,toggle) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x45e57fdd531c9477(p0,p1) end
+function N_0x45e57fdd531c9477(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -848,7 +926,8 @@ function N_0x45e57fdd531c9477(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x431240a58484d5d0(p0,p1) end
+function N_0x431240a58484d5d0(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -858,7 +937,8 @@ function N_0x431240a58484d5d0(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x16d9841a85fa627e(p0,p1) end
+function N_0x16d9841a85fa627e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -868,7 +948,8 @@ function N_0x16d9841a85fa627e(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xf08d8feb455f2c8c(p0,p1) end
+function N_0xf08d8feb455f2c8c(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -877,7 +958,8 @@ function N_0xf08d8feb455f2c8c(p0,p1) end
 --@usage undefined _CLEAR_PED_LAST_WEAPON_DAMAGE(Ped ped);
 --@params ped Ped
 --@return undefined
-function ClearPedLastWeaponDamage(ped) end
+function ClearPedLastWeaponDamage(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -887,7 +969,8 @@ function ClearPedLastWeaponDamage(ped) end
 --@params ped Ped
 --@params coords Vector3*
 --@return undefined
-function GetPedLastWeaponImpactCoord(ped,coords) end
+function GetPedLastWeaponImpactCoord(ped, coords)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -901,7 +984,8 @@ function GetPedLastWeaponImpactCoord(ped,coords) end
 --@params zOffset float
 --@params ammoCount int
 --@return undefined
-function SetPedDropsInventoryWeapon(ped,weaponHash,xOffset,yOffset,zOffset,ammoCount) end
+function SetPedDropsInventoryWeapon(ped, weaponHash, xOffset, yOffset, zOffset, ammoCount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -911,7 +995,8 @@ function SetPedDropsInventoryWeapon(ped,weaponHash,xOffset,yOffset,zOffset,ammoC
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x4f806a6cfed89468(p0,p1) end
+function N_0x4f806a6cfed89468(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -922,7 +1007,8 @@ function N_0x4f806a6cfed89468(p0,p1) end
 --@params weaponName Hash
 --@params weaponType int
 --@return undefined
-function HasEntityBeenDamagedByWeapon(entity,weaponName,weaponType) end
+function HasEntityBeenDamagedByWeapon(entity, weaponName, weaponType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -931,7 +1017,8 @@ function HasEntityBeenDamagedByWeapon(entity,weaponName,weaponType) end
 --@usage undefined _0x79E1E511FF7EFB13(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x79e1e511ff7efb13(p0) end
+function N_0x79e1e511ff7efb13(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -941,7 +1028,8 @@ function N_0x79e1e511ff7efb13(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x2ebf70e1d8c06683(p0,p1) end
+function N_0x2ebf70e1d8c06683(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -952,7 +1040,8 @@ function N_0x2ebf70e1d8c06683(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xb0fb9b196a3d13f0(p0,p1,p2) end
+function N_0xb0fb9b196a3d13f0(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -965,7 +1054,8 @@ function N_0xb0fb9b196a3d13f0(p0,p1,p2) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0xcef4c65de502d367(p0,p1,p2,p3,p4) end
+function N_0xcef4c65de502d367(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -974,7 +1064,8 @@ function N_0xcef4c65de502d367(p0,p1,p2,p3,p4) end
 --@usage undefined _0x0A2AB7B7ABC055F4(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x0a2ab7b7abc055f4(p0) end
+function N_0x0a2ab7b7abc055f4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -984,7 +1075,8 @@ function N_0x0a2ab7b7abc055f4(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x78030c7867d8b9b6(p0,p1) end
+function N_0x78030c7867d8b9b6(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -995,7 +1087,8 @@ function N_0x78030c7867d8b9b6(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xa3716a77dcf17424(p0,p1,p2) end
+function N_0xa3716a77dcf17424(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1004,7 +1097,8 @@ function N_0xa3716a77dcf17424(p0,p1,p2) end
 --@usage undefined _0x63B83A526329AFBC(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x63b83a526329afbc(p0) end
+function N_0x63b83a526329afbc(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1013,7 +1107,8 @@ function N_0x63b83a526329afbc(p0) end
 --@usage undefined _0x8425C5F057012DAB(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x8425c5f057012dab(p0) end
+function N_0x8425c5f057012dab(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1024,7 +1119,8 @@ function N_0x8425c5f057012dab(p0) end
 --@params componentHash Hash
 --@params weaponHash Hash
 --@return undefined
-function RemoveWeaponComponentFromPed(ped,componentHash,weaponHash) end
+function RemoveWeaponComponentFromPed(ped, componentHash, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1033,7 +1129,8 @@ function RemoveWeaponComponentFromPed(ped,componentHash,weaponHash) end
 --@usage undefined _0x3799EFCC3C8CD5E1(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x3799efcc3c8cd5e1(p0) end
+function N_0x3799efcc3c8cd5e1(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1044,7 +1141,8 @@ function N_0x3799efcc3c8cd5e1(p0) end
 --@params componentHash Hash
 --@params weaponHash Hash
 --@return undefined
-function HasPedGotWeaponComponent(ped,componentHash,weaponHash) end
+function HasPedGotWeaponComponent(ped, componentHash, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1054,7 +1152,8 @@ function HasPedGotWeaponComponent(ped,componentHash,weaponHash) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xd2209866b0cb72ea(p0,p1) end
+function N_0xd2209866b0cb72ea(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1063,7 +1162,8 @@ function N_0xd2209866b0cb72ea(p0,p1) end
 --@usage undefined _0x79B1A6E780266DB0(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x79b1a6e780266db0(p0) end
+function N_0x79b1a6e780266db0(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1074,7 +1174,8 @@ function N_0x79b1a6e780266db0(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x72d4cb5db927009c(p0,p1,p2) end
+function N_0x72d4cb5db927009c(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1083,7 +1184,8 @@ function N_0x72d4cb5db927009c(p0,p1,p2) end
 --@usage undefined _0xBDD9C235D8D1052E(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xbdd9c235d8d1052e(p0) end
+function N_0xbdd9c235d8d1052e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1094,7 +1196,8 @@ function N_0xbdd9c235d8d1052e(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xe9b3fec825668291(p0,p1,p2) end
+function N_0xe9b3fec825668291(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1103,7 +1206,8 @@ function N_0xe9b3fec825668291(p0,p1,p2) end
 --@usage undefined _0xFF07CF465F48B830(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xff07cf465f48b830(p0) end
+function N_0xff07cf465f48b830(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1114,7 +1218,8 @@ function N_0xff07cf465f48b830(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x9cca3131e6b53c68(p0,p1,p2) end
+function N_0x9cca3131e6b53c68(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1123,7 +1228,8 @@ function N_0x9cca3131e6b53c68(p0,p1,p2) end
 --@usage undefined _GET_WEAPON_NAME(Hash weaponHash);
 --@params weaponHash Hash
 --@return undefined
-function GetWeaponName(weaponHash) end
+function GetWeaponName(weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1132,7 +1238,8 @@ function GetWeaponName(weaponHash) end
 --@usage undefined _0x6D3AC61694A791C5(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6d3ac61694a791c5(p0) end
+function N_0x6d3ac61694a791c5(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1142,7 +1249,8 @@ function N_0x6d3ac61694a791c5(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x7a56d66c78d8ef8e(p0,p1) end
+function N_0x7a56d66c78d8ef8e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1152,7 +1260,8 @@ function N_0x7a56d66c78d8ef8e(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x5a695bd328586b44(p0,p1) end
+function N_0x5a695bd328586b44(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1163,7 +1272,8 @@ function N_0x5a695bd328586b44(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xb832f1a686b9b810(p0,p1,p2) end
+function N_0xb832f1a686b9b810(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1172,7 +1282,8 @@ function N_0xb832f1a686b9b810(p0,p1,p2) end
 --@usage undefined _0xC3896D03E2852236(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xc3896d03e2852236(p0) end
+function N_0xc3896d03e2852236(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1182,7 +1293,8 @@ function N_0xc3896d03e2852236(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x739b9c6d0e7f7f93(p0,p1) end
+function N_0x739b9c6d0e7f7f93(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1193,7 +1305,8 @@ function N_0x739b9c6d0e7f7f93(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x14ff0c2545527f9b(p0,p1,p2) end
+function N_0x14ff0c2545527f9b(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1203,7 +1316,8 @@ function N_0x14ff0c2545527f9b(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xe9bd19f8121ade3e(p0,p1) end
+function N_0xe9bd19f8121ade3e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1212,7 +1326,8 @@ function N_0xe9bd19f8121ade3e(p0,p1) end
 --@usage undefined _0xAFFD0CCF31F469B8(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xaffd0ccf31f469b8(p0) end
+function N_0xaffd0ccf31f469b8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1222,7 +1337,8 @@ function N_0xaffd0ccf31f469b8(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x641351e9ad103890(p0,p1) end
+function N_0x641351e9ad103890(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1233,7 +1349,8 @@ function N_0x641351e9ad103890(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x9e2d5d6bc97a5f1e(p0,p1,p2) end
+function N_0x9e2d5d6bc97a5f1e(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1242,7 +1359,8 @@ function N_0x9e2d5d6bc97a5f1e(p0,p1,p2) end
 --@usage undefined _0x8EC44AE8DECFF841(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x8ec44ae8decff841(p0) end
+function N_0x8ec44ae8decff841(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1252,7 +1370,8 @@ function N_0x8ec44ae8decff841(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xbe711b14a159e84f(p0,p1) end
+function N_0xbe711b14a159e84f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1262,7 +1381,8 @@ function N_0xbe711b14a159e84f(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function RemoveWeaponComponentFromWeaponObject(p0,p1) end
+function RemoveWeaponComponentFromWeaponObject(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1277,7 +1397,8 @@ function RemoveWeaponComponentFromWeaponObject(p0,p1) end
 --@params showWorldModel BOOL
 --@params heading float
 --@return undefined
-function CreateWeaponObject(weaponHash,ammoCount,x,y,z,showWorldModel,heading) end
+function CreateWeaponObject(weaponHash, ammoCount, x, y, z, showWorldModel, heading)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1289,7 +1410,8 @@ function CreateWeaponObject(weaponHash,ammoCount,x,y,z,showWorldModel,heading) e
 --@params componentHash Hash
 --@params p3 BOOL
 --@return undefined
-function GiveWeaponComponentToWeaponObject(weaponObject,ped,componentHash,p3) end
+function GiveWeaponComponentToWeaponObject(weaponObject, ped, componentHash, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1299,7 +1421,8 @@ function GiveWeaponComponentToWeaponObject(weaponObject,ped,componentHash,p3) en
 --@params weapon Object
 --@params addonHash Hash
 --@return undefined
-function HasWeaponGotWeaponComponent(weapon,addonHash) end
+function HasWeaponGotWeaponComponent(weapon, addonHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1308,7 +1431,8 @@ function HasWeaponGotWeaponComponent(weapon,addonHash) end
 --@usage undefined _0x90EB1CB189923587(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x90eb1cb189923587(p0) end
+function N_0x90eb1cb189923587(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1318,7 +1442,8 @@ function N_0x90eb1cb189923587(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xc6a6789bb405d11c(p0,p1) end
+function N_0xc6a6789bb405d11c(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1328,7 +1453,8 @@ function N_0xc6a6789bb405d11c(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x74c9080fdd1bb48e(p0,p1) end
+function N_0x74c9080fdd1bb48e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1340,7 +1466,8 @@ function N_0x74c9080fdd1bb48e(p0,p1) end
 --@params weaponHash Hash
 --@params p3 BOOL
 --@return undefined
-function GiveWeaponComponentToEntity(entity,componentHash,weaponHash,p3) end
+function GiveWeaponComponentToEntity(entity, componentHash, weaponHash, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1350,7 +1477,8 @@ function GiveWeaponComponentToEntity(entity,componentHash,weaponHash,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x74c9080fdd1bb48f(p0,p1) end
+function N_0x74c9080fdd1bb48f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1360,7 +1488,8 @@ function N_0x74c9080fdd1bb48f(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x74c2365fdd1bb48f(p0,p1) end
+function N_0x74c2365fdd1bb48f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1370,7 +1499,8 @@ function N_0x74c2365fdd1bb48f(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x6ca484c9a7377e4f(p0,p1) end
+function N_0x6ca484c9a7377e4f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1380,7 +1510,8 @@ function N_0x6ca484c9a7377e4f(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x74c8000fdd1bb222(p0,p1) end
+function N_0x74c8000fdd1bb222(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1390,7 +1521,8 @@ function N_0x74c8000fdd1bb222(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x74c8000fdd1bb111(p0,p1) end
+function N_0x74c8000fdd1bb111(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1401,7 +1533,8 @@ function N_0x74c8000fdd1bb111(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x01f661bb9c71b465(p0,p1,p2) end
+function N_0x01f661bb9c71b465(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1411,7 +1544,8 @@ function N_0x01f661bb9c71b465(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xf4601c1203b1a78d(p0,p1) end
+function N_0xf4601c1203b1a78d(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1420,7 +1554,8 @@ function N_0xf4601c1203b1a78d(p0,p1) end
 --@usage undefined _0xD42514C182121C23(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xd42514c182121c23(p0) end
+function N_0xd42514c182121c23(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1430,7 +1565,8 @@ function N_0xd42514c182121c23(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x899a04afcc725d04(p0,p1) end
+function N_0x899a04afcc725d04(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1440,7 +1576,8 @@ function N_0x899a04afcc725d04(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xf252a85b8f3f8c58(p0,p1) end
+function N_0xf252a85b8f3f8c58(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1449,7 +1586,8 @@ function N_0xf252a85b8f3f8c58(p0,p1) end
 --@usage undefined _0x74C90AAACC1DD48F(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x74c90aaacc1dd48f(p0) end
+function N_0x74c90aaacc1dd48f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1459,7 +1597,8 @@ function N_0x74c90aaacc1dd48f(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xf2f585411e748b9c(p0,p1) end
+function N_0xf2f585411e748b9c(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1468,7 +1607,8 @@ function N_0xf2f585411e748b9c(p0,p1) end
 --@usage undefined _0xD3750CCC00635FC2(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xd3750ccc00635fc2(p0) end
+function N_0xd3750ccc00635fc2(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1478,7 +1618,8 @@ function N_0xd3750ccc00635fc2(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x9eefd670f10656d7(p0,p1) end
+function N_0x9eefd670f10656d7(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1489,7 +1630,8 @@ function N_0x9eefd670f10656d7(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xa769d753922b031b(p0,p1,p2) end
+function N_0xa769d753922b031b(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1498,7 +1640,8 @@ function N_0xa769d753922b031b(p0,p1,p2) end
 --@usage undefined _0x6554ECCE226F2A2A(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6554ecce226f2a2a(p0) end
+function N_0x6554ecce226f2a2a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1508,7 +1651,8 @@ function N_0x6554ecce226f2a2a(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x83b8d50eb9446bba(p0,p1) end
+function N_0x83b8d50eb9446bba(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1517,7 +1661,8 @@ function N_0x83b8d50eb9446bba(p0,p1) end
 --@usage undefined _0x918990BD9CE08582(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x918990bd9ce08582(p0) end
+function N_0x918990bd9ce08582(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1527,7 +1672,8 @@ function N_0x918990bd9ce08582(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x44c8f4908f1b2622(p0,p1) end
+function N_0x44c8f4908f1b2622(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1536,7 +1682,8 @@ function N_0x44c8f4908f1b2622(p0,p1) end
 --@usage undefined _0x792E3EF76C911959(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x792e3ef76c911959(p0) end
+function N_0x792e3ef76c911959(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1545,7 +1692,8 @@ function N_0x792e3ef76c911959(p0) end
 --@usage undefined _0xDDC64F5E31EEDAB6(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xddc64f5e31eedab6(p0) end
+function N_0xddc64f5e31eedab6(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1554,7 +1702,8 @@ function N_0xddc64f5e31eedab6(p0) end
 --@usage undefined _0xC5899C4CD2E2495D(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xc5899c4cd2e2495d(p0) end
+function N_0xc5899c4cd2e2495d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1563,7 +1712,8 @@ function N_0xc5899c4cd2e2495d(p0) end
 --@usage undefined _0x0A82317B7EBFC420(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x0a82317b7ebfc420(p0) end
+function N_0x0a82317b7ebfc420(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1572,7 +1722,8 @@ function N_0x0a82317b7ebfc420(p0) end
 --@usage undefined _0xC75386174ECE95D5(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xc75386174ece95d5(p0) end
+function N_0xc75386174ece95d5(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1581,7 +1732,8 @@ function N_0xc75386174ece95d5(p0) end
 --@usage undefined _0x6AD66548840472E5(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6ad66548840472e5(p0) end
+function N_0x6ad66548840472e5(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1590,7 +1742,8 @@ function N_0x6ad66548840472e5(p0) end
 --@usage undefined _0xDDB2578E95EF7138(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xddb2578e95ef7138(p0) end
+function N_0xddb2578e95ef7138(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1599,7 +1752,8 @@ function N_0xddb2578e95ef7138(p0) end
 --@usage undefined _0xC212F1D05A8232BB(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xc212f1d05a8232bb(p0) end
+function N_0xc212f1d05a8232bb(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1608,7 +1762,8 @@ function N_0xc212f1d05a8232bb(p0) end
 --@usage undefined _0x6E4E1A82081EABED(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6e4e1a82081eabed(p0) end
+function N_0x6e4e1a82081eabed(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1617,7 +1772,8 @@ function N_0x6e4e1a82081eabed(p0) end
 --@usage undefined _0x30E7C16B12DA8211(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x30e7c16b12da8211(p0) end
+function N_0x30e7c16b12da8211(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1626,7 +1782,8 @@ function N_0x30e7c16b12da8211(p0) end
 --@usage undefined _0x705BE297EEBDB95D(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x705be297eebdb95d(p0) end
+function N_0x705be297eebdb95d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1635,7 +1792,8 @@ function N_0x705be297eebdb95d(p0) end
 --@usage undefined _0xC853230E76A152DF(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xc853230e76a152df(p0) end
+function N_0xc853230e76a152df(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1644,7 +1802,8 @@ function N_0xc853230e76a152df(p0) end
 --@usage undefined _0xD955FEE4B87AFA07(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xd955fee4b87afa07(p0) end
+function N_0xd955fee4b87afa07(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1653,7 +1812,8 @@ function N_0xd955fee4b87afa07(p0) end
 --@usage undefined _0x959383DCD42040DA(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x959383dcd42040da(p0) end
+function N_0x959383dcd42040da(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1662,7 +1822,8 @@ function N_0x959383dcd42040da(p0) end
 --@usage undefined _0x5809DBCA0A37C82B(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x5809dbca0a37c82b(p0) end
+function N_0x5809dbca0a37c82b(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1671,7 +1832,8 @@ function N_0x5809dbca0a37c82b(p0) end
 --@usage undefined _0xEA522F991E120D45(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xea522f991e120d45(p0) end
+function N_0xea522f991e120d45(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1680,7 +1842,8 @@ function N_0xea522f991e120d45(p0) end
 --@usage undefined _0x0556E9D2ECF39D01(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x0556e9d2ecf39d01(p0) end
+function N_0x0556e9d2ecf39d01(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1689,7 +1852,8 @@ function N_0x0556e9d2ecf39d01(p0) end
 --@usage undefined _0x2C83212A7AA51D3D(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x2c83212a7aa51d3d(p0) end
+function N_0x2c83212a7aa51d3d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1698,7 +1862,8 @@ function N_0x2c83212a7aa51d3d(p0) end
 --@usage undefined _0xD2866CBA797E872E(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xd2866cba797e872e(p0) end
+function N_0xd2866cba797e872e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1708,7 +1873,8 @@ function N_0xd2866cba797e872e(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x5b235f24472f2c3b(p0,p1) end
+function N_0x5b235f24472f2c3b(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1718,7 +1884,8 @@ function N_0x5b235f24472f2c3b(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x495a04caec263af8(p0,p1) end
+function N_0x495a04caec263af8(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1727,7 +1894,8 @@ function N_0x495a04caec263af8(p0,p1) end
 --@usage undefined _0x7EFACC589B98C488(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x7efacc589b98c488(p0) end
+function N_0x7efacc589b98c488(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1737,7 +1905,8 @@ function N_0x7efacc589b98c488(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xbfca7afabf9d7967(p0,p1) end
+function N_0xbfca7afabf9d7967(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1747,7 +1916,8 @@ function N_0xbfca7afabf9d7967(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x80bb243789008a82(p0,p1) end
+function N_0x80bb243789008a82(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1757,7 +1927,8 @@ function N_0x80bb243789008a82(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x95ca12e2c68043e5(p0,p1) end
+function N_0x95ca12e2c68043e5(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1768,7 +1939,8 @@ function N_0x95ca12e2c68043e5(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xe22060121602493b(p0,p1,p2) end
+function N_0xe22060121602493b(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1777,7 +1949,8 @@ function N_0xe22060121602493b(p0,p1,p2) end
 --@usage undefined _0x810E8AE9AFEA7E54(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x810e8ae9afea7e54(p0) end
+function N_0x810e8ae9afea7e54(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1786,7 +1959,8 @@ function N_0x810e8ae9afea7e54(p0) end
 --@usage undefined _0x904103D5D2333977(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x904103d5d2333977(p0) end
+function N_0x904103d5d2333977(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1795,7 +1969,8 @@ function N_0x904103d5d2333977(p0) end
 --@usage undefined _0x4BF66F8878F67663(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x4bf66f8878f67663(p0) end
+function N_0x4bf66f8878f67663(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1806,7 +1981,8 @@ function N_0x4bf66f8878f67663(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x812ce61debcab948(p0,p1,p2) end
+function N_0x812ce61debcab948(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1816,7 +1992,8 @@ function N_0x812ce61debcab948(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xd4071efc83794b2f(p0,p1) end
+function N_0xd4071efc83794b2f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1827,7 +2004,8 @@ function N_0xd4071efc83794b2f(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xa9ef4ad10bdddb57(p0,p1,p2) end
+function N_0xa9ef4ad10bdddb57(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1837,7 +2015,8 @@ function N_0xa9ef4ad10bdddb57(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xabc18a28bad4b46f(p0,p1) end
+function N_0xabc18a28bad4b46f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1846,7 +2025,8 @@ function N_0xabc18a28bad4b46f(p0,p1) end
 --@usage undefined _0x0D78E1097F89E637(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x0d78e1097f89e637(p0) end
+function N_0x0d78e1097f89e637(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1856,7 +2036,8 @@ function N_0x0d78e1097f89e637(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xa7a57e89e965d839(p0,p1) end
+function N_0xa7a57e89e965d839(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1865,7 +2046,8 @@ function N_0xa7a57e89e965d839(p0,p1) end
 --@usage undefined _0x22084CA699219624(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x22084ca699219624(p0) end
+function N_0x22084ca699219624(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1874,7 +2056,8 @@ function N_0x22084ca699219624(p0) end
 --@usage undefined _0xD56E5F336C675EFA(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xd56e5f336c675efa(p0) end
+function N_0xd56e5f336c675efa(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1884,7 +2067,8 @@ function N_0xd56e5f336c675efa(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xc3544ad0522e69b4(p0,p1) end
+function N_0xc3544ad0522e69b4(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1893,7 +2077,8 @@ function N_0xc3544ad0522e69b4(p0,p1) end
 --@usage undefined _0xEC97101A8F311282(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xec97101a8f311282(p0) end
+function N_0xec97101a8f311282(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1903,7 +2088,8 @@ function N_0xec97101a8f311282(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x7e7b19a4355fee13(p0,p1) end
+function N_0x7e7b19a4355fee13(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1912,7 +2098,8 @@ function N_0x7e7b19a4355fee13(p0,p1) end
 --@usage undefined _0xDA5D3F2C6DD5B5D4(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xda5d3f2c6dd5b5d4(p0) end
+function N_0xda5d3f2c6dd5b5d4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1922,7 +2109,8 @@ function N_0xda5d3f2c6dd5b5d4(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xaf9d167a5656d6a6(p0,p1) end
+function N_0xaf9d167a5656d6a6(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1933,7 +2121,8 @@ function N_0xaf9d167a5656d6a6(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xcc9c4393523833e2(p0,p1,p2) end
+function N_0xcc9c4393523833e2(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1942,7 +2131,8 @@ function N_0xcc9c4393523833e2(p0,p1,p2) end
 --@usage undefined _0x58425FCA3D3A2D15(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x58425fca3d3a2d15(p0) end
+function N_0x58425fca3d3a2d15(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1952,7 +2142,8 @@ function N_0x58425fca3d3a2d15(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x183ce355115b6e75(p0,p1) end
+function N_0x183ce355115b6e75(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1963,7 +2154,8 @@ function N_0x183ce355115b6e75(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xebe46b501bc3fbcf(p0,p1,p2) end
+function N_0xebe46b501bc3fbcf(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1973,7 +2165,8 @@ function N_0xebe46b501bc3fbcf(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xfdcedfb0577a390d(p0,p1) end
+function N_0xfdcedfb0577a390d(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1984,7 +2177,8 @@ function N_0xfdcedfb0577a390d(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xf0d728eea3c99775(p0,p1,p2) end
+function N_0xf0d728eea3c99775(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1994,7 +2188,8 @@ function N_0xf0d728eea3c99775(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xd63b4ba3a02a99e0(p0,p1) end
+function N_0xd63b4ba3a02a99e0(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2004,7 +2199,8 @@ function N_0xd63b4ba3a02a99e0(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xaa5a52204e077883(p0,p1) end
+function N_0xaa5a52204e077883(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2015,7 +2211,8 @@ function N_0xaa5a52204e077883(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x23fb9faca28779c1(p0,p1,p2) end
+function N_0x23fb9faca28779c1(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2025,7 +2222,8 @@ function N_0x23fb9faca28779c1(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xc570b881754df609(p0,p1) end
+function N_0xc570b881754df609(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2035,7 +2233,8 @@ function N_0xc570b881754df609(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x3b7b7908b7adfb4b(p0,p1) end
+function N_0x3b7b7908b7adfb4b(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2045,7 +2244,8 @@ function N_0x3b7b7908b7adfb4b(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x404514d231db27a0(p0,p1) end
+function N_0x404514d231db27a0(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2054,7 +2254,8 @@ function N_0x404514d231db27a0(p0,p1) end
 --@usage undefined _0x000FA7A4A8443AF7(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x000fa7a4a8443af7(p0) end
+function N_0x000fa7a4a8443af7(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2064,7 +2265,8 @@ function N_0x000fa7a4a8443af7(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xcad4fe9398820d24(p0,p1) end
+function N_0xcad4fe9398820d24(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2075,7 +2277,8 @@ function N_0xcad4fe9398820d24(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xd53846b9c931c181(p0,p1,p2) end
+function N_0xd53846b9c931c181(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2089,7 +2292,8 @@ function N_0xd53846b9c931c181(p0,p1,p2) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0x12fb95fe3d579238(p0,p1,p2,p3,p4,p5) end
+function N_0x12fb95fe3d579238(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2100,7 +2304,8 @@ function N_0x12fb95fe3d579238(p0,p1,p2,p3,p4,p5) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xb7e52a058b07c7e2(p0,p1,p2) end
+function N_0xb7e52a058b07c7e2(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2111,7 +2316,8 @@ function N_0xb7e52a058b07c7e2(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xec1f85da51d3d6c4(p0,p1,p2) end
+function N_0xec1f85da51d3d6c4(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2120,7 +2326,8 @@ function N_0xec1f85da51d3d6c4(p0,p1,p2) end
 --@usage undefined _0x0DE0944ECCB3DF5D(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x0de0944eccb3df5d(p0) end
+function N_0x0de0944eccb3df5d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2130,7 +2337,8 @@ function N_0x0de0944eccb3df5d(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x4823f13a21f51964(p0,p1) end
+function N_0x4823f13a21f51964(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2139,7 +2347,8 @@ function N_0x4823f13a21f51964(p0,p1) end
 --@usage undefined _0x46D42883E873C1D7(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x46d42883e873c1d7(p0) end
+function N_0x46d42883e873c1d7(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2149,7 +2358,8 @@ function N_0x46d42883e873c1d7(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x8d50f43298ab9545(p0,p1) end
+function N_0x8d50f43298ab9545(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2158,4 +2368,5 @@ function N_0x8d50f43298ab9545(p0,p1) end
 --@usage undefined _0xECBB26529A737EF6(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xecbb26529a737ef6(p0) end
+function N_0xecbb26529a737ef6(p0)
+end

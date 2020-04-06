@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule ITEMSET
@@ -7,7 +6,8 @@
 --@params p0 Any
 --@params p1 Any
 --@return BOOL
-function AddToItemset(p0,p1) end
+function AddToItemset(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -16,7 +16,8 @@ function AddToItemset(p0,p1) end
 --@usage Vehicle CREATE_ITEMSET(Vehicle distri);
 --@params distri Vehicle
 --@return Vehicle
-function CreateItemset(distri) end
+function CreateItemset(distri)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -25,7 +26,8 @@ function CreateItemset(distri) end
 --@usage void DESTROY_ITEMSET(Any p0);
 --@params p0 Any
 --@return void
-function DestroyItemset(p0) end
+function DestroyItemset(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -34,7 +36,8 @@ function DestroyItemset(p0) end
 --@usage void CLEAN_ITEMSET(Any p0);
 --@params p0 Any
 --@return void
-function CleanItemset(p0) end
+function CleanItemset(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -43,7 +46,8 @@ function CleanItemset(p0) end
 --@usage Any GET_ITEMSET_SIZE(ScrHandle x);
 --@params x ScrHandle
 --@return Any
-function GetItemsetSize(x) end
+function GetItemsetSize(x)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -53,7 +57,8 @@ function GetItemsetSize(x) end
 --@params p0 Any
 --@params p1 Any
 --@return BOOL
-function IsInItemset(p0,p1) end
+function IsInItemset(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -63,7 +68,8 @@ function IsInItemset(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function GetIndexedItemInItemset(p0,p1) end
+function GetIndexedItemInItemset(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -72,7 +78,8 @@ function GetIndexedItemInItemset(p0,p1) end
 --@usage BOOL IS_ITEMSET_VALID(Any p0);
 --@params p0 Any
 --@return BOOL
-function IsItemsetValid(p0) end
+function IsItemsetValid(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -82,4 +89,5 @@ function IsItemsetValid(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function RemoveFromItemset(p0,p1) end
+function RemoveFromItemset(p0, p1)
+end

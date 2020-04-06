@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule LOCALE
@@ -6,4 +5,5 @@
 --@usage int _LOCALIZATION_GET_SYSTEM_LANGUAGE();
 
 --@return int
-function LocalizationGetSystemLanguage() end
+function LocalizationGetSystemLanguage()
+end

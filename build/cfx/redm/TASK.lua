@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule TASK
@@ -7,7 +6,8 @@
 --@params ped Ped
 --@params ms int
 --@return undefined
-function TaskPause(ped,ms) end
+function TaskPause(ped, ms)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -17,7 +17,8 @@ function TaskPause(ped,ms) end
 --@params ped Ped
 --@params time int
 --@return undefined
-function TaskStandStill(ped,time) end
+function TaskStandStill(ped, time)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -27,7 +28,8 @@ function TaskStandStill(ped,time) end
 --@params ped Ped
 --@params unused BOOL
 --@return undefined
-function TaskJump(ped,unused) end
+function TaskJump(ped, unused)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -40,7 +42,8 @@ function TaskJump(ped,unused) end
 --@params p3 int
 --@params p4 BOOL
 --@return undefined
-function TaskHandsUp(ped,duration,facingPed,p3,p4) end
+function TaskHandsUp(ped, duration, facingPed, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -53,7 +56,8 @@ function TaskHandsUp(ped,duration,facingPed,p3,p4) end
 --@params z float
 --@params entity Entity
 --@return undefined
-function TaskJump_2(ped,x,y,z,entity) end
+function TaskJump_2(ped, x, y, z, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -64,7 +68,8 @@ function TaskJump_2(ped,x,y,z,entity) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskKnockedOut(p0,p1,p2) end
+function TaskKnockedOut(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -76,7 +81,8 @@ function TaskKnockedOut(p0,p1,p2) end
 --@params ped2 Ped
 --@params p3 const char*
 --@return undefined
-function TaskCower(ped,duration,ped2,p3) end
+function TaskCower(ped, duration, ped2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -86,7 +92,8 @@ function TaskCower(ped,duration,ped2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x8b1fdf63c3193eda(p0,p1) end
+function N_0x8b1fdf63c3193eda(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -97,7 +104,8 @@ function N_0x8b1fdf63c3193eda(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskKnockedOutAndHogtied(p0,p1,p2) end
+function TaskKnockedOutAndHogtied(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -107,7 +115,8 @@ function TaskKnockedOutAndHogtied(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x28ef780bdea8a639(p0,p1) end
+function N_0x28ef780bdea8a639(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -117,7 +126,8 @@ function N_0x28ef780bdea8a639(p0,p1) end
 --@params ped Ped
 --@params duration int
 --@return undefined
-function UpdateTaskHandsUpDuration(ped,duration) end
+function UpdateTaskHandsUpDuration(ped, duration)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -131,7 +141,8 @@ function UpdateTaskHandsUpDuration(ped,duration) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function TaskBoardVehicle(p0,p1,p2,p3,p4,p5) end
+function TaskBoardVehicle(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -141,7 +152,8 @@ function TaskBoardVehicle(p0,p1,p2,p3,p4,p5) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function TaskDuck(p0,p1) end
+function TaskDuck(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -151,7 +163,8 @@ function TaskDuck(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xffb520a3e16f7b7b(p0,p1) end
+function N_0xffb520a3e16f7b7b(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -164,7 +177,8 @@ function N_0xffb520a3e16f7b7b(p0,p1) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function TaskBoardVehicle_2(p0,p1,p2,p3,p4) end
+function TaskBoardVehicle_2(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -178,7 +192,8 @@ function TaskBoardVehicle_2(p0,p1,p2,p3,p4) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function TaskDisembarkVehicle(p0,p1,p2,p3,p4,p5) end
+function TaskDisembarkVehicle(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -193,7 +208,8 @@ function TaskDisembarkVehicle(p0,p1,p2,p3,p4,p5) end
 --@params flag int
 --@params p6 Any
 --@return undefined
-function TaskEnterVehicle(ped,vehicle,timeout,seat,speed,flag,p6) end
+function TaskEnterVehicle(ped, vehicle, timeout, seat, speed, flag, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -205,7 +221,8 @@ function TaskEnterVehicle(ped,vehicle,timeout,seat,speed,flag,p6) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function TaskLeaveVehicle(p0,p1,p2,p3) end
+function TaskLeaveVehicle(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -219,7 +236,8 @@ function TaskLeaveVehicle(p0,p1,p2,p3) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function TaskDismountAnimal(rider,taskFlag,p2,p3,p4,p5) end
+function TaskDismountAnimal(rider, taskFlag, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -230,7 +248,8 @@ function TaskDismountAnimal(rider,taskFlag,p2,p3,p4,p5) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskHitchAnimal(p0,p1,p2) end
+function TaskHitchAnimal(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -241,7 +260,8 @@ function TaskHitchAnimal(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskDisembarkVehicle_2(p0,p1,p2) end
+function TaskDisembarkVehicle_2(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -260,7 +280,8 @@ function TaskDisembarkVehicle_2(p0,p1,p2) end
 --@params stopRange float
 --@params p10 float
 --@return undefined
-function TaskVehicleDriveToCoord(ped,vehicle,x,y,z,speed,p6,vehicleModel,drivingMode,stopRange,p10) end
+function TaskVehicleDriveToCoord(ped, vehicle, x, y, z, speed, p6, vehicleModel, drivingMode, stopRange, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -277,7 +298,8 @@ function TaskVehicleDriveToCoord(ped,vehicle,x,y,z,speed,p6,vehicleModel,driving
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function TaskVehicleDriveToCoord_2(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function TaskVehicleDriveToCoord_2(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -293,7 +315,8 @@ function TaskVehicleDriveToCoord_2(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TaskMountAnimal(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskMountAnimal(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -314,7 +337,8 @@ function TaskMountAnimal(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p11 Any
 --@params p12 Any
 --@return undefined
-function TaskFollowToOffsetOfEntity(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12) end
+function TaskFollowToOffsetOfEntity(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -337,7 +361,8 @@ function TaskFollowToOffsetOfEntity(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12) e
 --@params p13 Any
 --@params p14 Any
 --@return undefined
-function TaskFollowToOffsetOfCoord(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14) end
+function TaskFollowToOffsetOfCoord(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -346,7 +371,8 @@ function TaskFollowToOffsetOfCoord(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13
 --@usage undefined _0xE05A5D39BE6E93AF(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xe05a5d39be6e93af(p0) end
+function N_0xe05a5d39be6e93af(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -358,7 +384,8 @@ function N_0xe05a5d39be6e93af(p0) end
 --@params speed float
 --@params drivingStyle int
 --@return undefined
-function TaskVehicleDriveWander(ped,vehicle,speed,drivingStyle) end
+function TaskVehicleDriveWander(ped, vehicle, speed, drivingStyle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -374,7 +401,8 @@ function TaskVehicleDriveWander(ped,vehicle,speed,drivingStyle) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TaskGoStraightToCoordRelativeToEntity(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskGoStraightToCoordRelativeToEntity(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -391,7 +419,8 @@ function TaskGoStraightToCoordRelativeToEntity(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function TaskGoStraightToCoord(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function TaskGoStraightToCoord(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -407,7 +436,8 @@ function TaskGoStraightToCoord(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TaskMoveInTraffic_2(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskMoveInTraffic_2(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -424,7 +454,8 @@ function TaskMoveInTraffic_2(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function N_0x3ffcd7bba074cc80(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function N_0x3ffcd7bba074cc80(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -437,7 +468,8 @@ function N_0x3ffcd7bba074cc80(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function TaskMoveInTraffic_3(p0,p1,p2,p3,p4) end
+function TaskMoveInTraffic_3(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -451,7 +483,8 @@ function TaskMoveInTraffic_3(p0,p1,p2,p3,p4) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function TaskMoveInTraffic_4(p0,p1,p2,p3,p4,p5) end
+function TaskMoveInTraffic_4(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -461,7 +494,8 @@ function TaskMoveInTraffic_4(p0,p1,p2,p3,p4,p5) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xbaab791aa72c2821(p0,p1) end
+function N_0xbaab791aa72c2821(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -473,7 +507,8 @@ function N_0xbaab791aa72c2821(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function TaskMoveInTraffic(p0,p1,p2,p3) end
+function TaskMoveInTraffic(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -484,7 +519,8 @@ function TaskMoveInTraffic(p0,p1,p2,p3) end
 --@params heading float
 --@params timeout int
 --@return undefined
-function TaskAchieveHeading(ped,heading,timeout) end
+function TaskAchieveHeading(ped, heading, timeout)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -498,7 +534,8 @@ function TaskAchieveHeading(ped,heading,timeout) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function TaskFollowPointRoute(p0,p1,p2,p3,p4,p5) end
+function TaskFollowPointRoute(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -507,7 +544,8 @@ function TaskFollowPointRoute(p0,p1,p2,p3,p4,p5) end
 --@usage undefined TASK_FLUSH_ROUTE();
 
 --@return undefined
-function TaskFlushRoute() end
+function TaskFlushRoute()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -518,7 +556,8 @@ function TaskFlushRoute() end
 --@params y float
 --@params z float
 --@return undefined
-function TaskExtendRoute(x,y,z) end
+function TaskExtendRoute(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -533,7 +572,8 @@ function TaskExtendRoute(x,y,z) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function TaskMoveBeInFormation(p0,p1,p2,p3,p4,p5,p6) end
+function TaskMoveBeInFormation(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -550,7 +590,8 @@ function TaskMoveBeInFormation(p0,p1,p2,p3,p4,p5,p6) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function TaskEnterAnimScene(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function TaskEnterAnimScene(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -569,7 +610,8 @@ function TaskEnterAnimScene(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params p9 Any
 --@params p10 Any
 --@return undefined
-function TaskFollowAndConverseWithPed(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function TaskFollowAndConverseWithPed(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -584,7 +626,8 @@ function TaskFollowAndConverseWithPed(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
 --@params p5 float
 --@params p6 int
 --@return undefined
-function TaskGoToEntity(entity,target,duration,distance,speed,p5,p6) end
+function TaskGoToEntity(entity, target, duration, distance, speed, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -594,7 +637,8 @@ function TaskGoToEntity(entity,target,duration,distance,speed,p5,p6) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xa052608a12559bbb(p0,p1) end
+function N_0xa052608a12559bbb(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -606,7 +650,8 @@ function N_0xa052608a12559bbb(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function TaskWanderAndConverseWithPed(p0,p1,p2,p3) end
+function TaskWanderAndConverseWithPed(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -623,7 +668,8 @@ function TaskWanderAndConverseWithPed(p0,p1,p2,p3) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function TaskLeadAndConverse(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function TaskLeadAndConverse(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -634,7 +680,8 @@ function TaskLeadAndConverse(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskGoToWhistle(p0,p1,p2) end
+function TaskGoToWhistle(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -648,7 +695,8 @@ function TaskGoToWhistle(p0,p1,p2) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0xde0c8b145ea466ff(p0,p1,p2,p3,p4,p5) end
+function N_0xde0c8b145ea466ff(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -661,7 +709,8 @@ function N_0xde0c8b145ea466ff(p0,p1,p2,p3,p4,p5) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function TaskSeekClearLosToEntity(p0,p1,p2,p3,p4) end
+function TaskSeekClearLosToEntity(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -670,7 +719,8 @@ function TaskSeekClearLosToEntity(p0,p1,p2,p3,p4) end
 --@usage undefined _0xEB67D4E056C85A81(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xeb67d4e056c85a81(p0) end
+function N_0xeb67d4e056c85a81(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -680,7 +730,8 @@ function N_0xeb67d4e056c85a81(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function TaskLeadHorse(p0,p1) end
+function TaskLeadHorse(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -700,7 +751,8 @@ function TaskLeadHorse(p0,p1) end
 --@params p10 Any
 --@params p11 Any
 --@return undefined
-function TaskFleeFromCoord(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) end
+function TaskFleeFromCoord(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -709,7 +761,8 @@ function TaskFleeFromCoord(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) end
 --@usage undefined _0x78D8C1D4EB80C588(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x78d8c1d4eb80c588(p0) end
+function N_0x78d8c1d4eb80c588(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -727,7 +780,8 @@ function N_0x78d8c1d4eb80c588(p0) end
 --@params p8 Any
 --@params p9 Any
 --@return undefined
-function TaskFleeFromPed(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function TaskFleeFromPed(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -742,7 +796,8 @@ function TaskFleeFromPed(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function TaskSmartFleePed(p0,p1,p2,p3,p4,p5,p6) end
+function TaskSmartFleePed(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -758,7 +813,8 @@ function TaskSmartFleePed(p0,p1,p2,p3,p4,p5,p6) end
 --@params p6 BOOL
 --@params p7 BOOL
 --@return undefined
-function TaskSmartFleeCoord(ped,x,y,z,distance,time,p6,p7) end
+function TaskSmartFleeCoord(ped, x, y, z, distance, time, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -767,7 +823,8 @@ function TaskSmartFleeCoord(ped,x,y,z,distance,time,p6,p7) end
 --@usage undefined _0xED27560703F37258(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xed27560703f37258(p0) end
+function N_0xed27560703f37258(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -779,7 +836,8 @@ function N_0xed27560703f37258(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x2e1d6d87346bb7d2(p0,p1,p2,p3) end
+function N_0x2e1d6d87346bb7d2(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -796,7 +854,8 @@ function N_0x2e1d6d87346bb7d2(p0,p1,p2,p3) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function TaskSmartFleeStyleCoord(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function TaskSmartFleeStyleCoord(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -816,7 +875,8 @@ function TaskSmartFleeStyleCoord(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params p10 Any
 --@params p11 Any
 --@return undefined
-function TaskSmartFleeStyleCoordVia(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) end
+function TaskSmartFleeStyleCoordVia(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -830,7 +890,8 @@ function TaskSmartFleeStyleCoordVia(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0x673a8779d229ba5a(p0,p1,p2,p3,p4,p5) end
+function N_0x673a8779d229ba5a(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -848,7 +909,8 @@ function N_0x673a8779d229ba5a(p0,p1,p2,p3,p4,p5) end
 --@params p8 Any
 --@params p9 Any
 --@return undefined
-function TaskSmartFleeStylePedVia(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function TaskSmartFleeStylePedVia(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -859,7 +921,8 @@ function TaskSmartFleeStylePedVia(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x3923ec958249657d(p0,p1,p2) end
+function N_0x3923ec958249657d(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -874,7 +937,8 @@ function N_0x3923ec958249657d(p0,p1,p2) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function TaskSmartFleeStylePed(p0,p1,p2,p3,p4,p5,p6) end
+function TaskSmartFleeStylePed(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -887,7 +951,8 @@ function TaskSmartFleeStylePed(p0,p1,p2,p3,p4,p5,p6) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0xe8f1a5b4ced3725a(p0,p1,p2,p3,p4) end
+function N_0xe8f1a5b4ced3725a(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -896,7 +961,8 @@ function N_0xe8f1a5b4ced3725a(p0,p1,p2,p3,p4) end
 --@usage undefined _0xA42DC7919159CCCF(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xa42dc7919159cccf(p0) end
+function N_0xa42dc7919159cccf(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -911,7 +977,8 @@ function N_0xa42dc7919159cccf(p0) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function TaskFlyingCircle(p0,p1,p2,p3,p4,p5,p6) end
+function TaskFlyingCircle(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -928,7 +995,8 @@ function TaskFlyingCircle(p0,p1,p2,p3,p4,p5,p6) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function TaskReact(ped,reactingTo,reactionType,p3,p4,unkFlag,p6,p7,p8) end
+function TaskReact(ped, reactingTo, reactionType, p3, p4, unkFlag, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -938,7 +1006,8 @@ function TaskReact(ped,reactingTo,reactionType,p3,p4,unkFlag,p6,p7,p8) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function TaskFlyAway(p0,p1) end
+function TaskFlyAway(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -948,7 +1017,8 @@ function TaskFlyAway(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function TaskWalkAway(p0,p1) end
+function TaskWalkAway(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -959,7 +1029,8 @@ function TaskWalkAway(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskShockingEventReact(p0,p1,p2) end
+function TaskShockingEventReact(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -974,7 +1045,8 @@ function TaskShockingEventReact(p0,p1,p2) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function TaskFlyToCoord(p0,p1,p2,p3,p4,p5,p6) end
+function TaskFlyToCoord(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -990,7 +1062,8 @@ function TaskFlyToCoord(p0,p1,p2,p3,p4,p5,p6) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TaskWanderInArea(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskWanderInArea(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1000,7 +1073,8 @@ function TaskWanderInArea(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function TaskWanderSwim(p0,p1) end
+function TaskWanderSwim(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1011,7 +1085,8 @@ function TaskWanderSwim(p0,p1) end
 --@params p1 float
 --@params p2 int
 --@return undefined
-function TaskWanderStandard(ped,p1,p2) end
+function TaskWanderStandard(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1023,7 +1098,8 @@ function TaskWanderStandard(ped,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function TaskHorseAction(p0,p1,p2,p3) end
+function TaskHorseAction(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1036,7 +1112,8 @@ function TaskHorseAction(p0,p1,p2,p3) end
 --@params z float
 --@params heading float
 --@return undefined
-function TaskPlantBomb(ped,x,y,z,heading) end
+function TaskPlantBomb(ped, x, y, z, heading)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1047,7 +1124,8 @@ function TaskPlantBomb(ped,x,y,z,heading) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskCombatAnimalWarn(p0,p1,p2) end
+function TaskCombatAnimalWarn(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1060,7 +1138,8 @@ function TaskCombatAnimalWarn(p0,p1,p2) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function TaskWanderInVolume(p0,p1,p2,p3,p4) end
+function TaskWanderInVolume(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1073,7 +1152,8 @@ function TaskWanderInVolume(p0,p1,p2,p3,p4) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function TaskAnimalInteraction(p0,p1,p2,p3,p4) end
+function TaskAnimalInteraction(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1084,7 +1164,8 @@ function TaskAnimalInteraction(p0,p1,p2,p3,p4) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskAmbientAnimalStalk(p0,p1,p2) end
+function TaskAmbientAnimalStalk(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1096,7 +1177,8 @@ function TaskAmbientAnimalStalk(p0,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function TaskCombatAnimalCharge(p0,p1,p2,p3) end
+function TaskCombatAnimalCharge(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1109,7 +1191,8 @@ function TaskCombatAnimalCharge(p0,p1,p2,p3) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function TaskAnimalUnalerted(p0,p1,p2,p3,p4) end
+function TaskAnimalUnalerted(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1120,7 +1203,8 @@ function TaskAnimalUnalerted(p0,p1,p2,p3,p4) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskAnimalFlee(p0,p1,p2) end
+function TaskAnimalFlee(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1131,7 +1215,8 @@ function TaskAnimalFlee(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskAmbientAnimalHunt(p0,p1,p2) end
+function TaskAmbientAnimalHunt(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1143,7 +1228,8 @@ function TaskAmbientAnimalHunt(p0,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x244430c13ba5258e(p0,p1,p2,p3) end
+function N_0x244430c13ba5258e(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1154,7 +1240,8 @@ function N_0x244430c13ba5258e(p0,p1,p2,p3) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskBark(p0,p1,p2) end
+function TaskBark(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1165,7 +1252,8 @@ function TaskBark(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskAnimalAlerted(p0,p1,p2) end
+function TaskAnimalAlerted(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1182,7 +1270,8 @@ function TaskAnimalAlerted(p0,p1,p2) end
 --@params persistFollowing BOOL
 --@params unk float
 --@return undefined
-function TaskFollowNavMeshToCoord(ped,x,y,z,speed,timeout,stoppingRange,persistFollowing,unk) end
+function TaskFollowNavMeshToCoord(ped, x, y, z, speed, timeout, stoppingRange, persistFollowing, unk)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1203,7 +1292,8 @@ function TaskFollowNavMeshToCoord(ped,x,y,z,speed,timeout,stoppingRange,persistF
 --@params p11 Any
 --@params p12 Any
 --@return undefined
-function TaskFollowNavMeshToCoordAdvanced(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12) end
+function TaskFollowNavMeshToCoordAdvanced(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1213,7 +1303,8 @@ function TaskFollowNavMeshToCoordAdvanced(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,
 --@params ped Ped
 --@params args Any*
 --@return undefined
-function TaskFollowPavementToCoord(ped,args) end
+function TaskFollowPavementToCoord(ped, args)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1223,7 +1314,8 @@ function TaskFollowPavementToCoord(ped,args) end
 --@params ped Ped
 --@params Toggle BOOL
 --@return undefined
-function SetPedPathCanUseLadders(ped,Toggle) end
+function SetPedPathCanUseLadders(ped, Toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1233,7 +1325,8 @@ function SetPedPathCanUseLadders(ped,Toggle) end
 --@params ped Ped
 --@params Toggle BOOL
 --@return undefined
-function SetPedPathCanUseClimbovers(ped,Toggle) end
+function SetPedPathCanUseClimbovers(ped, Toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1243,7 +1336,8 @@ function SetPedPathCanUseClimbovers(ped,Toggle) end
 --@params ped Ped
 --@params Toggle BOOL
 --@return undefined
-function SetPedPathCanDropFromHeight(ped,Toggle) end
+function SetPedPathCanDropFromHeight(ped, Toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1253,7 +1347,8 @@ function SetPedPathCanDropFromHeight(ped,Toggle) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x1632eb9386cdbe64(p0,p1) end
+function N_0x1632eb9386cdbe64(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1262,7 +1357,8 @@ function N_0x1632eb9386cdbe64(p0,p1) end
 --@usage undefined _0xE6A151364C600B24(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xe6a151364c600b24(p0) end
+function N_0xe6a151364c600b24(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1273,7 +1369,8 @@ function N_0xe6a151364c600b24(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskEat(p0,p1,p2) end
+function TaskEat(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1283,7 +1380,8 @@ function TaskEat(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xe8c296b75eacc357(p0,p1) end
+function N_0xe8c296b75eacc357(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1293,7 +1391,8 @@ function N_0xe8c296b75eacc357(p0,p1) end
 --@params ped Ped
 --@params p1 float
 --@return undefined
-function N_0x88e32db8c1a4aa4b(ped,p1) end
+function N_0x88e32db8c1a4aa4b(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1303,7 +1402,8 @@ function N_0x88e32db8c1a4aa4b(ped,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x3ad8eff9703be657(p0,p1) end
+function N_0x3ad8eff9703be657(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1313,7 +1413,8 @@ function N_0x3ad8eff9703be657(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x8798cf6815b8fe0f(p0,p1) end
+function N_0x8798cf6815b8fe0f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1323,7 +1424,8 @@ function N_0x8798cf6815b8fe0f(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x82ed59f095056550(p0,p1) end
+function N_0x82ed59f095056550(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1333,7 +1435,8 @@ function N_0x82ed59f095056550(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x5b68d0007d9c92eb(p0,p1) end
+function N_0x5b68d0007d9c92eb(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1343,7 +1446,8 @@ function N_0x5b68d0007d9c92eb(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x013a7ba5015c1372(p0,p1) end
+function N_0x013a7ba5015c1372(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1352,7 +1456,8 @@ function N_0x013a7ba5015c1372(p0,p1) end
 --@usage undefined _0x1948BBE561A2375A(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x1948bbe561a2375a(p0) end
+function N_0x1948bbe561a2375a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1362,7 +1467,8 @@ function N_0x1948bbe561a2375a(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xe01c8dc8edd28d31(p0,p1) end
+function N_0xe01c8dc8edd28d31(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1372,7 +1478,8 @@ function N_0xe01c8dc8edd28d31(p0,p1) end
 --@params ped Ped
 --@params mayEnterWater BOOL
 --@return undefined
-function SetPedPathMayEnterWater(ped,mayEnterWater) end
+function SetPedPathMayEnterWater(ped, mayEnterWater)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1383,7 +1490,8 @@ function SetPedPathMayEnterWater(ped,mayEnterWater) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xf948f4356f010f11(p0,p1,p2) end
+function N_0xf948f4356f010f11(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1394,7 +1502,8 @@ function N_0xf948f4356f010f11(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xc6170856e54557b2(p0,p1,p2) end
+function N_0xc6170856e54557b2(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1405,7 +1514,8 @@ function N_0xc6170856e54557b2(p0,p1,p2) end
 --@params avoidWater BOOL
 --@params p2 float
 --@return undefined
-function SetPedPathPreferToAvoidWater(ped,avoidWater,p2) end
+function SetPedPathPreferToAvoidWater(ped, avoidWater, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1415,7 +1525,8 @@ function SetPedPathPreferToAvoidWater(ped,avoidWater,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x9de63896b176ea94(p0,p1) end
+function N_0x9de63896b176ea94(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1426,7 +1537,8 @@ function N_0x9de63896b176ea94(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x12990818c1d35886(p0,p1,p2) end
+function N_0x12990818c1d35886(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1437,7 +1549,8 @@ function N_0x12990818c1d35886(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x8bb283a7888ad1ad(p0,p1,p2) end
+function N_0x8bb283a7888ad1ad(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1447,7 +1560,8 @@ function N_0x8bb283a7888ad1ad(p0,p1,p2) end
 --@params ped Ped
 --@params avoidFire BOOL
 --@return undefined
-function SetPedPathAvoidFire(ped,avoidFire) end
+function SetPedPathAvoidFire(ped, avoidFire)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1457,7 +1571,8 @@ function SetPedPathAvoidFire(ped,avoidFire) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x7c015d8bcec72cf4(p0,p1) end
+function N_0x7c015d8bcec72cf4(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1468,7 +1583,8 @@ function N_0x7c015d8bcec72cf4(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x216343750545a486(p0,p1,p2) end
+function N_0x216343750545a486(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1478,7 +1594,8 @@ function N_0x216343750545a486(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x098caa6dbe7d8d82(p0,p1) end
+function N_0x098caa6dbe7d8d82(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1488,7 +1605,8 @@ function N_0x098caa6dbe7d8d82(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x42cfd8fd8cc8dc69(p0,p1) end
+function N_0x42cfd8fd8cc8dc69(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1505,7 +1623,8 @@ function N_0x42cfd8fd8cc8dc69(p0,p1) end
 --@params walkingStyle int
 --@params p8 float
 --@return undefined
-function TaskGoToCoordAnyMeans(ped,x,y,z,speed,p5,p6,walkingStyle,p8) end
+function TaskGoToCoordAnyMeans(ped, x, y, z, speed, p5, p6, walkingStyle, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1515,7 +1634,8 @@ function TaskGoToCoordAnyMeans(ped,x,y,z,speed,p5,p6,walkingStyle,p8) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xfa30e2254461adeb(p0,p1) end
+function N_0xfa30e2254461adeb(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1536,7 +1656,8 @@ function N_0xfa30e2254461adeb(p0,p1) end
 --@params p11 Any
 --@params p12 Any
 --@return undefined
-function TaskGoToCoordAnyMeansExtraParams(ped,x,y,z,speed,p5,p6,walkingStyle,p8,p9,p10,p11,p12) end
+function TaskGoToCoordAnyMeansExtraParams(ped, x, y, z, speed, p5, p6, walkingStyle, p8, p9, p10, p11, p12)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1546,7 +1667,8 @@ function TaskGoToCoordAnyMeansExtraParams(ped,x,y,z,speed,p5,p6,walkingStyle,p8,
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x70f7a1eab1ae3aa8(p0,p1) end
+function N_0x70f7a1eab1ae3aa8(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1567,7 +1689,8 @@ function N_0x70f7a1eab1ae3aa8(p0,p1) end
 --@params p11 const char*
 --@params p12 BOOL
 --@return undefined
-function TaskPlayAnim(ped,animDict,animName,speed,speedMultiplier,duration,flags,playbackRate,p8,p9,p10,p11,p12) end
+function TaskPlayAnim(ped, animDict, animName, speed, speedMultiplier, duration, flags, playbackRate, p8, p9, p10, p11, p12)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1590,7 +1713,8 @@ function TaskPlayAnim(ped,animDict,animName,speed,speedMultiplier,duration,flags
 --@params p13 int
 --@params p14 float
 --@return undefined
-function TaskPlayUpperAnimFacingEntity(ped,animDict,animName,entity,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14) end
+function TaskPlayUpperAnimFacingEntity(ped, animDict, animName, entity, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1615,7 +1739,8 @@ function TaskPlayUpperAnimFacingEntity(ped,animDict,animName,entity,p4,p5,p6,p7,
 --@params p15 int
 --@params p16 int
 --@return undefined
-function TaskPlayAnimAdvanced(ped,animDict,animName,posX,posY,posZ,rotX,rotY,rotZ,speed,speedMultiplier,duration,flags,p13,p14,p15,p16) end
+function TaskPlayAnimAdvanced(ped, animDict, animName, posX, posY, posZ, rotX, rotY, rotZ, speed, speedMultiplier, duration, flags, p13, p14, p15, p16)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1625,7 +1750,8 @@ function TaskPlayAnimAdvanced(ped,animDict,animName,posX,posY,posZ,rotX,rotY,rot
 --@params entity Entity
 --@params args Any*
 --@return undefined
-function PlayEntityScriptedAnim(entity,args) end
+function PlayEntityScriptedAnim(entity, args)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1637,7 +1763,8 @@ function PlayEntityScriptedAnim(entity,args) end
 --@params animationName const char*
 --@params p3 float
 --@return undefined
-function StopAnimTask(ped,animDictionary,animationName,p3) end
+function StopAnimTask(ped, animDictionary, animationName, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1660,7 +1787,8 @@ function StopAnimTask(ped,animDictionary,animationName,p3) end
 --@params p13 Any
 --@params p14 Any
 --@return undefined
-function TaskGoToCoordAnyMeansExtraParamsWithCruiseSpeed(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14) end
+function TaskGoToCoordAnyMeansExtraParamsWithCruiseSpeed(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1670,7 +1798,8 @@ function TaskGoToCoordAnyMeansExtraParamsWithCruiseSpeed(p0,p1,p2,p3,p4,p5,p6,p7
 --@params ped Ped
 --@params args Any*
 --@return undefined
-function TaskScriptedAnimation(ped,args) end
+function TaskScriptedAnimation(ped, args)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1682,7 +1811,8 @@ function TaskScriptedAnimation(ped,args) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x87b66d77d545db66(p0,p1,p2,p3) end
+function N_0x87b66d77d545db66(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1693,7 +1823,8 @@ function N_0x87b66d77d545db66(p0,p1,p2,p3) end
 --@params p1 int
 --@params p2 BOOL
 --@return undefined
-function StopAnimPlayback(ped,p1,p2) end
+function StopAnimPlayback(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1705,7 +1836,8 @@ function StopAnimPlayback(ped,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x2d19bc4df626cbe7(p0,p1,p2,p3) end
+function N_0x2d19bc4df626cbe7(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1721,7 +1853,8 @@ function N_0x2d19bc4df626cbe7(p0,p1,p2,p3) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TaskItemInteraction_2(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskItemInteraction_2(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1732,7 +1865,8 @@ function TaskItemInteraction_2(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xb35370d5353995cb(p0,p1,p2) end
+function N_0xb35370d5353995cb(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1746,7 +1880,8 @@ function N_0xb35370d5353995cb(p0,p1,p2) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function TaskItemInteraction(p0,p1,p2,p3,p4,p5) end
+function TaskItemInteraction(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1761,7 +1896,8 @@ function TaskItemInteraction(p0,p1,p2,p3,p4,p5) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function TaskItemInteraction_3(p0,p1,p2,p3,p4,p5,p6) end
+function TaskItemInteraction_3(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1773,7 +1909,8 @@ function TaskItemInteraction_3(p0,p1,p2,p3,p4,p5,p6) end
 --@params p2 Any
 --@params p3 BOOL
 --@return undefined
-function SetAnimRate(p0,p1,p2,p3) end
+function SetAnimRate(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1782,7 +1919,8 @@ function SetAnimRate(p0,p1,p2,p3) end
 --@usage undefined _0x6AA3DCA2C6F5EB6D(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6aa3dca2c6f5eb6d(p0) end
+function N_0x6aa3dca2c6f5eb6d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1791,7 +1929,8 @@ function N_0x6aa3dca2c6f5eb6d(p0) end
 --@usage undefined _0x038B1F1674F0E242(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x038b1f1674f0e242(p0) end
+function N_0x038b1f1674f0e242(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1800,7 +1939,8 @@ function N_0x038b1f1674f0e242(p0) end
 --@usage undefined _0xEC7E480FF8BD0BED(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xec7e480ff8bd0bed(p0) end
+function N_0xec7e480ff8bd0bed(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1810,7 +1950,8 @@ function N_0xec7e480ff8bd0bed(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x05a0100ea714db68(p0,p1) end
+function N_0x05a0100ea714db68(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1820,7 +1961,8 @@ function N_0x05a0100ea714db68(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x678d3226cf70b9c8(p0,p1) end
+function N_0x678d3226cf70b9c8(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1830,7 +1972,8 @@ function N_0x678d3226cf70b9c8(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xbc864a70ad55e0c1(p0,p1) end
+function N_0xbc864a70ad55e0c1(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1841,7 +1984,8 @@ function N_0xbc864a70ad55e0c1(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskEvasiveAnim(p0,p1,p2) end
+function TaskEvasiveAnim(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1855,7 +1999,8 @@ function TaskEvasiveAnim(p0,p1,p2) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function TaskLookAtEntity(p0,p1,p2,p3,p4,p5) end
+function TaskLookAtEntity(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1871,7 +2016,8 @@ function TaskLookAtEntity(p0,p1,p2,p3,p4,p5) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TaskLookAtCoord(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskLookAtCoord(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1880,7 +2026,8 @@ function TaskLookAtCoord(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@usage undefined TASK_CLEAR_LOOK_AT(Ped ped);
 --@params ped Ped
 --@return undefined
-function TaskClearLookAt(ped) end
+function TaskClearLookAt(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1889,7 +2036,8 @@ function TaskClearLookAt(ped) end
 --@usage undefined _0x804425C4BBD00883(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x804425c4bbd00883(p0) end
+function N_0x804425c4bbd00883(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1902,7 +2050,8 @@ function N_0x804425c4bbd00883(p0) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0x508f5053e3f6f0c4(p0,p1,p2,p3,p4) end
+function N_0x508f5053e3f6f0c4(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1911,7 +2060,8 @@ function N_0x508f5053e3f6f0c4(p0,p1,p2,p3,p4) end
 --@usage undefined OPEN_SEQUENCE_TASK(int* taskSequenceId);
 --@params taskSequenceId int*
 --@return undefined
-function OpenSequenceTask(taskSequenceId) end
+function OpenSequenceTask(taskSequenceId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1920,7 +2070,8 @@ function OpenSequenceTask(taskSequenceId) end
 --@usage undefined CLOSE_SEQUENCE_TASK(int taskSequenceId);
 --@params taskSequenceId int
 --@return undefined
-function CloseSequenceTask(taskSequenceId) end
+function CloseSequenceTask(taskSequenceId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1930,7 +2081,8 @@ function CloseSequenceTask(taskSequenceId) end
 --@params ped Ped
 --@params taskSequenceId int
 --@return undefined
-function TaskPerformSequence(ped,taskSequenceId) end
+function TaskPerformSequence(ped, taskSequenceId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1942,7 +2094,8 @@ function TaskPerformSequence(ped,taskSequenceId) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function TaskPerformSequence_2(p0,p1,p2,p3) end
+function TaskPerformSequence_2(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1951,7 +2104,8 @@ function TaskPerformSequence_2(p0,p1,p2,p3) end
 --@usage undefined CLEAR_SEQUENCE_TASK(int* taskSequenceId);
 --@params taskSequenceId int*
 --@return undefined
-function ClearSequenceTask(taskSequenceId) end
+function ClearSequenceTask(taskSequenceId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1961,7 +2115,8 @@ function ClearSequenceTask(taskSequenceId) end
 --@params taskSequenceId int
 --@params repeat BOOL
 --@return undefined
-function SetSequenceToRepeat(taskSequenceId,repeat) end
+function SetSequenceToRepeat(taskSequenceId,
+repeat ) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1970,7 +2125,8 @@ function SetSequenceToRepeat(taskSequenceId,repeat) end
 --@usage undefined GET_SEQUENCE_PROGRESS(Ped ped);
 --@params ped Ped
 --@return undefined
-function GetSequenceProgress(ped) end
+function GetSequenceProgress(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1980,7 +2136,8 @@ function GetSequenceProgress(ped) end
 --@params ped Ped
 --@params taskIndex int
 --@return undefined
-function GetIsTaskActive(ped,taskIndex) end
+function GetIsTaskActive(ped, taskIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1991,7 +2148,8 @@ function GetIsTaskActive(ped,taskIndex) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function GetScriptTaskStatus(p0,p1,p2) end
+function GetScriptTaskStatus(p0,p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2008,7 +2166,8 @@ function GetScriptTaskStatus(p0,p1,p2) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function N_0xe7fa07624574b79a(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function N_0xe7fa07624574b79a(p0,p1, p2, p3, p4, p5,p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2018,7 +2177,8 @@ function N_0xe7fa07624574b79a(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xa710dc5d25f8b942(p0,p1) end
+function N_0xa710dc5d25f8b942(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2038,7 +2198,7 @@ function N_0x9ff5f9b24e870748(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x541e5b41dca45828(p0,p1,p2) end
+function N_0x541e5b41dca45828(p0, p1, p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2048,7 +2208,8 @@ function N_0x541e5b41dca45828(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x916b8e075abc8b4e(p0,p1) end
+function N_0x916b8e075abc8b4e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2057,7 +2218,8 @@ function N_0x916b8e075abc8b4e(p0,p1) end
 --@usage undefined GET_ACTIVE_VEHICLE_MISSION_TYPE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return undefined
-function GetActiveVehicleMissionType(vehicle) end
+function GetActiveVehicleMissionType(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2068,7 +2230,8 @@ function GetActiveVehicleMissionType(vehicle) end
 --@params p1 int
 --@params p2 int
 --@return undefined
-function TaskLeaveAnyVehicle(ped,p1,p2) end
+function TaskLeaveAnyVehicle(ped,p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2090,7 +2253,8 @@ function N_0xbd70108d01875299(p0) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function TaskUseRandomScenarioInGroup(p0,p1,p2,p3,p4) end
+function TaskUseRandomScenarioInGroup(p0, p1, p2,p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2103,7 +2267,8 @@ function TaskUseRandomScenarioInGroup(p0,p1,p2,p3,p4) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function TaskAimGunAtEntity(p0,p1,p2,p3,p4) end
+function TaskAimGunAtEntity(p0,p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2117,7 +2282,8 @@ function TaskAimGunAtEntity(p0,p1,p2,p3,p4) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function TaskTurnPedToFaceEntity(p0,p1,p2,p3,p4,p5) end
+function TaskTurnPedToFaceEntity(p0, p1, p2, p3,p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2132,7 +2298,8 @@ function TaskTurnPedToFaceEntity(p0,p1,p2,p3,p4,p5) end
 --@params p5 BOOL
 --@params p6 BOOL
 --@return undefined
-function TaskAimGunAtCoord(ped,x,y,z,time,p5,p6) end
+function TaskAimGunAtCoord(ped,x, y, z, time, p5,p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2147,7 +2314,7 @@ function TaskAimGunAtCoord(ped,x,y,z,time,p5,p6) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function TaskAimAtCoord(p0,p1,p2,p3,p4,p5,p6) end
+function TaskAimAtCoord(p0, p1,p2, p3, p4, p5, p6) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2160,7 +2327,8 @@ function TaskAimAtCoord(p0,p1,p2,p3,p4,p5,p6) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function TaskAimAtEntity(p0,p1,p2,p3,p4) end
+function TaskAimAtEntity(p0, p1, p2,p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2175,7 +2343,8 @@ function TaskAimAtEntity(p0,p1,p2,p3,p4) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function TaskShootAtCoord(p0,p1,p2,p3,p4,p5,p6) end
+function TaskShootAtCoord(p0,p1, p2, p3, p4, p5,p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2185,7 +2354,7 @@ function TaskShootAtCoord(p0,p1,p2,p3,p4,p5,p6) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function TaskShuffleToNextVehicleSeat(p0,p1) end
+function TaskShuffleToNextVehicleSeat(p0, p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2196,7 +2365,7 @@ function TaskShuffleToNextVehicleSeat(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function ClearPedTasks(p0,p1,p2) end
+function ClearPedTasks(p0, p1, p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2205,7 +2374,8 @@ function ClearPedTasks(p0,p1,p2) end
 --@usage undefined _0x1A7D63CB1B0BB223(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x1a7d63cb1b0bb223(p0) end
+function N_0x1a7d63cb1b0bb223(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2214,7 +2384,8 @@ function N_0x1a7d63cb1b0bb223(p0) end
 --@usage undefined _0xDF94844D474F31E5(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xdf94844d474f31e5(p0) end
+function N_0xdf94844d474f31e5(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2223,7 +2394,8 @@ function N_0xdf94844d474f31e5(p0) end
 --@usage undefined _0xEBA2081E0A5F4D17(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xeba2081e0a5f4d17(p0) end
+function N_0xeba2081e0a5f4d17(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2232,7 +2404,8 @@ function N_0xeba2081e0a5f4d17(p0) end
 --@usage undefined CLEAR_PED_SECONDARY_TASK(Ped ped);
 --@params ped Ped
 --@return undefined
-function ClearPedSecondaryTask(ped) end
+function ClearPedSecondaryTask(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2251,7 +2424,8 @@ function N_0x141bc64c8d7c5529(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function TaskEveryoneLeaveVehicle(p0,p1) end
+function TaskEveryoneLeaveVehicle(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2261,7 +2435,8 @@ function TaskEveryoneLeaveVehicle(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function TaskEveryoneLeaveVehicleInOrder(p0,p1) end
+function TaskEveryoneLeaveVehicleInOrder(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2275,7 +2450,8 @@ function TaskEveryoneLeaveVehicleInOrder(p0,p1) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function TaskInvestigate(p0,p1,p2,p3,p4,p5) end
+function TaskInvestigate(p0, p1, p2, p3, p4,p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2290,7 +2466,7 @@ function TaskInvestigate(p0,p1,p2,p3,p4,p5) end
 --@params z float
 --@params duration int
 --@return undefined
-function TaskGotoEntityOffset(ped,p1,p2,x,y,z,duration) end
+function TaskGotoEntityOffset(ped, p1,p2, x, y, z, duration) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2306,7 +2482,7 @@ function TaskGotoEntityOffset(ped,p1,p2,x,y,z,duration) end
 --@params p6 float
 --@params p7 BOOL
 --@return undefined
-function TaskGotoEntityOffsetXy(p0,oed,duration,p3,p4,p5,p6,p7) end
+function TaskGotoEntityOffsetXy(p0, oed, duration,p3, p4, p5, p6, p7) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2323,7 +2499,8 @@ function TaskGotoEntityOffsetXy(p0,oed,duration,p3,p4,p5,p6,p7) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function TaskGotoEntityOffsetXyAiming(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function TaskGotoEntityOffsetXyAiming(p0, p1, p2,p3, p4, p5, p6, p7,p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2341,7 +2518,8 @@ function TaskGotoEntityOffsetXyAiming(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params p8 Any
 --@params p9 Any
 --@return undefined
-function TaskGotoEntityOffsetXyzAiming(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function TaskGotoEntityOffsetXyzAiming(p0, p1,p2, p3, p4, p5, p6,p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2357,7 +2535,8 @@ function TaskGotoEntityOffsetXyzAiming(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TaskFollowEntityWhileAimingAtEntity(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskFollowEntityWhileAimingAtEntity(p0, p1, p2, p3, p4,p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2370,7 +2549,7 @@ function TaskFollowEntityWhileAimingAtEntity(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params z float
 --@params duration int
 --@return undefined
-function TaskTurnPedToFaceCoord(ped,x,y,z,duration) end
+function TaskTurnPedToFaceCoord(ped, x, y, z, duration) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2382,7 +2561,8 @@ function TaskTurnPedToFaceCoord(ped,x,y,z,duration) end
 --@params action int
 --@params time int
 --@return undefined
-function TaskVehicleTempAction(driver,vehicle,action,time) end
+function TaskVehicleTempAction(driver, vehicle, action,time)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2399,7 +2579,8 @@ function TaskVehicleTempAction(driver,vehicle,action,time) end
 --@params p7 float
 --@params p8 BOOL
 --@return undefined
-function TaskVehicleMission(p0,p1,veh,p3,p4,p5,p6,p7,p8) end
+function TaskVehicleMission(p0, p1,veh, p3, p4, p5, p6,p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2418,7 +2599,7 @@ function TaskVehicleMission(p0,p1,veh,p3,p4,p5,p6,p7,p8) end
 --@params p9 Any
 --@params p10 Any
 --@return undefined
-function TaskVehicleDriveToDestination(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function TaskVehicleDriveToDestination(p0,p1, p2, p3, p4, p5,p6, p7, p8, p9, p10) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2432,7 +2613,8 @@ function TaskVehicleDriveToDestination(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0x55cd5fddd4335c1e(p0,p1,p2,p3,p4,p5) end
+function N_0x55cd5fddd4335c1e(p0, p1, p2,p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2449,7 +2631,8 @@ function N_0x55cd5fddd4335c1e(p0,p1,p2,p3,p4,p5) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function TaskVehicleDriveToDestination_2(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function TaskVehicleDriveToDestination_2(p0, p1, p2, p3, p4,p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2465,7 +2648,8 @@ function TaskVehicleDriveToDestination_2(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TaskVehicleDriveToPoint(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskVehicleDriveToPoint(p0, p1, p2, p3,p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2480,7 +2664,8 @@ function TaskVehicleDriveToPoint(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function TaskVehicleDriveToPoint_2(p0,p1,p2,p3,p4,p5,p6) end
+function TaskVehicleDriveToPoint_2(p0, p1, p2, p3,p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2492,7 +2677,8 @@ function TaskVehicleDriveToPoint_2(p0,p1,p2,p3,p4,p5,p6) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x1d125814ebc517eb(p0,p1,p2,p3) end
+function N_0x1d125814ebc517eb(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2504,7 +2690,7 @@ function N_0x1d125814ebc517eb(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x583ae9af9cee0958(p0,p1,p2,p3) end
+function N_0x583ae9af9cee0958(p0, p1, p2, p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2521,7 +2707,8 @@ function N_0x583ae9af9cee0958(p0,p1,p2,p3) end
 --@params p7 float
 --@params p8 BOOL
 --@return undefined
-function TaskVehicleMissionPedTarget(ped,vehicle,pedTarget,mode,maxSpeed,drivingStyle,minDistance,p7,p8) end
+function TaskVehicleMissionPedTarget(ped, vehicle, pedTarget,mode, maxSpeed, drivingStyle, minDistance, p7,p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2531,7 +2718,7 @@ function TaskVehicleMissionPedTarget(ped,vehicle,pedTarget,mode,maxSpeed,driving
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xa263adbbc8056214(p0,p1) end
+function N_0xa263adbbc8056214(p0, p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2548,7 +2735,8 @@ function N_0xa263adbbc8056214(p0,p1) end
 --@params p7 int
 --@params noRoadsDistance float
 --@return undefined
-function TaskVehicleEscort(ped,vehicle,targetVehicle,mode,speed,drivingStyle,minDistance,p7,noRoadsDistance) end
+function TaskVehicleEscort(ped, vehicle, targetVehicle,mode, speed, drivingStyle, minDistance, p7,noRoadsDistance)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2568,7 +2756,7 @@ function TaskVehicleEscort(ped,vehicle,targetVehicle,mode,speed,drivingStyle,min
 --@params p10 float
 --@params p11 Any
 --@return undefined
-function TaskBoatMission(pedDriver,boat,p2,p3,x,y,z,p7,maxSpeed,drivingStyle,p10,p11) end
+function TaskBoatMission(pedDriver, boat,p2, p3, x, y, z,p7, maxSpeed, drivingStyle, p10, p11) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2577,7 +2765,8 @@ function TaskBoatMission(pedDriver,boat,p2,p3,x,y,z,p7,maxSpeed,drivingStyle,p10
 --@usage undefined TASK_WEAPON(Ped ped);
 --@params ped Ped
 --@return undefined
-function TaskWeapon(ped) end
+function TaskWeapon(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2595,7 +2784,7 @@ function TaskWeapon(ped) end
 --@params p8 BOOL
 --@params firingPattern Hash
 --@return undefined
-function TaskDriveBy(driverPed,targetPed,targetVehicle,targetX,targetY,targetZ,distanceToShoot,pedAccuracy,p8,firingPattern) end
+function TaskDriveBy(driverPed, targetPed, targetVehicle, targetX, targetY,targetZ, distanceToShoot, pedAccuracy, p8, firingPattern) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2609,7 +2798,8 @@ function TaskDriveBy(driverPed,targetPed,targetVehicle,targetX,targetY,targetZ,d
 --@params y float
 --@params z float
 --@return undefined
-function SetDrivebyTaskTarget(shootingPed,targetPed,targetVehicle,x,y,z) end
+function SetDrivebyTaskTarget(shootingPed, targetPed, targetVehicle,x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2618,7 +2808,8 @@ function SetDrivebyTaskTarget(shootingPed,targetPed,targetVehicle,x,y,z) end
 --@usage undefined CLEAR_DRIVEBY_TASK_UNDERNEATH_DRIVING_TASK(Ped ped);
 --@params ped Ped
 --@return undefined
-function ClearDrivebyTaskUnderneathDrivingTask(ped) end
+function ClearDrivebyTaskUnderneathDrivingTask(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2627,7 +2818,8 @@ function ClearDrivebyTaskUnderneathDrivingTask(ped) end
 --@usage undefined IS_DRIVEBY_TASK_UNDERNEATH_DRIVING_TASK(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsDrivebyTaskUnderneathDrivingTask(ped) end
+function IsDrivebyTaskUnderneathDrivingTask(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2636,7 +2828,8 @@ function IsDrivebyTaskUnderneathDrivingTask(ped) end
 --@usage undefined _0x8785E6E40C7A8819(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x8785e6e40c7a8819(p0) end
+function N_0x8785e6e40c7a8819(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2646,7 +2839,8 @@ function N_0x8785e6e40c7a8819(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x34c0010188d7c54a(p0,p1) end
+function N_0x34c0010188d7c54a(p0,p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2655,7 +2849,8 @@ function N_0x34c0010188d7c54a(p0,p1) end
 --@usage undefined IS_MOUNTED_WEAPON_TASK_UNDERNEATH_DRIVING_TASK(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsMountedWeaponTaskUnderneathDrivingTask(ped) end
+function IsMountedWeaponTaskUnderneathDrivingTask(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2666,7 +2861,8 @@ function IsMountedWeaponTaskUnderneathDrivingTask(ped) end
 --@params vehicle Vehicle
 --@params seat int
 --@return undefined
-function TaskWarpPedIntoVehicle(ped,vehicle,seat) end
+function TaskWarpPedIntoVehicle(ped, vehicle, seat)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2679,7 +2875,8 @@ function TaskWarpPedIntoVehicle(ped,vehicle,seat) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function TaskShootAtEntity(p0,p1,p2,p3,p4) end
+function TaskShootAtEntity(p0, p1, p2, p3,p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2689,7 +2886,7 @@ function TaskShootAtEntity(p0,p1,p2,p3,p4) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function TaskShootWithWeapon(p0,p1) end
+function TaskShootWithWeapon(p0, p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2702,7 +2899,8 @@ function TaskShootWithWeapon(p0,p1) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0x2416ec2f31f75266(p0,p1,p2,p3,p4) end
+function N_0x2416ec2f31f75266(p0, p1, p2,p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2717,7 +2915,8 @@ function N_0x2416ec2f31f75266(p0,p1,p2,p3,p4) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function N_0x41323f4e0c4ae94b(p0,p1,p2,p3,p4,p5,p6) end
+function N_0x41323f4e0c4ae94b(p0,p1, p2, p3, p4, p5,p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2726,7 +2925,8 @@ function N_0x41323f4e0c4ae94b(p0,p1,p2,p3,p4,p5,p6) end
 --@usage undefined _0x5EA655F01D93667A(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x5ea655f01d93667a(p0) end
+function N_0x5ea655f01d93667a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2736,7 +2936,8 @@ function N_0x5ea655f01d93667a(p0) end
 --@params ped Ped
 --@params unused BOOL
 --@return undefined
-function TaskClimb(ped,unused) end
+function TaskClimb(ped, unused)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2746,7 +2947,8 @@ function TaskClimb(ped,unused) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function TaskClimb_2(p0,p1) end
+function TaskClimb_2(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2758,7 +2960,8 @@ function TaskClimb_2(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function TaskClimbLadder(p0,p1,p2,p3) end
+function TaskClimbLadder(p0,p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2769,7 +2972,8 @@ function TaskClimbLadder(p0,p1,p2,p3) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return undefined
-function ClearPedTasksImmediately(ped,p1,p2) end
+function ClearPedTasksImmediately(ped, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2781,7 +2985,8 @@ function ClearPedTasksImmediately(ped,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function TaskPerformSequenceFromProgress(p0,p1,p2,p3) end
+function TaskPerformSequenceFromProgress(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2791,7 +2996,8 @@ function TaskPerformSequenceFromProgress(p0,p1,p2,p3) end
 --@params ped Ped
 --@params p1 float
 --@return undefined
-function SetPedDesiredMoveBlendRatio(ped,p1) end
+function SetPedDesiredMoveBlendRatio(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2803,7 +3009,8 @@ function SetPedDesiredMoveBlendRatio(ped,p1) end
 --@params distanceToStopAt float
 --@params StartAimingDist float
 --@return undefined
-function TaskGotoEntityAiming(ped,target,distanceToStopAt,StartAimingDist) end
+function TaskGotoEntityAiming(ped, target, distanceToStopAt, StartAimingDist)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2812,7 +3019,8 @@ function TaskGotoEntityAiming(ped,target,distanceToStopAt,StartAimingDist) end
 --@usage undefined GET_PED_DESIRED_MOVE_BLEND_RATIO(Ped ped);
 --@params ped Ped
 --@return undefined
-function GetPedDesiredMoveBlendRatio(ped) end
+function GetPedDesiredMoveBlendRatio(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2825,7 +3033,8 @@ function GetPedDesiredMoveBlendRatio(ped) end
 --@params p3 float
 --@params p4 float
 --@return undefined
-function TaskSetSphereDefensiveArea(p0,p1,p2,p3,p4) end
+function TaskSetSphereDefensiveArea(p0,p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2834,7 +3043,8 @@ function TaskSetSphereDefensiveArea(p0,p1,p2,p3,p4) end
 --@usage undefined TASK_CLEAR_DEFENSIVE_AREA(Any p0);
 --@params p0 Any
 --@return undefined
-function TaskClearDefensiveArea(p0) end
+function TaskClearDefensiveArea(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2848,7 +3058,7 @@ function TaskClearDefensiveArea(p0) end
 --@params heading float
 --@params p5 float
 --@return undefined
-function TaskPedSlideToCoord(ped,x,y,z,heading,p5) end
+function TaskPedSlideToCoord(ped,x, y, z, heading, p5) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2857,7 +3067,8 @@ function TaskPedSlideToCoord(ped,x,y,z,heading,p5) end
 --@usage undefined _0x9420FB11B8D77948(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x9420fb11b8d77948(p0) end
+function N_0x9420fb11b8d77948(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2866,7 +3077,8 @@ function N_0x9420fb11b8d77948(p0) end
 --@usage undefined _0x6BA606AB3A83BC4D(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6ba606ab3a83bc4d(p0) end
+function N_0x6ba606ab3a83bc4d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2882,7 +3094,8 @@ function N_0x6ba606ab3a83bc4d(p0) end
 --@params p6 Any
 --@params p7 BOOL
 --@return undefined
-function AddCoverPoint(p0,p1,p2,p3,p4,p5,p6,p7) end
+function AddCoverPoint(p0, p1,p2, p3, p4, p5, p6,p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2899,7 +3112,8 @@ function AddCoverPoint(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function N_0x59872ea4cbd11c56(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function N_0x59872ea4cbd11c56(p0, p1,p2, p3, p4, p5, p6,p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2920,7 +3134,8 @@ function RemoveCoverPoint(coverpoint) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function DoesScriptedCoverPointExistAtCoords(p0,p1,p2,p3) end
+function DoesScriptedCoverPointExistAtCoords(p0, p1, p2,p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2929,7 +3144,8 @@ function DoesScriptedCoverPointExistAtCoords(p0,p1,p2,p3) end
 --@usage undefined GET_SCRIPTED_COVER_POINT_COORDS(ScrHandle coverpoint);
 --@params coverpoint ScrHandle
 --@return undefined
-function GetScriptedCoverPointCoords(coverpoint) end
+function GetScriptedCoverPointCoords(coverpoint)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2938,7 +3154,8 @@ function GetScriptedCoverPointCoords(coverpoint) end
 --@usage undefined _0xE116F6F2DA2D777E(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xe116f6f2da2d777e(p0) end
+function N_0xe116f6f2da2d777e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2953,7 +3170,8 @@ function N_0xe116f6f2da2d777e(p0) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function N_0x50aa09a0da64e73c(p0,p1,p2,p3,p4,p5,p6) end
+function N_0x50aa09a0da64e73c(p0,p1, p2, p3, p4, p5,p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2965,7 +3183,8 @@ function N_0x50aa09a0da64e73c(p0,p1,p2,p3,p4,p5,p6) end
 --@params p2 int
 --@params p3 int
 --@return undefined
-function TaskCombatPed(ped,targetPed,p2,p3) end
+function TaskCombatPed(ped, targetPed,p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2986,7 +3205,8 @@ function N_0xe5831aa1e2fd147c(p0) end
 --@params p2 int
 --@params p3 Any
 --@return undefined
-function TaskCombatPedTimed(p0,ped,p2,p3) end
+function TaskCombatPedTimed(p0, ped, p2,p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3000,7 +3220,8 @@ function TaskCombatPedTimed(p0,ped,p2,p3) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function TaskCombatPed_3(p0,p1,p2,p3,p4,p5) end
+function TaskCombatPed_3(p0, p1,p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3016,7 +3237,8 @@ function TaskCombatPed_3(p0,p1,p2,p3,p4,p5) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TaskSeekCoverFromPos(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskSeekCoverFromPos(p0, p1, p2, p3,p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3030,7 +3252,8 @@ function TaskSeekCoverFromPos(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function TaskSeekCoverFromPed(p0,p1,p2,p3,p4,p5) end
+function TaskSeekCoverFromPed(p0, p1, p2, p3,p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3047,7 +3270,8 @@ function TaskSeekCoverFromPed(p0,p1,p2,p3,p4,p5) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function TaskSeekCoverToCoverPoint(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function TaskSeekCoverToCoverPoint(p0,p1, p2, p3, p4, p5,p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3066,7 +3290,8 @@ function TaskSeekCoverToCoverPoint(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params p9 Any
 --@params p10 Any
 --@return undefined
-function TaskSeekCoverToCoords(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function TaskSeekCoverToCoords(p0, p1, p2, p3, p4,p5, p6, p7, p8, p9,p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3087,7 +3312,8 @@ function TaskSeekCoverToCoords(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
 --@params p11 Any
 --@params p12 Any
 --@return undefined
-function TaskPutPedDirectlyIntoCover(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12) end
+function TaskPutPedDirectlyIntoCover(p0, p1,p2, p3, p4, p5, p6,p7, p8, p9, p10, p11,p12)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3102,7 +3328,7 @@ function TaskPutPedDirectlyIntoCover(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12) 
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function TaskPutPedDirectlyIntoGrapple(p0,p1,p2,p3,p4,p5,p6) end
+function TaskPutPedDirectlyIntoGrapple(p0, p1,p2, p3, p4, p5, p6) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3128,7 +3354,7 @@ function TaskPutPedDirectlyIntoGrapple(p0,p1,p2,p3,p4,p5,p6) end
 --@params p16 Any
 --@params p17 Any
 --@return undefined
-function N_0xdf8a5855b9f9a97b(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17) end
+function N_0xdf8a5855b9f9a97b(p0, p1, p2,p3, p4, p5, p6, p7,p8, p9, p10, p11, p12,p13, p14, p15, p16, p17) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3137,7 +3363,8 @@ function N_0xdf8a5855b9f9a97b(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,
 --@usage undefined _0x10C44F633E2D6D9E(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x10c44f633e2d6d9e(p0) end
+function N_0x10c44f633e2d6d9e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3146,7 +3373,8 @@ function N_0x10c44f633e2d6d9e(p0) end
 --@usage undefined _0x7FB78B2199C10E92(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x7fb78b2199c10e92(p0) end
+function N_0x7fb78b2199c10e92(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3157,7 +3385,8 @@ function N_0x7fb78b2199c10e92(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskGuard(p0,p1,p2) end
+function TaskGuard(p0, p1,p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3169,7 +3398,8 @@ function TaskGuard(p0,p1,p2) end
 --@params p2 float
 --@params p3 BOOL
 --@return undefined
-function TaskGuardCurrentPosition(p0,p1,p2,p3) end
+function TaskGuardCurrentPosition(p0, p1,p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3184,7 +3414,8 @@ function TaskGuardCurrentPosition(p0,p1,p2,p3) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function TaskPutPedDirectlyIntoMelee(p0,p1,p2,p3,p4,p5,p6) end
+function TaskPutPedDirectlyIntoMelee(p0,p1, p2, p3, p4, p5,p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3200,7 +3431,8 @@ function TaskPutPedDirectlyIntoMelee(p0,p1,p2,p3,p4,p5,p6) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TaskGuardAssignedDefensiveArea_2(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskGuardAssignedDefensiveArea_2(p0, p1,p2, p3, p4, p5, p6,p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3215,7 +3447,7 @@ function TaskGuardAssignedDefensiveArea_2(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p5 float
 --@params p6 Any
 --@return undefined
-function TaskGuardAssignedDefensiveArea(p0,p1,p2,p3,p4,p5,p6) end
+function TaskGuardAssignedDefensiveArea(p0, p1,p2, p3, p4, p5, p6) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3225,7 +3457,8 @@ function TaskGuardAssignedDefensiveArea(p0,p1,p2,p3,p4,p5,p6) end
 --@params ped Ped
 --@params maxCruiseSpeed float
 --@return undefined
-function SetDriveTaskMaxCruiseSpeed(ped,maxCruiseSpeed) end
+function SetDriveTaskMaxCruiseSpeed(ped, maxCruiseSpeed)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3235,7 +3468,8 @@ function SetDriveTaskMaxCruiseSpeed(ped,maxCruiseSpeed) end
 --@params driver Ped
 --@params cruiseSpeed float
 --@return undefined
-function SetDriveTaskCruiseSpeed(driver,cruiseSpeed) end
+function SetDriveTaskCruiseSpeed(driver, cruiseSpeed)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3253,7 +3487,7 @@ function SetDriveTaskCruiseSpeed(driver,cruiseSpeed) end
 --@params p8 BOOL
 --@params p9 BOOL
 --@return undefined
-function AddCoverBlockingArea(playerX,playerY,playerZ,radiusX,radiusY,radiusZ,p6,p7,p8,p9) end
+function AddCoverBlockingArea(playerX, playerY, playerZ, radiusX, radiusY,radiusZ, p6, p7, p8, p9) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3262,7 +3496,8 @@ function AddCoverBlockingArea(playerX,playerY,playerZ,radiusX,radiusY,radiusZ,p6
 --@usage undefined REMOVE_ALL_COVER_BLOCKING_AREAS();
 
 --@return undefined
-function RemoveAllCoverBlockingAreas() end
+function RemoveAllCoverBlockingAreas()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3275,7 +3510,8 @@ function RemoveAllCoverBlockingAreas() end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0xeb2ed1dc3aec0654(p0,p1,p2,p3,p4) end
+function N_0xeb2ed1dc3aec0654(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3288,7 +3524,8 @@ function N_0xeb2ed1dc3aec0654(p0,p1,p2,p3,p4) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function TaskRobPed(p0,p1,p2,p3,p4) end
+function TaskRobPed(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3302,7 +3539,8 @@ function TaskRobPed(p0,p1,p2,p3,p4) end
 --@params heading float
 --@params scenarioName const char*
 --@return undefined
-function TaskStandGuard(ped,x,y,z,heading,scenarioName) end
+function TaskStandGuard(ped, x, y, z, heading, scenarioName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3311,7 +3549,8 @@ function TaskStandGuard(ped,x,y,z,heading,scenarioName) end
 --@usage undefined _0xBEDBE39B5FD98FD6(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xbedbe39b5fd98fd6(p0) end
+function N_0xbedbe39b5fd98fd6(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3337,7 +3576,8 @@ function N_0x4f57397388e1dff8() end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function CreateScenarioPointAttachedToEntity(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function CreateScenarioPointAttachedToEntity(p0, p1, p2,p3, p4, p5, p6, p7,p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3347,7 +3587,7 @@ function CreateScenarioPointAttachedToEntity(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x2a10538d0a005e81(p0,p1) end
+function N_0x2a10538d0a005e81(p0, p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3357,7 +3597,8 @@ function N_0x2a10538d0a005e81(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function TaskCompanionAmbient(p0,p1) end
+function TaskCompanionAmbient(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3366,7 +3607,8 @@ function TaskCompanionAmbient(p0,p1) end
 --@usage undefined _0xEA31F199A73801D3(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xea31f199a73801d3(p0) end
+function N_0xea31f199a73801d3(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3382,7 +3624,8 @@ function N_0xea31f199a73801d3(p0) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function CreateScenarioPoint(p0,p1,p2,p3,p4,p5,p6,p7) end
+function CreateScenarioPoint(p0,p1, p2, p3, p4, p5,p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3401,7 +3644,8 @@ function N_0x098036cab8373d36(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x295514f198efd0ca(p0,p1) end
+function N_0x295514f198efd0ca(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3412,7 +3656,8 @@ function N_0x295514f198efd0ca(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x5af19b6cc2115d34(p0,p1,p2) end
+function N_0x5af19b6cc2115d34(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3424,7 +3669,7 @@ function N_0x5af19b6cc2115d34(p0,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x8360c47380b6f351(p0,p1,p2,p3) end
+function N_0x8360c47380b6f351(p0, p1, p2, p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3433,7 +3678,8 @@ function N_0x8360c47380b6f351(p0,p1,p2,p3) end
 --@usage undefined _0x974DA3408DEC4E79(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x974da3408dec4e79(p0) end
+function N_0x974da3408dec4e79(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3443,7 +3689,8 @@ function N_0x974da3408dec4e79(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x8569c38d2fb80650(p0,p1) end
+function N_0x8569c38d2fb80650(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3461,7 +3708,8 @@ function N_0x841475ac96e794d1(p0) end
 --@usage undefined _0x7467165EE97D3C68(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x7467165ee97d3c68(p0) end
+function N_0x7467165ee97d3c68(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3470,7 +3718,8 @@ function N_0x7467165ee97d3c68(p0) end
 --@usage undefined _0x5BA659955369B0E2(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x5ba659955369b0e2(p0) end
+function N_0x5ba659955369b0e2(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3479,7 +3728,8 @@ function N_0x5ba659955369b0e2(p0) end
 --@usage undefined _0x22CD2C33ED4467A1(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x22cd2c33ed4467a1(p0) end
+function N_0x22cd2c33ed4467a1(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3489,7 +3739,8 @@ function N_0x22cd2c33ed4467a1(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xadc45010bc17af0e(p0,p1) end
+function N_0xadc45010bc17af0e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3499,7 +3750,8 @@ function N_0xadc45010bc17af0e(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xa8452dd321607029(p0,p1) end
+function N_0xa8452dd321607029(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3517,7 +3769,8 @@ function N_0x91cb5e431f579ba1(p0) end
 --@usage undefined _0x370F57C47F68EBCA(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x370f57c47f68ebca(p0) end
+function N_0x370f57c47f68ebca(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3527,7 +3780,8 @@ function N_0x370f57c47f68ebca(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xb93ea7184baa85c3(p0,p1) end
+function N_0xb93ea7184baa85c3(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3540,7 +3794,8 @@ function N_0xb93ea7184baa85c3(p0,p1) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0x2056ab38df06825c(p0,p1,p2,p3,p4) end
+function N_0x2056ab38df06825c(p0,p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3549,7 +3804,8 @@ function N_0x2056ab38df06825c(p0,p1,p2,p3,p4) end
 --@usage undefined _0x6718F40313A2B5A6(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6718f40313a2b5a6(p0) end
+function N_0x6718f40313a2b5a6(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3560,7 +3816,8 @@ function N_0x6718f40313a2b5a6(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xd3a0da8f91612c6e(p0,p1,p2) end
+function N_0xd3a0da8f91612c6e(p0,p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3570,7 +3827,8 @@ function N_0xd3a0da8f91612c6e(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xc47d9080a9a8856a(p0,p1) end
+function N_0xc47d9080a9a8856a(p0,p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3580,7 +3838,7 @@ function N_0xc47d9080a9a8856a(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xe69fda40aac3efc0(p0,p1) end
+function N_0xe69fda40aac3efc0(p0, p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3590,7 +3848,8 @@ function N_0xe69fda40aac3efc0(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xa7479fb665361edb(p0,p1) end
+function N_0xa7479fb665361edb(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3600,7 +3859,8 @@ function N_0xa7479fb665361edb(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x6ef4e31b4d5d2da0(p0,p1) end
+function N_0x6ef4e31b4d5d2da0(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3614,7 +3874,8 @@ function N_0x6ef4e31b4d5d2da0(p0,p1) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0x345ec3b7ebde1cb5(p0,p1,p2,p3,p4,p5) end
+function N_0x345ec3b7ebde1cb5(p0, p1, p2, p3, p4,p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3628,7 +3889,8 @@ function N_0x345ec3b7ebde1cb5(p0,p1,p2,p3,p4,p5) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0x152664aa3188b193(p0,p1,p2,p3,p4,p5) end
+function N_0x152664aa3188b193(p0, p1,p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3640,7 +3902,7 @@ function N_0x152664aa3188b193(p0,p1,p2,p3,p4,p5) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xefd875c2791ebefd(p0,p1,p2,p3) end
+function N_0xefd875c2791ebefd(p0, p1, p2, p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3650,7 +3912,8 @@ function N_0xefd875c2791ebefd(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xdf7993356f52359a(p0,p1) end
+function N_0xdf7993356f52359a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3661,7 +3924,8 @@ function N_0xdf7993356f52359a(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xe7bbc4e56b989449(p0,p1,p2) end
+function N_0xe7bbc4e56b989449(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3670,7 +3934,8 @@ function N_0xe7bbc4e56b989449(p0,p1,p2) end
 --@usage undefined _0xD04241BBF6D03A5E(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xd04241bbf6d03a5e(p0) end
+function N_0xd04241bbf6d03a5e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3680,7 +3945,8 @@ function N_0xd04241bbf6d03a5e(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x188f8071f244b9b8(p0,p1) end
+function N_0x188f8071f244b9b8(p0,p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3689,7 +3955,8 @@ function N_0x188f8071f244b9b8(p0,p1) end
 --@usage undefined _0x0A98A362C5A19A43(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x0a98a362c5a19a43(p0) end
+function N_0x0a98a362c5a19a43(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3698,7 +3965,8 @@ function N_0x0a98a362c5a19a43(p0) end
 --@usage undefined _0x849791EBBDBA0362(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x849791ebbdba0362(p0) end
+function N_0x849791ebbdba0362(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3716,7 +3984,8 @@ function N_0xa9e7672f8c6c6f74(p0) end
 --@usage undefined _0x640A602946A8C972(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x640a602946a8c972(p0) end
+function N_0x640a602946a8c972(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3725,7 +3994,8 @@ function N_0x640a602946a8c972(p0) end
 --@usage undefined _0x01AF8A3729231A43(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x01af8a3729231a43(p0) end
+function N_0x01af8a3729231a43(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3734,7 +4004,8 @@ function N_0x01af8a3729231a43(p0) end
 --@usage undefined _0xB219612B5568E9EC(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xb219612b5568e9ec(p0) end
+function N_0xb219612b5568e9ec(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3744,7 +4015,8 @@ function N_0xb219612b5568e9ec(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x2e20878fd208a68e(p0,p1) end
+function N_0x2e20878fd208a68e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3756,7 +4028,8 @@ function N_0x2e20878fd208a68e(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x4161648394262fdf(p0,p1,p2,p3) end
+function N_0x4161648394262fdf(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3765,7 +4038,8 @@ function N_0x4161648394262fdf(p0,p1,p2,p3) end
 --@usage undefined _0x9C8F42A5D1859DC1(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x9c8f42a5d1859dc1(p0) end
+function N_0x9c8f42a5d1859dc1(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3783,7 +4057,8 @@ function N_0x9c8f42a5d1859dc1(p0) end
 --@params p8 float
 --@params p9 BOOL
 --@return undefined
-function TaskUseScenarioPoint(ped,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function TaskUseScenarioPoint(ped,p1, p2, p3, p4, p5,p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3792,7 +4067,8 @@ function TaskUseScenarioPoint(ped,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@usage undefined _0x81948DFE4F5A0283(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x81948dfe4f5a0283(p0) end
+function N_0x81948dfe4f5a0283(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3808,7 +4084,8 @@ function N_0x81948dfe4f5a0283(p0) end
 --@params p6 float
 --@params p7 BOOL
 --@return undefined
-function TaskUseScenarioPoint_2(ped,ped2,p2,p3,p4,p5,p6,p7) end
+function TaskUseScenarioPoint_2(ped,ped2, p2, p3, p4, p5,p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3823,7 +4100,8 @@ function TaskUseScenarioPoint_2(ped,ped2,p2,p3,p4,p5,p6,p7) end
 --@params p5 float
 --@params p6 BOOL
 --@return undefined
-function TaskStartScenarioInPlace(ped,scenarioHash,p2,p3,p4,p5,p6) end
+function TaskStartScenarioInPlace(ped,scenarioHash, p2, p3, p4, p5,p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3838,7 +4116,7 @@ function TaskStartScenarioInPlace(ped,scenarioHash,p2,p3,p4,p5,p6) end
 --@params p5 float
 --@params p6 BOOL
 --@return undefined
-function TaskStartScenarioInPlace_2(ped,p1,p2,p3,p4,p5,p6) end
+function TaskStartScenarioInPlace_2(ped, p1,p2, p3, p4, p5, p6) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3858,7 +4136,8 @@ function TaskStartScenarioInPlace_2(ped,p1,p2,p3,p4,p5,p6) end
 --@params p10 float
 --@params p11 BOOL
 --@return undefined
-function TaskStartScenarioAtPosition(ped,scenarioHash,x,y,z,heading,p6,p7,p8,p9,p10,p11) end
+function TaskStartScenarioAtPosition(ped, scenarioHash, x,y, z, heading, p6, p7,p8, p9, p10, p11)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3867,7 +4146,8 @@ function TaskStartScenarioAtPosition(ped,scenarioHash,x,y,z,heading,p6,p7,p8,p9,
 --@usage undefined _0x6C269F673C47031E(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6c269f673c47031e(p0) end
+function N_0x6c269f673c47031e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3885,7 +4165,8 @@ function N_0x9667cce29bfa0780(p0) end
 --@usage undefined _0x00FFE0F85253C572(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x00ffe0f85253c572(p0) end
+function N_0x00ffe0f85253c572(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3894,7 +4175,8 @@ function N_0x00ffe0f85253c572(p0) end
 --@usage undefined _0xF97F462779B31786(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xf97f462779b31786(p0) end
+function N_0xf97f462779b31786(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3912,7 +4194,8 @@ function N_0xf97f462779b31786(p0) end
 --@params p8 BOOL
 --@params p9 BOOL
 --@return undefined
-function TaskUseNearestScenarioToCoord(ped,x,y,z,distance,duration,p6,p7,p8,p9) end
+function TaskUseNearestScenarioToCoord(ped, x,y, z, distance, duration, p6,p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3930,7 +4213,7 @@ function TaskUseNearestScenarioToCoord(ped,x,y,z,distance,duration,p6,p7,p8,p9) 
 --@params p8 BOOL
 --@params p9 BOOL
 --@return undefined
-function TaskUseNearestScenarioToCoordWarp(ped,x,y,z,distance,duration,p6,p7,p8,p9) end
+function TaskUseNearestScenarioToCoordWarp(ped, x, y, z, distance,duration, p6, p7, p8, p9) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3947,7 +4230,8 @@ function TaskUseNearestScenarioToCoordWarp(ped,x,y,z,distance,duration,p6,p7,p8,
 --@params p7 BOOL
 --@params p8 BOOL
 --@return undefined
-function TaskUseNearestScenarioChainToCoordWarp(ped,x,y,z,distance,p5,p6,p7,p8) end
+function TaskUseNearestScenarioChainToCoordWarp(ped, x, y,z, distance, p5, p6, p7,p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3964,7 +4248,8 @@ function TaskUseNearestScenarioChainToCoordWarp(ped,x,y,z,distance,p5,p6,p7,p8) 
 --@params p7 BOOL
 --@params p8 BOOL
 --@return undefined
-function TaskUseNearestScenarioChainToCoord(ped,x,y,z,distance,p5,p6,p7,p8) end
+function TaskUseNearestScenarioChainToCoord(ped, x,y, z, distance, p5, p6,p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3977,7 +4262,8 @@ function TaskUseNearestScenarioChainToCoord(ped,x,y,z,distance,p5,p6,p7,p8) end
 --@params z float
 --@params distance float
 --@return undefined
-function TaskUseNearestTrainScenarioToCoordWarp(ped,x,y,z,distance) end
+function TaskUseNearestTrainScenarioToCoordWarp(ped,x, y, z, distance)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3987,7 +4273,8 @@ function TaskUseNearestTrainScenarioToCoordWarp(ped,x,y,z,distance) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x2d657b10f211c572(p0,p1) end
+function N_0x2d657b10f211c572(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3999,7 +4286,8 @@ function N_0x2d657b10f211c572(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function TaskRideTrain(p0,p1,p2,p3) end
+function TaskRideTrain(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4013,7 +4301,8 @@ function TaskRideTrain(p0,p1,p2,p3) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0x79197f7d2bb5e73a(p0,p1,p2,p3,p4,p5) end
+function N_0x79197f7d2bb5e73a(p0, p1, p2, p3,p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4037,7 +4326,8 @@ function N_0xfdecca06e8b81346(p0) end
 --@params p5 Any
 --@params p6 BOOL
 --@return undefined
-function DoesScenarioExistInArea(x,y,z,radius,p4,p5,p6) end
+function DoesScenarioExistInArea(x, y, z,radius, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4051,7 +4341,8 @@ function DoesScenarioExistInArea(x,y,z,radius,p4,p5,p6) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0x6eead6af637da752(p0,p1,p2,p3,p4,p5) end
+function N_0x6eead6af637da752(p0, p1, p2, p3,p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4066,7 +4357,8 @@ function N_0x6eead6af637da752(p0,p1,p2,p3,p4,p5) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function N_0xf533d68ff970d190(p0,p1,p2,p3,p4,p5,p6) end
+function N_0xf533d68ff970d190(p0,p1, p2, p3, p4, p5,p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4076,7 +4368,7 @@ function N_0xf533d68ff970d190(p0,p1,p2,p3,p4,p5,p6) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x0d322aef8878b8fe(p0,p1) end
+function N_0x0d322aef8878b8fe(p0, p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4090,7 +4382,8 @@ function N_0x0d322aef8878b8fe(p0,p1) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0xd508fa229f1c4900(p0,p1,p2,p3,p4,p5) end
+function N_0xd508fa229f1c4900(p0, p1, p2,p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4105,7 +4398,8 @@ function N_0xd508fa229f1c4900(p0,p1,p2,p3,p4,p5) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function N_0xb8e213d02f37947d(p0,p1,p2,p3,p4,p5,p6) end
+function N_0xb8e213d02f37947d(p0, p1, p2, p3, p4,p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4118,7 +4412,8 @@ function N_0xb8e213d02f37947d(p0,p1,p2,p3,p4,p5,p6) end
 --@params p3 float
 --@params p4 BOOL
 --@return undefined
-function IsScenarioOccupied(p0,p1,p2,p3,p4) end
+function IsScenarioOccupied(p0,p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4127,7 +4422,8 @@ function IsScenarioOccupied(p0,p1,p2,p3,p4) end
 --@usage undefined PED_HAS_USE_SCENARIO_TASK(Ped ped);
 --@params ped Ped
 --@return undefined
-function PedHasUseScenarioTask(ped) end
+function PedHasUseScenarioTask(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4146,7 +4442,8 @@ function N_0x02ebbb3989b7e695(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x90703a8f75ee4abd(p0,p1) end
+function N_0x90703a8f75ee4abd(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4157,7 +4454,8 @@ function N_0x90703a8f75ee4abd(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xd999e379265a4501(p0,p1,p2) end
+function N_0xd999e379265a4501(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4168,7 +4466,8 @@ function N_0xd999e379265a4501(p0,p1,p2) end
 --@params animDict const char*
 --@params animName const char*
 --@return undefined
-function PlayAnimOnRunningScenario(ped,animDict,animName) end
+function PlayAnimOnRunningScenario(ped, animDict, animName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4177,7 +4476,8 @@ function PlayAnimOnRunningScenario(ped,animDict,animName) end
 --@usage undefined _0x74F0209674864CBD();
 
 --@return undefined
-function N_0x74f0209674864cbd() end
+function N_0x74f0209674864cbd()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4186,7 +4486,8 @@ function N_0x74f0209674864cbd() end
 --@usage undefined _0xE1C105E6BBA48270();
 
 --@return undefined
-function N_0xe1c105e6bba48270() end
+function N_0xe1c105e6bba48270()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4195,7 +4496,8 @@ function N_0xe1c105e6bba48270() end
 --@usage undefined _0x1AC5A8AB50CFAA33(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x1ac5a8ab50cfaa33(p0) end
+function N_0x1ac5a8ab50cfaa33(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4215,7 +4517,7 @@ function N_0xbeefbb608d2aa68a(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x19bc99c678fba139(p0,p1,p2) end
+function N_0x19bc99c678fba139(p0, p1, p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4227,7 +4529,8 @@ function N_0x19bc99c678fba139(p0,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x5d9b0baaf04cf65b(p0,p1,p2,p3) end
+function N_0x5d9b0baaf04cf65b(p0, p1, p2,p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4237,7 +4540,7 @@ function N_0x5d9b0baaf04cf65b(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x9b6a58fdb0024f12(p0,p1) end
+function N_0x9b6a58fdb0024f12(p0, p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4247,7 +4550,8 @@ function N_0x9b6a58fdb0024f12(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xbc3f847ae2c3dc65(p0,p1) end
+function N_0xbc3f847ae2c3dc65(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4257,7 +4561,8 @@ function N_0xbc3f847ae2c3dc65(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x450080ddedb91258(p0,p1) end
+function N_0x450080ddedb91258(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4267,7 +4572,8 @@ function N_0x450080ddedb91258(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x954451ea2d2120fb(p0,p1) end
+function N_0x954451ea2d2120fb(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4277,7 +4583,8 @@ function N_0x954451ea2d2120fb(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x0f4f6c4ce471259d(p0,p1) end
+function N_0x0f4f6c4ce471259d(p0,p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4287,7 +4594,7 @@ function N_0x0f4f6c4ce471259d(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xb8e3486d107f4194(p0,p1) end
+function N_0xb8e3486d107f4194(p0, p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4297,7 +4604,8 @@ function N_0xb8e3486d107f4194(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x827a58ced9d4d5b4(p0,p1) end
+function N_0x827a58ced9d4d5b4(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4307,7 +4615,8 @@ function N_0x827a58ced9d4d5b4(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x4a7d73989f52eb37(p0,p1) end
+function N_0x4a7d73989f52eb37(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4317,7 +4626,8 @@ function N_0x4a7d73989f52eb37(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xb79817db31ff72b9(p0,p1) end
+function N_0xb79817db31ff72b9(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4327,7 +4637,8 @@ function N_0xb79817db31ff72b9(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x65d281985f2bdfc2(p0,p1) end
+function N_0x65d281985f2bdfc2(p0,p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4337,7 +4648,7 @@ function N_0x65d281985f2bdfc2(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x885d19ac2b6fbff4(p0,p1) end
+function N_0x885d19ac2b6fbff4(p0, p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4349,7 +4660,8 @@ function N_0x885d19ac2b6fbff4(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x2064b33f6e6b92d4(p0,p1,p2,p3) end
+function N_0x2064b33f6e6b92d4(p0, p1, p2,p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4361,7 +4673,8 @@ function N_0x2064b33f6e6b92d4(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xce4e669400e5f8aa(p0,p1,p2,p3) end
+function N_0xce4e669400e5f8aa(p0, p1,p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4371,7 +4684,8 @@ function N_0xce4e669400e5f8aa(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x2eb977293923c723(p0,p1) end
+function N_0x2eb977293923c723(p0,p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4381,7 +4695,7 @@ function N_0x2eb977293923c723(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xe9225354fb7437a7(p0,p1) end
+function N_0xe9225354fb7437a7(p0, p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4391,7 +4705,8 @@ function N_0xe9225354fb7437a7(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x764db5a48390fbad(p0,p1) end
+function N_0x764db5a48390fbad(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4401,7 +4716,8 @@ function N_0x764db5a48390fbad(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x8f8c84363810691a(p0,p1) end
+function N_0x8f8c84363810691a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4411,7 +4727,8 @@ function N_0x8f8c84363810691a(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xff8afca532b500d4(p0,p1) end
+function N_0xff8afca532b500d4(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4423,7 +4740,8 @@ function N_0xff8afca532b500d4(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xfe5d28b9b7837cc1(p0,p1,p2,p3) end
+function N_0xfe5d28b9b7837cc1(p0,p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4432,7 +4750,8 @@ function N_0xfe5d28b9b7837cc1(p0,p1,p2,p3) end
 --@usage undefined _0x2B8AF29A78024BD3(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x2b8af29a78024bd3(p0) end
+function N_0x2b8af29a78024bd3(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4441,7 +4760,8 @@ function N_0x2b8af29a78024bd3(p0) end
 --@usage undefined _0x0365000D8BF86531(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x0365000d8bf86531(p0) end
+function N_0x0365000d8bf86531(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4450,7 +4770,8 @@ function N_0x0365000d8bf86531(p0) end
 --@usage undefined _0x865732725536EE39(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x865732725536ee39(p0) end
+function N_0x865732725536ee39(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4459,7 +4780,8 @@ function N_0x865732725536ee39(p0) end
 --@usage undefined _0x0E184495B27BB57D();
 
 --@return undefined
-function N_0x0e184495b27bb57d() end
+function N_0x0e184495b27bb57d()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4468,7 +4790,8 @@ function N_0x0e184495b27bb57d() end
 --@usage undefined DOES_SCENARIO_GROUP_EXIST(const char* scenarioGroup);
 --@params scenarioGroup const char*
 --@return undefined
-function DoesScenarioGroupExist(scenarioGroup) end
+function DoesScenarioGroupExist(scenarioGroup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4477,7 +4800,8 @@ function DoesScenarioGroupExist(scenarioGroup) end
 --@usage undefined _DOES_SCENARIO_GROUP_EXIST_HASH(Hash scenarioGroup);
 --@params scenarioGroup Hash
 --@return undefined
-function DoesScenarioGroupExistHash(scenarioGroup) end
+function DoesScenarioGroupExistHash(scenarioGroup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4487,7 +4811,8 @@ function DoesScenarioGroupExistHash(scenarioGroup) end
 --@params scenarioGroup const char*
 --@params toggle BOOL
 --@return undefined
-function SetScenarioGroupEnabled(scenarioGroup,toggle) end
+function SetScenarioGroupEnabled(scenarioGroup, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4497,7 +4822,8 @@ function SetScenarioGroupEnabled(scenarioGroup,toggle) end
 --@params scenarioGroup Hash
 --@params toggle BOOL
 --@return undefined
-function SetScenarioGroupEnabledHash(scenarioGroup,toggle) end
+function SetScenarioGroupEnabledHash(scenarioGroup, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4506,7 +4832,8 @@ function SetScenarioGroupEnabledHash(scenarioGroup,toggle) end
 --@usage undefined RESET_SCENARIO_GROUPS_ENABLED();
 
 --@return undefined
-function ResetScenarioGroupsEnabled() end
+function ResetScenarioGroupsEnabled()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4515,7 +4842,8 @@ function ResetScenarioGroupsEnabled() end
 --@usage undefined _IS_SCENARIO_GROUP_ENABLED_HASH(Hash scenarioGroup);
 --@params scenarioGroup Hash
 --@return undefined
-function IsScenarioGroupEnabledHash(scenarioGroup) end
+function IsScenarioGroupEnabledHash(scenarioGroup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4524,7 +4852,8 @@ function IsScenarioGroupEnabledHash(scenarioGroup) end
 --@usage undefined IS_SCENARIO_GROUP_ENABLED(const char* scenarioGroup);
 --@params scenarioGroup const char*
 --@return undefined
-function IsScenarioGroupEnabled(scenarioGroup) end
+function IsScenarioGroupEnabled(scenarioGroup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4543,7 +4872,8 @@ function N_0x358a1a751b335a11(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function ForceScenarioGroupPriority(p0,p1) end
+function ForceScenarioGroupPriority(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4552,7 +4882,8 @@ function ForceScenarioGroupPriority(p0,p1) end
 --@usage undefined _0xE55478C5EDF70AC2(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xe55478c5edf70ac2(p0) end
+function N_0xe55478c5edf70ac2(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4571,7 +4902,8 @@ function N_0x0cc36d4156006509(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xeee4829304f93eee(p0,p1) end
+function N_0xeee4829304f93eee(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4580,7 +4912,8 @@ function N_0xeee4829304f93eee(p0,p1) end
 --@usage undefined _0x5A40040BB5AE3EA2(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x5a40040bb5ae3ea2(p0) end
+function N_0x5a40040bb5ae3ea2(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4599,7 +4932,8 @@ function IsScenarioTypeEnabled(scenarioType) end
 --@params scenarioType Hash
 --@params toggle BOOL
 --@return undefined
-function SetScenarioTypeEnabledHash(scenarioType,toggle) end
+function SetScenarioTypeEnabledHash(scenarioType, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4608,7 +4942,8 @@ function SetScenarioTypeEnabledHash(scenarioType,toggle) end
 --@usage undefined RESET_SCENARIO_TYPES_ENABLED();
 
 --@return undefined
-function ResetScenarioTypesEnabled() end
+function ResetScenarioTypesEnabled()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4618,7 +4953,8 @@ function ResetScenarioTypesEnabled() end
 --@params scenarioType const char*
 --@params toggle BOOL
 --@return undefined
-function SetScenarioTypeEnabled(scenarioType,toggle) end
+function SetScenarioTypeEnabled(scenarioType, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4627,7 +4963,8 @@ function SetScenarioTypeEnabled(scenarioType,toggle) end
 --@usage undefined _0x2D0571BB55879DA2(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x2d0571bb55879da2(p0) end
+function N_0x2d0571bb55879da2(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4637,7 +4974,8 @@ function N_0x2d0571bb55879da2(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function IsPedActiveInScenario(p0,p1) end
+function IsPedActiveInScenario(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4646,7 +4984,8 @@ function IsPedActiveInScenario(p0,p1) end
 --@usage undefined _0x2C497BDEF897C6DF(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x2c497bdef897c6df(p0) end
+function N_0x2c497bdef897c6df(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4655,7 +4994,8 @@ function N_0x2c497bdef897c6df(p0) end
 --@usage undefined _0xA92450B5AE687AAF(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xa92450b5ae687aaf(p0) end
+function N_0xa92450b5ae687aaf(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4665,7 +5005,8 @@ function N_0xa92450b5ae687aaf(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x0c3cb2e600c8977d(p0,p1) end
+function N_0x0c3cb2e600c8977d(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4680,7 +5021,8 @@ function N_0x0c3cb2e600c8977d(p0,p1) end
 --@params flags int
 --@params p6 Any
 --@return undefined
-function TaskCombatHatedTargetsInArea(ped,x,y,z,radius,flags,p6) end
+function TaskCombatHatedTargetsInArea(ped, x, y, z, radius, flags, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4690,7 +5032,8 @@ function TaskCombatHatedTargetsInArea(ped,x,y,z,radius,flags,p6) end
 --@params ped Ped
 --@params radius float
 --@return undefined
-function TaskCombatHatedTargetsNoLosTest(ped,radius) end
+function TaskCombatHatedTargetsNoLosTest(ped, radius)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4702,7 +5045,8 @@ function TaskCombatHatedTargetsNoLosTest(ped,radius) end
 --@params flags int
 --@params p3 Any
 --@return undefined
-function TaskCombatHatedTargetsAroundPed(ped,radius,flags,p3) end
+function TaskCombatHatedTargetsAroundPed(ped, radius, flags, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4714,7 +5058,8 @@ function TaskCombatHatedTargetsAroundPed(ped,radius,flags,p3) end
 --@params p2 float
 --@params p3 Any
 --@return undefined
-function TaskCombatHatedTargetsAroundPedTimed(ped,radius,p2,p3) end
+function TaskCombatHatedTargetsAroundPedTimed(ped, radius, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4724,7 +5069,8 @@ function TaskCombatHatedTargetsAroundPedTimed(ped,radius,p2,p3) end
 --@params ped Ped
 --@params radius float
 --@return undefined
-function TaskCombatHatedTargets(ped,radius) end
+function TaskCombatHatedTargets(ped, radius)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4733,7 +5079,8 @@ function TaskCombatHatedTargets(ped,radius) end
 --@usage undefined _0x30B391915538EBE2(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x30b391915538ebe2(p0) end
+function N_0x30b391915538ebe2(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4745,7 +5092,8 @@ function N_0x30b391915538ebe2(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function TaskThrowProjectile(p0,p1,p2,p3) end
+function TaskThrowProjectile(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4758,7 +5106,8 @@ function TaskThrowProjectile(p0,p1,p2,p3) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function TaskSwapWeapon(p0,p1,p2,p3,p4) end
+function TaskSwapWeapon(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4768,7 +5117,8 @@ function TaskSwapWeapon(p0,p1,p2,p3,p4) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x0000a8acdc2e1b6a(p0,p1) end
+function N_0x0000a8acdc2e1b6a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4779,7 +5129,8 @@ function N_0x0000a8acdc2e1b6a(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskWhistleAnim(p0,p1,p2) end
+function TaskWhistleAnim(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4791,7 +5142,8 @@ function TaskWhistleAnim(p0,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function TaskThrowProjectile_2(p0,p1,p2,p3) end
+function TaskThrowProjectile_2(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4801,7 +5153,8 @@ function TaskThrowProjectile_2(p0,p1,p2,p3) end
 --@params ped Ped
 --@params unused BOOL
 --@return undefined
-function TaskReloadWeapon(ped,unused) end
+function TaskReloadWeapon(ped, unused)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4811,7 +5164,8 @@ function TaskReloadWeapon(ped,unused) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function TaskPickUpWeapon(p0,p1) end
+function TaskPickUpWeapon(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4820,7 +5174,8 @@ function TaskPickUpWeapon(p0,p1) end
 --@usage undefined IS_PED_GETTING_UP(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsPedGettingUp(ped) end
+function IsPedGettingUp(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4831,7 +5186,8 @@ function IsPedGettingUp(ped) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskAnimalWrithe(p0,p1,p2) end
+function TaskAnimalWrithe(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4845,7 +5201,8 @@ function TaskAnimalWrithe(p0,p1,p2) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0x30a768c30d385ec5(p0,p1,p2,p3,p4,p5) end
+function N_0x30a768c30d385ec5(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4854,7 +5211,8 @@ function N_0x30a768c30d385ec5(p0,p1,p2,p3,p4,p5) end
 --@usage undefined IS_PED_IN_WRITHE(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsPedInWrithe(ped) end
+function IsPedInWrithe(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4864,7 +5222,8 @@ function IsPedInWrithe(ped) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x3f8387db1b9f31b7(p0,p1) end
+function N_0x3f8387db1b9f31b7(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4873,7 +5232,8 @@ function N_0x3f8387db1b9f31b7(p0,p1) end
 --@usage undefined _0x756C7B4C43DF0422(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x756c7b4c43df0422(p0) end
+function N_0x756c7b4c43df0422(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4882,7 +5242,8 @@ function N_0x756c7b4c43df0422(p0) end
 --@usage undefined _0x351F74ED6177EBE7();
 
 --@return undefined
-function N_0x351f74ed6177ebe7() end
+function N_0x351f74ed6177ebe7()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4891,7 +5252,8 @@ function N_0x351f74ed6177ebe7() end
 --@usage undefined _0x6C50B9DCCCA70023(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6c50b9dccca70023(p0) end
+function N_0x6c50b9dccca70023(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4911,7 +5273,7 @@ function OpenPatrolRoute(patrolRoute) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskReviveTarget(p0,p1,p2) end
+function TaskReviveTarget(p0, p1, p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4921,7 +5283,8 @@ function TaskReviveTarget(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function AddPatrolRouteLink(p0,p1) end
+function AddPatrolRouteLink(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4939,7 +5302,8 @@ function AddPatrolRouteLink(p0,p1) end
 --@params p8 Any
 --@params p9 Any
 --@return undefined
-function AddPatrolRouteNode(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function AddPatrolRouteNode(p0, p1, p2, p3,p4, p5, p6, p7, p8,p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4948,7 +5312,8 @@ function AddPatrolRouteNode(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@usage undefined CLOSE_PATROL_ROUTE();
 
 --@return undefined
-function ClosePatrolRoute() end
+function ClosePatrolRoute()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4957,7 +5322,8 @@ function ClosePatrolRoute() end
 --@usage undefined CREATE_PATROL_ROUTE();
 
 --@return undefined
-function CreatePatrolRoute() end
+function CreatePatrolRoute()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4966,7 +5332,8 @@ function CreatePatrolRoute() end
 --@usage undefined DELETE_PATROL_ROUTE(const char* patrolRoute);
 --@params patrolRoute const char*
 --@return undefined
-function DeletePatrolRoute(patrolRoute) end
+function DeletePatrolRoute(patrolRoute)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4977,7 +5344,8 @@ function DeletePatrolRoute(patrolRoute) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x643fd1556f621772(p0,p1,p2) end
+function N_0x643fd1556f621772(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4990,7 +5358,8 @@ function N_0x643fd1556f621772(p0,p1,p2) end
 --@params p3 BOOL
 --@params p4 BOOL
 --@return undefined
-function TaskPatrol(ped,p1,p2,p3,p4) end
+function TaskPatrol(ped, p1, p2, p3,p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5006,7 +5375,8 @@ function TaskPatrol(ped,p1,p2,p3,p4) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TaskPatrol_2(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskPatrol_2(p0, p1,p2, p3, p4, p5, p6,p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5015,7 +5385,8 @@ function TaskPatrol_2(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@usage undefined TASK_STAY_IN_COVER(Ped ped);
 --@params ped Ped
 --@return undefined
-function TaskStayInCover(ped) end
+function TaskStayInCover(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5026,7 +5397,8 @@ function TaskStayInCover(ped) end
 --@params target Ped
 --@params p2 float
 --@return undefined
-function TaskVehicleShootAtPed(ped,target,p2) end
+function TaskVehicleShootAtPed(ped, target, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5036,7 +5408,8 @@ function TaskVehicleShootAtPed(ped,target,p2) end
 --@params ped Ped
 --@params target Ped
 --@return undefined
-function TaskVehicleAimAtPed(ped,target) end
+function TaskVehicleAimAtPed(ped, target)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5049,7 +5422,7 @@ function TaskVehicleAimAtPed(ped,target) end
 --@params z float
 --@params p4 float
 --@return undefined
-function TaskVehicleShootAtCoord(ped,x,y,z,p4) end
+function TaskVehicleShootAtCoord(ped, x, y, z, p4) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5065,7 +5438,7 @@ function TaskVehicleShootAtCoord(ped,x,y,z,p4) end
 --@params behaviorFlag int
 --@params stoppingRange float
 --@return undefined
-function TaskVehicleGotoNavmesh(ped,vehicle,x,y,z,speed,behaviorFlag,stoppingRange) end
+function TaskVehicleGotoNavmesh(ped, vehicle, x,y, z, speed, behaviorFlag, stoppingRange) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5077,7 +5450,8 @@ function TaskVehicleGotoNavmesh(ped,vehicle,x,y,z,speed,behaviorFlag,stoppingRan
 --@params y float
 --@params z float
 --@return undefined
-function TaskVehicleAimAtCoord(ped,x,y,z) end
+function TaskVehicleAimAtCoord(ped, x, y,z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5089,7 +5463,8 @@ function TaskVehicleAimAtCoord(ped,x,y,z) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xaf2ef28ce3084505(p0,p1,p2,p3) end
+function N_0xaf2ef28ce3084505(p0, p1,p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5113,7 +5488,7 @@ function N_0xaf2ef28ce3084505(p0,p1,p2,p3) end
 --@params p14 Any
 --@params p15 Any
 --@return undefined
-function TaskGoToCoordWhileAimingAtCoord(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15) end
+function TaskGoToCoordWhileAimingAtCoord(p0,p1, p2, p3, p4, p5,p6, p7, p8, p9, p10,p11, p12, p13, p14, p15) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5137,7 +5512,8 @@ function TaskGoToCoordWhileAimingAtCoord(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p
 --@params p14 Any
 --@params p15 Any
 --@return undefined
-function TaskGoToCoordWhileAimingAtCoordUsingCombatStyle(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15) end
+function TaskGoToCoordWhileAimingAtCoordUsingCombatStyle(p0, p1, p2,p3, p4, p5, p6, p7,p8, p9, p10, p11, p12,p13, p14, p15)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5160,7 +5536,7 @@ function TaskGoToCoordWhileAimingAtCoordUsingCombatStyle(p0,p1,p2,p3,p4,p5,p6,p7
 --@params p13 Any
 --@params p14 Any
 --@return undefined
-function TaskGoToCoordWhileAimingAtEntity(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14) end
+function TaskGoToCoordWhileAimingAtEntity(p0, p1, p2, p3, p4,p5, p6, p7, p8, p9,p10, p11, p12, p13, p14) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5183,7 +5559,8 @@ function TaskGoToCoordWhileAimingAtEntity(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,
 --@params p13 Any
 --@params p14 Any
 --@return undefined
-function TaskGoToCoordWhileAimingAtEntityUsingCombatStyle(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14) end
+function TaskGoToCoordWhileAimingAtEntityUsingCombatStyle(p0, p1, p2,p3, p4, p5, p6, p7,p8, p9, p10, p11, p12,p13, p14)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5202,7 +5579,7 @@ function TaskGoToCoordWhileAimingAtEntityUsingCombatStyle(p0,p1,p2,p3,p4,p5,p6,p
 --@params p9 Any
 --@params p10 Any
 --@return undefined
-function TaskGoToEntityWhileAimingAtEntityUsingCombatStyle(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function TaskGoToEntityWhileAimingAtEntityUsingCombatStyle(p0,p1, p2, p3, p4, p5,p6, p7, p8, p9, p10) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5221,7 +5598,8 @@ function TaskGoToEntityWhileAimingAtEntityUsingCombatStyle(p0,p1,p2,p3,p4,p5,p6,
 --@params p9 Any
 --@params p10 Any
 --@return undefined
-function TaskGoToEntityWhileAimingAtEntity(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function TaskGoToEntityWhileAimingAtEntity(p0, p1, p2,p3, p4, p5, p6, p7,p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5244,7 +5622,7 @@ function TaskGoToEntityWhileAimingAtEntity(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) en
 --@params aimingFlag int
 --@params firingPattern Hash
 --@return undefined
-function TaskGoToCoordAndAimAtHatedEntitiesNearCoord(pedHandle,goToLocationX,goToLocationY,goToLocationZ,focusLocationX,focusLocationY,focusLocationZ,speed,shootAtEnemies,distanceToStopAt,noRoadsDistance,unkTrue,unkFlag,aimingFlag,firingPattern) end
+function TaskGoToCoordAndAimAtHatedEntitiesNearCoord(pedHandle, goToLocationX, goToLocationY, goToLocationZ, focusLocationX,focusLocationY, focusLocationZ, speed, shootAtEnemies, distanceToStopAt,noRoadsDistance, unkTrue, unkFlag, aimingFlag, firingPattern) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5267,7 +5645,8 @@ function TaskGoToCoordAndAimAtHatedEntitiesNearCoord(pedHandle,goToLocationX,goT
 --@params p13 Any
 --@params p14 Any
 --@return undefined
-function TaskGoToCoordAndAimAtHatedEntitiesNearCoordUsingCombatStyle(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14) end
+function TaskGoToCoordAndAimAtHatedEntitiesNearCoordUsingCombatStyle(p0, p1, p2,p3, p4, p5, p6, p7,p8, p9, p10, p11, p12,p13, p14)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5279,7 +5658,8 @@ function TaskGoToCoordAndAimAtHatedEntitiesNearCoordUsingCombatStyle(p0,p1,p2,p3
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function SetHighFallTask(ped,p1,p2,p3) end
+function SetHighFallTask(ped,p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5292,7 +5672,7 @@ function SetHighFallTask(ped,p1,p2,p3) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0x5217b7b6db78e1f3(p0,p1,p2,p3,p4) end
+function N_0x5217b7b6db78e1f3(p0, p1, p2, p3, p4) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5301,7 +5681,8 @@ function N_0x5217b7b6db78e1f3(p0,p1,p2,p3,p4) end
 --@usage undefined REMOVE_WAYPOINT_RECORDING(const char* name);
 --@params name const char*
 --@return undefined
-function RemoveWaypointRecording(name) end
+function RemoveWaypointRecording(name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5310,7 +5691,8 @@ function RemoveWaypointRecording(name) end
 --@usage undefined GET_IS_WAYPOINT_RECORDING_LOADED(const char* name);
 --@params name const char*
 --@return undefined
-function GetIsWaypointRecordingLoaded(name) end
+function GetIsWaypointRecordingLoaded(name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5319,7 +5701,8 @@ function GetIsWaypointRecordingLoaded(name) end
 --@usage undefined _0xF718931A82EEB898();
 
 --@return undefined
-function N_0xf718931a82eeb898() end
+function N_0xf718931a82eeb898()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5328,7 +5711,8 @@ function N_0xf718931a82eeb898() end
 --@usage undefined REQUEST_WAYPOINT_RECORDING(const char* name);
 --@params name const char*
 --@return undefined
-function RequestWaypointRecording(name) end
+function RequestWaypointRecording(name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5338,7 +5722,8 @@ function RequestWaypointRecording(name) end
 --@params name const char*
 --@params points int*
 --@return undefined
-function WaypointRecordingGetNumPoints(name,points) end
+function WaypointRecordingGetNumPoints(name, points)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5349,7 +5734,8 @@ function WaypointRecordingGetNumPoints(name,points) end
 --@params point int
 --@params coord Vector3*
 --@return undefined
-function WaypointRecordingGetCoord(name,point,coord) end
+function WaypointRecordingGetCoord(name, point, coord)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5359,7 +5745,8 @@ function WaypointRecordingGetCoord(name,point,coord) end
 --@params name const char*
 --@params point int
 --@return undefined
-function WaypointRecordingGetSpeedAtPoint(name,point) end
+function WaypointRecordingGetSpeedAtPoint(name, point)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5372,7 +5759,8 @@ function WaypointRecordingGetSpeedAtPoint(name,point) end
 --@params z float
 --@params point int*
 --@return undefined
-function WaypointRecordingGetClosestWaypoint(name,x,y,z,point) end
+function WaypointRecordingGetClosestWaypoint(name, x, y, z, point)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5382,7 +5770,8 @@ function WaypointRecordingGetClosestWaypoint(name,x,y,z,point) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function TaskFollowWaypointRecordingAdvanced(p0,p1) end
+function TaskFollowWaypointRecordingAdvanced(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5398,7 +5787,8 @@ function TaskFollowWaypointRecordingAdvanced(p0,p1) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TaskFollowWaypointRecording(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskFollowWaypointRecording(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5413,7 +5803,8 @@ function TaskFollowWaypointRecording(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function TaskFollowWaypointRecordingAtOffset(p0,p1,p2,p3,p4,p5,p6) end
+function TaskFollowWaypointRecordingAtOffset(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5430,7 +5821,8 @@ function TaskFollowWaypointRecordingAtOffset(p0,p1,p2,p3,p4,p5,p6) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function TaskFollowEntityAlongWaypointRecordingAtOffset(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function TaskFollowEntityAlongWaypointRecordingAtOffset(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5439,7 +5831,8 @@ function TaskFollowEntityAlongWaypointRecordingAtOffset(p0,p1,p2,p3,p4,p5,p6,p7,
 --@usage undefined GET_PED_WAYPOINT_DISTANCE(Any p0);
 --@params p0 Any
 --@return undefined
-function GetPedWaypointDistance(p0) end
+function GetPedWaypointDistance(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5448,7 +5841,8 @@ function GetPedWaypointDistance(p0) end
 --@usage undefined GET_PED_WAYPOINT_PROGRESS(Ped ped);
 --@params ped Ped
 --@return undefined
-function GetPedWaypointProgress(ped) end
+function GetPedWaypointProgress(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5458,7 +5852,8 @@ function GetPedWaypointProgress(ped) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function IsWaypointPlaybackGoingOnForPed(p0,p1) end
+function IsWaypointPlaybackGoingOnForPed(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5470,7 +5865,8 @@ function IsWaypointPlaybackGoingOnForPed(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function SetPedWaypointRouteOffset(p0,p1,p2,p3) end
+function SetPedWaypointRouteOffset(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5480,7 +5876,8 @@ function SetPedWaypointRouteOffset(p0,p1,p2,p3) end
 --@params p0 const char*
 --@params p1 int
 --@return undefined
-function GetWaypointDistanceAlongRoute(p0,p1) end
+function GetWaypointDistanceAlongRoute(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5492,7 +5889,8 @@ function GetWaypointDistanceAlongRoute(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x3acc128510142b9d(p0,p1,p2,p3) end
+function N_0x3acc128510142b9d(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5501,7 +5899,8 @@ function N_0x3acc128510142b9d(p0,p1,p2,p3) end
 --@usage undefined WAYPOINT_PLAYBACK_GET_IS_PAUSED(Any p0);
 --@params p0 Any
 --@return undefined
-function WaypointPlaybackGetIsPaused(p0) end
+function WaypointPlaybackGetIsPaused(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5510,7 +5909,8 @@ function WaypointPlaybackGetIsPaused(p0) end
 --@usage undefined WAYPOINT_PLAYBACK_GET_IS_AIMING(Any p0);
 --@params p0 Any
 --@return undefined
-function WaypointPlaybackGetIsAiming(p0) end
+function WaypointPlaybackGetIsAiming(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5519,7 +5919,8 @@ function WaypointPlaybackGetIsAiming(p0) end
 --@usage undefined WAYPOINT_PLAYBACK_GET_IS_SHOOTING(Any p0);
 --@params p0 Any
 --@return undefined
-function WaypointPlaybackGetIsShooting(p0) end
+function WaypointPlaybackGetIsShooting(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5531,7 +5932,8 @@ function WaypointPlaybackGetIsShooting(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function WaypointPlaybackPause(p0,p1,p2,p3) end
+function WaypointPlaybackPause(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5543,7 +5945,8 @@ function WaypointPlaybackPause(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function WaypointPlaybackResume(p0,p1,p2,p3) end
+function WaypointPlaybackResume(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5556,7 +5959,8 @@ function WaypointPlaybackResume(p0,p1,p2,p3) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function WaypointPlaybackOverrideSpeed(p0,p1,p2,p3,p4) end
+function WaypointPlaybackOverrideSpeed(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5565,7 +5969,8 @@ function WaypointPlaybackOverrideSpeed(p0,p1,p2,p3,p4) end
 --@usage undefined GET_PED_WAYPOINT_OVERRIDE_SPEED(Any p0);
 --@params p0 Any
 --@return undefined
-function GetPedWaypointOverrideSpeed(p0) end
+function GetPedWaypointOverrideSpeed(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5574,7 +5979,8 @@ function GetPedWaypointOverrideSpeed(p0) end
 --@usage undefined WAYPOINT_PLAYBACK_USE_DEFAULT_SPEED(Any p0);
 --@params p0 Any
 --@return undefined
-function WaypointPlaybackUseDefaultSpeed(p0) end
+function WaypointPlaybackUseDefaultSpeed(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5587,7 +5993,8 @@ function WaypointPlaybackUseDefaultSpeed(p0) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function UseWaypointRecordingAsAssistedMovementRoute(p0,p1,p2,p3,p4) end
+function UseWaypointRecordingAsAssistedMovementRoute(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5599,7 +6006,8 @@ function UseWaypointRecordingAsAssistedMovementRoute(p0,p1,p2,p3,p4) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function WaypointPlaybackStartAimingAtPed(p0,p1,p2,p3) end
+function WaypointPlaybackStartAimingAtPed(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5611,7 +6019,8 @@ function WaypointPlaybackStartAimingAtPed(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function WaypointPlaybackStartAimingAtEntity(p0,p1,p2,p3) end
+function WaypointPlaybackStartAimingAtEntity(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5625,7 +6034,8 @@ function WaypointPlaybackStartAimingAtEntity(p0,p1,p2,p3) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function WaypointPlaybackStartAimingAtCoord(p0,p1,p2,p3,p4,p5) end
+function WaypointPlaybackStartAimingAtCoord(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5638,7 +6048,8 @@ function WaypointPlaybackStartAimingAtCoord(p0,p1,p2,p3,p4,p5) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function WaypointPlaybackStartShootingAtPed(p0,p1,p2,p3,p4) end
+function WaypointPlaybackStartShootingAtPed(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5651,7 +6062,8 @@ function WaypointPlaybackStartShootingAtPed(p0,p1,p2,p3,p4) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function WaypointPlaybackStartShootingAtEntity(p0,p1,p2,p3,p4) end
+function WaypointPlaybackStartShootingAtEntity(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5666,7 +6078,8 @@ function WaypointPlaybackStartShootingAtEntity(p0,p1,p2,p3,p4) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function WaypointPlaybackStartShootingAtCoord(p0,p1,p2,p3,p4,p5,p6) end
+function WaypointPlaybackStartShootingAtCoord(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5678,7 +6091,8 @@ function WaypointPlaybackStartShootingAtCoord(p0,p1,p2,p3,p4,p5,p6) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x5c885e0978b6ad60(p0,p1,p2,p3) end
+function N_0x5c885e0978b6ad60(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5687,7 +6101,8 @@ function N_0x5c885e0978b6ad60(p0,p1,p2,p3) end
 --@usage undefined WAYPOINT_PLAYBACK_STOP_AIMING_OR_SHOOTING(Any p0);
 --@params p0 Any
 --@return undefined
-function WaypointPlaybackStopAimingOrShooting(p0) end
+function WaypointPlaybackStopAimingOrShooting(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5696,7 +6111,8 @@ function WaypointPlaybackStopAimingOrShooting(p0) end
 --@usage undefined ASSISTED_MOVEMENT_REMOVE_ROUTE(const char* route);
 --@params route const char*
 --@return undefined
-function AssistedMovementRemoveRoute(route) end
+function AssistedMovementRemoveRoute(route)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5705,7 +6121,8 @@ function AssistedMovementRemoveRoute(route) end
 --@usage undefined ASSISTED_MOVEMENT_IS_ROUTE_LOADED(const char* route);
 --@params route const char*
 --@return undefined
-function AssistedMovementIsRouteLoaded(route) end
+function AssistedMovementIsRouteLoaded(route)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5715,7 +6132,8 @@ function AssistedMovementIsRouteLoaded(route) end
 --@params route const char*
 --@params props int
 --@return undefined
-function AssistedMovementSetRouteProperties(route,props) end
+function AssistedMovementSetRouteProperties(route, props)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5725,7 +6143,8 @@ function AssistedMovementSetRouteProperties(route,props) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function SetEnableSpeedRestrainForWaypointRecordingLeader(p0,p1) end
+function SetEnableSpeedRestrainForWaypointRecordingLeader(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5742,7 +6161,8 @@ function SetEnableSpeedRestrainForWaypointRecordingLeader(p0,p1) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function SetUpSpeedRestrainInformationForPlayerFollower(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function SetUpSpeedRestrainInformationForPlayerFollower(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5761,7 +6181,8 @@ function SetUpSpeedRestrainInformationForPlayerFollower(p0,p1,p2,p3,p4,p5,p6,p7,
 --@params p9 Any
 --@params p10 Any
 --@return undefined
-function TaskVehicleFollowWaypointRecording(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function TaskVehicleFollowWaypointRecording(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5779,7 +6200,8 @@ function TaskVehicleFollowWaypointRecording(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) e
 --@params p8 Any
 --@params p9 Any
 --@return undefined
-function TaskVehicleFollowWaypointRecording_2(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function TaskVehicleFollowWaypointRecording_2(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5788,7 +6210,8 @@ function TaskVehicleFollowWaypointRecording_2(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@usage undefined GET_VEHICLE_WAYPOINT_TARGET_POINT(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return undefined
-function GetVehicleWaypointTargetPoint(vehicle) end
+function GetVehicleWaypointTargetPoint(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5798,7 +6221,8 @@ function GetVehicleWaypointTargetPoint(vehicle) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function IsWaypointPlaybackGoingOnForVehicle(p0,p1) end
+function IsWaypointPlaybackGoingOnForVehicle(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5807,7 +6231,8 @@ function IsWaypointPlaybackGoingOnForVehicle(p0,p1) end
 --@usage undefined GET_VEHICLE_WAYPOINT_PROGRESS(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return undefined
-function GetVehicleWaypointProgress(vehicle) end
+function GetVehicleWaypointProgress(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5816,7 +6241,8 @@ function GetVehicleWaypointProgress(vehicle) end
 --@usage undefined VEHICLE_WAYPOINT_PLAYBACK_PAUSE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return undefined
-function VehicleWaypointPlaybackPause(vehicle) end
+function VehicleWaypointPlaybackPause(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5825,7 +6251,8 @@ function VehicleWaypointPlaybackPause(vehicle) end
 --@usage undefined VEHICLE_WAYPOINT_PLAYBACK_GET_IS_PAUSED(Any p0);
 --@params p0 Any
 --@return undefined
-function VehicleWaypointPlaybackGetIsPaused(p0) end
+function VehicleWaypointPlaybackGetIsPaused(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5834,7 +6261,8 @@ function VehicleWaypointPlaybackGetIsPaused(p0) end
 --@usage undefined VEHICLE_WAYPOINT_PLAYBACK_RESUME(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return undefined
-function VehicleWaypointPlaybackResume(vehicle) end
+function VehicleWaypointPlaybackResume(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5843,7 +6271,8 @@ function VehicleWaypointPlaybackResume(vehicle) end
 --@usage undefined VEHICLE_WAYPOINT_PLAYBACK_USE_DEFAULT_SPEED(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return undefined
-function VehicleWaypointPlaybackUseDefaultSpeed(vehicle) end
+function VehicleWaypointPlaybackUseDefaultSpeed(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5853,7 +6282,8 @@ function VehicleWaypointPlaybackUseDefaultSpeed(vehicle) end
 --@params vehicle Vehicle
 --@params speed float
 --@return undefined
-function VehicleWaypointPlaybackOverrideSpeed(vehicle,speed) end
+function VehicleWaypointPlaybackOverrideSpeed(vehicle, speed)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5862,7 +6292,8 @@ function VehicleWaypointPlaybackOverrideSpeed(vehicle,speed) end
 --@usage undefined GET_VEHICLE_WAYPOINT_PLAYBACK_OVERRIDE_SPEED(Any p0);
 --@params p0 Any
 --@return undefined
-function GetVehicleWaypointPlaybackOverrideSpeed(p0) end
+function GetVehicleWaypointPlaybackOverrideSpeed(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5872,7 +6303,8 @@ function GetVehicleWaypointPlaybackOverrideSpeed(p0) end
 --@params ped Ped
 --@params toggle BOOL
 --@return undefined
-function TaskSetBlockingOfNonTemporaryEvents(ped,toggle) end
+function TaskSetBlockingOfNonTemporaryEvents(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5884,7 +6316,8 @@ function TaskSetBlockingOfNonTemporaryEvents(ped,toggle) end
 --@params p2 Any
 --@params p3 BOOL
 --@return undefined
-function TaskSetStealthMovement(ped,p1,p2,p3) end
+function TaskSetStealthMovement(ped, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5896,7 +6329,8 @@ function TaskSetStealthMovement(ped,p1,p2,p3) end
 --@params p2 Any
 --@params p3 BOOL
 --@return undefined
-function TaskSetCrouchMovement(ped,p1,p2,p3) end
+function TaskSetCrouchMovement(ped, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5907,7 +6341,8 @@ function TaskSetCrouchMovement(ped,p1,p2,p3) end
 --@params state Hash
 --@params p2 BOOL
 --@return undefined
-function TaskForceMotionState(ped,state,p2) end
+function TaskForceMotionState(ped, state, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5921,7 +6356,8 @@ function TaskForceMotionState(ped,state,p2) end
 --@params animDict const char*
 --@params flags int
 --@return undefined
-function TaskMoveNetworkByName(ped,task,multiplier,p3,animDict,flags) end
+function TaskMoveNetworkByName(ped, task, multiplier, p3, animDict, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5944,7 +6380,8 @@ function TaskMoveNetworkByName(ped,task,multiplier,p3,animDict,flags) end
 --@params p13 Any
 --@params p14 Any
 --@return undefined
-function TaskMoveNetworkAdvancedByNameWithInitParams(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14) end
+function TaskMoveNetworkAdvancedByNameWithInitParams(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5953,7 +6390,8 @@ function TaskMoveNetworkAdvancedByNameWithInitParams(p0,p1,p2,p3,p4,p5,p6,p7,p8,
 --@usage undefined _0xCACC2F9D994504B7(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xcacc2f9d994504b7(p0) end
+function N_0xcacc2f9d994504b7(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5979,7 +6417,8 @@ function N_0xcacc2f9d994504b7(p0) end
 --@params p16 Any
 --@params p17 Any
 --@return undefined
-function TaskMoveNetworkAdvancedByNameWithInitParamsAttached(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17) end
+function TaskMoveNetworkAdvancedByNameWithInitParamsAttached(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5994,7 +6433,8 @@ function TaskMoveNetworkAdvancedByNameWithInitParamsAttached(p0,p1,p2,p3,p4,p5,p
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function TaskMoveNetworkByNameWithInitParams(p0,p1,p2,p3,p4,p5,p6) end
+function TaskMoveNetworkByNameWithInitParams(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6004,7 +6444,8 @@ function TaskMoveNetworkByNameWithInitParams(p0,p1,p2,p3,p4,p5,p6) end
 --@params ped Ped
 --@params name const char*
 --@return undefined
-function RequestTaskMoveNetworkStateTransition(ped,name) end
+function RequestTaskMoveNetworkStateTransition(ped, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6013,7 +6454,8 @@ function RequestTaskMoveNetworkStateTransition(ped,name) end
 --@usage undefined IS_TASK_MOVE_NETWORK_READY_FOR_TRANSITION(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsTaskMoveNetworkReadyForTransition(ped) end
+function IsTaskMoveNetworkReadyForTransition(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6022,7 +6464,8 @@ function IsTaskMoveNetworkReadyForTransition(ped) end
 --@usage undefined IS_TASK_MOVE_NETWORK_ACTIVE(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsTaskMoveNetworkActive(ped) end
+function IsTaskMoveNetworkActive(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6031,7 +6474,8 @@ function IsTaskMoveNetworkActive(ped) end
 --@usage undefined GET_TASK_MOVE_NETWORK_STATE(Ped ped);
 --@params ped Ped
 --@return undefined
-function GetTaskMoveNetworkState(ped) end
+function GetTaskMoveNetworkState(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6040,7 +6484,8 @@ function GetTaskMoveNetworkState(ped) end
 --@usage undefined _0xE9A6400D1A0E7A55(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xe9a6400d1a0e7a55(p0) end
+function N_0xe9a6400d1a0e7a55(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6051,7 +6496,8 @@ function N_0xe9a6400d1a0e7a55(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x615dc4a82e90bb48(p0,p1,p2) end
+function N_0x615dc4a82e90bb48(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6062,7 +6508,8 @@ function N_0x615dc4a82e90bb48(p0,p1,p2) end
 --@params signalName const char*
 --@params value float
 --@return undefined
-function SetTaskMoveNetworkSignalFloat(ped,signalName,value) end
+function SetTaskMoveNetworkSignalFloat(ped, signalName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6073,7 +6520,8 @@ function SetTaskMoveNetworkSignalFloat(ped,signalName,value) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x099d4a855d53b03b(p0,p1,p2) end
+function N_0x099d4a855d53b03b(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6084,7 +6532,8 @@ function N_0x099d4a855d53b03b(p0,p1,p2) end
 --@params signalName const char*
 --@params value BOOL
 --@return undefined
-function SetTaskMoveNetworkSignalBool(ped,signalName,value) end
+function SetTaskMoveNetworkSignalBool(ped, signalName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6097,7 +6546,8 @@ function SetTaskMoveNetworkSignalBool(ped,signalName,value) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0x4662bfe01938d98d(p0,p1,p2,p3,p4) end
+function N_0x4662bfe01938d98d(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6107,7 +6557,8 @@ function N_0x4662bfe01938d98d(p0,p1,p2,p3,p4) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x844ceee428ea35b0(p0,p1) end
+function N_0x844ceee428ea35b0(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6117,7 +6568,8 @@ function N_0x844ceee428ea35b0(p0,p1) end
 --@params ped Ped
 --@params eventName const char*
 --@return undefined
-function GetTaskMoveNetworkEvent(ped,eventName) end
+function GetTaskMoveNetworkEvent(ped, eventName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6127,7 +6579,8 @@ function GetTaskMoveNetworkEvent(ped,eventName) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x9585ff23c4b8ede0(p0,p1) end
+function N_0x9585ff23c4b8ede0(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6137,7 +6590,8 @@ function N_0x9585ff23c4b8ede0(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xeaf87da2be78a15b(p0,p1) end
+function N_0xeaf87da2be78a15b(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6147,7 +6601,8 @@ function N_0xeaf87da2be78a15b(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x3bbeecc5b8f35318(p0,p1) end
+function N_0x3bbeecc5b8f35318(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6156,7 +6611,8 @@ function N_0x3bbeecc5b8f35318(p0,p1) end
 --@usage undefined IS_MOVE_BLEND_RATIO_STILL(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsMoveBlendRatioStill(ped) end
+function IsMoveBlendRatioStill(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6165,7 +6621,8 @@ function IsMoveBlendRatioStill(ped) end
 --@usage undefined IS_MOVE_BLEND_RATIO_WALKING(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsMoveBlendRatioWalking(ped) end
+function IsMoveBlendRatioWalking(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6174,7 +6631,8 @@ function IsMoveBlendRatioWalking(ped) end
 --@usage undefined IS_MOVE_BLEND_RATIO_RUNNING(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsMoveBlendRatioRunning(ped) end
+function IsMoveBlendRatioRunning(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6183,7 +6641,8 @@ function IsMoveBlendRatioRunning(ped) end
 --@usage undefined IS_MOVE_BLEND_RATIO_SPRINTING(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsMoveBlendRatioSprinting(ped) end
+function IsMoveBlendRatioSprinting(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6192,7 +6651,8 @@ function IsMoveBlendRatioSprinting(ped) end
 --@usage undefined IS_PED_WALKING(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsPedWalking(ped) end
+function IsPedWalking(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6201,7 +6661,8 @@ function IsPedWalking(ped) end
 --@usage undefined IS_PED_STILL(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsPedStill(ped) end
+function IsPedStill(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6210,7 +6671,8 @@ function IsPedStill(ped) end
 --@usage undefined IS_PED_RUNNING(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsPedRunning(ped) end
+function IsPedRunning(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6219,7 +6681,8 @@ function IsPedRunning(ped) end
 --@usage undefined IS_PED_SPRINTING(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsPedSprinting(ped) end
+function IsPedSprinting(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6228,7 +6691,8 @@ function IsPedSprinting(ped) end
 --@usage undefined _0xF330A5C062B29BED(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xf330a5c062b29bed(p0) end
+function N_0xf330a5c062b29bed(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6238,7 +6702,8 @@ function N_0xf330a5c062b29bed(p0) end
 --@params ped Ped
 --@params target Ped
 --@return undefined
-function TaskArrestPed(ped,target) end
+function TaskArrestPed(ped, target)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6247,7 +6712,8 @@ function TaskArrestPed(ped,target) end
 --@usage undefined IS_PED_BEING_ARRESTED(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsPedBeingArrested(ped) end
+function IsPedBeingArrested(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6256,7 +6722,8 @@ function IsPedBeingArrested(ped) end
 --@usage undefined _0xA9CC7856D52DBD25(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xa9cc7856d52dbd25(p0) end
+function N_0xa9cc7856d52dbd25(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6265,7 +6732,8 @@ function N_0xa9cc7856d52dbd25(p0) end
 --@usage undefined _0x7981037A96E7D174(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x7981037a96e7d174(p0) end
+function N_0x7981037a96e7d174(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6274,7 +6742,8 @@ function N_0x7981037a96e7d174(p0) end
 --@usage undefined UNCUFF_PED(Ped ped);
 --@params ped Ped
 --@return undefined
-function UncuffPed(ped) end
+function UncuffPed(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6283,7 +6752,8 @@ function UncuffPed(ped) end
 --@usage undefined IS_PED_CUFFED(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsPedCuffed(ped) end
+function IsPedCuffed(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6292,7 +6762,8 @@ function IsPedCuffed(ped) end
 --@usage undefined _0xC8B29D18022EA2B7(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xc8b29d18022ea2b7(p0) end
+function N_0xc8b29d18022ea2b7(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6311,7 +6782,8 @@ function N_0xc8b29d18022ea2b7(p0) end
 --@params p9 Any
 --@params p10 Any
 --@return undefined
-function TaskDuel(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
+function TaskDuel(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6320,7 +6792,8 @@ function TaskDuel(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10) end
 --@usage undefined _0x908BB14BCE85C80E(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x908bb14bce85c80e(p0) end
+function N_0x908bb14bce85c80e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6329,7 +6802,8 @@ function N_0x908bb14bce85c80e(p0) end
 --@usage undefined _0x3FEB770D8ED9047A(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x3feb770d8ed9047a(p0) end
+function N_0x3feb770d8ed9047a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6338,7 +6812,8 @@ function N_0x3feb770d8ed9047a(p0) end
 --@usage undefined _0x1F7A9A9C38C13A56(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x1f7a9a9c38c13a56(p0) end
+function N_0x1f7a9a9c38c13a56(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6348,7 +6823,8 @@ function N_0x1f7a9a9c38c13a56(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x30146c25686b7836(p0,p1) end
+function N_0x30146c25686b7836(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6358,7 +6834,8 @@ function N_0x30146c25686b7836(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x59ae5ca4ffb4e378(p0,p1) end
+function N_0x59ae5ca4ffb4e378(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6369,7 +6846,8 @@ function N_0x59ae5ca4ffb4e378(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x748d5e0d2a1a4c61(p0,p1,p2) end
+function N_0x748d5e0d2a1a4c61(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6380,7 +6858,8 @@ function N_0x748d5e0d2a1a4c61(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xeed08a3a98b847e2(p0,p1,p2) end
+function N_0xeed08a3a98b847e2(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6390,7 +6869,8 @@ function N_0xeed08a3a98b847e2(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x651f0530083c0e5a(p0,p1) end
+function N_0x651f0530083c0e5a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6403,7 +6883,8 @@ function N_0x651f0530083c0e5a(p0,p1) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0xf0b4f759f35cc7f5(p0,p1,p2,p3,p4) end
+function N_0xf0b4f759f35cc7f5(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6412,7 +6893,8 @@ function N_0xf0b4f759f35cc7f5(p0,p1,p2,p3,p4) end
 --@usage undefined _0x9EBD34958AB6F824(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x9ebd34958ab6f824(p0) end
+function N_0x9ebd34958ab6f824(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6421,7 +6903,8 @@ function N_0x9ebd34958ab6f824(p0) end
 --@usage undefined _0x0CCFE72B43C9CF96(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x0ccfe72b43c9cf96(p0) end
+function N_0x0ccfe72b43c9cf96(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6432,7 +6915,8 @@ function N_0x0ccfe72b43c9cf96(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x10adfdf07b7dffba(p0,p1,p2) end
+function N_0x10adfdf07b7dffba(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6447,7 +6931,8 @@ function N_0x10adfdf07b7dffba(p0,p1,p2) end
 --@params p5 float
 --@params flags int
 --@return undefined
-function TaskPlaceCarriedEntityAtCoord(ped,entity,x,y,z,p5,flags) end
+function TaskPlaceCarriedEntityAtCoord(ped, entity, x, y, z, p5, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6459,7 +6944,8 @@ function TaskPlaceCarriedEntityAtCoord(ped,entity,x,y,z,p5,flags) end
 --@params mount Ped
 --@params p3 float
 --@return undefined
-function TaskPlaceCarriedEntityOnMount(ped,entity,mount,p3) end
+function TaskPlaceCarriedEntityOnMount(ped, entity, mount, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6470,7 +6956,8 @@ function TaskPlaceCarriedEntityOnMount(ped,entity,mount,p3) end
 --@params ped2 Ped
 --@params entity Entity
 --@return undefined
-function TaskDumpCarriableFromParent(ped,ped2,entity) end
+function TaskDumpCarriableFromParent(ped, ped2, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6479,7 +6966,8 @@ function TaskDumpCarriableFromParent(ped,ped2,entity) end
 --@usage undefined _0xE2CF104ADD49D4BF(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xe2cf104add49d4bf(p0) end
+function N_0xe2cf104add49d4bf(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6488,7 +6976,8 @@ function N_0xe2cf104add49d4bf(p0) end
 --@usage undefined _0x36D188AECB26094B(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x36d188aecb26094b(p0) end
+function N_0x36d188aecb26094b(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6498,7 +6987,8 @@ function N_0x36d188aecb26094b(p0) end
 --@params ped Ped
 --@params entity Entity
 --@return undefined
-function TaskPickupCarriableEntity(ped,entity) end
+function TaskPickupCarriableEntity(ped, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6508,7 +6998,8 @@ function TaskPickupCarriableEntity(ped,entity) end
 --@params ped Ped
 --@params targetPed Ped
 --@return undefined
-function TaskHogtieTargetPed(ped,targetPed) end
+function TaskHogtieTargetPed(ped, targetPed)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6518,7 +7009,8 @@ function TaskHogtieTargetPed(ped,targetPed) end
 --@params ped Ped
 --@params targetPed Ped
 --@return undefined
-function TaskCutFreeHogtiedTargetPed(ped,targetPed) end
+function TaskCutFreeHogtiedTargetPed(ped, targetPed)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6529,7 +7021,8 @@ function TaskCutFreeHogtiedTargetPed(ped,targetPed) end
 --@params targetPed Ped
 --@params p2 float
 --@return undefined
-function TaskCutFreeHogtiedTargetPed_2(ped,targetPed,p2) end
+function TaskCutFreeHogtiedTargetPed_2(ped, targetPed, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6539,7 +7032,8 @@ function TaskCutFreeHogtiedTargetPed_2(ped,targetPed,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xab591ae6b48b913e(p0,p1) end
+function N_0xab591ae6b48b913e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6548,7 +7042,8 @@ function N_0xab591ae6b48b913e(p0,p1) end
 --@usage undefined _0x4687E69D258BBE41(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x4687e69d258bbe41(p0) end
+function N_0x4687e69d258bbe41(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6557,7 +7052,8 @@ function N_0x4687e69d258bbe41(p0) end
 --@usage undefined _0x03D741CB4052E26C(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x03d741cb4052e26c(p0) end
+function N_0x03d741cb4052e26c(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6566,7 +7062,8 @@ function N_0x03d741cb4052e26c(p0) end
 --@usage undefined _0x73F0D0327BFA0812(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x73f0d0327bfa0812(p0) end
+function N_0x73f0d0327bfa0812(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6575,7 +7072,8 @@ function N_0x73f0d0327bfa0812(p0) end
 --@usage undefined _0x5E5D96BE25E9DF68(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x5e5d96be25e9df68(p0) end
+function N_0x5e5d96be25e9df68(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6591,7 +7089,8 @@ function N_0x5e5d96be25e9df68(p0) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function N_0x5b4bbe80ad5972dc(p0,p1,p2,p3,p4,p5,p6,p7) end
+function N_0x5b4bbe80ad5972dc(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6601,7 +7100,8 @@ function N_0x5b4bbe80ad5972dc(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x5758b1ee0c3fd4ac(p0,p1) end
+function N_0x5758b1ee0c3fd4ac(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6611,7 +7111,8 @@ function N_0x5758b1ee0c3fd4ac(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x96c6ed22fb742c3e(p0,p1) end
+function N_0x96c6ed22fb742c3e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6621,7 +7122,8 @@ function N_0x96c6ed22fb742c3e(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xdf56a2b50c04dea4(p0,p1) end
+function N_0xdf56a2b50c04dea4(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6631,7 +7133,8 @@ function N_0xdf56a2b50c04dea4(p0,p1) end
 --@params ped Ped
 --@params entity Entity
 --@return undefined
-function TaskLootEntity(ped,entity) end
+function TaskLootEntity(ped, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6641,7 +7144,8 @@ function TaskLootEntity(ped,entity) end
 --@params ped Ped
 --@params vehicle Vehicle
 --@return undefined
-function TaskBreakVehicleDoorLock(ped,vehicle) end
+function TaskBreakVehicleDoorLock(ped, vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6655,7 +7159,8 @@ function TaskBreakVehicleDoorLock(ped,vehicle) end
 --@params p4 int
 --@params p5 float
 --@return undefined
-function TaskLootNearestEntity(ped,x,y,z,p4,p5) end
+function TaskLootNearestEntity(ped, x, y, z, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6665,7 +7170,8 @@ function TaskLootNearestEntity(ped,x,y,z,p4,p5) end
 --@params ped Ped
 --@params targetPed Ped
 --@return undefined
-function TaskLassoPed(ped,targetPed) end
+function TaskLassoPed(ped, targetPed)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6674,7 +7180,8 @@ function TaskLassoPed(ped,targetPed) end
 --@usage undefined TASK_HOGTIEABLE(Ped ped);
 --@params ped Ped
 --@return undefined
-function TaskHogtieable(ped) end
+function TaskHogtieable(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6688,7 +7195,8 @@ function TaskHogtieable(ped) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0x79559bad83ccd038(p0,p1,p2,p3,p4,p5) end
+function N_0x79559bad83ccd038(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6701,7 +7209,8 @@ function N_0x79559bad83ccd038(p0,p1,p2,p3,p4,p5) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0x722d6a49200174fe(p0,p1,p2,p3,p4) end
+function N_0x722d6a49200174fe(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6710,7 +7219,8 @@ function N_0x722d6a49200174fe(p0,p1,p2,p3,p4) end
 --@usage undefined _0x67BFCED22909834D(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x67bfced22909834d(p0) end
+function N_0x67bfced22909834d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6719,7 +7229,8 @@ function N_0x67bfced22909834d(p0) end
 --@usage undefined _0x78B4567E18B54480(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x78b4567e18b54480(p0) end
+function N_0x78b4567e18b54480(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6729,7 +7240,8 @@ function N_0x78b4567e18b54480(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x8e1dde26d270cc5e(p0,p1) end
+function N_0x8e1dde26d270cc5e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6738,7 +7250,8 @@ function N_0x8e1dde26d270cc5e(p0,p1) end
 --@usage undefined _0xE47DD64B9F02677D(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xe47dd64b9f02677d(p0) end
+function N_0xe47dd64b9f02677d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6748,7 +7261,8 @@ function N_0xe47dd64b9f02677d(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xa21aa2f0c2180125(p0,p1) end
+function N_0xa21aa2f0c2180125(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6758,7 +7272,8 @@ function N_0xa21aa2f0c2180125(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xa6a76d666a281f2d(p0,p1) end
+function N_0xa6a76d666a281f2d(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6767,7 +7282,8 @@ function N_0xa6a76d666a281f2d(p0,p1) end
 --@usage undefined _0xFF745B0346E19E2C(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xff745b0346e19e2c(p0) end
+function N_0xff745b0346e19e2c(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6776,7 +7292,8 @@ function N_0xff745b0346e19e2c(p0) end
 --@usage undefined _0xB8F52A3F84A7CC59(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xb8f52a3f84a7cc59(p0) end
+function N_0xb8f52a3f84a7cc59(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6786,7 +7303,8 @@ function N_0xb8f52a3f84a7cc59(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x816a3acd265e2297(p0,p1) end
+function N_0x816a3acd265e2297(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6795,7 +7313,8 @@ function N_0x816a3acd265e2297(p0,p1) end
 --@usage undefined _0x6AFDA2264925BD11(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6afda2264925bd11(p0) end
+function N_0x6afda2264925bd11(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6804,7 +7323,8 @@ function N_0x6afda2264925bd11(p0) end
 --@usage undefined _0x4E806A395D43A458(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x4e806a395d43a458(p0) end
+function N_0x4e806a395d43a458(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6815,7 +7335,8 @@ function N_0x4e806a395d43a458(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x545bf19f86e80f11(p0,p1,p2) end
+function N_0x545bf19f86e80f11(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6824,7 +7345,8 @@ function N_0x545bf19f86e80f11(p0,p1,p2) end
 --@usage undefined _0x11CD066F54DA0133(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x11cd066f54da0133(p0) end
+function N_0x11cd066f54da0133(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6834,7 +7356,8 @@ function N_0x11cd066f54da0133(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x559a6f8c5133b4ee(p0,p1) end
+function N_0x559a6f8c5133b4ee(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6844,7 +7367,8 @@ function N_0x559a6f8c5133b4ee(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x9addbb9242179d56(p0,p1) end
+function N_0x9addbb9242179d56(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6853,7 +7377,8 @@ function N_0x9addbb9242179d56(p0,p1) end
 --@usage undefined _0x4ECCC2815CA79AE2(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x4eccc2815ca79ae2(p0) end
+function N_0x4eccc2815ca79ae2(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6864,7 +7389,8 @@ function N_0x4eccc2815ca79ae2(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x1bf9d36a5eaffbae(p0,p1,p2) end
+function N_0x1bf9d36a5eaffbae(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6874,7 +7400,8 @@ function N_0x1bf9d36a5eaffbae(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xaa0af6025160243a(p0,p1) end
+function N_0xaa0af6025160243a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6883,7 +7410,8 @@ function N_0xaa0af6025160243a(p0,p1) end
 --@usage undefined _0x6AFD84AEAA3EA538(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6afd84aeaa3ea538(p0) end
+function N_0x6afd84aeaa3ea538(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6893,7 +7421,8 @@ function N_0x6afd84aeaa3ea538(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xbd1c3c0f271c39d3(p0,p1) end
+function N_0xbd1c3c0f271c39d3(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6903,7 +7432,8 @@ function N_0xbd1c3c0f271c39d3(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x1ecf56c040fd839c(p0,p1) end
+function N_0x1ecf56c040fd839c(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6914,7 +7444,8 @@ function N_0x1ecf56c040fd839c(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xf40a109b4b79a848(p0,p1,p2) end
+function N_0xf40a109b4b79a848(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6923,7 +7454,8 @@ function N_0xf40a109b4b79a848(p0,p1,p2) end
 --@usage undefined _0xEFC4303DDC6E60D3(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xefc4303ddc6e60d3(p0) end
+function N_0xefc4303ddc6e60d3(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6932,7 +7464,8 @@ function N_0xefc4303ddc6e60d3(p0) end
 --@usage undefined _0xAC5045AB7F1A34FD(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xac5045ab7f1a34fd(p0) end
+function N_0xac5045ab7f1a34fd(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6941,7 +7474,8 @@ function N_0xac5045ab7f1a34fd(p0) end
 --@usage undefined _0xED1F514AF4732258(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xed1f514af4732258(p0) end
+function N_0xed1f514af4732258(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6953,7 +7487,8 @@ function N_0xed1f514af4732258(p0) end
 --@params p2 float
 --@params p3 int
 --@return undefined
-function TaskTurnToFaceClosestPed(ped,p1,p2,p3) end
+function TaskTurnToFaceClosestPed(ped, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6964,7 +7499,8 @@ function TaskTurnToFaceClosestPed(ped,p1,p2,p3) end
 --@params targetPed Ped
 --@params p2 int
 --@return undefined
-function TaskConfront(ped,targetPed,p2) end
+function TaskConfront(ped, targetPed, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6974,7 +7510,8 @@ function TaskConfront(ped,targetPed,p2) end
 --@params ped Ped
 --@params p1 BOOL
 --@return undefined
-function TaskPolice(ped,p1) end
+function TaskPolice(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6990,7 +7527,8 @@ function TaskPolice(ped,p1) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TaskMelee(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskMelee(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7005,7 +7543,8 @@ function TaskMelee(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function TaskGrapple(p0,p1,p2,p3,p4,p5,p6) end
+function TaskGrapple(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7018,7 +7557,8 @@ function TaskGrapple(p0,p1,p2,p3,p4,p5,p6) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function TaskIntimidated(p0,p1,p2,p3,p4) end
+function TaskIntimidated(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7035,7 +7575,8 @@ function TaskIntimidated(p0,p1,p2,p3,p4) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function TaskIntimidated_2(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function TaskIntimidated_2(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7046,7 +7587,8 @@ function TaskIntimidated_2(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x41d1331afad5a091(p0,p1,p2) end
+function N_0x41d1331afad5a091(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7058,7 +7600,8 @@ function N_0x41d1331afad5a091(p0,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x801bd27403f3cba0(p0,p1,p2,p3) end
+function N_0x801bd27403f3cba0(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7068,7 +7611,8 @@ function N_0x801bd27403f3cba0(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xb2f47a1afdfcc595(p0,p1) end
+function N_0xb2f47a1afdfcc595(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7078,7 +7622,8 @@ function N_0xb2f47a1afdfcc595(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x2948235db2058e99(p0,p1) end
+function N_0x2948235db2058e99(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7090,7 +7635,8 @@ function N_0x2948235db2058e99(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x0fe797dd9f70dfa6(p0,p1,p2,p3) end
+function N_0x0fe797dd9f70dfa6(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7099,7 +7645,8 @@ function N_0x0fe797dd9f70dfa6(p0,p1,p2,p3) end
 --@usage undefined TASK_PERSISTENT_CHARACTER(Any p0);
 --@params p0 Any
 --@return undefined
-function TaskPersistentCharacter(p0) end
+function TaskPersistentCharacter(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7108,7 +7655,8 @@ function TaskPersistentCharacter(p0) end
 --@usage undefined _0xFC7F71CF49F70B6B(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xfc7f71cf49f70b6b(p0) end
+function N_0xfc7f71cf49f70b6b(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7118,7 +7666,8 @@ function N_0xfc7f71cf49f70b6b(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xe01f55b2896f6b37(p0,p1) end
+function N_0xe01f55b2896f6b37(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7127,7 +7676,8 @@ function N_0xe01f55b2896f6b37(p0,p1) end
 --@usage undefined _0xE62754D09354F6CF(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xe62754d09354f6cf(p0) end
+function N_0xe62754d09354f6cf(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7137,7 +7687,8 @@ function N_0xe62754d09354f6cf(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x4ba972d0e5ad8122(p0,p1) end
+function N_0x4ba972d0e5ad8122(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7147,7 +7698,8 @@ function N_0x4ba972d0e5ad8122(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xf3735acd11acd500(p0,p1) end
+function N_0xf3735acd11acd500(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7157,7 +7709,8 @@ function N_0xf3735acd11acd500(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xf3735acd11acd501(p0,p1) end
+function N_0xf3735acd11acd501(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7168,7 +7721,8 @@ function N_0xf3735acd11acd501(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function TaskSwapFishingBait(p0,p1,p2) end
+function TaskSwapFishingBait(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7177,7 +7731,8 @@ function TaskSwapFishingBait(p0,p1,p2) end
 --@usage undefined _0x1F298C7BD30D1240(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x1f298c7bd30d1240(p0) end
+function N_0x1f298c7bd30d1240(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7189,7 +7744,8 @@ function N_0x1f298c7bd30d1240(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x9b0c7fa063e67629(p0,p1,p2,p3) end
+function N_0x9b0c7fa063e67629(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7199,7 +7755,8 @@ function N_0x9b0c7fa063e67629(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x1a52076d26e09004(p0,p1) end
+function N_0x1a52076d26e09004(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7209,7 +7766,8 @@ function N_0x1a52076d26e09004(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xce71c2f9baa3f975(p0,p1) end
+function N_0xce71c2f9baa3f975(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7218,7 +7776,8 @@ function N_0xce71c2f9baa3f975(p0,p1) end
 --@usage undefined _0xB520DBDA7FCF573F(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xb520dbda7fcf573f(p0) end
+function N_0xb520dbda7fcf573f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7228,7 +7787,8 @@ function N_0xb520dbda7fcf573f(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x31bb338f64d5c861(p0,p1) end
+function N_0x31bb338f64d5c861(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7243,7 +7803,8 @@ function N_0x31bb338f64d5c861(p0,p1) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function N_0x517d01bf27b682d1(p0,p1,p2,p3,p4,p5,p6) end
+function N_0x517d01bf27b682d1(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7252,7 +7813,8 @@ function N_0x517d01bf27b682d1(p0,p1,p2,p3,p4,p5,p6) end
 --@usage undefined _0x88FD60D846D9CD63(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x88fd60d846d9cd63(p0) end
+function N_0x88fd60d846d9cd63(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7262,7 +7824,8 @@ function N_0x88fd60d846d9cd63(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x9050df2c53801208(p0,p1) end
+function N_0x9050df2c53801208(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7271,7 +7834,8 @@ function N_0x9050df2c53801208(p0,p1) end
 --@usage undefined _0x22CDBF317C40A122(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x22cdbf317c40a122(p0) end
+function N_0x22cdbf317c40a122(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7280,7 +7844,8 @@ function N_0x22cdbf317c40a122(p0) end
 --@usage undefined _0x5952DFA38FA529FE();
 
 --@return undefined
-function N_0x5952dfa38fa529fe() end
+function N_0x5952dfa38fa529fe()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7296,7 +7861,8 @@ function N_0x5952dfa38fa529fe() end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TaskEmote(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskEmote(p0,p1, p2, p3, p4, p5,p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7312,7 +7878,8 @@ function TaskEmote(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TaskEmote_2(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TaskEmote_2(p0,p1, p2, p3, p4, p5,p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7330,7 +7897,8 @@ function N_0x6a1af481407bf6e9(p0) end
 --@usage undefined _0xBDFEEB7600BCD938(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xbdfeeb7600bcd938(p0) end
+function N_0xbdfeeb7600bcd938(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7339,7 +7907,8 @@ function N_0xbdfeeb7600bcd938(p0) end
 --@usage undefined _0xEC516FE805D2CB2D(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xec516fe805d2cb2d(p0) end
+function N_0xec516fe805d2cb2d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7349,13 +7918,15 @@ function N_0xec516fe805d2cb2d(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x59aea4dc640814b9(p0,p1) end
+function N_0x59aea4dc640814b9(p0, p1)
+    end
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule TASK
---@see _0x11C7CE1AE38911B5
---@usage undefined _0x11C7CE1AE38911B5(Any p0);
---@params p0 Any
---@return undefined
-function N_0x11c7ce1ae38911b5(p0) end
+    --@description This natives does not have an official description.
+    --@module NATIVE
+    --@submodule TASK
+    --@see _0x11C7CE1AE38911B5
+    --@usage undefined _0x11C7CE1AE38911B5(Any p0);
+    --@params p0 Any
+    --@return undefined
+    function N_0x11c7ce1ae38911b5(p0)
+    end

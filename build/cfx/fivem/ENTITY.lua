@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule ENTITY
@@ -11,7 +10,8 @@
 --@params p4 BOOL
 --@params p5 BOOL
 --@return void
-function AttachEntityBoneToEntityBone(entity1,entity2,entityBone,entityBone2,p4,p5) end
+function AttachEntityBoneToEntityBone(entity1, entity2, entityBone, entityBone2, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -34,7 +34,8 @@ function AttachEntityBoneToEntityBone(entity1,entity2,entityBone,entityBone2,p4,
 --@params vertexIndex int
 --@params fixedRot BOOL
 --@return void
-function AttachEntityToEntity(entity1,entity2,boneIndex,xPos,yPos,zPos,xRot,yRot,zRot,p9,useSoftPinning,collision,isPed,vertexIndex,fixedRot) end
+function AttachEntityToEntity(entity1, entity2, boneIndex, xPos, yPos, zPos, xRot, yRot, zRot, p9, useSoftPinning, collision, isPed, vertexIndex, fixedRot)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -43,7 +44,8 @@ function AttachEntityToEntity(entity1,entity2,boneIndex,xPos,yPos,zPos,xRot,yRot
 --@usage Any CLEAR_ENTITY_LAST_DAMAGE_ENTITY(Entity entity);
 --@params entity Entity
 --@return Any
-function ClearEntityLastDamageEntity(entity) end
+function ClearEntityLastDamageEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -65,7 +67,8 @@ function ClearEntityLastDamageEntity(entity) end
 --@params p12 BOOL
 --@params p13 BOOL
 --@return void
-function ApplyForceToEntity(entity,forceType,x,y,z,offX,offY,offZ,boneIndex,isDirectionRel,ignoreUpVec,isForceRel,p12,p13) end
+function ApplyForceToEntity(entity, forceType, x, y, z, offX, offY, offZ, boneIndex, isDirectionRel, ignoreUpVec, isForceRel, p12, p13)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -79,7 +82,8 @@ function ApplyForceToEntity(entity,forceType,x,y,z,offX,offY,offZ,boneIndex,isDi
 --@params p4 BOOL
 --@params p5 BOOL
 --@return void
-function AttachEntityBoneToEntityBonePhysically(entity1,entity2,entityBone,entityBone2,p4,p5) end
+function AttachEntityBoneToEntityBonePhysically(entity1, entity2, entityBone, entityBone2, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -96,7 +100,8 @@ function AttachEntityBoneToEntityBonePhysically(entity1,entity2,entityBone,entit
 --@params isForceRel BOOL
 --@params p8 BOOL
 --@return void
-function ApplyForceToEntityCenterOfMass(entity,forceType,x,y,z,p5,isDirectionRel,isForceRel,p8) end
+function ApplyForceToEntityCenterOfMass(entity, forceType, x, y, z, p5, isDirectionRel, isForceRel, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -110,7 +115,8 @@ function ApplyForceToEntityCenterOfMass(entity,forceType,x,y,z,p5,isDirectionRel
 --@params model Hash
 --@params p5 BOOL
 --@return void
-function CreateModelHide(x,y,z,radius,model,p5) end
+function CreateModelHide(x, y, z, radius, model, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -137,7 +143,8 @@ function CreateModelHide(x,y,z,radius,model,p5) end
 --@params teleport BOOL
 --@params p18 int
 --@return void
-function AttachEntityToEntityPhysically(entity1,entity2,boneIndex1,boneIndex2,xPos1,yPos1,zPos1,xPos2,yPos2,zPos2,xRot,yRot,zRot,breakForce,fixedRot,p15,collision,teleport,p18) end
+function AttachEntityToEntityPhysically(entity1, entity2, boneIndex1, boneIndex2, xPos1, yPos1, zPos1, xPos2, yPos2, zPos2, xRot, yRot, zRot, breakForce, fixedRot, p15, collision, teleport, p18)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -151,7 +158,8 @@ function AttachEntityToEntityPhysically(entity1,entity2,boneIndex1,boneIndex2,xP
 --@params model Hash
 --@params p5 BOOL
 --@return void
-function CreateModelHideExcludingScriptObjects(x,y,z,radius,model,p5) end
+function CreateModelHideExcludingScriptObjects(x, y, z, radius, model, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -160,7 +168,8 @@ function CreateModelHideExcludingScriptObjects(x,y,z,radius,model,p5) end
 --@usage void DELETE_ENTITY(Entity* entity);
 --@params entity Entity*
 --@return void
-function DeleteEntity(entity) end
+function DeleteEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -174,7 +183,8 @@ function DeleteEntity(entity) end
 --@params modelHash Hash
 --@params p5 BOOL
 --@return void
-function CreateForcedObject(x,y,z,p3,modelHash,p5) end
+function CreateForcedObject(x, y, z, p3, modelHash, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -189,7 +199,8 @@ function CreateForcedObject(x,y,z,p3,modelHash,p5) end
 --@params newModel Hash
 --@params p6 BOOL
 --@return void
-function CreateModelSwap(x,y,z,radius,originalModel,newModel,p6) end
+function CreateModelSwap(x, y, z, radius, originalModel, newModel, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -198,7 +209,8 @@ function CreateModelSwap(x,y,z,radius,originalModel,newModel,p6) end
 --@usage BOOL DOES_ENTITY_EXIST(Entity entity);
 --@params entity Entity
 --@return BOOL
-function DoesEntityExist(entity) end
+function DoesEntityExist(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -208,7 +220,8 @@ function DoesEntityExist(entity) end
 --@params entity Entity
 --@params p2 BOOL
 --@return BOOL
-function DoesEntityBelongToThisScript(entity,p2) end
+function DoesEntityBelongToThisScript(entity, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -217,7 +230,8 @@ function DoesEntityBelongToThisScript(entity,p2) end
 --@usage BOOL DOES_ENTITY_HAVE_DRAWABLE(Entity entity);
 --@params entity Entity
 --@return BOOL
-function DoesEntityHaveDrawable(entity) end
+function DoesEntityHaveDrawable(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -228,7 +242,8 @@ function DoesEntityHaveDrawable(entity) end
 --@params p1 BOOL
 --@params collision BOOL
 --@return void
-function DetachEntity(entity,p1,collision) end
+function DetachEntity(entity, p1, collision)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -237,7 +252,8 @@ function DetachEntity(entity,p1,collision) end
 --@usage void FORCE_ENTITY_AI_AND_ANIMATION_UPDATE(Entity entity);
 --@params entity Entity
 --@return void
-function ForceEntityAiAndAnimationUpdate(entity) end
+function ForceEntityAiAndAnimationUpdate(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -250,7 +266,8 @@ function ForceEntityAiAndAnimationUpdate(entity) end
 --@params p3 Any*
 --@params p4 Any*
 --@return BOOL
-function FindAnimEventPhase(animDictionary,animName,p2,p3,p4) end
+function FindAnimEventPhase(animDictionary, animName, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -259,7 +276,8 @@ function FindAnimEventPhase(animDictionary,animName,p2,p3,p4) end
 --@usage void _ENABLE_ENTITY_UNK(Entity entity);
 --@params entity Entity
 --@return void
-function EnableEntityUnk(entity) end
+function EnableEntityUnk(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -268,7 +286,8 @@ function EnableEntityUnk(entity) end
 --@usage BOOL DOES_ENTITY_HAVE_PHYSICS(Entity entity);
 --@params entity Entity
 --@return BOOL
-function DoesEntityHavePhysics(entity) end
+function DoesEntityHavePhysics(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -278,7 +297,8 @@ function DoesEntityHavePhysics(entity) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function FreezeEntityPosition(entity,toggle) end
+function FreezeEntityPosition(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -287,7 +307,8 @@ function FreezeEntityPosition(entity,toggle) end
 --@usage Vector3 GET_COLLISION_NORMAL_OF_LAST_HIT_FOR_ENTITY(Entity entity);
 --@params entity Entity
 --@return Vector3
-function GetCollisionNormalOfLastHitForEntity(entity) end
+function GetCollisionNormalOfLastHitForEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -298,7 +319,8 @@ function GetCollisionNormalOfLastHitForEntity(entity) end
 --@params animDict char*
 --@params animName char*
 --@return float
-function GetEntityAnimCurrentTime(entity,animDict,animName) end
+function GetEntityAnimCurrentTime(entity, animDict, animName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -307,7 +329,8 @@ function GetEntityAnimCurrentTime(entity,animDict,animName) end
 --@usage Entity GET_ENTITY_ATTACHED_TO(Entity entity);
 --@params entity Entity
 --@return Entity
-function GetEntityAttachedTo(entity) end
+function GetEntityAttachedTo(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -317,7 +340,8 @@ function GetEntityAttachedTo(entity) end
 --@params animDict char*
 --@params animName char*
 --@return float
-function GetAnimDuration(animDict,animName) end
+function GetAnimDuration(animDict, animName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -328,7 +352,8 @@ function GetAnimDuration(animDict,animName) end
 --@params animDict char*
 --@params animName char*
 --@return float
-function GetEntityAnimTotalTime(entity,animDict,animName) end
+function GetEntityAnimTotalTime(entity, animDict, animName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -337,7 +362,8 @@ function GetEntityAnimTotalTime(entity,animDict,animName) end
 --@usage BOOL _GET_ENTITY_CAN_BE_DAMAGED(Entity entity);
 --@params entity Entity
 --@return BOOL
-function GetEntityCanBeDamaged(entity) end
+function GetEntityCanBeDamaged(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -347,7 +373,8 @@ function GetEntityCanBeDamaged(entity) end
 --@params entity Entity
 --@params boneName char*
 --@return int
-function GetEntityBoneIndexByName(entity,boneName) end
+function GetEntityBoneIndexByName(entity, boneName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -356,7 +383,8 @@ function GetEntityBoneIndexByName(entity,boneName) end
 --@usage int GET_ENTITY_ALPHA(Entity entity);
 --@params entity Entity
 --@return int
-function GetEntityAlpha(entity) end
+function GetEntityAlpha(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -365,7 +393,8 @@ function GetEntityAlpha(entity) end
 --@usage BOOL GET_ENTITY_COLLISION_DISABLED(Entity entity);
 --@params entity Entity
 --@return BOOL
-function GetEntityCollisionDisabled(entity) end
+function GetEntityCollisionDisabled(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -375,7 +404,8 @@ function GetEntityCollisionDisabled(entity) end
 --@params entity Entity
 --@params alive BOOL
 --@return Vector3
-function GetEntityCoords(entity,alive) end
+function GetEntityCoords(entity, alive)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -384,7 +414,8 @@ function GetEntityCoords(entity,alive) end
 --@usage float GET_ENTITY_FORWARD_Y(Entity entity);
 --@params entity Entity
 --@return float
-function GetEntityForwardY(entity) end
+function GetEntityForwardY(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -393,7 +424,8 @@ function GetEntityForwardY(entity) end
 --@usage Vector3 GET_ENTITY_FORWARD_VECTOR(Entity entity);
 --@params entity Entity
 --@return Vector3
-function GetEntityForwardVector(entity) end
+function GetEntityForwardVector(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -402,7 +434,8 @@ function GetEntityForwardVector(entity) end
 --@usage int GET_ENTITY_HEALTH(Entity entity);
 --@params entity Entity
 --@return int
-function GetEntityHealth(entity) end
+function GetEntityHealth(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -411,7 +444,8 @@ function GetEntityHealth(entity) end
 --@usage float GET_ENTITY_FORWARD_X(Entity entity);
 --@params entity Entity
 --@return float
-function GetEntityForwardX(entity) end
+function GetEntityForwardX(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -420,7 +454,8 @@ function GetEntityForwardX(entity) end
 --@usage float GET_ENTITY_HEIGHT_ABOVE_GROUND(Entity entity);
 --@params entity Entity
 --@return float
-function GetEntityHeightAboveGround(entity) end
+function GetEntityHeightAboveGround(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -429,7 +464,8 @@ function GetEntityHeightAboveGround(entity) end
 --@usage float GET_ENTITY_HEADING(Entity entity);
 --@params entity Entity
 --@return float
-function GetEntityHeading(entity) end
+function GetEntityHeading(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -442,7 +478,8 @@ function GetEntityHeading(entity) end
 --@params upVector Vector3*
 --@params position Vector3*
 --@return void
-function GetEntityMatrix(entity,rightVector,forwardVector,upVector,position) end
+function GetEntityMatrix(entity, rightVector, forwardVector, upVector, position)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -451,7 +488,8 @@ function GetEntityMatrix(entity,rightVector,forwardVector,upVector,position) end
 --@usage int GET_ENTITY_LOD_DIST(Entity entity);
 --@params entity Entity
 --@return int
-function GetEntityLodDist(entity) end
+function GetEntityLodDist(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -465,7 +503,8 @@ function GetEntityLodDist(entity) end
 --@params atTop BOOL
 --@params inWorldCoords BOOL
 --@return float
-function GetEntityHeight(entity,X,Y,Z,atTop,inWorldCoords) end
+function GetEntityHeight(entity, X, Y, Z, atTop, inWorldCoords)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -474,7 +513,8 @@ function GetEntityHeight(entity,X,Y,Z,atTop,inWorldCoords) end
 --@usage int GET_ENTITY_MAX_HEALTH(Entity entity);
 --@params entity Entity
 --@return int
-function GetEntityMaxHealth(entity) end
+function GetEntityMaxHealth(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -484,7 +524,8 @@ function GetEntityMaxHealth(entity) end
 --@params entity Entity
 --@params modelHash Hash
 --@return Entity
-function GetEntityPickup(entity,modelHash) end
+function GetEntityPickup(entity, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -501,7 +542,8 @@ function GetEntityPickup(entity,modelHash) end
 --@params p7 BOOL*
 --@params drownProof BOOL*
 --@return BOOL
-function GetEntityProofs(entity,bulletProof,fireProof,explosionProof,collisionProof,meleeProof,p6,p7,drownProof) end
+function GetEntityProofs(entity, bulletProof, fireProof, explosionProof, collisionProof, meleeProof, p6, p7, drownProof)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -514,7 +556,8 @@ function GetEntityProofs(entity,bulletProof,fireProof,explosionProof,collisionPr
 --@params z float*
 --@params w float*
 --@return void
-function GetEntityQuaternion(entity,x,y,z,w) end
+function GetEntityQuaternion(entity, x, y, z, w)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -523,7 +566,8 @@ function GetEntityQuaternion(entity,x,y,z,w) end
 --@usage Hash GET_ENTITY_MODEL(Entity entity);
 --@params entity Entity
 --@return Hash
-function GetEntityModel(entity) end
+function GetEntityModel(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -532,7 +576,8 @@ function GetEntityModel(entity) end
 --@usage float _GET_ENTITY_PHYSICS_HEADING(Entity entity);
 --@params entity Entity
 --@return float
-function GetEntityPhysicsHeading(entity) end
+function GetEntityPhysicsHeading(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -542,7 +587,8 @@ function GetEntityPhysicsHeading(entity) end
 --@params entity Entity
 --@params rotationOrder int
 --@return Vector3
-function GetEntityRotation(entity,rotationOrder) end
+function GetEntityRotation(entity, rotationOrder)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -551,7 +597,8 @@ function GetEntityRotation(entity,rotationOrder) end
 --@usage int GET_ENTITY_POPULATION_TYPE(Entity entity);
 --@params entity Entity
 --@return int
-function GetEntityPopulationType(entity) end
+function GetEntityPopulationType(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -561,7 +608,8 @@ function GetEntityPopulationType(entity) end
 --@params entity Entity
 --@params script ScrHandle*
 --@return char*
-function GetEntityScript(entity,script) end
+function GetEntityScript(entity, script)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -571,7 +619,8 @@ function GetEntityScript(entity,script) end
 --@params entity Entity
 --@params relative BOOL
 --@return Vector3
-function GetEntitySpeedVector(entity,relative) end
+function GetEntitySpeedVector(entity, relative)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -580,7 +629,8 @@ function GetEntitySpeedVector(entity,relative) end
 --@usage float GET_ENTITY_ROLL(Entity entity);
 --@params entity Entity
 --@return float
-function GetEntityRoll(entity) end
+function GetEntityRoll(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -589,7 +639,8 @@ function GetEntityRoll(entity) end
 --@usage float GET_ENTITY_PITCH(Entity entity);
 --@params entity Entity
 --@return float
-function GetEntityPitch(entity) end
+function GetEntityPitch(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -598,7 +649,8 @@ function GetEntityPitch(entity) end
 --@usage Vector3 GET_ENTITY_ROTATION_VELOCITY(Entity entity);
 --@params entity Entity
 --@return Vector3
-function GetEntityRotationVelocity(entity) end
+function GetEntityRotationVelocity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -607,7 +659,8 @@ function GetEntityRotationVelocity(entity) end
 --@usage float GET_ENTITY_SPEED(Entity entity);
 --@params entity Entity
 --@return float
-function GetEntitySpeed(entity) end
+function GetEntitySpeed(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -616,7 +669,8 @@ function GetEntitySpeed(entity) end
 --@usage float GET_ENTITY_UPRIGHT_VALUE(Entity entity);
 --@params entity Entity
 --@return float
-function GetEntityUprightValue(entity) end
+function GetEntityUprightValue(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -625,7 +679,8 @@ function GetEntityUprightValue(entity) end
 --@usage Hash GET_LAST_MATERIAL_HIT_BY_ENTITY(Entity entity);
 --@params entity Entity
 --@return Hash
-function GetLastMaterialHitByEntity(entity) end
+function GetLastMaterialHitByEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -634,7 +689,8 @@ function GetLastMaterialHitByEntity(entity) end
 --@usage int GET_ENTITY_TYPE(Entity entity);
 --@params entity Entity
 --@return int
-function GetEntityType(entity) end
+function GetEntityType(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -643,7 +699,8 @@ function GetEntityType(entity) end
 --@usage Player GET_NEAREST_PLAYER_TO_ENTITY(Entity entity);
 --@params entity Entity
 --@return Player
-function GetNearestPlayerToEntity(entity) end
+function GetNearestPlayerToEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -655,7 +712,8 @@ function GetNearestPlayerToEntity(entity) end
 --@params offsetY float
 --@params offsetZ float
 --@return Vector3
-function GetOffsetFromEntityInWorldCoords(entity,offsetX,offsetY,offsetZ) end
+function GetOffsetFromEntityInWorldCoords(entity, offsetX, offsetY, offsetZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -664,7 +722,8 @@ function GetOffsetFromEntityInWorldCoords(entity,offsetX,offsetY,offsetZ) end
 --@usage Vector3 GET_ENTITY_VELOCITY(Entity entity);
 --@params entity Entity
 --@return Vector3
-function GetEntityVelocity(entity) end
+function GetEntityVelocity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -673,7 +732,8 @@ function GetEntityVelocity(entity) end
 --@usage float GET_ENTITY_SUBMERGED_LEVEL(Entity entity);
 --@params entity Entity
 --@return float
-function GetEntitySubmergedLevel(entity) end
+function GetEntitySubmergedLevel(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -683,7 +743,8 @@ function GetEntitySubmergedLevel(entity) end
 --@params entity Entity
 --@params team int
 --@return Player
-function GetNearestPlayerToEntityOnTeam(entity,team) end
+function GetNearestPlayerToEntityOnTeam(entity, team)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -695,7 +756,8 @@ function GetNearestPlayerToEntityOnTeam(entity,team) end
 --@params posY float
 --@params posZ float
 --@return Vector3
-function GetOffsetFromEntityGivenWorldCoords(entity,posX,posY,posZ) end
+function GetOffsetFromEntityGivenWorldCoords(entity, posX, posY, posZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -705,7 +767,8 @@ function GetOffsetFromEntityGivenWorldCoords(entity,posX,posY,posZ) end
 --@params entity Entity
 --@params actionHash Hash
 --@return BOOL
-function HasAnimEventFired(entity,actionHash) end
+function HasAnimEventFired(entity, actionHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -715,7 +778,8 @@ function HasAnimEventFired(entity,actionHash) end
 --@params entity Entity
 --@params boneIndex int
 --@return Vector3
-function GetWorldPositionOfEntityBone_2(entity,boneIndex) end
+function GetWorldPositionOfEntityBone_2(entity, boneIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -724,7 +788,8 @@ function GetWorldPositionOfEntityBone_2(entity,boneIndex) end
 --@usage BOOL HAS_COLLISION_LOADED_AROUND_ENTITY(Entity entity);
 --@params entity Entity
 --@return BOOL
-function HasCollisionLoadedAroundEntity(entity) end
+function HasCollisionLoadedAroundEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -733,7 +798,8 @@ function HasCollisionLoadedAroundEntity(entity) end
 --@usage Vehicle GET_VEHICLE_INDEX_FROM_ENTITY_INDEX(Entity entity);
 --@params entity Entity
 --@return Vehicle
-function GetVehicleIndexFromEntityIndex(entity) end
+function GetVehicleIndexFromEntityIndex(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -742,7 +808,8 @@ function GetVehicleIndexFromEntityIndex(entity) end
 --@usage BOOL HAS_ENTITY_BEEN_DAMAGED_BY_ANY_OBJECT(Entity entity);
 --@params entity Entity
 --@return BOOL
-function HasEntityBeenDamagedByAnyObject(entity) end
+function HasEntityBeenDamagedByAnyObject(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -752,7 +819,8 @@ function HasEntityBeenDamagedByAnyObject(entity) end
 --@params entity Entity
 --@params boneIndex int
 --@return Vector3
-function GetWorldPositionOfEntityBone(entity,boneIndex) end
+function GetWorldPositionOfEntityBone(entity, boneIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -762,7 +830,8 @@ function GetWorldPositionOfEntityBone(entity,boneIndex) end
 --@params entity Entity
 --@params boneIndex int
 --@return Vector3
-function GetWorldRotationOfEntityBone(entity,boneIndex) end
+function GetWorldRotationOfEntityBone(entity, boneIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -771,7 +840,8 @@ function GetWorldRotationOfEntityBone(entity,boneIndex) end
 --@usage Object GET_OBJECT_INDEX_FROM_ENTITY_INDEX(Entity entity);
 --@params entity Entity
 --@return Object
-function GetObjectIndexFromEntityIndex(entity) end
+function GetObjectIndexFromEntityIndex(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -780,7 +850,8 @@ function GetObjectIndexFromEntityIndex(entity) end
 --@usage BOOL HAS_ENTITY_BEEN_DAMAGED_BY_ANY_VEHICLE(Entity entity);
 --@params entity Entity
 --@return BOOL
-function HasEntityBeenDamagedByAnyVehicle(entity) end
+function HasEntityBeenDamagedByAnyVehicle(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -789,7 +860,8 @@ function HasEntityBeenDamagedByAnyVehicle(entity) end
 --@usage Ped GET_PED_INDEX_FROM_ENTITY_INDEX(Entity entity);
 --@params entity Entity
 --@return Ped
-function GetPedIndexFromEntityIndex(entity) end
+function GetPedIndexFromEntityIndex(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -800,7 +872,8 @@ function GetPedIndexFromEntityIndex(entity) end
 --@params entity2 Entity
 --@params traceType int
 --@return BOOL
-function HasEntityClearLosToEntity(entity1,entity2,traceType) end
+function HasEntityClearLosToEntity(entity1, entity2, traceType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -812,7 +885,8 @@ function HasEntityClearLosToEntity(entity1,entity2,traceType) end
 --@params animName char*
 --@params p3 int
 --@return BOOL
-function HasEntityAnimFinished(entity,animDict,animName,p3) end
+function HasEntityAnimFinished(entity, animDict, animName, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -821,7 +895,8 @@ function HasEntityAnimFinished(entity,animDict,animName,p3) end
 --@usage BOOL HAS_ENTITY_BEEN_DAMAGED_BY_ANY_PED(Entity entity);
 --@params entity Entity
 --@return BOOL
-function HasEntityBeenDamagedByAnyPed(entity) end
+function HasEntityBeenDamagedByAnyPed(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -831,7 +906,8 @@ function HasEntityBeenDamagedByAnyPed(entity) end
 --@params entity1 Entity
 --@params entity2 Entity
 --@return BOOL
-function HasEntityClearLosToEntityInFront(entity1,entity2) end
+function HasEntityClearLosToEntityInFront(entity1, entity2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -842,7 +918,8 @@ function HasEntityClearLosToEntityInFront(entity1,entity2) end
 --@params entity2 Entity
 --@params p2 BOOL
 --@return BOOL
-function HasEntityBeenDamagedByEntity(entity1,entity2,p2) end
+function HasEntityBeenDamagedByEntity(entity1, entity2, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -851,7 +928,8 @@ function HasEntityBeenDamagedByEntity(entity1,entity2,p2) end
 --@usage BOOL IS_ENTITY_A_MISSION_ENTITY(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityAMissionEntity(entity) end
+function IsEntityAMissionEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -860,7 +938,8 @@ function IsEntityAMissionEntity(entity) end
 --@usage BOOL IS_ENTITY_A_VEHICLE(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityAVehicle(entity) end
+function IsEntityAVehicle(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -869,7 +948,8 @@ function IsEntityAVehicle(entity) end
 --@usage BOOL IS_ENTITY_A_PED(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityAPed(entity) end
+function IsEntityAPed(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -887,7 +967,8 @@ function IsEntityAPed(entity) end
 --@params p8 BOOL
 --@params p9 int
 --@return BOOL
-function IsEntityAtCoord(entity,xPos,yPos,zPos,xSize,ySize,zSize,p7,p8,p9) end
+function IsEntityAtCoord(entity, xPos, yPos, zPos, xSize, ySize, zSize, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -896,7 +977,8 @@ function IsEntityAtCoord(entity,xPos,yPos,zPos,xSize,ySize,zSize,p7,p8,p9) end
 --@usage BOOL IS_ENTITY_AN_OBJECT(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityAnObject(entity) end
+function IsEntityAnObject(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -905,7 +987,8 @@ function IsEntityAnObject(entity) end
 --@usage BOOL HAS_ENTITY_COLLIDED_WITH_ANYTHING(Entity entity);
 --@params entity Entity
 --@return BOOL
-function HasEntityCollidedWithAnything(entity) end
+function HasEntityCollidedWithAnything(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -914,7 +997,8 @@ function HasEntityCollidedWithAnything(entity) end
 --@usage BOOL IS_ENTITY_ATTACHED(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityAttached(entity) end
+function IsEntityAttached(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -930,7 +1014,8 @@ function IsEntityAttached(entity) end
 --@params p6 BOOL
 --@params p7 int
 --@return BOOL
-function IsEntityAtEntity(entity1,entity2,xSize,ySize,zSize,p5,p6,p7) end
+function IsEntityAtEntity(entity1, entity2, xSize, ySize, zSize, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -939,7 +1024,8 @@ function IsEntityAtEntity(entity1,entity2,xSize,ySize,zSize,p5,p6,p7) end
 --@usage BOOL IS_AN_ENTITY(int handle);
 --@params handle int
 --@return BOOL
-function IsAnEntity(handle) end
+function IsAnEntity(handle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -948,7 +1034,8 @@ function IsAnEntity(handle) end
 --@usage BOOL IS_ENTITY_ATTACHED_TO_ANY_OBJECT(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityAttachedToAnyObject(entity) end
+function IsEntityAttachedToAnyObject(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -958,7 +1045,8 @@ function IsEntityAttachedToAnyObject(entity) end
 --@params from Entity
 --@params to Entity
 --@return BOOL
-function IsEntityAttachedToEntity(from,to) end
+function IsEntityAttachedToEntity(from, to)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -967,7 +1055,8 @@ function IsEntityAttachedToEntity(from,to) end
 --@usage BOOL IS_ENTITY_ATTACHED_TO_ANY_VEHICLE(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityAttachedToAnyVehicle(entity) end
+function IsEntityAttachedToAnyVehicle(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -976,7 +1065,8 @@ function IsEntityAttachedToAnyVehicle(entity) end
 --@usage BOOL IS_ENTITY_ATTACHED_TO_ANY_PED(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityAttachedToAnyPed(entity) end
+function IsEntityAttachedToAnyPed(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -995,7 +1085,8 @@ function IsEntityAttachedToAnyPed(entity) end
 --@params p9 BOOL
 --@params p10 Any
 --@return BOOL
-function IsEntityInAngledArea(entity,originX,originY,originZ,edgeX,edgeY,edgeZ,angle,p8,p9,p10) end
+function IsEntityInAngledArea(entity, originX, originY, originZ, edgeX, edgeY, edgeZ, angle, p8, p9, p10)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1004,7 +1095,8 @@ function IsEntityInAngledArea(entity,originX,originY,originZ,edgeX,edgeY,edgeZ,a
 --@usage BOOL IS_ENTITY_IN_AIR(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityInAir(entity) end
+function IsEntityInAir(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1022,7 +1114,8 @@ function IsEntityInAir(entity) end
 --@params p8 BOOL
 --@params p9 Any
 --@return BOOL
-function IsEntityInArea(entity,x1,y1,z1,x2,y2,z2,p7,p8,p9) end
+function IsEntityInArea(entity, x1, y1, z1, x2, y2, z2, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1032,7 +1125,8 @@ function IsEntityInArea(entity,x1,y1,z1,x2,y2,z2,p7,p8,p9) end
 --@params entity Entity
 --@params zone char*
 --@return BOOL
-function IsEntityInZone(entity,zone) end
+function IsEntityInZone(entity, zone)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1041,7 +1135,8 @@ function IsEntityInZone(entity,zone) end
 --@usage BOOL IS_ENTITY_ON_SCREEN(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityOnScreen(entity) end
+function IsEntityOnScreen(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1050,7 +1145,8 @@ function IsEntityOnScreen(entity) end
 --@usage BOOL IS_ENTITY_IN_WATER(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityInWater(entity) end
+function IsEntityInWater(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1059,7 +1155,8 @@ function IsEntityInWater(entity) end
 --@usage BOOL IS_ENTITY_OCCLUDED(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityOccluded(entity) end
+function IsEntityOccluded(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1069,7 +1166,8 @@ function IsEntityOccluded(entity) end
 --@params entity Entity
 --@params modelHash Hash
 --@return BOOL
-function IsEntityTouchingModel(entity,modelHash) end
+function IsEntityTouchingModel(entity, modelHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1078,7 +1176,8 @@ function IsEntityTouchingModel(entity,modelHash) end
 --@usage BOOL IS_ENTITY_DEAD(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityDead(entity) end
+function IsEntityDead(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1090,7 +1189,8 @@ function IsEntityDead(entity) end
 --@params animName char*
 --@params taskFlag int
 --@return BOOL
-function IsEntityPlayingAnim(entity,animDict,animName,taskFlag) end
+function IsEntityPlayingAnim(entity, animDict, animName, taskFlag)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1100,7 +1200,8 @@ function IsEntityPlayingAnim(entity,animDict,animName,taskFlag) end
 --@params entity Entity
 --@params targetEntity Entity
 --@return BOOL
-function IsEntityTouchingEntity(entity,targetEntity) end
+function IsEntityTouchingEntity(entity, targetEntity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1109,7 +1210,8 @@ function IsEntityTouchingEntity(entity,targetEntity) end
 --@usage BOOL IS_ENTITY_UPSIDEDOWN(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityUpsidedown(entity) end
+function IsEntityUpsidedown(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1119,7 +1221,8 @@ function IsEntityUpsidedown(entity) end
 --@params entity Entity
 --@params angle float
 --@return BOOL
-function IsEntityUpright(entity,angle) end
+function IsEntityUpright(entity, angle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1129,7 +1232,8 @@ function IsEntityUpright(entity,angle) end
 --@params entity Entity
 --@params p1 BOOL
 --@return void
-function N_0x1a092bb0c3808b96(entity,p1) end
+function N_0x1a092bb0c3808b96(entity, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1138,7 +1242,8 @@ function N_0x1a092bb0c3808b96(entity,p1) end
 --@usage BOOL IS_ENTITY_VISIBLE_TO_SCRIPT(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityVisibleToScript(entity) end
+function IsEntityVisibleToScript(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1147,7 +1252,8 @@ function IsEntityVisibleToScript(entity) end
 --@usage BOOL IS_ENTITY_WAITING_FOR_WORLD_COLLISION(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityWaitingForWorldCollision(entity) end
+function IsEntityWaitingForWorldCollision(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1156,7 +1262,8 @@ function IsEntityWaitingForWorldCollision(entity) end
 --@usage BOOL IS_ENTITY_STATIC(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityStatic(entity) end
+function IsEntityStatic(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1165,7 +1272,8 @@ function IsEntityStatic(entity) end
 --@usage BOOL IS_ENTITY_VISIBLE(Entity entity);
 --@params entity Entity
 --@return BOOL
-function IsEntityVisible(entity) end
+function IsEntityVisible(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1175,7 +1283,8 @@ function IsEntityVisible(entity) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x352e2b5cf420bf3b(p0,p1) end
+function N_0x352e2b5cf420bf3b(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1185,7 +1294,8 @@ function N_0x352e2b5cf420bf3b(p0,p1) end
 --@params entity Entity
 --@params p1 BOOL
 --@return void
-function N_0x2c2e3dc128f44309(entity,p1) end
+function N_0x2c2e3dc128f44309(entity, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1195,7 +1305,8 @@ function N_0x2c2e3dc128f44309(entity,p1) end
 --@params entity Entity
 --@params p1 float
 --@return void
-function N_0x5c3b791d580e0bc2(entity,p1) end
+function N_0x5c3b791d580e0bc2(entity, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1205,7 +1316,8 @@ function N_0x5c3b791d580e0bc2(entity,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x68b562e124cc0aef(p0,p1) end
+function N_0x68b562e124cc0aef(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1215,7 +1327,8 @@ function N_0x68b562e124cc0aef(p0,p1) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function N_0x694e00132f2823ed(entity,toggle) end
+function N_0x694e00132f2823ed(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1224,7 +1337,8 @@ function N_0x694e00132f2823ed(entity,toggle) end
 --@usage void undefined(Entity entity);
 --@params entity Entity
 --@return void
-function N_0x78e8e3a640178255(entity) end
+function N_0x78e8e3a640178255(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1234,7 +1348,8 @@ function N_0x78e8e3a640178255(entity) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x36f32de87082343e(p0,p1) end
+function N_0x36f32de87082343e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1244,7 +1359,8 @@ function N_0x36f32de87082343e(p0,p1) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function N_0xc34bc448da29f5e9(entity,toggle) end
+function N_0xc34bc448da29f5e9(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1254,7 +1370,8 @@ function N_0xc34bc448da29f5e9(entity,toggle) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xb17bc6453f6cf5ac(p0,p1) end
+function N_0xb17bc6453f6cf5ac(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1263,7 +1380,8 @@ function N_0xb17bc6453f6cf5ac(p0,p1) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xb328dcc3a3aa401b(p0) end
+function N_0xb328dcc3a3aa401b(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1273,7 +1391,8 @@ function N_0xb328dcc3a3aa401b(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xd7b80e7c3befc396(p0,p1) end
+function N_0xd7b80e7c3befc396(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1290,7 +1409,8 @@ function N_0xd7b80e7c3befc396(p0,p1) end
 --@params delta float
 --@params bitset Any
 --@return BOOL
-function PlayEntityAnim(entity,animName,animDict,p3,loop,stayInAnim,p6,delta,bitset) end
+function PlayEntityAnim(entity, animName, animDict, p3, loop, stayInAnim, p6, delta, bitset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1300,7 +1420,8 @@ function PlayEntityAnim(entity,animName,animDict,p3,loop,stayInAnim,p6,delta,bit
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xcea7c8e1b48ff68c(p0,p1) end
+function N_0xcea7c8e1b48ff68c(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1316,7 +1437,8 @@ function N_0xcea7c8e1b48ff68c(p0,p1) end
 --@params p6 Any
 --@params p7 float
 --@return BOOL
-function PlaySynchronizedEntityAnim(entity,syncedScene,animation,propName,p4,p5,p6,p7) end
+function PlaySynchronizedEntityAnim(entity, syncedScene, animation, propName, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1325,7 +1447,8 @@ function PlaySynchronizedEntityAnim(entity,syncedScene,animation,propName,p4,p5,
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x490861b88f4fd846(p0) end
+function N_0x490861b88f4fd846(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1335,7 +1458,8 @@ function N_0x490861b88f4fd846(p0) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function N_0xdc6f8601faf2e893(entity,toggle) end
+function N_0xdc6f8601faf2e893(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1355,7 +1479,8 @@ function N_0xdc6f8601faf2e893(entity,toggle) end
 --@params p10 Any
 --@params p11 float
 --@return BOOL
-function PlaySynchronizedMapEntityAnim(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) end
+function PlaySynchronizedMapEntityAnim(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1368,7 +1493,8 @@ function PlaySynchronizedMapEntityAnim(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) en
 --@params p3 Any
 --@params p4 Any
 --@return void
-function RemoveForcedObject(p0,p1,p2,p3,p4) end
+function RemoveForcedObject(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1382,7 +1508,8 @@ function RemoveForcedObject(p0,p1,p2,p3,p4) end
 --@params p4 Any
 --@params p5 Any
 --@return void
-function RemoveModelHide(p0,p1,p2,p3,p4,p5) end
+function RemoveModelHide(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1397,7 +1524,8 @@ function RemoveModelHide(p0,p1,p2,p3,p4,p5) end
 --@params newModel Hash
 --@params p6 BOOL
 --@return void
-function RemoveModelSwap(x,y,z,radius,originalModel,newModel,p6) end
+function RemoveModelSwap(x, y, z, radius, originalModel, newModel, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1407,7 +1535,8 @@ function RemoveModelSwap(x,y,z,radius,originalModel,newModel,p6) end
 --@params entity Entity
 --@params p1 BOOL
 --@return void
-function SetCanClimbOnEntity(entity,p1) end
+function SetCanClimbOnEntity(entity, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1416,7 +1545,8 @@ function SetCanClimbOnEntity(entity,p1) end
 --@usage void PROCESS_ENTITY_ATTACHMENTS(Entity entity);
 --@params entity Entity
 --@return void
-function ProcessEntityAttachments(entity) end
+function ProcessEntityAttachments(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1426,7 +1556,8 @@ function ProcessEntityAttachments(entity) end
 --@params entity Entity
 --@params p1 BOOL
 --@return void
-function SetCanAutoVaultOnEntity(entity,p1) end
+function SetCanAutoVaultOnEntity(entity, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1438,7 +1569,8 @@ function SetCanAutoVaultOnEntity(entity,p1) end
 --@params animName char*
 --@params speedMultiplier float
 --@return void
-function SetEntityAnimSpeed(entity,animDictionary,animName,speedMultiplier) end
+function SetEntityAnimSpeed(entity, animDictionary, animName, speedMultiplier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1449,7 +1581,8 @@ function SetEntityAnimSpeed(entity,animDictionary,animName,speedMultiplier) end
 --@params alphaLevel int
 --@params skin int
 --@return void
-function SetEntityAlpha(entity,alphaLevel,skin) end
+function SetEntityAlpha(entity, alphaLevel, skin)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1458,7 +1591,8 @@ function SetEntityAlpha(entity,alphaLevel,skin) end
 --@usage void SET_ENTITY_AS_NO_LONGER_NEEDED(Entity* entity);
 --@params entity Entity*
 --@return void
-function SetEntityAsNoLongerNeeded(entity) end
+function SetEntityAsNoLongerNeeded(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1470,7 +1604,8 @@ function SetEntityAsNoLongerNeeded(entity) end
 --@params animName char*
 --@params time float
 --@return void
-function SetEntityAnimCurrentTime(entity,animDictionary,animName,time) end
+function SetEntityAnimCurrentTime(entity, animDictionary, animName, time)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1480,7 +1615,8 @@ function SetEntityAnimCurrentTime(entity,animDictionary,animName,time) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function SetEntityCanBeDamaged(entity,toggle) end
+function SetEntityCanBeDamaged(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1491,7 +1627,8 @@ function SetEntityCanBeDamaged(entity,toggle) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function SetEntityAsMissionEntity(entity,p1,p2) end
+function SetEntityAsMissionEntity(entity, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1502,7 +1639,8 @@ function SetEntityAsMissionEntity(entity,p1,p2) end
 --@params toggle BOOL
 --@params keepPhysics BOOL
 --@return void
-function SetEntityCollision(entity,toggle,keepPhysics) end
+function SetEntityCollision(entity, toggle, keepPhysics)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1513,7 +1651,8 @@ function SetEntityCollision(entity,toggle,keepPhysics) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function SetEntityCompletelyDisableCollision(entity,p1,p2) end
+function SetEntityCompletelyDisableCollision(entity, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1524,7 +1663,8 @@ function SetEntityCompletelyDisableCollision(entity,p1,p2) end
 --@params bCanBeDamaged BOOL
 --@params relGroup int
 --@return void
-function SetEntityCanBeDamagedByRelationshipGroup(entity,bCanBeDamaged,relGroup) end
+function SetEntityCanBeDamagedByRelationshipGroup(entity, bCanBeDamaged, relGroup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1539,7 +1679,8 @@ function SetEntityCanBeDamagedByRelationshipGroup(entity,bCanBeDamaged,relGroup)
 --@params yAxis BOOL
 --@params zAxis BOOL
 --@return void
-function SetEntityCoordsNoOffset(entity,xPos,yPos,zPos,xAxis,yAxis,zAxis) end
+function SetEntityCoordsNoOffset(entity, xPos, yPos, zPos, xAxis, yAxis, zAxis)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1549,7 +1690,8 @@ function SetEntityCoordsNoOffset(entity,xPos,yPos,zPos,xAxis,yAxis,zAxis) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function SetEntityCanBeTargetedWithoutLos(entity,toggle) end
+function SetEntityCanBeTargetedWithoutLos(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1565,7 +1707,8 @@ function SetEntityCanBeTargetedWithoutLos(entity,toggle) end
 --@params zAxis BOOL
 --@params clearArea BOOL
 --@return void
-function SetEntityCoords(entity,xPos,yPos,zPos,xAxis,yAxis,zAxis,clearArea) end
+function SetEntityCoords(entity, xPos, yPos, zPos, xAxis, yAxis, zAxis, clearArea)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1575,7 +1718,8 @@ function SetEntityCoords(entity,xPos,yPos,zPos,xAxis,yAxis,zAxis,clearArea) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function SetEntityDynamic(entity,toggle) end
+function SetEntityDynamic(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1585,7 +1729,8 @@ function SetEntityDynamic(entity,toggle) end
 --@params entity Entity
 --@params heading float
 --@return void
-function SetEntityHeading(entity,heading) end
+function SetEntityHeading(entity, heading)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1601,7 +1746,8 @@ function SetEntityHeading(entity,heading) end
 --@params zAxis BOOL
 --@params clearArea BOOL
 --@return void
-function SetEntityCoords_2(entity,xPos,yPos,zPos,xAxis,yAxis,zAxis,clearArea) end
+function SetEntityCoords_2(entity, xPos, yPos, zPos, xAxis, yAxis, zAxis, clearArea)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1611,7 +1757,8 @@ function SetEntityCoords_2(entity,xPos,yPos,zPos,xAxis,yAxis,zAxis,clearArea) en
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function SetEntityInvincible(entity,toggle) end
+function SetEntityInvincible(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1621,7 +1768,8 @@ function SetEntityInvincible(entity,toggle) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function SetEntityHasGravity(entity,toggle) end
+function SetEntityHasGravity(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1631,7 +1779,8 @@ function SetEntityHasGravity(entity,toggle) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function SetEntityAlwaysPrerender(entity,toggle) end
+function SetEntityAlwaysPrerender(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1641,7 +1790,8 @@ function SetEntityAlwaysPrerender(entity,toggle) end
 --@params entity Entity
 --@params health int
 --@return void
-function SetEntityHealth(entity,health) end
+function SetEntityHealth(entity, health)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1651,7 +1801,8 @@ function SetEntityHealth(entity,health) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function SetEntityLoadCollisionFlag(entity,toggle) end
+function SetEntityLoadCollisionFlag(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1661,7 +1812,8 @@ function SetEntityLoadCollisionFlag(entity,toggle) end
 --@params entity Entity
 --@params value int
 --@return void
-function SetEntityMaxHealth(entity,value) end
+function SetEntityMaxHealth(entity, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1672,7 +1824,8 @@ function SetEntityMaxHealth(entity,value) end
 --@params p1 BOOL
 --@params p2 float
 --@return void
-function SetEntityIsTargetPriority(entity,p1,p2) end
+function SetEntityIsTargetPriority(entity, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1682,7 +1835,8 @@ function SetEntityIsTargetPriority(entity,p1,p2) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function SetEntityMotionBlur(entity,toggle) end
+function SetEntityMotionBlur(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1692,7 +1846,8 @@ function SetEntityMotionBlur(entity,toggle) end
 --@params entity Entity
 --@params value int
 --@return void
-function SetEntityLodDist(entity,value) end
+function SetEntityLodDist(entity, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1702,7 +1857,8 @@ function SetEntityLodDist(entity,value) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function SetEntityOnlyDamagedByPlayer(entity,toggle) end
+function SetEntityOnlyDamagedByPlayer(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1712,7 +1868,8 @@ function SetEntityOnlyDamagedByPlayer(entity,toggle) end
 --@params entity Entity
 --@params speed float
 --@return void
-function SetEntityMaxSpeed(entity,speed) end
+function SetEntityMaxSpeed(entity, speed)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1723,7 +1880,8 @@ function SetEntityMaxSpeed(entity,speed) end
 --@params p1 BOOL
 --@params relationshipHash Hash
 --@return void
-function SetEntityOnlyDamagedByRelationshipGroup(entity,p1,relationshipHash) end
+function SetEntityOnlyDamagedByRelationshipGroup(entity, p1, relationshipHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1732,7 +1890,8 @@ function SetEntityOnlyDamagedByRelationshipGroup(entity,p1,relationshipHash) end
 --@usage Any RESET_ENTITY_ALPHA(Entity entity);
 --@params entity Entity
 --@return Any
-function ResetEntityAlpha(entity) end
+function ResetEntityAlpha(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1743,7 +1902,8 @@ function ResetEntityAlpha(entity) end
 --@params entity2 Entity
 --@params thisFrameOnly BOOL
 --@return void
-function SetEntityNoCollisionEntity(entity1,entity2,thisFrameOnly) end
+function SetEntityNoCollisionEntity(entity1, entity2, thisFrameOnly)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1756,7 +1916,8 @@ function SetEntityNoCollisionEntity(entity1,entity2,thisFrameOnly) end
 --@params z float
 --@params w float
 --@return void
-function SetEntityQuaternion(entity,x,y,z,w) end
+function SetEntityQuaternion(entity, x, y, z, w)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1773,7 +1934,8 @@ function SetEntityQuaternion(entity,x,y,z,w) end
 --@params p7 BOOL
 --@params drownProof BOOL
 --@return void
-function SetEntityProofs(entity,bulletProof,fireProof,explosionProof,collisionProof,meleeProof,p6,p7,drownProof) end
+function SetEntityProofs(entity, bulletProof, fireProof, explosionProof, collisionProof, meleeProof, p6, p7, drownProof)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1783,7 +1945,8 @@ function SetEntityProofs(entity,bulletProof,fireProof,explosionProof,collisionPr
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function SetEntityRenderScorched(entity,toggle) end
+function SetEntityRenderScorched(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1793,7 +1956,8 @@ function SetEntityRenderScorched(entity,toggle) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function SetEntityRecordsCollisions(entity,toggle) end
+function SetEntityRecordsCollisions(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1803,7 +1967,8 @@ function SetEntityRecordsCollisions(entity,toggle) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function SetEntitySomething(entity,toggle) end
+function SetEntitySomething(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1817,7 +1982,8 @@ function SetEntitySomething(entity,toggle) end
 --@params rotationOrder int
 --@params p5 BOOL
 --@return void
-function SetEntityRotation(entity,pitch,roll,yaw,rotationOrder,p5) end
+function SetEntityRotation(entity, pitch, roll, yaw, rotationOrder, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1827,7 +1993,8 @@ function SetEntityRotation(entity,pitch,roll,yaw,rotationOrder,p5) end
 --@params entity Entity
 --@params state int
 --@return void
-function SetEntityTrafficlightOverride(entity,state) end
+function SetEntityTrafficlightOverride(entity, state)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1839,7 +2006,8 @@ function SetEntityTrafficlightOverride(entity,state) end
 --@params y float
 --@params z float
 --@return void
-function SetEntityVelocity(entity,x,y,z) end
+function SetEntityVelocity(entity, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1848,7 +2016,8 @@ function SetEntityVelocity(entity,x,y,z) end
 --@usage void SET_OBJECT_AS_NO_LONGER_NEEDED(Object* object);
 --@params object Object*
 --@return void
-function SetObjectAsNoLongerNeeded(object) end
+function SetObjectAsNoLongerNeeded(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1859,7 +2028,8 @@ function SetObjectAsNoLongerNeeded(object) end
 --@params toggle BOOL
 --@params unk BOOL
 --@return void
-function SetEntityVisible(entity,toggle,unk) end
+function SetEntityVisible(entity, toggle, unk)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1868,7 +2038,8 @@ function SetEntityVisible(entity,toggle,unk) end
 --@usage void SET_VEHICLE_AS_NO_LONGER_NEEDED(Vehicle* vehicle);
 --@params vehicle Vehicle*
 --@return void
-function SetVehicleAsNoLongerNeeded(vehicle) end
+function SetVehicleAsNoLongerNeeded(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1877,7 +2048,8 @@ function SetVehicleAsNoLongerNeeded(vehicle) end
 --@usage void SET_PED_AS_NO_LONGER_NEEDED(Ped* ped);
 --@params ped Ped*
 --@return void
-function SetPedAsNoLongerNeeded(ped) end
+function SetPedAsNoLongerNeeded(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1889,7 +2061,8 @@ function SetPedAsNoLongerNeeded(ped) end
 --@params animGroup char*
 --@params p3 float
 --@return Any
-function StopEntityAnim(entity,animation,animGroup,p3) end
+function StopEntityAnim(entity, animation, animGroup, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1900,7 +2073,8 @@ function StopEntityAnim(entity,animation,animGroup,p3) end
 --@params p1 float
 --@params p2 BOOL
 --@return BOOL
-function StopSynchronizedEntityAnim(entity,p1,p2) end
+function StopSynchronizedEntityAnim(entity, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1914,7 +2088,8 @@ function StopSynchronizedEntityAnim(entity,p1,p2) end
 --@params p4 Any
 --@params p5 float
 --@return BOOL
-function StopSynchronizedMapEntityAnim(p0,p1,p2,p3,p4,p5) end
+function StopSynchronizedMapEntityAnim(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1927,7 +2102,8 @@ function StopSynchronizedMapEntityAnim(p0,p1,p2,p3,p4,p5) end
 --@params z float
 --@params p4 BOOL
 --@return BOOL
-function WouldEntityBeOccluded(entityModelHash,x,y,z,p4) end
+function WouldEntityBeOccluded(entityModelHash, x, y, z, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1937,4 +2113,5 @@ function WouldEntityBeOccluded(entityModelHash,x,y,z,p4) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function SetEntityLights(entity,toggle) end
+function SetEntityLights(entity, toggle)
+end

@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule NETWORK
@@ -7,7 +6,8 @@
 --@params netID int
 --@params toggle BOOL
 --@return void
-function ActivateDamageTrackerOnNetworkId(netID,toggle) end
+function ActivateDamageTrackerOnNetworkId(netID, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -18,7 +18,8 @@ function ActivateDamageTrackerOnNetworkId(netID,toggle) end
 --@params event int
 --@params amountReceived int
 --@return BOOL
-function BadSportPlayerLeftDetected(networkHandle,event,amountReceived) end
+function BadSportPlayerLeftDetected(networkHandle, event, amountReceived)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -27,7 +28,8 @@ function BadSportPlayerLeftDetected(networkHandle,event,amountReceived) end
 --@usage BOOL CAN_REGISTER_MISSION_PEDS(int amount);
 --@params amount int
 --@return BOOL
-function CanRegisterMissionPeds(amount) end
+function CanRegisterMissionPeds(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -37,7 +39,8 @@ function CanRegisterMissionPeds(amount) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function ActivateDamageTrackerOnPlayer(player,toggle) end
+function ActivateDamageTrackerOnPlayer(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -46,7 +49,8 @@ function ActivateDamageTrackerOnPlayer(player,toggle) end
 --@usage BOOL CAN_REGISTER_MISSION_OBJECTS(int amount);
 --@params amount int
 --@return BOOL
-function CanRegisterMissionObjects(amount) end
+function CanRegisterMissionObjects(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -58,7 +62,8 @@ function CanRegisterMissionObjects(amount) end
 --@params object_amt int
 --@params pickup_amt int
 --@return BOOL
-function CanRegisterMissionEntities(ped_amt,vehicle_amt,object_amt,pickup_amt) end
+function CanRegisterMissionEntities(ped_amt, vehicle_amt, object_amt, pickup_amt)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -67,7 +72,8 @@ function CanRegisterMissionEntities(ped_amt,vehicle_amt,object_amt,pickup_amt) e
 --@usage BOOL _CAN_REGISTER_MISSION_PICKUPS(int amount);
 --@params amount int
 --@return BOOL
-function CanRegisterMissionPickups(amount) end
+function CanRegisterMissionPickups(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -76,7 +82,8 @@ function CanRegisterMissionPickups(amount) end
 --@usage int CLOUD_DELETE_MEMBER_FILE(char* p0);
 --@params p0 char*
 --@return int
-function CloudDeleteMemberFile(p0) end
+function CloudDeleteMemberFile(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -85,7 +92,8 @@ function CloudDeleteMemberFile(p0) end
 --@usage void CLOUD_CHECK_AVAILABILITY();
 
 --@return void
-function CloudCheckAvailability() end
+function CloudCheckAvailability()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -94,7 +102,8 @@ function CloudCheckAvailability() end
 --@usage BOOL CLOUD_HAS_REQUEST_COMPLETED(int handle);
 --@params handle int
 --@return BOOL
-function CloudHasRequestCompleted(handle) end
+function CloudHasRequestCompleted(handle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -103,7 +112,8 @@ function CloudHasRequestCompleted(handle) end
 --@usage int CLOUD_GET_AVAILABILITY_CHECK_RESULT();
 
 --@return int
-function CloudGetAvailabilityCheckResult() end
+function CloudGetAvailabilityCheckResult()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -112,7 +122,8 @@ function CloudGetAvailabilityCheckResult() end
 --@usage BOOL _FACEBOOK_IS_AVAILABLE();
 
 --@return BOOL
-function FacebookIsAvailable() end
+function FacebookIsAvailable()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -121,7 +132,8 @@ function FacebookIsAvailable() end
 --@usage BOOL _FACEBOOK_IS_SENDING_DATA();
 
 --@return BOOL
-function FacebookIsSendingData() end
+function FacebookIsSendingData()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -130,7 +142,8 @@ function FacebookIsSendingData() end
 --@usage BOOL _FACEBOOK_DO_UNK_CHECK();
 
 --@return BOOL
-function FacebookDoUnkCheck() end
+function FacebookDoUnkCheck()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -139,7 +152,8 @@ function FacebookDoUnkCheck() end
 --@usage BOOL _FACEBOOK_SET_CREATE_CHARACTER_COMPLETE();
 
 --@return BOOL
-function FacebookSetCreateCharacterComplete() end
+function FacebookSetCreateCharacterComplete()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -150,7 +164,8 @@ function FacebookSetCreateCharacterComplete() end
 --@params p1 Any
 --@params p2 Any
 --@return BOOL
-function FilloutPmPlayerList(networkHandle,p1,p2) end
+function FilloutPmPlayerList(networkHandle, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -161,7 +176,8 @@ function FilloutPmPlayerList(networkHandle,p1,p2) end
 --@params cashEarned int
 --@params xpEarned int
 --@return BOOL
-function FacebookSetHeistComplete(heistName,cashEarned,xpEarned) end
+function FacebookSetHeistComplete(heistName, cashEarned, xpEarned)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -170,7 +186,8 @@ function FacebookSetHeistComplete(heistName,cashEarned,xpEarned) end
 --@usage BOOL _FACEBOOK_SET_MILESTONE_COMPLETE(int milestoneId);
 --@params milestoneId int
 --@return BOOL
-function FacebookSetMilestoneComplete(milestoneId) end
+function FacebookSetMilestoneComplete(milestoneId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -182,7 +199,8 @@ function FacebookSetMilestoneComplete(milestoneId) end
 --@params p2 Any
 --@params p3 Any
 --@return BOOL
-function FilloutPmPlayerListWithNames(p0,p1,p2,p3) end
+function FilloutPmPlayerListWithNames(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -191,7 +209,8 @@ function FilloutPmPlayerListWithNames(p0,p1,p2,p3) end
 --@usage BOOL CAN_REGISTER_MISSION_VEHICLES(int amount);
 --@params amount int
 --@return BOOL
-function CanRegisterMissionVehicles(amount) end
+function CanRegisterMissionVehicles(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -200,7 +219,8 @@ function CanRegisterMissionVehicles(amount) end
 --@usage void FADE_OUT_LOCAL_PLAYER(BOOL p0);
 --@params p0 BOOL
 --@return void
-function FadeOutLocalPlayer(p0) end
+function FadeOutLocalPlayer(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -210,7 +230,8 @@ function FadeOutLocalPlayer(p0) end
 --@params index int
 --@params index2 int
 --@return char*
-function GetCommerceItemCat(index,index2) end
+function GetCommerceItemCat(index, index2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -219,7 +240,8 @@ function GetCommerceItemCat(index,index2) end
 --@usage char* GET_COMMERCE_ITEM_NAME(int index);
 --@params index int
 --@return char*
-function GetCommerceItemName(index) end
+function GetCommerceItemName(index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -228,7 +250,8 @@ function GetCommerceItemName(index) end
 --@usage int GET_CLOUD_TIME_AS_INT();
 
 --@return int
-function GetCloudTimeAsInt() end
+function GetCloudTimeAsInt()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -237,7 +260,8 @@ function GetCloudTimeAsInt() end
 --@usage int GET_COMMERCE_ITEM_NUM_CATS(int index);
 --@params index int
 --@return int
-function GetCommerceItemNumCats(index) end
+function GetCommerceItemNumCats(index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -247,7 +271,8 @@ function GetCommerceItemNumCats(index) end
 --@params unixEpoch int
 --@params timeStructure Any*
 --@return void
-function GetDateAndTimeFromUnixEpoch(unixEpoch,timeStructure) end
+function GetDateAndTimeFromUnixEpoch(unixEpoch, timeStructure)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -256,7 +281,8 @@ function GetDateAndTimeFromUnixEpoch(unixEpoch,timeStructure) end
 --@usage char* GET_COMMERCE_ITEM_ID(int index);
 --@params index int
 --@return char*
-function GetCommerceItemId(index) end
+function GetCommerceItemId(index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -265,7 +291,8 @@ function GetCommerceItemId(index) end
 --@usage Any GET_COMMERCE_PRODUCT_PRICE(int index);
 --@params index int
 --@return Any
-function GetCommerceProductPrice(index) end
+function GetCommerceProductPrice(index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -274,7 +301,8 @@ function GetCommerceProductPrice(index) end
 --@usage Any GET_MAX_NUM_NETWORK_PEDS();
 
 --@return Any
-function GetMaxNumNetworkPeds() end
+function GetMaxNumNetworkPeds()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -283,7 +311,8 @@ function GetMaxNumNetworkPeds() end
 --@usage Any GET_MAX_NUM_NETWORK_OBJECTS();
 
 --@return Any
-function GetMaxNumNetworkObjects() end
+function GetMaxNumNetworkObjects()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -292,7 +321,8 @@ function GetMaxNumNetworkObjects() end
 --@usage Any GET_MAX_NUM_NETWORK_PICKUPS();
 
 --@return Any
-function GetMaxNumNetworkPickups() end
+function GetMaxNumNetworkPickups()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -301,7 +331,8 @@ function GetMaxNumNetworkPickups() end
 --@usage Any GET_MAX_NUM_NETWORK_VEHICLES();
 
 --@return Any
-function GetMaxNumNetworkVehicles() end
+function GetMaxNumNetworkVehicles()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -310,7 +341,8 @@ function GetMaxNumNetworkVehicles() end
 --@usage int GET_NUM_CREATED_MISSION_OBJECTS(BOOL p0);
 --@params p0 BOOL
 --@return int
-function GetNumCreatedMissionObjects(p0) end
+function GetNumCreatedMissionObjects(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -319,7 +351,8 @@ function GetNumCreatedMissionObjects(p0) end
 --@usage int GET_NUM_COMMERCE_ITEMS();
 
 --@return int
-function GetNumCommerceItems() end
+function GetNumCommerceItems()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -328,7 +361,8 @@ function GetNumCommerceItems() end
 --@usage int GET_NUM_CREATED_MISSION_VEHICLES(BOOL p0);
 --@params p0 BOOL
 --@return int
-function GetNumCreatedMissionVehicles(p0) end
+function GetNumCreatedMissionVehicles(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -337,7 +371,8 @@ function GetNumCreatedMissionVehicles(p0) end
 --@usage int GET_NETWORK_TIME_ACCURATE();
 
 --@return int
-function GetNetworkTimeAccurate() end
+function GetNetworkTimeAccurate()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -346,7 +381,8 @@ function GetNetworkTimeAccurate() end
 --@usage int GET_NUM_RESERVED_MISSION_PEDS(BOOL p0);
 --@params p0 BOOL
 --@return int
-function GetNumReservedMissionPeds(p0) end
+function GetNumReservedMissionPeds(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -355,7 +391,8 @@ function GetNumReservedMissionPeds(p0) end
 --@usage int GET_NUM_CREATED_MISSION_PEDS(BOOL p0);
 --@params p0 BOOL
 --@return int
-function GetNumCreatedMissionPeds(p0) end
+function GetNumCreatedMissionPeds(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -364,7 +401,8 @@ function GetNumCreatedMissionPeds(p0) end
 --@usage int GET_NETWORK_TIME();
 
 --@return int
-function GetNetworkTime() end
+function GetNetworkTime()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -373,7 +411,8 @@ function GetNetworkTime() end
 --@usage char* GET_PLAYER_ADVANCED_MODIFIER_PRIVILEGES(int p0);
 --@params p0 int
 --@return char*
-function GetPlayerAdvancedModifierPrivileges(p0) end
+function GetPlayerAdvancedModifierPrivileges(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -382,7 +421,8 @@ function GetPlayerAdvancedModifierPrivileges(p0) end
 --@usage char* GET_TIME_AS_STRING(int time);
 --@params time int
 --@return char*
-function GetTimeAsString(time) end
+function GetTimeAsString(time)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -391,7 +431,8 @@ function GetTimeAsString(time) end
 --@usage int GET_NUM_RESERVED_MISSION_OBJECTS(BOOL p0);
 --@params p0 BOOL
 --@return int
-function GetNumReservedMissionObjects(p0) end
+function GetNumReservedMissionObjects(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -400,7 +441,8 @@ function GetNumReservedMissionObjects(p0) end
 --@usage int _GET_STATUS_OF_TEXTURE_DOWNLOAD(int p0);
 --@params p0 int
 --@return int
-function GetStatusOfTextureDownload(p0) end
+function GetStatusOfTextureDownload(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -409,7 +451,8 @@ function GetStatusOfTextureDownload(p0) end
 --@usage int GET_NUM_RESERVED_MISSION_VEHICLES(BOOL p0);
 --@params p0 BOOL
 --@return int
-function GetNumReservedMissionVehicles(p0) end
+function GetNumReservedMissionVehicles(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -419,7 +462,8 @@ function GetNumReservedMissionVehicles(p0) end
 --@params timeA int
 --@params timeB int
 --@return int
-function GetTimeDifference(timeA,timeB) end
+function GetTimeDifference(timeA, timeB)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -429,7 +473,8 @@ function GetTimeDifference(timeA,timeB) end
 --@params timeA int
 --@params timeB int
 --@return int
-function GetTimeOffset(timeA,timeB) end
+function GetTimeOffset(timeA, timeB)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -438,7 +483,8 @@ function GetTimeOffset(timeA,timeB) end
 --@usage BOOL IS_COMMERCE_DATA_VALID();
 
 --@return BOOL
-function IsCommerceDataValid() end
+function IsCommerceDataValid()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -447,7 +493,8 @@ function IsCommerceDataValid() end
 --@usage BOOL HAS_NETWORK_TIME_STARTED();
 
 --@return BOOL
-function HasNetworkTimeStarted() end
+function HasNetworkTimeStarted()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -456,7 +503,8 @@ function HasNetworkTimeStarted() end
 --@usage BOOL IS_DAMAGE_TRACKER_ACTIVE_ON_NETWORK_ID(int netID);
 --@params netID int
 --@return BOOL
-function IsDamageTrackerActiveOnNetworkId(netID) end
+function IsDamageTrackerActiveOnNetworkId(netID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -468,7 +516,8 @@ function IsDamageTrackerActiveOnNetworkId(netID) end
 --@params p2 float
 --@params p3 float
 --@return BOOL
-function IsSphereVisibleToAnotherMachine(p0,p1,p2,p3) end
+function IsSphereVisibleToAnotherMachine(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -477,7 +526,8 @@ function IsSphereVisibleToAnotherMachine(p0,p1,p2,p3) end
 --@usage BOOL IS_PLAYER_IN_CUTSCENE(Player player);
 --@params player Player
 --@return BOOL
-function IsPlayerInCutscene(player) end
+function IsPlayerInCutscene(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -486,7 +536,8 @@ function IsPlayerInCutscene(player) end
 --@usage BOOL IS_NETWORK_ID_OWNED_BY_PARTICIPANT(int netId);
 --@params netId int
 --@return BOOL
-function IsNetworkIdOwnedByParticipant(netId) end
+function IsNetworkIdOwnedByParticipant(netId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -495,7 +546,8 @@ function IsNetworkIdOwnedByParticipant(netId) end
 --@usage BOOL IS_COMMERCE_STORE_OPEN();
 
 --@return BOOL
-function IsCommerceStoreOpen() end
+function IsCommerceStoreOpen()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -504,7 +556,8 @@ function IsCommerceStoreOpen() end
 --@usage BOOL _IS_DAMAGE_TRACKER_ACTIVE_ON_PLAYER(Player player);
 --@params player Player
 --@return BOOL
-function IsDamageTrackerActiveOnPlayer(player) end
+function IsDamageTrackerActiveOnPlayer(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -517,7 +570,8 @@ function IsDamageTrackerActiveOnPlayer(player) end
 --@params p3 float
 --@params p4 float
 --@return BOOL
-function IsSphereVisibleToPlayer(p0,p1,p2,p3,p4) end
+function IsSphereVisibleToPlayer(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -526,7 +580,8 @@ function IsSphereVisibleToPlayer(p0,p1,p2,p3,p4) end
 --@usage BOOL IS_STORE_AVAILABLE_TO_USER();
 
 --@return BOOL
-function IsStoreAvailableToUser() end
+function IsStoreAvailableToUser()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -536,7 +591,8 @@ function IsStoreAvailableToUser() end
 --@params timeA int
 --@params timeB int
 --@return BOOL
-function IsTimeEqualTo(timeA,timeB) end
+function IsTimeEqualTo(timeA, timeB)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -547,7 +603,8 @@ function IsTimeEqualTo(timeA,timeB) end
 --@params p1 Any
 --@params p2 Any
 --@return Any
-function N_0x04918a41bc9b8157(p0,p1,p2) end
+function N_0x04918a41bc9b8157(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -557,7 +614,8 @@ function N_0x04918a41bc9b8157(p0,p1,p2) end
 --@params timeA int
 --@params timeB int
 --@return BOOL
-function IsTimeLessThan(timeA,timeB) end
+function IsTimeLessThan(timeA, timeB)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -568,7 +626,8 @@ function IsTimeLessThan(timeA,timeB) end
 --@params p1 Any
 --@params p2 Any
 --@return Any
-function N_0x07eab372c8841d99(p0,p1,p2) end
+function N_0x07eab372c8841d99(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -578,7 +637,8 @@ function N_0x07eab372c8841d99(p0,p1,p2) end
 --@params timeA int
 --@params timeB int
 --@return BOOL
-function IsTimeMoreThan(timeA,timeB) end
+function IsTimeMoreThan(timeA, timeB)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -588,7 +648,8 @@ function IsTimeMoreThan(timeA,timeB) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x0379daf89ba09aa5(p0,p1) end
+function N_0x0379daf89ba09aa5(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -599,7 +660,8 @@ function N_0x0379daf89ba09aa5(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return Any
-function N_0x0cf6cc51aa18f0f8(p0,p1,p2) end
+function N_0x0cf6cc51aa18f0f8(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -608,7 +670,8 @@ function N_0x0cf6cc51aa18f0f8(p0,p1,p2) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x023acab2dc9dc4a4() end
+function N_0x023acab2dc9dc4a4()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -619,7 +682,8 @@ function N_0x023acab2dc9dc4a4() end
 --@params p1 Any
 --@params p2 Any
 --@return Any
-function N_0x041c7f2a6c9894e6(p0,p1,p2) end
+function N_0x041c7f2a6c9894e6(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -630,7 +694,8 @@ function N_0x041c7f2a6c9894e6(p0,p1,p2) end
 --@params p1 Any*
 --@params p2 BOOL
 --@return Any
-function N_0x0b203b4afde53a4f(p0,p1,p2) end
+function N_0x0b203b4afde53a4f(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -639,7 +704,8 @@ function N_0x0b203b4afde53a4f(p0,p1,p2) end
 --@usage float undefined(Player player);
 --@params player Player
 --@return float
-function N_0x0e3a041ed6ac2b45(player) end
+function N_0x0e3a041ed6ac2b45(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -649,7 +715,8 @@ function N_0x0e3a041ed6ac2b45(player) end
 --@params p0 Any*
 --@params p1 Any*
 --@return void
-function N_0x0d77a82dc2d0da59(p0,p1) end
+function N_0x0d77a82dc2d0da59(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -661,7 +728,8 @@ function N_0x0d77a82dc2d0da59(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return BOOL
-function N_0x1171a97a3d3981b6(p0,p1,p2,p3) end
+function N_0x1171a97a3d3981b6(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -670,7 +738,8 @@ function N_0x1171a97a3d3981b6(p0,p1,p2,p3) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x1398582b7f72b3ed(p0) end
+function N_0x1398582b7f72b3ed(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -680,7 +749,8 @@ function N_0x1398582b7f72b3ed(p0) end
 --@params ped Ped
 --@params player Player
 --@return BOOL
-function N_0x0ede326d47cd0f3e(ped,player) end
+function N_0x0ede326d47cd0f3e(ped, player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -689,7 +759,8 @@ function N_0x0ede326d47cd0f3e(ped,player) end
 --@usage void undefined();
 
 --@return void
-function N_0x1153fa02a659051c() end
+function N_0x1153fa02a659051c()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -698,7 +769,8 @@ function N_0x1153fa02a659051c() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x0e4f77f7b9d74d84(p0) end
+function N_0x0e4f77f7b9d74d84(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -707,7 +779,8 @@ function N_0x0e4f77f7b9d74d84(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x144da052257ae7d8(p0) end
+function N_0x144da052257ae7d8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -716,7 +789,8 @@ function N_0x144da052257ae7d8(p0) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x13f1fcb111b820b0(p0) end
+function N_0x13f1fcb111b820b0(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -725,7 +799,8 @@ function N_0x13f1fcb111b820b0(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0x140e6a44870a11ce() end
+function N_0x140e6a44870a11ce()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -734,7 +809,8 @@ function N_0x140e6a44870a11ce() end
 --@usage int undefined();
 
 --@return int
-function N_0x155467aca0f55705() end
+function N_0x155467aca0f55705()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -743,7 +819,8 @@ function N_0x155467aca0f55705() end
 --@usage void undefined();
 
 --@return void
-function N_0x1888694923ef4591() end
+function N_0x1888694923ef4591()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -752,7 +829,8 @@ function N_0x1888694923ef4591() end
 --@usage BOOL undefined(Player player);
 --@params player Player
 --@return BOOL
-function N_0x16d3d49902f697bb(player) end
+function N_0x16d3d49902f697bb(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -761,7 +839,8 @@ function N_0x16d3d49902f697bb(player) end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0x162c23ca83ed0a62(p0) end
+function N_0x162c23ca83ed0a62(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -770,7 +849,8 @@ function N_0x162c23ca83ed0a62(p0) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x1d4dc17c38feaff0() end
+function N_0x1d4dc17c38feaff0()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -779,7 +859,8 @@ function N_0x1d4dc17c38feaff0() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x1f8e00fb18239600(p0) end
+function N_0x1f8e00fb18239600(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -788,7 +869,8 @@ function N_0x1f8e00fb18239600(p0) end
 --@usage BOOL undefined(Entity entity);
 --@params entity Entity
 --@return BOOL
-function N_0x21d04d7bc538c146(entity) end
+function N_0x21d04d7bc538c146(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -797,7 +879,8 @@ function N_0x21d04d7bc538c146(entity) end
 --@usage BOOL undefined(int p0);
 --@params p0 int
 --@return BOOL
-function N_0x1d610eb0fea716d9(p0) end
+function N_0x1d610eb0fea716d9(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -806,7 +889,8 @@ function N_0x1d610eb0fea716d9(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x2555cf7da5473794() end
+function N_0x2555cf7da5473794()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -815,7 +899,8 @@ function N_0x2555cf7da5473794() end
 --@usage void undefined();
 
 --@return void
-function N_0x17330ebf2f2124a8() end
+function N_0x17330ebf2f2124a8()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -824,7 +909,8 @@ function N_0x17330ebf2f2124a8() end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x14922ed3e38761f0() end
+function N_0x14922ed3e38761f0()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -833,7 +919,8 @@ function N_0x14922ed3e38761f0() end
 --@usage void undefined();
 
 --@return void
-function N_0x2302c0264ea58d31() end
+function N_0x2302c0264ea58d31()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -842,7 +929,8 @@ function N_0x2302c0264ea58d31() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x261e97ad7bcf3d40(p0) end
+function N_0x261e97ad7bcf3d40(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -851,7 +939,8 @@ function N_0x261e97ad7bcf3d40(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0x1f7bc3539f9e0224() end
+function N_0x1f7bc3539f9e0224()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -860,7 +949,8 @@ function N_0x1f7bc3539f9e0224() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x265559da40b3f327(p0) end
+function N_0x265559da40b3f327(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -870,7 +960,8 @@ function N_0x265559da40b3f327(p0) end
 --@params p0 Any
 --@params p1 BOOL
 --@return void
-function N_0x267c78c60e806b9a(p0,p1) end
+function N_0x267c78c60e806b9a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -879,7 +970,8 @@ function N_0x267c78c60e806b9a(p0,p1) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x24e4e51fc16305f9() end
+function N_0x24e4e51fc16305f9()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -888,7 +980,8 @@ function N_0x24e4e51fc16305f9() end
 --@usage void undefined();
 
 --@return void
-function N_0x25d990f8e0e3f13c() end
+function N_0x25d990f8e0e3f13c()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -897,7 +990,8 @@ function N_0x25d990f8e0e3f13c() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x26f07dd83a5f7f98() end
+function N_0x26f07dd83a5f7f98()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -906,7 +1000,8 @@ function N_0x26f07dd83a5f7f98() end
 --@usage void undefined();
 
 --@return void
-function N_0x283b6062a2c01e9b() end
+function N_0x283b6062a2c01e9b()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -916,7 +1011,8 @@ function N_0x283b6062a2c01e9b() end
 --@params p0 int
 --@params p1 char*
 --@return BOOL
-function N_0x2b51edbefc301339(p0,p1) end
+function N_0x2b51edbefc301339(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -931,7 +1027,8 @@ function N_0x2b51edbefc301339(p0,p1) end
 --@params p5 Any
 --@params p6 Any
 --@return Any
-function N_0x2b1c623823db0d9d(p0,p1,p2,p3,p4,p5,p6) end
+function N_0x2b1c623823db0d9d(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -940,7 +1037,8 @@ function N_0x2b1c623823db0d9d(p0,p1,p2,p3,p4,p5,p6) end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0x2d5dc831176d0114(p0) end
+function N_0x2d5dc831176d0114(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -949,7 +1047,8 @@ function N_0x2d5dc831176d0114(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0x265635150fb0d82e() end
+function N_0x265635150fb0d82e()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -959,7 +1058,8 @@ function N_0x265635150fb0d82e() end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function N_0x2da41ed6e1fcd7a5(p0,p1) end
+function N_0x2da41ed6e1fcd7a5(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -971,7 +1071,8 @@ function N_0x2da41ed6e1fcd7a5(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function N_0x2a5e0621dd815a9a(p0,p1,p2,p3) end
+function N_0x2a5e0621dd815a9a(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -986,7 +1087,8 @@ function N_0x2a5e0621dd815a9a(p0,p1,p2,p3) end
 --@params p5 Any
 --@params p6 Any
 --@return Any
-function N_0x2e4c123d1c8a710e(p0,p1,p2,p3,p4,p5,p6) end
+function N_0x2e4c123d1c8a710e(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -995,7 +1097,8 @@ function N_0x2e4c123d1c8a710e(p0,p1,p2,p3,p4,p5,p6) end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0x2e0bf682cc778d49(p0) end
+function N_0x2e0bf682cc778d49(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1004,7 +1107,8 @@ function N_0x2e0bf682cc778d49(p0) end
 --@usage Vector3 undefined(Entity entity);
 --@params entity Entity
 --@return Vector3
-function N_0x33de49edf4dde77a(entity) end
+function N_0x33de49edf4dde77a(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1013,7 +1117,8 @@ function N_0x33de49edf4dde77a(entity) end
 --@usage float undefined(Player player);
 --@params player Player
 --@return float
-function N_0x350c23949e43686c(player) end
+function N_0x350c23949e43686c(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1022,7 +1127,8 @@ function N_0x350c23949e43686c(player) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x2bf66d2e7414f686() end
+function N_0x2bf66d2e7414f686()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1031,7 +1137,8 @@ function N_0x2bf66d2e7414f686() end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x36391f397731595d(p0) end
+function N_0x36391f397731595d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1042,7 +1149,8 @@ function N_0x36391f397731595d(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x32ebd154cb6b8b99(p0,p1,p2) end
+function N_0x32ebd154cb6b8b99(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1051,7 +1159,8 @@ function N_0x32ebd154cb6b8b99(p0,p1,p2) end
 --@usage int undefined(Player player);
 --@params player Player
 --@return int
-function N_0x3765c3a3e8192e10(player) end
+function N_0x3765c3a3e8192e10(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1060,7 +1169,8 @@ function N_0x3765c3a3e8192e10(player) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x3855fb5eb2c5e8b2(p0) end
+function N_0x3855fb5eb2c5e8b2(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1069,7 +1179,8 @@ function N_0x3855fb5eb2c5e8b2(p0) end
 --@usage void undefined(int p0);
 --@params p0 int
 --@return void
-function N_0x367ef5e2f439b4c6(p0) end
+function N_0x367ef5e2f439b4c6(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1078,7 +1189,8 @@ function N_0x367ef5e2f439b4c6(p0) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x3c5c1e2c2ff814b1(toggle) end
+function N_0x3c5c1e2c2ff814b1(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1087,7 +1199,8 @@ function N_0x3c5c1e2c2ff814b1(toggle) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x39917e1b4cb0f911(p0) end
+function N_0x39917e1b4cb0f911(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1096,7 +1209,8 @@ function N_0x39917e1b4cb0f911(p0) end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0x3a3d5568af297cd5(p0) end
+function N_0x3a3d5568af297cd5(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1105,7 +1219,8 @@ function N_0x3a3d5568af297cd5(p0) end
 --@usage int undefined(Any p0);
 --@params p0 Any
 --@return int
-function N_0x37d5f739fd494675(p0) end
+function N_0x37d5f739fd494675(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1114,7 +1229,8 @@ function N_0x37d5f739fd494675(p0) end
 --@usage BOOL undefined(Any* p0);
 --@params p0 Any*
 --@return BOOL
-function N_0x3f9990bf5f22759c(p0) end
+function N_0x3f9990bf5f22759c(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1123,7 +1239,8 @@ function N_0x3f9990bf5f22759c(p0) end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0x3dbf2df0aeb7d289(p0) end
+function N_0x3dbf2df0aeb7d289(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1133,7 +1250,8 @@ function N_0x3dbf2df0aeb7d289(p0) end
 --@params netId int
 --@params state BOOL
 --@return void
-function N_0x3fa36981311fa4ff(netId,state) end
+function N_0x3fa36981311fa4ff(netId, state)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1143,7 +1261,8 @@ function N_0x3fa36981311fa4ff(netId,state) end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function N_0x4348bfda56023a2f(p0,p1) end
+function N_0x4348bfda56023a2f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1152,7 +1271,8 @@ function N_0x4348bfda56023a2f(p0,p1) end
 --@usage void undefined();
 
 --@return void
-function N_0x45a83257ed02d9bc() end
+function N_0x45a83257ed02d9bc()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1161,7 +1281,8 @@ function N_0x45a83257ed02d9bc() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x4811bbac21c5fcd5(p0) end
+function N_0x4811bbac21c5fcd5(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1170,7 +1291,8 @@ function N_0x4811bbac21c5fcd5(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x45e816772e93a9db() end
+function N_0x45e816772e93a9db()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1179,7 +1301,8 @@ function N_0x45e816772e93a9db() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x2ce9d95e4051aecd(p0) end
+function N_0x2ce9d95e4051aecd(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1188,7 +1311,8 @@ function N_0x2ce9d95e4051aecd(p0) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x4a9fde3a5a6d0437(p0) end
+function N_0x4a9fde3a5a6d0437(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1198,7 +1322,8 @@ function N_0x4a9fde3a5a6d0437(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function N_0x4ad490ae1536933b(p0,p1) end
+function N_0x4ad490ae1536933b(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1208,7 +1333,8 @@ function N_0x4ad490ae1536933b(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x4ba166079d658ed4(p0,p1) end
+function N_0x4ba166079d658ed4(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1217,7 +1343,8 @@ function N_0x4ba166079d658ed4(p0,p1) end
 --@usage void undefined();
 
 --@return void
-function N_0x4c2a9fdc22377075() end
+function N_0x4c2a9fdc22377075()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1226,7 +1353,8 @@ function N_0x4c2a9fdc22377075() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x4d02279c83be69fe() end
+function N_0x4d02279c83be69fe()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1235,7 +1363,8 @@ function N_0x4d02279c83be69fe() end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0x4df7cfff471a7fb1(p0) end
+function N_0x4df7cfff471a7fb1(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1244,7 +1373,8 @@ function N_0x4df7cfff471a7fb1(p0) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x4237e822315d8ba9() end
+function N_0x4237e822315d8ba9()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1253,7 +1383,8 @@ function N_0x4237e822315d8ba9() end
 --@usage void undefined();
 
 --@return void
-function N_0x444c4525ece0a4b9() end
+function N_0x444c4525ece0a4b9()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1262,7 +1393,8 @@ function N_0x444c4525ece0a4b9() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x53c10c8bd774f2c9() end
+function N_0x53c10c8bd774f2c9()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1274,7 +1406,8 @@ function N_0x53c10c8bd774f2c9() end
 --@params p2 Any*
 --@params p3 Any*
 --@return BOOL
-function N_0x5324a0e3e4ce3570(p0,p1,p2,p3) end
+function N_0x5324a0e3e4ce3570(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1283,7 +1416,8 @@ function N_0x5324a0e3e4ce3570(p0,p1,p2,p3) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x560b423d73015e77(p0) end
+function N_0x560b423d73015e77(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1292,7 +1426,8 @@ function N_0x560b423d73015e77(p0) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x5539c3ebf104a53a(p0) end
+function N_0x5539c3ebf104a53a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1302,7 +1437,8 @@ function N_0x5539c3ebf104a53a(p0) end
 --@params p0 Any
 --@params p1 Any*
 --@return BOOL
-function N_0x584770794d758c18(p0,p1) end
+function N_0x584770794d758c18(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1312,7 +1448,8 @@ function N_0x584770794d758c18(p0,p1) end
 --@params p0 char*
 --@params p1 char*
 --@return void
-function N_0x58c21165f6545892(p0,p1) end
+function N_0x58c21165f6545892(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1321,7 +1458,8 @@ function N_0x58c21165f6545892(p0,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x59d421683d31835a(p0) end
+function N_0x59d421683d31835a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1332,7 +1470,8 @@ function N_0x59d421683d31835a(p0) end
 --@params p1 Any
 --@params p2 BOOL
 --@return BOOL
-function N_0x595f028698072dd9(p0,p1,p2) end
+function N_0x595f028698072dd9(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1341,7 +1480,8 @@ function N_0x595f028698072dd9(p0,p1,p2) end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0x5a34cd9c3c5bec44(p0) end
+function N_0x5a34cd9c3c5bec44(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1352,7 +1492,8 @@ function N_0x5a34cd9c3c5bec44(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return Any
-function N_0x58cc181719256197(p0,p1,p2) end
+function N_0x58cc181719256197(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1361,7 +1502,8 @@ function N_0x58cc181719256197(p0,p1,p2) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x5b8ed3db018927b1(p0) end
+function N_0x5b8ed3db018927b1(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1370,7 +1512,8 @@ function N_0x5b8ed3db018927b1(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x59df79317f85a7e0() end
+function N_0x59df79317f85a7e0()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1379,7 +1522,8 @@ function N_0x59df79317f85a7e0() end
 --@usage void undefined();
 
 --@return void
-function N_0x5c497525f803486b() end
+function N_0x5c497525f803486b()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1388,7 +1532,8 @@ function N_0x5c497525f803486b() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x5ecd378ee64450ab(p0) end
+function N_0x5ecd378ee64450ab(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1397,7 +1542,8 @@ function N_0x5ecd378ee64450ab(p0) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x5d10b3795f3fc886() end
+function N_0x5d10b3795f3fc886()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1406,7 +1552,8 @@ function N_0x5d10b3795f3fc886() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x600f8cb31c7aab6e(p0) end
+function N_0x600f8cb31c7aab6e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1415,7 +1562,8 @@ function N_0x600f8cb31c7aab6e(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x5e3aa4ca2b6fb0ee(p0) end
+function N_0x5e3aa4ca2b6fb0ee(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1424,7 +1572,8 @@ function N_0x5e3aa4ca2b6fb0ee(p0) end
 --@usage int undefined();
 
 --@return int
-function N_0x617f49c2668e6155() end
+function N_0x617f49c2668e6155()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1433,7 +1582,8 @@ function N_0x617f49c2668e6155() end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x60edd13eb3ac1ff3() end
+function N_0x60edd13eb3ac1ff3()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1442,7 +1592,8 @@ function N_0x60edd13eb3ac1ff3() end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x59328eb08c5ceb2b() end
+function N_0x59328eb08c5ceb2b()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1451,7 +1602,8 @@ function N_0x59328eb08c5ceb2b() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x5ae17c6b0134b7f1() end
+function N_0x5ae17c6b0134b7f1()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1460,7 +1612,8 @@ function N_0x5ae17c6b0134b7f1() end
 --@usage int undefined();
 
 --@return int
-function N_0x638a3a81733086db() end
+function N_0x638a3a81733086db()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1469,7 +1622,8 @@ function N_0x638a3a81733086db() end
 --@usage Vector3 undefined(Entity entity);
 --@params entity Entity
 --@return Vector3
-function N_0x64d779659bc37b19(entity) end
+function N_0x64d779659bc37b19(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1478,7 +1632,8 @@ function N_0x64d779659bc37b19(entity) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x658500ae6d723a7e(p0) end
+function N_0x658500ae6d723a7e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1487,7 +1642,8 @@ function N_0x658500ae6d723a7e(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x67fc09bc554a75e5() end
+function N_0x67fc09bc554a75e5()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1496,7 +1652,8 @@ function N_0x67fc09bc554a75e5() end
 --@usage void undefined();
 
 --@return void
-function N_0x68103e2247887242() end
+function N_0x68103e2247887242()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1510,7 +1667,8 @@ function N_0x68103e2247887242() end
 --@params p4 Any
 --@params p5 BOOL
 --@return BOOL
-function N_0x692d58df40657e8c(p0,p1,p2,p3,p4,p5) end
+function N_0x692d58df40657e8c(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1519,7 +1677,8 @@ function N_0x692d58df40657e8c(p0,p1,p2,p3,p4,p5) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x6bff5f84102df80a(p0) end
+function N_0x6bff5f84102df80a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1528,7 +1687,8 @@ function N_0x6bff5f84102df80a(p0) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x6a5d89d7769a40d8(toggle) end
+function N_0x6a5d89d7769a40d8(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1537,7 +1697,8 @@ function N_0x6a5d89d7769a40d8(toggle) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x6fb7bb3607d27fa2() end
+function N_0x6fb7bb3607d27fa2()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1546,7 +1707,8 @@ function N_0x6fb7bb3607d27fa2() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x6fd992c4a1c1b986() end
+function N_0x6fd992c4a1c1b986()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1555,7 +1717,8 @@ function N_0x6fd992c4a1c1b986() end
 --@usage void undefined();
 
 --@return void
-function N_0x6ce50e47f5543d0c() end
+function N_0x6ce50e47f5543d0c()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1564,7 +1727,8 @@ function N_0x6ce50e47f5543d0c() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x702bc4d605522539(p0) end
+function N_0x702bc4d605522539(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1573,7 +1737,8 @@ function N_0x702bc4d605522539(p0) end
 --@usage BOOL undefined(Any* networkHandle);
 --@params networkHandle Any*
 --@return BOOL
-function N_0x71dc455f5cd1c2b1(networkHandle) end
+function N_0x71dc455f5cd1c2b1(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1582,7 +1747,8 @@ function N_0x71dc455f5cd1c2b1(networkHandle) end
 --@usage void undefined();
 
 --@return void
-function N_0x741a3d8380319a81() end
+function N_0x741a3d8380319a81()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1591,7 +1757,8 @@ function N_0x741a3d8380319a81() end
 --@usage BOOL undefined(int netId);
 --@params netId int
 --@return BOOL
-function N_0x7242f8b741ce1086(netId) end
+function N_0x7242f8b741ce1086(netId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1600,7 +1767,8 @@ function N_0x7242f8b741ce1086(netId) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x728c4cc7920cd102(p0) end
+function N_0x728c4cc7920cd102(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1609,7 +1777,8 @@ function N_0x728c4cc7920cd102(p0) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x722f5d28b61c5ea8(p0) end
+function N_0x722f5d28b61c5ea8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1618,7 +1787,8 @@ function N_0x722f5d28b61c5ea8(p0) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x742b58f723233ed9(p0) end
+function N_0x742b58f723233ed9(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1627,7 +1797,8 @@ function N_0x742b58f723233ed9(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x63b406d7884bfa95() end
+function N_0x63b406d7884bfa95()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1636,7 +1807,8 @@ function N_0x63b406d7884bfa95() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x74fb3e29e6d10fa9() end
+function N_0x74fb3e29e6d10fa9()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1645,7 +1817,8 @@ function N_0x74fb3e29e6d10fa9() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x77758139ec9b66c7(p0) end
+function N_0x77758139ec9b66c7(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1654,7 +1827,8 @@ function N_0x77758139ec9b66c7(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x77faddcbe3499df7(p0) end
+function N_0x77faddcbe3499df7(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1663,7 +1837,8 @@ function N_0x77faddcbe3499df7(p0) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x7ac752103856fb20(p0) end
+function N_0x7ac752103856fb20(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1672,7 +1847,8 @@ function N_0x7ac752103856fb20(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x76bf03fadbf154f5() end
+function N_0x76bf03fadbf154f5()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1682,7 +1858,8 @@ function N_0x76bf03fadbf154f5() end
 --@params p0 Any
 --@params p1 BOOL
 --@return BOOL
-function N_0x78321bea235fd8cd(p0,p1) end
+function N_0x78321bea235fd8cd(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1691,7 +1868,8 @@ function N_0x78321bea235fd8cd(p0,p1) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x793ff272d5b365f4() end
+function N_0x793ff272d5b365f4()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1700,7 +1878,8 @@ function N_0x793ff272d5b365f4() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x7808619f31ff22db() end
+function N_0x7808619f31ff22db()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1709,7 +1888,8 @@ function N_0x7808619f31ff22db() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x7d395ea61622e116(p0) end
+function N_0x7d395ea61622e116(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1718,7 +1898,8 @@ function N_0x7d395ea61622e116(p0) end
 --@usage int undefined();
 
 --@return int
-function N_0x754615490a029508() end
+function N_0x754615490a029508()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1727,7 +1908,8 @@ function N_0x754615490a029508() end
 --@usage BOOL undefined(int p0);
 --@params p0 int
 --@return BOOL
-function N_0x7fcc39c46c3c03bd(p0) end
+function N_0x7fcc39c46c3c03bd(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1738,7 +1920,8 @@ function N_0x7fcc39c46c3c03bd(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return Any
-function N_0x83660b734994124d(p0,p1,p2) end
+function N_0x83660b734994124d(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1748,7 +1931,8 @@ function N_0x83660b734994124d(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x838da0936a24ed4d(p0,p1) end
+function N_0x838da0936a24ed4d(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1757,7 +1941,8 @@ function N_0x838da0936a24ed4d(p0,p1) end
 --@usage void undefined();
 
 --@return void
-function N_0x83fe8d7229593017() end
+function N_0x83fe8d7229593017()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1766,7 +1951,8 @@ function N_0x83fe8d7229593017() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x88b588b41ff7868e() end
+function N_0x88b588b41ff7868e()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1775,7 +1961,8 @@ function N_0x88b588b41ff7868e() end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0x8806cebfabd3ce05(p0) end
+function N_0x8806cebfabd3ce05(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1784,7 +1971,8 @@ function N_0x8806cebfabd3ce05(p0) end
 --@usage BOOL undefined(Entity entity);
 --@params entity Entity
 --@return BOOL
-function N_0x7ef7649b64d7ff10(entity) end
+function N_0x7ef7649b64d7ff10(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1796,7 +1984,8 @@ function N_0x7ef7649b64d7ff10(entity) end
 --@params p2 Any
 --@params p3 Any
 --@return Any
-function N_0x8b4ffc790ca131ef(p0,p1,p2,p3) end
+function N_0x8b4ffc790ca131ef(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1805,7 +1994,8 @@ function N_0x8b4ffc790ca131ef(p0,p1,p2,p3) end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0x8c8d2739ba44af0f(p0) end
+function N_0x8c8d2739ba44af0f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1814,7 +2004,8 @@ function N_0x8c8d2739ba44af0f(p0) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x94538037ee44f5cf(p0) end
+function N_0x94538037ee44f5cf(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1823,7 +2014,8 @@ function N_0x94538037ee44f5cf(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x906ca41a4b74eca4() end
+function N_0x906ca41a4b74eca4()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1832,7 +2024,8 @@ function N_0x906ca41a4b74eca4() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x8b0c2964ba471961() end
+function N_0x8b0c2964ba471961()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1843,7 +2036,8 @@ function N_0x8b0c2964ba471961() end
 --@params p1 Any
 --@params p2 BOOL
 --@return BOOL
-function N_0x83f28ce49fbbffba(p0,p1,p2) end
+function N_0x83f28ce49fbbffba(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1852,7 +2046,8 @@ function N_0x83f28ce49fbbffba(p0,p1,p2) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x94a8394d150b013a() end
+function N_0x94a8394d150b013a()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1861,7 +2056,8 @@ function N_0x94a8394d150b013a() end
 --@usage void undefined();
 
 --@return void
-function N_0x9465e683b12d3f6b() end
+function N_0x9465e683b12d3f6b()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1870,7 +2066,8 @@ function N_0x9465e683b12d3f6b() end
 --@usage int undefined();
 
 --@return int
-function N_0x7db53b37a2f211a0() end
+function N_0x7db53b37a2f211a0()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1879,7 +2076,8 @@ function N_0x7db53b37a2f211a0() end
 --@usage Any undefined();
 
 --@return Any
-function N_0x941e5306bcd7c2c7() end
+function N_0x941e5306bcd7c2c7()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1889,7 +2087,8 @@ function N_0x941e5306bcd7c2c7() end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x95baf97c82464629(p0,p1) end
+function N_0x95baf97c82464629(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1898,7 +2097,8 @@ function N_0x95baf97c82464629(p0,p1) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x9fedf86898f100e9() end
+function N_0x9fedf86898f100e9()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1907,7 +2107,8 @@ function N_0x9fedf86898f100e9() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x973d76aa760a6cb6(p0) end
+function N_0x973d76aa760a6cb6(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1916,7 +2117,8 @@ function N_0x973d76aa760a6cb6(p0) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x9d7afcbf21c51712(toggle) end
+function N_0x9d7afcbf21c51712(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1926,7 +2128,8 @@ function N_0x9d7afcbf21c51712(toggle) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xa2a707979fe754dc(p0,p1) end
+function N_0xa2a707979fe754dc(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1935,7 +2138,8 @@ function N_0xa2a707979fe754dc(p0,p1) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0xa2e9c1ab8a92e8cd(toggle) end
+function N_0xa2e9c1ab8a92e8cd(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1944,7 +2148,8 @@ function N_0xa2e9c1ab8a92e8cd(toggle) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xa0fa4ec6a05da44e() end
+function N_0xa0fa4ec6a05da44e()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1962,7 +2167,8 @@ function N_0xa0fa4ec6a05da44e() end
 --@params p8 Any
 --@params p9 Any
 --@return void
-function N_0xa5eafe473e45c442(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function N_0xa5eafe473e45c442(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1971,7 +2177,8 @@ function N_0xa5eafe473e45c442(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xa6fceccf4721d679(p0) end
+function N_0xa6fceccf4721d679(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1983,7 +2190,8 @@ function N_0xa6fceccf4721d679(p0) end
 --@params p2 Any*
 --@params p3 Any*
 --@return BOOL
-function N_0xa7862bc5ed1dfd7e(p0,p1,p2,p3) end
+function N_0xa7862bc5ed1dfd7e(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1992,7 +2200,8 @@ function N_0xa7862bc5ed1dfd7e(p0,p1,p2,p3) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xa12d3a5a3753cc23() end
+function N_0xa12d3a5a3753cc23()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2002,7 +2211,8 @@ function N_0xa12d3a5a3753cc23() end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xa7c511fa1c5bda38(p0,p1) end
+function N_0xa7c511fa1c5bda38(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2011,7 +2221,8 @@ function N_0xa7c511fa1c5bda38(p0,p1) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xa8acb6459542a8c8() end
+function N_0xa8acb6459542a8c8()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2020,7 +2231,8 @@ function N_0xa8acb6459542a8c8() end
 --@usage Any undefined();
 
 --@return Any
-function N_0xa306f470d1660581() end
+function N_0xa306f470d1660581()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2029,7 +2241,8 @@ function N_0xa306f470d1660581() end
 --@usage void undefined();
 
 --@return void
-function N_0x966dd84fb6a46017() end
+function N_0x966dd84fb6a46017()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2038,7 +2251,8 @@ function N_0x966dd84fb6a46017() end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0xaeab987727c5a8a4(p0) end
+function N_0xaeab987727c5a8a4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2049,7 +2263,8 @@ function N_0xaeab987727c5a8a4(p0) end
 --@params p1 float*
 --@params p2 float*
 --@return void
-function N_0xadb57e5b663cca8b(p0,p1,p2) end
+function N_0xadb57e5b663cca8b(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2058,7 +2273,8 @@ function N_0xadb57e5b663cca8b(p0,p1,p2) end
 --@usage BOOL undefined(Entity entity);
 --@params entity Entity
 --@return BOOL
-function N_0xb07d3185e11657a5(entity) end
+function N_0xb07d3185e11657a5(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2068,7 +2284,8 @@ function N_0xb07d3185e11657a5(entity) end
 --@params p0 Any
 --@params p1 Any
 --@return BOOL
-function N_0xaeef48cdf5b6ce7c(p0,p1) end
+function N_0xaeef48cdf5b6ce7c(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2077,7 +2294,8 @@ function N_0xaeef48cdf5b6ce7c(p0,p1) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xaedf1bc1c133d6e3() end
+function N_0xaedf1bc1c133d6e3()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2086,7 +2304,8 @@ function N_0xaedf1bc1c133d6e3() end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xb309ebea797e001f(p0) end
+function N_0xb309ebea797e001f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2095,7 +2314,8 @@ function N_0xb309ebea797e001f(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xb5d3453c98456528() end
+function N_0xb5d3453c98456528()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2104,7 +2324,8 @@ function N_0xb5d3453c98456528() end
 --@usage Vector3 undefined();
 
 --@return Vector3
-function N_0xaa5fafcd2c5f5e47() end
+function N_0xaa5fafcd2c5f5e47()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2114,7 +2335,8 @@ function N_0xaa5fafcd2c5f5e47() end
 --@params p0 Any*
 --@params p1 Any*
 --@return BOOL
-function N_0xb746d20b17f2a229(p0,p1) end
+function N_0xb746d20b17f2a229(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2123,7 +2345,8 @@ function N_0xb746d20b17f2a229(p0,p1) end
 --@usage void undefined();
 
 --@return void
-function N_0xb13e88e655e5a3bc() end
+function N_0xb13e88e655e5a3bc()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2133,7 +2356,8 @@ function N_0xb13e88e655e5a3bc() end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xba7f0b77d80a4eb7(p0,p1) end
+function N_0xba7f0b77d80a4eb7(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2142,7 +2366,8 @@ function N_0xba7f0b77d80a4eb7(p0,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xb606e6cc59664972(p0) end
+function N_0xb606e6cc59664972(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2151,7 +2376,8 @@ function N_0xb606e6cc59664972(p0) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0xbdb6f89c729cf388() end
+function N_0xbdb6f89c729cf388()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2160,7 +2386,8 @@ function N_0xbdb6f89c729cf388() end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0xbd545d44cce70597() end
+function N_0xbd545d44cce70597()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2169,7 +2396,8 @@ function N_0xbd545d44cce70597() end
 --@usage Any undefined();
 
 --@return Any
-function N_0xc32ea7a2f6ca7557() end
+function N_0xc32ea7a2f6ca7557()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2178,7 +2406,8 @@ function N_0xc32ea7a2f6ca7557() end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0xb37e4e6a2388ca7b() end
+function N_0xb37e4e6a2388ca7b()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2188,7 +2417,8 @@ function N_0xb37e4e6a2388ca7b() end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function N_0xc434133d9ba52777(p0,p1) end
+function N_0xc434133d9ba52777(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2197,7 +2427,8 @@ function N_0xc434133d9ba52777(p0,p1) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0xc42dd763159f3461() end
+function N_0xc42dd763159f3461()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2206,7 +2437,8 @@ function N_0xc42dd763159f3461() end
 --@usage Any undefined();
 
 --@return Any
-function N_0xba9775570db788cf() end
+function N_0xba9775570db788cf()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2215,7 +2447,8 @@ function N_0xba9775570db788cf() end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0xc571d0e77d8bbc29() end
+function N_0xc571d0e77d8bbc29()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2225,7 +2458,8 @@ function N_0xc571d0e77d8bbc29() end
 --@params player Player
 --@params p1 BOOL
 --@return void
-function N_0xbf22e0f32968e967(player,p1) end
+function N_0xbf22e0f32968e967(player, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2234,7 +2468,8 @@ function N_0xbf22e0f32968e967(player,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xc9b43a33d09cada7(p0) end
+function N_0xc9b43a33d09cada7(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2243,7 +2478,8 @@ function N_0xc9b43a33d09cada7(p0) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0xc505036a35afd01b(toggle) end
+function N_0xc505036a35afd01b(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2252,7 +2488,8 @@ function N_0xc505036a35afd01b(toggle) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xc7abac5de675ee3b() end
+function N_0xc7abac5de675ee3b()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2261,7 +2498,8 @@ function N_0xc7abac5de675ee3b() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xca575c391fea25cc(p0) end
+function N_0xca575c391fea25cc(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2270,7 +2508,8 @@ function N_0xca575c391fea25cc(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xc87e740d9f3872cc() end
+function N_0xc87e740d9f3872cc()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2279,7 +2518,8 @@ function N_0xc87e740d9f3872cc() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0xcfeb46dcd7d8d5eb(p0) end
+function N_0xcfeb46dcd7d8d5eb(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2288,7 +2528,8 @@ function N_0xcfeb46dcd7d8d5eb(p0) end
 --@usage void _NETWORK_BLOCK_INVITES_2(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkBlockInvites_2(toggle) end
+function NetworkBlockInvites_2(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2297,7 +2538,8 @@ function NetworkBlockInvites_2(toggle) end
 --@usage float undefined(Player player);
 --@params player Player
 --@return float
-function N_0xd414be129bb81b32(player) end
+function N_0xd414be129bb81b32(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2306,7 +2548,8 @@ function N_0xd414be129bb81b32(player) end
 --@usage void undefined(int p0);
 --@params p0 int
 --@return void
-function N_0xcae55f48d3d7875c(p0) end
+function N_0xcae55f48d3d7875c(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2315,7 +2558,8 @@ function N_0xcae55f48d3d7875c(p0) end
 --@usage void undefined(Entity entity);
 --@params entity Entity
 --@return void
-function N_0xcd71a4ecab22709e(entity) end
+function N_0xcd71a4ecab22709e(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2324,7 +2568,8 @@ function N_0xcd71a4ecab22709e(entity) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xd39b3fff8ffdd5bf(p0) end
+function N_0xd39b3fff8ffdd5bf(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2333,7 +2578,8 @@ function N_0xd39b3fff8ffdd5bf(p0) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0xd313de83394af134() end
+function N_0xd313de83394af134()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2343,7 +2589,8 @@ function N_0xd313de83394af134() end
 --@params p0 Any*
 --@params p1 Any
 --@return int
-function N_0xd66c9e72b3cc4982(p0,p1) end
+function N_0xd66c9e72b3cc4982(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2352,7 +2599,8 @@ function N_0xd66c9e72b3cc4982(p0,p1) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xe16aa70ce9beedc3(p0) end
+function N_0xe16aa70ce9beedc3(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2361,7 +2609,8 @@ function N_0xe16aa70ce9beedc3(p0) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0xd7b6c73cad419bcf(p0) end
+function N_0xd7b6c73cad419bcf(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2370,7 +2619,8 @@ function N_0xd7b6c73cad419bcf(p0) end
 --@usage BOOL undefined(int p0);
 --@params p0 int
 --@return BOOL
-function N_0xe26ccff8094d8c74(p0) end
+function N_0xe26ccff8094d8c74(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2385,7 +2635,8 @@ function N_0xe26ccff8094d8c74(p0) end
 --@params p5 Any
 --@params p6 Any
 --@return void
-function N_0xe42d626eec94e5d9(p0,p1,p2,p3,p4,p5,p6) end
+function N_0xe42d626eec94e5d9(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2394,7 +2645,8 @@ function N_0xe42d626eec94e5d9(p0,p1,p2,p3,p4,p5,p6) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xebcab9e5048434f4() end
+function N_0xebcab9e5048434f4()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2404,7 +2656,8 @@ function N_0xebcab9e5048434f4() end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xe6717e652b8c8d8a(p0,p1) end
+function N_0xe6717e652b8c8d8a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2413,7 +2666,8 @@ function N_0xe6717e652b8c8d8a(p0,p1) end
 --@usage void undefined();
 
 --@return void
-function N_0xebf8284d8cadeb53() end
+function N_0xebf8284d8cadeb53()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2422,7 +2676,8 @@ function N_0xebf8284d8cadeb53() end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xdeb2b99a1af1a2a6(p0) end
+function N_0xdeb2b99a1af1a2a6(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2431,7 +2686,8 @@ function N_0xdeb2b99a1af1a2a6(p0) end
 --@usage BOOL undefined(Any p0);
 --@params p0 Any
 --@return BOOL
-function N_0xebfa8d50addc54c4(p0) end
+function N_0xebfa8d50addc54c4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2440,7 +2696,8 @@ function N_0xebfa8d50addc54c4(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xf1b84178f8674195(p0) end
+function N_0xf1b84178f8674195(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2449,7 +2706,8 @@ function N_0xf1b84178f8674195(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xf287f506767cc8a9() end
+function N_0xf287f506767cc8a9()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2458,7 +2716,8 @@ function N_0xf287f506767cc8a9() end
 --@usage void undefined();
 
 --@return void
-function N_0xf083835b70ba9bfe() end
+function N_0xf083835b70ba9bfe()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2467,7 +2726,8 @@ function N_0xf083835b70ba9bfe() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0xf98dde0a8ed09323(p0) end
+function N_0xf98dde0a8ed09323(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2476,7 +2736,8 @@ function N_0xf98dde0a8ed09323(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xf12e6cd06c73d69e() end
+function N_0xf12e6cd06c73d69e()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2485,7 +2746,8 @@ function N_0xf12e6cd06c73d69e() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xf6f4383b7c92f11a(p0) end
+function N_0xf6f4383b7c92f11a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2494,7 +2756,8 @@ function N_0xf6f4383b7c92f11a(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0xfac18e7356bd3210() end
+function N_0xfac18e7356bd3210()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2503,7 +2766,8 @@ function N_0xfac18e7356bd3210() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xf49abc20d8552257(p0) end
+function N_0xf49abc20d8552257(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2512,7 +2776,8 @@ function N_0xf49abc20d8552257(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0xfa2888e3833c8e96() end
+function N_0xfa2888e3833c8e96()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2522,7 +2787,8 @@ function N_0xfa2888e3833c8e96() end
 --@params p0 int
 --@params p1 Any*
 --@return Any
-function N_0xfb1f9381e80fa13f(p0,p1) end
+function N_0xfb1f9381e80fa13f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2531,7 +2797,8 @@ function N_0xfb1f9381e80fa13f(p0,p1) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0xfd75dabc0957bf33(p0) end
+function N_0xfd75dabc0957bf33(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2540,7 +2807,8 @@ function N_0xfd75dabc0957bf33(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xf9b83b77929d8863() end
+function N_0xf9b83b77929d8863()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2551,7 +2819,8 @@ function N_0xf9b83b77929d8863() end
 --@params p1 int
 --@params p2 Any
 --@return void
-function N_0xfae628f1e9adb239(p0,p1,p2) end
+function N_0xfae628f1e9adb239(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2560,7 +2829,8 @@ function N_0xfae628f1e9adb239(p0,p1,p2) end
 --@usage Ped NET_TO_PED(int netHandle);
 --@params netHandle int
 --@return Ped
-function NetToPed(netHandle) end
+function NetToPed(netHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2569,7 +2839,8 @@ function NetToPed(netHandle) end
 --@usage Entity NET_TO_ENT(int netHandle);
 --@params netHandle int
 --@return Entity
-function NetToEnt(netHandle) end
+function NetToEnt(netHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2578,7 +2849,8 @@ function NetToEnt(netHandle) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xffe1e5b792d92b34() end
+function N_0xffe1e5b792d92b34()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2587,7 +2859,8 @@ function N_0xffe1e5b792d92b34() end
 --@usage Vehicle NET_TO_VEH(int netHandle);
 --@params netHandle int
 --@return Vehicle
-function NetToVeh(netHandle) end
+function NetToVeh(netHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2597,7 +2870,8 @@ function NetToVeh(netHandle) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xfb680d403909dc70(p0,p1) end
+function N_0xfb680d403909dc70(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2606,7 +2880,8 @@ function N_0xfb680d403909dc70(p0,p1) end
 --@usage BOOL NETWORK_ACCEPT_PRESENCE_INVITE(Any p0);
 --@params p0 Any
 --@return BOOL
-function NetworkAcceptPresenceInvite(p0) end
+function NetworkAcceptPresenceInvite(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2615,7 +2890,8 @@ function NetworkAcceptPresenceInvite(p0) end
 --@usage BOOL _NETWORK_ACCEPT_INVITE();
 
 --@return BOOL
-function NetworkAcceptInvite() end
+function NetworkAcceptInvite()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2625,7 +2901,8 @@ function NetworkAcceptInvite() end
 --@params tunableContext Hash
 --@params tunableName Hash
 --@return BOOL
-function NetworkAccessTunableBoolHash(tunableContext,tunableName) end
+function NetworkAccessTunableBoolHash(tunableContext, tunableName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2635,7 +2912,8 @@ function NetworkAccessTunableBoolHash(tunableContext,tunableName) end
 --@params tunableContext char*
 --@params tunableName char*
 --@return BOOL
-function NetworkAccessTunableBool(tunableContext,tunableName) end
+function NetworkAccessTunableBool(tunableContext, tunableName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2646,7 +2924,8 @@ function NetworkAccessTunableBool(tunableContext,tunableName) end
 --@params tunableName Hash
 --@params value float*
 --@return BOOL
-function NetworkAccessTunableFloatHash(tunableContext,tunableName,value) end
+function NetworkAccessTunableFloatHash(tunableContext, tunableName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2655,7 +2934,8 @@ function NetworkAccessTunableFloatHash(tunableContext,tunableName,value) end
 --@usage void undefined();
 
 --@return void
-function N_0xf814fec6a19fd6e0() end
+function N_0xf814fec6a19fd6e0()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2664,7 +2944,8 @@ function N_0xf814fec6a19fd6e0() end
 --@usage Object NET_TO_OBJ(int netHandle);
 --@params netHandle int
 --@return Object
-function NetToObj(netHandle) end
+function NetToObj(netHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2679,7 +2960,8 @@ function NetToObj(netHandle) end
 --@params p5 float
 --@params p6 float
 --@return Any
-function NetworkAddEntityAngledArea(p0,p1,p2,p3,p4,p5,p6) end
+function NetworkAddEntityAngledArea(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2690,7 +2972,8 @@ function NetworkAddEntityAngledArea(p0,p1,p2,p3,p4,p5,p6) end
 --@params tunableName char*
 --@params value int*
 --@return BOOL
-function NetworkAccessTunableInt(tunableContext,tunableName,value) end
+function NetworkAccessTunableInt(tunableContext, tunableName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2701,7 +2984,8 @@ function NetworkAccessTunableInt(tunableContext,tunableName,value) end
 --@params tunableName Hash
 --@params value int*
 --@return BOOL
-function NetworkAccessTunableIntHash(tunableContext,tunableName,value) end
+function NetworkAccessTunableIntHash(tunableContext, tunableName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2716,7 +3000,8 @@ function NetworkAccessTunableIntHash(tunableContext,tunableName,value) end
 --@params speedMulitiplier float
 --@params flag int
 --@return void
-function NetworkAddEntityToSynchronisedScene(entity,netScene,animDict,animName,speed,speedMulitiplier,flag) end
+function NetworkAddEntityToSynchronisedScene(entity, netScene, animDict, animName, speed, speedMulitiplier, flag)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2730,7 +3015,8 @@ function NetworkAddEntityToSynchronisedScene(entity,netScene,animDict,animName,s
 --@params p4 float
 --@params p5 float
 --@return Any
-function NetworkAddEntityDisplayedBoundaries(p0,p1,p2,p3,p4,p5) end
+function NetworkAddEntityDisplayedBoundaries(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2739,7 +3025,8 @@ function NetworkAddEntityDisplayedBoundaries(p0,p1,p2,p3,p4,p5) end
 --@usage Any NETWORK_ACTION_FOLLOW_INVITE();
 
 --@return Any
-function NetworkActionFollowInvite() end
+function NetworkActionFollowInvite()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2749,7 +3036,8 @@ function NetworkActionFollowInvite() end
 --@params p0 int*
 --@params p1 int
 --@return void
-function NetworkAddFollowers(p0,p1) end
+function NetworkAddFollowers(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2759,7 +3047,8 @@ function NetworkAddFollowers(p0,p1) end
 --@params networkHandle int*
 --@params message char*
 --@return BOOL
-function NetworkAddFriend(networkHandle,message) end
+function NetworkAddFriend(networkHandle, message)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2773,7 +3062,8 @@ function NetworkAddFriend(networkHandle,message) end
 --@params p4 float
 --@params p5 float
 --@return Any
-function NetworkAddEntityArea(p0,p1,p2,p3,p4,p5) end
+function NetworkAddEntityArea(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2791,7 +3081,8 @@ function NetworkAddEntityArea(p0,p1,p2,p3,p4,p5) end
 --@params playbackRate float
 --@params p9 Any
 --@return void
-function NetworkAddPedToSynchronisedScene(ped,netScene,animDict,animnName,blendInSpeed,blendOutSpeed,duration,flag,playbackRate,p9) end
+function NetworkAddPedToSynchronisedScene(ped, netScene, animDict, animnName, blendInSpeed, blendOutSpeed, duration, flag, playbackRate, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2800,7 +3091,8 @@ function NetworkAddPedToSynchronisedScene(ped,netScene,animDict,animnName,blendI
 --@usage BOOL _NETWORK_ALLOCATE_TUNABLES_REGISTRATION_DATA_MAP();
 
 --@return BOOL
-function NetworkAllocateTunablesRegistrationDataMap() end
+function NetworkAllocateTunablesRegistrationDataMap()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2809,7 +3101,8 @@ function NetworkAllocateTunablesRegistrationDataMap() end
 --@usage BOOL NETWORK_AM_I_BLOCKED_BY_GAMER(Any* networkHandle);
 --@params networkHandle Any*
 --@return BOOL
-function NetworkAmIBlockedByGamer(networkHandle) end
+function NetworkAmIBlockedByGamer(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2818,7 +3111,8 @@ function NetworkAmIBlockedByGamer(networkHandle) end
 --@usage BOOL NETWORK_AM_I_BLOCKED_BY_PLAYER(Player player);
 --@params player Player
 --@return BOOL
-function NetworkAmIBlockedByPlayer(player) end
+function NetworkAmIBlockedByPlayer(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2829,7 +3123,8 @@ function NetworkAmIBlockedByPlayer(player) end
 --@params tunableName char*
 --@params value float*
 --@return BOOL
-function NetworkAccessTunableFloat(tunableContext,tunableName,value) end
+function NetworkAccessTunableFloat(tunableContext, tunableName, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2838,7 +3133,8 @@ function NetworkAccessTunableFloat(tunableContext,tunableName,value) end
 --@usage BOOL NETWORK_AM_I_MUTED_BY_PLAYER(Player player);
 --@params player Player
 --@return BOOL
-function NetworkAmIMutedByPlayer(player) end
+function NetworkAmIMutedByPlayer(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2848,7 +3144,8 @@ function NetworkAmIMutedByPlayer(player) end
 --@params ped Ped
 --@params p1 int
 --@return void
-function NetworkApplyPedScarData(ped,p1) end
+function NetworkApplyPedScarData(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2858,7 +3155,8 @@ function NetworkApplyPedScarData(ped,p1) end
 --@params ped Ped
 --@params player Player
 --@return BOOL
-function NetworkApplyCachedPlayerHeadBlendData(ped,player) end
+function NetworkApplyCachedPlayerHeadBlendData(ped, player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2868,7 +3166,8 @@ function NetworkApplyCachedPlayerHeadBlendData(ped,player) end
 --@params p0 int
 --@params p1 int
 --@return void
-function NetworkApplyTransitionParameter(p0,p1) end
+function NetworkApplyTransitionParameter(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2879,7 +3178,8 @@ function NetworkApplyTransitionParameter(p0,p1) end
 --@params string char*
 --@params p2 BOOL
 --@return void
-function NetworkApplyTransitionParameterString(p0,string,p2) end
+function NetworkApplyTransitionParameterString(p0, string, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2890,7 +3190,8 @@ function NetworkApplyTransitionParameterString(p0,string,p2) end
 --@params y float
 --@params z float
 --@return BOOL
-function NetworkApplyVoiceProximityOverride(x,y,z) end
+function NetworkApplyVoiceProximityOverride(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2901,7 +3202,8 @@ function NetworkApplyVoiceProximityOverride(x,y,z) end
 --@params entity Entity
 --@params bone int
 --@return void
-function NetworkAttachSynchronisedSceneToEntity(netScene,entity,bone) end
+function NetworkAttachSynchronisedSceneToEntity(netScene, entity, bone)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2910,7 +3212,8 @@ function NetworkAttachSynchronisedSceneToEntity(netScene,entity,bone) end
 --@usage BOOL NETWORK_AM_I_MUTED_BY_GAMER(Any* networkHandle);
 --@params networkHandle Any*
 --@return BOOL
-function NetworkAmIMutedByGamer(networkHandle) end
+function NetworkAmIMutedByGamer(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2919,7 +3222,8 @@ function NetworkAmIMutedByGamer(networkHandle) end
 --@usage void NETWORK_BAIL();
 
 --@return void
-function NetworkBail() end
+function NetworkBail()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2929,7 +3233,8 @@ function NetworkBail() end
 --@params netHandle1 int*
 --@params netHandle2 int*
 --@return BOOL
-function NetworkAreHandlesTheSame(netHandle1,netHandle2) end
+function NetworkAreHandlesTheSame(netHandle1, netHandle2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2938,7 +3243,8 @@ function NetworkAreHandlesTheSame(netHandle1,netHandle2) end
 --@usage void NETWORK_BLOCK_INVITES(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkBlockInvites(toggle) end
+function NetworkBlockInvites(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2947,7 +3253,8 @@ function NetworkBlockInvites(toggle) end
 --@usage BOOL NETWORK_ARE_TRANSITION_DETAILS_VALID(Any p0);
 --@params p0 Any
 --@return BOOL
-function NetworkAreTransitionDetailsValid(p0) end
+function NetworkAreTransitionDetailsValid(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2956,7 +3263,8 @@ function NetworkAreTransitionDetailsValid(p0) end
 --@usage void NETWORK_CACHE_LOCAL_PLAYER_HEAD_BLEND_DATA();
 
 --@return void
-function NetworkCacheLocalPlayerHeadBlendData() end
+function NetworkCacheLocalPlayerHeadBlendData()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2965,7 +3273,8 @@ function NetworkCacheLocalPlayerHeadBlendData() end
 --@usage BOOL NETWORK_CAN_BAIL();
 
 --@return BOOL
-function NetworkCanBail() end
+function NetworkCanBail()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2974,7 +3283,8 @@ function NetworkCanBail() end
 --@usage void NETWORK_BAIL_TRANSITION();
 
 --@return void
-function NetworkBailTransition() end
+function NetworkBailTransition()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2983,7 +3293,8 @@ function NetworkBailTransition() end
 --@usage BOOL NETWORK_CAN_ACCESS_MULTIPLAYER(int* loadingState);
 --@params loadingState int*
 --@return BOOL
-function NetworkCanAccessMultiplayer(loadingState) end
+function NetworkCanAccessMultiplayer(loadingState)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2992,7 +3303,8 @@ function NetworkCanAccessMultiplayer(loadingState) end
 --@usage BOOL NETWORK_CAN_COMMUNICATE_WITH_GAMER(int* networkHandle);
 --@params networkHandle int*
 --@return BOOL
-function NetworkCanCommunicateWithGamer(networkHandle) end
+function NetworkCanCommunicateWithGamer(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3001,7 +3313,8 @@ function NetworkCanCommunicateWithGamer(networkHandle) end
 --@usage BOOL _NETWORK_CAN_GAMER_PLAY_MULTIPLAYER_WITH_ME(Any* networkHandle);
 --@params networkHandle Any*
 --@return BOOL
-function NetworkCanGamerPlayMultiplayerWithMe(networkHandle) end
+function NetworkCanGamerPlayMultiplayerWithMe(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3010,7 +3323,8 @@ function NetworkCanGamerPlayMultiplayerWithMe(networkHandle) end
 --@usage void _NETWORK_BLOCK_KICKED_PLAYERS(BOOL p0);
 --@params p0 BOOL
 --@return void
-function NetworkBlockKickedPlayers(p0) end
+function NetworkBlockKickedPlayers(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3019,7 +3333,8 @@ function NetworkBlockKickedPlayers(p0) end
 --@usage BOOL _NETWORK_CAN_COMMUNICATE_WITH_GAMER_2(Any* networkHandle);
 --@params networkHandle Any*
 --@return BOOL
-function NetworkCanCommunicateWithGamer_2(networkHandle) end
+function NetworkCanCommunicateWithGamer_2(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3028,7 +3343,8 @@ function NetworkCanCommunicateWithGamer_2(networkHandle) end
 --@usage BOOL NETWORK_CAN_SESSION_END();
 
 --@return BOOL
-function NetworkCanSessionEnd() end
+function NetworkCanSessionEnd()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3037,7 +3353,8 @@ function NetworkCanSessionEnd() end
 --@usage BOOL _NETWORK_CAN_PLAY_MULTIPLAYER_WITH_GAMER(Any* networkHandle);
 --@params networkHandle Any*
 --@return BOOL
-function NetworkCanPlayMultiplayerWithGamer(networkHandle) end
+function NetworkCanPlayMultiplayerWithGamer(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3046,7 +3363,8 @@ function NetworkCanPlayMultiplayerWithGamer(networkHandle) end
 --@usage void NETWORK_CANCEL_RESPAWN_SEARCH();
 
 --@return void
-function NetworkCancelRespawnSearch() end
+function NetworkCancelRespawnSearch()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3055,7 +3373,8 @@ function NetworkCancelRespawnSearch() end
 --@usage BOOL _NETWORK_CAN_VIEW_GAMER_USER_CONTENT(Any* networkHandle);
 --@params networkHandle Any*
 --@return BOOL
-function NetworkCanViewGamerUserContent(networkHandle) end
+function NetworkCanViewGamerUserContent(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3065,7 +3384,8 @@ function NetworkCanViewGamerUserContent(networkHandle) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function NetworkChangeTransitionSlots(p0,p1) end
+function NetworkChangeTransitionSlots(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3075,7 +3395,8 @@ function NetworkChangeTransitionSlots(p0,p1) end
 --@params p0 Any
 --@params p1 Any*
 --@return BOOL
-function NetworkCheckDataManagerSucceededForHandle(p0,p1) end
+function NetworkCheckDataManagerSucceededForHandle(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3084,7 +3405,8 @@ function NetworkCheckDataManagerSucceededForHandle(p0,p1) end
 --@usage BOOL NETWORK_CAN_ENTER_MULTIPLAYER();
 
 --@return BOOL
-function NetworkCanEnterMultiplayer() end
+function NetworkCanEnterMultiplayer()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3094,7 +3416,8 @@ function NetworkCanEnterMultiplayer() end
 --@params animDict char*
 --@params animName char*
 --@return BOOL
-function NetworkClanAnimation(animDict,animName) end
+function NetworkClanAnimation(animDict, animName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3103,7 +3426,8 @@ function NetworkClanAnimation(animDict,animName) end
 --@usage BOOL NETWORK_CLAN_DOWNLOAD_MEMBERSHIP_PENDING(Any* p0);
 --@params p0 Any*
 --@return BOOL
-function NetworkClanDownloadMembershipPending(p0) end
+function NetworkClanDownloadMembershipPending(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3112,7 +3436,8 @@ function NetworkClanDownloadMembershipPending(p0) end
 --@usage BOOL NETWORK_CLAN_DOWNLOAD_MEMBERSHIP(int* networkHandle);
 --@params networkHandle int*
 --@return BOOL
-function NetworkClanDownloadMembership(networkHandle) end
+function NetworkClanDownloadMembership(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3122,7 +3447,8 @@ function NetworkClanDownloadMembership(networkHandle) end
 --@params netHandle Player*
 --@params txdName Any*
 --@return BOOL
-function NetworkClanGetEmblemTxdName(netHandle,txdName) end
+function NetworkClanGetEmblemTxdName(netHandle, txdName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3131,7 +3457,8 @@ function NetworkClanGetEmblemTxdName(netHandle,txdName) end
 --@usage BOOL NETWORK_CAN_SET_WAYPOINT();
 
 --@return BOOL
-function NetworkCanSetWaypoint() end
+function NetworkCanSetWaypoint()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3140,7 +3467,8 @@ function NetworkCanSetWaypoint() end
 --@usage int NETWORK_CLAN_GET_LOCAL_MEMBERSHIPS_COUNT();
 
 --@return int
-function NetworkClanGetLocalMembershipsCount() end
+function NetworkClanGetLocalMembershipsCount()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3150,7 +3478,8 @@ function NetworkClanGetLocalMembershipsCount() end
 --@params p0 int*
 --@params p1 Any
 --@return BOOL
-function NetworkClanGetMembershipValid(p0,p1) end
+function NetworkClanGetMembershipValid(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3161,7 +3490,8 @@ function NetworkClanGetMembershipValid(p0,p1) end
 --@params clanMembership int*
 --@params p2 int
 --@return BOOL
-function NetworkClanGetMembership(p0,clanMembership,p2) end
+function NetworkClanGetMembership(p0, clanMembership, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3170,7 +3500,8 @@ function NetworkClanGetMembership(p0,clanMembership,p2) end
 --@usage int NETWORK_CLAN_GET_MEMBERSHIP_COUNT(int* p0);
 --@params p0 int*
 --@return int
-function NetworkClanGetMembershipCount(p0) end
+function NetworkClanGetMembershipCount(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3181,7 +3512,8 @@ function NetworkClanGetMembershipCount(p0) end
 --@params bufferSize int
 --@params formattedTag int*
 --@return void
-function NetworkClanGetUiFormattedTag(clanDesc,bufferSize,formattedTag) end
+function NetworkClanGetUiFormattedTag(clanDesc, bufferSize, formattedTag)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3191,7 +3523,8 @@ function NetworkClanGetUiFormattedTag(clanDesc,bufferSize,formattedTag) end
 --@params p0 Any
 --@params p1 Any*
 --@return BOOL
-function NetworkClanIsEmblemReady(p0,p1) end
+function NetworkClanIsEmblemReady(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3201,7 +3534,8 @@ function NetworkClanIsEmblemReady(p0,p1) end
 --@params memberDesc int*
 --@params p1 int
 --@return BOOL
-function NetworkClanGetMembershipDesc(memberDesc,p1) end
+function NetworkClanGetMembershipDesc(memberDesc, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3212,7 +3546,8 @@ function NetworkClanGetMembershipDesc(memberDesc,p1) end
 --@params bufferSize int
 --@params networkHandle int*
 --@return BOOL
-function NetworkClanPlayerGetDesc(clanDesc,bufferSize,networkHandle) end
+function NetworkClanPlayerGetDesc(clanDesc, bufferSize, networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3221,7 +3556,8 @@ function NetworkClanPlayerGetDesc(clanDesc,bufferSize,networkHandle) end
 --@usage BOOL NETWORK_CLAN_JOIN(int clanDesc);
 --@params clanDesc int
 --@return BOOL
-function NetworkClanJoin(clanDesc) end
+function NetworkClanJoin(clanDesc)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3231,7 +3567,8 @@ function NetworkClanJoin(clanDesc) end
 --@params clanDesc int*
 --@params bufferSize int
 --@return BOOL
-function NetworkClanIsRockstarClan(clanDesc,bufferSize) end
+function NetworkClanIsRockstarClan(clanDesc, bufferSize)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3240,7 +3577,8 @@ function NetworkClanIsRockstarClan(clanDesc,bufferSize) end
 --@usage BOOL NETWORK_CLAN_REQUEST_EMBLEM(Any p0);
 --@params p0 Any
 --@return BOOL
-function NetworkClanRequestEmblem(p0) end
+function NetworkClanRequestEmblem(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3249,7 +3587,8 @@ function NetworkClanRequestEmblem(p0) end
 --@usage BOOL NETWORK_CLAN_PLAYER_IS_ACTIVE(int* networkHandle);
 --@params networkHandle int*
 --@return BOOL
-function NetworkClanPlayerIsActive(networkHandle) end
+function NetworkClanPlayerIsActive(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3258,7 +3597,8 @@ function NetworkClanPlayerIsActive(networkHandle) end
 --@usage void NETWORK_CLAN_RELEASE_EMBLEM(Any p0);
 --@params p0 Any
 --@return void
-function NetworkClanReleaseEmblem(p0) end
+function NetworkClanReleaseEmblem(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3267,7 +3607,8 @@ function NetworkClanReleaseEmblem(p0) end
 --@usage BOOL NETWORK_CLAN_REMOTE_MEMBERSHIPS_ARE_IN_CACHE(int* p0);
 --@params p0 int*
 --@return BOOL
-function NetworkClanRemoteMembershipsAreInCache(p0) end
+function NetworkClanRemoteMembershipsAreInCache(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3276,7 +3617,8 @@ function NetworkClanRemoteMembershipsAreInCache(p0) end
 --@usage Any NETWORK_CLEAR_FOLLOW_INVITE();
 
 --@return Any
-function NetworkClearFollowInvite() end
+function NetworkClearFollowInvite()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3285,7 +3627,8 @@ function NetworkClearFollowInvite() end
 --@usage void NETWORK_CLEAR_CLOCK_TIME_OVERRIDE();
 
 --@return void
-function NetworkClearClockTimeOverride() end
+function NetworkClearClockTimeOverride()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3294,7 +3637,8 @@ function NetworkClearClockTimeOverride() end
 --@usage void NETWORK_CLEAR_FOLLOWERS();
 
 --@return void
-function NetworkClearFollowers() end
+function NetworkClearFollowers()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3303,7 +3647,8 @@ function NetworkClearFollowers() end
 --@usage BOOL NETWORK_CLAN_SERVICE_IS_VALID();
 
 --@return BOOL
-function NetworkClanServiceIsValid() end
+function NetworkClanServiceIsValid()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3312,7 +3657,8 @@ function NetworkClanServiceIsValid() end
 --@usage void NETWORK_CLEAR_VOICE_CHANNEL();
 
 --@return void
-function NetworkClearVoiceChannel() end
+function NetworkClearVoiceChannel()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3321,7 +3667,8 @@ function NetworkClearVoiceChannel() end
 --@usage void NETWORK_CLEAR_FOUND_GAMERS();
 
 --@return void
-function NetworkClearFoundGamers() end
+function NetworkClearFoundGamers()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3330,7 +3677,8 @@ function NetworkClearFoundGamers() end
 --@usage void NETWORK_CLEAR_GET_GAMER_STATUS();
 
 --@return void
-function NetworkClearGetGamerStatus() end
+function NetworkClearGetGamerStatus()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3339,7 +3687,8 @@ function NetworkClearGetGamerStatus() end
 --@usage void NETWORK_CLEAR_TRANSITION_CREATOR_HANDLE();
 
 --@return void
-function NetworkClearTransitionCreatorHandle() end
+function NetworkClearTransitionCreatorHandle()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3350,7 +3699,8 @@ function NetworkClearTransitionCreatorHandle() end
 --@params toggle BOOL
 --@params p2 BOOL
 --@return void
-function NetworkConcealPlayer(player,toggle,p2) end
+function NetworkConcealPlayer(player, toggle, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3359,7 +3709,8 @@ function NetworkConcealPlayer(player,toggle,p2) end
 --@usage void NETWORK_CLEAR_VOICE_PROXIMITY_OVERRIDE();
 
 --@return void
-function NetworkClearVoiceProximityOverride() end
+function NetworkClearVoiceProximityOverride()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3368,7 +3719,8 @@ function NetworkClearVoiceProximityOverride() end
 --@usage void NETWORK_CLEAR_PROPERTY_ID();
 
 --@return void
-function NetworkClearPropertyId() end
+function NetworkClearPropertyId()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3377,7 +3729,8 @@ function NetworkClearPropertyId() end
 --@usage void NETWORK_CLOSE_TRANSITION_MATCHMAKING();
 
 --@return void
-function NetworkCloseTransitionMatchmaking() end
+function NetworkCloseTransitionMatchmaking()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3397,7 +3750,8 @@ function NetworkCloseTransitionMatchmaking() end
 --@params animTime float
 --@params p11 float
 --@return int
-function NetworkCreateSynchronisedScene(x,y,z,xRot,yRot,zRot,rotationOrder,useOcclusionPortal,looped,p9,animTime,p11) end
+function NetworkCreateSynchronisedScene(x, y, z, xRot, yRot, zRot, rotationOrder, useOcclusionPortal, looped, p9, animTime, p11)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3407,7 +3761,8 @@ function NetworkCreateSynchronisedScene(x,y,z,xRot,yRot,zRot,rotationOrder,useOc
 --@params player Player
 --@params toggle BOOL
 --@return void
-function NetworkDisableInvincibleFlashing(player,toggle) end
+function NetworkDisableInvincibleFlashing(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3416,7 +3771,8 @@ function NetworkDisableInvincibleFlashing(player,toggle) end
 --@usage int _NETWORK_CONVERT_SYNCHRONISED_SCENE_TO_SYNCHRONIZED_SCENE(int netScene);
 --@params netScene int
 --@return int
-function NetworkConvertSynchronisedSceneToSynchronizedScene(netScene) end
+function NetworkConvertSynchronisedSceneToSynchronizedScene(netScene)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3428,7 +3784,8 @@ function NetworkConvertSynchronisedSceneToSynchronizedScene(netScene) end
 --@params p2 Any
 --@params p3 Any
 --@return BOOL
-function NetworkDoTransitionQuickmatchAsync(p0,p1,p2,p3) end
+function NetworkDoTransitionQuickmatchAsync(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3437,7 +3794,8 @@ function NetworkDoTransitionQuickmatchAsync(p0,p1,p2,p3) end
 --@usage void NETWORK_DISABLE_PROXIMITY_MIGRATION(int netID);
 --@params netID int
 --@return void
-function NetworkDisableProximityMigration(netID) end
+function NetworkDisableProximityMigration(netID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3449,7 +3807,8 @@ function NetworkDisableProximityMigration(netID) end
 --@params p2 Any
 --@params p3 Any
 --@return BOOL
-function NetworkDoTransitionQuickmatch(p0,p1,p2,p3) end
+function NetworkDoTransitionQuickmatch(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3459,7 +3818,8 @@ function NetworkDoTransitionQuickmatch(p0,p1,p2,p3) end
 --@params p0 BOOL
 --@params maxPlayers int
 --@return BOOL
-function NetworkDoTransitionToGame(p0,maxPlayers) end
+function NetworkDoTransitionToGame(p0, maxPlayers)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3472,7 +3832,8 @@ function NetworkDoTransitionToGame(p0,maxPlayers) end
 --@params players int
 --@params p4 BOOL
 --@return BOOL
-function NetworkDoTransitionToFreemode(p0,p1,p2,players,p4) end
+function NetworkDoTransitionToFreemode(p0, p1, p2, players, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3482,7 +3843,8 @@ function NetworkDoTransitionToFreemode(p0,p1,p2,players,p4) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function NetworkConcealEntity(entity,toggle) end
+function NetworkConcealEntity(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3496,7 +3858,8 @@ function NetworkConcealEntity(entity,toggle) end
 --@params p4 Any*
 --@params p5 Any
 --@return BOOL
-function NetworkDoTransitionQuickmatchWithGroup(p0,p1,p2,p3,p4,p5) end
+function NetworkDoTransitionQuickmatchWithGroup(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3510,7 +3873,8 @@ function NetworkDoTransitionQuickmatchWithGroup(p0,p1,p2,p3,p4,p5) end
 --@params p4 BOOL
 --@params p5 BOOL
 --@return BOOL
-function NetworkDoTransitionToNewFreemode(p0,p1,players,p3,p4,p5) end
+function NetworkDoTransitionToNewFreemode(p0, p1, players, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3519,7 +3883,8 @@ function NetworkDoTransitionToNewFreemode(p0,p1,players,p3,p4,p5) end
 --@usage BOOL NETWORK_DOES_NETWORK_ID_EXIST(int netID);
 --@params netID int
 --@return BOOL
-function NetworkDoesNetworkIdExist(netID) end
+function NetworkDoesNetworkIdExist(netID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3530,7 +3895,8 @@ function NetworkDoesNetworkIdExist(netID) end
 --@params maxPlayers int
 --@params p2 BOOL
 --@return BOOL
-function NetworkDoTransitionToNewGame(p0,maxPlayers,p2) end
+function NetworkDoTransitionToNewGame(p0, maxPlayers, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3540,7 +3906,8 @@ function NetworkDoTransitionToNewGame(p0,maxPlayers,p2) end
 --@params tunableContext Hash
 --@params tunableName Hash
 --@return BOOL
-function NetworkDoesTunableExistHash(tunableContext,tunableName) end
+function NetworkDoesTunableExistHash(tunableContext, tunableName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3550,7 +3917,8 @@ function NetworkDoesTunableExistHash(tunableContext,tunableName) end
 --@params tunableContext char*
 --@params tunableName char*
 --@return BOOL
-function NetworkDoesTunableExist(tunableContext,tunableName) end
+function NetworkDoesTunableExist(tunableContext, tunableName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3559,7 +3927,8 @@ function NetworkDoesTunableExist(tunableContext,tunableName) end
 --@usage void NETWORK_END_TUTORIAL_SESSION();
 
 --@return void
-function NetworkEndTutorialSession() end
+function NetworkEndTutorialSession()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3568,7 +3937,8 @@ function NetworkEndTutorialSession() end
 --@usage BOOL NETWORK_DOES_ENTITY_EXIST_WITH_NETWORK_ID(Entity entity);
 --@params entity Entity
 --@return BOOL
-function NetworkDoesEntityExistWithNetworkId(entity) end
+function NetworkDoesEntityExistWithNetworkId(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3580,7 +3950,8 @@ function NetworkDoesEntityExistWithNetworkId(entity) end
 --@params isInvisible BOOL
 --@params p3 BOOL
 --@return Any
-function NetworkExplodeVehicle(vehicle,isAudible,isInvisible,p3) end
+function NetworkExplodeVehicle(vehicle, isAudible, isInvisible, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3590,7 +3961,8 @@ function NetworkExplodeVehicle(vehicle,isAudible,isInvisible,p3) end
 --@params entity Entity
 --@params state BOOL
 --@return void
-function NetworkFadeInEntity(entity,state) end
+function NetworkFadeInEntity(entity, state)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3601,7 +3973,8 @@ function NetworkFadeInEntity(entity,state) end
 --@params normal BOOL
 --@params slow BOOL
 --@return void
-function NetworkFadeOutEntity(entity,normal,slow) end
+function NetworkFadeOutEntity(entity, normal, slow)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3610,7 +3983,8 @@ function NetworkFadeOutEntity(entity,normal,slow) end
 --@usage BOOL NETWORK_ENTITY_AREA_IS_OCCUPIED(int areaHandle);
 --@params areaHandle int
 --@return BOOL
-function NetworkEntityAreaIsOccupied(areaHandle) end
+function NetworkEntityAreaIsOccupied(areaHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3622,7 +3996,8 @@ function NetworkEntityAreaIsOccupied(areaHandle) end
 --@params p2 float
 --@params p3 float
 --@return BOOL
-function NetworkFindMatchedGamers(p0,p1,p2,p3) end
+function NetworkFindMatchedGamers(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3631,7 +4006,8 @@ function NetworkFindMatchedGamers(p0,p1,p2,p3) end
 --@usage BOOL NETWORK_ENTITY_AREA_DOES_EXIST(int areaHandle);
 --@params areaHandle int
 --@return BOOL
-function NetworkEntityAreaDoesExist(areaHandle) end
+function NetworkEntityAreaDoesExist(areaHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3640,7 +4016,8 @@ function NetworkEntityAreaDoesExist(areaHandle) end
 --@usage BOOL NETWORK_GAMERTAG_FROM_HANDLE_START(int* networkHandle);
 --@params networkHandle int*
 --@return BOOL
-function NetworkGamertagFromHandleStart(networkHandle) end
+function NetworkGamertagFromHandleStart(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3651,7 +4028,8 @@ function NetworkGamertagFromHandleStart(networkHandle) end
 --@params animDict char*
 --@params animName char*
 --@return void
-function NetworkForceLocalUseOfSyncedSceneCamera(netScene,animDict,animName) end
+function NetworkForceLocalUseOfSyncedSceneCamera(netScene, animDict, animName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3660,7 +4038,8 @@ function NetworkForceLocalUseOfSyncedSceneCamera(netScene,animDict,animName) end
 --@usage BOOL NETWORK_GAMER_HAS_HEADSET(Any* networkHandle);
 --@params networkHandle Any*
 --@return BOOL
-function NetworkGamerHasHeadset(networkHandle) end
+function NetworkGamerHasHeadset(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3669,7 +4048,8 @@ function NetworkGamerHasHeadset(networkHandle) end
 --@usage void NETWORK_FINISH_BROADCASTING_DATA();
 
 --@return void
-function NetworkFinishBroadcastingData() end
+function NetworkFinishBroadcastingData()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3678,7 +4058,8 @@ function NetworkFinishBroadcastingData() end
 --@usage BOOL NETWORK_GAMERTAG_FROM_HANDLE_SUCCEEDED();
 
 --@return BOOL
-function NetworkGamertagFromHandleSucceeded() end
+function NetworkGamertagFromHandleSucceeded()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3687,7 +4068,8 @@ function NetworkGamertagFromHandleSucceeded() end
 --@usage int NETWORK_GET_AGE_GROUP();
 
 --@return int
-function NetworkGetAgeGroup() end
+function NetworkGetAgeGroup()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3696,7 +4078,8 @@ function NetworkGetAgeGroup() end
 --@usage BOOL NETWORK_GAMERTAG_FROM_HANDLE_PENDING();
 
 --@return BOOL
-function NetworkGamertagFromHandlePending() end
+function NetworkGamertagFromHandlePending()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3708,7 +4091,8 @@ function NetworkGamertagFromHandlePending() end
 --@params p2 Any*
 --@params p3 Any*
 --@return BOOL
-function NetworkGetBackgroundLoadingRecipients(p0,p1,p2,p3) end
+function NetworkGetBackgroundLoadingRecipients(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3717,7 +4101,8 @@ function NetworkGetBackgroundLoadingRecipients(p0,p1,p2,p3) end
 --@usage int NETWORK_GET_ACTIVITY_PLAYER_NUM(BOOL p0);
 --@params p0 BOOL
 --@return int
-function NetworkGetActivityPlayerNum(p0) end
+function NetworkGetActivityPlayerNum(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3726,7 +4111,8 @@ function NetworkGetActivityPlayerNum(p0) end
 --@usage int NETWORK_GET_CONTENT_MODIFIER_LIST_ID(Hash contentHash);
 --@params contentHash Hash
 --@return int
-function NetworkGetContentModifierListId(contentHash) end
+function NetworkGetContentModifierListId(contentHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3736,7 +4122,8 @@ function NetworkGetContentModifierListId(contentHash) end
 --@params netId int
 --@params weaponHash Hash*
 --@return int
-function NetworkGetDestroyerOfNetworkId(netId,weaponHash) end
+function NetworkGetDestroyerOfNetworkId(netId, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3745,7 +4132,8 @@ function NetworkGetDestroyerOfNetworkId(netId,weaponHash) end
 --@usage BOOL NETWORK_GET_CURRENTLY_SELECTED_GAMER_HANDLE_FROM_INVITE_MENU(Any* p0);
 --@params p0 Any*
 --@return BOOL
-function NetworkGetCurrentlySelectedGamerHandleFromInviteMenu(p0) end
+function NetworkGetCurrentlySelectedGamerHandleFromInviteMenu(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3754,7 +4142,8 @@ function NetworkGetCurrentlySelectedGamerHandleFromInviteMenu(p0) end
 --@usage BOOL NETWORK_GET_ENTITY_IS_LOCAL(Entity entity);
 --@params entity Entity
 --@return BOOL
-function NetworkGetEntityIsLocal(entity) end
+function NetworkGetEntityIsLocal(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3765,7 +4154,8 @@ function NetworkGetEntityIsLocal(entity) end
 --@params p1 Any
 --@params weaponHash Hash*
 --@return BOOL
-function NetworkGetDestroyerOfEntity(p0,p1,weaponHash) end
+function NetworkGetDestroyerOfEntity(p0, p1, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3775,7 +4165,8 @@ function NetworkGetDestroyerOfEntity(p0,p1,weaponHash) end
 --@params player Player
 --@params weaponHash Hash*
 --@return Entity
-function NetworkGetEntityKillerOfPlayer(player,weaponHash) end
+function NetworkGetEntityKillerOfPlayer(player, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3784,7 +4175,8 @@ function NetworkGetEntityKillerOfPlayer(player,weaponHash) end
 --@usage Entity NETWORK_GET_ENTITY_FROM_NETWORK_ID(int netId);
 --@params netId int
 --@return Entity
-function NetworkGetEntityFromNetworkId(netId) end
+function NetworkGetEntityFromNetworkId(netId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3793,7 +4185,8 @@ function NetworkGetEntityFromNetworkId(netId) end
 --@usage char* NETWORK_GET_FRIEND_NAME(int friendIndex);
 --@params friendIndex int
 --@return char*
-function NetworkGetFriendName(friendIndex) end
+function NetworkGetFriendName(friendIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3802,7 +4195,8 @@ function NetworkGetFriendName(friendIndex) end
 --@usage BOOL NETWORK_GET_ENTITY_IS_NETWORKED(Entity entity);
 --@params entity Entity
 --@return BOOL
-function NetworkGetEntityIsNetworked(entity) end
+function NetworkGetEntityIsNetworked(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3811,7 +4205,8 @@ function NetworkGetEntityIsNetworked(entity) end
 --@usage int _NETWORK_GET_ENTITY_NET_SCRIPT_ID(Entity entity);
 --@params entity Entity
 --@return int
-function NetworkGetEntityNetScriptId(entity) end
+function NetworkGetEntityNetScriptId(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3821,7 +4216,8 @@ function NetworkGetEntityNetScriptId(entity) end
 --@params p0 Any*
 --@params p1 Any
 --@return BOOL
-function NetworkGetGamerStatusResult(p0,p1) end
+function NetworkGetGamerStatusResult(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3832,7 +4228,8 @@ function NetworkGetGamerStatusResult(p0,p1) end
 --@params minutes int*
 --@params seconds int*
 --@return void
-function NetworkGetGlobalMultiplayerClock(hours,minutes,seconds) end
+function NetworkGetGlobalMultiplayerClock(hours, minutes, seconds)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3841,7 +4238,8 @@ function NetworkGetGlobalMultiplayerClock(hours,minutes,seconds) end
 --@usage int NETWORK_GET_FRIEND_COUNT();
 
 --@return int
-function NetworkGetFriendCount() end
+function NetworkGetFriendCount()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3850,7 +4248,8 @@ function NetworkGetFriendCount() end
 --@usage char* _NETWORK_GET_FRIEND_NAME_FROM_INDEX(int friendIndex);
 --@params friendIndex int
 --@return char*
-function NetworkGetFriendNameFromIndex(friendIndex) end
+function NetworkGetFriendNameFromIndex(friendIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3859,7 +4258,8 @@ function NetworkGetFriendNameFromIndex(friendIndex) end
 --@usage Player NETWORK_GET_HOST_OF_THIS_SCRIPT();
 
 --@return Player
-function NetworkGetHostOfThisScript() end
+function NetworkGetHostOfThisScript()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3869,7 +4269,8 @@ function NetworkGetHostOfThisScript() end
 --@params p0 Any*
 --@params p1 Any
 --@return BOOL
-function NetworkGetFoundGamer(p0,p1) end
+function NetworkGetFoundGamer(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3878,7 +4279,8 @@ function NetworkGetFoundGamer(p0,p1) end
 --@usage int NETWORK_GET_MAX_NUM_PARTICIPANTS();
 
 --@return int
-function NetworkGetMaxNumParticipants() end
+function NetworkGetMaxNumParticipants()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3887,7 +4289,8 @@ function NetworkGetMaxNumParticipants() end
 --@usage BOOL _NETWORK_GET_GAMER_STATUS(Any* p0);
 --@params p0 Any*
 --@return BOOL
-function NetworkGetGamerStatus(p0) end
+function NetworkGetGamerStatus(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3896,7 +4299,8 @@ function NetworkGetGamerStatus(p0) end
 --@usage char* NETWORK_GET_GAMERTAG_FROM_HANDLE(int* networkHandle);
 --@params networkHandle int*
 --@return char*
-function NetworkGetGamertagFromHandle(networkHandle) end
+function NetworkGetGamertagFromHandle(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3905,7 +4309,8 @@ function NetworkGetGamertagFromHandle(networkHandle) end
 --@usage int NETWORK_GET_NUM_PARTICIPANTS();
 
 --@return int
-function NetworkGetNumParticipants() end
+function NetworkGetNumParticipants()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3914,7 +4319,8 @@ function NetworkGetNumParticipants() end
 --@usage int _NETWORK_GET_NUM_BODY_TRACKERS();
 
 --@return int
-function NetworkGetNumBodyTrackers() end
+function NetworkGetNumBodyTrackers()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3925,7 +4331,8 @@ function NetworkGetNumBodyTrackers() end
 --@params p1 int
 --@params p2 int
 --@return Player
-function NetworkGetHostOfScript(scriptName,p1,p2) end
+function NetworkGetHostOfScript(scriptName, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3935,7 +4342,8 @@ function NetworkGetHostOfScript(scriptName,p1,p2) end
 --@params networkHandle int*
 --@params bufferSize int
 --@return void
-function NetworkGetLocalHandle(networkHandle,bufferSize) end
+function NetworkGetLocalHandle(networkHandle, bufferSize)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3944,7 +4352,8 @@ function NetworkGetLocalHandle(networkHandle,bufferSize) end
 --@usage int _NETWORK_GET_NUM_UNACKED_FOR_PLAYER(Player player);
 --@params player Player
 --@return int
-function NetworkGetNumUnackedForPlayer(player) end
+function NetworkGetNumUnackedForPlayer(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3953,7 +4362,8 @@ function NetworkGetNumUnackedForPlayer(player) end
 --@usage int NETWORK_GET_NUM_FOUND_GAMERS();
 
 --@return int
-function NetworkGetNumFoundGamers() end
+function NetworkGetNumFoundGamers()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3964,7 +4374,8 @@ function NetworkGetNumFoundGamers() end
 --@params p1 Any
 --@params p2 Any
 --@return int
-function NetworkGetNumScriptParticipants(p0,p1,p2) end
+function NetworkGetNumScriptParticipants(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3973,7 +4384,8 @@ function NetworkGetNumScriptParticipants(p0,p1,p2) end
 --@usage int NETWORK_GET_NETWORK_ID_FROM_ENTITY(Entity entity);
 --@params entity Entity
 --@return int
-function NetworkGetNetworkIdFromEntity(entity) end
+function NetworkGetNetworkIdFromEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3983,7 +4395,8 @@ function NetworkGetNetworkIdFromEntity(entity) end
 --@params data Any*
 --@params dataSize int
 --@return int
-function NetworkGetPlatformPartyMembers(data,dataSize) end
+function NetworkGetPlatformPartyMembers(data, dataSize)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3992,7 +4405,8 @@ function NetworkGetPlatformPartyMembers(data,dataSize) end
 --@usage int NETWORK_GET_NUM_PRESENCE_INVITES();
 
 --@return int
-function NetworkGetNumPresenceInvites() end
+function NetworkGetNumPresenceInvites()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4001,7 +4415,8 @@ function NetworkGetNumPresenceInvites() end
 --@usage int NETWORK_GET_MAX_FRIENDS();
 
 --@return int
-function NetworkGetMaxFriends() end
+function NetworkGetMaxFriends()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4010,7 +4425,8 @@ function NetworkGetMaxFriends() end
 --@usage Vector3 _NETWORK_GET_PLAYER_COORDS(Player player);
 --@params player Player
 --@return Vector3
-function NetworkGetPlayerCoords(player) end
+function NetworkGetPlayerCoords(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4019,7 +4435,8 @@ function NetworkGetPlayerCoords(player) end
 --@usage int _NETWORK_GET_OLDEST_RESEND_COUNT_FOR_PLAYER(Player player);
 --@params player Player
 --@return int
-function NetworkGetOldestResendCountForPlayer(player) end
+function NetworkGetOldestResendCountForPlayer(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4028,7 +4445,8 @@ function NetworkGetOldestResendCountForPlayer(player) end
 --@usage int NETWORK_GET_PARTICIPANT_INDEX(int index);
 --@params index int
 --@return int
-function NetworkGetParticipantIndex(index) end
+function NetworkGetParticipantIndex(index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4037,7 +4455,8 @@ function NetworkGetParticipantIndex(index) end
 --@usage int NETWORK_GET_NUM_CONNECTED_PLAYERS();
 
 --@return int
-function NetworkGetNumConnectedPlayers() end
+function NetworkGetNumConnectedPlayers()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4046,7 +4465,8 @@ function NetworkGetNumConnectedPlayers() end
 --@usage float NETWORK_GET_PLAYER_LOUDNESS(Player player);
 --@params player Player
 --@return float
-function NetworkGetPlayerLoudness(player) end
+function NetworkGetPlayerLoudness(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4055,7 +4475,8 @@ function NetworkGetPlayerLoudness(player) end
 --@usage Player NETWORK_GET_PLAYER_FROM_GAMER_HANDLE(int* networkHandle);
 --@params networkHandle int*
 --@return Player
-function NetworkGetPlayerFromGamerHandle(networkHandle) end
+function NetworkGetPlayerFromGamerHandle(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4064,7 +4485,8 @@ function NetworkGetPlayerFromGamerHandle(networkHandle) end
 --@usage int NETWORK_GET_PLAYER_TUTORIAL_SESSION_INSTANCE(Player player);
 --@params player Player
 --@return int
-function NetworkGetPlayerTutorialSessionInstance(player) end
+function NetworkGetPlayerTutorialSessionInstance(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4073,7 +4495,8 @@ function NetworkGetPlayerTutorialSessionInstance(player) end
 --@usage Any NETWORK_GET_PRESENCE_INVITE_CONTENT_ID(Any p0);
 --@params p0 Any
 --@return Any
-function NetworkGetPresenceInviteContentId(p0) end
+function NetworkGetPresenceInviteContentId(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4082,7 +4505,8 @@ function NetworkGetPresenceInviteContentId(p0) end
 --@usage Player NETWORK_GET_PLAYER_INDEX_FROM_PED(Ped ped);
 --@params ped Ped
 --@return Player
-function NetworkGetPlayerIndexFromPed(ped) end
+function NetworkGetPlayerIndexFromPed(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4091,7 +4515,8 @@ function NetworkGetPlayerIndexFromPed(ped) end
 --@usage BOOL NETWORK_GET_PLAYER_OWNS_WAYPOINT(Player player);
 --@params player Player
 --@return BOOL
-function NetworkGetPlayerOwnsWaypoint(player) end
+function NetworkGetPlayerOwnsWaypoint(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4100,7 +4525,8 @@ function NetworkGetPlayerOwnsWaypoint(player) end
 --@usage int _NETWORK_GET_PLATFORM_PARTY_UNK();
 
 --@return int
-function NetworkGetPlatformPartyUnk() end
+function NetworkGetPlatformPartyUnk()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4109,7 +4535,8 @@ function NetworkGetPlatformPartyUnk() end
 --@usage Any NETWORK_GET_PRESENCE_INVITE_ID(Any p0);
 --@params p0 Any
 --@return Any
-function NetworkGetPresenceInviteId(p0) end
+function NetworkGetPresenceInviteId(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4118,7 +4545,8 @@ function NetworkGetPresenceInviteId(p0) end
 --@usage Any NETWORK_GET_PRESENCE_INVITE_SESSION_ID(Any p0);
 --@params p0 Any
 --@return Any
-function NetworkGetPresenceInviteSessionId(p0) end
+function NetworkGetPresenceInviteSessionId(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4128,7 +4556,8 @@ function NetworkGetPresenceInviteSessionId(p0) end
 --@params p0 Any
 --@params p1 Any*
 --@return BOOL
-function NetworkGetPresenceInviteHandle(p0,p1) end
+function NetworkGetPresenceInviteHandle(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4137,7 +4566,8 @@ function NetworkGetPresenceInviteHandle(p0,p1) end
 --@usage Any NETWORK_GET_PRESENCE_INVITE_INVITER(Any p0);
 --@params p0 Any
 --@return Any
-function NetworkGetPresenceInviteInviter(p0) end
+function NetworkGetPresenceInviteInviter(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4146,7 +4576,8 @@ function NetworkGetPresenceInviteInviter(p0) end
 --@usage int NETWORK_GET_PLAYER_INDEX(Player player);
 --@params player Player
 --@return int
-function NetworkGetPlayerIndex(player) end
+function NetworkGetPlayerIndex(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4156,7 +4587,8 @@ function NetworkGetPlayerIndex(player) end
 --@params p0 Any*
 --@params p1 Any*
 --@return BOOL
-function NetworkGetPrimaryClanDataNew(p0,p1) end
+function NetworkGetPrimaryClanDataNew(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4166,7 +4598,8 @@ function NetworkGetPrimaryClanDataNew(p0,p1) end
 --@params p0 Any*
 --@params p1 Any
 --@return BOOL
-function NetworkGetPrimaryClanDataStart(p0,p1) end
+function NetworkGetPrimaryClanDataStart(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4175,7 +4608,8 @@ function NetworkGetPrimaryClanDataStart(p0,p1) end
 --@usage void NETWORK_GET_PRIMARY_CLAN_DATA_CANCEL();
 
 --@return void
-function NetworkGetPrimaryClanDataCancel() end
+function NetworkGetPrimaryClanDataCancel()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4184,7 +4618,8 @@ function NetworkGetPrimaryClanDataCancel() end
 --@usage int NETWORK_GET_RANDOM_INT();
 
 --@return int
-function NetworkGetRandomInt() end
+function NetworkGetRandomInt()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4193,7 +4628,8 @@ function NetworkGetRandomInt() end
 --@usage Any NETWORK_GET_PRIMARY_CLAN_DATA_PENDING();
 
 --@return Any
-function NetworkGetPrimaryClanDataPending() end
+function NetworkGetPrimaryClanDataPending()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4204,7 +4640,8 @@ function NetworkGetPrimaryClanDataPending() end
 --@params coordinates Vector3*
 --@params heading float*
 --@return void
-function NetworkGetRespawnResult(randomInt,coordinates,heading) end
+function NetworkGetRespawnResult(randomInt, coordinates, heading)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4213,7 +4650,8 @@ function NetworkGetRespawnResult(randomInt,coordinates,heading) end
 --@usage Any NETWORK_GET_PRIMARY_CLAN_DATA_SUCCESS();
 
 --@return Any
-function NetworkGetPrimaryClanDataSuccess() end
+function NetworkGetPrimaryClanDataSuccess()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4222,7 +4660,8 @@ function NetworkGetPrimaryClanDataSuccess() end
 --@usage Any NETWORK_GET_PRIMARY_CLAN_DATA_CLEAR();
 
 --@return Any
-function NetworkGetPrimaryClanDataClear() end
+function NetworkGetPrimaryClanDataClear()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4232,7 +4671,8 @@ function NetworkGetPrimaryClanDataClear() end
 --@params rangeStart int
 --@params rangeEnd int
 --@return int
-function NetworkGetRandomIntRanged(rangeStart,rangeEnd) end
+function NetworkGetRandomIntRanged(rangeStart, rangeEnd)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4241,7 +4681,8 @@ function NetworkGetRandomIntRanged(rangeStart,rangeEnd) end
 --@usage BOOL _NETWORK_GET_ROS_PRIVILEGE_10();
 
 --@return BOOL
-function NetworkGetRosPrivilege_10() end
+function NetworkGetRosPrivilege_10()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4250,7 +4691,8 @@ function NetworkGetRosPrivilege_10() end
 --@usage Any NETWORK_GET_RESPAWN_RESULT_FLAGS(Any p0);
 --@params p0 Any
 --@return Any
-function NetworkGetRespawnResultFlags(p0) end
+function NetworkGetRespawnResultFlags(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4259,7 +4701,8 @@ function NetworkGetRespawnResultFlags(p0) end
 --@usage int NETWORK_GET_SCRIPT_STATUS();
 
 --@return int
-function NetworkGetScriptStatus() end
+function NetworkGetScriptStatus()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4268,7 +4711,8 @@ function NetworkGetScriptStatus() end
 --@usage BOOL _NETWORK_GET_ROS_PRIVILEGE_3();
 
 --@return BOOL
-function NetworkGetRosPrivilege_3() end
+function NetworkGetRosPrivilege_3()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4277,7 +4721,8 @@ function NetworkGetRosPrivilege_3() end
 --@usage BOOL _NETWORK_GET_ROS_PRIVILEGE_25();
 
 --@return BOOL
-function NetworkGetRosPrivilege_25() end
+function NetworkGetRosPrivilege_25()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4286,7 +4731,8 @@ function NetworkGetRosPrivilege_25() end
 --@usage BOOL NETWORK_GET_THIS_SCRIPT_IS_NETWORK_SCRIPT();
 
 --@return BOOL
-function NetworkGetThisScriptIsNetworkScript() end
+function NetworkGetThisScriptIsNetworkScript()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4295,7 +4741,8 @@ function NetworkGetThisScriptIsNetworkScript() end
 --@usage int _NETWORK_GET_TARGETING_MODE();
 
 --@return int
-function NetworkGetTargetingMode() end
+function NetworkGetTargetingMode()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4304,7 +4751,8 @@ function NetworkGetTargetingMode() end
 --@usage BOOL _NETWORK_GET_ROS_PRIVILEGE_4();
 
 --@return BOOL
-function NetworkGetRosPrivilege_4() end
+function NetworkGetRosPrivilege_4()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4313,7 +4761,8 @@ function NetworkGetRosPrivilege_4() end
 --@usage int NETWORK_GET_TOTAL_NUM_PLAYERS();
 
 --@return int
-function NetworkGetTotalNumPlayers() end
+function NetworkGetTotalNumPlayers()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4322,7 +4771,8 @@ function NetworkGetTotalNumPlayers() end
 --@usage BOOL _NETWORK_GET_ROS_PRIVILEGE_24();
 
 --@return BOOL
-function NetworkGetRosPrivilege_24() end
+function NetworkGetRosPrivilege_24()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4332,7 +4782,8 @@ function NetworkGetRosPrivilege_24() end
 --@params data Any*
 --@params dataCount int
 --@return int
-function NetworkGetTransitionMembers(data,dataCount) end
+function NetworkGetTransitionMembers(data, dataCount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4341,7 +4792,8 @@ function NetworkGetTransitionMembers(data,dataCount) end
 --@usage int NETWORK_GET_TIMEOUT_TIME();
 
 --@return int
-function NetworkGetTimeoutTime() end
+function NetworkGetTimeoutTime()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4350,7 +4802,8 @@ function NetworkGetTimeoutTime() end
 --@usage BOOL _NETWORK_GET_ROS_PRIVILEGE_9();
 
 --@return BOOL
-function NetworkGetRosPrivilege_9() end
+function NetworkGetRosPrivilege_9()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4359,7 +4812,8 @@ function NetworkGetRosPrivilege_9() end
 --@usage int NETWORK_GET_TUNABLE_CLOUD_CRC();
 
 --@return int
-function NetworkGetTunableCloudCrc() end
+function NetworkGetTunableCloudCrc()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4368,7 +4822,8 @@ function NetworkGetTunableCloudCrc() end
 --@usage float NETWORK_GET_TALKER_PROXIMITY();
 
 --@return float
-function NetworkGetTalkerProximity() end
+function NetworkGetTalkerProximity()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4379,7 +4834,8 @@ function NetworkGetTalkerProximity() end
 --@params networkHandle int*
 --@params bufferSize int
 --@return void
-function NetworkHandleFromPlayer(player,networkHandle,bufferSize) end
+function NetworkHandleFromPlayer(player, networkHandle, bufferSize)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4390,7 +4846,8 @@ function NetworkHandleFromPlayer(player,networkHandle,bufferSize) end
 --@params networkHandle int*
 --@params bufferSize int
 --@return void
-function NetworkHandleFromMemberId(memberId,networkHandle,bufferSize) end
+function NetworkHandleFromMemberId(memberId, networkHandle, bufferSize)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4401,7 +4858,8 @@ function NetworkHandleFromMemberId(memberId,networkHandle,bufferSize) end
 --@params networkHandle int*
 --@params bufferSize int
 --@return void
-function NetworkHandleFromFriend(friendIndex,networkHandle,bufferSize) end
+function NetworkHandleFromFriend(friendIndex, networkHandle, bufferSize)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4410,7 +4868,8 @@ function NetworkHandleFromFriend(friendIndex,networkHandle,bufferSize) end
 --@usage BOOL NETWORK_HAS_CACHED_PLAYER_HEAD_BLEND_DATA(Player player);
 --@params player Player
 --@return BOOL
-function NetworkHasCachedPlayerHeadBlendData(player) end
+function NetworkHasCachedPlayerHeadBlendData(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4421,7 +4880,8 @@ function NetworkHasCachedPlayerHeadBlendData(player) end
 --@params networkHandle int*
 --@params bufferSize int
 --@return void
-function NetworkHandleFromUserId(userId,networkHandle,bufferSize) end
+function NetworkHandleFromUserId(userId, networkHandle, bufferSize)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4430,7 +4890,8 @@ function NetworkHandleFromUserId(userId,networkHandle,bufferSize) end
 --@usage BOOL NETWORK_GET_TRANSITION_HOST(int* networkHandle);
 --@params networkHandle int*
 --@return BOOL
-function NetworkGetTransitionHost(networkHandle) end
+function NetworkGetTransitionHost(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4439,7 +4900,8 @@ function NetworkGetTransitionHost(networkHandle) end
 --@usage BOOL NETWORK_HAS_CONTROL_OF_NETWORK_ID(int netId);
 --@params netId int
 --@return BOOL
-function NetworkHasControlOfNetworkId(netId) end
+function NetworkHasControlOfNetworkId(netId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4448,7 +4910,8 @@ function NetworkHasControlOfNetworkId(netId) end
 --@usage BOOL _NETWORK_HAS_AGE_RESTRICTED_PROFILE();
 
 --@return BOOL
-function NetworkHasAgeRestrictedProfile() end
+function NetworkHasAgeRestrictedProfile()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4457,7 +4920,8 @@ function NetworkHasAgeRestrictedProfile() end
 --@usage BOOL NETWORK_HAS_CONTROL_OF_DOOR(Hash doorHash);
 --@params doorHash Hash
 --@return BOOL
-function NetworkHasControlOfDoor(doorHash) end
+function NetworkHasControlOfDoor(doorHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4466,7 +4930,8 @@ function NetworkHasControlOfDoor(doorHash) end
 --@usage BOOL NETWORK_HAS_CONTROL_OF_PICKUP(Pickup pickup);
 --@params pickup Pickup
 --@return BOOL
-function NetworkHasControlOfPickup(pickup) end
+function NetworkHasControlOfPickup(pickup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4475,7 +4940,8 @@ function NetworkHasControlOfPickup(pickup) end
 --@usage BOOL NETWORK_HAS_FOLLOW_INVITE();
 
 --@return BOOL
-function NetworkHasFollowInvite() end
+function NetworkHasFollowInvite()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4484,7 +4950,8 @@ function NetworkHasFollowInvite() end
 --@usage BOOL NETWORK_HAS_CONTROL_OF_ENTITY(Entity entity);
 --@params entity Entity
 --@return BOOL
-function NetworkHasControlOfEntity(entity) end
+function NetworkHasControlOfEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4493,7 +4960,8 @@ function NetworkHasControlOfEntity(entity) end
 --@usage BOOL NETWORK_HAS_HEADSET();
 
 --@return BOOL
-function NetworkHasHeadset() end
+function NetworkHasHeadset()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4502,7 +4970,8 @@ function NetworkHasHeadset() end
 --@usage BOOL _NETWORK_HAS_GAME_BEEN_ALTERED();
 
 --@return BOOL
-function NetworkHasGameBeenAltered() end
+function NetworkHasGameBeenAltered()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4511,7 +4980,8 @@ function NetworkHasGameBeenAltered() end
 --@usage BOOL NETWORK_HAS_INVITED_GAMER(Any* p0);
 --@params p0 Any*
 --@return BOOL
-function NetworkHasInvitedGamer(p0) end
+function NetworkHasInvitedGamer(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4520,7 +4990,8 @@ function NetworkHasInvitedGamer(p0) end
 --@usage BOOL _NETWORK_HAS_PLAYER_BEEN_BANNED();
 
 --@return BOOL
-function NetworkHasPlayerBeenBanned() end
+function NetworkHasPlayerBeenBanned()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4529,7 +5000,8 @@ function NetworkHasPlayerBeenBanned() end
 --@usage BOOL NETWORK_HAS_INVITED_GAMER_TO_TRANSITION(Any* p0);
 --@params p0 Any*
 --@return BOOL
-function NetworkHasInvitedGamerToTransition(p0) end
+function NetworkHasInvitedGamerToTransition(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4538,7 +5010,8 @@ function NetworkHasInvitedGamerToTransition(p0) end
 --@usage BOOL NETWORK_HAS_PLAYER_STARTED_TRANSITION(Player player);
 --@params player Player
 --@return BOOL
-function NetworkHasPlayerStartedTransition(player) end
+function NetworkHasPlayerStartedTransition(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4547,7 +5020,8 @@ function NetworkHasPlayerStartedTransition(player) end
 --@usage BOOL NETWORK_HAS_ROS_PRIVILEGE(int index);
 --@params index int
 --@return BOOL
-function NetworkHasRosPrivilege(index) end
+function NetworkHasRosPrivilege(index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4558,7 +5032,8 @@ function NetworkHasRosPrivilege(index) end
 --@params banType int*
 --@params timeData Vector3*
 --@return BOOL
-function NetworkHasRosPrivilegeEndDate(p0,banType,timeData) end
+function NetworkHasRosPrivilegeEndDate(p0, banType, timeData)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4567,7 +5042,8 @@ function NetworkHasRosPrivilegeEndDate(p0,banType,timeData) end
 --@usage BOOL NETWORK_HAS_PENDING_INVITE();
 
 --@return BOOL
-function NetworkHasPendingInvite() end
+function NetworkHasPendingInvite()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4576,7 +5052,8 @@ function NetworkHasPendingInvite() end
 --@usage BOOL NETWORK_HAS_SOCIAL_CLUB_ACCOUNT();
 
 --@return BOOL
-function NetworkHasSocialClubAccount() end
+function NetworkHasSocialClubAccount()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4585,7 +5062,8 @@ function NetworkHasSocialClubAccount() end
 --@usage Hash NETWORK_HASH_FROM_GAMER_HANDLE(int* networkHandle);
 --@params networkHandle int*
 --@return Hash
-function NetworkHashFromGamerHandle(networkHandle) end
+function NetworkHashFromGamerHandle(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4594,7 +5072,8 @@ function NetworkHashFromGamerHandle(networkHandle) end
 --@usage BOOL _NETWORK_HAS_VIEW_GAMER_USER_CONTENT_RESULT(Any* networkHandle);
 --@params networkHandle Any*
 --@return BOOL
-function NetworkHasViewGamerUserContentResult(networkHandle) end
+function NetworkHasViewGamerUserContentResult(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4603,7 +5082,8 @@ function NetworkHasViewGamerUserContentResult(networkHandle) end
 --@usage BOOL _NETWORK_HAVE_ONLINE_PRIVILEGE_2();
 
 --@return BOOL
-function NetworkHaveOnlinePrivilege_2() end
+function NetworkHaveOnlinePrivilege_2()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4612,7 +5092,8 @@ function NetworkHaveOnlinePrivilege_2() end
 --@usage Hash NETWORK_HASH_FROM_PLAYER_HANDLE(Player player);
 --@params player Player
 --@return Hash
-function NetworkHashFromPlayerHandle(player) end
+function NetworkHashFromPlayerHandle(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4621,7 +5102,8 @@ function NetworkHashFromPlayerHandle(player) end
 --@usage BOOL NETWORK_HAVE_ONLINE_PRIVILEGES();
 
 --@return BOOL
-function NetworkHaveOnlinePrivileges() end
+function NetworkHaveOnlinePrivileges()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4630,7 +5112,8 @@ function NetworkHaveOnlinePrivileges() end
 --@usage BOOL NETWORK_HAVE_USER_CONTENT_PRIVILEGES(int p0);
 --@params p0 int
 --@return BOOL
-function NetworkHaveUserContentPrivileges(p0) end
+function NetworkHaveUserContentPrivileges(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4642,7 +5125,8 @@ function NetworkHaveUserContentPrivileges(p0) end
 --@params p2 Any*
 --@params p3 Any*
 --@return BOOL
-function NetworkInviteGamers(p0,p1,p2,p3) end
+function NetworkInviteGamers(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4660,7 +5144,8 @@ function NetworkInviteGamers(p0,p1,p2,p3) end
 --@params p8 Any
 --@params p9 int
 --@return BOOL
-function NetworkHostTransition(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
+function NetworkHostTransition(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4669,7 +5154,8 @@ function NetworkHostTransition(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9) end
 --@usage BOOL NETWORK_HAVE_JUST_UPLOAD_LATER();
 
 --@return BOOL
-function NetworkHaveJustUploadLater() end
+function NetworkHaveJustUploadLater()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4678,7 +5164,8 @@ function NetworkHaveJustUploadLater() end
 --@usage BOOL _NETWORK_HAVE_SOCIAL_CLUB_PRIVILEGE();
 
 --@return BOOL
-function NetworkHaveSocialClubPrivilege() end
+function NetworkHaveSocialClubPrivilege()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4687,7 +5174,8 @@ function NetworkHaveSocialClubPrivilege() end
 --@usage BOOL NETWORK_IS_ACTIVITY_SPECTATOR_FROM_HANDLE(int* networkHandle);
 --@params networkHandle int*
 --@return BOOL
-function NetworkIsActivitySpectatorFromHandle(networkHandle) end
+function NetworkIsActivitySpectatorFromHandle(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4696,7 +5184,8 @@ function NetworkIsActivitySpectatorFromHandle(networkHandle) end
 --@usage BOOL NETWORK_IS_ACTIVITY_SESSION();
 
 --@return BOOL
-function NetworkIsActivitySession() end
+function NetworkIsActivitySession()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4706,7 +5195,8 @@ function NetworkIsActivitySession() end
 --@params p0 Any*
 --@params p1 Any
 --@return BOOL
-function NetworkInviteGamersToTransition(p0,p1) end
+function NetworkInviteGamersToTransition(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4715,7 +5205,8 @@ function NetworkInviteGamersToTransition(p0,p1) end
 --@usage BOOL NETWORK_IS_ADDING_FRIEND();
 
 --@return BOOL
-function NetworkIsAddingFriend() end
+function NetworkIsAddingFriend()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4724,7 +5215,8 @@ function NetworkIsAddingFriend() end
 --@usage Any NETWORK_IS_ACTIVITY_SPECTATOR();
 
 --@return Any
-function NetworkIsActivitySpectator() end
+function NetworkIsActivitySpectator()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4733,7 +5225,8 @@ function NetworkIsActivitySpectator() end
 --@usage BOOL _NETWORK_IS_CLAN_MEMBERSHIP_FINISHED_DOWNLOADING();
 
 --@return BOOL
-function NetworkIsClanMembershipFinishedDownloading() end
+function NetworkIsClanMembershipFinishedDownloading()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4742,7 +5235,8 @@ function NetworkIsClanMembershipFinishedDownloading() end
 --@usage BOOL NETWORK_IS_CLOUD_AVAILABLE();
 
 --@return BOOL
-function NetworkIsCloudAvailable() end
+function NetworkIsCloudAvailable()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4751,7 +5245,8 @@ function NetworkIsCloudAvailable() end
 --@usage BOOL NETWORK_IS_CHATTING_IN_PLATFORM_PARTY(int* networkHandle);
 --@params networkHandle int*
 --@return BOOL
-function NetworkIsChattingInPlatformParty(networkHandle) end
+function NetworkIsChattingInPlatformParty(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4760,7 +5255,8 @@ function NetworkIsChattingInPlatformParty(networkHandle) end
 --@usage BOOL NETWORK_IS_CABLE_CONNECTED();
 
 --@return BOOL
-function NetworkIsCableConnected() end
+function NetworkIsCableConnected()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4769,7 +5265,8 @@ function NetworkIsCableConnected() end
 --@usage BOOL NETWORK_IS_DOOR_NETWORKED(Hash doorHash);
 --@params doorHash Hash
 --@return BOOL
-function NetworkIsDoorNetworked(doorHash) end
+function NetworkIsDoorNetworked(doorHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4778,7 +5275,8 @@ function NetworkIsDoorNetworked(doorHash) end
 --@usage BOOL NETWORK_IS_CLOUD_BACKGROUND_SCRIPT_REQUEST_PENDING();
 
 --@return BOOL
-function NetworkIsCloudBackgroundScriptRequestPending() end
+function NetworkIsCloudBackgroundScriptRequestPending()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4787,7 +5285,8 @@ function NetworkIsCloudBackgroundScriptRequestPending() end
 --@usage BOOL _NETWORK_IS_ENTITY_CONCEALED(Entity entity);
 --@params entity Entity
 --@return BOOL
-function NetworkIsEntityConcealed(entity) end
+function NetworkIsEntityConcealed(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4796,7 +5295,8 @@ function NetworkIsEntityConcealed(entity) end
 --@usage BOOL NETWORK_IS_CLOCK_TIME_OVERRIDDEN();
 
 --@return BOOL
-function NetworkIsClockTimeOverridden() end
+function NetworkIsClockTimeOverridden()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4805,7 +5305,8 @@ function NetworkIsClockTimeOverridden() end
 --@usage BOOL NETWORK_IS_ENTITY_FADING(Entity entity);
 --@params entity Entity
 --@return BOOL
-function NetworkIsEntityFading(entity) end
+function NetworkIsEntityFading(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4814,7 +5315,8 @@ function NetworkIsEntityFading(entity) end
 --@usage BOOL NETWORK_IS_FRIEND_IN_SAME_TITLE(char* friendName);
 --@params friendName char*
 --@return BOOL
-function NetworkIsFriendInSameTitle(friendName) end
+function NetworkIsFriendInSameTitle(friendName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4823,7 +5325,8 @@ function NetworkIsFriendInSameTitle(friendName) end
 --@usage BOOL NETWORK_IS_FRIEND(int* networkHandle);
 --@params networkHandle int*
 --@return BOOL
-function NetworkIsFriend(networkHandle) end
+function NetworkIsFriend(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4832,7 +5335,8 @@ function NetworkIsFriend(networkHandle) end
 --@usage BOOL _NETWORK_IS_FRIEND_HANDLE_ONLINE(int* networkHandle);
 --@params networkHandle int*
 --@return BOOL
-function NetworkIsFriendHandleOnline(networkHandle) end
+function NetworkIsFriendHandleOnline(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4841,7 +5345,8 @@ function NetworkIsFriendHandleOnline(networkHandle) end
 --@usage BOOL NETWORK_IS_FRIEND_ONLINE(char* name);
 --@params name char*
 --@return BOOL
-function NetworkIsFriendOnline(name) end
+function NetworkIsFriendOnline(name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4850,7 +5355,8 @@ function NetworkIsFriendOnline(name) end
 --@usage BOOL NETWORK_IS_FINDING_GAMERS();
 
 --@return BOOL
-function NetworkIsFindingGamers() end
+function NetworkIsFindingGamers()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4859,7 +5365,8 @@ function NetworkIsFindingGamers() end
 --@usage BOOL NETWORK_IS_FRIEND_IN_MULTIPLAYER(char* friendName);
 --@params friendName char*
 --@return BOOL
-function NetworkIsFriendInMultiplayer(friendName) end
+function NetworkIsFriendInMultiplayer(friendName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4868,7 +5375,8 @@ function NetworkIsFriendInMultiplayer(friendName) end
 --@usage BOOL NETWORK_IS_FRIEND_INDEX_ONLINE(int friendIndex);
 --@params friendIndex int
 --@return BOOL
-function NetworkIsFriendIndexOnline(friendIndex) end
+function NetworkIsFriendIndexOnline(friendIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4877,7 +5385,8 @@ function NetworkIsFriendIndexOnline(friendIndex) end
 --@usage BOOL NETWORK_IS_GAMER_BLOCKED_BY_ME(Any* networkHandle);
 --@params networkHandle Any*
 --@return BOOL
-function NetworkIsGamerBlockedByMe(networkHandle) end
+function NetworkIsGamerBlockedByMe(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4887,7 +5396,8 @@ function NetworkIsGamerBlockedByMe(networkHandle) end
 --@params networkHandle int*
 --@params bufferSize int
 --@return BOOL
-function NetworkIsHandleValid(networkHandle,bufferSize) end
+function NetworkIsHandleValid(networkHandle, bufferSize)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4896,7 +5406,8 @@ function NetworkIsHandleValid(networkHandle,bufferSize) end
 --@usage BOOL NETWORK_IS_GAMER_MUTED_BY_ME(int* networkHandle);
 --@params networkHandle int*
 --@return BOOL
-function NetworkIsGamerMutedByMe(networkHandle) end
+function NetworkIsGamerMutedByMe(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4905,7 +5416,8 @@ function NetworkIsGamerMutedByMe(networkHandle) end
 --@usage BOOL NETWORK_IS_GAMER_IN_MY_SESSION(int* networkHandle);
 --@params networkHandle int*
 --@return BOOL
-function NetworkIsGamerInMySession(networkHandle) end
+function NetworkIsGamerInMySession(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4914,7 +5426,8 @@ function NetworkIsGamerInMySession(networkHandle) end
 --@usage BOOL NETWORK_IS_IN_PARTY();
 
 --@return BOOL
-function NetworkIsInParty() end
+function NetworkIsInParty()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4923,7 +5436,8 @@ function NetworkIsInParty() end
 --@usage BOOL NETWORK_IS_GAME_IN_PROGRESS();
 
 --@return BOOL
-function NetworkIsGameInProgress() end
+function NetworkIsGameInProgress()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4932,7 +5446,8 @@ function NetworkIsGameInProgress() end
 --@usage BOOL NETWORK_IS_GAMER_TALKING(int* networkHandle);
 --@params networkHandle int*
 --@return BOOL
-function NetworkIsGamerTalking(networkHandle) end
+function NetworkIsGamerTalking(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4941,7 +5456,8 @@ function NetworkIsGamerTalking(networkHandle) end
 --@usage BOOL NETWORK_IS_IN_SPECTATOR_MODE();
 
 --@return BOOL
-function NetworkIsInSpectatorMode() end
+function NetworkIsInSpectatorMode()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4950,7 +5466,8 @@ function NetworkIsInSpectatorMode() end
 --@usage BOOL NETWORK_IS_IN_PLATFORM_PARTY();
 
 --@return BOOL
-function NetworkIsInPlatformParty() end
+function NetworkIsInPlatformParty()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4959,7 +5476,8 @@ function NetworkIsInPlatformParty() end
 --@usage BOOL NETWORK_IS_HOST_OF_THIS_SCRIPT();
 
 --@return BOOL
-function NetworkIsHostOfThisScript() end
+function NetworkIsHostOfThisScript()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4968,7 +5486,8 @@ function NetworkIsHostOfThisScript() end
 --@usage BOOL NETWORK_IS_HOST();
 
 --@return BOOL
-function NetworkIsHost() end
+function NetworkIsHost()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4977,7 +5496,8 @@ function NetworkIsHost() end
 --@usage BOOL NETWORK_IS_IN_TRANSITION();
 
 --@return BOOL
-function NetworkIsInTransition() end
+function NetworkIsInTransition()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4986,7 +5506,8 @@ function NetworkIsInTransition() end
 --@usage BOOL NETWORK_IS_IN_MP_CUTSCENE();
 
 --@return BOOL
-function NetworkIsInMpCutscene() end
+function NetworkIsInMpCutscene()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4995,7 +5516,8 @@ function NetworkIsInMpCutscene() end
 --@usage Any NETWORK_IS_IN_TUTORIAL_SESSION();
 
 --@return Any
-function NetworkIsInTutorialSession() end
+function NetworkIsInTutorialSession()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5004,7 +5526,8 @@ function NetworkIsInTutorialSession() end
 --@usage BOOL NETWORK_IS_IN_PLATFORM_PARTY_CHAT();
 
 --@return BOOL
-function NetworkIsInPlatformPartyChat() end
+function NetworkIsInPlatformPartyChat()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5013,7 +5536,8 @@ function NetworkIsInPlatformPartyChat() end
 --@usage ScrHandle NETWORK_IS_MULTIPLAYER_DISABLED();
 
 --@return ScrHandle
-function NetworkIsMultiplayerDisabled() end
+function NetworkIsMultiplayerDisabled()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5022,7 +5546,8 @@ function NetworkIsMultiplayerDisabled() end
 --@usage BOOL NETWORK_IS_PARTICIPANT_ACTIVE(int p0);
 --@params p0 int
 --@return BOOL
-function NetworkIsParticipantActive(p0) end
+function NetworkIsParticipantActive(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5031,7 +5556,8 @@ function NetworkIsParticipantActive(p0) end
 --@usage BOOL NETWORK_IS_PARTY_MEMBER(int* networkHandle);
 --@params networkHandle int*
 --@return BOOL
-function NetworkIsPartyMember(networkHandle) end
+function NetworkIsPartyMember(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5040,7 +5566,8 @@ function NetworkIsPartyMember(networkHandle) end
 --@usage BOOL NETWORK_IS_LOCAL_TALKING();
 
 --@return BOOL
-function NetworkIsLocalTalking() end
+function NetworkIsLocalTalking()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5049,7 +5576,8 @@ function NetworkIsLocalTalking() end
 --@usage BOOL NETWORK_IS_PLAYER_A_PARTICIPANT(Player player);
 --@params player Player
 --@return BOOL
-function NetworkIsPlayerAParticipant(player) end
+function NetworkIsPlayerAParticipant(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5058,7 +5586,8 @@ function NetworkIsPlayerAParticipant(player) end
 --@usage BOOL NETWORK_IS_INACTIVE_PROFILE(Any* p0);
 --@params p0 Any*
 --@return BOOL
-function NetworkIsInactiveProfile(p0) end
+function NetworkIsInactiveProfile(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5067,7 +5596,8 @@ function NetworkIsInactiveProfile(p0) end
 --@usage BOOL NETWORK_IS_PLAYER_ACTIVE(Player player);
 --@params player Player
 --@return BOOL
-function NetworkIsPlayerActive(player) end
+function NetworkIsPlayerActive(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5076,7 +5606,8 @@ function NetworkIsPlayerActive(player) end
 --@usage BOOL NETWORK_IS_PLAYER_BLOCKED_BY_ME(Player player);
 --@params player Player
 --@return BOOL
-function NetworkIsPlayerBlockedByMe(player) end
+function NetworkIsPlayerBlockedByMe(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5085,7 +5616,8 @@ function NetworkIsPlayerBlockedByMe(player) end
 --@usage BOOL NETWORK_IS_LOCAL_PLAYER_INVINCIBLE();
 
 --@return BOOL
-function NetworkIsLocalPlayerInvincible() end
+function NetworkIsLocalPlayerInvincible()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5094,7 +5626,8 @@ function NetworkIsLocalPlayerInvincible() end
 --@usage Any NETWORK_IS_OFFLINE_INVITE_PENDING();
 
 --@return Any
-function NetworkIsOfflineInvitePending() end
+function NetworkIsOfflineInvitePending()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5103,7 +5636,8 @@ function NetworkIsOfflineInvitePending() end
 --@usage BOOL NETWORK_IS_PLAYER_FADING(Player player);
 --@params player Player
 --@return BOOL
-function NetworkIsPlayerFading(player) end
+function NetworkIsPlayerFading(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5112,7 +5646,8 @@ function NetworkIsPlayerFading(player) end
 --@usage BOOL NETWORK_IS_IN_SESSION();
 
 --@return BOOL
-function NetworkIsInSession() end
+function NetworkIsInSession()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5121,7 +5656,8 @@ function NetworkIsInSession() end
 --@usage BOOL NETWORK_IS_PLAYER_CONNECTED(Player player);
 --@params player Player
 --@return BOOL
-function NetworkIsPlayerConnected(player) end
+function NetworkIsPlayerConnected(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5130,7 +5666,8 @@ function NetworkIsPlayerConnected(player) end
 --@usage BOOL NETWORK_IS_PLAYER_IN_MP_CUTSCENE(Player player);
 --@params player Player
 --@return BOOL
-function NetworkIsPlayerInMpCutscene(player) end
+function NetworkIsPlayerInMpCutscene(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5141,7 +5678,8 @@ function NetworkIsPlayerInMpCutscene(player) end
 --@params script char*
 --@params p2 Player
 --@return BOOL
-function NetworkIsPlayerAParticipantOnScript(p0,script,p2) end
+function NetworkIsPlayerAParticipantOnScript(p0, script, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5150,7 +5688,8 @@ function NetworkIsPlayerAParticipantOnScript(p0,script,p2) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x2cc848a861d01493() end
+function N_0x2cc848a861d01493()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5159,7 +5698,8 @@ function N_0x2cc848a861d01493() end
 --@usage BOOL NETWORK_IS_PLAYER_TALKING(Player player);
 --@params player Player
 --@return BOOL
-function NetworkIsPlayerTalking(player) end
+function NetworkIsPlayerTalking(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5171,7 +5711,8 @@ function NetworkIsPlayerTalking(player) end
 --@params p2 BOOL
 --@params p3 Any
 --@return BOOL
-function NetworkIsScriptActive(scriptName,player,p2,p3) end
+function NetworkIsScriptActive(scriptName, player, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5180,7 +5721,8 @@ function NetworkIsScriptActive(scriptName,player,p2,p3) end
 --@usage BOOL NETWORK_IS_PLAYER_CONCEALED(Player player);
 --@params player Player
 --@return BOOL
-function NetworkIsPlayerConcealed(player) end
+function NetworkIsPlayerConcealed(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5189,7 +5731,8 @@ function NetworkIsPlayerConcealed(player) end
 --@usage BOOL NETWORK_IS_SESSION_ACTIVE();
 
 --@return BOOL
-function NetworkIsSessionActive() end
+function NetworkIsSessionActive()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5198,7 +5741,8 @@ function NetworkIsSessionActive() end
 --@usage BOOL NETWORK_IS_SESSION_STARTED();
 
 --@return BOOL
-function NetworkIsSessionStarted() end
+function NetworkIsSessionStarted()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5207,7 +5751,8 @@ function NetworkIsSessionStarted() end
 --@usage BOOL NETWORK_IS_PLAYER_MUTED_BY_ME(Player player);
 --@params player Player
 --@return BOOL
-function NetworkIsPlayerMutedByMe(player) end
+function NetworkIsPlayerMutedByMe(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5217,7 +5762,8 @@ function NetworkIsPlayerMutedByMe(player) end
 --@params player Player
 --@params index int
 --@return BOOL
-function NetworkIsPlayerEqualToIndex(player,index) end
+function NetworkIsPlayerEqualToIndex(player, index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5226,7 +5772,8 @@ function NetworkIsPlayerEqualToIndex(player,index) end
 --@usage BOOL _NETWORK_IS_PSN_AVAILABLE();
 
 --@return BOOL
-function NetworkIsPsnAvailable() end
+function NetworkIsPsnAvailable()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5235,7 +5782,8 @@ function NetworkIsPsnAvailable() end
 --@usage BOOL NETWORK_IS_PENDING_FRIEND(Any p0);
 --@params p0 Any
 --@return BOOL
-function NetworkIsPendingFriend(p0) end
+function NetworkIsPendingFriend(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5244,7 +5792,8 @@ function NetworkIsPendingFriend(p0) end
 --@usage BOOL NETWORK_IS_SESSION_BUSY();
 
 --@return BOOL
-function NetworkIsSessionBusy() end
+function NetworkIsSessionBusy()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5253,7 +5802,8 @@ function NetworkIsSessionBusy() end
 --@usage Any NETWORK_IS_TRANSITION_BUSY();
 
 --@return Any
-function NetworkIsTransitionBusy() end
+function NetworkIsTransitionBusy()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5262,7 +5812,8 @@ function NetworkIsTransitionBusy() end
 --@usage BOOL NETWORK_IS_TRANSITION_CLOSED_FRIENDS();
 
 --@return BOOL
-function NetworkIsTransitionClosedFriends() end
+function NetworkIsTransitionClosedFriends()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5273,7 +5824,8 @@ function NetworkIsTransitionClosedFriends() end
 --@params p1 BOOL
 --@params p2 Any
 --@return BOOL
-function NetworkIsThisScriptMarked(p0,p1,p2) end
+function NetworkIsThisScriptMarked(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5282,7 +5834,8 @@ function NetworkIsThisScriptMarked(p0,p1,p2) end
 --@usage Any NETWORK_IS_TRANSITION_HOST();
 
 --@return Any
-function NetworkIsTransitionHost() end
+function NetworkIsTransitionHost()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5291,7 +5844,8 @@ function NetworkIsTransitionHost() end
 --@usage BOOL NETWORK_IS_TRANSITION_HOST_FROM_HANDLE(int* networkHandle);
 --@params networkHandle int*
 --@return BOOL
-function NetworkIsTransitionHostFromHandle(networkHandle) end
+function NetworkIsTransitionHostFromHandle(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5300,7 +5854,8 @@ function NetworkIsTransitionHostFromHandle(networkHandle) end
 --@usage BOOL NETWORK_IS_TRANSITION_CLOSED_CREW();
 
 --@return BOOL
-function NetworkIsTransitionClosedCrew() end
+function NetworkIsTransitionClosedCrew()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5309,7 +5864,8 @@ function NetworkIsTransitionClosedCrew() end
 --@usage BOOL _NETWORK_IS_TEXT_CHAT_ACTIVE();
 
 --@return BOOL
-function NetworkIsTextChatActive() end
+function NetworkIsTextChatActive()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5318,7 +5874,8 @@ function NetworkIsTextChatActive() end
 --@usage BOOL NETWORK_IS_SIGNED_IN();
 
 --@return BOOL
-function NetworkIsSignedIn() end
+function NetworkIsSignedIn()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5327,7 +5884,8 @@ function NetworkIsSignedIn() end
 --@usage BOOL NETWORK_IS_TRANSITION_PRIVATE();
 
 --@return BOOL
-function NetworkIsTransitionPrivate() end
+function NetworkIsTransitionPrivate()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5336,7 +5894,8 @@ function NetworkIsTransitionPrivate() end
 --@usage Any NETWORK_IS_TRANSITION_MATCHMAKING();
 
 --@return Any
-function NetworkIsTransitionMatchmaking() end
+function NetworkIsTransitionMatchmaking()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5345,7 +5904,8 @@ function NetworkIsTransitionMatchmaking() end
 --@usage BOOL NETWORK_IS_TRANSITION_SOLO();
 
 --@return BOOL
-function NetworkIsTransitionSolo() end
+function NetworkIsTransitionSolo()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5354,7 +5914,8 @@ function NetworkIsTransitionSolo() end
 --@usage Any NETWORK_IS_TRANSITION_TO_GAME();
 
 --@return Any
-function NetworkIsTransitionToGame() end
+function NetworkIsTransitionToGame()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5363,7 +5924,8 @@ function NetworkIsTransitionToGame() end
 --@usage BOOL NETWORK_IS_TRANSITION_OPEN_TO_MATCHMAKING();
 
 --@return BOOL
-function NetworkIsTransitionOpenToMatchmaking() end
+function NetworkIsTransitionOpenToMatchmaking()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5372,7 +5934,8 @@ function NetworkIsTransitionOpenToMatchmaking() end
 --@usage BOOL NETWORK_IS_TRANSITION_VISIBILITY_LOCKED();
 
 --@return BOOL
-function NetworkIsTransitionVisibilityLocked() end
+function NetworkIsTransitionVisibilityLocked()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5381,7 +5944,8 @@ function NetworkIsTransitionVisibilityLocked() end
 --@usage BOOL NETWORK_IS_SIGNED_ONLINE();
 
 --@return BOOL
-function NetworkIsSignedOnline() end
+function NetworkIsSignedOnline()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5390,7 +5954,8 @@ function NetworkIsSignedOnline() end
 --@usage BOOL NETWORK_IS_TUNABLE_CLOUD_REQUEST_PENDING();
 
 --@return BOOL
-function NetworkIsTunableCloudRequestPending() end
+function NetworkIsTunableCloudRequestPending()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5399,7 +5964,8 @@ function NetworkIsTunableCloudRequestPending() end
 --@usage Any NETWORK_LAUNCH_TRANSITION();
 
 --@return Any
-function NetworkLaunchTransition() end
+function NetworkLaunchTransition()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5408,7 +5974,8 @@ function NetworkLaunchTransition() end
 --@usage BOOL NETWORK_IS_TRANSITION_STARTED();
 
 --@return BOOL
-function NetworkIsTransitionStarted() end
+function NetworkIsTransitionStarted()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5417,7 +5984,8 @@ function NetworkIsTransitionStarted() end
 --@usage BOOL NETWORK_MARK_TRANSITION_GAMER_AS_FULLY_JOINED(Any* p0);
 --@params p0 Any*
 --@return BOOL
-function NetworkMarkTransitionGamerAsFullyJoined(p0) end
+function NetworkMarkTransitionGamerAsFullyJoined(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5426,7 +5994,8 @@ function NetworkMarkTransitionGamerAsFullyJoined(p0) end
 --@usage char* NETWORK_MEMBER_ID_FROM_GAMER_HANDLE(int* networkHandle);
 --@params networkHandle int*
 --@return char*
-function NetworkMemberIdFromGamerHandle(networkHandle) end
+function NetworkMemberIdFromGamerHandle(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5435,7 +6004,8 @@ function NetworkMemberIdFromGamerHandle(networkHandle) end
 --@usage Any NETWORK_JOIN_GROUP_ACTIVITY();
 
 --@return Any
-function NetworkJoinGroupActivity() end
+function NetworkJoinGroupActivity()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5444,7 +6014,8 @@ function NetworkJoinGroupActivity() end
 --@usage BOOL NETWORK_IS_TUTORIAL_SESSION_CHANGE_PENDING();
 
 --@return BOOL
-function NetworkIsTutorialSessionChangePending() end
+function NetworkIsTutorialSessionChangePending()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5454,7 +6025,8 @@ function NetworkIsTutorialSessionChangePending() end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function NetworkOverrideChatRestrictions(player,toggle) end
+function NetworkOverrideChatRestrictions(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5463,7 +6035,8 @@ function NetworkOverrideChatRestrictions(player,toggle) end
 --@usage Any NETWORK_LEAVE_TRANSITION();
 
 --@return Any
-function NetworkLeaveTransition() end
+function NetworkLeaveTransition()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5472,7 +6045,8 @@ function NetworkLeaveTransition() end
 --@usage BOOL NETWORK_JOIN_TRANSITION(Player player);
 --@params player Player
 --@return BOOL
-function NetworkJoinTransition(player) end
+function NetworkJoinTransition(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5481,7 +6055,8 @@ function NetworkJoinTransition(player) end
 --@usage void NETWORK_OVERRIDE_RECEIVE_RESTRICTIONS_ALL(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkOverrideReceiveRestrictionsAll(toggle) end
+function NetworkOverrideReceiveRestrictionsAll(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5492,7 +6067,8 @@ function NetworkOverrideReceiveRestrictionsAll(toggle) end
 --@params Minutes int
 --@params Seconds int
 --@return void
-function NetworkOverrideClockTime(Hours,Minutes,Seconds) end
+function NetworkOverrideClockTime(Hours, Minutes, Seconds)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5502,7 +6078,8 @@ function NetworkOverrideClockTime(Hours,Minutes,Seconds) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function NetworkOverrideSendRestrictions(player,toggle) end
+function NetworkOverrideSendRestrictions(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5515,7 +6092,8 @@ function NetworkOverrideSendRestrictions(player,toggle) end
 --@params z float
 --@params heading float
 --@return void
-function NetworkOverrideCoordsAndHeading(entity,x,y,z,heading) end
+function NetworkOverrideCoordsAndHeading(entity, x, y, z, heading)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5524,7 +6102,8 @@ function NetworkOverrideCoordsAndHeading(entity,x,y,z,heading) end
 --@usage void NETWORK_OPEN_TRANSITION_MATCHMAKING();
 
 --@return void
-function NetworkOpenTransitionMatchmaking() end
+function NetworkOpenTransitionMatchmaking()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5534,7 +6113,8 @@ function NetworkOpenTransitionMatchmaking() end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function NetworkOverrideReceiveRestrictions(player,toggle) end
+function NetworkOverrideReceiveRestrictions(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5544,7 +6124,8 @@ function NetworkOverrideReceiveRestrictions(player,toggle) end
 --@params team int
 --@params toggle BOOL
 --@return void
-function NetworkOverrideTeamRestrictions(team,toggle) end
+function NetworkOverrideTeamRestrictions(team, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5553,7 +6134,8 @@ function NetworkOverrideTeamRestrictions(team,toggle) end
 --@usage BOOL NETWORK_PLAYER_GET_CHEATER_REASON();
 
 --@return BOOL
-function NetworkPlayerGetCheaterReason() end
+function NetworkPlayerGetCheaterReason()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5562,7 +6144,8 @@ function NetworkPlayerGetCheaterReason() end
 --@usage void NETWORK_OVERRIDE_SEND_RESTRICTIONS_ALL(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkOverrideSendRestrictionsAll(toggle) end
+function NetworkOverrideSendRestrictionsAll(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5572,7 +6155,8 @@ function NetworkOverrideSendRestrictionsAll(toggle) end
 --@params player Player
 --@params userID char*
 --@return char*
-function NetworkPlayerGetUserid(player,userID) end
+function NetworkPlayerGetUserid(player, userID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5581,7 +6165,8 @@ function NetworkPlayerGetUserid(player,userID) end
 --@usage BOOL NETWORK_PLAYER_IS_BADSPORT();
 
 --@return BOOL
-function NetworkPlayerIsBadsport() end
+function NetworkPlayerIsBadsport()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5590,7 +6175,8 @@ function NetworkPlayerIsBadsport() end
 --@usage BOOL NETWORK_PLAYER_INDEX_IS_CHEATER(Player player);
 --@params player Player
 --@return BOOL
-function NetworkPlayerIndexIsCheater(player) end
+function NetworkPlayerIndexIsCheater(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5599,7 +6185,8 @@ function NetworkPlayerIndexIsCheater(player) end
 --@usage char* NETWORK_PLAYER_GET_NAME(Player player);
 --@params player Player
 --@return char*
-function NetworkPlayerGetName(player) end
+function NetworkPlayerGetName(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5608,7 +6195,8 @@ function NetworkPlayerGetName(player) end
 --@usage void NETWORK_OVERRIDE_TRANSITION_CHAT(BOOL p0);
 --@params p0 BOOL
 --@return void
-function NetworkOverrideTransitionChat(p0) end
+function NetworkOverrideTransitionChat(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5617,7 +6205,8 @@ function NetworkOverrideTransitionChat(p0) end
 --@usage BOOL NETWORK_PLAYER_IS_ROCKSTAR_DEV(Player player);
 --@params player Player
 --@return BOOL
-function NetworkPlayerIsRockstarDev(player) end
+function NetworkPlayerIsRockstarDev(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5626,7 +6215,8 @@ function NetworkPlayerIsRockstarDev(player) end
 --@usage void NETWORK_REGISTER_ENTITY_AS_NETWORKED(Entity entity);
 --@params entity Entity
 --@return void
-function NetworkRegisterEntityAsNetworked(entity) end
+function NetworkRegisterEntityAsNetworked(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5636,7 +6226,8 @@ function NetworkRegisterEntityAsNetworked(entity) end
 --@params vars int*
 --@params numVars int
 --@return void
-function NetworkRegisterPlayerBroadcastVariables(vars,numVars) end
+function NetworkRegisterPlayerBroadcastVariables(vars, numVars)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5647,7 +6238,8 @@ function NetworkRegisterPlayerBroadcastVariables(vars,numVars) end
 --@params nameHash Any
 --@params value float*
 --@return BOOL
-function NetworkRegisterTunableFloatHash(contextHash,nameHash,value) end
+function NetworkRegisterTunableFloatHash(contextHash, nameHash, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5656,7 +6248,8 @@ function NetworkRegisterTunableFloatHash(contextHash,nameHash,value) end
 --@usage BOOL NETWORK_PLAYER_HAS_HEADSET(Player player);
 --@params player Player
 --@return BOOL
-function NetworkPlayerHasHeadset(player) end
+function NetworkPlayerHasHeadset(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5665,7 +6258,8 @@ function NetworkPlayerHasHeadset(player) end
 --@usage Any NETWORK_QUERY_RESPAWN_RESULTS(Any* p0);
 --@params p0 Any*
 --@return Any
-function NetworkQueryRespawnResults(p0) end
+function NetworkQueryRespawnResults(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5674,7 +6268,8 @@ function NetworkQueryRespawnResults(p0) end
 --@usage BOOL NETWORK_PLAYER_IS_CHEATER();
 
 --@return BOOL
-function NetworkPlayerIsCheater() end
+function NetworkPlayerIsCheater()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5683,7 +6278,8 @@ function NetworkPlayerIsCheater() end
 --@usage BOOL NETWORK_REMOVE_PRESENCE_INVITE(Any p0);
 --@params p0 Any
 --@return BOOL
-function NetworkRemovePresenceInvite(p0) end
+function NetworkRemovePresenceInvite(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5692,7 +6288,8 @@ function NetworkRemovePresenceInvite(p0) end
 --@usage void NETWORK_REMOVE_TRANSITION_INVITE(Any* p0);
 --@params p0 Any*
 --@return void
-function NetworkRemoveTransitionInvite(p0) end
+function NetworkRemoveTransitionInvite(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5701,7 +6298,8 @@ function NetworkRemoveTransitionInvite(p0) end
 --@usage void NETWORK_REMOVE_ALL_TRANSITION_INVITE();
 
 --@return void
-function NetworkRemoveAllTransitionInvite() end
+function NetworkRemoveAllTransitionInvite()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5711,7 +6309,8 @@ function NetworkRemoveAllTransitionInvite() end
 --@params vars int*
 --@params numVars int
 --@return void
-function NetworkRegisterHostBroadcastVariables(vars,numVars) end
+function NetworkRegisterHostBroadcastVariables(vars, numVars)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5722,7 +6321,8 @@ function NetworkRegisterHostBroadcastVariables(vars,numVars) end
 --@params nameHash Any
 --@params value BOOL*
 --@return BOOL
-function NetworkRegisterTunableBoolHash(contextHash,nameHash,value) end
+function NetworkRegisterTunableBoolHash(contextHash, nameHash, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5731,7 +6331,8 @@ function NetworkRegisterTunableBoolHash(contextHash,nameHash,value) end
 --@usage void _NETWORK_REPORT_MYSELF();
 
 --@return void
-function NetworkReportMyself() end
+function NetworkReportMyself()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5740,7 +6341,8 @@ function NetworkReportMyself() end
 --@usage void NETWORK_REQUEST_CLOUD_TUNABLES();
 
 --@return void
-function NetworkRequestCloudTunables() end
+function NetworkRequestCloudTunables()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5749,7 +6351,8 @@ function NetworkRequestCloudTunables() end
 --@usage BOOL NETWORK_REMOVE_ENTITY_AREA(Any p0);
 --@params p0 Any
 --@return BOOL
-function NetworkRemoveEntityArea(p0) end
+function NetworkRemoveEntityArea(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5758,7 +6361,8 @@ function NetworkRemoveEntityArea(p0) end
 --@usage BOOL NETWORK_REQUEST_CONTROL_OF_ENTITY(Entity entity);
 --@params entity Entity
 --@return BOOL
-function NetworkRequestControlOfEntity(entity) end
+function NetworkRequestControlOfEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5769,7 +6373,8 @@ function NetworkRequestControlOfEntity(entity) end
 --@params nameHash Any
 --@params value int*
 --@return BOOL
-function NetworkRegisterTunableIntHash(contextHash,nameHash,value) end
+function NetworkRegisterTunableIntHash(contextHash, nameHash, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5778,7 +6383,8 @@ function NetworkRegisterTunableIntHash(contextHash,nameHash,value) end
 --@usage BOOL NETWORK_REQUEST_CLOUD_BACKGROUND_SCRIPTS();
 
 --@return BOOL
-function NetworkRequestCloudBackgroundScripts() end
+function NetworkRequestCloudBackgroundScripts()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5787,7 +6393,8 @@ function NetworkRequestCloudBackgroundScripts() end
 --@usage BOOL NETWORK_REQUEST_CONTROL_OF_DOOR(int doorID);
 --@params doorID int
 --@return BOOL
-function NetworkRequestControlOfDoor(doorID) end
+function NetworkRequestControlOfDoor(doorID)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5801,7 +6408,8 @@ function NetworkRequestControlOfDoor(doorID) end
 --@params p4 BOOL
 --@params p5 BOOL
 --@return void
-function NetworkRespawnCoords(player,x,y,z,p4,p5) end
+function NetworkRespawnCoords(player, x, y, z, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5810,7 +6418,8 @@ function NetworkRespawnCoords(player,x,y,z,p4,p5) end
 --@usage void NETWORK_RESET_BODY_TRACKER();
 
 --@return void
-function NetworkResetBodyTracker() end
+function NetworkResetBodyTracker()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5819,7 +6428,8 @@ function NetworkResetBodyTracker() end
 --@usage BOOL NETWORK_REQUEST_CONTROL_OF_NETWORK_ID(int netId);
 --@params netId int
 --@return BOOL
-function NetworkRequestControlOfNetworkId(netId) end
+function NetworkRequestControlOfNetworkId(netId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5833,7 +6443,8 @@ function NetworkRequestControlOfNetworkId(netId) end
 --@params unk BOOL
 --@params changetime BOOL
 --@return void
-function NetworkResurrectLocalPlayer(x,y,z,heading,unk,changetime) end
+function NetworkResurrectLocalPlayer(x, y, z, heading, unk, changetime)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5846,7 +6457,8 @@ function NetworkResurrectLocalPlayer(x,y,z,heading,unk,changetime) end
 --@params p3 int
 --@params p4 BOOL
 --@return BOOL
-function NetworkSendTransitionGamerInstruction(networkHandle,p1,p2,p3,p4) end
+function NetworkSendTransitionGamerInstruction(networkHandle, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5858,7 +6470,8 @@ function NetworkSendTransitionGamerInstruction(networkHandle,p1,p2,p3,p4) end
 --@params p2 Any
 --@params p3 Any
 --@return BOOL
-function NetworkSendPresenceInvite(networkHandle,p1,p2,p3) end
+function NetworkSendPresenceInvite(networkHandle, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5870,7 +6483,8 @@ function NetworkSendPresenceInvite(networkHandle,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return BOOL
-function NetworkSessionActivityQuickmatch(p0,p1,p2,p3) end
+function NetworkSessionActivityQuickmatch(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5882,7 +6496,8 @@ function NetworkSessionActivityQuickmatch(p0,p1,p2,p3) end
 --@params p2 Any
 --@params p3 Any
 --@return BOOL
-function NetworkSendPresenceTransitionInvite(p0,p1,p2,p3) end
+function NetworkSendPresenceTransitionInvite(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5891,7 +6506,8 @@ function NetworkSendPresenceTransitionInvite(p0,p1,p2,p3) end
 --@usage void NETWORK_SESSION_CANCEL_INVITE();
 
 --@return void
-function NetworkSessionCancelInvite() end
+function NetworkSessionCancelInvite()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5901,7 +6517,8 @@ function NetworkSessionCancelInvite() end
 --@params message char*
 --@params networkHandle int*
 --@return BOOL
-function NetworkSendTextMessage(message,networkHandle) end
+function NetworkSendTextMessage(message, networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5914,7 +6531,8 @@ function NetworkSendTextMessage(message,networkHandle) end
 --@params maxPlayers int
 --@params p4 BOOL
 --@return BOOL
-function NetworkSessionCrewMatchmaking(p0,p1,p2,maxPlayers,p4) end
+function NetworkSessionCrewMatchmaking(p0, p1, p2, maxPlayers, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5923,7 +6541,8 @@ function NetworkSessionCrewMatchmaking(p0,p1,p2,maxPlayers,p4) end
 --@usage void NETWORK_SESSION_BLOCK_JOIN_REQUESTS(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkSessionBlockJoinRequests(toggle) end
+function NetworkSessionBlockJoinRequests(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5932,7 +6551,8 @@ function NetworkSessionBlockJoinRequests(toggle) end
 --@usage void NETWORK_SESSION_FORCE_CANCEL_INVITE();
 
 --@return void
-function NetworkSessionForceCancelInvite() end
+function NetworkSessionForceCancelInvite()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5942,7 +6562,8 @@ function NetworkSessionForceCancelInvite() end
 --@params p0 BOOL
 --@params p1 BOOL
 --@return BOOL
-function NetworkSessionEnd(p0,p1) end
+function NetworkSessionEnd(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5956,7 +6577,8 @@ function NetworkSessionEnd(p0,p1) end
 --@params p4 Any
 --@params p5 Any
 --@return Any
-function NetworkSessionEnter(p0,p1,p2,maxPlayers,p4,p5) end
+function NetworkSessionEnter(p0, p1, p2, maxPlayers, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5966,7 +6588,8 @@ function NetworkSessionEnter(p0,p1,p2,maxPlayers,p4,p5) end
 --@params p0 int
 --@params p1 BOOL
 --@return void
-function NetworkSessionChangeSlots(p0,p1) end
+function NetworkSessionChangeSlots(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5978,7 +6601,8 @@ function NetworkSessionChangeSlots(p0,p1) end
 --@params maxPlayers int
 --@params p3 BOOL
 --@return BOOL
-function NetworkSessionFriendMatchmaking(p0,p1,maxPlayers,p3) end
+function NetworkSessionFriendMatchmaking(p0, p1, maxPlayers, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5987,7 +6611,8 @@ function NetworkSessionFriendMatchmaking(p0,p1,maxPlayers,p3) end
 --@usage int NETWORK_SESSION_GET_MATCHMAKING_GROUP_FREE(int p0);
 --@params p0 int
 --@return int
-function NetworkSessionGetMatchmakingGroupFree(p0) end
+function NetworkSessionGetMatchmakingGroupFree(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5996,7 +6621,8 @@ function NetworkSessionGetMatchmakingGroupFree(p0) end
 --@usage int NETWORK_SESSION_GET_PRIVATE_SLOTS();
 
 --@return int
-function NetworkSessionGetPrivateSlots() end
+function NetworkSessionGetPrivateSlots()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6005,7 +6631,8 @@ function NetworkSessionGetPrivateSlots() end
 --@usage void NETWORK_SESSION_GET_INVITER(int* networkHandle);
 --@params networkHandle int*
 --@return void
-function NetworkSessionGetInviter(networkHandle) end
+function NetworkSessionGetInviter(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6016,7 +6643,8 @@ function NetworkSessionGetInviter(networkHandle) end
 --@params maxPlayers int
 --@params p2 BOOL
 --@return BOOL
-function NetworkSessionHost(p0,maxPlayers,p2) end
+function NetworkSessionHost(p0, maxPlayers, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6026,7 +6654,8 @@ function NetworkSessionHost(p0,maxPlayers,p2) end
 --@params p0 int
 --@params maxPlayers int
 --@return BOOL
-function NetworkSessionHostFriendsOnly(p0,maxPlayers) end
+function NetworkSessionHostFriendsOnly(p0, maxPlayers)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6035,7 +6664,8 @@ function NetworkSessionHostFriendsOnly(p0,maxPlayers) end
 --@usage BOOL NETWORK_SESSION_GET_KICK_VOTE(Player player);
 --@params player Player
 --@return BOOL
-function NetworkSessionGetKickVote(player) end
+function NetworkSessionGetKickVote(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6045,7 +6675,8 @@ function NetworkSessionGetKickVote(player) end
 --@params p0 int
 --@params maxPlayers int
 --@return BOOL
-function NetworkSessionHostClosed(p0,maxPlayers) end
+function NetworkSessionHostClosed(p0, maxPlayers)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6054,7 +6685,8 @@ function NetworkSessionHostClosed(p0,maxPlayers) end
 --@usage BOOL NETWORK_SESSION_IS_CLOSED_CREW();
 
 --@return BOOL
-function NetworkSessionIsClosedCrew() end
+function NetworkSessionIsClosedCrew()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6063,7 +6695,8 @@ function NetworkSessionIsClosedCrew() end
 --@usage void NETWORK_SESSION_HOST_SINGLE_PLAYER(int p0);
 --@params p0 int
 --@return void
-function NetworkSessionHostSinglePlayer(p0) end
+function NetworkSessionHostSinglePlayer(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6072,7 +6705,8 @@ function NetworkSessionHostSinglePlayer(p0) end
 --@usage BOOL NETWORK_SESSION_IS_CLOSED_FRIENDS();
 
 --@return BOOL
-function NetworkSessionIsClosedFriends() end
+function NetworkSessionIsClosedFriends()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6081,7 +6715,8 @@ function NetworkSessionIsClosedFriends() end
 --@usage BOOL NETWORK_SESSION_IS_IN_VOICE_SESSION();
 
 --@return BOOL
-function NetworkSessionIsInVoiceSession() end
+function NetworkSessionIsInVoiceSession()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6090,7 +6725,8 @@ function NetworkSessionIsInVoiceSession() end
 --@usage void _NETWORK_SESSION_HOSTED(BOOL p0);
 --@params p0 BOOL
 --@return void
-function NetworkSessionHosted(p0) end
+function NetworkSessionHosted(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6099,7 +6735,8 @@ function NetworkSessionHosted(p0) end
 --@usage BOOL NETWORK_SESSION_IS_SOLO();
 
 --@return BOOL
-function NetworkSessionIsSolo() end
+function NetworkSessionIsSolo()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6108,7 +6745,8 @@ function NetworkSessionIsSolo() end
 --@usage BOOL NETWORK_SESSION_IS_VISIBLE();
 
 --@return BOOL
-function NetworkSessionIsVisible() end
+function NetworkSessionIsVisible()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6117,7 +6755,8 @@ function NetworkSessionIsVisible() end
 --@usage void NETWORK_SESSION_JOIN_INVITE();
 
 --@return void
-function NetworkSessionJoinInvite() end
+function NetworkSessionJoinInvite()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6126,7 +6765,8 @@ function NetworkSessionJoinInvite() end
 --@usage void NETWORK_SESSION_KICK_PLAYER(Player player);
 --@params player Player
 --@return void
-function NetworkSessionKickPlayer(player) end
+function NetworkSessionKickPlayer(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6135,7 +6775,8 @@ function NetworkSessionKickPlayer(player) end
 --@usage void NETWORK_SESSION_LEAVE_SINGLE_PLAYER();
 
 --@return void
-function NetworkSessionLeaveSinglePlayer() end
+function NetworkSessionLeaveSinglePlayer()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6144,7 +6785,8 @@ function NetworkSessionLeaveSinglePlayer() end
 --@usage BOOL NETWORK_SESSION_IS_VOICE_SESSION_BUSY();
 
 --@return BOOL
-function NetworkSessionIsVoiceSessionBusy() end
+function NetworkSessionIsVoiceSessionBusy()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6153,7 +6795,8 @@ function NetworkSessionIsVoiceSessionBusy() end
 --@usage void NETWORK_SESSION_MARK_VISIBLE(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkSessionMarkVisible(toggle) end
+function NetworkSessionMarkVisible(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6162,7 +6805,8 @@ function NetworkSessionMarkVisible(toggle) end
 --@usage void NETWORK_SESSION_SET_MATCHMAKING_MENTAL_STATE(Any p0);
 --@params p0 Any
 --@return void
-function NetworkSessionSetMatchmakingMentalState(p0) end
+function NetworkSessionSetMatchmakingMentalState(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6171,7 +6815,8 @@ function NetworkSessionSetMatchmakingMentalState(p0) end
 --@usage void NETWORK_SESSION_SET_MATCHMAKING_GROUP(int matchmakingGroup);
 --@params matchmakingGroup int
 --@return void
-function NetworkSessionSetMatchmakingGroup(matchmakingGroup) end
+function NetworkSessionSetMatchmakingGroup(matchmakingGroup)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6180,7 +6825,8 @@ function NetworkSessionSetMatchmakingGroup(matchmakingGroup) end
 --@usage BOOL NETWORK_SESSION_IS_PRIVATE();
 
 --@return BOOL
-function NetworkSessionIsPrivate() end
+function NetworkSessionIsPrivate()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6189,7 +6835,8 @@ function NetworkSessionIsPrivate() end
 --@usage void NETWORK_SESSION_SET_MATCHMAKING_PROPERTY_ID(BOOL p0);
 --@params p0 BOOL
 --@return void
-function NetworkSessionSetMatchmakingPropertyId(p0) end
+function NetworkSessionSetMatchmakingPropertyId(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6198,7 +6845,8 @@ function NetworkSessionSetMatchmakingPropertyId(p0) end
 --@usage void NETWORK_SESSION_VOICE_CONNECT_TO_PLAYER(Any* globalPtr);
 --@params globalPtr Any*
 --@return void
-function NetworkSessionVoiceConnectToPlayer(globalPtr) end
+function NetworkSessionVoiceConnectToPlayer(globalPtr)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6208,7 +6856,8 @@ function NetworkSessionVoiceConnectToPlayer(globalPtr) end
 --@params playerType int
 --@params playerCount int
 --@return void
-function NetworkSessionSetMatchmakingGroupMax(playerType,playerCount) end
+function NetworkSessionSetMatchmakingGroupMax(playerType, playerCount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6217,7 +6866,8 @@ function NetworkSessionSetMatchmakingGroupMax(playerType,playerCount) end
 --@usage BOOL NETWORK_SESSION_WAS_INVITED();
 
 --@return BOOL
-function NetworkSessionWasInvited() end
+function NetworkSessionWasInvited()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6226,7 +6876,8 @@ function NetworkSessionWasInvited() end
 --@usage void NETWORK_SESSION_VOICE_HOST();
 
 --@return void
-function NetworkSessionVoiceHost() end
+function NetworkSessionVoiceHost()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6235,7 +6886,8 @@ function NetworkSessionVoiceHost() end
 --@usage void NETWORK_SET_ACTIVITY_SPECTATOR(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkSetActivitySpectator(toggle) end
+function NetworkSetActivitySpectator(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6244,7 +6896,8 @@ function NetworkSetActivitySpectator(toggle) end
 --@usage void NETWORK_SET_ACTIVITY_SPECTATOR_MAX(int maxSpectators);
 --@params maxSpectators int
 --@return void
-function NetworkSetActivitySpectatorMax(maxSpectators) end
+function NetworkSetActivitySpectatorMax(maxSpectators)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6253,7 +6906,8 @@ function NetworkSetActivitySpectatorMax(maxSpectators) end
 --@usage BOOL NETWORK_SET_CURRENTLY_SELECTED_GAMER_HANDLE_FROM_INVITE_MENU(Any* p0);
 --@params p0 Any*
 --@return BOOL
-function NetworkSetCurrentlySelectedGamerHandleFromInviteMenu(p0) end
+function NetworkSetCurrentlySelectedGamerHandleFromInviteMenu(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6262,7 +6916,8 @@ function NetworkSetCurrentlySelectedGamerHandleFromInviteMenu(p0) end
 --@usage void NETWORK_SESSION_VOICE_LEAVE();
 
 --@return void
-function NetworkSessionVoiceLeave() end
+function NetworkSessionVoiceLeave()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6272,7 +6927,8 @@ function NetworkSessionVoiceLeave() end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function NetworkSetEntityCanBlend(entity,toggle) end
+function NetworkSetEntityCanBlend(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6282,7 +6938,8 @@ function NetworkSetEntityCanBlend(entity,toggle) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function NetworkSetEntityInvisibleToNetwork(entity,toggle) end
+function NetworkSetEntityInvisibleToNetwork(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6291,7 +6948,8 @@ function NetworkSetEntityInvisibleToNetwork(entity,toggle) end
 --@usage void NETWORK_SET_FRIENDLY_FIRE_OPTION(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkSetFriendlyFireOption(toggle) end
+function NetworkSetFriendlyFireOption(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6300,7 +6958,8 @@ function NetworkSetFriendlyFireOption(toggle) end
 --@usage void NETWORK_SET_GAMER_INVITED_TO_TRANSITION(int* networkHandle);
 --@params networkHandle int*
 --@return void
-function NetworkSetGamerInvitedToTransition(networkHandle) end
+function NetworkSetGamerInvitedToTransition(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6309,7 +6968,8 @@ function NetworkSetGamerInvitedToTransition(networkHandle) end
 --@usage void NETWORK_SET_IN_FREE_CAM_MODE(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkSetInFreeCamMode(toggle) end
+function NetworkSetInFreeCamMode(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6319,7 +6979,8 @@ function NetworkSetInFreeCamMode(toggle) end
 --@params toggle BOOL
 --@params player Player
 --@return void
-function NetworkSetChoiceMigrateOptions(toggle,player) end
+function NetworkSetChoiceMigrateOptions(toggle, player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6330,7 +6991,8 @@ function NetworkSetChoiceMigrateOptions(toggle,player) end
 --@params playerPed Ped
 --@params p2 BOOL
 --@return void
-function NetworkSetInSpectatorModeExtended(toggle,playerPed,p2) end
+function NetworkSetInSpectatorModeExtended(toggle, playerPed, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6339,7 +7001,8 @@ function NetworkSetInSpectatorModeExtended(toggle,playerPed,p2) end
 --@usage void _NETWORK_SET_INVITE_ON_CALL_FOR_INVITE_MENU(Any* p0);
 --@params p0 Any*
 --@return void
-function NetworkSetInviteOnCallForInviteMenu(p0) end
+function NetworkSetInviteOnCallForInviteMenu(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6349,7 +7012,8 @@ function NetworkSetInviteOnCallForInviteMenu(p0) end
 --@params p0 BOOL
 --@params p1 Any
 --@return void
-function NetworkSetKeepFocuspoint(p0,p1) end
+function NetworkSetKeepFocuspoint(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6358,7 +7022,8 @@ function NetworkSetKeepFocuspoint(p0,p1) end
 --@usage BOOL _NETWORK_SET_CURRENT_DATA_MANAGER_HANDLE(Any* p0);
 --@params p0 Any*
 --@return BOOL
-function NetworkSetCurrentDataManagerHandle(p0) end
+function NetworkSetCurrentDataManagerHandle(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6367,7 +7032,8 @@ function NetworkSetCurrentDataManagerHandle(p0) end
 --@usage void NETWORK_SET_LOCAL_PLAYER_SYNC_LOOK_AT(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkSetLocalPlayerSyncLookAt(toggle) end
+function NetworkSetLocalPlayerSyncLookAt(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6376,7 +7042,8 @@ function NetworkSetLocalPlayerSyncLookAt(toggle) end
 --@usage void NETWORK_SET_LOCAL_PLAYER_INVINCIBLE_TIME(int time);
 --@params time int
 --@return void
-function NetworkSetLocalPlayerInvincibleTime(time) end
+function NetworkSetLocalPlayerInvincibleTime(time)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6386,7 +7053,8 @@ function NetworkSetLocalPlayerInvincibleTime(time) end
 --@params toggle BOOL
 --@params playerPed Ped
 --@return void
-function NetworkSetInSpectatorMode(toggle,playerPed) end
+function NetworkSetInSpectatorMode(toggle, playerPed)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6395,7 +7063,8 @@ function NetworkSetInSpectatorMode(toggle,playerPed) end
 --@usage void NETWORK_SET_MISSION_FINISHED();
 
 --@return void
-function NetworkSetMissionFinished() end
+function NetworkSetMissionFinished()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6405,7 +7074,8 @@ function NetworkSetMissionFinished() end
 --@params netID int
 --@params toggle BOOL
 --@return void
-function NetworkSetNetworkIdDynamic(netID,toggle) end
+function NetworkSetNetworkIdDynamic(netID, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6414,7 +7084,8 @@ function NetworkSetNetworkIdDynamic(netID,toggle) end
 --@usage void NETWORK_SET_OVERRIDE_SPECTATOR_MODE(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkSetOverrideSpectatorMode(toggle) end
+function NetworkSetOverrideSpectatorMode(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6424,7 +7095,8 @@ function NetworkSetOverrideSpectatorMode(toggle) end
 --@params p0 BOOL
 --@params p1 BOOL
 --@return void
-function NetworkSetInMpCutscene(p0,p1) end
+function NetworkSetInMpCutscene(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6433,7 +7105,8 @@ function NetworkSetInMpCutscene(p0,p1) end
 --@usage void NETWORK_SET_PLAYER_IS_PASSIVE(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkSetPlayerIsPassive(toggle) end
+function NetworkSetPlayerIsPassive(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6442,7 +7115,8 @@ function NetworkSetPlayerIsPassive(toggle) end
 --@usage void NETWORK_SET_PROPERTY_ID(int id);
 --@params id int
 --@return void
-function NetworkSetPropertyId(id) end
+function NetworkSetPropertyId(id)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6451,7 +7125,8 @@ function NetworkSetPropertyId(id) end
 --@usage void NETWORK_SET_NO_SPECTATOR_CHAT(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkSetNoSpectatorChat(toggle) end
+function NetworkSetNoSpectatorChat(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6463,7 +7138,8 @@ function NetworkSetNoSpectatorChat(toggle) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function NetworkSetRichPresence(p0,p1,p2,p3) end
+function NetworkSetRichPresence(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6473,7 +7149,8 @@ function NetworkSetRichPresence(p0,p1,p2,p3) end
 --@params p0 int
 --@params gxtLabel char*
 --@return void
-function NetworkSetRichPresence_2(p0,gxtLabel) end
+function NetworkSetRichPresence_2(p0, gxtLabel)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6482,7 +7159,8 @@ function NetworkSetRichPresence_2(p0,gxtLabel) end
 --@usage void NETWORK_SET_TEAM_ONLY_CHAT(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkSetTeamOnlyChat(toggle) end
+function NetworkSetTeamOnlyChat(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6491,7 +7169,8 @@ function NetworkSetTeamOnlyChat(toggle) end
 --@usage void NETWORK_SET_TRANSITION_ACTIVITY_ID(Any p0);
 --@params p0 Any
 --@return void
-function NetworkSetTransitionActivityId(p0) end
+function NetworkSetTransitionActivityId(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6502,7 +7181,8 @@ function NetworkSetTransitionActivityId(p0) end
 --@params p1 BOOL
 --@params playerId int
 --@return void
-function NetworkSetThisScriptIsNetworkScript(lobbySize,p1,playerId) end
+function NetworkSetThisScriptIsNetworkScript(lobbySize, p1, playerId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6511,7 +7191,8 @@ function NetworkSetThisScriptIsNetworkScript(lobbySize,p1,playerId) end
 --@usage void NETWORK_SET_VOICE_ACTIVE(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkSetVoiceActive(toggle) end
+function NetworkSetVoiceActive(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6520,7 +7201,8 @@ function NetworkSetVoiceActive(toggle) end
 --@usage void NETWORK_SET_TALKER_PROXIMITY(float value);
 --@params value float
 --@return void
-function NetworkSetTalkerProximity(value) end
+function NetworkSetTalkerProximity(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6530,7 +7212,8 @@ function NetworkSetTalkerProximity(value) end
 --@params p0 BOOL
 --@params p1 BOOL
 --@return void
-function NetworkSetTransitionVisibilityLock(p0,p1) end
+function NetworkSetTransitionVisibilityLock(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6540,7 +7223,8 @@ function NetworkSetTransitionVisibilityLock(p0,p1) end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function NetworkSetVehicleWheelsDestructible(vehicle,toggle) end
+function NetworkSetVehicleWheelsDestructible(vehicle, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6549,7 +7233,8 @@ function NetworkSetVehicleWheelsDestructible(vehicle,toggle) end
 --@usage void NETWORK_SET_VOICE_CHANNEL(int channel);
 --@params channel int
 --@return void
-function NetworkSetVoiceChannel(channel) end
+function NetworkSetVoiceChannel(channel)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6558,7 +7243,8 @@ function NetworkSetVoiceChannel(channel) end
 --@usage void NETWORK_SET_TRANSITION_CREATOR_HANDLE(Any* p0);
 --@params p0 Any*
 --@return void
-function NetworkSetTransitionCreatorHandle(p0) end
+function NetworkSetTransitionCreatorHandle(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6578,7 +7264,8 @@ function NetworkSetTransitionCreatorHandle(p0) end
 --@params p10 float
 --@params flags int
 --@return BOOL
-function NetworkStartRespawnSearchInAngledAreaForPlayer(player,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,flags) end
+function NetworkStartRespawnSearchInAngledAreaForPlayer(player, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6595,7 +7282,8 @@ function NetworkStartRespawnSearchInAngledAreaForPlayer(player,p1,p2,p3,p4,p5,p6
 --@params p7 float
 --@params flags int
 --@return BOOL
-function NetworkStartRespawnSearchForPlayer(player,p1,p2,p3,p4,p5,p6,p7,flags) end
+function NetworkStartRespawnSearchForPlayer(player, p1, p2, p3, p4, p5, p6, p7, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6604,7 +7292,8 @@ function NetworkStartRespawnSearchForPlayer(player,p1,p2,p3,p4,p5,p6,p7,flags) e
 --@usage void NETWORK_START_SYNCHRONISED_SCENE(int netScene);
 --@params netScene int
 --@return void
-function NetworkStartSynchronisedScene(netScene) end
+function NetworkStartSynchronisedScene(netScene)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6613,7 +7302,8 @@ function NetworkStartSynchronisedScene(netScene) end
 --@usage BOOL _NETWORK_SHOULD_SHOW_CONNECTIVITY_TROUBLESHOOTING();
 
 --@return BOOL
-function NetworkShouldShowConnectivityTroubleshooting() end
+function NetworkShouldShowConnectivityTroubleshooting()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6622,7 +7312,8 @@ function NetworkShouldShowConnectivityTroubleshooting() end
 --@usage void NETWORK_START_SOLO_TUTORIAL_SESSION();
 
 --@return void
-function NetworkStartSoloTutorialSession() end
+function NetworkStartSoloTutorialSession()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6631,7 +7322,8 @@ function NetworkStartSoloTutorialSession() end
 --@usage void NETWORK_SUPPRESS_INVITE(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function NetworkSuppressInvite(toggle) end
+function NetworkSuppressInvite(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6640,7 +7332,8 @@ function NetworkSuppressInvite(toggle) end
 --@usage void NETWORK_STOP_SYNCHRONISED_SCENE(int netScene);
 --@params netScene int
 --@return void
-function NetworkStopSynchronisedScene(netScene) end
+function NetworkStopSynchronisedScene(netScene)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6651,7 +7344,8 @@ function NetworkStopSynchronisedScene(netScene) end
 --@params tunableName Hash
 --@params defaultValue BOOL
 --@return BOOL
-function NetworkTryAccessTunableBoolHash(tunableContext,tunableName,defaultValue) end
+function NetworkTryAccessTunableBoolHash(tunableContext, tunableName, defaultValue)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6660,7 +7354,8 @@ function NetworkTryAccessTunableBoolHash(tunableContext,tunableName,defaultValue
 --@usage void NETWORK_SHOW_PROFILE_UI(int* networkHandle);
 --@params networkHandle int*
 --@return void
-function NetworkShowProfileUi(networkHandle) end
+function NetworkShowProfileUi(networkHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6673,7 +7368,8 @@ function NetworkShowProfileUi(networkHandle) end
 --@params state int
 --@params p4 int
 --@return void
-function NetworkTransitionTrack(hash,p1,p2,state,p4) end
+function NetworkTransitionTrack(hash, p1, p2, state, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6682,7 +7378,8 @@ function NetworkTransitionTrack(hash,p1,p2,state,p4) end
 --@usage int OBJ_TO_NET(Object object);
 --@params object Object
 --@return int
-function ObjToNet(object) end
+function ObjToNet(object)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6691,7 +7388,8 @@ function ObjToNet(object) end
 --@usage void NETWORK_UNREGISTER_NETWORKED_ENTITY(Entity entity);
 --@params entity Entity
 --@return void
-function NetworkUnregisterNetworkedEntity(entity) end
+function NetworkUnregisterNetworkedEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6700,7 +7398,8 @@ function NetworkUnregisterNetworkedEntity(entity) end
 --@usage void _NETWORK_UPDATE_PLAYER_SCARS();
 
 --@return void
-function NetworkUpdatePlayerScars() end
+function NetworkUpdatePlayerScars()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6709,7 +7408,8 @@ function NetworkUpdatePlayerScars() end
 --@usage BOOL NETWORK_X_AFFECTS_GAMERS(Any p0);
 --@params p0 Any
 --@return BOOL
-function NetworkXAffectsGamers(p0) end
+function NetworkXAffectsGamers(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6718,7 +7418,8 @@ function NetworkXAffectsGamers(p0) end
 --@usage Player PARTICIPANT_ID();
 
 --@return Player
-function ParticipantId() end
+function ParticipantId()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6727,7 +7428,8 @@ function ParticipantId() end
 --@usage int PARTICIPANT_ID_TO_INT();
 
 --@return int
-function ParticipantIdToInt() end
+function ParticipantIdToInt()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6736,7 +7438,8 @@ function ParticipantIdToInt() end
 --@usage void RELEASE_ALL_COMMERCE_ITEM_IMAGES();
 
 --@return void
-function ReleaseAllCommerceItemImages() end
+function ReleaseAllCommerceItemImages()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6745,7 +7448,8 @@ function ReleaseAllCommerceItemImages() end
 --@usage void REMOVE_ALL_STICKY_BOMBS_FROM_ENTITY(Entity entity);
 --@params entity Entity
 --@return void
-function RemoveAllStickyBombsFromEntity(entity) end
+function RemoveAllStickyBombsFromEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6754,7 +7458,8 @@ function RemoveAllStickyBombsFromEntity(entity) end
 --@usage int PED_TO_NET(Ped ped);
 --@params ped Ped
 --@return int
-function PedToNet(ped) end
+function PedToNet(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6763,7 +7468,8 @@ function PedToNet(ped) end
 --@usage BOOL _REMOTE_CHEAT_DETECTED();
 
 --@return BOOL
-function RemoteCheatDetected() end
+function RemoteCheatDetected()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6772,7 +7478,8 @@ function RemoteCheatDetected() end
 --@usage void _RESERVE_NETWORK_LOCAL_VEHICLES(int amount);
 --@params amount int
 --@return void
-function ReserveNetworkLocalVehicles(amount) end
+function ReserveNetworkLocalVehicles(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6781,7 +7488,8 @@ function ReserveNetworkLocalVehicles(amount) end
 --@usage void RESERVE_NETWORK_MISSION_PEDS(int amount);
 --@params amount int
 --@return void
-function ReserveNetworkMissionPeds(amount) end
+function ReserveNetworkMissionPeds(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6790,7 +7498,8 @@ function ReserveNetworkMissionPeds(amount) end
 --@usage void _RESERVE_NETWORK_LOCAL_PEDS(int amount);
 --@params amount int
 --@return void
-function ReserveNetworkLocalPeds(amount) end
+function ReserveNetworkLocalPeds(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6799,7 +7508,8 @@ function ReserveNetworkLocalPeds(amount) end
 --@usage void _RESERVE_NETWORK_LOCAL_OBJECTS(int amount);
 --@params amount int
 --@return void
-function ReserveNetworkLocalObjects(amount) end
+function ReserveNetworkLocalObjects(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6808,7 +7518,8 @@ function ReserveNetworkLocalObjects(amount) end
 --@usage void SET_ENTITY_LOCALLY_INVISIBLE(Entity entity);
 --@params entity Entity
 --@return void
-function SetEntityLocallyInvisible(entity) end
+function SetEntityLocallyInvisible(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6818,7 +7529,8 @@ function SetEntityLocallyInvisible(entity) end
 --@params contentId Any*
 --@params contentTypeName Any*
 --@return BOOL
-function SetBalanceAddMachine(contentId,contentTypeName) end
+function SetBalanceAddMachine(contentId, contentTypeName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6827,7 +7539,8 @@ function SetBalanceAddMachine(contentId,contentTypeName) end
 --@usage BOOL REQUEST_COMMERCE_ITEM_IMAGE(int index);
 --@params index int
 --@return BOOL
-function RequestCommerceItemImage(index) end
+function RequestCommerceItemImage(index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6836,7 +7549,8 @@ function RequestCommerceItemImage(index) end
 --@usage void RESERVE_NETWORK_MISSION_OBJECTS(int amount);
 --@params amount int
 --@return void
-function ReserveNetworkMissionObjects(amount) end
+function ReserveNetworkMissionObjects(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6845,7 +7559,8 @@ function ReserveNetworkMissionObjects(amount) end
 --@usage void RESERVE_NETWORK_MISSION_VEHICLES(int amount);
 --@params amount int
 --@return void
-function ReserveNetworkMissionVehicles(amount) end
+function ReserveNetworkMissionVehicles(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6855,7 +7570,8 @@ function ReserveNetworkMissionVehicles(amount) end
 --@params p0 BOOL
 --@params p1 BOOL
 --@return void
-function SetLocalPlayerVisibleInCutscene(p0,p1) end
+function SetLocalPlayerVisibleInCutscene(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6866,7 +7582,8 @@ function SetLocalPlayerVisibleInCutscene(p0,p1) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function SetEntityVisibleInCutscene(p0,p1,p2) end
+function SetEntityVisibleInCutscene(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6876,7 +7593,8 @@ function SetEntityVisibleInCutscene(p0,p1,p2) end
 --@params netId int
 --@params toggle BOOL
 --@return void
-function SetNetworkIdCanMigrate(netId,toggle) end
+function SetNetworkIdCanMigrate(netId, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6887,7 +7605,8 @@ function SetNetworkIdCanMigrate(netId,toggle) end
 --@params dataCount int
 --@params contentTypeName Any*
 --@return BOOL
-function SetBalanceAddMachines(data,dataCount,contentTypeName) end
+function SetBalanceAddMachines(data, dataCount, contentTypeName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6896,7 +7615,8 @@ function SetBalanceAddMachines(data,dataCount,contentTypeName) end
 --@usage void SET_ENTITY_LOCALLY_VISIBLE(Entity entity);
 --@params entity Entity
 --@return void
-function SetEntityLocallyVisible(entity) end
+function SetEntityLocallyVisible(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6907,7 +7627,8 @@ function SetEntityLocallyVisible(entity) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetNetworkIdSyncToPlayer(netId,player,toggle) end
+function SetNetworkIdSyncToPlayer(netId, player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6916,7 +7637,8 @@ function SetNetworkIdSyncToPlayer(netId,player,toggle) end
 --@usage void SET_LOCAL_PLAYER_VISIBLE_LOCALLY(BOOL p0);
 --@params p0 BOOL
 --@return void
-function SetLocalPlayerVisibleLocally(p0) end
+function SetLocalPlayerVisibleLocally(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6925,7 +7647,8 @@ function SetLocalPlayerVisibleLocally(p0) end
 --@usage void SET_LOCAL_PLAYER_INVISIBLE_LOCALLY(BOOL p0);
 --@params p0 BOOL
 --@return void
-function SetLocalPlayerInvisibleLocally(p0) end
+function SetLocalPlayerInvisibleLocally(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6935,7 +7658,8 @@ function SetLocalPlayerInvisibleLocally(p0) end
 --@params netId int
 --@params time int
 --@return void
-function SetNetworkVehicleRespotTimer(netId,time) end
+function SetNetworkVehicleRespotTimer(netId, time)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6945,7 +7669,8 @@ function SetNetworkVehicleRespotTimer(netId,time) end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetNetworkVehicleAsGhost(vehicle,toggle) end
+function SetNetworkVehicleAsGhost(vehicle, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6955,7 +7680,8 @@ function SetNetworkVehicleAsGhost(vehicle,toggle) end
 --@params netId int
 --@params toggle BOOL
 --@return void
-function SetNetworkIdExistsOnAllMachines(netId,toggle) end
+function SetNetworkIdExistsOnAllMachines(netId, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6964,7 +7690,8 @@ function SetNetworkIdExistsOnAllMachines(netId,toggle) end
 --@usage void SET_NETWORK_CUTSCENE_ENTITIES(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetNetworkCutsceneEntities(toggle) end
+function SetNetworkCutsceneEntities(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6975,7 +7702,8 @@ function SetNetworkCutsceneEntities(toggle) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function SetNetworkIdVisibleInCutscene(netId,p1,p2) end
+function SetNetworkIdVisibleInCutscene(netId, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6985,7 +7713,8 @@ function SetNetworkIdVisibleInCutscene(netId,p1,p2) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPlayerVisibleLocally(player,toggle) end
+function SetPlayerVisibleLocally(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6995,7 +7724,8 @@ function SetPlayerVisibleLocally(player,toggle) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPlayerInvisibleLocally(player,toggle) end
+function SetPlayerInvisibleLocally(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7004,7 +7734,8 @@ function SetPlayerInvisibleLocally(player,toggle) end
 --@usage void SHUTDOWN_AND_LAUNCH_SINGLE_PLAYER_GAME();
 
 --@return void
-function ShutdownAndLaunchSinglePlayerGame() end
+function ShutdownAndLaunchSinglePlayerGame()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7013,7 +7744,8 @@ function ShutdownAndLaunchSinglePlayerGame() end
 --@usage BOOL _SHUTDOWN_AND_LOAD_MOST_RECENT_SAVE();
 
 --@return BOOL
-function ShutdownAndLoadMostRecentSave() end
+function ShutdownAndLoadMostRecentSave()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7022,7 +7754,8 @@ function ShutdownAndLoadMostRecentSave() end
 --@usage BOOL TEXTURE_DOWNLOAD_HAS_FAILED(int p0);
 --@params p0 int
 --@return BOOL
-function TextureDownloadHasFailed(p0) end
+function TextureDownloadHasFailed(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7031,7 +7764,8 @@ function TextureDownloadHasFailed(p0) end
 --@usage char* TEXTURE_DOWNLOAD_GET_NAME(int p0);
 --@params p0 int
 --@return char*
-function TextureDownloadGetName(p0) end
+function TextureDownloadGetName(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7043,7 +7777,8 @@ function TextureDownloadGetName(p0) end
 --@params Name char*
 --@params p3 BOOL
 --@return int
-function TextureDownloadRequest(PlayerHandle,FilePath,Name,p3) end
+function TextureDownloadRequest(PlayerHandle, FilePath, Name, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7052,7 +7787,8 @@ function TextureDownloadRequest(PlayerHandle,FilePath,Name,p3) end
 --@usage void TEXTURE_DOWNLOAD_RELEASE(int p0);
 --@params p0 int
 --@return void
-function TextureDownloadRelease(p0) end
+function TextureDownloadRelease(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7063,7 +7799,8 @@ function TextureDownloadRelease(p0) end
 --@params p1 int
 --@params scriptHash Hash
 --@return BOOL
-function TriggerScriptCrcCheckOnPlayer(player,p1,scriptHash) end
+function TriggerScriptCrcCheckOnPlayer(player, p1, scriptHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7072,7 +7809,8 @@ function TriggerScriptCrcCheckOnPlayer(player,p1,scriptHash) end
 --@usage void UGC_CLEAR_MODIFY_RESULT();
 
 --@return void
-function UgcClearModifyResult() end
+function UgcClearModifyResult()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7081,7 +7819,8 @@ function UgcClearModifyResult() end
 --@usage void UGC_CANCEL_QUERY();
 
 --@return void
-function UgcCancelQuery() end
+function UgcCancelQuery()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7090,7 +7829,8 @@ function UgcCancelQuery() end
 --@usage void UGC_CLEAR_QUERY_RESULTS();
 
 --@return void
-function UgcClearQueryResults() end
+function UgcClearQueryResults()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7099,7 +7839,8 @@ function UgcClearQueryResults() end
 --@usage void UGC_CLEAR_OFFLINE_QUERY();
 
 --@return void
-function UgcClearOfflineQuery() end
+function UgcClearOfflineQuery()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7108,7 +7849,8 @@ function UgcClearOfflineQuery() end
 --@usage void UGC_CLEAR_CREATE_RESULT();
 
 --@return void
-function UgcClearCreateResult() end
+function UgcClearCreateResult()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7117,7 +7859,8 @@ function UgcClearCreateResult() end
 --@usage int UGC_GET_CONTENT_CATEGORY(int p0);
 --@params p0 int
 --@return int
-function UgcGetContentCategory(p0) end
+function UgcGetContentCategory(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7127,7 +7870,8 @@ function UgcGetContentCategory(p0) end
 --@params p0 Any*
 --@params p1 Any*
 --@return BOOL
-function UgcCopyContent(p0,p1) end
+function UgcCopyContent(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7139,7 +7883,8 @@ function UgcCopyContent(p0,p1) end
 --@params p2 Any*
 --@params p3 Any*
 --@return BOOL
-function UgcGetBookmarkedContent(p0,p1,p2,p3) end
+function UgcGetBookmarkedContent(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7149,7 +7894,8 @@ function UgcGetBookmarkedContent(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function UgcGetCachedDescription(p0,p1) end
+function UgcGetCachedDescription(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7158,7 +7904,8 @@ function UgcGetCachedDescription(p0,p1) end
 --@usage BOOL UGC_GET_CONTENT_HAS_PLAYER_BOOKMARKED(Any p0);
 --@params p0 Any
 --@return BOOL
-function UgcGetContentHasPlayerBookmarked(p0) end
+function UgcGetContentHasPlayerBookmarked(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7167,7 +7914,8 @@ function UgcGetContentHasPlayerBookmarked(p0) end
 --@usage Any UGC_GET_CONTENT_LANGUAGE(Any p0);
 --@params p0 Any
 --@return Any
-function UgcGetContentLanguage(p0) end
+function UgcGetContentLanguage(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7176,7 +7924,8 @@ function UgcGetContentLanguage(p0) end
 --@usage Any UGC_GET_CONTENT_HASH();
 
 --@return Any
-function UgcGetContentHash() end
+function UgcGetContentHash()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7185,7 +7934,8 @@ function UgcGetContentHash() end
 --@usage char* UGC_GET_CONTENT_ID(int p0);
 --@params p0 int
 --@return char*
-function UgcGetContentId(p0) end
+function UgcGetContentId(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7195,7 +7945,8 @@ function UgcGetContentId(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function UgcGetContentFileVersion(p0,p1) end
+function UgcGetContentFileVersion(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7204,7 +7955,8 @@ function UgcGetContentFileVersion(p0,p1) end
 --@usage BOOL UGC_GET_CONTENT_HAS_PLAYER_RECORD(Any p0);
 --@params p0 Any
 --@return BOOL
-function UgcGetContentHasPlayerRecord(p0) end
+function UgcGetContentHasPlayerRecord(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7213,7 +7965,8 @@ function UgcGetContentHasPlayerRecord(p0) end
 --@usage Any UGC_GET_CONTENT_NAME(Any p0);
 --@params p0 Any
 --@return Any
-function UgcGetContentName(p0) end
+function UgcGetContentName(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7222,7 +7975,8 @@ function UgcGetContentName(p0) end
 --@usage Any UGC_GET_CONTENT_NUM();
 
 --@return Any
-function UgcGetContentNum() end
+function UgcGetContentNum()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7231,7 +7985,8 @@ function UgcGetContentNum() end
 --@usage BOOL UGC_GET_CONTENT_IS_PUBLISHED(Any p0);
 --@params p0 Any
 --@return BOOL
-function UgcGetContentIsPublished(p0) end
+function UgcGetContentIsPublished(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7241,7 +7996,8 @@ function UgcGetContentIsPublished(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function UgcGetContentRating(p0,p1) end
+function UgcGetContentRating(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7250,7 +8006,8 @@ function UgcGetContentRating(p0,p1) end
 --@usage BOOL UGC_GET_CONTENT_IS_VERIFIED(Any p0);
 --@params p0 Any
 --@return BOOL
-function UgcGetContentIsVerified(p0) end
+function UgcGetContentIsVerified(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7260,7 +8017,8 @@ function UgcGetContentIsVerified(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function UgcGetContentRatingNegativeCount(p0,p1) end
+function UgcGetContentRatingNegativeCount(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7269,7 +8027,8 @@ function UgcGetContentRatingNegativeCount(p0,p1) end
 --@usage void SET_STORE_ENABLED(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetStoreEnabled(toggle) end
+function SetStoreEnabled(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7279,7 +8038,8 @@ function SetStoreEnabled(toggle) end
 --@params p0 int
 --@params p1 Any*
 --@return char*
-function UgcGetContentPath(p0,p1) end
+function UgcGetContentPath(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7289,7 +8049,8 @@ function UgcGetContentPath(p0,p1) end
 --@params p0 Any
 --@params p1 Any*
 --@return void
-function UgcGetContentUpdatedDate(p0,p1) end
+function UgcGetContentUpdatedDate(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7298,7 +8059,8 @@ function UgcGetContentUpdatedDate(p0,p1) end
 --@usage int UGC_GET_CONTENT_DESCRIPTION_HASH(Any p0);
 --@params p0 Any
 --@return int
-function UgcGetContentDescriptionHash(p0) end
+function UgcGetContentDescriptionHash(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7308,7 +8070,8 @@ function UgcGetContentDescriptionHash(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function UgcGetContentRatingCount(p0,p1) end
+function UgcGetContentRatingCount(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7318,7 +8081,8 @@ function UgcGetContentRatingCount(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function UgcGetContentRatingPositiveCount(p0,p1) end
+function UgcGetContentRatingPositiveCount(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7327,7 +8091,8 @@ function UgcGetContentRatingPositiveCount(p0,p1) end
 --@usage Any UGC_GET_CREATOR_NUM();
 
 --@return Any
-function UgcGetCreatorNum() end
+function UgcGetCreatorNum()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7336,7 +8101,8 @@ function UgcGetCreatorNum() end
 --@usage Any UGC_GET_CONTENT_TOTAL();
 
 --@return Any
-function UgcGetContentTotal() end
+function UgcGetContentTotal()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7345,7 +8111,8 @@ function UgcGetContentTotal() end
 --@usage Any UGC_GET_MODIFY_RESULT();
 
 --@return Any
-function UgcGetModifyResult() end
+function UgcGetModifyResult()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7354,7 +8121,8 @@ function UgcGetModifyResult() end
 --@usage Any UGC_GET_CONTENT_USER_NAME(Any p0);
 --@params p0 Any
 --@return Any
-function UgcGetContentUserName(p0) end
+function UgcGetContentUserName(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7363,7 +8131,8 @@ function UgcGetContentUserName(p0) end
 --@usage Any UGC_GET_QUERY_RESULT();
 
 --@return Any
-function UgcGetQueryResult() end
+function UgcGetQueryResult()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7372,7 +8141,8 @@ function UgcGetQueryResult() end
 --@usage Any UGC_GET_CREATE_RESULT();
 
 --@return Any
-function UgcGetCreateResult() end
+function UgcGetCreateResult()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7381,7 +8151,8 @@ function UgcGetCreateResult() end
 --@usage Any UGC_GET_CREATE_CONTENT_ID();
 
 --@return Any
-function UgcGetCreateContentId() end
+function UgcGetCreateContentId()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7390,7 +8161,8 @@ function UgcGetCreateContentId() end
 --@usage char* UGC_GET_ROOT_CONTENT_ID(int p0);
 --@params p0 int
 --@return char*
-function UgcGetRootContentId(p0) end
+function UgcGetRootContentId(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7403,7 +8175,8 @@ function UgcGetRootContentId(p0) end
 --@params p3 Any*
 --@params p4 Any*
 --@return BOOL
-function UgcGetCrewContent(p0,p1,p2,p3,p4) end
+function UgcGetCrewContent(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7415,7 +8188,8 @@ function UgcGetCrewContent(p0,p1,p2,p3,p4) end
 --@params p2 Any*
 --@params p3 Any*
 --@return BOOL
-function UgcGetFriendContent(p0,p1,p2,p3) end
+function UgcGetFriendContent(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7424,7 +8198,8 @@ function UgcGetFriendContent(p0,p1,p2,p3) end
 --@usage Any UGC_IS_GETTING();
 
 --@return Any
-function UgcIsGetting() end
+function UgcIsGetting()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7433,7 +8208,8 @@ function UgcIsGetting() end
 --@usage Any UGC_HAS_GET_FINISHED();
 
 --@return Any
-function UgcHasGetFinished() end
+function UgcHasGetFinished()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7445,7 +8221,8 @@ function UgcHasGetFinished() end
 --@params p2 Any*
 --@params p3 Any*
 --@return BOOL
-function UgcGetMyContent(p0,p1,p2,p3) end
+function UgcGetMyContent(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7458,7 +8235,8 @@ function UgcGetMyContent(p0,p1,p2,p3) end
 --@params p3 Any*
 --@params p4 Any*
 --@return BOOL
-function UgcGetGetByCategory(p0,p1,p2,p3,p4) end
+function UgcGetGetByCategory(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7467,7 +8245,8 @@ function UgcGetGetByCategory(p0,p1,p2,p3,p4) end
 --@usage Any UGC_HAS_MODIFY_FINISHED();
 
 --@return Any
-function UgcHasModifyFinished() end
+function UgcHasModifyFinished()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7476,7 +8255,8 @@ function UgcHasModifyFinished() end
 --@usage BOOL UGC_POLICIES_MAKE_PRIVATE(Any p0);
 --@params p0 Any
 --@return BOOL
-function UgcPoliciesMakePrivate(p0) end
+function UgcPoliciesMakePrivate(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7487,7 +8267,8 @@ function UgcPoliciesMakePrivate(p0) end
 --@params baseContentId char*
 --@params contentTypeName char*
 --@return BOOL
-function UgcPublish(contentId,baseContentId,contentTypeName) end
+function UgcPublish(contentId, baseContentId, contentTypeName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7496,7 +8277,8 @@ function UgcPublish(contentId,baseContentId,contentTypeName) end
 --@usage Any UGC_HAS_CREATE_FINISHED();
 
 --@return Any
-function UgcHasCreateFinished() end
+function UgcHasCreateFinished()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7508,7 +8290,8 @@ function UgcHasCreateFinished() end
 --@params contentTypeName char*
 --@params p3 int
 --@return BOOL
-function UgcQueryRecentlyCreatedContent(offset,count,contentTypeName,p3) end
+function UgcQueryRecentlyCreatedContent(offset, count, contentTypeName, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7517,7 +8300,8 @@ function UgcQueryRecentlyCreatedContent(offset,count,contentTypeName,p3) end
 --@usage int UGC_REQUEST_CACHED_DESCRIPTION(int p0);
 --@params p0 int
 --@return int
-function UgcRequestCachedDescription(p0) end
+function UgcRequestCachedDescription(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7528,7 +8312,8 @@ function UgcRequestCachedDescription(p0) end
 --@params latestVersion BOOL
 --@params contentTypeName char*
 --@return BOOL
-function UgcQueryByContentId(contentId,latestVersion,contentTypeName) end
+function UgcQueryByContentId(contentId, latestVersion, contentTypeName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7537,7 +8322,8 @@ function UgcQueryByContentId(contentId,latestVersion,contentTypeName) end
 --@usage BOOL UGC_IS_LANGUAGE_SUPPORTED(Any p0);
 --@params p0 Any
 --@return BOOL
-function UgcIsLanguageSupported(p0) end
+function UgcIsLanguageSupported(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7550,7 +8336,8 @@ function UgcIsLanguageSupported(p0) end
 --@params p3 int
 --@params p4 int
 --@return int
-function UgcRequestContentDataFromParams(contentTypeName,contentId,p2,p3,p4) end
+function UgcRequestContentDataFromParams(contentTypeName, contentId, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7561,7 +8348,8 @@ function UgcRequestContentDataFromParams(contentTypeName,contentId,p2,p3,p4) end
 --@params p1 BOOL
 --@params p2 Any*
 --@return BOOL
-function UgcSetDeleted(p0,p1,p2) end
+function UgcSetDeleted(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7571,7 +8359,8 @@ function UgcSetDeleted(p0,p1,p2) end
 --@params p0 int
 --@params p1 int
 --@return int
-function UgcRequestContentDataFromIndex(p0,p1) end
+function UgcRequestContentDataFromIndex(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7582,7 +8371,8 @@ function UgcRequestContentDataFromIndex(p0,p1) end
 --@params bookmarked BOOL
 --@params contentTypeName char*
 --@return BOOL
-function UgcSetBookmarked(contentId,bookmarked,contentTypeName) end
+function UgcSetBookmarked(contentId, bookmarked, contentTypeName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7594,7 +8384,8 @@ function UgcSetBookmarked(contentId,bookmarked,contentTypeName) end
 --@params latestVersion BOOL
 --@params contentTypeName char*
 --@return BOOL
-function UgcQueryByContentIds(data,count,latestVersion,contentTypeName) end
+function UgcQueryByContentIds(data, count, latestVersion, contentTypeName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7603,7 +8394,8 @@ function UgcQueryByContentIds(data,count,latestVersion,contentTypeName) end
 --@usage int VEH_TO_NET(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function VehToNet(vehicle) end
+function VehToNet(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7612,7 +8404,8 @@ function VehToNet(vehicle) end
 --@usage void USE_PLAYER_COLOUR_INSTEAD_OF_TEAM_COLOUR(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function UsePlayerColourInsteadOfTeamColour(toggle) end
+function UsePlayerColourInsteadOfTeamColour(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7626,7 +8419,8 @@ function UsePlayerColourInsteadOfTeamColour(toggle) end
 --@params p4 Any*
 --@params p5 BOOL
 --@return Any
-function UgcTextureDownloadRequest(p0,p1,p2,p3,p4,p5) end
+function UgcTextureDownloadRequest(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7640,4 +8434,5 @@ function UgcTextureDownloadRequest(p0,p1,p2,p3,p4,p5) end
 --@params p4 Any
 --@params p5 Any
 --@return BOOL
-function UgcQueryMyContent(p0,p1,p2,p3,p4,p5) end
+function UgcQueryMyContent(p0, p1, p2, p3, p4, p5)
+end

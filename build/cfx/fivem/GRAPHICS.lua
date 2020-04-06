@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule GRAPHICS
@@ -25,7 +24,8 @@
 --@params p18 BOOL
 --@params p19 BOOL
 --@return int
-function AddDecal(decalType,posX,posY,posZ,p4,p5,p6,p7,p8,p9,width,height,rCoef,gCoef,bCoef,opacity,timeout,p17,p18,p19) end
+function AddDecal(decalType, posX, posY, posZ, p4, p5, p6, p7, p8, p9, width, height, rCoef, gCoef, bCoef, opacity, timeout, p17, p18, p19)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -35,7 +35,8 @@ function AddDecal(decalType,posX,posY,posZ,p4,p5,p6,p7,p8,p9,width,height,rCoef,
 --@params entity Entity
 --@params icon char*
 --@return Any
-function AddEntityIcon(entity,icon) end
+function AddEntityIcon(entity, icon)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -47,7 +48,8 @@ function AddEntityIcon(entity,icon) end
 --@params z float
 --@params p3 float
 --@return void
-function AddPetrolTrailDecalInfo(x,y,z,p3) end
+function AddPetrolTrailDecalInfo(x, y, z, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -61,7 +63,8 @@ function AddPetrolTrailDecalInfo(x,y,z,p3) end
 --@params width float
 --@params transparency float
 --@return Any
-function AddPetrolDecal(x,y,z,groundLvl,width,transparency) end
+function AddPetrolDecal(x, y, z, groundLvl, width, transparency)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -84,7 +87,8 @@ function AddPetrolDecal(x,y,z,groundLvl,width,transparency) end
 --@params p13 Any
 --@params alpha int
 --@return BOOL
-function AddVehicleCrewEmblem(vehicle,ped,boneIndex,x1,x2,x3,y1,y2,y3,z1,z2,z3,scale,p13,alpha) end
+function AddVehicleCrewEmblem(vehicle, ped, boneIndex, x1, x2, x3, y1, y2, y3, z1, z2, z3, scale, p13, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -94,7 +98,8 @@ function AddVehicleCrewEmblem(vehicle,ped,boneIndex,x1,x2,x3,y1,y2,y3,z1,z2,z3,s
 --@params modifierName1 char*
 --@params modifierName2 char*
 --@return void
-function AddTcmodifierOverride(modifierName1,modifierName2) end
+function AddTcmodifierOverride(modifierName1, modifierName2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -103,7 +108,8 @@ function AddTcmodifierOverride(modifierName1,modifierName2) end
 --@usage void ANIMPOSTFX_STOP(char* effectName);
 --@params effectName char*
 --@return void
-function AnimpostfxStop(effectName) end
+function AnimpostfxStop(effectName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -112,7 +118,8 @@ function AnimpostfxStop(effectName) end
 --@usage BOOL ANIMPOSTFX_IS_RUNNING(char* effectName);
 --@params effectName char*
 --@return BOOL
-function AnimpostfxIsRunning(effectName) end
+function AnimpostfxIsRunning(effectName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -123,7 +130,8 @@ function AnimpostfxIsRunning(effectName) end
 --@params duration int
 --@params looped BOOL
 --@return void
-function AnimpostfxPlay(effectName,duration,looped) end
+function AnimpostfxPlay(effectName, duration, looped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -132,7 +140,8 @@ function AnimpostfxPlay(effectName,duration,looped) end
 --@usage float _ANIMPOSTFX_GET_UNK(char* effectName);
 --@params effectName char*
 --@return float
-function AnimpostfxGetUnk(effectName) end
+function AnimpostfxGetUnk(effectName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -141,7 +150,8 @@ function AnimpostfxGetUnk(effectName) end
 --@usage void _ANIMPOSTFX_STOP_AND_DO_UNK(char* effectName);
 --@params effectName char*
 --@return void
-function AnimpostfxStopAndDoUnk(effectName) end
+function AnimpostfxStopAndDoUnk(effectName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -150,7 +160,8 @@ function AnimpostfxStopAndDoUnk(effectName) end
 --@usage BOOL BEGIN_SCALEFORM_MOVIE_METHOD_ON_FRONTEND(char* functionName);
 --@params functionName char*
 --@return BOOL
-function BeginScaleformMovieMethodOnFrontend(functionName) end
+function BeginScaleformMovieMethodOnFrontend(functionName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -160,7 +171,8 @@ function BeginScaleformMovieMethodOnFrontend(functionName) end
 --@params scaleform int
 --@params methodName char*
 --@return BOOL
-function BeginScaleformMovieMethod(scaleform,methodName) end
+function BeginScaleformMovieMethod(scaleform, methodName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -169,7 +181,8 @@ function BeginScaleformMovieMethod(scaleform,methodName) end
 --@usage BOOL BEGIN_SCALEFORM_MOVIE_METHOD_ON_FRONTEND_HEADER(char* functionName);
 --@params functionName char*
 --@return BOOL
-function BeginScaleformMovieMethodOnFrontendHeader(functionName) end
+function BeginScaleformMovieMethodOnFrontendHeader(functionName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -178,7 +191,8 @@ function BeginScaleformMovieMethodOnFrontendHeader(functionName) end
 --@usage void ATTACH_TV_AUDIO_TO_ENTITY(Entity entity);
 --@params entity Entity
 --@return void
-function AttachTvAudioToEntity(entity) end
+function AttachTvAudioToEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -187,7 +201,8 @@ function AttachTvAudioToEntity(entity) end
 --@usage void BEGIN_TEXT_COMMAND_SCALEFORM_STRING(char* componentType);
 --@params componentType char*
 --@return void
-function BeginTextCommandScaleformString(componentType) end
+function BeginTextCommandScaleformString(componentType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -202,7 +217,8 @@ function BeginTextCommandScaleformString(componentType) end
 --@params param4 float
 --@params param5 float
 --@return void
-function CallScaleformMovieMethodWithNumber(scaleform,methodName,param1,param2,param3,param4,param5) end
+function CallScaleformMovieMethodWithNumber(scaleform, methodName, param1, param2, param3, param4, param5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -212,7 +228,8 @@ function CallScaleformMovieMethodWithNumber(scaleform,methodName,param1,param2,p
 --@params hudComponent int
 --@params methodName char*
 --@return BOOL
-function BeginScaleformScriptHudMovieMethod(hudComponent,methodName) end
+function BeginScaleformScriptHudMovieMethod(hudComponent, methodName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -227,7 +244,8 @@ function BeginScaleformScriptHudMovieMethod(hudComponent,methodName) end
 --@params param4 char*
 --@params param5 char*
 --@return void
-function CallScaleformMovieMethodWithString(scaleform,methodName,param1,param2,param3,param4,param5) end
+function CallScaleformMovieMethodWithString(scaleform, methodName, param1, param2, param3, param4, param5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -236,7 +254,8 @@ function CallScaleformMovieMethodWithString(scaleform,methodName,param1,param2,p
 --@usage void ANIMPOSTFX_STOP_ALL();
 
 --@return void
-function AnimpostfxStopAll() end
+function AnimpostfxStopAll()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -245,7 +264,8 @@ function AnimpostfxStopAll() end
 --@usage void _CASCADESHADOWS_SET_TYPE(char* type);
 --@params type char*
 --@return void
-function CascadeshadowsSetType(type) end
+function CascadeshadowsSetType(type)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -265,7 +285,8 @@ function CascadeshadowsSetType(type) end
 --@params stringParam4 char*
 --@params stringParam5 char*
 --@return void
-function CallScaleformMovieMethodWithNumberAndString(scaleform,methodName,floatParam1,floatParam2,floatParam3,floatParam4,floatParam5,stringParam1,stringParam2,stringParam3,stringParam4,stringParam5) end
+function CallScaleformMovieMethodWithNumberAndString(scaleform, methodName, floatParam1, floatParam2, floatParam3, floatParam4, floatParam5, stringParam1, stringParam2, stringParam3, stringParam4, stringParam5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -274,7 +295,8 @@ function CallScaleformMovieMethodWithNumberAndString(scaleform,methodName,floatP
 --@usage void _CLEAR_EXTRA_TIMECYCLE_MODIFIER();
 
 --@return void
-function ClearExtraTimecycleModifier() end
+function ClearExtraTimecycleModifier()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -284,7 +306,8 @@ function ClearExtraTimecycleModifier() end
 --@params scaleform int
 --@params method char*
 --@return void
-function CallScaleformMovieMethod(scaleform,method) end
+function CallScaleformMovieMethod(scaleform, method)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -305,7 +328,8 @@ function CallScaleformMovieMethod(scaleform,method) end
 --@params alpha int
 --@params reserved int
 --@return int
-function CreateCheckpoint(type,posX1,posY1,posZ1,posX2,posY2,posZ2,radius,red,green,blue,alpha,reserved) end
+function CreateCheckpoint(type, posX1, posY1, posZ1, posX2, posY2, posZ2, radius, red, green, blue, alpha, reserved)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -314,7 +338,8 @@ function CreateCheckpoint(type,posX1,posY1,posZ1,posX2,posY2,posZ2,radius,red,gr
 --@usage void DELETE_CHECKPOINT(int checkpoint);
 --@params checkpoint int
 --@return void
-function DeleteCheckpoint(checkpoint) end
+function DeleteCheckpoint(checkpoint)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -323,7 +348,8 @@ function DeleteCheckpoint(checkpoint) end
 --@usage void CLEAR_DRAW_ORIGIN();
 
 --@return void
-function ClearDrawOrigin() end
+function ClearDrawOrigin()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -332,7 +358,8 @@ function ClearDrawOrigin() end
 --@usage void CLEAR_TIMECYCLE_MODIFIER();
 
 --@return void
-function ClearTimecycleModifier() end
+function ClearTimecycleModifier()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -341,7 +368,8 @@ function ClearTimecycleModifier() end
 --@usage void CLEAR_TV_CHANNEL_PLAYLIST(int tvChannel);
 --@params tvChannel int
 --@return void
-function ClearTvChannelPlaylist(tvChannel) end
+function ClearTvChannelPlaylist(tvChannel)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -350,7 +378,8 @@ function ClearTvChannelPlaylist(tvChannel) end
 --@usage void _CASCADESHADOWS_RESET_TYPE();
 
 --@return void
-function CascadeshadowsResetType() end
+function CascadeshadowsResetType()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -359,7 +388,8 @@ function CascadeshadowsResetType() end
 --@usage void DESTROY_TRACKED_POINT(int point);
 --@params point int
 --@return void
-function DestroyTrackedPoint(point) end
+function DestroyTrackedPoint(point)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -368,7 +398,8 @@ function DestroyTrackedPoint(point) end
 --@usage void _DISABLE_SCRIPT_AMBIENT_EFFECTS(Any p0);
 --@params p0 Any
 --@return void
-function DisableScriptAmbientEffects(p0) end
+function DisableScriptAmbientEffects(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -377,7 +408,8 @@ function DisableScriptAmbientEffects(p0) end
 --@usage BOOL DOES_PARTICLE_FX_LOOPED_EXIST(int ptfxHandle);
 --@params ptfxHandle int
 --@return BOOL
-function DoesParticleFxLoopedExist(ptfxHandle) end
+function DoesParticleFxLoopedExist(ptfxHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -387,7 +419,8 @@ function DoesParticleFxLoopedExist(ptfxHandle) end
 --@params vehicle Vehicle
 --@params p1 int
 --@return BOOL
-function DoesVehicleHaveCrewEmblem(vehicle,p1) end
+function DoesVehicleHaveCrewEmblem(vehicle, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -396,7 +429,8 @@ function DoesVehicleHaveCrewEmblem(vehicle,p1) end
 --@usage void DISABLE_OCCLUSION_THIS_FRAME();
 
 --@return void
-function DisableOcclusionThisFrame() end
+function DisableOcclusionThisFrame()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -414,7 +448,8 @@ function DisableOcclusionThisFrame() end
 --@params blue int
 --@params alpha int
 --@return void
-function DrawBox(x1,y1,z1,x2,y2,z2,red,green,blue,alpha) end
+function DrawBox(x1, y1, z1, x2, y2, z2, red, green, blue, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -423,7 +458,8 @@ function DrawBox(x1,y1,z1,x2,y2,z2,red,green,blue,alpha) end
 --@usage int CREATE_TRACKED_POINT();
 
 --@return int
-function CreateTrackedPoint() end
+function CreateTrackedPoint()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -439,7 +475,8 @@ function CreateTrackedPoint() end
 --@params blue int
 --@params alpha int
 --@return void
-function DrawDebugCross(x,y,z,size,red,green,blue,alpha) end
+function DrawDebugCross(x, y, z, size, red, green, blue, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -457,7 +494,8 @@ function DrawDebugCross(x,y,z,size,red,green,blue,alpha) end
 --@params b int
 --@params a int
 --@return void
-function DrawDebugLine(x1,y1,z1,x2,y2,z2,r,g,b,a) end
+function DrawDebugLine(x1, y1, z1, x2, y2, z2, r, g, b, a)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -475,7 +513,8 @@ function DrawDebugLine(x1,y1,z1,x2,y2,z2,r,g,b,a) end
 --@params b int
 --@params a int
 --@return void
-function DrawBinkMovie(binkMovie,p1,p2,p3,p4,p5,r,g,b,a) end
+function DrawBinkMovie(binkMovie, p1, p2, p3, p4, p5, r, g, b, a)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -491,7 +530,8 @@ function DrawBinkMovie(binkMovie,p1,p2,p3,p4,p5,r,g,b,a) end
 --@params blue int
 --@params alpha int
 --@return void
-function DrawDebugSphere(x,y,z,radius,red,green,blue,alpha) end
+function DrawDebugSphere(x, y, z, radius, red, green, blue, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -509,7 +549,8 @@ function DrawDebugSphere(x,y,z,radius,red,green,blue,alpha) end
 --@params b int
 --@params a int
 --@return void
-function DrawDebugBox(x1,y1,z1,x2,y2,z2,r,g,b,a) end
+function DrawDebugBox(x1, y1, z1, x2, y2, z2, r, g, b, a)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -518,7 +559,8 @@ function DrawDebugBox(x1,y1,z1,x2,y2,z2,r,g,b,a) end
 --@usage void DISABLE_VEHICLE_DISTANTLIGHTS(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function DisableVehicleDistantlights(toggle) end
+function DisableVehicleDistantlights(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -534,7 +576,8 @@ function DisableVehicleDistantlights(toggle) end
 --@params blue int
 --@params alpha int
 --@return void
-function DrawDebugText_2d(text,x,y,z,red,green,blue,alpha) end
+function DrawDebugText_2d(text, x, y, z, red, green, blue, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -552,7 +595,8 @@ function DrawDebugText_2d(text,x,y,z,red,green,blue,alpha) end
 --@params blue int
 --@params alpha int
 --@return void
-function DrawLine(x1,y1,z1,x2,y2,z2,red,green,blue,alpha) end
+function DrawLine(x1, y1, z1, x2, y2, z2, red, green, blue, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -574,7 +618,8 @@ function DrawLine(x1,y1,z1,x2,y2,z2,red,green,blue,alpha) end
 --@params alpha1 int
 --@params alpha2 int
 --@return void
-function DrawDebugLineWithTwoColours(x1,y1,z1,x2,y2,z2,r1,g1,b1,r2,g2,b2,alpha1,alpha2) end
+function DrawDebugLineWithTwoColours(x1, y1, z1, x2, y2, z2, r1, g1, b1, r2, g2, b2, alpha1, alpha2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -607,7 +652,8 @@ function DrawDebugLineWithTwoColours(x1,y1,z1,x2,y2,z2,r1,g1,b1,r2,g2,b2,alpha1,
 --@params drawOnEnts BOOL
 --@params p24 BOOL
 --@return void
-function DrawMarker_2(type,posX,posY,posZ,dirX,dirY,dirZ,rotX,rotY,rotZ,scaleX,scaleY,scaleZ,red,green,blue,alpha,bobUpAndDown,faceCamera,p19,rotate,textureDict,textureName,drawOnEnts,p24) end
+function DrawMarker_2(type, posX, posY, posZ, dirX, dirY, dirZ, rotX, rotY, rotZ, scaleX, scaleY, scaleZ, red, green, blue, alpha, bobUpAndDown, faceCamera, p19, rotate, textureDict, textureName, drawOnEnts, p24)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -626,7 +672,8 @@ function DrawMarker_2(type,posX,posY,posZ,dirX,dirY,dirZ,rotX,rotY,rotZ,scaleX,s
 --@params blue int
 --@params alpha int
 --@return void
-function DrawInteractiveSprite(textureDict,textureName,screenX,screenY,width,height,heading,red,green,blue,alpha) end
+function DrawInteractiveSprite(textureDict, textureName, screenX, screenY, width, height, heading, red, green, blue, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -642,7 +689,8 @@ function DrawInteractiveSprite(textureDict,textureName,screenX,screenY,width,hei
 --@params b int
 --@params a int
 --@return void
-function DrawRect(x,y,width,height,r,g,b,a) end
+function DrawRect(x, y, width, height, r, g, b, a)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -658,7 +706,8 @@ function DrawRect(x,y,width,height,r,g,b,a) end
 --@params range float
 --@params intensity float
 --@return void
-function DrawLightWithRange(posX,posY,posZ,colorR,colorG,colorB,range,intensity) end
+function DrawLightWithRange(posX, posY, posZ, colorR, colorG, colorB, range, intensity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -675,7 +724,8 @@ function DrawLightWithRange(posX,posY,posZ,colorR,colorG,colorB,range,intensity)
 --@params intensity float
 --@params shadow float
 --@return void
-function DrawLightWithRangeAndShadow(x,y,z,r,g,b,range,intensity,shadow) end
+function DrawLightWithRangeAndShadow(x, y, z, r, g, b, range, intensity, shadow)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -691,7 +741,8 @@ function DrawLightWithRangeAndShadow(x,y,z,r,g,b,range,intensity,shadow) end
 --@params blue int
 --@params alpha int
 --@return void
-function DrawDebugText(text,x,y,z,red,green,blue,alpha) end
+function DrawDebugText(text, x, y, z, red, green, blue, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -705,7 +756,8 @@ function DrawDebugText(text,x,y,z,red,green,blue,alpha) end
 --@params alpha int
 --@params unk int
 --@return void
-function DrawScaleformMovieFullscreen(scaleform,red,green,blue,alpha,unk) end
+function DrawScaleformMovieFullscreen(scaleform, red, green, blue, alpha, unk)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -737,7 +789,8 @@ function DrawScaleformMovieFullscreen(scaleform,red,green,blue,alpha,unk) end
 --@params textureName char*
 --@params drawOnEnts BOOL
 --@return void
-function DrawMarker(type,posX,posY,posZ,dirX,dirY,dirZ,rotX,rotY,rotZ,scaleX,scaleY,scaleZ,red,green,blue,alpha,bobUpAndDown,faceCamera,p19,rotate,textureDict,textureName,drawOnEnts) end
+function DrawMarker(type, posX, posY, posZ, dirX, dirY, dirZ, rotX, rotY, rotZ, scaleX, scaleY, scaleZ, red, green, blue, alpha, bobUpAndDown, faceCamera, p19, rotate, textureDict, textureName, drawOnEnts)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -759,7 +812,8 @@ function DrawMarker(type,posX,posY,posZ,dirX,dirY,dirZ,rotX,rotY,rotZ,scaleX,sca
 --@params radius float
 --@params falloff float
 --@return void
-function DrawSpotLight(posX,posY,posZ,dirX,dirY,dirZ,colorR,colorG,colorB,distance,brightness,hardness,radius,falloff) end
+function DrawSpotLight(posX, posY, posZ, dirX, dirY, dirZ, colorR, colorG, colorB, distance, brightness, hardness, radius, falloff)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -781,7 +835,8 @@ function DrawSpotLight(posX,posY,posZ,dirX,dirY,dirZ,colorR,colorG,colorB,distan
 --@params scaleZ float
 --@params p13 Any
 --@return void
-function DrawScaleformMovie_3dSolid(scaleform,posX,posY,posZ,rotX,rotY,rotZ,p7,p8,p9,scaleX,scaleY,scaleZ,p13) end
+function DrawScaleformMovie_3dSolid(scaleform, posX, posY, posZ, rotX, rotY, rotZ, p7, p8, p9, scaleX, scaleY, scaleZ, p13)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -795,7 +850,8 @@ function DrawScaleformMovie_3dSolid(scaleform,posX,posY,posZ,rotX,rotY,rotZ,p7,p
 --@params blue int
 --@params alpha int
 --@return void
-function DrawScaleformMovieFullscreenMasked(scaleform1,scaleform2,red,green,blue,alpha) end
+function DrawScaleformMovieFullscreenMasked(scaleform1, scaleform2, red, green, blue, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -816,7 +872,8 @@ function DrawScaleformMovieFullscreenMasked(scaleform1,scaleform2,red,green,blue
 --@params blue int
 --@params alpha int
 --@return void
-function DrawPoly(x1,y1,z1,x2,y2,z2,x3,y3,z3,red,green,blue,alpha) end
+function DrawPoly(x1, y1, z1, x2, y2, z2, x3, y3, z3, red, green, blue, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -835,7 +892,8 @@ function DrawPoly(x1,y1,z1,x2,y2,z2,x3,y3,z3,red,green,blue,alpha) end
 --@params blue int
 --@params alpha int
 --@return void
-function DrawSprite(textureDict,textureName,screenX,screenY,width,height,heading,red,green,blue,alpha) end
+function DrawSprite(textureDict, textureName, screenX, screenY, width, height, heading, red, green, blue, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -853,7 +911,8 @@ function DrawSprite(textureDict,textureName,screenX,screenY,width,height,heading
 --@params alpha int
 --@params unk int
 --@return void
-function DrawScaleformMovie(scaleformHandle,x,y,width,height,red,green,blue,alpha,unk) end
+function DrawScaleformMovie(scaleformHandle, x, y, width, height, red, green, blue, alpha, unk)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -875,7 +934,8 @@ function DrawScaleformMovie(scaleformHandle,x,y,width,height,red,green,blue,alph
 --@params scaleZ float
 --@params p13 Any
 --@return void
-function DrawScaleformMovie_3d(scaleform,posX,posY,posZ,rotX,rotY,rotZ,p7,sharpness,p9,scaleX,scaleY,scaleZ,p13) end
+function DrawScaleformMovie_3d(scaleform, posX, posY, posZ, rotX, rotY, rotZ, p7, sharpness, p9, scaleX, scaleY, scaleZ, p13)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -884,7 +944,8 @@ function DrawScaleformMovie_3d(scaleform,posX,posY,posZ,rotX,rotY,rotZ,p7,sharpn
 --@usage void ENABLE_MOVIE_KEYFRAME_WAIT(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function EnableMovieKeyframeWait(toggle) end
+function EnableMovieKeyframeWait(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -901,7 +962,8 @@ function EnableMovieKeyframeWait(toggle) end
 --@params blue int
 --@params alpha int
 --@return void
-function DrawTvChannel(xPos,yPos,xScale,yScale,rotation,red,green,blue,alpha) end
+function DrawTvChannel(xPos, yPos, xScale, yScale, rotation, red, green, blue, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -915,7 +977,8 @@ function DrawTvChannel(xPos,yPos,xScale,yScale,rotation,red,green,blue,alpha) en
 --@params posY float
 --@params posZ float
 --@return BOOL
-function DrawShowroom(p0,ped,p2,posX,posY,posZ) end
+function DrawShowroom(p0, ped, p2, posX, posY, posZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -938,7 +1001,8 @@ function DrawShowroom(p0,ped,p2,posX,posY,posZ) end
 --@params falloff float
 --@params shadowId int
 --@return void
-function DrawSpotLightWithShadow(posX,posY,posZ,dirX,dirY,dirZ,colorR,colorG,colorB,distance,brightness,roundness,radius,falloff,shadowId) end
+function DrawSpotLightWithShadow(posX, posY, posZ, dirX, dirY, dirZ, colorR, colorG, colorB, distance, brightness, roundness, radius, falloff, shadowId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -947,7 +1011,8 @@ function DrawSpotLightWithShadow(posX,posY,posZ,dirX,dirY,dirZ,colorR,colorG,col
 --@usage void END_PETROL_TRAIL_DECALS();
 
 --@return void
-function EndPetrolTrailDecals() end
+function EndPetrolTrailDecals()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -956,7 +1021,8 @@ function EndPetrolTrailDecals() end
 --@usage void ENABLE_CLOWN_BLOOD_VFX(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function EnableClownBloodVfx(toggle) end
+function EnableClownBloodVfx(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -965,7 +1031,8 @@ function EnableClownBloodVfx(toggle) end
 --@usage void END_TEXT_COMMAND_SCALEFORM_STRING();
 
 --@return void
-function EndTextCommandScaleformString() end
+function EndTextCommandScaleformString()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -974,7 +1041,8 @@ function EndTextCommandScaleformString() end
 --@usage int END_SCALEFORM_MOVIE_METHOD_RETURN_VALUE();
 
 --@return int
-function EndScaleformMovieMethodReturnValue() end
+function EndScaleformMovieMethodReturnValue()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -987,7 +1055,8 @@ function EndScaleformMovieMethodReturnValue() end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function FadeDecalsInRange(p0,p1,p2,p3,p4) end
+function FadeDecalsInRange(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -997,7 +1066,8 @@ function FadeDecalsInRange(p0,p1,p2,p3,p4) end
 --@params x int*
 --@params y int*
 --@return void
-function GetActiveScreenResolution(x,y) end
+function GetActiveScreenResolution(x, y)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1006,7 +1076,8 @@ function GetActiveScreenResolution(x,y) end
 --@usage void ENABLE_ALIEN_BLOOD_VFX(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function EnableAlienBloodVfx(toggle) end
+function EnableAlienBloodVfx(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1015,7 +1086,8 @@ function EnableAlienBloodVfx(toggle) end
 --@usage void ENABLE_MOVIE_SUBTITLES(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function EnableMovieSubtitles(toggle) end
+function EnableMovieSubtitles(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1024,7 +1096,8 @@ function EnableMovieSubtitles(toggle) end
 --@usage void _END_TEXT_COMMAND_SCALEFORM_STRING_2();
 
 --@return void
-function EndTextCommandScaleformString_2() end
+function EndTextCommandScaleformString_2()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1033,7 +1106,8 @@ function EndTextCommandScaleformString_2() end
 --@usage int _GET_EXTRA_TIMECYCLE_MODIFIER_INDEX();
 
 --@return int
-function GetExtraTimecycleModifierIndex() end
+function GetExtraTimecycleModifierIndex()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1042,7 +1116,8 @@ function GetExtraTimecycleModifierIndex() end
 --@usage void END_SCALEFORM_MOVIE_METHOD();
 
 --@return void
-function EndScaleformMovieMethod() end
+function EndScaleformMovieMethod()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1051,7 +1126,8 @@ function EndScaleformMovieMethod() end
 --@usage void FADE_UP_PED_LIGHT(float p0);
 --@params p0 float
 --@return void
-function FadeUpPedLight(p0) end
+function FadeUpPedLight(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1060,7 +1136,8 @@ function FadeUpPedLight(p0) end
 --@usage int _GET_CURRENT_NUMBER_OF_PHOTOS();
 
 --@return int
-function GetCurrentNumberOfPhotos() end
+function GetCurrentNumberOfPhotos()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1069,7 +1146,8 @@ function GetCurrentNumberOfPhotos() end
 --@usage float _GET_ASPECT_RATIO(BOOL b);
 --@params b BOOL
 --@return float
-function GetAspectRatio(b) end
+function GetAspectRatio(b)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1078,7 +1156,8 @@ function GetAspectRatio(b) end
 --@usage float GET_DECAL_WASH_LEVEL(int decal);
 --@params decal int
 --@return float
-function GetDecalWashLevel(decal) end
+function GetDecalWashLevel(decal)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1087,7 +1166,8 @@ function GetDecalWashLevel(decal) end
 --@usage int GET_MAXIMUM_NUMBER_OF_CLOUD_PHOTOS();
 
 --@return int
-function GetMaximumNumberOfCloudPhotos() end
+function GetMaximumNumberOfCloudPhotos()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1099,7 +1179,8 @@ function GetMaximumNumberOfCloudPhotos() end
 --@params zCoord float
 --@params radius float
 --@return BOOL
-function GetIsPetrolDecalInRange(xCoord,yCoord,zCoord,radius) end
+function GetIsPetrolDecalInRange(xCoord, yCoord, zCoord, radius)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1108,7 +1189,8 @@ function GetIsPetrolDecalInRange(xCoord,yCoord,zCoord,radius) end
 --@usage BOOL GET_IS_HIDEF();
 
 --@return BOOL
-function GetIsHidef() end
+function GetIsHidef()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1117,7 +1199,8 @@ function GetIsHidef() end
 --@usage BOOL GET_IS_WIDESCREEN();
 
 --@return BOOL
-function GetIsWidescreen() end
+function GetIsWidescreen()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1126,7 +1209,8 @@ function GetIsWidescreen() end
 --@usage int GET_MAXIMUM_NUMBER_OF_PHOTOS();
 
 --@return int
-function GetMaximumNumberOfPhotos() end
+function GetMaximumNumberOfPhotos()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1135,7 +1219,8 @@ function GetMaximumNumberOfPhotos() end
 --@usage BOOL _GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_BOOL(int returnValueData);
 --@params returnValueData int
 --@return BOOL
-function GetScaleformMovieMethodReturnValueBool(returnValueData) end
+function GetScaleformMovieMethodReturnValueBool(returnValueData)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1144,7 +1229,8 @@ function GetScaleformMovieMethodReturnValueBool(returnValueData) end
 --@usage BOOL GET_REQUESTINGNIGHTVISION();
 
 --@return BOOL
-function GetRequestingnightvision() end
+function GetRequestingnightvision()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1153,7 +1239,8 @@ function GetRequestingnightvision() end
 --@usage int GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_INT(int method_return);
 --@params method_return int
 --@return int
-function GetScaleformMovieMethodReturnValueInt(method_return) end
+function GetScaleformMovieMethodReturnValueInt(method_return)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1162,7 +1249,8 @@ function GetScaleformMovieMethodReturnValueInt(method_return) end
 --@usage char* GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_STRING(int method_return);
 --@params method_return int
 --@return char*
-function GetScaleformMovieMethodReturnValueString(method_return) end
+function GetScaleformMovieMethodReturnValueString(method_return)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1175,7 +1263,8 @@ function GetScaleformMovieMethodReturnValueString(method_return) end
 --@params screenX float*
 --@params screenY float*
 --@return BOOL
-function GetScreenCoordFromWorldCoord(worldX,worldY,worldZ,screenX,screenY) end
+function GetScreenCoordFromWorldCoord(worldX, worldY, worldZ, screenX, screenY)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1187,7 +1276,8 @@ function GetScreenCoordFromWorldCoord(worldX,worldY,worldZ,screenX,screenY) end
 --@params calculatedX float*
 --@params calculatedY float*
 --@return void
-function GetScriptGfxPosition(x,y,calculatedX,calculatedY) end
+function GetScriptGfxPosition(x, y, calculatedX, calculatedY)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1196,7 +1286,8 @@ function GetScriptGfxPosition(x,y,calculatedX,calculatedY) end
 --@usage int GET_TIMECYCLE_MODIFIER_INDEX();
 
 --@return int
-function GetTimecycleModifierIndex() end
+function GetTimecycleModifierIndex()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1206,7 +1297,8 @@ function GetTimecycleModifierIndex() end
 --@params textureDict char*
 --@params textureName char*
 --@return Vector3
-function GetTextureResolution(textureDict,textureName) end
+function GetTextureResolution(textureDict, textureName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1215,7 +1307,8 @@ function GetTextureResolution(textureDict,textureName) end
 --@usage BOOL GET_TOGGLE_PAUSED_RENDERPHASES_STATUS();
 
 --@return BOOL
-function GetTogglePausedRenderphasesStatus() end
+function GetTogglePausedRenderphasesStatus()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1224,7 +1317,8 @@ function GetTogglePausedRenderphasesStatus() end
 --@usage int GET_TIMECYCLE_TRANSITION_MODIFIER_INDEX();
 
 --@return int
-function GetTimecycleTransitionModifierIndex() end
+function GetTimecycleTransitionModifierIndex()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1234,7 +1328,8 @@ function GetTimecycleTransitionModifierIndex() end
 --@params x int*
 --@params y int*
 --@return void
-function GetScreenResolution(x,y) end
+function GetScreenResolution(x, y)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1243,7 +1338,8 @@ function GetScreenResolution(x,y) end
 --@usage BOOL GET_USINGSEETHROUGH();
 
 --@return BOOL
-function GetUsingseethrough() end
+function GetUsingseethrough()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1252,7 +1348,8 @@ function GetUsingseethrough() end
 --@usage float GET_SAFE_ZONE_SIZE();
 
 --@return float
-function GetSafeZoneSize() end
+function GetSafeZoneSize()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1272,7 +1369,8 @@ function GetSafeZoneSize() end
 --@params p10 int
 --@params p11 int
 --@return void
-function GolfTrailSetColour(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) end
+function GolfTrailSetColour(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1281,7 +1379,8 @@ function GolfTrailSetColour(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) end
 --@usage int GET_TV_CHANNEL();
 
 --@return int
-function GetTvChannel() end
+function GetTvChannel()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1290,7 +1389,8 @@ function GetTvChannel() end
 --@usage float GET_TV_VOLUME();
 
 --@return float
-function GetTvVolume() end
+function GetTvVolume()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1299,7 +1399,8 @@ function GetTvVolume() end
 --@usage void GOLF_TRAIL_SET_FACING(BOOL p0);
 --@params p0 BOOL
 --@return void
-function GolfTrailSetFacing(p0) end
+function GolfTrailSetFacing(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1316,7 +1417,8 @@ function GolfTrailSetFacing(p0) end
 --@params blue int
 --@params alpha int
 --@return void
-function GolfTrailSetFixedControlPoint(type,xPos,yPos,zPos,p4,red,green,blue,alpha) end
+function GolfTrailSetFixedControlPoint(type, xPos, yPos, zPos, p4, red, green, blue, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1326,7 +1428,8 @@ function GolfTrailSetFixedControlPoint(type,xPos,yPos,zPos,p4,red,green,blue,alp
 --@params vehicle Vehicle
 --@params p1 int
 --@return int
-function GetVehicleCrewEmblemRequestState(vehicle,p1) end
+function GetVehicleCrewEmblemRequestState(vehicle, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1335,7 +1438,8 @@ function GetVehicleCrewEmblemRequestState(vehicle,p1) end
 --@usage void _GRASS_LOD_RESET_SCRIPT_AREAS();
 
 --@return void
-function GrassLodResetScriptAreas() end
+function GrassLodResetScriptAreas()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1348,7 +1452,8 @@ function GrassLodResetScriptAreas() end
 --@params p3 float
 --@params p4 float
 --@return void
-function GolfTrailSetShaderParams(p0,p1,p2,p3,p4) end
+function GolfTrailSetShaderParams(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1365,7 +1470,8 @@ function GolfTrailSetShaderParams(p0,p1,p2,p3,p4) end
 --@params p7 float
 --@params p8 BOOL
 --@return void
-function GolfTrailSetPath(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function GolfTrailSetPath(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1374,7 +1480,8 @@ function GolfTrailSetPath(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@usage BOOL HAS_SCALEFORM_CONTAINER_MOVIE_LOADED_INTO_PARENT(int scaleformHandle);
 --@params scaleformHandle int
 --@return BOOL
-function HasScaleformContainerMovieLoadedIntoParent(scaleformHandle) end
+function HasScaleformContainerMovieLoadedIntoParent(scaleformHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1385,7 +1492,8 @@ function HasScaleformContainerMovieLoadedIntoParent(scaleformHandle) end
 --@params p1 float
 --@params p2 float
 --@return void
-function GolfTrailSetRadius(p0,p1,p2) end
+function GolfTrailSetRadius(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1394,7 +1502,8 @@ function GolfTrailSetRadius(p0,p1,p2) end
 --@usage BOOL HAS_SCALEFORM_MOVIE_FILENAME_LOADED(char* scaleformName);
 --@params scaleformName char*
 --@return BOOL
-function HasScaleformMovieFilenameLoaded(scaleformName) end
+function HasScaleformMovieFilenameLoaded(scaleformName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1403,7 +1512,8 @@ function HasScaleformMovieFilenameLoaded(scaleformName) end
 --@usage void GOLF_TRAIL_SET_ENABLED(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function GolfTrailSetEnabled(toggle) end
+function GolfTrailSetEnabled(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1413,7 +1523,8 @@ function GolfTrailSetEnabled(toggle) end
 --@params p0 int
 --@params p1 int
 --@return void
-function GolfTrailSetTessellation(p0,p1) end
+function GolfTrailSetTessellation(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1422,7 +1533,8 @@ function GolfTrailSetTessellation(p0,p1) end
 --@usage BOOL IS_DECAL_ALIVE(int decal);
 --@params decal int
 --@return BOOL
-function IsDecalAlive(decal) end
+function IsDecalAlive(decal)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1431,7 +1543,8 @@ function IsDecalAlive(decal) end
 --@usage BOOL GET_USINGNIGHTVISION();
 
 --@return BOOL
-function GetUsingnightvision() end
+function GetUsingnightvision()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1440,7 +1553,8 @@ function GetUsingnightvision() end
 --@usage float IS_PARTICLE_FX_DELAYED_BLINK();
 
 --@return float
-function IsParticleFxDelayedBlink() end
+function IsParticleFxDelayedBlink()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1449,7 +1563,8 @@ function IsParticleFxDelayedBlink() end
 --@usage BOOL IS_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_READY(int method_return);
 --@params method_return int
 --@return BOOL
-function IsScaleformMovieMethodReturnValueReady(method_return) end
+function IsScaleformMovieMethodReturnValueReady(method_return)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1464,7 +1579,8 @@ function IsScaleformMovieMethodReturnValueReady(method_return) end
 --@params p5 float
 --@params p6 float
 --@return void
-function GrassLodShrinkScriptAreas(x,y,z,radius,p4,p5,p6) end
+function GrassLodShrinkScriptAreas(x, y, z, radius, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1473,7 +1589,8 @@ function GrassLodShrinkScriptAreas(x,y,z,radius,p4,p5,p6) end
 --@usage BOOL HAS_SCALEFORM_MOVIE_LOADED(int scaleformHandle);
 --@params scaleformHandle int
 --@return BOOL
-function HasScaleformMovieLoaded(scaleformHandle) end
+function HasScaleformMovieLoaded(scaleformHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1482,7 +1599,8 @@ function HasScaleformMovieLoaded(scaleformHandle) end
 --@usage BOOL HAS_SCALEFORM_SCRIPT_HUD_MOVIE_LOADED(int hudComponent);
 --@params hudComponent int
 --@return BOOL
-function HasScaleformScriptHudMovieLoaded(hudComponent) end
+function HasScaleformScriptHudMovieLoaded(hudComponent)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1491,7 +1609,8 @@ function HasScaleformScriptHudMovieLoaded(hudComponent) end
 --@usage BOOL IS_TRACKED_POINT_VISIBLE(int point);
 --@params point int
 --@return BOOL
-function IsTrackedPointVisible(point) end
+function IsTrackedPointVisible(point)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1500,7 +1619,8 @@ function IsTrackedPointVisible(point) end
 --@usage BOOL HAS_STREAMED_TEXTURE_DICT_LOADED(char* textureDict);
 --@params textureDict char*
 --@return BOOL
-function HasStreamedTextureDictLoaded(textureDict) end
+function HasStreamedTextureDictLoaded(textureDict)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1510,7 +1630,8 @@ function HasStreamedTextureDictLoaded(textureDict) end
 --@params tvChannel int
 --@params p1 Any
 --@return BOOL
-function IsPlaylistUnk(tvChannel,p1) end
+function IsPlaylistUnk(tvChannel, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1519,7 +1640,8 @@ function IsPlaylistUnk(tvChannel,p1) end
 --@usage BOOL _IS_TV_PLAYLIST_ITEM_PLAYING(Hash videoCliphash);
 --@params videoCliphash Hash
 --@return BOOL
-function IsTvPlaylistItemPlaying(videoCliphash) end
+function IsTvPlaylistItemPlaying(videoCliphash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1528,7 +1650,8 @@ function IsTvPlaylistItemPlaying(videoCliphash) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x02369d5c8a51fdcf(toggle) end
+function N_0x02369d5c8a51fdcf(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1537,7 +1660,8 @@ function N_0x02369d5c8a51fdcf(toggle) end
 --@usage BOOL IS_SCREENBLUR_FADE_RUNNING();
 
 --@return BOOL
-function IsScreenblurFadeRunning() end
+function IsScreenblurFadeRunning()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1546,7 +1670,8 @@ function IsScreenblurFadeRunning() end
 --@usage int LOAD_MOVIE_MESH_SET(char* movieMeshSetName);
 --@params movieMeshSetName char*
 --@return int
-function LoadMovieMeshSet(movieMeshSetName) end
+function LoadMovieMeshSet(movieMeshSetName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1555,7 +1680,8 @@ function LoadMovieMeshSet(movieMeshSetName) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x03300b57fcac6ddb(p0) end
+function N_0x03300b57fcac6ddb(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1565,7 +1691,8 @@ function N_0x03300b57fcac6ddb(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function MoveVehicleDecals(p0,p1) end
+function MoveVehicleDecals(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1574,7 +1701,8 @@ function MoveVehicleDecals(p0,p1) end
 --@usage void undefined();
 
 --@return void
-function N_0x0a46af8a78dc5e0a() end
+function N_0x0a46af8a78dc5e0a()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1583,7 +1711,8 @@ function N_0x0a46af8a78dc5e0a() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x0ae73d8df3a762b2(p0) end
+function N_0x0ae73d8df3a762b2(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1592,7 +1721,8 @@ function N_0x0ae73d8df3a762b2(p0) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0x02ac28f3a01fa04a(p0) end
+function N_0x02ac28f3a01fa04a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1601,7 +1731,8 @@ function N_0x02ac28f3a01fa04a(p0) end
 --@usage int undefined();
 
 --@return int
-function N_0x0d6ca79eeebd8ca3() end
+function N_0x0d6ca79eeebd8ca3()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1610,7 +1741,8 @@ function N_0x0d6ca79eeebd8ca3() end
 --@usage void undefined();
 
 --@return void
-function N_0x03fc694ae06c5a20() end
+function N_0x03fc694ae06c5a20()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1619,7 +1751,8 @@ function N_0x03fc694ae06c5a20() end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x0e4299c549f0d1f1(toggle) end
+function N_0x0e4299c549f0d1f1(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1628,7 +1761,8 @@ function N_0x0e4299c549f0d1f1(toggle) end
 --@usage void undefined();
 
 --@return void
-function N_0x0218ba067d249dea() end
+function N_0x0218ba067d249dea()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1637,7 +1771,8 @@ function N_0x0218ba067d249dea() end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x108be26959a9d9bb(toggle) end
+function N_0x108be26959a9d9bb(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1647,7 +1782,8 @@ function N_0x108be26959a9d9bb(toggle) end
 --@params p0 BOOL
 --@params p1 BOOL
 --@return void
-function N_0x1072f115dab0717e(p0,p1) end
+function N_0x1072f115dab0717e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1656,7 +1792,8 @@ function N_0x1072f115dab0717e(p0,p1) end
 --@usage void undefined(char* p0);
 --@params p0 char*
 --@return void
-function N_0x15e33297c3e8dc60(p0) end
+function N_0x15e33297c3e8dc60(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1665,7 +1802,8 @@ function N_0x15e33297c3e8dc60(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0x14fc5833464340a8() end
+function N_0x14fc5833464340a8()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1674,7 +1812,8 @@ function N_0x14fc5833464340a8() end
 --@usage int undefined(char* p0);
 --@params p0 char*
 --@return int
-function N_0x1670f8d05056f257(p0) end
+function N_0x1670f8d05056f257(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1683,7 +1822,8 @@ function N_0x1670f8d05056f257(p0) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0x1cba05ae7bd7ee05(p0) end
+function N_0x1cba05ae7bd7ee05(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1692,7 +1832,8 @@ function N_0x1cba05ae7bd7ee05(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0x1612c45f9e3e0d44() end
+function N_0x1612c45f9e3e0d44()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1701,7 +1842,8 @@ function N_0x1612c45f9e3e0d44() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x22a249a53034450a(p0) end
+function N_0x22a249a53034450a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1710,7 +1852,8 @@ function N_0x22a249a53034450a(p0) end
 --@usage int undefined();
 
 --@return int
-function N_0x0c0c4e81e1ac60a0() end
+function N_0x0c0c4e81e1ac60a0()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1719,7 +1862,8 @@ function N_0x0c0c4e81e1ac60a0() end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x1dd2139a9a20dce8() end
+function N_0x1dd2139a9a20dce8()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1728,7 +1872,8 @@ function N_0x1dd2139a9a20dce8() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x25fc3e33a31ad0c9(p0) end
+function N_0x25fc3e33a31ad0c9(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1737,7 +1882,8 @@ function N_0x25fc3e33a31ad0c9(p0) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0x27e32866e9a5c416(p0) end
+function N_0x27e32866e9a5c416(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1746,7 +1892,8 @@ function N_0x27e32866e9a5c416(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x259ba6d4e6f808f1(p0) end
+function N_0x259ba6d4e6f808f1(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1755,7 +1902,8 @@ function N_0x259ba6d4e6f808f1(p0) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x1bbc135a4d25edde(p0) end
+function N_0x1bbc135a4d25edde(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1787,7 +1935,8 @@ function N_0x1bbc135a4d25edde(p0) end
 --@params p22 Any
 --@params p23 Any
 --@return void
-function N_0x29280002282f1928(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23) end
+function N_0x29280002282f1928(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1797,7 +1946,8 @@ function N_0x29280002282f1928(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,
 --@params textureDict char*
 --@params p1 BOOL
 --@return BOOL
-function N_0x27feb5254759cde3(textureDict,p1) end
+function N_0x27feb5254759cde3(textureDict, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1806,7 +1956,8 @@ function N_0x27feb5254759cde3(textureDict,p1) end
 --@usage void undefined();
 
 --@return void
-function N_0x27cfb1b1e078cb2d() end
+function N_0x27cfb1b1e078cb2d()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1815,7 +1966,8 @@ function N_0x27cfb1b1e078cb2d() end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x2fcb133ca50a49eb(p0) end
+function N_0x2fcb133ca50a49eb(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1824,7 +1976,8 @@ function N_0x2fcb133ca50a49eb(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x2b40a97646381508(p0) end
+function N_0x2b40a97646381508(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1833,7 +1986,8 @@ function N_0x2b40a97646381508(p0) end
 --@usage BOOL undefined(BOOL p0);
 --@params p0 BOOL
 --@return BOOL
-function N_0x2a893980e96b659a(p0) end
+function N_0x2a893980e96b659a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1842,7 +1996,8 @@ function N_0x2a893980e96b659a(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0x2a251aa48b2b46db() end
+function N_0x2a251aa48b2b46db()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1851,7 +2006,8 @@ function N_0x2a251aa48b2b46db() end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x2c42340f916c5930(p0) end
+function N_0x2c42340f916c5930(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1871,7 +2027,8 @@ function N_0x2c42340f916c5930(p0) end
 --@params p10 Any
 --@params p11 Any
 --@return void
-function N_0x2d3b147afad49de0(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) end
+function N_0x2d3b147afad49de0(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1880,7 +2037,8 @@ function N_0x2d3b147afad49de0(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x393bd2275ceb7793() end
+function N_0x393bd2275ceb7793()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1889,7 +2047,8 @@ function N_0x393bd2275ceb7793() end
 --@usage Hash undefined();
 
 --@return Hash
-function N_0x30432a0118736e00() end
+function N_0x30432a0118736e00()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1899,7 +2058,8 @@ function N_0x30432a0118736e00() end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x32f34ff7f617643b(p0,p1) end
+function N_0x32f34ff7f617643b(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1911,7 +2071,8 @@ function N_0x32f34ff7f617643b(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return void
-function N_0x3c788e7f6438754d(p0,p1,p2,p3) end
+function N_0x3c788e7f6438754d(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1920,7 +2081,8 @@ function N_0x3c788e7f6438754d(p0,p1,p2,p3) end
 --@usage void undefined();
 
 --@return void
-function N_0x346ef3ecaaab149e() end
+function N_0x346ef3ecaaab149e()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1929,7 +2091,8 @@ function N_0x346ef3ecaaab149e() end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0x36f6626459d91457(p0) end
+function N_0x36f6626459d91457(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1941,7 +2104,8 @@ function N_0x36f6626459d91457(p0) end
 --@params p2 Any*
 --@params p3 BOOL
 --@return BOOL
-function N_0x4862437a486f91b0(p0,p1,p2,p3) end
+function N_0x4862437a486f91b0(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1951,7 +2115,8 @@ function N_0x4862437a486f91b0(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x44621483ff966526(p0,p1) end
+function N_0x44621483ff966526(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1960,7 +2125,8 @@ function N_0x44621483ff966526(p0,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x43fa7cbe20dab219(p0) end
+function N_0x43fa7cbe20dab219(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1969,7 +2135,8 @@ function N_0x43fa7cbe20dab219(p0) end
 --@usage BOOL undefined(int p0);
 --@params p0 int
 --@return BOOL
-function N_0x3dec726c25a11bac(p0) end
+function N_0x3dec726c25a11bac(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1978,7 +2145,8 @@ function N_0x3dec726c25a11bac(p0) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0x46d1a61a21f566fc(p0) end
+function N_0x46d1a61a21f566fc(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1987,7 +2155,8 @@ function N_0x46d1a61a21f566fc(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0x4b5cfc83122df602() end
+function N_0x4b5cfc83122df602()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1996,7 +2165,8 @@ function N_0x4b5cfc83122df602() end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0x54e22ea2c1956a8d(p0) end
+function N_0x54e22ea2c1956a8d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2005,7 +2175,8 @@ function N_0x54e22ea2c1956a8d(p0) end
 --@usage int undefined();
 
 --@return int
-function N_0x5b0316762afd4a64() end
+function N_0x5b0316762afd4a64()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2014,7 +2185,8 @@ function N_0x5b0316762afd4a64() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x5dbf05db5926d089(p0) end
+function N_0x5dbf05db5926d089(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2023,7 +2195,8 @@ function N_0x5dbf05db5926d089(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0x4af92acd3141d96c() end
+function N_0x4af92acd3141d96c()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2032,7 +2205,8 @@ function N_0x4af92acd3141d96c() end
 --@usage BOOL undefined(int p0);
 --@params p0 int
 --@return BOOL
-function N_0x5e657ef1099edd65(p0) end
+function N_0x5e657ef1099edd65(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2041,7 +2215,8 @@ function N_0x5e657ef1099edd65(p0) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0x5e9daf5a20f15908(p0) end
+function N_0x5e9daf5a20f15908(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2050,7 +2225,8 @@ function N_0x5e9daf5a20f15908(p0) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x5f6df3d92271e8a1(toggle) end
+function N_0x5f6df3d92271e8a1(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2059,7 +2235,8 @@ function N_0x5f6df3d92271e8a1(toggle) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0x5f0f3f56635809ef(p0) end
+function N_0x5f0f3f56635809ef(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2068,7 +2245,8 @@ function N_0x5f0f3f56635809ef(p0) end
 --@usage void undefined(int checkpoint);
 --@params checkpoint int
 --@return void
-function N_0x615d3925e87a3b26(checkpoint) end
+function N_0x615d3925e87a3b26(checkpoint)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2077,7 +2255,8 @@ function N_0x615d3925e87a3b26(checkpoint) end
 --@usage void undefined();
 
 --@return void
-function N_0x5debd9c4dc995692() end
+function N_0x5debd9c4dc995692()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2086,7 +2265,8 @@ function N_0x5debd9c4dc995692() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x649c97d52332341a(p0) end
+function N_0x649c97d52332341a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2096,7 +2276,8 @@ function N_0x649c97d52332341a(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x6805d58caa427b72(p0,p1) end
+function N_0x6805d58caa427b72(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2105,7 +2286,8 @@ function N_0x6805d58caa427b72(p0,p1) end
 --@usage void undefined();
 
 --@return void
-function N_0x6a12d88881435dca() end
+function N_0x6a12d88881435dca()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2114,7 +2296,8 @@ function N_0x6a12d88881435dca() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x61f95e5bb3e0a8c6(p0) end
+function N_0x61f95e5bb3e0a8c6(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2123,7 +2306,8 @@ function N_0x61f95e5bb3e0a8c6(p0) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x6ddbf9dffc4ac080(p0) end
+function N_0x6ddbf9dffc4ac080(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2132,7 +2316,8 @@ function N_0x6ddbf9dffc4ac080(p0) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x6a51f78772175a51(toggle) end
+function N_0x6a51f78772175a51(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2172,7 +2357,8 @@ function N_0x6a51f78772175a51(toggle) end
 --@params p30 Any
 --@params p31 Any
 --@return void
-function N_0x736d7aa1b750856b(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31) end
+function N_0x736d7aa1b750856b(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25, p26, p27, p28, p29, p30, p31)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2181,7 +2367,8 @@ function N_0x736d7aa1b750856b(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,
 --@usage void undefined();
 
 --@return void
-function N_0x7a42b2e236e71415() end
+function N_0x7a42b2e236e71415()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2190,7 +2377,8 @@ function N_0x7a42b2e236e71415() end
 --@usage BOOL undefined(int p0);
 --@params p0 int
 --@return BOOL
-function N_0x759650634f07b6b4(p0) end
+function N_0x759650634f07b6b4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2206,7 +2394,8 @@ function N_0x759650634f07b6b4(p0) end
 --@params b int
 --@params opacity float
 --@return void
-function N_0x799017f9e3b10112(x,y,z,radius,r,g,b,opacity) end
+function N_0x799017f9e3b10112(x, y, z, radius, r, g, b, opacity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2215,7 +2404,8 @@ function N_0x799017f9e3b10112(x,y,z,radius,r,g,b,opacity) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0x7fa5d82b8f58ec06() end
+function N_0x7fa5d82b8f58ec06()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2224,7 +2414,8 @@ function N_0x7fa5d82b8f58ec06() end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x82acc484ffa3b05f(p0) end
+function N_0x82acc484ffa3b05f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2233,7 +2424,8 @@ function N_0x82acc484ffa3b05f(p0) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x8cde909a0370bb3a(toggle) end
+function N_0x8cde909a0370bb3a(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2242,7 +2434,8 @@ function N_0x8cde909a0370bb3a(toggle) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x814af7dcaacc597b(p0) end
+function N_0x814af7dcaacc597b(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2251,7 +2444,8 @@ function N_0x814af7dcaacc597b(p0) end
 --@usage BOOL undefined(BOOL p0);
 --@params p0 BOOL
 --@return BOOL
-function N_0x7ac24eab6d74118d(p0) end
+function N_0x7ac24eab6d74118d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2260,7 +2454,8 @@ function N_0x7ac24eab6d74118d(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0x851cd923176eba7c() end
+function N_0x851cd923176eba7c()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2269,7 +2464,8 @@ function N_0x851cd923176eba7c() end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x86255b1fc929e33e(p0) end
+function N_0x86255b1fc929e33e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2280,7 +2476,8 @@ function N_0x86255b1fc929e33e(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return Any
-function N_0x95eb5e34f821babe(p0,p1,p2) end
+function N_0x95eb5e34f821babe(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2289,7 +2486,8 @@ function N_0x95eb5e34f821babe(p0,p1,p2) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x9641588dab93b4b5(p0) end
+function N_0x9641588dab93b4b5(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2298,7 +2496,8 @@ function N_0x9641588dab93b4b5(p0) end
 --@usage int undefined();
 
 --@return int
-function N_0x90a78ecaa4e78453() end
+function N_0x90a78ecaa4e78453()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2307,7 +2506,8 @@ function N_0x90a78ecaa4e78453() end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0x949f397a288b28b3(p0) end
+function N_0x949f397a288b28b3(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2316,7 +2516,8 @@ function N_0x949f397a288b28b3(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x908311265d42a820(p0) end
+function N_0x908311265d42a820(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2325,7 +2526,8 @@ function N_0x908311265d42a820(p0) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x9b079e5221d984d3(p0) end
+function N_0x9b079e5221d984d3(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2334,7 +2536,8 @@ function N_0x9b079e5221d984d3(p0) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x9b6e70c5ceef4eeb(p0) end
+function N_0x9b6e70c5ceef4eeb(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2343,7 +2546,8 @@ function N_0x9b6e70c5ceef4eeb(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0x98edf76a7271e4f2() end
+function N_0x98edf76a7271e4f2()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2352,7 +2556,8 @@ function N_0x98edf76a7271e4f2() end
 --@usage void undefined();
 
 --@return void
-function N_0xa44ff770dfbc5dae() end
+function N_0xa44ff770dfbc5dae()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2361,7 +2566,8 @@ function N_0xa44ff770dfbc5dae() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0xa46b73faa3460ae1(p0) end
+function N_0xa46b73faa3460ae1(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2370,7 +2576,8 @@ function N_0xa46b73faa3460ae1(p0) end
 --@usage Vector3 undefined(Any p0);
 --@params p0 Any
 --@return Vector3
-function N_0xa4664972a9b8f8ba(p0) end
+function N_0xa4664972a9b8f8ba(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2379,7 +2586,8 @@ function N_0xa4664972a9b8f8ba(p0) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0xa67c35c56eb1bd9d() end
+function N_0xa67c35c56eb1bd9d()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2395,7 +2603,8 @@ function N_0xa67c35c56eb1bd9d() end
 --@params p6 Any
 --@params p7 Any
 --@return void
-function N_0xaae9be70ec7c69ab(p0,p1,p2,p3,p4,p5,p6,p7) end
+function N_0xaae9be70ec7c69ab(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2408,7 +2617,8 @@ function N_0xaae9be70ec7c69ab(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p3 float
 --@params p4 float
 --@return void
-function N_0xae51bc858f32ba66(p0,p1,p2,p3,p4) end
+function N_0xae51bc858f32ba66(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2417,7 +2627,8 @@ function N_0xae51bc858f32ba66(p0,p1,p2,p3,p4) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xa4819f5e23e2ffad() end
+function N_0xa4819f5e23e2ffad()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2426,7 +2637,8 @@ function N_0xa4819f5e23e2ffad() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xb569f41f3e7e83a4(p0) end
+function N_0xb569f41f3e7e83a4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2435,7 +2647,8 @@ function N_0xb569f41f3e7e83a4(p0) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xb2ebe8cbc58b90e9() end
+function N_0xb2ebe8cbc58b90e9()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2444,7 +2657,8 @@ function N_0xb2ebe8cbc58b90e9() end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0xb3c641f3630bf6da(p0) end
+function N_0xb3c641f3630bf6da(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2454,7 +2668,8 @@ function N_0xb3c641f3630bf6da(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xba0127da25fd54c9(p0,p1) end
+function N_0xba0127da25fd54c9(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2463,7 +2678,8 @@ function N_0xba0127da25fd54c9(p0,p1) end
 --@usage Any undefined();
 
 --@return Any
-function N_0xbcedb009461da156() end
+function N_0xbcedb009461da156()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2472,7 +2688,8 @@ function N_0xbcedb009461da156() end
 --@usage void undefined(char* p0);
 --@params p0 char*
 --@return void
-function N_0xba3d194057c79a7b(p0) end
+function N_0xba3d194057c79a7b(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2481,7 +2698,8 @@ function N_0xba3d194057c79a7b(p0) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0xc0416b061f2b7e5e(p0) end
+function N_0xc0416b061f2b7e5e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2490,7 +2708,8 @@ function N_0xc0416b061f2b7e5e(p0) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0xbb90e12cac1dab25(p0) end
+function N_0xbb90e12cac1dab25(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2502,7 +2721,8 @@ function N_0xbb90e12cac1dab25(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return Any
-function N_0xbe197eaa669238f4(p0,p1,p2,p3) end
+function N_0xbe197eaa669238f4(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2511,7 +2731,8 @@ function N_0xbe197eaa669238f4(p0,p1,p2,p3) end
 --@usage Any undefined();
 
 --@return Any
-function N_0x98d18905bf723b99() end
+function N_0x98d18905bf723b99()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2520,7 +2741,8 @@ function N_0x98d18905bf723b99() end
 --@usage void undefined();
 
 --@return void
-function N_0xc35a6d07c93802b2() end
+function N_0xc35a6d07c93802b2()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2529,7 +2751,8 @@ function N_0xc35a6d07c93802b2() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0xca4ae345a153d573(p0) end
+function N_0xca4ae345a153d573(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2538,7 +2761,8 @@ function N_0xca4ae345a153d573(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xc5c8f970d4edff71(p0) end
+function N_0xc5c8f970d4edff71(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2547,7 +2771,8 @@ function N_0xc5c8f970d4edff71(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xd1c55b110e4df534(p0) end
+function N_0xd1c55b110e4df534(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2556,7 +2781,8 @@ function N_0xd1c55b110e4df534(p0) end
 --@usage BOOL undefined(int scaleformHandle);
 --@params scaleformHandle int
 --@return BOOL
-function N_0xd1c7cb175e012964(scaleformHandle) end
+function N_0xd1c7cb175e012964(scaleformHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2572,7 +2798,8 @@ function N_0xd1c7cb175e012964(scaleformHandle) end
 --@params p6 BOOL
 --@params p7 float
 --@return void
-function N_0xd2936cab8b58fcbd(p0,p1,p2,p3,p4,p5,p6,p7) end
+function N_0xd2936cab8b58fcbd(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2581,7 +2808,8 @@ function N_0xd2936cab8b58fcbd(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@usage void undefined();
 
 --@return void
-function N_0xd801cc02177fa3f1() end
+function N_0xd801cc02177fa3f1()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2590,7 +2818,8 @@ function N_0xd801cc02177fa3f1() end
 --@usage int undefined(int p0);
 --@params p0 int
 --@return int
-function N_0xcb82a0bf0e3e3265(p0) end
+function N_0xcb82a0bf0e3e3265(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2599,7 +2828,8 @@ function N_0xcb82a0bf0e3e3265(p0) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xca465d9cc0d231ba(p0) end
+function N_0xca465d9cc0d231ba(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2608,7 +2838,8 @@ function N_0xca465d9cc0d231ba(p0) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0xd39d13c9febf0511(p0) end
+function N_0xd39d13c9febf0511(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2617,7 +2848,8 @@ function N_0xd39d13c9febf0511(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0xd9454b5752c857dc() end
+function N_0xd9454b5752c857dc()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2626,7 +2858,8 @@ function N_0xd9454b5752c857dc() end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xdb1ea9411c8911ec(p0) end
+function N_0xdb1ea9411c8911ec(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2635,7 +2868,8 @@ function N_0xdb1ea9411c8911ec(p0) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0xe2892e7e55d7073a(p0) end
+function N_0xe2892e7e55d7073a(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2644,7 +2878,8 @@ function N_0xe2892e7e55d7073a(p0) end
 --@usage float undefined();
 
 --@return float
-function N_0xe59343e9e96529e7() end
+function N_0xe59343e9e96529e7()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2653,7 +2888,8 @@ function N_0xe59343e9e96529e7() end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0xe63d7c6eececb66b(toggle) end
+function N_0xe63d7c6eececb66b(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2662,7 +2898,8 @@ function N_0xe63d7c6eececb66b(toggle) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xe791df1f73ed2c8b(p0) end
+function N_0xe791df1f73ed2c8b(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2672,7 +2909,8 @@ function N_0xe791df1f73ed2c8b(p0) end
 --@params scaleform int
 --@params p1 BOOL
 --@return void
-function N_0xe6a9f00d4240b519(scaleform,p1) end
+function N_0xe6a9f00d4240b519(scaleform, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2681,7 +2919,8 @@ function N_0xe6a9f00d4240b519(scaleform,p1) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xec72c258667be5ea(p0) end
+function N_0xec72c258667be5ea(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2690,7 +2929,8 @@ function N_0xec72c258667be5ea(p0) end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0xdc459cfa0cce245b(toggle) end
+function N_0xdc459cfa0cce245b(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2699,7 +2939,8 @@ function N_0xdc459cfa0cce245b(toggle) end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0xef398beee4ef45f9(p0) end
+function N_0xef398beee4ef45f9(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2708,7 +2949,8 @@ function N_0xef398beee4ef45f9(p0) end
 --@usage void undefined(int unk);
 --@params unk int
 --@return void
-function N_0xe3e2c1b4c59dbc77(unk) end
+function N_0xe3e2c1b4c59dbc77(unk)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2718,7 +2960,8 @@ function N_0xe3e2c1b4c59dbc77(unk) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xf3f776ada161e47d(p0,p1) end
+function N_0xf3f776ada161e47d(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2727,7 +2970,8 @@ function N_0xf3f776ada161e47d(p0,p1) end
 --@usage int undefined(BOOL p0);
 --@params p0 BOOL
 --@return int
-function N_0xf5bed327cea362b1(p0) end
+function N_0xf5bed327cea362b1(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2742,7 +2986,8 @@ function N_0xf5bed327cea362b1(p0) end
 --@params unkY float
 --@params unkZ float
 --@return void
-function N_0xf51d36185993515d(checkpoint,posX,posY,posZ,unkX,unkY,unkZ) end
+function N_0xf51d36185993515d(checkpoint, posX, posY, posZ, unkX, unkY, unkZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2751,7 +2996,8 @@ function N_0xf51d36185993515d(checkpoint,posX,posY,posZ,unkX,unkY,unkZ) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0xf78b803082d4386f(p0) end
+function N_0xf78b803082d4386f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2762,7 +3008,8 @@ function N_0xf78b803082d4386f(p0) end
 --@params textureDict char*
 --@params textureName char*
 --@return void
-function OverrideDecalTexture(decalType,textureDict,textureName) end
+function OverrideDecalTexture(decalType, textureDict, textureName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2771,7 +3018,8 @@ function OverrideDecalTexture(decalType,textureDict,textureName) end
 --@usage void OVERRIDE_INTERIOR_SMOKE_NAME(char* name);
 --@params name char*
 --@return void
-function OverrideInteriorSmokeName(name) end
+function OverrideInteriorSmokeName(name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2780,7 +3028,8 @@ function OverrideInteriorSmokeName(name) end
 --@usage void OVERRIDE_INTERIOR_SMOKE_END();
 
 --@return void
-function OverrideInteriorSmokeEnd() end
+function OverrideInteriorSmokeEnd()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2789,7 +3038,8 @@ function OverrideInteriorSmokeEnd() end
 --@usage void OVERRIDE_INTERIOR_SMOKE_LEVEL(float level);
 --@params level float
 --@return void
-function OverrideInteriorSmokeLevel(level) end
+function OverrideInteriorSmokeLevel(level)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2798,7 +3048,8 @@ function OverrideInteriorSmokeLevel(level) end
 --@usage void POP_TIMECYCLE_MODIFIER();
 
 --@return void
-function PopTimecycleModifier() end
+function PopTimecycleModifier()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2807,7 +3058,8 @@ function PopTimecycleModifier() end
 --@usage void PAUSED_SCREENBLUR_LOADED();
 
 --@return void
-function PausedScreenblurLoaded() end
+function PausedScreenblurLoaded()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2816,7 +3068,8 @@ function PausedScreenblurLoaded() end
 --@usage void _PLAY_BINK_MOVIE(int binkMovie);
 --@params binkMovie int
 --@return void
-function PlayBinkMovie(binkMovie) end
+function PlayBinkMovie(binkMovie)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2825,7 +3078,8 @@ function PlayBinkMovie(binkMovie) end
 --@usage void _RELEASE_BINK_MOVIE(int binkMovie);
 --@params binkMovie int
 --@return void
-function ReleaseBinkMovie(binkMovie) end
+function ReleaseBinkMovie(binkMovie)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2834,7 +3088,8 @@ function ReleaseBinkMovie(binkMovie) end
 --@usage void PRESET_INTERIOR_AMBIENT_CACHE(char* timecycleModifierName);
 --@params timecycleModifierName char*
 --@return void
-function PresetInteriorAmbientCache(timecycleModifierName) end
+function PresetInteriorAmbientCache(timecycleModifierName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2843,7 +3098,8 @@ function PresetInteriorAmbientCache(timecycleModifierName) end
 --@usage void undefined();
 
 --@return void
-function N_0xefabc7722293da7c() end
+function N_0xefabc7722293da7c()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2852,7 +3108,8 @@ function N_0xefabc7722293da7c() end
 --@usage void PUSH_TIMECYCLE_MODIFIER();
 
 --@return void
-function PushTimecycleModifier() end
+function PushTimecycleModifier()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2861,7 +3118,8 @@ function PushTimecycleModifier() end
 --@usage void REMOVE_DECAL(int decal);
 --@params decal int
 --@return void
-function RemoveDecal(decal) end
+function RemoveDecal(decal)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2870,7 +3128,8 @@ function RemoveDecal(decal) end
 --@usage void RELEASE_MOVIE_MESH_SET(int movieMeshSet);
 --@params movieMeshSet int
 --@return void
-function ReleaseMovieMeshSet(movieMeshSet) end
+function ReleaseMovieMeshSet(movieMeshSet)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2882,7 +3141,8 @@ function ReleaseMovieMeshSet(movieMeshSet) end
 --@params y float
 --@params z float
 --@return void
-function RemoveDecalsFromObjectFacing(obj,x,y,z) end
+function RemoveDecalsFromObjectFacing(obj, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2894,7 +3154,8 @@ function RemoveDecalsFromObjectFacing(obj,x,y,z) end
 --@params z float
 --@params range float
 --@return void
-function RemoveDecalsInRange(x,y,z,range) end
+function RemoveDecalsInRange(x, y, z, range)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2903,7 +3164,8 @@ function RemoveDecalsInRange(x,y,z,range) end
 --@usage void REMOVE_DECALS_FROM_VEHICLE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function RemoveDecalsFromVehicle(vehicle) end
+function RemoveDecalsFromVehicle(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2913,7 +3175,8 @@ function RemoveDecalsFromVehicle(vehicle) end
 --@params ptfxHandle int
 --@params p1 BOOL
 --@return void
-function RemoveParticleFx(ptfxHandle,p1) end
+function RemoveParticleFx(ptfxHandle, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2925,7 +3188,8 @@ function RemoveParticleFx(ptfxHandle,p1) end
 --@params Z float
 --@params radius float
 --@return void
-function RemoveParticleFxInRange(X,Y,Z,radius) end
+function RemoveParticleFxInRange(X, Y, Z, radius)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2934,7 +3198,8 @@ function RemoveParticleFxInRange(X,Y,Z,radius) end
 --@usage void REMOVE_DECALS_FROM_OBJECT(Object obj);
 --@params obj Object
 --@return void
-function RemoveDecalsFromObject(obj) end
+function RemoveDecalsFromObject(obj)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2943,7 +3208,8 @@ function RemoveDecalsFromObject(obj) end
 --@usage void REMOVE_SCALEFORM_SCRIPT_HUD_MOVIE(int hudComponent);
 --@params hudComponent int
 --@return void
-function RemoveScaleformScriptHudMovie(hudComponent) end
+function RemoveScaleformScriptHudMovie(hudComponent)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2953,7 +3219,8 @@ function RemoveScaleformScriptHudMovie(hudComponent) end
 --@params vehicle Vehicle
 --@params p1 int
 --@return void
-function RemoveVehicleCrewEmblem(vehicle,p1) end
+function RemoveVehicleCrewEmblem(vehicle, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2962,7 +3229,8 @@ function RemoveVehicleCrewEmblem(vehicle,p1) end
 --@usage int REQUEST_SCALEFORM_MOVIE_INSTANCE(char* scaleformName);
 --@params scaleformName char*
 --@return int
-function RequestScaleformMovieInstance(scaleformName) end
+function RequestScaleformMovieInstance(scaleformName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2971,7 +3239,8 @@ function RequestScaleformMovieInstance(scaleformName) end
 --@usage void REMOVE_PARTICLE_FX_FROM_ENTITY(Entity entity);
 --@params entity Entity
 --@return void
-function RemoveParticleFxFromEntity(entity) end
+function RemoveParticleFxFromEntity(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2980,7 +3249,8 @@ function RemoveParticleFxFromEntity(entity) end
 --@usage int _REQUEST_SCALEFORM_MOVIE_INTERACTIVE(char* scaleformName);
 --@params scaleformName char*
 --@return int
-function RequestScaleformMovieInteractive(scaleformName) end
+function RequestScaleformMovieInteractive(scaleformName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2990,7 +3260,8 @@ function RequestScaleformMovieInteractive(scaleformName) end
 --@params textureDict char*
 --@params p1 BOOL
 --@return void
-function RequestStreamedTextureDict(textureDict,p1) end
+function RequestStreamedTextureDict(textureDict, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2999,7 +3270,8 @@ function RequestStreamedTextureDict(textureDict,p1) end
 --@usage void REQUEST_SCALEFORM_SCRIPT_HUD_MOVIE(int hudComponent);
 --@params hudComponent int
 --@return void
-function RequestScaleformScriptHudMovie(hudComponent) end
+function RequestScaleformScriptHudMovie(hudComponent)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3008,7 +3280,8 @@ function RequestScaleformScriptHudMovie(hudComponent) end
 --@usage int REQUEST_SCALEFORM_MOVIE(char* scaleformName);
 --@params scaleformName char*
 --@return int
-function RequestScaleformMovie(scaleformName) end
+function RequestScaleformMovie(scaleformName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3017,7 +3290,8 @@ function RequestScaleformMovie(scaleformName) end
 --@usage int _REQUEST_SCALEFORM_MOVIE_2(char* scaleformName);
 --@params scaleformName char*
 --@return int
-function RequestScaleformMovie_2(scaleformName) end
+function RequestScaleformMovie_2(scaleformName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3026,7 +3300,8 @@ function RequestScaleformMovie_2(scaleformName) end
 --@usage void RESET_PAUSED_RENDERPHASES();
 
 --@return void
-function ResetPausedRenderphases() end
+function ResetPausedRenderphases()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3035,7 +3310,8 @@ function ResetPausedRenderphases() end
 --@usage void _RESET_EXTRA_TIMECYCLE_MODIFIER_STRENGTH();
 
 --@return void
-function ResetExtraTimecycleModifierStrength() end
+function ResetExtraTimecycleModifierStrength()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3044,7 +3320,8 @@ function ResetExtraTimecycleModifierStrength() end
 --@usage void RESET_SCRIPT_GFX_ALIGN();
 
 --@return void
-function ResetScriptGfxAlign() end
+function ResetScriptGfxAlign()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3053,7 +3330,8 @@ function ResetScriptGfxAlign() end
 --@usage void RESET_PARTICLE_FX_OVERRIDE(char* name);
 --@params name char*
 --@return void
-function ResetParticleFxOverride(name) end
+function ResetParticleFxOverride(name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3062,7 +3340,8 @@ function ResetParticleFxOverride(name) end
 --@usage void SCALEFORM_MOVIE_METHOD_ADD_PARAM_FLOAT(float value);
 --@params value float
 --@return void
-function ScaleformMovieMethodAddParamFloat(value) end
+function ScaleformMovieMethodAddParamFloat(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3071,7 +3350,8 @@ function ScaleformMovieMethodAddParamFloat(value) end
 --@usage void SCALEFORM_MOVIE_METHOD_ADD_PARAM_LATEST_BRIEF_STRING(int value);
 --@params value int
 --@return void
-function ScaleformMovieMethodAddParamLatestBriefString(value) end
+function ScaleformMovieMethodAddParamLatestBriefString(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3080,7 +3360,8 @@ function ScaleformMovieMethodAddParamLatestBriefString(value) end
 --@usage void SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT(int value);
 --@params value int
 --@return void
-function ScaleformMovieMethodAddParamInt(value) end
+function ScaleformMovieMethodAddParamInt(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3089,7 +3370,8 @@ function ScaleformMovieMethodAddParamInt(value) end
 --@usage void SCALEFORM_MOVIE_METHOD_ADD_PARAM_BOOL(BOOL value);
 --@params value BOOL
 --@return void
-function ScaleformMovieMethodAddParamBool(value) end
+function ScaleformMovieMethodAddParamBool(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3098,7 +3380,8 @@ function ScaleformMovieMethodAddParamBool(value) end
 --@usage void SCALEFORM_MOVIE_METHOD_ADD_PARAM_TEXTURE_NAME_STRING(char* string);
 --@params string char*
 --@return void
-function ScaleformMovieMethodAddParamTextureNameString(string) end
+function ScaleformMovieMethodAddParamTextureNameString(string)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3107,7 +3390,8 @@ function ScaleformMovieMethodAddParamTextureNameString(string) end
 --@usage float _SEETHROUGH_GET_MAX_THICKNESS();
 
 --@return float
-function SeethroughGetMaxThickness() end
+function SeethroughGetMaxThickness()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3116,7 +3400,8 @@ function SeethroughGetMaxThickness() end
 --@usage void SCALEFORM_MOVIE_METHOD_ADD_PARAM_PLAYER_NAME_STRING(char* string);
 --@params string char*
 --@return void
-function ScaleformMovieMethodAddParamPlayerNameString(string) end
+function ScaleformMovieMethodAddParamPlayerNameString(string)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3125,7 +3410,8 @@ function ScaleformMovieMethodAddParamPlayerNameString(string) end
 --@usage int _RETURN_TWO(int p0);
 --@params p0 int
 --@return int
-function ReturnTwo(p0) end
+function ReturnTwo(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3134,7 +3420,8 @@ function ReturnTwo(p0) end
 --@usage void _SCALEFORM_MOVIE_METHOD_ADD_PARAM_TEXTURE_NAME_STRING_2(char* string);
 --@params string char*
 --@return void
-function ScaleformMovieMethodAddParamTextureNameString_2(string) end
+function ScaleformMovieMethodAddParamTextureNameString_2(string)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3143,7 +3430,8 @@ function ScaleformMovieMethodAddParamTextureNameString_2(string) end
 --@usage void _SEETHROUGH_SET_FADE_START_DISTANCE(float distance);
 --@params distance float
 --@return void
-function SeethroughSetFadeStartDistance(distance) end
+function SeethroughSetFadeStartDistance(distance)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3154,7 +3442,8 @@ function SeethroughSetFadeStartDistance(distance) end
 --@params green int
 --@params blue int
 --@return void
-function SeethroughSetColorNear(red,green,blue) end
+function SeethroughSetColorNear(red, green, blue)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3163,7 +3452,8 @@ function SeethroughSetColorNear(red,green,blue) end
 --@usage void _SEETHROUGH_SET_FADE_END_DISTANCE(float distance);
 --@params distance float
 --@return void
-function SeethroughSetFadeEndDistance(distance) end
+function SeethroughSetFadeEndDistance(distance)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3173,7 +3463,8 @@ function SeethroughSetFadeEndDistance(distance) end
 --@params index int
 --@params heatScale float
 --@return void
-function SeethroughSetHeatscale(index,heatScale) end
+function SeethroughSetHeatscale(index, heatScale)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3182,7 +3473,8 @@ function SeethroughSetHeatscale(index,heatScale) end
 --@usage void _SEETHROUGH_SET_HI_LIGHT_INTENSITY(float intensity);
 --@params intensity float
 --@return void
-function SeethroughSetHiLightIntensity(intensity) end
+function SeethroughSetHiLightIntensity(intensity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3191,7 +3483,8 @@ function SeethroughSetHiLightIntensity(intensity) end
 --@usage void SEETHROUGH_RESET();
 
 --@return void
-function SeethroughReset() end
+function SeethroughReset()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3200,7 +3493,8 @@ function SeethroughReset() end
 --@usage void _SEETHROUGH_SET_HI_LIGHT_NOISE(float noise);
 --@params noise float
 --@return void
-function SeethroughSetHiLightNoise(noise) end
+function SeethroughSetHiLightNoise(noise)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3209,7 +3503,8 @@ function SeethroughSetHiLightNoise(noise) end
 --@usage void _SEETHROUGH_SET_NOISE_AMOUNT_MIN(float amount);
 --@params amount float
 --@return void
-function SeethroughSetNoiseAmountMin(amount) end
+function SeethroughSetNoiseAmountMin(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3218,7 +3513,8 @@ function SeethroughSetNoiseAmountMin(amount) end
 --@usage void _SEETHROUGH_SET_MAX_THICKNESS(float thickness);
 --@params thickness float
 --@return void
-function SeethroughSetMaxThickness(thickness) end
+function SeethroughSetMaxThickness(thickness)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3227,7 +3523,8 @@ function SeethroughSetMaxThickness(thickness) end
 --@usage void SET_ARTIFICIAL_LIGHTS_STATE(BOOL state);
 --@params state BOOL
 --@return void
-function SetArtificialLightsState(state) end
+function SetArtificialLightsState(state)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3236,7 +3533,8 @@ function SetArtificialLightsState(state) end
 --@usage void _SEETHROUGH_SET_NOISE_AMOUNT_MAX(float amount);
 --@params amount float
 --@return void
-function SeethroughSetNoiseAmountMax(amount) end
+function SeethroughSetNoiseAmountMax(amount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3246,7 +3544,8 @@ function SeethroughSetNoiseAmountMax(amount) end
 --@params binkMovie int
 --@params progress float
 --@return void
-function SetBinkMovieProgress(binkMovie,progress) end
+function SetBinkMovieProgress(binkMovie, progress)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3255,7 +3554,8 @@ function SetBinkMovieProgress(binkMovie,progress) end
 --@usage void SET_BACKFACECULLING(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetBackfaceculling(toggle) end
+function SetBackfaceculling(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3267,7 +3567,8 @@ function SetBackfaceculling(toggle) end
 --@params farHeight float
 --@params radius float
 --@return void
-function SetCheckpointCylinderHeight(checkpoint,nearHeight,farHeight,radius) end
+function SetCheckpointCylinderHeight(checkpoint, nearHeight, farHeight, radius)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3280,7 +3581,8 @@ function SetCheckpointCylinderHeight(checkpoint,nearHeight,farHeight,radius) end
 --@params blue int
 --@params alpha int
 --@return void
-function SetCheckpointRgba(checkpoint,red,green,blue,alpha) end
+function SetCheckpointRgba(checkpoint, red, green, blue, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3293,7 +3595,8 @@ function SetCheckpointRgba(checkpoint,red,green,blue,alpha) end
 --@params blue int
 --@params alpha int
 --@return void
-function SetCheckpointIconRgba(checkpoint,red,green,blue,alpha) end
+function SetCheckpointIconRgba(checkpoint, red, green, blue, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3302,7 +3605,8 @@ function SetCheckpointIconRgba(checkpoint,red,green,blue,alpha) end
 --@usage void SET_CURRENT_PLAYER_TCMODIFIER(char* modifierName);
 --@params modifierName char*
 --@return void
-function SetCurrentPlayerTcmodifier(modifierName) end
+function SetCurrentPlayerTcmodifier(modifierName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3312,7 +3616,8 @@ function SetCurrentPlayerTcmodifier(modifierName) end
 --@params checkpoint int
 --@params p0 float
 --@return void
-function SetCheckpointScale(checkpoint,p0) end
+function SetCheckpointScale(checkpoint, p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3322,7 +3627,8 @@ function SetCheckpointScale(checkpoint,p0) end
 --@params binkMovie int
 --@params value float
 --@return void
-function SetBinkMovieUnk(binkMovie,value) end
+function SetBinkMovieUnk(binkMovie, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3331,7 +3637,8 @@ function SetBinkMovieUnk(binkMovie,value) end
 --@usage void SET_DEBUG_LINES_AND_SPHERES_DRAWING_ACTIVE(BOOL enabled);
 --@params enabled BOOL
 --@return void
-function SetDebugLinesAndSpheresDrawingActive(enabled) end
+function SetDebugLinesAndSpheresDrawingActive(enabled)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3340,7 +3647,8 @@ function SetDebugLinesAndSpheresDrawingActive(enabled) end
 --@usage int _SET_BINK_MOVIE_REQUESTED(char* name);
 --@params name char*
 --@return int
-function SetBinkMovieRequested(name) end
+function SetBinkMovieRequested(name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3353,7 +3661,8 @@ function SetBinkMovieRequested(name) end
 --@params blue int
 --@params alpha int
 --@return void
-function SetEntityIconColor(entity,red,green,blue,alpha) end
+function SetEntityIconColor(entity, red, green, blue, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3362,7 +3671,8 @@ function SetEntityIconColor(entity,red,green,blue,alpha) end
 --@usage void _SET_EXTRA_TIMECYCLE_MODIFIER(char* modifierName);
 --@params modifierName char*
 --@return void
-function SetExtraTimecycleModifier(modifierName) end
+function SetExtraTimecycleModifier(modifierName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3374,7 +3684,8 @@ function SetExtraTimecycleModifier(modifierName) end
 --@params z float
 --@params p3 Any
 --@return void
-function SetDrawOrigin(x,y,z,p3) end
+function SetDrawOrigin(x, y, z, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3383,7 +3694,8 @@ function SetDrawOrigin(x,y,z,p3) end
 --@usage void _SET_EXTRA_TIMECYCLE_MODIFIER_STRENGTH(float strength);
 --@params strength float
 --@return void
-function SetExtraTimecycleModifierStrength(strength) end
+function SetExtraTimecycleModifierStrength(strength)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3393,7 +3705,8 @@ function SetExtraTimecycleModifierStrength(strength) end
 --@params entity Entity
 --@params toggle BOOL
 --@return void
-function SetEntityIconVisibility(entity,toggle) end
+function SetEntityIconVisibility(entity, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3402,7 +3715,8 @@ function SetEntityIconVisibility(entity,toggle) end
 --@usage void _SET_FORCE_PED_FOOTSTEPS_TRACKS(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetForcePedFootstepsTracks(toggle) end
+function SetForcePedFootstepsTracks(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3415,7 +3729,8 @@ function SetForcePedFootstepsTracks(toggle) end
 --@params duration float
 --@params fadeOut float
 --@return void
-function SetFlash(p0,p1,fadeIn,duration,fadeOut) end
+function SetFlash(p0, p1, fadeIn, duration, fadeOut)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3429,7 +3744,8 @@ function SetFlash(p0,p1,fadeIn,duration,fadeOut) end
 --@params farplaneOut float
 --@params farplaneIn float
 --@return void
-function SetHidofOverride(p0,p1,nearplaneOut,nearplaneIn,farplaneOut,farplaneIn) end
+function SetHidofOverride(p0, p1, nearplaneOut, nearplaneIn, farplaneOut, farplaneIn)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3438,7 +3754,8 @@ function SetHidofOverride(p0,p1,nearplaneOut,nearplaneIn,farplaneOut,farplaneIn)
 --@usage void SET_NEXT_PLAYER_TCMODIFIER(char* modifierName);
 --@params modifierName char*
 --@return void
-function SetNextPlayerTcmodifier(modifierName) end
+function SetNextPlayerTcmodifier(modifierName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3447,7 +3764,8 @@ function SetNextPlayerTcmodifier(modifierName) end
 --@usage void _SET_FAR_SHADOWS_SUPPRESSED(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetFarShadowsSuppressed(toggle) end
+function SetFarShadowsSuppressed(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3456,7 +3774,8 @@ function SetFarShadowsSuppressed(toggle) end
 --@usage void SET_NOISEOVERIDE(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetNoiseoveride(toggle) end
+function SetNoiseoveride(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3465,7 +3784,8 @@ function SetNoiseoveride(toggle) end
 --@usage void _SET_FORCE_VEHICLE_TRAILS(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetForceVehicleTrails(toggle) end
+function SetForceVehicleTrails(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3475,7 +3795,8 @@ function SetForceVehicleTrails(toggle) end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function SetParticleFxCamInsideNonplayerVehicle(vehicle,p1) end
+function SetParticleFxCamInsideNonplayerVehicle(vehicle, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3484,7 +3805,8 @@ function SetParticleFxCamInsideNonplayerVehicle(vehicle,p1) end
 --@usage void SET_PARTICLE_FX_CAM_INSIDE_VEHICLE(BOOL p0);
 --@params p0 BOOL
 --@return void
-function SetParticleFxCamInsideVehicle(p0) end
+function SetParticleFxCamInsideVehicle(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3494,7 +3816,8 @@ function SetParticleFxCamInsideVehicle(p0) end
 --@params ptfxHandle int
 --@params alpha float
 --@return void
-function SetParticleFxLoopedAlpha(ptfxHandle,alpha) end
+function SetParticleFxLoopedAlpha(ptfxHandle, alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3507,7 +3830,8 @@ function SetParticleFxLoopedAlpha(ptfxHandle,alpha) end
 --@params b float
 --@params p4 BOOL
 --@return void
-function SetParticleFxLoopedColour(ptfxHandle,r,g,b,p4) end
+function SetParticleFxLoopedColour(ptfxHandle, r, g, b, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3516,7 +3840,8 @@ function SetParticleFxLoopedColour(ptfxHandle,r,g,b,p4) end
 --@usage void SET_NIGHTVISION(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetNightvision(toggle) end
+function SetNightvision(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3528,7 +3853,8 @@ function SetNightvision(toggle) end
 --@params amount float
 --@params noNetwork BOOL
 --@return void
-function SetParticleFxLoopedEvolution(ptfxHandle,propertyName,amount,noNetwork) end
+function SetParticleFxLoopedEvolution(ptfxHandle, propertyName, amount, noNetwork)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3537,7 +3863,8 @@ function SetParticleFxLoopedEvolution(ptfxHandle,propertyName,amount,noNetwork) 
 --@usage void SET_NOISINESSOVERIDE(float value);
 --@params value float
 --@return void
-function SetNoisinessoveride(value) end
+function SetNoisinessoveride(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3552,7 +3879,8 @@ function SetNoisinessoveride(value) end
 --@params rotY float
 --@params rotZ float
 --@return void
-function SetParticleFxLoopedOffsets(ptfxHandle,x,y,z,rotX,rotY,rotZ) end
+function SetParticleFxLoopedOffsets(ptfxHandle, x, y, z, rotX, rotY, rotZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3562,7 +3890,8 @@ function SetParticleFxLoopedOffsets(ptfxHandle,x,y,z,rotX,rotY,rotZ) end
 --@params ptfxHandle int
 --@params range float
 --@return void
-function SetParticleFxLoopedFarClipDist(ptfxHandle,range) end
+function SetParticleFxLoopedFarClipDist(ptfxHandle, range)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3573,7 +3902,8 @@ function SetParticleFxLoopedFarClipDist(ptfxHandle,range) end
 --@params g float
 --@params b float
 --@return void
-function SetParticleFxNonLoopedColour(r,g,b) end
+function SetParticleFxNonLoopedColour(r, g, b)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3582,7 +3912,8 @@ function SetParticleFxNonLoopedColour(r,g,b) end
 --@usage void SET_PARTICLE_FX_SHOOTOUT_BOAT(Any p0);
 --@params p0 Any
 --@return void
-function SetParticleFxShootoutBoat(p0) end
+function SetParticleFxShootoutBoat(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3591,7 +3922,8 @@ function SetParticleFxShootoutBoat(p0) end
 --@usage void SET_PARTICLE_FX_NON_LOOPED_ALPHA(float alpha);
 --@params alpha float
 --@return void
-function SetParticleFxNonLoopedAlpha(alpha) end
+function SetParticleFxNonLoopedAlpha(alpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3601,7 +3933,8 @@ function SetParticleFxNonLoopedAlpha(alpha) end
 --@params ptfxHandle int
 --@params scale float
 --@return void
-function SetParticleFxLoopedScale(ptfxHandle,scale) end
+function SetParticleFxLoopedScale(ptfxHandle, scale)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3611,7 +3944,8 @@ function SetParticleFxLoopedScale(ptfxHandle,scale) end
 --@params scaleform int
 --@params toggle BOOL
 --@return void
-function SetScaleformMovieToUseSystemTime(scaleform,toggle) end
+function SetScaleformMovieToUseSystemTime(scaleform, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3620,7 +3954,8 @@ function SetScaleformMovieToUseSystemTime(scaleform,toggle) end
 --@usage void SET_PLAYER_TCMODIFIER_TRANSITION(float value);
 --@params value float
 --@return void
-function SetPlayerTcmodifierTransition(value) end
+function SetPlayerTcmodifierTransition(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3629,7 +3964,8 @@ function SetPlayerTcmodifierTransition(value) end
 --@usage void SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED(int* scaleformHandle);
 --@params scaleformHandle int*
 --@return void
-function SetScaleformMovieAsNoLongerNeeded(scaleformHandle) end
+function SetScaleformMovieAsNoLongerNeeded(scaleformHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3639,7 +3975,8 @@ function SetScaleformMovieAsNoLongerNeeded(scaleformHandle) end
 --@params horizontalAlign int
 --@params verticalAlign int
 --@return void
-function SetScriptGfxAlign(horizontalAlign,verticalAlign) end
+function SetScriptGfxAlign(horizontalAlign, verticalAlign)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3651,7 +3988,8 @@ function SetScriptGfxAlign(horizontalAlign,verticalAlign) end
 --@params w float
 --@params h float
 --@return void
-function SetScriptGfxAlignParams(x,y,w,h) end
+function SetScriptGfxAlignParams(x, y, w, h)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3660,7 +3998,8 @@ function SetScriptGfxAlignParams(x,y,w,h) end
 --@usage void SET_SCRIPT_GFX_DRAW_BEHIND_PAUSEMENU(BOOL flag);
 --@params flag BOOL
 --@return void
-function SetScriptGfxDrawBehindPausemenu(flag) end
+function SetScriptGfxDrawBehindPausemenu(flag)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3670,7 +4009,8 @@ function SetScriptGfxDrawBehindPausemenu(flag) end
 --@params oldAsset char*
 --@params newAsset char*
 --@return void
-function SetParticleFxOverride(oldAsset,newAsset) end
+function SetParticleFxOverride(oldAsset, newAsset)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3679,7 +4019,8 @@ function SetParticleFxOverride(oldAsset,newAsset) end
 --@usage void SET_SCRIPT_GFX_DRAW_ORDER(int order);
 --@params order int
 --@return void
-function SetScriptGfxDrawOrder(order) end
+function SetScriptGfxDrawOrder(order)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3688,7 +4029,8 @@ function SetScriptGfxDrawOrder(order) end
 --@usage void SET_STREAMED_TEXTURE_DICT_AS_NO_LONGER_NEEDED(char* textureDict);
 --@params textureDict char*
 --@return void
-function SetStreamedTextureDictAsNoLongerNeeded(textureDict) end
+function SetStreamedTextureDictAsNoLongerNeeded(textureDict)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3697,7 +4039,8 @@ function SetStreamedTextureDictAsNoLongerNeeded(textureDict) end
 --@usage void SET_TIMECYCLE_MODIFIER(char* modifierName);
 --@params modifierName char*
 --@return void
-function SetTimecycleModifier(modifierName) end
+function SetTimecycleModifier(modifierName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3706,7 +4049,8 @@ function SetTimecycleModifier(modifierName) end
 --@usage void SET_TIMECYCLE_MODIFIER_STRENGTH(float strength);
 --@params strength float
 --@return void
-function SetTimecycleModifierStrength(strength) end
+function SetTimecycleModifierStrength(strength)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3716,7 +4060,8 @@ function SetTimecycleModifierStrength(strength) end
 --@params modifierName char*
 --@params transition float
 --@return void
-function SetTransitionTimecycleModifier(modifierName,transition) end
+function SetTransitionTimecycleModifier(modifierName, transition)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3725,7 +4070,8 @@ function SetTransitionTimecycleModifier(modifierName,transition) end
 --@usage void SET_SEETHROUGH(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetSeethrough(toggle) end
+function SetSeethrough(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3738,7 +4084,8 @@ function SetSeethrough(toggle) end
 --@params z float
 --@params radius float
 --@return void
-function SetTrackedPointInfo(point,x,y,z,radius) end
+function SetTrackedPointInfo(point, x, y, z, radius)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3747,7 +4094,8 @@ function SetTrackedPointInfo(point,x,y,z,radius) end
 --@usage void SET_TV_AUDIO_FRONTEND(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetTvAudioFrontend(toggle) end
+function SetTvAudioFrontend(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3758,7 +4106,8 @@ function SetTvAudioFrontend(toggle) end
 --@params playlistName char*
 --@params restart BOOL
 --@return void
-function SetTvChannelPlaylist(tvChannel,playlistName,restart) end
+function SetTvChannelPlaylist(tvChannel, playlistName, restart)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3769,7 +4118,8 @@ function SetTvChannelPlaylist(tvChannel,playlistName,restart) end
 --@params playlistName char*
 --@params hour int
 --@return void
-function SetTvChannelPlaylistAtHour(tvChannel,playlistName,hour) end
+function SetTvChannelPlaylistAtHour(tvChannel, playlistName, hour)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3778,7 +4128,8 @@ function SetTvChannelPlaylistAtHour(tvChannel,playlistName,hour) end
 --@usage void SET_TV_VOLUME(float volume);
 --@params volume float
 --@return void
-function SetTvVolume(volume) end
+function SetTvVolume(volume)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3787,7 +4138,8 @@ function SetTvVolume(volume) end
 --@usage void SET_TV_CHANNEL(int channel);
 --@params channel int
 --@return void
-function SetTvChannel(channel) end
+function SetTvChannel(channel)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3807,7 +4159,8 @@ function SetTvChannel(channel) end
 --@params yAxis BOOL
 --@params zAxis BOOL
 --@return int
-function StartNetworkedParticleFxLoopedOnEntity(effectName,entity,xOffset,yOffset,zOffset,xRot,yRot,zRot,scale,xAxis,yAxis,zAxis) end
+function StartNetworkedParticleFxLoopedOnEntity(effectName, entity, xOffset, yOffset, zOffset, xRot, yRot, zRot, scale, xAxis, yAxis, zAxis)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3828,7 +4181,8 @@ function StartNetworkedParticleFxLoopedOnEntity(effectName,entity,xOffset,yOffse
 --@params yAxis BOOL
 --@params zAxis BOOL
 --@return int
-function StartNetworkedParticleFxLoopedOnEntityBone(effectName,entity,xOffset,yOffset,zOffset,xRot,yRot,zRot,boneIndex,scale,xAxis,yAxis,zAxis) end
+function StartNetworkedParticleFxLoopedOnEntityBone(effectName, entity, xOffset, yOffset, zOffset, xRot, yRot, zRot, boneIndex, scale, xAxis, yAxis, zAxis)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3847,7 +4201,8 @@ function StartNetworkedParticleFxLoopedOnEntityBone(effectName,entity,xOffset,yO
 --@params yAxis BOOL
 --@params zAxis BOOL
 --@return BOOL
-function StartNetworkedParticleFxNonLoopedAtCoord(effectName,xPos,yPos,zPos,xRot,yRot,zRot,scale,xAxis,yAxis,zAxis) end
+function StartNetworkedParticleFxNonLoopedAtCoord(effectName, xPos, yPos, zPos, xRot, yRot, zRot, scale, xAxis, yAxis, zAxis)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3868,7 +4223,8 @@ function StartNetworkedParticleFxNonLoopedAtCoord(effectName,xPos,yPos,zPos,xRot
 --@params axisY BOOL
 --@params axisZ BOOL
 --@return BOOL
-function StartNetworkedParticleFxNonLoopedOnPedBone(effectName,ped,offsetX,offsetY,offsetZ,rotX,rotY,rotZ,boneIndex,scale,axisX,axisY,axisZ) end
+function StartNetworkedParticleFxNonLoopedOnPedBone(effectName, ped, offsetX, offsetY, offsetZ, rotX, rotY, rotZ, boneIndex, scale, axisX, axisY, axisZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3888,7 +4244,8 @@ function StartNetworkedParticleFxNonLoopedOnPedBone(effectName,ped,offsetX,offse
 --@params zAxis BOOL
 --@params p11 BOOL
 --@return int
-function StartParticleFxLoopedAtCoord(effectName,x,y,z,xRot,yRot,zRot,scale,xAxis,yAxis,zAxis,p11) end
+function StartParticleFxLoopedAtCoord(effectName, x, y, z, xRot, yRot, zRot, scale, xAxis, yAxis, zAxis, p11)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3908,7 +4265,8 @@ function StartParticleFxLoopedAtCoord(effectName,x,y,z,xRot,yRot,zRot,scale,xAxi
 --@params axisY BOOL
 --@params axisZ BOOL
 --@return BOOL
-function StartNetworkedParticleFxNonLoopedOnEntity(effectName,entity,offsetX,offsetY,offsetZ,rotX,rotY,rotZ,scale,axisX,axisY,axisZ) end
+function StartNetworkedParticleFxNonLoopedOnEntity(effectName, entity, offsetX, offsetY, offsetZ, rotX, rotY, rotZ, scale, axisX, axisY, axisZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3929,7 +4287,8 @@ function StartNetworkedParticleFxNonLoopedOnEntity(effectName,entity,offsetX,off
 --@params yAxis BOOL
 --@params zAxis BOOL
 --@return int
-function StartParticleFxLoopedOnEntityBone(effectName,entity,xOffset,yOffset,zOffset,xRot,yRot,zRot,boneIndex,scale,xAxis,yAxis,zAxis) end
+function StartParticleFxLoopedOnEntityBone(effectName, entity, xOffset, yOffset, zOffset, xRot, yRot, zRot, boneIndex, scale, xAxis, yAxis, zAxis)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3949,7 +4308,8 @@ function StartParticleFxLoopedOnEntityBone(effectName,entity,xOffset,yOffset,zOf
 --@params axisY BOOL
 --@params axisZ BOOL
 --@return BOOL
-function StartParticleFxNonLoopedOnEntity(effectName,entity,offsetX,offsetY,offsetZ,rotX,rotY,rotZ,scale,axisX,axisY,axisZ) end
+function StartParticleFxNonLoopedOnEntity(effectName, entity, offsetX, offsetY, offsetZ, rotX, rotY, rotZ, scale, axisX, axisY, axisZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3970,7 +4330,8 @@ function StartParticleFxNonLoopedOnEntity(effectName,entity,offsetX,offsetY,offs
 --@params yAxis BOOL
 --@params zAxis BOOL
 --@return int
-function StartParticleFxLoopedOnPedBone(effectName,ped,xOffset,yOffset,zOffset,xRot,yRot,zRot,boneIndex,scale,xAxis,yAxis,zAxis) end
+function StartParticleFxLoopedOnPedBone(effectName, ped, xOffset, yOffset, zOffset, xRot, yRot, zRot, boneIndex, scale, xAxis, yAxis, zAxis)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3989,7 +4350,8 @@ function StartParticleFxLoopedOnPedBone(effectName,ped,xOffset,yOffset,zOffset,x
 --@params yAxis BOOL
 --@params zAxis BOOL
 --@return int
-function StartParticleFxNonLoopedAtCoord(effectName,xPos,yPos,zPos,xRot,yRot,zRot,scale,xAxis,yAxis,zAxis) end
+function StartParticleFxNonLoopedAtCoord(effectName, xPos, yPos, zPos, xRot, yRot, zRot, scale, xAxis, yAxis, zAxis)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4009,7 +4371,8 @@ function StartParticleFxNonLoopedAtCoord(effectName,xPos,yPos,zPos,xRot,yRot,zRo
 --@params yAxis BOOL
 --@params zAxis BOOL
 --@return int
-function StartParticleFxLoopedOnEntity(effectName,entity,xOffset,yOffset,zOffset,xRot,yRot,zRot,scale,xAxis,yAxis,zAxis) end
+function StartParticleFxLoopedOnEntity(effectName, entity, xOffset, yOffset, zOffset, xRot, yRot, zRot, scale, xAxis, yAxis, zAxis)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4030,7 +4393,8 @@ function StartParticleFxLoopedOnEntity(effectName,entity,xOffset,yOffset,zOffset
 --@params axisY BOOL
 --@params axisZ BOOL
 --@return BOOL
-function StartParticleFxNonLoopedOnPedBone(effectName,ped,offsetX,offsetY,offsetZ,rotX,rotY,rotZ,boneIndex,scale,axisX,axisY,axisZ) end
+function StartParticleFxNonLoopedOnPedBone(effectName, ped, offsetX, offsetY, offsetZ, rotX, rotY, rotZ, boneIndex, scale, axisX, axisY, axisZ)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4039,7 +4403,8 @@ function StartParticleFxNonLoopedOnPedBone(effectName,ped,offsetX,offsetY,offset
 --@usage void _STOP_BINK_MOVIE(int binkMovie);
 --@params binkMovie int
 --@return void
-function StopBinkMovie(binkMovie) end
+function StopBinkMovie(binkMovie)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4059,7 +4424,8 @@ function StopBinkMovie(binkMovie) end
 --@params highB int
 --@params highAlpha int
 --@return void
-function TerraingridSetColours(lowR,lowG,lowB,lowAlpha,R,G,B,Alpha,highR,highG,highB,highAlpha) end
+function TerraingridSetColours(lowR, lowG, lowB, lowAlpha, R, G, B, Alpha, highR, highG, highB, highAlpha)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4068,7 +4434,8 @@ function TerraingridSetColours(lowR,lowG,lowB,lowAlpha,R,G,B,Alpha,highR,highG,h
 --@usage void START_PETROL_TRAIL_DECALS(float p0);
 --@params p0 float
 --@return void
-function StartPetrolTrailDecals(p0) end
+function StartPetrolTrailDecals(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4078,7 +4445,8 @@ function StartPetrolTrailDecals(p0) end
 --@params ptfxHandle int
 --@params p1 BOOL
 --@return void
-function StopParticleFxLooped(ptfxHandle,p1) end
+function StopParticleFxLooped(ptfxHandle, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4099,7 +4467,8 @@ function StopParticleFxLooped(ptfxHandle,p1) end
 --@params normalHeight float
 --@params heightDiff float
 --@return void
-function TerraingridSetParams(x,y,z,p3,rotation,p5,width,height,p8,scale,glowIntensity,normalHeight,heightDiff) end
+function TerraingridSetParams(x, y, z, p3, rotation, p5, width, height, p8, scale, glowIntensity, normalHeight, heightDiff)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4108,7 +4477,8 @@ function TerraingridSetParams(x,y,z,p3,rotation,p5,width,height,p8,scale,glowInt
 --@usage void TOGGLE_PAUSED_RENDERPHASES(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function TogglePausedRenderphases(toggle) end
+function TogglePausedRenderphases(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4117,7 +4487,8 @@ function TogglePausedRenderphases(toggle) end
 --@usage BOOL TRIGGER_SCREENBLUR_FADE_IN(float transitionTime);
 --@params transitionTime float
 --@return BOOL
-function TriggerScreenblurFadeIn(transitionTime) end
+function TriggerScreenblurFadeIn(transitionTime)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4126,7 +4497,8 @@ function TriggerScreenblurFadeIn(transitionTime) end
 --@usage BOOL TRIGGER_SCREENBLUR_FADE_OUT(float transitionTime);
 --@params transitionTime float
 --@return BOOL
-function TriggerScreenblurFadeOut(transitionTime) end
+function TriggerScreenblurFadeOut(transitionTime)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4135,7 +4507,8 @@ function TriggerScreenblurFadeOut(transitionTime) end
 --@usage BOOL UI3DSCENE_IS_AVAILABLE();
 
 --@return BOOL
-function Ui3dsceneIsAvailable() end
+function Ui3dsceneIsAvailable()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4144,7 +4517,8 @@ function Ui3dsceneIsAvailable() end
 --@usage void _UNDO_DECAL_TEXTURE_OVERRIDE(int decalType);
 --@params decalType int
 --@return void
-function UndoDecalTextureOverride(decalType) end
+function UndoDecalTextureOverride(decalType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4153,7 +4527,8 @@ function UndoDecalTextureOverride(decalType) end
 --@usage BOOL UI3DSCENE_PUSH_PRESET(char* presetName);
 --@params presetName char*
 --@return BOOL
-function Ui3dscenePushPreset(presetName) end
+function Ui3dscenePushPreset(presetName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4162,7 +4537,8 @@ function Ui3dscenePushPreset(presetName) end
 --@usage void USE_PARTICLE_FX_ASSET(char* name);
 --@params name char*
 --@return void
-function UseParticleFxAsset(name) end
+function UseParticleFxAsset(name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4171,7 +4547,8 @@ function UseParticleFxAsset(name) end
 --@usage void TERRAINGRID_ACTIVATE(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function TerraingridActivate(toggle) end
+function TerraingridActivate(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4184,7 +4561,8 @@ function TerraingridActivate(toggle) end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function WashDecalsInRange(p0,p1,p2,p3,p4) end
+function WashDecalsInRange(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4194,7 +4572,8 @@ function WashDecalsInRange(p0,p1,p2,p3,p4) end
 --@params vehicle Vehicle
 --@params p1 float
 --@return void
-function WashDecalsFromVehicle(vehicle,p1) end
+function WashDecalsFromVehicle(vehicle, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4203,4 +4582,5 @@ function WashDecalsFromVehicle(vehicle,p1) end
 --@usage void UPDATE_LIGHTS_ON_ENTITY(Entity entity);
 --@params entity Entity
 --@return void
-function UpdateLightsOnEntity(entity) end
+function UpdateLightsOnEntity(entity)
+end

@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule UITUTORIAL
@@ -6,7 +5,8 @@
 --@usage undefined _UITUTORIAL_GET_IS_THREAT_INDICATOR_ON();
 
 --@return undefined
-function UitutorialGetIsThreatIndicatorOn() end
+function UitutorialGetIsThreatIndicatorOn()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function UitutorialGetIsThreatIndicatorOn() end
 --@usage undefined _UITUTORIAL_GET_IS_THREAT_INDICATOR_CAPABLE_RADAR_SHOWN();
 
 --@return undefined
-function UitutorialGetIsThreatIndicatorCapableRadarShown() end
+function UitutorialGetIsThreatIndicatorCapableRadarShown()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -25,4 +26,5 @@ function UitutorialGetIsThreatIndicatorCapableRadarShown() end
 --@params rpgIcon int
 --@params visibility int
 --@return undefined
-function UitutorialSetRpgIconVisibility(rpgIcon,visibility) end
+function UitutorialSetRpgIconVisibility(rpgIcon, visibility)
+end

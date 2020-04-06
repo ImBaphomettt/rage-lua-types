@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule AUDIO
@@ -6,7 +5,8 @@
 --@usage undefined _0x7455CD705F7E933E();
 
 --@return undefined
-function N_0x7455cd705f7e933e() end
+function N_0x7455cd705f7e933e()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function N_0x7455cd705f7e933e() end
 --@usage undefined _0x33D51F801CB16E4F();
 
 --@return undefined
-function N_0x33d51f801cb16e4f() end
+function N_0x33d51f801cb16e4f()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function N_0x33d51f801cb16e4f() end
 --@usage undefined _0xEF51242E35242B47(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xef51242e35242b47(p0) end
+function N_0xef51242e35242b47(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -33,7 +35,8 @@ function N_0xef51242e35242b47(p0) end
 --@usage undefined CREATE_NEW_SCRIPTED_CONVERSATION(const char* p0);
 --@params p0 const char*
 --@return undefined
-function CreateNewScriptedConversation(p0) end
+function CreateNewScriptedConversation(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -43,7 +46,8 @@ function CreateNewScriptedConversation(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xdf947fe0d551684e(p0,p1) end
+function N_0xdf947fe0d551684e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -54,7 +58,8 @@ function N_0xdf947fe0d551684e(p0,p1) end
 --@params ped Ped
 --@params p2 const char*
 --@return undefined
-function AddPedToConversation(p0,ped,p2) end
+function AddPedToConversation(p0, ped, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -66,7 +71,8 @@ function AddPedToConversation(p0,ped,p2) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return undefined
-function StartScriptConversation(p0,p1,p2,p3) end
+function StartScriptConversation(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -77,7 +83,8 @@ function StartScriptConversation(p0,p1,p2,p3) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xa2323a2eae32a290(p0,p1,p2) end
+function N_0xa2323a2eae32a290(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -86,7 +93,8 @@ function N_0xa2323a2eae32a290(p0,p1,p2) end
 --@usage undefined START_PRELOADED_CONVERSATION(const char* p0);
 --@params p0 const char*
 --@return undefined
-function StartPreloadedConversation(p0) end
+function StartPreloadedConversation(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -98,7 +106,8 @@ function StartPreloadedConversation(p0) end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return undefined
-function PreloadScriptConversation(p0,p1,p2,p3) end
+function PreloadScriptConversation(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -107,7 +116,8 @@ function PreloadScriptConversation(p0,p1,p2,p3) end
 --@usage undefined _0xFE5C6177064BD390(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xfe5c6177064bd390(p0) end
+function N_0xfe5c6177064bd390(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -116,7 +126,8 @@ function N_0xfe5c6177064bd390(p0) end
 --@usage undefined _0xD89504D9D7D5057D(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xd89504d9d7d5057d(p0) end
+function N_0xd89504d9d7d5057d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -125,7 +136,8 @@ function N_0xd89504d9d7d5057d(p0) end
 --@usage undefined _0x5A13586A9447931F(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x5a13586a9447931f(p0) end
+function N_0x5a13586a9447931f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -134,7 +146,8 @@ function N_0x5a13586a9447931f(p0) end
 --@usage undefined IS_SCRIPTED_CONVERSATION_LOADED(const char* p0);
 --@params p0 const char*
 --@return undefined
-function IsScriptedConversationLoaded(p0) end
+function IsScriptedConversationLoaded(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -143,7 +156,8 @@ function IsScriptedConversationLoaded(p0) end
 --@usage undefined _0x0CB3D1919E8D7CBA(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x0cb3d1919e8d7cba(p0) end
+function N_0x0cb3d1919e8d7cba(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -153,7 +167,8 @@ function N_0x0cb3d1919e8d7cba(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x79f9c57b8d0dfe90(p0,p1) end
+function N_0x79f9c57b8d0dfe90(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -162,7 +177,8 @@ function N_0x79f9c57b8d0dfe90(p0,p1) end
 --@usage undefined _0xA2CAC9DEF0195E6F(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xa2cac9def0195e6f(p0) end
+function N_0xa2cac9def0195e6f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -171,7 +187,8 @@ function N_0xa2cac9def0195e6f(p0) end
 --@usage undefined _0x1ECC76792F661CF5(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x1ecc76792f661cf5(p0) end
+function N_0x1ecc76792f661cf5(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -180,7 +197,8 @@ function N_0x1ecc76792f661cf5(p0) end
 --@usage undefined _0x847748AE5D7B1071(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x847748ae5d7b1071(p0) end
+function N_0x847748ae5d7b1071(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -193,7 +211,8 @@ function N_0x847748ae5d7b1071(p0) end
 --@params p3 BOOL
 --@params p4 BOOL
 --@return undefined
-function PauseScriptedConversation(p0,p1,p2,p3,p4) end
+function PauseScriptedConversation(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -202,7 +221,8 @@ function PauseScriptedConversation(p0,p1,p2,p3,p4) end
 --@usage undefined _0xD0730C1FA40348D9(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xd0730c1fa40348d9(p0) end
+function N_0xd0730c1fa40348d9(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -211,7 +231,8 @@ function N_0xd0730c1fa40348d9(p0) end
 --@usage undefined GET_CURRENT_SCRIPTED_CONVERSATION_LINE(const char* p0);
 --@params p0 const char*
 --@return undefined
-function GetCurrentScriptedConversationLine(p0) end
+function GetCurrentScriptedConversationLine(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -220,7 +241,8 @@ function GetCurrentScriptedConversationLine(p0) end
 --@usage undefined _0xF01C570E0A0A1E67(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xf01c570e0a0a1e67(p0) end
+function N_0xf01c570e0a0a1e67(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -229,7 +251,8 @@ function N_0xf01c570e0a0a1e67(p0) end
 --@usage undefined RESTART_SCRIPTED_CONVERSATION(const char* p0);
 --@params p0 const char*
 --@return undefined
-function RestartScriptedConversation(p0) end
+function RestartScriptedConversation(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -240,7 +263,8 @@ function RestartScriptedConversation(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x36559148b78853b3(p0,p1,p2) end
+function N_0x36559148b78853b3(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -251,7 +275,8 @@ function N_0x36559148b78853b3(p0,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return undefined
-function StopScriptedConversation(p0,p1,p2) end
+function StopScriptedConversation(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -260,7 +285,8 @@ function StopScriptedConversation(p0,p1,p2) end
 --@usage undefined _0xF336E9F989B3518F(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xf336e9f989b3518f(p0) end
+function N_0xf336e9f989b3518f(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -269,7 +295,8 @@ function N_0xf336e9f989b3518f(p0) end
 --@usage undefined SKIP_TO_NEXT_SCRIPTED_CONVERSATION_LINE(const char* p0);
 --@params p0 const char*
 --@return undefined
-function SkipToNextScriptedConversationLine(p0) end
+function SkipToNextScriptedConversationLine(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -279,7 +306,8 @@ function SkipToNextScriptedConversationLine(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x152ed1b56e8f1f50(p0,p1) end
+function N_0x152ed1b56e8f1f50(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -289,7 +317,8 @@ function N_0x152ed1b56e8f1f50(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x254b0241e964b450(p0,p1) end
+function N_0x254b0241e964b450(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -299,7 +328,8 @@ function N_0x254b0241e964b450(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x935dbd96d4a3da1f(p0,p1) end
+function N_0x935dbd96d4a3da1f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -308,7 +338,8 @@ function N_0x935dbd96d4a3da1f(p0,p1) end
 --@usage undefined _0x295859EB18F48D82(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x295859eb18f48d82(p0) end
+function N_0x295859eb18f48d82(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -317,7 +348,8 @@ function N_0x295859eb18f48d82(p0) end
 --@usage undefined _0xF232C2C546AC16D0(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xf232c2c546ac16d0(p0) end
+function N_0xf232c2c546ac16d0(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -327,7 +359,8 @@ function N_0xf232c2c546ac16d0(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x40ca665ab9d8d505(p0,p1) end
+function N_0x40ca665ab9d8d505(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -336,7 +369,8 @@ function N_0x40ca665ab9d8d505(p0,p1) end
 --@usage undefined _0x1E6F9A9FE1A99F36(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x1e6f9a9fe1a99f36(p0) end
+function N_0x1e6f9a9fe1a99f36(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -345,7 +379,8 @@ function N_0x1e6f9a9fe1a99f36(p0) end
 --@usage undefined REGISTER_SCRIPT_WITH_AUDIO(int p0);
 --@params p0 int
 --@return undefined
-function RegisterScriptWithAudio(p0) end
+function RegisterScriptWithAudio(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -354,7 +389,8 @@ function RegisterScriptWithAudio(p0) end
 --@usage undefined UNREGISTER_SCRIPT_WITH_AUDIO();
 
 --@return undefined
-function UnregisterScriptWithAudio() end
+function UnregisterScriptWithAudio()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -363,7 +399,8 @@ function UnregisterScriptWithAudio() end
 --@usage undefined REQUEST_SCRIPT_AUDIO_BANK(Any p0);
 --@params p0 Any
 --@return undefined
-function RequestScriptAudioBank(p0) end
+function RequestScriptAudioBank(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -372,7 +409,8 @@ function RequestScriptAudioBank(p0) end
 --@usage undefined RELEASE_SCRIPT_AUDIO_BANK();
 
 --@return undefined
-function ReleaseScriptAudioBank() end
+function ReleaseScriptAudioBank()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -381,7 +419,8 @@ function ReleaseScriptAudioBank() end
 --@usage undefined RELEASE_NAMED_SCRIPT_AUDIO_BANK(const char* audioBank);
 --@params audioBank const char*
 --@return undefined
-function ReleaseNamedScriptAudioBank(audioBank) end
+function ReleaseNamedScriptAudioBank(audioBank)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -390,7 +429,8 @@ function ReleaseNamedScriptAudioBank(audioBank) end
 --@usage undefined RELEASE_SOUND_ID(int soundId);
 --@params soundId int
 --@return undefined
-function ReleaseSoundId(soundId) end
+function ReleaseSoundId(soundId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -399,7 +439,8 @@ function ReleaseSoundId(soundId) end
 --@usage undefined GET_SOUND_ID();
 
 --@return undefined
-function GetSoundId() end
+function GetSoundId()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -413,7 +454,8 @@ function GetSoundId() end
 --@params p4 BOOL
 --@params p5 Any
 --@return undefined
-function PlaySound(audioName,audioRef,p2,p3,p4,p5) end
+function PlaySound(audioName, audioRef, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -425,7 +467,8 @@ function PlaySound(audioName,audioRef,p2,p3,p4,p5) end
 --@params p2 BOOL
 --@params p3 Any
 --@return undefined
-function PlaySoundFrontend(audioName,audioRef,p2,p3) end
+function PlaySoundFrontend(audioName, audioRef, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -439,7 +482,8 @@ function PlaySoundFrontend(audioName,audioRef,p2,p3) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function PlaySoundFromEntity(audioName,entity,audioRef,isNetwork,p4,p5) end
+function PlaySoundFromEntity(audioName, entity, audioRef, isNetwork, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -456,7 +500,8 @@ function PlaySoundFromEntity(audioName,entity,audioRef,isNetwork,p4,p5) end
 --@params p7 BOOL
 --@params p8 Any
 --@return undefined
-function PlaySoundFromPosition(audioName,x,y,z,audioRef,isNetwork,p6,p7,p8) end
+function PlaySoundFromPosition(audioName, x, y, z, audioRef, isNetwork, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -466,7 +511,8 @@ function PlaySoundFromPosition(audioName,x,y,z,audioRef,isNetwork,p6,p7,p8) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x0f2a2175734926d8(p0,p1) end
+function N_0x0f2a2175734926d8(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -476,7 +522,8 @@ function N_0x0f2a2175734926d8(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x580d71dfe0088e34(p0,p1) end
+function N_0x580d71dfe0088e34(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -487,7 +534,8 @@ function N_0x580d71dfe0088e34(p0,p1) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xe8eaff7b41edd291(p0,p1,p2) end
+function N_0xe8eaff7b41edd291(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -497,7 +545,8 @@ function N_0xe8eaff7b41edd291(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x6df942c4179be5ab(p0,p1) end
+function N_0x6df942c4179be5ab(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -509,7 +558,8 @@ function N_0x6df942c4179be5ab(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x9821b68cd3e05f2b(p0,p1,p2,p3) end
+function N_0x9821b68cd3e05f2b(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -520,7 +570,8 @@ function N_0x9821b68cd3e05f2b(p0,p1,p2,p3) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x9963681a8bc69bf3(p0,p1,p2) end
+function N_0x9963681a8bc69bf3(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -532,7 +583,8 @@ function N_0x9963681a8bc69bf3(p0,p1,p2) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xce5d0ffe83939af1(p0,p1,p2,p3) end
+function N_0xce5d0ffe83939af1(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -543,7 +595,8 @@ function N_0xce5d0ffe83939af1(p0,p1,p2,p3) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x2e31aca7477cf00f(p0,p1,p2) end
+function N_0x2e31aca7477cf00f(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -557,7 +610,8 @@ function N_0x2e31aca7477cf00f(p0,p1,p2) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0xf1c5310feaa36b48(p0,p1,p2,p3,p4,p5) end
+function N_0xf1c5310feaa36b48(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -574,7 +628,8 @@ function N_0xf1c5310feaa36b48(p0,p1,p2,p3,p4,p5) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function N_0xdcf5ba95bbf0faba(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function N_0xdcf5ba95bbf0faba(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -583,7 +638,8 @@ function N_0xdcf5ba95bbf0faba(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@usage undefined _0x3210BCB36AF7621B(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x3210bcb36af7621b(p0) end
+function N_0x3210bcb36af7621b(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -595,7 +651,8 @@ function N_0x3210bcb36af7621b(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x0286617c8fc50a53(p0,p1,p2,p3) end
+function N_0x0286617c8fc50a53(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -606,7 +663,8 @@ function N_0x0286617c8fc50a53(p0,p1,p2,p3) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xe368e8422c860ba7(p0,p1,p2) end
+function N_0xe368e8422c860ba7(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -617,7 +675,8 @@ function N_0xe368e8422c860ba7(p0,p1,p2) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x503703ec1781b7d6(p0,p1,p2) end
+function N_0x503703ec1781b7d6(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -627,7 +686,8 @@ function N_0x503703ec1781b7d6(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xd9130842d7226045(p0,p1) end
+function N_0xd9130842d7226045(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -637,7 +697,8 @@ function N_0xd9130842d7226045(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x9d746964e0cf2c5f(p0,p1) end
+function N_0x9d746964e0cf2c5f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -649,7 +710,8 @@ function N_0x9d746964e0cf2c5f(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x4ad019591e94c064(p0,p1,p2,p3) end
+function N_0x4ad019591e94c064(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -658,7 +720,8 @@ function N_0x4ad019591e94c064(p0,p1,p2,p3) end
 --@usage undefined _0x531A78D6BF27014B(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x531a78d6bf27014b(p0) end
+function N_0x531a78d6bf27014b(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -668,7 +731,8 @@ function N_0x531a78d6bf27014b(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x714a0ea7de1167be(p0,p1) end
+function N_0x714a0ea7de1167be(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -677,7 +741,8 @@ function N_0x714a0ea7de1167be(p0,p1) end
 --@usage undefined _0x84848E1C0FC67DBB(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x84848e1c0fc67dbb(p0) end
+function N_0x84848e1c0fc67dbb(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -687,7 +752,8 @@ function N_0x84848e1c0fc67dbb(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x3e93dddcbb6111e4(p0,p1) end
+function N_0x3e93dddcbb6111e4(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -697,7 +763,8 @@ function N_0x3e93dddcbb6111e4(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function PlayAmbientSpeech1(p0,p1) end
+function PlayAmbientSpeech1(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -709,7 +776,8 @@ function PlayAmbientSpeech1(p0,p1) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function PlayAmbientSpeechAtCoords(p0,p1,p2,p3) end
+function PlayAmbientSpeechAtCoords(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -718,7 +786,8 @@ function PlayAmbientSpeechAtCoords(p0,p1,p2,p3) end
 --@usage undefined _0xDC93F0948F2C28F4(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xdc93f0948f2c28f4(p0) end
+function N_0xdc93f0948f2c28f4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -728,7 +797,8 @@ function N_0xdc93f0948f2c28f4(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x72e4d1c4639bc465(p0,p1) end
+function N_0x72e4d1c4639bc465(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -737,7 +807,8 @@ function N_0x72e4d1c4639bc465(p0,p1) end
 --@usage undefined _0xB18FEC133C7C6C69(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xb18fec133c7c6c69(p0) end
+function N_0xb18fec133c7c6c69(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -748,7 +819,8 @@ function N_0xb18fec133c7c6c69(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x0d7fd6a55fd63aef(p0,p1,p2) end
+function N_0x0d7fd6a55fd63aef(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -757,7 +829,8 @@ function N_0x0d7fd6a55fd63aef(p0,p1,p2) end
 --@usage undefined _0x660A8F876DF1D4F8(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x660a8f876df1d4f8(p0) end
+function N_0x660a8f876df1d4f8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -766,7 +839,8 @@ function N_0x660a8f876df1d4f8(p0) end
 --@usage undefined _0x0FAF7171BF613B80(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x0faf7171bf613b80(p0) end
+function N_0x0faf7171bf613b80(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -777,7 +851,8 @@ function N_0x0faf7171bf613b80(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x380a2e353ad30917(p0,p1,p2) end
+function N_0x380a2e353ad30917(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -790,7 +865,8 @@ function N_0x380a2e353ad30917(p0,p1,p2) end
 --@params p3 BOOL
 --@params isNetwork BOOL
 --@return undefined
-function PlayPain(ped,painId,p2,p3,isNetwork) end
+function PlayPain(ped, painId, p2, p3, isNetwork)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -799,7 +875,8 @@ function PlayPain(ped,painId,p2,p3,isNetwork) end
 --@usage undefined _0x6652B0C8F3D414D0(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6652b0c8f3d414d0(p0) end
+function N_0x6652b0c8f3d414d0(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -809,7 +886,8 @@ function N_0x6652b0c8f3d414d0(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x2651ddc0ea269073(p0,p1) end
+function N_0x2651ddc0ea269073(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -819,7 +897,8 @@ function N_0x2651ddc0ea269073(p0,p1) end
 --@params ped Ped
 --@params name const char*
 --@return undefined
-function SetAmbientVoiceName(ped,name) end
+function SetAmbientVoiceName(ped, name)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -829,7 +908,8 @@ function SetAmbientVoiceName(ped,name) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x2703efb583f0949a(p0,p1) end
+function N_0x2703efb583f0949a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -839,7 +919,8 @@ function N_0x2703efb583f0949a(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xf092b6030d6fd49c(p0,p1) end
+function N_0xf092b6030d6fd49c(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -849,7 +930,8 @@ function N_0xf092b6030d6fd49c(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function StopCurrentPlayingSpeech(p0,p1) end
+function StopCurrentPlayingSpeech(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -859,7 +941,8 @@ function StopCurrentPlayingSpeech(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function StopCurrentPlayingAmbientSpeech(p0,p1) end
+function StopCurrentPlayingAmbientSpeech(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -868,7 +951,8 @@ function StopCurrentPlayingAmbientSpeech(p0,p1) end
 --@usage undefined IS_ANY_SPEECH_PLAYING(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsAnySpeechPlaying(ped) end
+function IsAnySpeechPlaying(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -877,7 +961,8 @@ function IsAnySpeechPlaying(ped) end
 --@usage undefined IS_AMBIENT_SPEECH_PLAYING(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsAmbientSpeechPlaying(ped) end
+function IsAmbientSpeechPlaying(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -886,7 +971,8 @@ function IsAmbientSpeechPlaying(ped) end
 --@usage undefined _0x2B101AD9F651243A();
 
 --@return undefined
-function N_0x2b101ad9f651243a() end
+function N_0x2b101ad9f651243a()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -895,7 +981,8 @@ function N_0x2b101ad9f651243a() end
 --@usage undefined _0x4A98E228A936DBCC(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x4a98e228a936dbcc(p0) end
+function N_0x4a98e228a936dbcc(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -906,7 +993,8 @@ function N_0x4a98e228a936dbcc(p0) end
 --@params speechName const char*
 --@params unk BOOL
 --@return undefined
-function CanPedSpeak(ped,speechName,unk) end
+function CanPedSpeak(ped, speechName, unk)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -915,7 +1003,8 @@ function CanPedSpeak(ped,speechName,unk) end
 --@usage undefined _0x6BFFB7C276866996(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6bffb7c276866996(p0) end
+function N_0x6bffb7c276866996(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -924,7 +1013,8 @@ function N_0x6bffb7c276866996(p0) end
 --@usage undefined IS_SCRIPTED_SPEECH_PLAYING(Any p0);
 --@params p0 Any
 --@return undefined
-function IsScriptedSpeechPlaying(p0) end
+function IsScriptedSpeechPlaying(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -933,7 +1023,8 @@ function IsScriptedSpeechPlaying(p0) end
 --@usage undefined _0xF0EE69F500952FA5(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xf0ee69f500952fa5(p0) end
+function N_0xf0ee69f500952fa5(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -945,7 +1036,8 @@ function N_0xf0ee69f500952fa5(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x9d6dec9791a4e501(p0,p1,p2,p3) end
+function N_0x9d6dec9791a4e501(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -954,7 +1046,8 @@ function N_0x9d6dec9791a4e501(p0,p1,p2,p3) end
 --@usage undefined _0x864A842B86993851(Ped ped);
 --@params ped Ped
 --@return undefined
-function N_0x864a842b86993851(ped) end
+function N_0x864a842b86993851(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -965,7 +1058,8 @@ function N_0x864a842b86993851(ped) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function IsPedInCurrentConversation(p0,p1,p2) end
+function IsPedInCurrentConversation(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -975,7 +1069,8 @@ function IsPedInCurrentConversation(p0,p1,p2) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x54b187f111d9c6f8(p0,p1) end
+function N_0x54b187f111d9c6f8(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -986,7 +1081,8 @@ function N_0x54b187f111d9c6f8(p0,p1) end
 --@params vocalizationName const char*
 --@params p2 BOOL
 --@return undefined
-function PlayAnimalVocalization(pedHandle,vocalizationName,p2) end
+function PlayAnimalVocalization(pedHandle, vocalizationName, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -995,7 +1091,8 @@ function PlayAnimalVocalization(pedHandle,vocalizationName,p2) end
 --@usage undefined IS_ANIMAL_VOCALIZATION_PLAYING(Ped pedHandle);
 --@params pedHandle Ped
 --@return undefined
-function IsAnimalVocalizationPlaying(pedHandle) end
+function IsAnimalVocalizationPlaying(pedHandle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1005,7 +1102,8 @@ function IsAnimalVocalizationPlaying(pedHandle) end
 --@params animal Ped
 --@params mood int
 --@return undefined
-function SetAnimalMood(animal,mood) end
+function SetAnimalMood(animal, mood)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1015,7 +1113,8 @@ function SetAnimalMood(animal,mood) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xfcdec42b1c78b7f8(p0,p1) end
+function N_0xfcdec42b1c78b7f8(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1024,7 +1123,8 @@ function N_0xfcdec42b1c78b7f8(p0,p1) end
 --@usage undefined _0xEB4D592620B8C209(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xeb4d592620b8c209(p0) end
+function N_0xeb4d592620b8c209(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1034,7 +1134,8 @@ function N_0xeb4d592620b8c209(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xa6847bba4fcdd13f(p0,p1) end
+function N_0xa6847bba4fcdd13f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1044,7 +1145,8 @@ function N_0xa6847bba4fcdd13f(p0,p1) end
 --@params emitterName const char*
 --@params toggle BOOL
 --@return undefined
-function SetStaticEmitterEnabled(emitterName,toggle) end
+function SetStaticEmitterEnabled(emitterName, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1053,7 +1155,8 @@ function SetStaticEmitterEnabled(emitterName,toggle) end
 --@usage undefined PLAY_END_CREDITS_MUSIC(BOOL play);
 --@params play BOOL
 --@return undefined
-function PlayEndCreditsMusic(play) end
+function PlayEndCreditsMusic(play)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1064,7 +1167,8 @@ function PlayEndCreditsMusic(play) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x7678fe0455ed1145(p0,p1,p2) end
+function N_0x7678fe0455ed1145(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1079,7 +1183,8 @@ function N_0x7678fe0455ed1145(p0,p1,p2) end
 --@params p5 Any
 --@params p6 Any
 --@return undefined
-function N_0xffe9c53deea3db0b(p0,p1,p2,p3,p4,p5,p6) end
+function N_0xffe9c53deea3db0b(p0, p1, p2, p3, p4, p5, p6)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1091,7 +1196,8 @@ function N_0xffe9c53deea3db0b(p0,p1,p2,p3,p4,p5,p6) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x5e3ccf03995388b5(p0,p1,p2,p3) end
+function N_0x5e3ccf03995388b5(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1100,7 +1206,8 @@ function N_0x5e3ccf03995388b5(p0,p1,p2,p3) end
 --@usage undefined _0x43037ABFE214A851();
 
 --@return undefined
-function N_0x43037abfe214a851() end
+function N_0x43037abfe214a851()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1111,7 +1218,8 @@ function N_0x43037abfe214a851() end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return undefined
-function SetAmbientZoneState(zoneName,p1,p2) end
+function SetAmbientZoneState(zoneName, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1121,7 +1229,8 @@ function SetAmbientZoneState(zoneName,p1,p2) end
 --@params zoneName const char*
 --@params p1 BOOL
 --@return undefined
-function ClearAmbientZoneState(zoneName,p1) end
+function ClearAmbientZoneState(zoneName, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1132,7 +1241,8 @@ function ClearAmbientZoneState(zoneName,p1) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return undefined
-function SetAmbientZoneListState(p0,p1,p2) end
+function SetAmbientZoneListState(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1143,7 +1253,8 @@ function SetAmbientZoneListState(p0,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return undefined
-function SetAmbientZoneStatePersistent(ambientZone,p1,p2) end
+function SetAmbientZoneStatePersistent(ambientZone, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1154,7 +1265,8 @@ function SetAmbientZoneStatePersistent(ambientZone,p1,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return undefined
-function SetAmbientZoneListStatePersistent(ambientZone,p1,p2) end
+function SetAmbientZoneListStatePersistent(ambientZone, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1167,7 +1279,8 @@ function SetAmbientZoneListStatePersistent(ambientZone,p1,p2) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0x3743ce6948194349(p0,p1,p2,p3,p4) end
+function N_0x3743ce6948194349(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1177,7 +1290,8 @@ function N_0x3743ce6948194349(p0,p1,p2,p3,p4) end
 --@params p0 Any*
 --@params p1 BOOL
 --@return undefined
-function ClearAmbientZoneListState(p0,p1) end
+function ClearAmbientZoneListState(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1187,7 +1301,8 @@ function ClearAmbientZoneListState(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xfd461d0aba5559b1(p0,p1) end
+function N_0xfd461d0aba5559b1(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1196,7 +1311,8 @@ function N_0xfd461d0aba5559b1(p0,p1) end
 --@usage undefined IS_HORN_ACTIVE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return undefined
-function IsHornActive(vehicle) end
+function IsHornActive(vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1205,7 +1321,8 @@ function IsHornActive(vehicle) end
 --@usage undefined IS_STREAM_PLAYING(Any p0);
 --@params p0 Any
 --@return undefined
-function IsStreamPlaying(p0) end
+function IsStreamPlaying(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1215,7 +1332,8 @@ function IsStreamPlaying(p0) end
 --@params streamName const char*
 --@params soundSet const char*
 --@return undefined
-function LoadStream(streamName,soundSet) end
+function LoadStream(streamName, soundSet)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1225,7 +1343,8 @@ function LoadStream(streamName,soundSet) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function PlayStreamFromPed(p0,p1) end
+function PlayStreamFromPed(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1234,7 +1353,8 @@ function PlayStreamFromPed(p0,p1) end
 --@usage undefined PLAY_STREAM_FRONTEND(Any p0);
 --@params p0 Any
 --@return undefined
-function PlayStreamFrontend(p0) end
+function PlayStreamFrontend(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1246,7 +1366,8 @@ function PlayStreamFrontend(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function PlayStreamFromPosition(p0,p1,p2,p3) end
+function PlayStreamFromPosition(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1256,7 +1377,8 @@ function PlayStreamFromPosition(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x3a3be6b920525237(p0,p1) end
+function N_0x3a3be6b920525237(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1265,7 +1387,8 @@ function N_0x3a3be6b920525237(p0,p1) end
 --@usage undefined STOP_STREAM(Any p0);
 --@params p0 Any
 --@return undefined
-function StopStream(p0) end
+function StopStream(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1275,7 +1398,8 @@ function StopStream(p0) end
 --@params ped Ped
 --@params shaking BOOL
 --@return undefined
-function StopPedSpeaking(ped,shaking) end
+function StopPedSpeaking(ped, shaking)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1285,7 +1409,8 @@ function StopPedSpeaking(ped,shaking) end
 --@params ped Ped
 --@params toggle BOOL
 --@return undefined
-function DisablePedPainAudio(ped,toggle) end
+function DisablePedPainAudio(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1294,7 +1419,8 @@ function DisablePedPainAudio(ped,toggle) end
 --@usage undefined IS_AMBIENT_SPEECH_DISABLED(Ped ped);
 --@params ped Ped
 --@return undefined
-function IsAmbientSpeechDisabled(ped) end
+function IsAmbientSpeechDisabled(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1304,7 +1430,8 @@ function IsAmbientSpeechDisabled(ped) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xb2de3aebe31150e2(p0,p1) end
+function N_0xb2de3aebe31150e2(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1314,7 +1441,8 @@ function N_0xb2de3aebe31150e2(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x6378a235374b852f(p0,p1) end
+function N_0x6378a235374b852f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1323,7 +1451,8 @@ function N_0x6378a235374b852f(p0,p1) end
 --@usage undefined _0x87E6302FC61208CC(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x87e6302fc61208cc(p0) end
+function N_0x87e6302fc61208cc(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1333,7 +1462,8 @@ function N_0x87e6302fc61208cc(p0) end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return undefined
-function SetHornEnabled(vehicle,toggle) end
+function SetHornEnabled(vehicle, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1343,7 +1473,8 @@ function SetHornEnabled(vehicle,toggle) end
 --@params vehicle Vehicle
 --@params p1 Any
 --@return undefined
-function SetAudioVehiclePriority(vehicle,p1) end
+function SetAudioVehiclePriority(vehicle, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1353,7 +1484,8 @@ function SetAudioVehiclePriority(vehicle,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x259acc5b52a2b2d9(p0,p1) end
+function N_0x259acc5b52a2b2d9(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1363,7 +1495,8 @@ function N_0x259acc5b52a2b2d9(p0,p1) end
 --@params vehicle Vehicle
 --@params audioName const char*
 --@return undefined
-function ForceVehicleEngineAudio(vehicle,audioName) end
+function ForceVehicleEngineAudio(vehicle, audioName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1372,7 +1505,8 @@ function ForceVehicleEngineAudio(vehicle,audioName) end
 --@usage undefined SET_GPS_ACTIVE(BOOL active);
 --@params active BOOL
 --@return undefined
-function SetGpsActive(active) end
+function SetGpsActive(active)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1382,7 +1516,8 @@ function SetGpsActive(active) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x6339c1ea3979b5f7(p0,p1) end
+function N_0x6339c1ea3979b5f7(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1391,7 +1526,8 @@ function N_0x6339c1ea3979b5f7(p0,p1) end
 --@usage undefined _0x9428447DED71FC7E(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x9428447ded71fc7e(p0) end
+function N_0x9428447ded71fc7e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1401,7 +1537,8 @@ function N_0x9428447ded71fc7e(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xac84686c06184b0d(p0,p1) end
+function N_0xac84686c06184b0d(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1410,7 +1547,8 @@ function N_0xac84686c06184b0d(p0,p1) end
 --@usage undefined STOP_AUDIO_SCENE(const char* scene);
 --@params scene const char*
 --@return undefined
-function StopAudioScene(scene) end
+function StopAudioScene(scene)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1419,7 +1557,8 @@ function StopAudioScene(scene) end
 --@usage undefined START_AUDIO_SCENE(const char* scene);
 --@params scene const char*
 --@return undefined
-function StartAudioScene(scene) end
+function StartAudioScene(scene)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1428,7 +1567,8 @@ function StartAudioScene(scene) end
 --@usage undefined _0x6AB944DF68B512D3(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6ab944df68b512d3(p0) end
+function N_0x6ab944df68b512d3(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1437,7 +1577,8 @@ function N_0x6ab944df68b512d3(p0) end
 --@usage undefined _0xDC2F83A0612CA34D(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xdc2f83a0612ca34d(p0) end
+function N_0xdc2f83a0612ca34d(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1446,7 +1587,8 @@ function N_0xdc2f83a0612ca34d(p0) end
 --@usage undefined STOP_AUDIO_SCENES();
 
 --@return undefined
-function StopAudioScenes() end
+function StopAudioScenes()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1455,7 +1597,8 @@ function StopAudioScenes() end
 --@usage undefined IS_AUDIO_SCENE_ACTIVE(const char* scene);
 --@params scene const char*
 --@return undefined
-function IsAudioSceneActive(scene) end
+function IsAudioSceneActive(scene)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1466,7 +1609,8 @@ function IsAudioSceneActive(scene) end
 --@params variable const char*
 --@params value float
 --@return undefined
-function SetAudioSceneVariable(scene,variable,value) end
+function SetAudioSceneVariable(scene, variable, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1475,7 +1619,8 @@ function SetAudioSceneVariable(scene,variable,value) end
 --@usage undefined _0x8B25A18E390F75BF(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x8b25a18e390f75bf(p0) end
+function N_0x8b25a18e390f75bf(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1486,7 +1631,8 @@ function N_0x8b25a18e390f75bf(p0) end
 --@params groupName const char*
 --@params p2 float
 --@return undefined
-function AddEntityToAudioMixGroup(entity,groupName,p2) end
+function AddEntityToAudioMixGroup(entity, groupName, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1495,7 +1641,8 @@ function AddEntityToAudioMixGroup(entity,groupName,p2) end
 --@usage undefined _0x131EC9247E7A2903(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x131ec9247e7a2903(p0) end
+function N_0x131ec9247e7a2903(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1505,7 +1652,8 @@ function N_0x131ec9247e7a2903(p0) end
 --@params entity Entity
 --@params p1 float
 --@return undefined
-function RemoveEntityFromAudioMixGroup(entity,p1) end
+function RemoveEntityFromAudioMixGroup(entity, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1514,7 +1662,8 @@ function RemoveEntityFromAudioMixGroup(entity,p1) end
 --@usage undefined _0xE600F61F54A444A6();
 
 --@return undefined
-function N_0xe600f61f54a444a6() end
+function N_0xe600f61f54a444a6()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1523,7 +1672,8 @@ function N_0xe600f61f54a444a6() end
 --@usage undefined AUDIO_IS_SCRIPTED_MUSIC_PLAYING();
 
 --@return undefined
-function AudioIsScriptedMusicPlaying() end
+function AudioIsScriptedMusicPlaying()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1532,7 +1682,8 @@ function AudioIsScriptedMusicPlaying() end
 --@usage undefined _0xBE28DB99556FF8D9(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xbe28db99556ff8d9(p0) end
+function N_0xbe28db99556ff8d9(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1541,7 +1692,8 @@ function N_0xbe28db99556ff8d9(p0) end
 --@usage undefined _0x8E901B65206C2D3E(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x8e901b65206c2d3e(p0) end
+function N_0x8e901b65206c2d3e(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1554,7 +1706,8 @@ function N_0x8e901b65206c2d3e(p0) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0xabdb4863d3d72021(p0,p1,p2,p3,p4) end
+function N_0xabdb4863d3d72021(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1563,7 +1716,8 @@ function N_0xabdb4863d3d72021(p0,p1,p2,p3,p4) end
 --@usage undefined _0xC4CFCE4C656EF480(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xc4cfce4c656ef480(p0) end
+function N_0xc4cfce4c656ef480(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1573,7 +1727,8 @@ function N_0xc4cfce4c656ef480(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xb93a769b8b726950(p0,p1) end
+function N_0xb93a769b8b726950(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1583,7 +1738,8 @@ function N_0xb93a769b8b726950(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xe891504b2f0e2dba(p0,p1) end
+function N_0xe891504b2f0e2dba(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1593,7 +1749,8 @@ function N_0xe891504b2f0e2dba(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x9eb779765e68c52e(p0,p1) end
+function N_0x9eb779765e68c52e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1603,7 +1760,8 @@ function N_0x9eb779765e68c52e(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xe9694b2d6cb87b06(p0,p1) end
+function N_0xe9694b2d6cb87b06(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1612,7 +1770,8 @@ function N_0xe9694b2d6cb87b06(p0,p1) end
 --@usage undefined _0x886657C5B3D8EDE3(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x886657c5b3d8ede3(p0) end
+function N_0x886657c5b3d8ede3(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1621,7 +1780,8 @@ function N_0x886657c5b3d8ede3(p0) end
 --@usage undefined _0xC68C02DE259C927C(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xc68c02de259c927c(p0) end
+function N_0xc68c02de259c927c(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1630,7 +1790,8 @@ function N_0xc68c02de259c927c(p0) end
 --@usage undefined _0x2DBBF0C5E19383EE(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x2dbbf0c5e19383ee(p0) end
+function N_0x2dbbf0c5e19383ee(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1639,7 +1800,8 @@ function N_0x2dbbf0c5e19383ee(p0) end
 --@usage undefined _0xD05A460328560477(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xd05a460328560477(p0) end
+function N_0xd05a460328560477(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1650,7 +1812,8 @@ function N_0xd05a460328560477(p0) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x8d29fdf565ded9ae(p0,p1,p2) end
+function N_0x8d29fdf565ded9ae(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1660,7 +1823,8 @@ function N_0x8d29fdf565ded9ae(p0,p1,p2) end
 --@params ped Ped
 --@params toggle BOOL
 --@return undefined
-function SetPedIsDrunk(ped,toggle) end
+function SetPedIsDrunk(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1673,7 +1837,8 @@ function SetPedIsDrunk(ped,toggle) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0x448f2647dd6f2e27(p0,p1,p2,p3,p4) end
+function N_0x448f2647dd6f2e27(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1683,7 +1848,8 @@ function N_0x448f2647dd6f2e27(p0,p1,p2,p3,p4) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x139a4b9df2d26cbf(p0,p1) end
+function N_0x139a4b9df2d26cbf(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1692,7 +1858,8 @@ function N_0x139a4b9df2d26cbf(p0,p1) end
 --@usage undefined PREPARE_MUSIC_EVENT(const char* eventName);
 --@params eventName const char*
 --@return undefined
-function PrepareMusicEvent(eventName) end
+function PrepareMusicEvent(eventName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1702,7 +1869,8 @@ function PrepareMusicEvent(eventName) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xbc07ca8fd710e7fd(p0,p1) end
+function N_0xbc07ca8fd710e7fd(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1712,7 +1880,8 @@ function N_0xbc07ca8fd710e7fd(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x018abe833ca64d2a(p0,p1) end
+function N_0x018abe833ca64d2a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1722,7 +1891,8 @@ function N_0x018abe833ca64d2a(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xd47d47efbf103fb8(p0,p1) end
+function N_0xd47d47efbf103fb8(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1731,7 +1901,8 @@ function N_0xd47d47efbf103fb8(p0,p1) end
 --@usage undefined _0x05D6195FB4D428F4(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x05d6195fb4d428f4(p0) end
+function N_0x05d6195fb4d428f4(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1740,7 +1911,8 @@ function N_0x05d6195fb4d428f4(p0) end
 --@usage undefined GET_MUSIC_PLAYTIME();
 
 --@return undefined
-function GetMusicPlaytime() end
+function GetMusicPlaytime()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1751,7 +1923,8 @@ function GetMusicPlaytime() end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xf64034d533ce8aac(p0,p1,p2) end
+function N_0xf64034d533ce8aac(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1761,7 +1934,8 @@ function N_0xf64034d533ce8aac(p0,p1,p2) end
 --@params p0 float
 --@params p1 float
 --@return undefined
-function N_0x149aee66f0cb3a99(p0,p1) end
+function N_0x149aee66f0cb3a99(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1770,7 +1944,8 @@ function N_0x149aee66f0cb3a99(p0,p1) end
 --@usage undefined _0xDAD6CD07CAA4F382();
 
 --@return undefined
-function N_0xdad6cd07caa4f382() end
+function N_0xdad6cd07caa4f382()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1780,7 +1955,8 @@ function N_0xdad6cd07caa4f382() end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x3a00d87b20a2a5e4(p0,p1) end
+function N_0x3a00d87b20a2a5e4(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1790,7 +1966,8 @@ function N_0x3a00d87b20a2a5e4(p0,p1) end
 --@params p0 float
 --@params p1 float
 --@return undefined
-function N_0x8bf907833be275de(p0,p1) end
+function N_0x8bf907833be275de(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1799,7 +1976,8 @@ function N_0x8bf907833be275de(p0,p1) end
 --@usage undefined _0x062D5EAD4DA2FA6A();
 
 --@return undefined
-function N_0x062d5ead4da2fa6a() end
+function N_0x062d5ead4da2fa6a()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1808,7 +1986,8 @@ function N_0x062d5ead4da2fa6a() end
 --@usage undefined _0x138ADB94F8B90616();
 
 --@return undefined
-function N_0x138adb94f8b90616() end
+function N_0x138adb94f8b90616()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1819,7 +1998,8 @@ function N_0x138adb94f8b90616() end
 --@params p1 BOOL
 --@params hash Hash
 --@return undefined
-function N_0xbf4dc1784be94dfa(ped,p1,hash) end
+function N_0xbf4dc1784be94dfa(ped, p1, hash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1829,7 +2009,8 @@ function N_0xbf4dc1784be94dfa(ped,p1,hash) end
 --@params flagName const char*
 --@params toggle BOOL
 --@return undefined
-function SetAudioFlag(flagName,toggle) end
+function SetAudioFlag(flagName, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1843,7 +2024,8 @@ function SetAudioFlag(flagName,toggle) end
 --@params p4 Any
 --@params p5 Any
 --@return undefined
-function N_0x6da15746d5cc1a92(p0,p1,p2,p3,p4,p5) end
+function N_0x6da15746d5cc1a92(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1853,7 +2035,8 @@ function N_0x6da15746d5cc1a92(p0,p1,p2,p3,p4,p5) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x078f77fd1a43eab3(p0,p1) end
+function N_0x078f77fd1a43eab3(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1862,7 +2045,8 @@ function N_0x078f77fd1a43eab3(p0,p1) end
 --@usage undefined _0x3D0BBCCF401B5FDB();
 
 --@return undefined
-function N_0x3d0bbccf401b5fdb() end
+function N_0x3d0bbccf401b5fdb()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1872,7 +2056,8 @@ function N_0x3d0bbccf401b5fdb() end
 --@params p0 const char*
 --@params p1 const char*
 --@return undefined
-function SetPortalSettingsOverride(p0,p1) end
+function SetPortalSettingsOverride(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1881,7 +2066,8 @@ function SetPortalSettingsOverride(p0,p1) end
 --@usage undefined REMOVE_PORTAL_SETTINGS_OVERRIDE(const char* p0);
 --@params p0 const char*
 --@return undefined
-function RemovePortalSettingsOverride(p0) end
+function RemovePortalSettingsOverride(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1890,7 +2076,8 @@ function RemovePortalSettingsOverride(p0) end
 --@usage undefined _0xEA546C31FD45F8CD(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xea546c31fd45f8cd(p0) end
+function N_0xea546c31fd45f8cd(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1902,7 +2089,8 @@ function N_0xea546c31fd45f8cd(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x017492b2201e3428(p0,p1,p2,p3) end
+function N_0x017492b2201e3428(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1911,7 +2099,8 @@ function N_0x017492b2201e3428(p0,p1,p2,p3) end
 --@usage undefined _0x44A5EEF54F62E823(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x44a5eef54f62e823(p0) end
+function N_0x44a5eef54f62e823(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1921,7 +2110,8 @@ function N_0x44a5eef54f62e823(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xc886cd666add42e1(p0,p1) end
+function N_0xc886cd666add42e1(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1937,7 +2127,8 @@ function N_0xc886cd666add42e1(p0,p1) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function N_0x5ae0cb5f35f034fd(p0,p1,p2,p3,p4,p5,p6,p7) end
+function N_0x5ae0cb5f35f034fd(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1948,7 +2139,8 @@ function N_0x5ae0cb5f35f034fd(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x821c32c728b24477(p0,p1,p2) end
+function N_0x821c32c728b24477(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1961,7 +2153,8 @@ function N_0x821c32c728b24477(p0,p1,p2) end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0x06c5df5ee444bc6b(p0,p1,p2,p3,p4) end
+function N_0x06c5df5ee444bc6b(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1971,7 +2164,8 @@ function N_0x06c5df5ee444bc6b(p0,p1,p2,p3,p4) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x341cdd17efc2472e(p0,p1) end
+function N_0x341cdd17efc2472e(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1980,7 +2174,8 @@ function N_0x341cdd17efc2472e(p0,p1) end
 --@usage undefined _0x2B9C37C01BF25EDB(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x2b9c37c01bf25edb(p0) end
+function N_0x2b9c37c01bf25edb(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1989,7 +2184,8 @@ function N_0x2b9c37c01bf25edb(p0) end
 --@usage undefined _0x7E176C676F8652A9(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x7e176c676f8652a9(p0) end
+function N_0x7e176c676f8652a9(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1998,7 +2194,8 @@ function N_0x7e176c676f8652a9(p0) end
 --@usage undefined _0xA6A3A3F96B8B030E();
 
 --@return undefined
-function N_0xa6a3a3f96b8b030e() end
+function N_0xa6a3a3f96b8b030e()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2008,7 +2205,8 @@ function N_0xa6a3a3f96b8b030e() end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x0556c784fa056628(p0,p1) end
+function N_0x0556c784fa056628(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2017,7 +2215,8 @@ function N_0x0556c784fa056628(p0,p1) end
 --@usage undefined TRIGGER_MUSIC_EVENT(const char* eventName);
 --@params eventName const char*
 --@return undefined
-function TriggerMusicEvent(eventName) end
+function TriggerMusicEvent(eventName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2027,7 +2226,8 @@ function TriggerMusicEvent(eventName) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x35b8c070e0c16e2f(p0,p1) end
+function N_0x35b8c070e0c16e2f(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2037,7 +2237,8 @@ function N_0x35b8c070e0c16e2f(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xc369e2234e34a0ca(p0,p1) end
+function N_0xc369e2234e34a0ca(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2046,7 +2247,8 @@ function N_0xc369e2234e34a0ca(p0,p1) end
 --@usage undefined _0xE7E6CB8B713ED190();
 
 --@return undefined
-function N_0xe7e6cb8b713ed190() end
+function N_0xe7e6cb8b713ed190()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2055,7 +2257,8 @@ function N_0xe7e6cb8b713ed190() end
 --@usage undefined _0x569ABC36E28DDEAA();
 
 --@return undefined
-function N_0x569abc36e28ddeaa() end
+function N_0x569abc36e28ddeaa()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2068,7 +2271,8 @@ function N_0x569abc36e28ddeaa() end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0x839c9f124be74d94(p0,p1,p2,p3,p4) end
+function N_0x839c9f124be74d94(p0, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2080,7 +2284,8 @@ function N_0x839c9f124be74d94(p0,p1,p2,p3,p4) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x374f0e716bfcde82(p0,p1,p2,p3) end
+function N_0x374f0e716bfcde82(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2089,7 +2294,8 @@ function N_0x374f0e716bfcde82(p0,p1,p2,p3) end
 --@usage undefined _0x3E98AC9D8C56C62C(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x3e98ac9d8c56c62c(p0) end
+function N_0x3e98ac9d8c56c62c(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2098,7 +2304,8 @@ function N_0x3e98ac9d8c56c62c(p0) end
 --@usage undefined _0xCBF2BEBB468A34F3(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xcbf2bebb468a34f3(p0) end
+function N_0xcbf2bebb468a34f3(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2110,7 +2317,8 @@ function N_0xcbf2bebb468a34f3(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xcfad2c8cd1054523(p0,p1,p2,p3) end
+function N_0xcfad2c8cd1054523(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2119,7 +2327,8 @@ function N_0xcfad2c8cd1054523(p0,p1,p2,p3) end
 --@usage undefined _0xA2B851605748AD0E();
 
 --@return undefined
-function N_0xa2b851605748ad0e() end
+function N_0xa2b851605748ad0e()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2129,7 +2338,8 @@ function N_0xa2b851605748ad0e() end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xd733528b6c35647a(p0,p1) end
+function N_0xd733528b6c35647a(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2139,7 +2349,8 @@ function N_0xd733528b6c35647a(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x5bc885ebd75faa7d(p0,p1) end
+function N_0x5bc885ebd75faa7d(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2148,7 +2359,8 @@ function N_0x5bc885ebd75faa7d(p0,p1) end
 --@usage undefined _0x6B7A88A61B41E589(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x6b7a88a61b41e589(p0) end
+function N_0x6b7a88a61b41e589(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2157,7 +2369,8 @@ function N_0x6b7a88a61b41e589(p0) end
 --@usage undefined CANCEL_MUSIC_EVENT(const char* eventName);
 --@params eventName const char*
 --@return undefined
-function CancelMusicEvent(eventName) end
+function CancelMusicEvent(eventName)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2166,7 +2379,8 @@ function CancelMusicEvent(eventName) end
 --@usage undefined _0x4BE3EC91C01F0FE8();
 
 --@return undefined
-function N_0x4be3ec91c01f0fe8() end
+function N_0x4be3ec91c01f0fe8()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2175,7 +2389,8 @@ function N_0x4be3ec91c01f0fe8() end
 --@usage undefined _0x9B1FC259187C97C0(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x9b1fc259187c97c0(p0) end
+function N_0x9b1fc259187c97c0(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2184,7 +2399,8 @@ function N_0x9b1fc259187c97c0(p0) end
 --@usage undefined _0x2E399EAFBEEA74D5();
 
 --@return undefined
-function N_0x2e399eafbeea74d5() end
+function N_0x2e399eafbeea74d5()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2193,4 +2409,5 @@ function N_0x2e399eafbeea74d5() end
 --@usage undefined _0x64B956F4E761DF5C(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x64b956f4e761df5c(p0) end
+function N_0x64b956f4e761df5c(p0)
+end

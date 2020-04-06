@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule WEAPON
@@ -8,7 +7,8 @@
 --@params weaponHash Hash
 --@params ammo int
 --@return void
-function AddAmmoToPed(ped,weaponHash,ammo) end
+function AddAmmoToPed(ped, weaponHash, ammo)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -17,7 +17,8 @@ function AddAmmoToPed(ped,weaponHash,ammo) end
 --@usage BOOL CAN_USE_WEAPON_ON_PARACHUTE(Hash weaponHash);
 --@params weaponHash Hash
 --@return BOOL
-function CanUseWeaponOnParachute(weaponHash) end
+function CanUseWeaponOnParachute(weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -26,7 +27,8 @@ function CanUseWeaponOnParachute(weaponHash) end
 --@usage void CLEAR_PED_LAST_WEAPON_DAMAGE(Ped ped);
 --@params ped Ped
 --@return void
-function ClearPedLastWeaponDamage(ped) end
+function ClearPedLastWeaponDamage(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -42,7 +44,8 @@ function ClearPedLastWeaponDamage(ped) end
 --@params heading float
 --@params p7 Any
 --@return Object
-function CreateWeaponObject(weaponHash,ammoCount,x,y,z,showWorldModel,heading,p7) end
+function CreateWeaponObject(weaponHash, ammoCount, x, y, z, showWorldModel, heading, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -61,7 +64,8 @@ function CreateWeaponObject(weaponHash,ammoCount,x,y,z,showWorldModel,heading,p7
 --@params p9 float
 --@params weaponHash Any
 --@return int
-function CreateAirDefenseArea(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,weaponHash) end
+function CreateAirDefenseArea(p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -70,7 +74,8 @@ function CreateAirDefenseArea(p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,weaponHash) end
 --@usage BOOL _DOES_AIR_DEFENSE_ZONE_EXIST(int zoneId);
 --@params zoneId int
 --@return BOOL
-function DoesAirDefenseZoneExist(zoneId) end
+function DoesAirDefenseZoneExist(zoneId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -86,7 +91,8 @@ function DoesAirDefenseZoneExist(zoneId) end
 --@params p6 float
 --@params weaponHash Hash
 --@return int
-function CreateAirDefenseSphere(p0,p1,p2,radius,p4,p5,p6,weaponHash) end
+function CreateAirDefenseSphere(p0, p1, p2, radius, p4, p5, p6, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -95,7 +101,8 @@ function CreateAirDefenseSphere(p0,p1,p2,radius,p4,p5,p6,weaponHash) end
 --@usage void CLEAR_ENTITY_LAST_WEAPON_DAMAGE(Entity entity);
 --@params entity Entity
 --@return void
-function ClearEntityLastWeaponDamage(entity) end
+function ClearEntityLastWeaponDamage(entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -105,7 +112,8 @@ function ClearEntityLastWeaponDamage(entity) end
 --@params weaponHash Hash
 --@params componentHash Hash
 --@return BOOL
-function DoesWeaponTakeWeaponComponent(weaponHash,componentHash) end
+function DoesWeaponTakeWeaponComponent(weaponHash, componentHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -116,7 +124,8 @@ function DoesWeaponTakeWeaponComponent(weaponHash,componentHash) end
 --@params weaponHash Hash
 --@params p2 BOOL
 --@return void
-function ExplodeProjectiles(ped,weaponHash,p2) end
+function ExplodeProjectiles(ped, weaponHash, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -126,7 +135,8 @@ function ExplodeProjectiles(ped,weaponHash,p2) end
 --@params ped Ped
 --@params weaponhash Hash
 --@return int
-function GetAmmoInPedWeapon(ped,weaponhash) end
+function GetAmmoInPedWeapon(ped, weaponhash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -137,7 +147,8 @@ function GetAmmoInPedWeapon(ped,weaponhash) end
 --@params weaponHash Hash
 --@params ammo int*
 --@return BOOL
-function GetAmmoInClip(ped,weaponHash,ammo) end
+function GetAmmoInClip(ped, weaponHash, ammo)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -147,7 +158,8 @@ function GetAmmoInClip(ped,weaponHash,ammo) end
 --@params ped Ped
 --@params weaponHash Hash*
 --@return BOOL
-function GetCurrentPedVehicleWeapon(ped,weaponHash) end
+function GetCurrentPedVehicleWeapon(ped, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -156,7 +168,8 @@ function GetCurrentPedVehicleWeapon(ped,weaponHash) end
 --@usage Entity GET_CURRENT_PED_WEAPON_ENTITY_INDEX(Ped ped);
 --@params ped Ped
 --@return Entity
-function GetCurrentPedWeaponEntityIndex(ped) end
+function GetCurrentPedWeaponEntityIndex(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -166,7 +179,8 @@ function GetCurrentPedWeaponEntityIndex(ped) end
 --@params ped Ped
 --@params p1 BOOL
 --@return Hash
-function GetBestPedWeapon(ped,p1) end
+function GetBestPedWeapon(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -177,7 +191,8 @@ function GetBestPedWeapon(ped,p1) end
 --@params weaponHash Hash*
 --@params p2 BOOL
 --@return BOOL
-function GetCurrentPedWeapon(ped,weaponHash,p2) end
+function GetCurrentPedWeapon(ped, weaponHash, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -187,7 +202,8 @@ function GetCurrentPedWeapon(ped,weaponHash,p2) end
 --@params ped Ped
 --@params gadgetHash Hash
 --@return BOOL
-function GetIsPedGadgetEquipped(ped,gadgetHash) end
+function GetIsPedGadgetEquipped(ped, gadgetHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -198,7 +214,8 @@ function GetIsPedGadgetEquipped(ped,gadgetHash) end
 --@params weaponHash Hash
 --@params ammo int*
 --@return BOOL
-function GetMaxAmmo(ped,weaponHash,ammo) end
+function GetMaxAmmo(ped, weaponHash, ammo)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -209,7 +226,8 @@ function GetMaxAmmo(ped,weaponHash,ammo) end
 --@params weaponHash Any
 --@params ammo int
 --@return void
-function AddPedAmmo(ped,weaponHash,ammo) end
+function AddPedAmmo(ped, weaponHash, ammo)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -218,7 +236,8 @@ function AddPedAmmo(ped,weaponHash,ammo) end
 --@usage float GET_LOCKON_DISTANCE_OF_CURRENT_PED_WEAPON(Ped ped);
 --@params ped Ped
 --@return float
-function GetLockonDistanceOfCurrentPedWeapon(ped) end
+function GetLockonDistanceOfCurrentPedWeapon(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -229,7 +248,8 @@ function GetLockonDistanceOfCurrentPedWeapon(ped) end
 --@params weaponHash Hash
 --@params p2 BOOL
 --@return int
-function GetMaxAmmoInClip(ped,weaponHash,p2) end
+function GetMaxAmmoInClip(ped, weaponHash, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -238,7 +258,8 @@ function GetMaxAmmoInClip(ped,weaponHash,p2) end
 --@usage float GET_MAX_RANGE_OF_CURRENT_PED_WEAPON(Ped ped);
 --@params ped Ped
 --@return float
-function GetMaxRangeOfCurrentPedWeapon(ped) end
+function GetMaxRangeOfCurrentPedWeapon(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -249,7 +270,8 @@ function GetMaxRangeOfCurrentPedWeapon(ped) end
 --@params weaponHash Any
 --@params ammo int*
 --@return BOOL
-function GetMaxAmmo_2(ped,weaponHash,ammo) end
+function GetMaxAmmo_2(ped, weaponHash, ammo)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -259,7 +281,8 @@ function GetMaxAmmo_2(ped,weaponHash,ammo) end
 --@params ped Ped
 --@params weaponHash Hash
 --@return Hash
-function GetPedAmmoTypeFromWeapon(ped,weaponHash) end
+function GetPedAmmoTypeFromWeapon(ped, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -270,7 +293,8 @@ function GetPedAmmoTypeFromWeapon(ped,weaponHash) end
 --@params weaponHash Any
 --@params camoComponentHash Any
 --@return int
-function GetPedWeaponLiveryColor(ped,weaponHash,camoComponentHash) end
+function GetPedWeaponLiveryColor(ped, weaponHash, camoComponentHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -280,7 +304,8 @@ function GetPedWeaponLiveryColor(ped,weaponHash,camoComponentHash) end
 --@params ped Ped
 --@params ammoType Any
 --@return int
-function GetPedAmmoByType(ped,ammoType) end
+function GetPedAmmoByType(ped, ammoType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -290,7 +315,8 @@ function GetPedAmmoByType(ped,ammoType) end
 --@params ped Ped
 --@params weaponHash Hash
 --@return int
-function GetPedWeaponTintIndex(ped,weaponHash) end
+function GetPedWeaponTintIndex(ped, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -300,7 +326,8 @@ function GetPedWeaponTintIndex(ped,weaponHash) end
 --@params ped Ped
 --@params weaponHash Hash
 --@return Hash
-function GetPedAmmoTypeFromWeapon_2(ped,weaponHash) end
+function GetPedAmmoTypeFromWeapon_2(ped, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -310,7 +337,8 @@ function GetPedAmmoTypeFromWeapon_2(ped,weaponHash) end
 --@params ped Ped
 --@params coords Vector3*
 --@return BOOL
-function GetPedLastWeaponImpactCoord(ped,coords) end
+function GetPedLastWeaponImpactCoord(ped, coords)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -319,7 +347,8 @@ function GetPedLastWeaponImpactCoord(ped,coords) end
 --@usage Hash GET_SELECTED_PED_WEAPON(Ped ped);
 --@params ped Ped
 --@return Hash
-function GetSelectedPedWeapon(ped) end
+function GetSelectedPedWeapon(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -329,7 +358,8 @@ function GetSelectedPedWeapon(ped) end
 --@params ped Ped
 --@params weaponSlot Hash
 --@return Hash
-function GetPedWeapontypeInSlot(ped,weaponSlot) end
+function GetPedWeapontypeInSlot(ped, weaponSlot)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -339,7 +369,8 @@ function GetPedWeapontypeInSlot(ped,weaponSlot) end
 --@params componentHash Hash
 --@params outData int*
 --@return BOOL
-function GetWeaponComponentHudStats(componentHash,outData) end
+function GetWeaponComponentHudStats(componentHash, outData)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -348,7 +379,8 @@ function GetWeaponComponentHudStats(componentHash,outData) end
 --@usage int _GET_WEAPON_COMPONENT_VARIANT_EXTRA_COMPONENT_COUNT(Any componentHash);
 --@params componentHash Any
 --@return int
-function GetWeaponComponentVariantExtraComponentCount(componentHash) end
+function GetWeaponComponentVariantExtraComponentCount(componentHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -357,7 +389,8 @@ function GetWeaponComponentVariantExtraComponentCount(componentHash) end
 --@usage Hash GET_WEAPON_COMPONENT_TYPE_MODEL(Hash componentHash);
 --@params componentHash Hash
 --@return Hash
-function GetWeaponComponentTypeModel(componentHash) end
+function GetWeaponComponentTypeModel(componentHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -366,7 +399,8 @@ function GetWeaponComponentTypeModel(componentHash) end
 --@usage int GET_WEAPON_CLIP_SIZE(Hash weaponHash);
 --@params weaponHash Hash
 --@return int
-function GetWeaponClipSize(weaponHash) end
+function GetWeaponClipSize(weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -376,7 +410,8 @@ function GetWeaponClipSize(weaponHash) end
 --@params weaponHash Hash
 --@params componentHash Any
 --@return float
-function GetWeaponDamage(weaponHash,componentHash) end
+function GetWeaponDamage(weaponHash, componentHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -388,7 +423,8 @@ function GetWeaponDamage(weaponHash,componentHash) end
 --@params y float
 --@params z float
 --@return void
-function FireAirDefenseWeapon(zoneId,x,y,z) end
+function FireAirDefenseWeapon(zoneId, x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -398,7 +434,8 @@ function FireAirDefenseWeapon(zoneId,x,y,z) end
 --@params componentHash Any
 --@params extraComponentIndex int
 --@return Any
-function GetWeaponComponentVariantExtraComponentModel(componentHash,extraComponentIndex) end
+function GetWeaponComponentVariantExtraComponentModel(componentHash, extraComponentIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -407,7 +444,8 @@ function GetWeaponComponentVariantExtraComponentModel(componentHash,extraCompone
 --@usage int GET_WEAPON_DAMAGE_TYPE(Hash weaponHash);
 --@params weaponHash Hash
 --@return int
-function GetWeaponDamageType(weaponHash) end
+function GetWeaponDamageType(weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -417,7 +455,8 @@ function GetWeaponDamageType(weaponHash) end
 --@params weaponHash Hash
 --@params outData Any*
 --@return BOOL
-function GetWeaponHudStats(weaponHash,outData) end
+function GetWeaponHudStats(weaponHash, outData)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -427,7 +466,8 @@ function GetWeaponHudStats(weaponHash,outData) end
 --@params weaponObject Object
 --@params camoComponentHash Any
 --@return int
-function GetWeaponObjectLiveryColor(weaponObject,camoComponentHash) end
+function GetWeaponObjectLiveryColor(weaponObject, camoComponentHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -436,7 +476,8 @@ function GetWeaponObjectLiveryColor(weaponObject,camoComponentHash) end
 --@usage int GET_WEAPON_OBJECT_TINT_INDEX(Object weapon);
 --@params weapon Object
 --@return int
-function GetWeaponObjectTintIndex(weapon) end
+function GetWeaponObjectTintIndex(weapon)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -445,7 +486,8 @@ function GetWeaponObjectTintIndex(weapon) end
 --@usage int GET_WEAPON_TINT_COUNT(Hash weaponHash);
 --@params weaponHash Hash
 --@return int
-function GetWeaponTintCount(weaponHash) end
+function GetWeaponTintCount(weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -454,7 +496,8 @@ function GetWeaponTintCount(weaponHash) end
 --@usage Hash GET_WEAPONTYPE_SLOT(Hash weaponHash);
 --@params weaponHash Hash
 --@return Hash
-function GetWeapontypeSlot(weaponHash) end
+function GetWeapontypeSlot(weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -464,7 +507,8 @@ function GetWeapontypeSlot(weaponHash) end
 --@params ped Ped
 --@params loadoutHash Any
 --@return void
-function GiveLoadoutToPed(ped,loadoutHash) end
+function GiveLoadoutToPed(ped, loadoutHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -473,7 +517,8 @@ function GiveLoadoutToPed(ped,loadoutHash) end
 --@usage void ENABLE_LASER_SIGHT_RENDERING(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function EnableLaserSightRendering(toggle) end
+function EnableLaserSightRendering(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -483,7 +528,8 @@ function EnableLaserSightRendering(toggle) end
 --@params ped Ped
 --@params p1 BOOL
 --@return Object
-function GetWeaponObjectFromPed(ped,p1) end
+function GetWeaponObjectFromPed(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -492,7 +538,8 @@ function GetWeaponObjectFromPed(ped,p1) end
 --@usage Hash GET_WEAPONTYPE_MODEL(Hash weaponHash);
 --@params weaponHash Hash
 --@return Hash
-function GetWeapontypeModel(weaponHash) end
+function GetWeapontypeModel(weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -503,7 +550,8 @@ function GetWeapontypeModel(weaponHash) end
 --@params weaponHash Hash
 --@params componentHash Hash
 --@return void
-function GiveWeaponComponentToPed(ped,weaponHash,componentHash) end
+function GiveWeaponComponentToPed(ped, weaponHash, componentHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -513,7 +561,8 @@ function GiveWeaponComponentToPed(ped,weaponHash,componentHash) end
 --@params weaponObject Object
 --@params ped Ped
 --@return void
-function GiveWeaponObjectToPed(weaponObject,ped) end
+function GiveWeaponObjectToPed(weaponObject, ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -525,7 +574,8 @@ function GiveWeaponObjectToPed(weaponObject,ped) end
 --@params ammoCount int
 --@params equipNow BOOL
 --@return void
-function GiveDelayedWeaponToPed(ped,weaponHash,ammoCount,equipNow) end
+function GiveDelayedWeaponToPed(ped, weaponHash, ammoCount, equipNow)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -538,7 +588,8 @@ function GiveDelayedWeaponToPed(ped,weaponHash,ammoCount,equipNow) end
 --@params isHidden BOOL
 --@params equipNow BOOL
 --@return void
-function GiveWeaponToPed(ped,weaponHash,ammoCount,isHidden,equipNow) end
+function GiveWeaponToPed(ped, weaponHash, ammoCount, isHidden, equipNow)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -549,7 +600,8 @@ function GiveWeaponToPed(ped,weaponHash,ammoCount,isHidden,equipNow) end
 --@params weaponHash Hash
 --@params weaponType int
 --@return BOOL
-function HasEntityBeenDamagedByWeapon(entity,weaponHash,weaponType) end
+function HasEntityBeenDamagedByWeapon(entity, weaponHash, weaponType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -560,7 +612,8 @@ function HasEntityBeenDamagedByWeapon(entity,weaponHash,weaponType) end
 --@params weaponHash Hash
 --@params p2 BOOL
 --@return BOOL
-function HasPedGotWeapon(ped,weaponHash,p2) end
+function HasPedGotWeapon(ped, weaponHash, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -571,7 +624,8 @@ function HasPedGotWeapon(ped,weaponHash,p2) end
 --@params weaponHash Hash
 --@params weaponType int
 --@return BOOL
-function HasPedBeenDamagedByWeapon(ped,weaponHash,weaponType) end
+function HasPedBeenDamagedByWeapon(ped, weaponHash, weaponType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -583,7 +637,8 @@ function HasPedBeenDamagedByWeapon(ped,weaponHash,weaponType) end
 --@params weaponHash Hash
 --@params p3 Any
 --@return BOOL
-function HasVehicleGotProjectileAttached(driver,vehicle,weaponHash,p3) end
+function HasVehicleGotProjectileAttached(driver, vehicle, weaponHash, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -592,7 +647,8 @@ function HasVehicleGotProjectileAttached(driver,vehicle,weaponHash,p3) end
 --@usage BOOL HAS_WEAPON_ASSET_LOADED(Hash weaponHash);
 --@params weaponHash Hash
 --@return BOOL
-function HasWeaponAssetLoaded(weaponHash) end
+function HasWeaponAssetLoaded(weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -602,7 +658,8 @@ function HasWeaponAssetLoaded(weaponHash) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function HidePedWeaponForScriptedCutscene(ped,toggle) end
+function HidePedWeaponForScriptedCutscene(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -613,7 +670,8 @@ function HidePedWeaponForScriptedCutscene(ped,toggle) end
 --@params weaponHash Hash
 --@params componentHash Hash
 --@return BOOL
-function HasPedGotWeaponComponent(ped,weaponHash,componentHash) end
+function HasPedGotWeaponComponent(ped, weaponHash, componentHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -622,7 +680,8 @@ function HasPedGotWeaponComponent(ped,weaponHash,componentHash) end
 --@usage BOOL IS_FLASH_LIGHT_ON(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsFlashLightOn(ped) end
+function IsFlashLightOn(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -632,7 +691,8 @@ function IsFlashLightOn(ped) end
 --@params weapon Object
 --@params addonHash Hash
 --@return BOOL
-function HasWeaponGotWeaponComponent(weapon,addonHash) end
+function HasWeaponGotWeaponComponent(weapon, addonHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -641,7 +701,8 @@ function HasWeaponGotWeaponComponent(weapon,addonHash) end
 --@usage BOOL IS_PED_CURRENT_WEAPON_SILENCED(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedCurrentWeaponSilenced(ped) end
+function IsPedCurrentWeaponSilenced(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -650,7 +711,8 @@ function IsPedCurrentWeaponSilenced(ped) end
 --@usage BOOL MAKE_PED_RELOAD(Ped ped);
 --@params ped Ped
 --@return BOOL
-function MakePedReload(ped) end
+function MakePedReload(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -659,7 +721,8 @@ function MakePedReload(ped) end
 --@usage BOOL IS_PED_WEAPON_READY_TO_SHOOT(Ped ped);
 --@params ped Ped
 --@return BOOL
-function IsPedWeaponReadyToShoot(ped) end
+function IsPedWeaponReadyToShoot(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -672,7 +735,8 @@ function IsPedWeaponReadyToShoot(ped) end
 --@params radius float
 --@params zoneId int
 --@return BOOL
-function IsAirDefenseZoneInsideSphere(x,y,z,radius,zoneId) end
+function IsAirDefenseZoneInsideSphere(x, y, z, radius, zoneId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -682,7 +746,8 @@ function IsAirDefenseZoneInsideSphere(x,y,z,radius,zoneId) end
 --@params weaponObject Object
 --@params p1 int
 --@return void
-function N_0x977ca98939e82e4b(weaponObject,p1) end
+function N_0x977ca98939e82e4b(weaponObject, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -692,7 +757,8 @@ function N_0x977ca98939e82e4b(weaponObject,p1) end
 --@params ped Ped
 --@params p1 int
 --@return BOOL
-function IsPedArmed(ped,p1) end
+function IsPedArmed(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -701,7 +767,8 @@ function IsPedArmed(ped,p1) end
 --@usage void undefined(Ped ped);
 --@params ped Ped
 --@return void
-function N_0xe4dcec7fd5b739a5(ped) end
+function N_0xe4dcec7fd5b739a5(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -712,7 +779,8 @@ function N_0xe4dcec7fd5b739a5(ped) end
 --@params weaponHash Hash
 --@params componentHash Hash
 --@return BOOL
-function IsPedWeaponComponentActive(ped,weaponHash,componentHash) end
+function IsPedWeaponComponentActive(ped, weaponHash, componentHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -721,7 +789,8 @@ function IsPedWeaponComponentActive(ped,weaponHash,componentHash) end
 --@usage BOOL _PED_SKIP_NEXT_RELOADING(Ped ped);
 --@params ped Ped
 --@return BOOL
-function PedSkipNextReloading(ped) end
+function PedSkipNextReloading(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -730,7 +799,8 @@ function PedSkipNextReloading(ped) end
 --@usage BOOL IS_WEAPON_VALID(Hash weaponHash);
 --@params weaponHash Hash
 --@return BOOL
-function IsWeaponValid(weaponHash) end
+function IsWeaponValid(weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -739,7 +809,8 @@ function IsWeaponValid(weaponHash) end
 --@usage Hash GET_WEAPONTYPE_GROUP(Hash weaponHash);
 --@params weaponHash Hash
 --@return Hash
-function GetWeapontypeGroup(weaponHash) end
+function GetWeapontypeGroup(weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -748,7 +819,8 @@ function GetWeapontypeGroup(weaponHash) end
 --@usage Any _GET_WEAPON_TIME_BETWEEN_SHOTS(Hash weaponHash);
 --@params weaponHash Hash
 --@return Any
-function GetWeaponTimeBetweenShots(weaponHash) end
+function GetWeaponTimeBetweenShots(weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -758,7 +830,8 @@ function GetWeaponTimeBetweenShots(weaponHash) end
 --@params ped Ped
 --@params weaponHash Any
 --@return int
-function N_0xa2c9ac24b4061285(ped,weaponHash) end
+function N_0xa2c9ac24b4061285(ped, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -768,7 +841,8 @@ function N_0xa2c9ac24b4061285(ped,weaponHash) end
 --@params weaponHash Hash
 --@params p1 BOOL
 --@return void
-function RemoveAllProjectilesOfType(weaponHash,p1) end
+function RemoveAllProjectilesOfType(weaponHash, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -778,7 +852,8 @@ function RemoveAllProjectilesOfType(weaponHash,p1) end
 --@params weaponObject Object
 --@params addonHash Hash
 --@return void
-function GiveWeaponComponentToWeaponObject(weaponObject,addonHash) end
+function GiveWeaponComponentToWeaponObject(weaponObject, addonHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -787,7 +862,8 @@ function GiveWeaponComponentToWeaponObject(weaponObject,addonHash) end
 --@usage void _REMOVE_ALL_AIR_DEFENSE_ZONES();
 
 --@return void
-function RemoveAllAirDefenseZones() end
+function RemoveAllAirDefenseZones()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -796,7 +872,8 @@ function RemoveAllAirDefenseZones() end
 --@usage void REMOVE_WEAPON_ASSET(Hash weaponHash);
 --@params weaponHash Hash
 --@return void
-function RemoveWeaponAsset(weaponHash) end
+function RemoveWeaponAsset(weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -806,7 +883,8 @@ function RemoveWeaponAsset(weaponHash) end
 --@params ped Ped
 --@params p1 BOOL
 --@return void
-function RemoveAllPedWeapons(ped,p1) end
+function RemoveAllPedWeapons(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -816,7 +894,8 @@ function RemoveAllPedWeapons(ped,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function RemoveWeaponComponentFromWeaponObject(p0,p1) end
+function RemoveWeaponComponentFromWeaponObject(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -827,7 +906,8 @@ function RemoveWeaponComponentFromWeaponObject(p0,p1) end
 --@params p1 int
 --@params p2 int
 --@return void
-function RequestWeaponAsset(weaponHash,p1,p2) end
+function RequestWeaponAsset(weaponHash, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -837,7 +917,8 @@ function RequestWeaponAsset(weaponHash,p1,p2) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetCanPedEquipAllWeapons(ped,toggle) end
+function SetCanPedEquipAllWeapons(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -846,7 +927,8 @@ function SetCanPedEquipAllWeapons(ped,toggle) end
 --@usage BOOL _REMOVE_AIR_DEFENSE_ZONE(int zoneId);
 --@params zoneId int
 --@return BOOL
-function RemoveAirDefenseZone(zoneId) end
+function RemoveAirDefenseZone(zoneId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -855,7 +937,8 @@ function RemoveAirDefenseZone(zoneId) end
 --@usage void REQUEST_WEAPON_HIGH_DETAIL_MODEL(Entity weaponObject);
 --@params weaponObject Entity
 --@return void
-function RequestWeaponHighDetailModel(weaponObject) end
+function RequestWeaponHighDetailModel(weaponObject)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -865,7 +948,8 @@ function RequestWeaponHighDetailModel(weaponObject) end
 --@params ped Ped
 --@params weaponHash Hash
 --@return BOOL
-function SetCurrentPedVehicleWeapon(ped,weaponHash) end
+function SetCurrentPedVehicleWeapon(ped, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -874,7 +958,8 @@ function SetCurrentPedVehicleWeapon(ped,weaponHash) end
 --@usage Any SET_FLASH_LIGHT_FADE_DISTANCE(float distance);
 --@params distance float
 --@return Any
-function SetFlashLightFadeDistance(distance) end
+function SetFlashLightFadeDistance(distance)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -885,7 +970,8 @@ function SetFlashLightFadeDistance(distance) end
 --@params weaponHash Hash
 --@params ammo int
 --@return BOOL
-function SetAmmoInClip(ped,weaponHash,ammo) end
+function SetAmmoInClip(ped, weaponHash, ammo)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -896,7 +982,8 @@ function SetAmmoInClip(ped,weaponHash,ammo) end
 --@params ammoType Any
 --@params ammo int
 --@return void
-function SetPedAmmoByType(ped,ammoType,ammo) end
+function SetPedAmmoByType(ped, ammoType, ammo)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -907,7 +994,8 @@ function SetPedAmmoByType(ped,ammoType,ammo) end
 --@params weaponHash Hash
 --@params componentHash Hash
 --@return void
-function RemoveWeaponComponentFromPed(ped,weaponHash,componentHash) end
+function RemoveWeaponComponentFromPed(ped, weaponHash, componentHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -918,7 +1006,8 @@ function RemoveWeaponComponentFromPed(ped,weaponHash,componentHash) end
 --@params weaponHash Hash
 --@params equipNow BOOL
 --@return void
-function SetCurrentPedWeapon(ped,weaponHash,equipNow) end
+function SetCurrentPedWeapon(ped, weaponHash, equipNow)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -929,7 +1018,8 @@ function SetCurrentPedWeapon(ped,weaponHash,equipNow) end
 --@params xBias float
 --@params yBias float
 --@return void
-function SetPedChanceOfFiringBlanks(ped,xBias,yBias) end
+function SetPedChanceOfFiringBlanks(ped, xBias, yBias)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -942,7 +1032,8 @@ function SetPedChanceOfFiringBlanks(ped,xBias,yBias) end
 --@params p3 BOOL
 --@params p4 BOOL
 --@return void
-function SetPedCurrentWeaponVisible(ped,visible,deselectWeapon,p3,p4) end
+function SetPedCurrentWeaponVisible(ped, visible, deselectWeapon, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -953,7 +1044,8 @@ function SetPedCurrentWeaponVisible(ped,visible,deselectWeapon,p3,p4) end
 --@params weaponHash Hash
 --@params ammo int
 --@return void
-function SetPedAmmo(ped,weaponHash,ammo) end
+function SetPedAmmo(ped, weaponHash, ammo)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -962,7 +1054,8 @@ function SetPedAmmo(ped,weaponHash,ammo) end
 --@usage void SET_PED_DROPS_WEAPON(Ped ped);
 --@params ped Ped
 --@return void
-function SetPedDropsWeapon(ped) end
+function SetPedDropsWeapon(ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -972,7 +1065,8 @@ function SetPedDropsWeapon(ped) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedDropsWeaponsWhenDead(ped,toggle) end
+function SetPedDropsWeaponsWhenDead(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -982,7 +1076,8 @@ function SetPedDropsWeaponsWhenDead(ped,toggle) end
 --@params ped Ped
 --@params ammo int
 --@return void
-function SetPedAmmoToDrop(ped,ammo) end
+function SetPedAmmoToDrop(ped, ammo)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -993,7 +1088,8 @@ function SetPedAmmoToDrop(ped,ammo) end
 --@params toggle BOOL
 --@params weaponHash Hash
 --@return void
-function SetPedInfiniteAmmo(ped,toggle,weaponHash) end
+function SetPedInfiniteAmmo(ped, toggle, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1007,7 +1103,8 @@ function SetPedInfiniteAmmo(ped,toggle,weaponHash) end
 --@params zOffset float
 --@params ammoCount int
 --@return void
-function SetPedDropsInventoryWeapon(ped,weaponHash,xOffset,yOffset,zOffset,ammoCount) end
+function SetPedDropsInventoryWeapon(ped, weaponHash, xOffset, yOffset, zOffset, ammoCount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1017,7 +1114,8 @@ function SetPedDropsInventoryWeapon(ped,weaponHash,xOffset,yOffset,zOffset,ammoC
 --@params ped Ped
 --@params p1 float
 --@return Object
-function SetPedShootOrdnanceWeapon(ped,p1) end
+function SetPedShootOrdnanceWeapon(ped, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1028,7 +1126,8 @@ function SetPedShootOrdnanceWeapon(ped,p1) end
 --@params weaponHash Hash
 --@params toggle BOOL
 --@return void
-function SetCanPedSelectWeapon(ped,weaponHash,toggle) end
+function SetCanPedSelectWeapon(ped, weaponHash, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1039,7 +1138,8 @@ function SetCanPedSelectWeapon(ped,weaponHash,toggle) end
 --@params weaponHash Hash
 --@params tintIndex int
 --@return void
-function SetPedWeaponTintIndex(ped,weaponHash,tintIndex) end
+function SetPedWeaponTintIndex(ped, weaponHash, tintIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1049,7 +1149,8 @@ function SetPedWeaponTintIndex(ped,weaponHash,tintIndex) end
 --@params ped Ped
 --@params toggle BOOL
 --@return void
-function SetPedInfiniteAmmoClip(ped,toggle) end
+function SetPedInfiniteAmmoClip(ped, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1059,7 +1160,8 @@ function SetPedInfiniteAmmoClip(ped,toggle) end
 --@params ped Ped
 --@params animStyle Hash
 --@return void
-function SetWeaponAnimationOverride(ped,animStyle) end
+function SetWeaponAnimationOverride(ped, animStyle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1070,7 +1172,8 @@ function SetWeaponAnimationOverride(ped,animStyle) end
 --@params camoComponentHash Any
 --@params colorIndex int
 --@return void
-function SetWeaponObjectLiveryColor(weaponObject,camoComponentHash,colorIndex) end
+function SetWeaponObjectLiveryColor(weaponObject, camoComponentHash, colorIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1082,7 +1185,8 @@ function SetWeaponObjectLiveryColor(weaponObject,camoComponentHash,colorIndex) e
 --@params camoComponentHash Any
 --@params colorIndex int
 --@return void
-function SetPedWeaponLiveryColor(ped,weaponHash,camoComponentHash,colorIndex) end
+function SetPedWeaponLiveryColor(ped, weaponHash, camoComponentHash, colorIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1092,7 +1196,8 @@ function SetPedWeaponLiveryColor(ped,weaponHash,camoComponentHash,colorIndex) en
 --@params weapon Object
 --@params tintIndex int
 --@return void
-function SetWeaponObjectTintIndex(weapon,tintIndex) end
+function SetWeaponObjectTintIndex(weapon, tintIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1103,7 +1208,8 @@ function SetWeaponObjectTintIndex(weapon,tintIndex) end
 --@params zoneId int
 --@params enable BOOL
 --@return void
-function SetPlayerAirDefenseZoneFlag(player,zoneId,enable) end
+function SetPlayerAirDefenseZoneFlag(player, zoneId, enable)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1113,7 +1219,8 @@ function SetPlayerAirDefenseZoneFlag(player,zoneId,enable) end
 --@params weaponHash Hash
 --@params damageAmount float
 --@return void
-function SetWeaponDamageModifier(weaponHash,damageAmount) end
+function SetWeaponDamageModifier(weaponHash, damageAmount)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1124,7 +1231,8 @@ function SetWeaponDamageModifier(weaponHash,damageAmount) end
 --@params gadgetHash Hash
 --@params p2 BOOL
 --@return void
-function SetPedGadget(ped,gadgetHash,p2) end
+function SetPedGadget(ped, gadgetHash, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1134,7 +1242,8 @@ function SetPedGadget(ped,gadgetHash,p2) end
 --@params ped Ped
 --@params weaponHash Hash
 --@return void
-function RemoveWeaponFromPed(ped,weaponHash) end
+function RemoveWeaponFromPed(ped, weaponHash)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1143,4 +1252,5 @@ function RemoveWeaponFromPed(ped,weaponHash) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0xe620fd3512a04f18(p0) end
+function N_0xe620fd3512a04f18(p0)
+end

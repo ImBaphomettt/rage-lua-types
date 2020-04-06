@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule PLAYER
@@ -6,7 +5,8 @@
 --@usage BOOL ARE_PLAYER_FLASHING_STARS_ABOUT_TO_DROP(Player player);
 --@params player Player
 --@return BOOL
-function ArePlayerFlashingStarsAboutToDrop(player) end
+function ArePlayerFlashingStarsAboutToDrop(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function ArePlayerFlashingStarsAboutToDrop(player) end
 --@usage void ASSISTED_MOVEMENT_CLOSE_ROUTE();
 
 --@return void
-function AssistedMovementCloseRoute() end
+function AssistedMovementCloseRoute()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -25,7 +26,8 @@ function AssistedMovementCloseRoute() end
 --@params player Player
 --@params ped Ped
 --@return BOOL
-function CanPedHearPlayer(player,ped) end
+function CanPedHearPlayer(player, ped)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -34,7 +36,8 @@ function CanPedHearPlayer(player,ped) end
 --@usage BOOL CAN_PLAYER_START_MISSION(Player player);
 --@params player Player
 --@return BOOL
-function CanPlayerStartMission(player) end
+function CanPlayerStartMission(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -43,7 +46,8 @@ function CanPlayerStartMission(player) end
 --@usage void CLEAR_PLAYER_HAS_DAMAGED_AT_LEAST_ONE_PED(Player player);
 --@params player Player
 --@return void
-function ClearPlayerHasDamagedAtLeastOnePed(player) end
+function ClearPlayerHasDamagedAtLeastOnePed(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -52,7 +56,8 @@ function ClearPlayerHasDamagedAtLeastOnePed(player) end
 --@usage void CLEAR_PLAYER_PARACHUTE_PACK_MODEL_OVERRIDE(Player player);
 --@params player Player
 --@return void
-function ClearPlayerParachutePackModelOverride(player) end
+function ClearPlayerParachutePackModelOverride(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -61,7 +66,8 @@ function ClearPlayerParachutePackModelOverride(player) end
 --@usage BOOL ARE_PLAYER_STARS_GREYED_OUT(Player player);
 --@params player Player
 --@return BOOL
-function ArePlayerStarsGreyedOut(player) end
+function ArePlayerStarsGreyedOut(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -70,7 +76,8 @@ function ArePlayerStarsGreyedOut(player) end
 --@usage void CLEAR_PLAYER_HAS_DAMAGED_AT_LEAST_ONE_NON_ANIMAL_PED(Player player);
 --@params player Player
 --@return void
-function ClearPlayerHasDamagedAtLeastOneNonAnimalPed(player) end
+function ClearPlayerHasDamagedAtLeastOneNonAnimalPed(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -82,7 +89,8 @@ function ClearPlayerHasDamagedAtLeastOneNonAnimalPed(player) end
 --@params b2 BOOL
 --@params resetDamage BOOL
 --@return void
-function ChangePlayerPed(player,ped,b2,resetDamage) end
+function ChangePlayerPed(player, ped, b2, resetDamage)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -92,7 +100,8 @@ function ChangePlayerPed(player,ped,b2,resetDamage) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function DisablePlayerFiring(player,toggle) end
+function DisablePlayerFiring(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -101,7 +110,8 @@ function DisablePlayerFiring(player,toggle) end
 --@usage void CLEAR_PLAYER_PARACHUTE_MODEL_OVERRIDE(Player player);
 --@params player Player
 --@return void
-function ClearPlayerParachuteModelOverride(player) end
+function ClearPlayerParachuteModelOverride(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -110,7 +120,8 @@ function ClearPlayerParachuteModelOverride(player) end
 --@usage void DISPLAY_SYSTEM_SIGNIN_UI(BOOL unk);
 --@params unk BOOL
 --@return void
-function DisplaySystemSigninUi(unk) end
+function DisplaySystemSigninUi(unk)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -119,7 +130,8 @@ function DisplaySystemSigninUi(unk) end
 --@usage void CLEAR_PLAYER_PARACHUTE_VARIATION_OVERRIDE(Player player);
 --@params player Player
 --@return void
-function ClearPlayerParachuteVariationOverride(player) end
+function ClearPlayerParachuteVariationOverride(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -130,7 +142,8 @@ function ClearPlayerParachuteVariationOverride(player) end
 --@params y float
 --@params z float
 --@return void
-function ExtendWorldBoundaryForPlayer(x,y,z) end
+function ExtendWorldBoundaryForPlayer(x, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -139,7 +152,8 @@ function ExtendWorldBoundaryForPlayer(x,y,z) end
 --@usage void ASSISTED_MOVEMENT_FLUSH_ROUTE();
 
 --@return void
-function AssistedMovementFlushRoute() end
+function AssistedMovementFlushRoute()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -149,7 +163,8 @@ function AssistedMovementFlushRoute() end
 --@params name char*
 --@params cleanupFlags int
 --@return void
-function ForceCleanupForAllThreadsWithThisName(name,cleanupFlags) end
+function ForceCleanupForAllThreadsWithThisName(name, cleanupFlags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -158,7 +173,8 @@ function ForceCleanupForAllThreadsWithThisName(name,cleanupFlags) end
 --@usage void CLEAR_PLAYER_WANTED_LEVEL(Player player);
 --@params player Player
 --@return void
-function ClearPlayerWantedLevel(player) end
+function ClearPlayerWantedLevel(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -167,7 +183,8 @@ function ClearPlayerWantedLevel(player) end
 --@usage void DISABLE_PLAYER_VEHICLE_REWARDS(Player player);
 --@params player Player
 --@return void
-function DisablePlayerVehicleRewards(player) end
+function DisablePlayerVehicleRewards(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -177,7 +194,8 @@ function DisablePlayerVehicleRewards(player) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function EnableSpecialAbility(player,toggle) end
+function EnableSpecialAbility(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -186,7 +204,8 @@ function EnableSpecialAbility(player,toggle) end
 --@usage int _GET_ACHIEVEMENT_PROGRESSION(int achievement);
 --@params achievement int
 --@return int
-function GetAchievementProgression(achievement) end
+function GetAchievementProgression(achievement)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -195,7 +214,8 @@ function GetAchievementProgression(achievement) end
 --@usage int GET_CAUSE_OF_MOST_RECENT_FORCE_CLEANUP();
 
 --@return int
-function GetCauseOfMostRecentForceCleanup() end
+function GetCauseOfMostRecentForceCleanup()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -204,7 +224,8 @@ function GetCauseOfMostRecentForceCleanup() end
 --@usage void FORCE_CLEANUP(int cleanupFlags);
 --@params cleanupFlags int
 --@return void
-function ForceCleanup(cleanupFlags) end
+function ForceCleanup(cleanupFlags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -213,7 +234,8 @@ function ForceCleanup(cleanupFlags) end
 --@usage int GET_MAX_WANTED_LEVEL();
 
 --@return int
-function GetMaxWantedLevel() end
+function GetMaxWantedLevel()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -223,7 +245,8 @@ function GetMaxWantedLevel() end
 --@params id int
 --@params cleanupFlags int
 --@return void
-function ForceCleanupForThreadWithThisId(id,cleanupFlags) end
+function ForceCleanupForThreadWithThisId(id, cleanupFlags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -233,7 +256,8 @@ function ForceCleanupForThreadWithThisId(id,cleanupFlags) end
 --@params player Player
 --@params entity Entity*
 --@return BOOL
-function GetEntityPlayerIsFreeAimingAt(player,entity) end
+function GetEntityPlayerIsFreeAimingAt(player, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -242,7 +266,8 @@ function GetEntityPlayerIsFreeAimingAt(player,entity) end
 --@usage float GET_PLAYER_CURRENT_STEALTH_NOISE(Player player);
 --@params player Player
 --@return float
-function GetPlayerCurrentStealthNoise(player) end
+function GetPlayerCurrentStealthNoise(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -251,7 +276,8 @@ function GetPlayerCurrentStealthNoise(player) end
 --@usage int GET_PLAYER_FAKE_WANTED_LEVEL(Player player);
 --@params player Player
 --@return int
-function GetPlayerFakeWantedLevel(player) end
+function GetPlayerFakeWantedLevel(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -260,7 +286,8 @@ function GetPlayerFakeWantedLevel(player) end
 --@usage int GET_NUMBER_OF_PLAYERS();
 
 --@return int
-function GetNumberOfPlayers() end
+function GetNumberOfPlayers()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -269,7 +296,8 @@ function GetNumberOfPlayers() end
 --@usage BOOL GET_PLAYER_HAS_RESERVE_PARACHUTE(Player player);
 --@params player Player
 --@return BOOL
-function GetPlayerHasReserveParachute(player) end
+function GetPlayerHasReserveParachute(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -278,7 +306,8 @@ function GetPlayerHasReserveParachute(player) end
 --@usage int _GET_NUMBER_OF_PLAYERS_IN_TEAM(int team);
 --@params team int
 --@return int
-function GetNumberOfPlayersInTeam(team) end
+function GetNumberOfPlayersInTeam(team)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -287,7 +316,8 @@ function GetNumberOfPlayersInTeam(team) end
 --@usage float _GET_PLAYER_HEALTH_RECHARGE_LIMIT(Player player);
 --@params player Player
 --@return float
-function GetPlayerHealthRechargeLimit(player) end
+function GetPlayerHealthRechargeLimit(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -296,7 +326,8 @@ function GetPlayerHealthRechargeLimit(player) end
 --@usage int GET_PLAYER_GROUP(Player player);
 --@params player Player
 --@return int
-function GetPlayerGroup(player) end
+function GetPlayerGroup(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -305,7 +336,8 @@ function GetPlayerGroup(player) end
 --@usage BOOL GET_PLAYER_INVINCIBLE(Player player);
 --@params player Player
 --@return BOOL
-function GetPlayerInvincible(player) end
+function GetPlayerInvincible(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -314,7 +346,8 @@ function GetPlayerInvincible(player) end
 --@usage Player GET_PLAYER_INDEX();
 
 --@return Player
-function GetPlayerIndex() end
+function GetPlayerIndex()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -323,7 +356,8 @@ function GetPlayerIndex() end
 --@usage char* GET_PLAYER_NAME(Player player);
 --@params player Player
 --@return char*
-function GetPlayerName(player) end
+function GetPlayerName(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -333,7 +367,8 @@ function GetPlayerName(player) end
 --@params player Player
 --@params tintIndex int*
 --@return void
-function GetPlayerParachutePackTintIndex(player,tintIndex) end
+function GetPlayerParachutePackTintIndex(player, tintIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -342,7 +377,8 @@ function GetPlayerParachutePackTintIndex(player,tintIndex) end
 --@usage int GET_PLAYER_MAX_ARMOUR(Player player);
 --@params player Player
 --@return int
-function GetPlayerMaxArmour(player) end
+function GetPlayerMaxArmour(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -351,7 +387,8 @@ function GetPlayerMaxArmour(player) end
 --@usage Ped GET_PLAYER_PED_SCRIPT_INDEX(Player player);
 --@params player Player
 --@return Ped
-function GetPlayerPedScriptIndex(player) end
+function GetPlayerPedScriptIndex(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -360,7 +397,8 @@ function GetPlayerPedScriptIndex(player) end
 --@usage Ped GET_PLAYER_PED(Player playerId);
 --@params playerId Player
 --@return Ped
-function GetPlayerPed(playerId) end
+function GetPlayerPed(playerId)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -372,7 +410,8 @@ function GetPlayerPed(playerId) end
 --@params g int*
 --@params b int*
 --@return void
-function GetPlayerParachuteSmokeTrailColor(player,r,g,b) end
+function GetPlayerParachuteSmokeTrailColor(player, r, g, b)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -384,7 +423,8 @@ function GetPlayerParachuteSmokeTrailColor(player,r,g,b) end
 --@params g int*
 --@params b int*
 --@return void
-function GetPlayerRgbColour(player,r,g,b) end
+function GetPlayerRgbColour(player, r, g, b)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -394,7 +434,8 @@ function GetPlayerRgbColour(player,r,g,b) end
 --@params player Player
 --@params entity Entity*
 --@return BOOL
-function GetPlayerTargetEntity(player,entity) end
+function GetPlayerTargetEntity(player, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -404,7 +445,8 @@ function GetPlayerTargetEntity(player,entity) end
 --@params player Player
 --@params tintIndex int*
 --@return void
-function GetPlayerParachuteTintIndex(player,tintIndex) end
+function GetPlayerParachuteTintIndex(player, tintIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -414,7 +456,8 @@ function GetPlayerParachuteTintIndex(player,tintIndex) end
 --@params player Player
 --@params index int*
 --@return void
-function GetPlayerReserveParachuteTintIndex(player,index) end
+function GetPlayerReserveParachuteTintIndex(player, index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -423,7 +466,8 @@ function GetPlayerReserveParachuteTintIndex(player,index) end
 --@usage int GET_PLAYER_TEAM(Player player);
 --@params player Player
 --@return int
-function GetPlayerTeam(player) end
+function GetPlayerTeam(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -432,7 +476,8 @@ function GetPlayerTeam(player) end
 --@usage Vehicle GET_PLAYERS_LAST_VEHICLE();
 
 --@return Vehicle
-function GetPlayersLastVehicle() end
+function GetPlayersLastVehicle()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -441,7 +486,8 @@ function GetPlayersLastVehicle() end
 --@usage Vector3 GET_PLAYER_WANTED_CENTRE_POSITION(Player player);
 --@params player Player
 --@return Vector3
-function GetPlayerWantedCentrePosition(player) end
+function GetPlayerWantedCentrePosition(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -450,7 +496,8 @@ function GetPlayerWantedCentrePosition(player) end
 --@usage int GET_TIME_SINCE_LAST_DEATH();
 
 --@return int
-function GetTimeSinceLastDeath() end
+function GetTimeSinceLastDeath()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -459,7 +506,8 @@ function GetTimeSinceLastDeath() end
 --@usage float GET_PLAYER_SPRINT_STAMINA_REMAINING(Player player);
 --@params player Player
 --@return float
-function GetPlayerSprintStaminaRemaining(player) end
+function GetPlayerSprintStaminaRemaining(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -468,7 +516,8 @@ function GetPlayerSprintStaminaRemaining(player) end
 --@usage int GET_TIME_SINCE_PLAYER_DROVE_ON_PAVEMENT(Player player);
 --@params player Player
 --@return int
-function GetTimeSincePlayerDroveOnPavement(player) end
+function GetTimeSincePlayerDroveOnPavement(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -477,7 +526,8 @@ function GetTimeSincePlayerDroveOnPavement(player) end
 --@usage float GET_PLAYER_SPRINT_TIME_REMAINING(Player player);
 --@params player Player
 --@return float
-function GetPlayerSprintTimeRemaining(player) end
+function GetPlayerSprintTimeRemaining(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -486,7 +536,8 @@ function GetPlayerSprintTimeRemaining(player) end
 --@usage int GET_TIME_SINCE_PLAYER_HIT_PED(Player player);
 --@params player Player
 --@return int
-function GetTimeSincePlayerHitPed(player) end
+function GetTimeSincePlayerHitPed(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -495,7 +546,8 @@ function GetTimeSincePlayerHitPed(player) end
 --@usage float GET_PLAYER_UNDERWATER_TIME_REMAINING(Player player);
 --@params player Player
 --@return float
-function GetPlayerUnderwaterTimeRemaining(player) end
+function GetPlayerUnderwaterTimeRemaining(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -504,7 +556,8 @@ function GetPlayerUnderwaterTimeRemaining(player) end
 --@usage Any GET_WANTED_LEVEL_RADIUS(Player player);
 --@params player Player
 --@return Any
-function GetWantedLevelRadius(player) end
+function GetWantedLevelRadius(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -513,7 +566,8 @@ function GetWantedLevelRadius(player) end
 --@usage int GET_PLAYER_WANTED_LEVEL(Player player);
 --@params player Player
 --@return int
-function GetPlayerWantedLevel(player) end
+function GetPlayerWantedLevel(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -522,7 +576,8 @@ function GetPlayerWantedLevel(player) end
 --@usage int GET_WANTED_LEVEL_THRESHOLD(int wantedLevel);
 --@params wantedLevel int
 --@return int
-function GetWantedLevelThreshold(wantedLevel) end
+function GetWantedLevelThreshold(wantedLevel)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -532,7 +587,8 @@ function GetWantedLevelThreshold(wantedLevel) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function GivePlayerRagdollControl(player,toggle) end
+function GivePlayerRagdollControl(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -541,7 +597,8 @@ function GivePlayerRagdollControl(player,toggle) end
 --@usage int GET_TIME_SINCE_LAST_ARREST();
 
 --@return int
-function GetTimeSinceLastArrest() end
+function GetTimeSinceLastArrest()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -550,7 +607,8 @@ function GetTimeSinceLastArrest() end
 --@usage int GET_TIME_SINCE_PLAYER_DROVE_AGAINST_TRAFFIC(Player player);
 --@params player Player
 --@return int
-function GetTimeSincePlayerDroveAgainstTraffic(player) end
+function GetTimeSincePlayerDroveAgainstTraffic(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -559,7 +617,8 @@ function GetTimeSincePlayerDroveAgainstTraffic(player) end
 --@usage BOOL HAS_FORCE_CLEANUP_OCCURRED(int cleanupFlags);
 --@params cleanupFlags int
 --@return BOOL
-function HasForceCleanupOccurred(cleanupFlags) end
+function HasForceCleanupOccurred(cleanupFlags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -568,7 +627,8 @@ function HasForceCleanupOccurred(cleanupFlags) end
 --@usage int GET_TIME_SINCE_PLAYER_HIT_VEHICLE(Player player);
 --@params player Player
 --@return int
-function GetTimeSincePlayerHitVehicle(player) end
+function GetTimeSincePlayerHitVehicle(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -577,7 +637,8 @@ function GetTimeSincePlayerHitVehicle(player) end
 --@usage BOOL HAS_PLAYER_BEEN_SPOTTED_IN_STOLEN_VEHICLE(Player player);
 --@params player Player
 --@return BOOL
-function HasPlayerBeenSpottedInStolenVehicle(player) end
+function HasPlayerBeenSpottedInStolenVehicle(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -586,7 +647,8 @@ function HasPlayerBeenSpottedInStolenVehicle(player) end
 --@usage BOOL HAS_PLAYER_DAMAGED_AT_LEAST_ONE_PED(Player player);
 --@params player Player
 --@return BOOL
-function HasPlayerDamagedAtLeastOnePed(player) end
+function HasPlayerDamagedAtLeastOnePed(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -595,7 +657,8 @@ function HasPlayerDamagedAtLeastOnePed(player) end
 --@usage Any GIVE_ACHIEVEMENT_TO_PLAYER(int achievement);
 --@params achievement int
 --@return Any
-function GiveAchievementToPlayer(achievement) end
+function GiveAchievementToPlayer(achievement)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -604,7 +667,8 @@ function GiveAchievementToPlayer(achievement) end
 --@usage BOOL HAS_PLAYER_LEFT_THE_WORLD(Player player);
 --@params player Player
 --@return BOOL
-function HasPlayerLeftTheWorld(player) end
+function HasPlayerLeftTheWorld(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -613,7 +677,8 @@ function HasPlayerLeftTheWorld(player) end
 --@usage BOOL HAS_ACHIEVEMENT_BEEN_PASSED(int achievement);
 --@params achievement int
 --@return BOOL
-function HasAchievementBeenPassed(achievement) end
+function HasAchievementBeenPassed(achievement)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -622,7 +687,8 @@ function HasAchievementBeenPassed(achievement) end
 --@usage int INT_TO_PARTICIPANTINDEX(int value);
 --@params value int
 --@return int
-function IntToParticipantindex(value) end
+function IntToParticipantindex(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -631,7 +697,8 @@ function IntToParticipantindex(value) end
 --@usage BOOL HAS_PLAYER_DAMAGED_AT_LEAST_ONE_NON_ANIMAL_PED(Player player);
 --@params player Player
 --@return BOOL
-function HasPlayerDamagedAtLeastOneNonAnimalPed(player) end
+function HasPlayerDamagedAtLeastOneNonAnimalPed(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -640,7 +707,8 @@ function HasPlayerDamagedAtLeastOneNonAnimalPed(player) end
 --@usage BOOL IS_PLAYER_BATTLE_AWARE(Player player);
 --@params player Player
 --@return BOOL
-function IsPlayerBattleAware(player) end
+function IsPlayerBattleAware(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -649,7 +717,8 @@ function IsPlayerBattleAware(player) end
 --@usage BOOL _HAS_PLAYER_TELEPORT_FINISHED(Player player);
 --@params player Player
 --@return BOOL
-function HasPlayerTeleportFinished(player) end
+function HasPlayerTeleportFinished(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -659,7 +728,8 @@ function HasPlayerTeleportFinished(player) end
 --@params player Player
 --@params atArresting BOOL
 --@return BOOL
-function IsPlayerBeingArrested(player,atArresting) end
+function IsPlayerBeingArrested(player, atArresting)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -668,7 +738,8 @@ function IsPlayerBeingArrested(player,atArresting) end
 --@usage Player INT_TO_PLAYERINDEX(int value);
 --@params value int
 --@return Player
-function IntToPlayerindex(value) end
+function IntToPlayerindex(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -677,7 +748,8 @@ function IntToPlayerindex(value) end
 --@usage BOOL IS_PLAYER_DEAD(Player player);
 --@params player Player
 --@return BOOL
-function IsPlayerDead(player) end
+function IsPlayerDead(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -686,7 +758,8 @@ function IsPlayerDead(player) end
 --@usage BOOL IS_PLAYER_CONTROL_ON(Player player);
 --@params player Player
 --@return BOOL
-function IsPlayerControlOn(player) end
+function IsPlayerControlOn(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -695,7 +768,8 @@ function IsPlayerControlOn(player) end
 --@usage BOOL IS_PLAYER_CLIMBING(Player player);
 --@params player Player
 --@return BOOL
-function IsPlayerClimbing(player) end
+function IsPlayerClimbing(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -704,7 +778,8 @@ function IsPlayerClimbing(player) end
 --@usage BOOL _IS_PLAYER_CAM_CONTROL_DISABLED();
 
 --@return BOOL
-function IsPlayerCamControlDisabled() end
+function IsPlayerCamControlDisabled()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -713,7 +788,8 @@ function IsPlayerCamControlDisabled() end
 --@usage BOOL IS_PLAYER_BLUETOOTH_ENABLE(Player player);
 --@params player Player
 --@return BOOL
-function IsPlayerBluetoothEnable(player) end
+function IsPlayerBluetoothEnable(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -722,7 +798,8 @@ function IsPlayerBluetoothEnable(player) end
 --@usage BOOL IS_PLAYER_FREE_AIMING(Player player);
 --@params player Player
 --@return BOOL
-function IsPlayerFreeAiming(player) end
+function IsPlayerFreeAiming(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -731,7 +808,8 @@ function IsPlayerFreeAiming(player) end
 --@usage BOOL IS_PLAYER_FREE_FOR_AMBIENT_TASK(Player player);
 --@params player Player
 --@return BOOL
-function IsPlayerFreeForAmbientTask(player) end
+function IsPlayerFreeForAmbientTask(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -740,7 +818,8 @@ function IsPlayerFreeForAmbientTask(player) end
 --@usage BOOL IS_PLAYER_ONLINE();
 
 --@return BOOL
-function IsPlayerOnline() end
+function IsPlayerOnline()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -749,7 +828,8 @@ function IsPlayerOnline() end
 --@usage BOOL IS_PLAYER_PLAYING(Player player);
 --@params player Player
 --@return BOOL
-function IsPlayerPlaying(player) end
+function IsPlayerPlaying(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -758,7 +838,8 @@ function IsPlayerPlaying(player) end
 --@usage BOOL IS_PLAYER_READY_FOR_CUTSCENE(Player player);
 --@params player Player
 --@return BOOL
-function IsPlayerReadyForCutscene(player) end
+function IsPlayerReadyForCutscene(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -768,7 +849,8 @@ function IsPlayerReadyForCutscene(player) end
 --@params player Player
 --@params entity Entity
 --@return BOOL
-function IsPlayerFreeAimingAtEntity(player,entity) end
+function IsPlayerFreeAimingAtEntity(player, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -777,7 +859,8 @@ function IsPlayerFreeAimingAtEntity(player,entity) end
 --@usage BOOL IS_PLAYER_PRESSING_HORN(Player player);
 --@params player Player
 --@return BOOL
-function IsPlayerPressingHorn(player) end
+function IsPlayerPressingHorn(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -787,7 +870,8 @@ function IsPlayerPressingHorn(player) end
 --@params player Player
 --@params entity Entity
 --@return BOOL
-function IsPlayerTargettingEntity(player,entity) end
+function IsPlayerTargettingEntity(player, entity)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -796,7 +880,8 @@ function IsPlayerTargettingEntity(player,entity) end
 --@usage BOOL IS_PLAYER_SCRIPT_CONTROL_ON(Player player);
 --@params player Player
 --@return BOOL
-function IsPlayerScriptControlOn(player) end
+function IsPlayerScriptControlOn(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -805,7 +890,8 @@ function IsPlayerScriptControlOn(player) end
 --@usage BOOL IS_PLAYER_TARGETTING_ANYTHING(Player player);
 --@params player Player
 --@return BOOL
-function IsPlayerTargettingAnything(player) end
+function IsPlayerTargettingAnything(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -815,7 +901,8 @@ function IsPlayerTargettingAnything(player) end
 --@params player Player
 --@params wantedLevel int
 --@return BOOL
-function IsPlayerWantedLevelGreater(player,wantedLevel) end
+function IsPlayerWantedLevelGreater(player, wantedLevel)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -824,7 +911,8 @@ function IsPlayerWantedLevelGreater(player,wantedLevel) end
 --@usage BOOL IS_PLAYER_LOGGING_IN_NP();
 
 --@return BOOL
-function IsPlayerLoggingInNp() end
+function IsPlayerLoggingInNp()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -833,7 +921,8 @@ function IsPlayerLoggingInNp() end
 --@usage BOOL IS_PLAYER_TELEPORT_ACTIVE();
 
 --@return BOOL
-function IsPlayerTeleportActive() end
+function IsPlayerTeleportActive()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -842,7 +931,8 @@ function IsPlayerTeleportActive() end
 --@usage BOOL IS_SPECIAL_ABILITY_ENABLED(Player player);
 --@params player Player
 --@return BOOL
-function IsSpecialAbilityEnabled(player) end
+function IsSpecialAbilityEnabled(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -851,7 +941,8 @@ function IsSpecialAbilityEnabled(player) end
 --@usage BOOL IS_SPECIAL_ABILITY_ACTIVE(Player player);
 --@params player Player
 --@return BOOL
-function IsSpecialAbilityActive(player) end
+function IsSpecialAbilityActive(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -860,7 +951,8 @@ function IsSpecialAbilityActive(player) end
 --@usage BOOL IS_SPECIAL_ABILITY_UNLOCKED(Hash playerModel);
 --@params playerModel Hash
 --@return BOOL
-function IsSpecialAbilityUnlocked(playerModel) end
+function IsSpecialAbilityUnlocked(playerModel)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -869,7 +961,8 @@ function IsSpecialAbilityUnlocked(playerModel) end
 --@usage BOOL IS_SYSTEM_UI_BEING_DISPLAYED();
 
 --@return BOOL
-function IsSystemUiBeingDisplayed() end
+function IsSystemUiBeingDisplayed()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -878,7 +971,8 @@ function IsSystemUiBeingDisplayed() end
 --@usage BOOL IS_PLAYER_RIDING_TRAIN(Player player);
 --@params player Player
 --@return BOOL
-function IsPlayerRidingTrain(player) end
+function IsPlayerRidingTrain(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -887,7 +981,8 @@ function IsPlayerRidingTrain(player) end
 --@usage BOOL IS_SPECIAL_ABILITY_METER_FULL(Player player);
 --@params player Player
 --@return BOOL
-function IsSpecialAbilityMeterFull(player) end
+function IsSpecialAbilityMeterFull(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -897,7 +992,8 @@ function IsSpecialAbilityMeterFull(player) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x2f41a3bae005e5fa(p0,p1) end
+function N_0x2f41a3bae005e5fa(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -906,7 +1002,8 @@ function N_0x2f41a3bae005e5fa(p0,p1) end
 --@usage void undefined();
 
 --@return void
-function N_0x0032a6dba562c518() end
+function N_0x0032a6dba562c518()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -915,7 +1012,8 @@ function N_0x0032a6dba562c518() end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x2f7ceb6520288061(p0) end
+function N_0x2f7ceb6520288061(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -925,7 +1023,8 @@ function N_0x2f7ceb6520288061(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x31e90b8873a4cd3b(p0,p1) end
+function N_0x31e90b8873a4cd3b(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -934,7 +1033,8 @@ function N_0x31e90b8873a4cd3b(p0,p1) end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x237440e46d918649(p0) end
+function N_0x237440e46d918649(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -944,7 +1044,8 @@ function N_0x237440e46d918649(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x2382ab11450ae7ba(p0,p1) end
+function N_0x2382ab11450ae7ba(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -953,7 +1054,8 @@ function N_0x2382ab11450ae7ba(p0,p1) end
 --@usage void undefined(Player player);
 --@params player Player
 --@return void
-function N_0x4669b3ed80f24b4e(player) end
+function N_0x4669b3ed80f24b4e(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -964,7 +1066,8 @@ function N_0x4669b3ed80f24b4e(player) end
 --@params player2 Player
 --@params toggle BOOL
 --@return void
-function N_0x55fcc0c390620314(player1,player2,toggle) end
+function N_0x55fcc0c390620314(player1, player2, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -973,7 +1076,8 @@ function N_0x55fcc0c390620314(player1,player2,toggle) end
 --@usage void undefined(Player player);
 --@params player Player
 --@return void
-function N_0x5501b7a5cdb79d37(player) end
+function N_0x5501b7a5cdb79d37(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -982,7 +1086,8 @@ function N_0x5501b7a5cdb79d37(player) end
 --@usage BOOL undefined(Player player);
 --@params player Player
 --@return BOOL
-function N_0x690a61a6d13583f6(player) end
+function N_0x690a61a6d13583f6(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -991,7 +1096,8 @@ function N_0x690a61a6d13583f6(player) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x6e4361ff3e8cd7ca(p0) end
+function N_0x6e4361ff3e8cd7ca(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1000,7 +1106,8 @@ function N_0x6e4361ff3e8cd7ca(p0) end
 --@usage BOOL undefined(Player player);
 --@params player Player
 --@return BOOL
-function N_0x5fc472c501ccadb3(player) end
+function N_0x5fc472c501ccadb3(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1011,7 +1118,8 @@ function N_0x5fc472c501ccadb3(player) end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x70a382adec069dd3(p0,p1,p2) end
+function N_0x70a382adec069dd3(p0, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1025,7 +1133,8 @@ function N_0x70a382adec069dd3(p0,p1,p2) end
 --@params p4 Any
 --@params p5 Any
 --@return void
-function N_0x7bae68775557ae0b(p0,p1,p2,p3,p4,p5) end
+function N_0x7bae68775557ae0b(p0, p1, p2, p3, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1034,7 +1143,8 @@ function N_0x7bae68775557ae0b(p0,p1,p2,p3,p4,p5) end
 --@usage void undefined(Player player);
 --@params player Player
 --@return void
-function N_0x36f1b38855f2a8df(player) end
+function N_0x36f1b38855f2a8df(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1044,7 +1154,8 @@ function N_0x36f1b38855f2a8df(player) end
 --@params player Player
 --@params p1 float
 --@return void
-function N_0x8d768602adef2245(player,p1) end
+function N_0x8d768602adef2245(player, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1053,7 +1164,8 @@ function N_0x8d768602adef2245(player,p1) end
 --@usage void undefined(Player player);
 --@params player Player
 --@return void
-function N_0x9edd76e87d5d51ba(player) end
+function N_0x9edd76e87d5d51ba(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1062,7 +1174,8 @@ function N_0x9edd76e87d5d51ba(player) end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x7e07c78925d5fd96(p0) end
+function N_0x7e07c78925d5fd96(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1071,7 +1184,8 @@ function N_0x7e07c78925d5fd96(p0) end
 --@usage void undefined(Player player);
 --@params player Player
 --@return void
-function N_0xad73ce5a09e42d12(player) end
+function N_0xad73ce5a09e42d12(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1081,7 +1195,8 @@ function N_0xad73ce5a09e42d12(player) end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function N_0xa0d3e4f7aafb7e78(p0,p1) end
+function N_0xa0d3e4f7aafb7e78(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1090,7 +1205,8 @@ function N_0xa0d3e4f7aafb7e78(p0,p1) end
 --@usage void undefined(float p0);
 --@params p0 float
 --@return void
-function N_0xb45eff719d8427a6(p0) end
+function N_0xb45eff719d8427a6(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1099,7 +1215,8 @@ function N_0xb45eff719d8427a6(p0) end
 --@usage void undefined();
 
 --@return void
-function N_0xb885852c39cc265d() end
+function N_0xb885852c39cc265d()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1108,7 +1225,8 @@ function N_0xb885852c39cc265d() end
 --@usage void undefined();
 
 --@return void
-function N_0x7148e0f43d11f0d9() end
+function N_0x7148e0f43d11f0d9()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1119,7 +1237,8 @@ function N_0x7148e0f43d11f0d9() end
 --@params p1 int
 --@params p2 BOOL
 --@return BOOL
-function N_0xbc0753c9ca14b506(player,p1,p2) end
+function N_0xbc0753c9ca14b506(player, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1128,7 +1247,8 @@ function N_0xbc0753c9ca14b506(player,p1,p2) end
 --@usage void undefined(Player player);
 --@params player Player
 --@return void
-function N_0xc9a763d8fe87436a(player) end
+function N_0xc9a763d8fe87436a(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1137,7 +1257,8 @@ function N_0xc9a763d8fe87436a(player) end
 --@usage void undefined(Player player);
 --@params player Player
 --@return void
-function N_0xc3376f42b1faccc6(player) end
+function N_0xc3376f42b1faccc6(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1146,7 +1267,8 @@ function N_0xc3376f42b1faccc6(player) end
 --@usage void undefined(Player player);
 --@params player Player
 --@return void
-function N_0xbc9490ca15aea8fb(player) end
+function N_0xbc9490ca15aea8fb(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1156,7 +1278,8 @@ function N_0xbc9490ca15aea8fb(player) end
 --@params player Player
 --@params p1 BOOL
 --@return void
-function N_0xcac57395b151135f(player,p1) end
+function N_0xcac57395b151135f(player, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1165,7 +1288,8 @@ function N_0xcac57395b151135f(player,p1) end
 --@usage void undefined(Player player);
 --@params player Player
 --@return void
-function N_0xdc64d2c53493ed12(player) end
+function N_0xdc64d2c53493ed12(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1174,7 +1298,8 @@ function N_0xdc64d2c53493ed12(player) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0xcb645e85e97ea48b() end
+function N_0xcb645e85e97ea48b()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1184,7 +1309,8 @@ function N_0xcb645e85e97ea48b() end
 --@params player Player
 --@params p1 float
 --@return BOOL
-function N_0xdd2620b7b9d16ff1(player,p1) end
+function N_0xdd2620b7b9d16ff1(player, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1194,7 +1320,8 @@ function N_0xdd2620b7b9d16ff1(player,p1) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function N_0xde45d1a1ef45ee61(player,toggle) end
+function N_0xde45d1a1ef45ee61(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1203,7 +1330,8 @@ function N_0xde45d1a1ef45ee61(player,toggle) end
 --@usage BOOL undefined();
 
 --@return BOOL
-function N_0xb9cf1f793a9f1bf1() end
+function N_0xb9cf1f793a9f1bf1()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1212,7 +1340,8 @@ function N_0xb9cf1f793a9f1bf1() end
 --@usage void undefined(Player player);
 --@params player Player
 --@return void
-function N_0xfac75988a7d078d3(player) end
+function N_0xfac75988a7d078d3(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1222,7 +1351,8 @@ function N_0xfac75988a7d078d3(player) end
 --@params player Player
 --@params p1 int
 --@return BOOL
-function N_0xf10b44fd479d69f3(player,p1) end
+function N_0xf10b44fd479d69f3(player, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1231,7 +1361,8 @@ function N_0xf10b44fd479d69f3(player,p1) end
 --@usage void undefined(Player player);
 --@params player Player
 --@return void
-function N_0xffee8fa29ab9a18e(player) end
+function N_0xffee8fa29ab9a18e(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1241,7 +1372,8 @@ function N_0xffee8fa29ab9a18e(player) end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xd821056b9acf8052(p0,p1) end
+function N_0xd821056b9acf8052(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1257,7 +1389,8 @@ function N_0xd821056b9acf8052(p0,p1) end
 --@params p6 float
 --@params p7 float
 --@return void
-function PlayerAttachVirtualBound(p0,p1,p2,p3,p4,p5,p6,p7) end
+function PlayerAttachVirtualBound(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1266,7 +1399,8 @@ function PlayerAttachVirtualBound(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@usage void PLAYER_DETACH_VIRTUAL_BOUND();
 
 --@return void
-function PlayerDetachVirtualBound() end
+function PlayerDetachVirtualBound()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1275,7 +1409,8 @@ function PlayerDetachVirtualBound() end
 --@usage Player PLAYER_ID();
 
 --@return Player
-function PlayerId() end
+function PlayerId()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1285,7 +1420,8 @@ function PlayerId() end
 --@params player Player
 --@params p2 BOOL
 --@return Any
-function RemovePlayerHelmet(player,p2) end
+function RemovePlayerHelmet(player, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1296,7 +1432,8 @@ function RemovePlayerHelmet(player,p2) end
 --@params crimeType int
 --@params wantedLvlThresh int
 --@return void
-function ReportCrime(player,crimeType,wantedLvlThresh) end
+function ReportCrime(player, crimeType, wantedLvlThresh)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1305,7 +1442,8 @@ function ReportCrime(player,crimeType,wantedLvlThresh) end
 --@usage int NETWORK_PLAYER_ID_TO_INT();
 
 --@return int
-function NetworkPlayerIdToInt() end
+function NetworkPlayerIdToInt()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1314,7 +1452,8 @@ function NetworkPlayerIdToInt() end
 --@usage void RESET_PLAYER_ARREST_STATE(Player player);
 --@params player Player
 --@return void
-function ResetPlayerArrestState(player) end
+function ResetPlayerArrestState(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1323,7 +1462,8 @@ function ResetPlayerArrestState(player) end
 --@usage void RESET_PLAYER_STAMINA(Player player);
 --@params player Player
 --@return void
-function ResetPlayerStamina(player) end
+function ResetPlayerStamina(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1332,7 +1472,8 @@ function ResetPlayerStamina(player) end
 --@usage void RESET_WORLD_BOUNDARY_FOR_PLAYER();
 
 --@return void
-function ResetWorldBoundaryForPlayer() end
+function ResetWorldBoundaryForPlayer()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1341,7 +1482,8 @@ function ResetWorldBoundaryForPlayer() end
 --@usage void RESET_WANTED_LEVEL_DIFFICULTY(Player player);
 --@params player Player
 --@return void
-function ResetWantedLevelDifficulty(player) end
+function ResetWantedLevelDifficulty(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1351,7 +1493,8 @@ function ResetWantedLevelDifficulty(player) end
 --@params player Player
 --@params p1 float
 --@return void
-function RestorePlayerStamina(player,p1) end
+function RestorePlayerStamina(player, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1360,7 +1503,8 @@ function RestorePlayerStamina(player,p1) end
 --@usage Ped PLAYER_PED_ID();
 
 --@return Ped
-function PlayerPedId() end
+function PlayerPedId()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1370,7 +1514,8 @@ function PlayerPedId() end
 --@params achievement int
 --@params progress int
 --@return BOOL
-function SetAchievementProgression(achievement,progress) end
+function SetAchievementProgression(achievement, progress)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1380,7 +1525,8 @@ function SetAchievementProgression(achievement,progress) end
 --@params player Player
 --@params multiplier float
 --@return void
-function SetAirDragMultiplierForPlayersVehicle(player,multiplier) end
+function SetAirDragMultiplierForPlayersVehicle(player, multiplier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1390,7 +1536,8 @@ function SetAirDragMultiplierForPlayersVehicle(player,multiplier) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetAllRandomPedsFlee(player,toggle) end
+function SetAllRandomPedsFlee(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1400,7 +1547,8 @@ function SetAllRandomPedsFlee(player,toggle) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetAutoGiveParachuteWhenEnterPlane(player,toggle) end
+function SetAutoGiveParachuteWhenEnterPlane(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1410,7 +1558,8 @@ function SetAutoGiveParachuteWhenEnterPlane(player,toggle) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetAutoGiveScubaGearWhenExitVehicle(player,toggle) end
+function SetAutoGiveScubaGearWhenExitVehicle(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1419,7 +1568,8 @@ function SetAutoGiveScubaGearWhenExitVehicle(player,toggle) end
 --@usage void SET_ALL_RANDOM_PEDS_FLEE_THIS_FRAME(Player player);
 --@params player Player
 --@return void
-function SetAllRandomPedsFleeThisFrame(player) end
+function SetAllRandomPedsFleeThisFrame(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1429,7 +1579,8 @@ function SetAllRandomPedsFleeThisFrame(player) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetDisableAmbientMeleeMove(player,toggle) end
+function SetDisableAmbientMeleeMove(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1438,7 +1589,8 @@ function SetDisableAmbientMeleeMove(player,toggle) end
 --@usage void RESET_PLAYER_INPUT_GAIT(Player player);
 --@params player Player
 --@return void
-function ResetPlayerInputGait(player) end
+function ResetPlayerInputGait(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1448,7 +1600,8 @@ function ResetPlayerInputGait(player) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetEveryoneIgnorePlayer(player,toggle) end
+function SetEveryoneIgnorePlayer(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1458,7 +1611,8 @@ function SetEveryoneIgnorePlayer(player,toggle) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetIgnoreLowPriorityShockingEvents(player,toggle) end
+function SetIgnoreLowPriorityShockingEvents(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1468,7 +1622,8 @@ function SetIgnoreLowPriorityShockingEvents(player,toggle) end
 --@params player BOOL
 --@params state ScrHandle
 --@return void
-function SetPlayerBluetoothState(player,state) end
+function SetPlayerBluetoothState(player, state)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1478,7 +1633,8 @@ function SetPlayerBluetoothState(player,state) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetDispatchCopsForPlayer(player,toggle) end
+function SetDispatchCopsForPlayer(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1488,7 +1644,8 @@ function SetDispatchCopsForPlayer(player,toggle) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPlayerCanBeHassledByGangs(player,toggle) end
+function SetPlayerCanBeHassledByGangs(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1498,7 +1655,8 @@ function SetPlayerCanBeHassledByGangs(player,toggle) end
 --@params player Player
 --@params enabled BOOL
 --@return void
-function SetPlayerCanLeaveParachuteSmokeTrail(player,enabled) end
+function SetPlayerCanLeaveParachuteSmokeTrail(player, enabled)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1508,7 +1666,8 @@ function SetPlayerCanLeaveParachuteSmokeTrail(player,enabled) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPlayerCanDoDriveBy(player,toggle) end
+function SetPlayerCanDoDriveBy(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1518,7 +1677,8 @@ function SetPlayerCanDoDriveBy(player,toggle) end
 --@params player Player
 --@params toggle BOOL
 --@return Any
-function SetPlayerCanUseCover(player,toggle) end
+function SetPlayerCanUseCover(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1527,7 +1687,8 @@ function SetPlayerCanUseCover(player,toggle) end
 --@usage void SET_PLAYER_CLOTH_LOCK_COUNTER(int value);
 --@params value int
 --@return void
-function SetPlayerClothLockCounter(value) end
+function SetPlayerClothLockCounter(value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1536,7 +1697,8 @@ function SetPlayerClothLockCounter(value) end
 --@usage void SET_MAX_WANTED_LEVEL(int maxWantedLevel);
 --@params maxWantedLevel int
 --@return void
-function SetMaxWantedLevel(maxWantedLevel) end
+function SetMaxWantedLevel(maxWantedLevel)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1546,7 +1708,8 @@ function SetMaxWantedLevel(maxWantedLevel) end
 --@params player Player
 --@params distance float
 --@return void
-function SetPlayerFallDistance(player,distance) end
+function SetPlayerFallDistance(player, distance)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1557,7 +1720,8 @@ function SetPlayerFallDistance(player,distance) end
 --@params bHasControl BOOL
 --@params flags int
 --@return void
-function SetPlayerControl(player,bHasControl,flags) end
+function SetPlayerControl(player, bHasControl, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1567,7 +1731,8 @@ function SetPlayerControl(player,bHasControl,flags) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPlayerClothPinFrames(player,toggle) end
+function SetPlayerClothPinFrames(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1577,7 +1742,8 @@ function SetPlayerClothPinFrames(player,toggle) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPlayerForceSkipAimIntro(player,toggle) end
+function SetPlayerForceSkipAimIntro(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1587,7 +1753,8 @@ function SetPlayerForceSkipAimIntro(player,toggle) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPlayerForcedAim(player,toggle) end
+function SetPlayerForcedAim(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1597,7 +1764,8 @@ function SetPlayerForcedAim(player,toggle) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPlayerForcedZoom(player,toggle) end
+function SetPlayerForcedZoom(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1607,7 +1775,8 @@ function SetPlayerForcedZoom(player,toggle) end
 --@params player Player
 --@params limit float
 --@return void
-function SetPlayerHealthRechargeLimit(player,limit) end
+function SetPlayerHealthRechargeLimit(player, limit)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1616,7 +1785,8 @@ function SetPlayerHealthRechargeLimit(player,limit) end
 --@usage void SET_PLAYER_HAS_RESERVE_PARACHUTE(Player player);
 --@params player Player
 --@return void
-function SetPlayerHasReserveParachute(player) end
+function SetPlayerHasReserveParachute(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1626,7 +1796,8 @@ function SetPlayerHasReserveParachute(player) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPlayerInvincible(player,toggle) end
+function SetPlayerInvincible(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1636,7 +1807,8 @@ function SetPlayerInvincible(player,toggle) end
 --@params player Player
 --@params p1 BOOL
 --@return void
-function SetPlayerHomingRocketDisabled(player,p1) end
+function SetPlayerHomingRocketDisabled(player, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1646,7 +1818,8 @@ function SetPlayerHomingRocketDisabled(player,p1) end
 --@params player Player
 --@params regenRate float
 --@return void
-function SetPlayerHealthRechargeMultiplier(player,regenRate) end
+function SetPlayerHealthRechargeMultiplier(player, regenRate)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1656,7 +1829,8 @@ function SetPlayerHealthRechargeMultiplier(player,regenRate) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPlayerInvincibleKeepRagdollEnabled(player,toggle) end
+function SetPlayerInvincibleKeepRagdollEnabled(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1665,7 +1839,8 @@ function SetPlayerInvincibleKeepRagdollEnabled(player,toggle) end
 --@usage void SET_PLAYER_CLOTH_PACKAGE_INDEX(int index);
 --@params index int
 --@return void
-function SetPlayerClothPackageIndex(index) end
+function SetPlayerClothPackageIndex(index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1675,7 +1850,8 @@ function SetPlayerClothPackageIndex(index) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPlayerLockon(player,toggle) end
+function SetPlayerLockon(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1685,7 +1861,8 @@ function SetPlayerLockon(player,toggle) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPlayerLeavePedBehind(player,toggle) end
+function SetPlayerLeavePedBehind(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1695,7 +1872,8 @@ function SetPlayerLeavePedBehind(player,toggle) end
 --@params player Player
 --@params range float
 --@return void
-function SetPlayerLockonRangeOverride(player,range) end
+function SetPlayerLockonRangeOverride(player, range)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1705,7 +1883,8 @@ function SetPlayerLockonRangeOverride(player,range) end
 --@params player Player
 --@params value int
 --@return void
-function SetPlayerMaxArmour(player,value) end
+function SetPlayerMaxArmour(player, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1714,7 +1893,8 @@ function SetPlayerMaxArmour(player,value) end
 --@usage void SET_PLAYER_MAY_NOT_ENTER_ANY_VEHICLE(Player player);
 --@params player Player
 --@return void
-function SetPlayerMayNotEnterAnyVehicle(player) end
+function SetPlayerMayNotEnterAnyVehicle(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1724,7 +1904,8 @@ function SetPlayerMayNotEnterAnyVehicle(player) end
 --@params player Player
 --@params multiplier float
 --@return void
-function SetPlayerNoiseMultiplier(player,multiplier) end
+function SetPlayerNoiseMultiplier(player, multiplier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1734,7 +1915,8 @@ function SetPlayerNoiseMultiplier(player,multiplier) end
 --@params player Player
 --@params modifier float
 --@return void
-function SetPlayerMeleeWeaponDamageModifier(player,modifier) end
+function SetPlayerMeleeWeaponDamageModifier(player, modifier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1744,7 +1926,8 @@ function SetPlayerMeleeWeaponDamageModifier(player,modifier) end
 --@params player Player
 --@params modifier float
 --@return void
-function SetPlayerMeleeWeaponDefenseModifier(player,modifier) end
+function SetPlayerMeleeWeaponDefenseModifier(player, modifier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1754,7 +1937,8 @@ function SetPlayerMeleeWeaponDefenseModifier(player,modifier) end
 --@params player Player
 --@params model Hash
 --@return void
-function SetPlayerModel(player,model) end
+function SetPlayerModel(player, model)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1764,7 +1948,8 @@ function SetPlayerModel(player,model) end
 --@params player Player
 --@params vehicle Vehicle
 --@return void
-function SetPlayerMayOnlyEnterThisVehicle(player,vehicle) end
+function SetPlayerMayOnlyEnterThisVehicle(player, vehicle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1774,7 +1959,8 @@ function SetPlayerMayOnlyEnterThisVehicle(player,vehicle) end
 --@params player Player
 --@params tintIndex int
 --@return void
-function SetPlayerParachutePackTintIndex(player,tintIndex) end
+function SetPlayerParachutePackTintIndex(player, tintIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1784,7 +1970,8 @@ function SetPlayerParachutePackTintIndex(player,tintIndex) end
 --@params player Player
 --@params model Hash
 --@return void
-function SetPlayerParachutePackModelOverride(player,model) end
+function SetPlayerParachutePackModelOverride(player, model)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1794,7 +1981,8 @@ function SetPlayerParachutePackModelOverride(player,model) end
 --@params player Player
 --@params tintIndex int
 --@return void
-function SetPlayerParachuteTintIndex(player,tintIndex) end
+function SetPlayerParachuteTintIndex(player, tintIndex)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1806,7 +1994,8 @@ function SetPlayerParachuteTintIndex(player,tintIndex) end
 --@params g int
 --@params b int
 --@return void
-function SetPlayerParachuteSmokeTrailColor(player,r,g,b) end
+function SetPlayerParachuteSmokeTrailColor(player, r, g, b)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1819,7 +2008,8 @@ function SetPlayerParachuteSmokeTrailColor(player,r,g,b) end
 --@params p3 Any
 --@params p4 BOOL
 --@return void
-function SetPlayerParachuteVariationOverride(player,p1,p2,p3,p4) end
+function SetPlayerParachuteVariationOverride(player, p1, p2, p3, p4)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1829,7 +2019,8 @@ function SetPlayerParachuteVariationOverride(player,p1,p2,p3,p4) end
 --@params player Player
 --@params index int
 --@return void
-function SetPlayerReserveParachuteTintIndex(player,index) end
+function SetPlayerReserveParachuteTintIndex(player, index)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1839,7 +2030,8 @@ function SetPlayerReserveParachuteTintIndex(player,index) end
 --@params player Player
 --@params model Hash
 --@return void
-function SetPlayerParachuteModelOverride(player,model) end
+function SetPlayerParachuteModelOverride(player, model)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1849,7 +2041,8 @@ function SetPlayerParachuteModelOverride(player,model) end
 --@params player Player
 --@params flags int
 --@return void
-function SetPlayerResetFlagPreferRearSeats(player,flags) end
+function SetPlayerResetFlagPreferRearSeats(player, flags)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1859,7 +2052,8 @@ function SetPlayerResetFlagPreferRearSeats(player,flags) end
 --@params player Player
 --@params multiplier float
 --@return void
-function SetPlayerSneakingNoiseMultiplier(player,multiplier) end
+function SetPlayerSneakingNoiseMultiplier(player, multiplier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1869,7 +2063,8 @@ function SetPlayerSneakingNoiseMultiplier(player,multiplier) end
 --@params player Player
 --@params value float
 --@return void
-function SetPlayerStealthPerceptionModifier(player,value) end
+function SetPlayerStealthPerceptionModifier(player, value)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1878,7 +2073,8 @@ function SetPlayerStealthPerceptionModifier(player,value) end
 --@usage void SET_PLAYER_TARGETING_MODE(int targetMode);
 --@params targetMode int
 --@return void
-function SetPlayerTargetingMode(targetMode) end
+function SetPlayerTargetingMode(targetMode)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1888,7 +2084,8 @@ function SetPlayerTargetingMode(targetMode) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPlayerSimulateAiming(player,toggle) end
+function SetPlayerSimulateAiming(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1898,7 +2095,8 @@ function SetPlayerSimulateAiming(player,toggle) end
 --@params player Player
 --@params modifier float
 --@return void
-function SetPlayerVehicleDefenseModifier(player,modifier) end
+function SetPlayerVehicleDefenseModifier(player, modifier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1908,7 +2106,8 @@ function SetPlayerVehicleDefenseModifier(player,modifier) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPlayerSprint(player,toggle) end
+function SetPlayerSprint(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1917,7 +2116,8 @@ function SetPlayerSprint(player,toggle) end
 --@usage void SET_PLAYER_TARGET_LEVEL(int targetLevel);
 --@params targetLevel int
 --@return void
-function SetPlayerTargetLevel(targetLevel) end
+function SetPlayerTargetLevel(targetLevel)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1928,7 +2128,8 @@ function SetPlayerTargetLevel(targetLevel) end
 --@params wantedLevel int
 --@params disableNoMission BOOL
 --@return void
-function SetPlayerWantedLevel(player,wantedLevel,disableNoMission) end
+function SetPlayerWantedLevel(player, wantedLevel, disableNoMission)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1940,7 +2141,8 @@ function SetPlayerWantedLevel(player,wantedLevel,disableNoMission) end
 --@params y float
 --@params z float
 --@return void
-function SetPlayerWantedCentrePosition(player,position,y,z) end
+function SetPlayerWantedCentrePosition(player, position, y, z)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1950,7 +2152,8 @@ function SetPlayerWantedCentrePosition(player,position,y,z) end
 --@params player Player
 --@params p1 BOOL
 --@return void
-function SetPlayerWantedLevelNow(player,p1) end
+function SetPlayerWantedLevelNow(player, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1960,7 +2163,8 @@ function SetPlayerWantedLevelNow(player,p1) end
 --@params player Player
 --@params modifier float
 --@return void
-function SetPlayerVehicleDamageModifier(player,modifier) end
+function SetPlayerVehicleDamageModifier(player, modifier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1971,7 +2175,8 @@ function SetPlayerVehicleDamageModifier(player,modifier) end
 --@params wantedLevel int
 --@params p2 BOOL
 --@return void
-function SetPlayerWantedLevelNoDrop(player,wantedLevel,p2) end
+function SetPlayerWantedLevelNoDrop(player, wantedLevel, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1981,7 +2186,8 @@ function SetPlayerWantedLevelNoDrop(player,wantedLevel,p2) end
 --@params player Player
 --@params toggle BOOL
 --@return void
-function SetPoliceIgnorePlayer(player,toggle) end
+function SetPoliceIgnorePlayer(player, toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1991,7 +2197,8 @@ function SetPoliceIgnorePlayer(player,toggle) end
 --@params player Player
 --@params modifier ScrHandle
 --@return void
-function SetPlayerWeaponDefenseModifier(player,modifier) end
+function SetPlayerWeaponDefenseModifier(player, modifier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2001,7 +2208,8 @@ function SetPlayerWeaponDefenseModifier(player,modifier) end
 --@params player Player
 --@params modifier float
 --@return void
-function SetPlayerWeaponDamageModifier(player,modifier) end
+function SetPlayerWeaponDamageModifier(player, modifier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2011,7 +2219,8 @@ function SetPlayerWeaponDamageModifier(player,modifier) end
 --@params player Player
 --@params modifier float
 --@return void
-function SetPlayerWeaponDefenseModifier_2(player,modifier) end
+function SetPlayerWeaponDefenseModifier_2(player, modifier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2021,7 +2230,8 @@ function SetPlayerWeaponDefenseModifier_2(player,modifier) end
 --@params player Player
 --@params multiplier float
 --@return void
-function SetRunSprintMultiplierForPlayer(player,multiplier) end
+function SetRunSprintMultiplierForPlayer(player, multiplier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2031,7 +2241,8 @@ function SetRunSprintMultiplierForPlayer(player,multiplier) end
 --@params player Player
 --@params team int
 --@return void
-function SetPlayerTeam(player,team) end
+function SetPlayerTeam(player, team)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2041,7 +2252,8 @@ function SetPlayerTeam(player,team) end
 --@params player Player
 --@params p1 int
 --@return void
-function SetSpecialAbility(player,p1) end
+function SetSpecialAbility(player, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2050,7 +2262,8 @@ function SetSpecialAbility(player,p1) end
 --@usage void SET_SPECIAL_ABILITY_MULTIPLIER(float multiplier);
 --@params multiplier float
 --@return void
-function SetSpecialAbilityMultiplier(multiplier) end
+function SetSpecialAbilityMultiplier(multiplier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2060,7 +2273,8 @@ function SetSpecialAbilityMultiplier(multiplier) end
 --@params player Player
 --@params multiplier float
 --@return void
-function SetSwimMultiplierForPlayer(player,multiplier) end
+function SetSwimMultiplierForPlayer(player, multiplier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2074,7 +2288,8 @@ function SetSwimMultiplierForPlayer(player,multiplier) end
 --@params p4 BOOL
 --@params p5 BOOL
 --@return void
-function SimulatePlayerInputGait(player,amount,gaitType,speed,p4,p5) end
+function SimulatePlayerInputGait(player, amount, gaitType, speed, p4, p5)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2085,7 +2300,8 @@ function SimulatePlayerInputGait(player,amount,gaitType,speed,p4,p5) end
 --@params p1 int
 --@params p2 BOOL
 --@return void
-function SpecialAbilityChargeAbsolute(player,p1,p2) end
+function SpecialAbilityChargeAbsolute(player, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2094,7 +2310,8 @@ function SpecialAbilityChargeAbsolute(player,p1,p2) end
 --@usage void SET_POLICE_RADAR_BLIPS(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetPoliceRadarBlips(toggle) end
+function SetPoliceRadarBlips(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2105,7 +2322,8 @@ function SetPoliceRadarBlips(toggle) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function SpecialAbilityChargeLarge(player,p1,p2) end
+function SpecialAbilityChargeLarge(player, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2114,7 +2332,8 @@ function SpecialAbilityChargeLarge(player,p1,p2) end
 --@usage void _SPECIAL_ABILITY_ACTIVATE(Player player);
 --@params player Player
 --@return void
-function SpecialAbilityActivate(player) end
+function SpecialAbilityActivate(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2124,7 +2343,8 @@ function SpecialAbilityActivate(player) end
 --@params player Player
 --@params difficulty float
 --@return void
-function SetWantedLevelDifficulty(player,difficulty) end
+function SetWantedLevelDifficulty(player, difficulty)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2133,7 +2353,8 @@ function SetWantedLevelDifficulty(player,difficulty) end
 --@usage void SET_WANTED_LEVEL_MULTIPLIER(float multiplier);
 --@params multiplier float
 --@return void
-function SetWantedLevelMultiplier(multiplier) end
+function SetWantedLevelMultiplier(multiplier)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2144,7 +2365,8 @@ function SetWantedLevelMultiplier(multiplier) end
 --@params normalizedValue float
 --@params p2 BOOL
 --@return void
-function SpecialAbilityChargeNormalized(player,normalizedValue,p2) end
+function SpecialAbilityChargeNormalized(player, normalizedValue, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2153,7 +2375,8 @@ function SpecialAbilityChargeNormalized(player,normalizedValue,p2) end
 --@usage void _SPECIAL_ABILITY_DEPLETE(Any p0);
 --@params p0 Any
 --@return void
-function SpecialAbilityDeplete(p0) end
+function SpecialAbilityDeplete(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2163,7 +2386,8 @@ function SpecialAbilityDeplete(p0) end
 --@params player Player
 --@params p2 Ped
 --@return void
-function SpecialAbilityChargeContinuous(player,p2) end
+function SpecialAbilityChargeContinuous(player, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2174,7 +2398,8 @@ function SpecialAbilityChargeContinuous(player,p2) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function SpecialAbilityChargeMedium(player,p1,p2) end
+function SpecialAbilityChargeMedium(player, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2183,7 +2408,8 @@ function SpecialAbilityChargeMedium(player,p1,p2) end
 --@usage void SPECIAL_ABILITY_RESET(Player player);
 --@params player Player
 --@return void
-function SpecialAbilityReset(player) end
+function SpecialAbilityReset(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2192,7 +2418,8 @@ function SpecialAbilityReset(player) end
 --@usage void SPECIAL_ABILITY_DEACTIVATE(Player player);
 --@params player Player
 --@return void
-function SpecialAbilityDeactivate(player) end
+function SpecialAbilityDeactivate(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2203,7 +2430,8 @@ function SpecialAbilityDeactivate(player) end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function SpecialAbilityChargeSmall(player,p1,p2) end
+function SpecialAbilityChargeSmall(player, p1, p2)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2212,7 +2440,8 @@ function SpecialAbilityChargeSmall(player,p1,p2) end
 --@usage void START_FIRING_AMNESTY(int duration);
 --@params duration int
 --@return void
-function StartFiringAmnesty(duration) end
+function StartFiringAmnesty(duration)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2222,7 +2451,8 @@ function StartFiringAmnesty(duration) end
 --@params player Player
 --@params p1 BOOL
 --@return void
-function SpecialAbilityFillMeter(player,p1) end
+function SpecialAbilityFillMeter(player, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2231,7 +2461,8 @@ function SpecialAbilityFillMeter(player,p1) end
 --@usage void SPECIAL_ABILITY_UNLOCK(Hash playerModel);
 --@params playerModel Hash
 --@return void
-function SpecialAbilityUnlock(playerModel) end
+function SpecialAbilityUnlock(playerModel)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2240,7 +2471,8 @@ function SpecialAbilityUnlock(playerModel) end
 --@usage void SPECIAL_ABILITY_DEACTIVATE_FAST(Player player);
 --@params player Player
 --@return void
-function SpecialAbilityDeactivateFast(player) end
+function SpecialAbilityDeactivateFast(player)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2250,7 +2482,8 @@ function SpecialAbilityDeactivateFast(player) end
 --@params player Player
 --@params p1 BOOL
 --@return void
-function SpecialAbilityDepleteMeter(player,p1) end
+function SpecialAbilityDepleteMeter(player, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2266,7 +2499,8 @@ function SpecialAbilityDepleteMeter(player,p1) end
 --@params findCollisionLand BOOL
 --@params p7 BOOL
 --@return void
-function StartPlayerTeleport(player,x,y,z,heading,p5,findCollisionLand,p7) end
+function StartPlayerTeleport(player, x, y, z, heading, p5, findCollisionLand, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2275,7 +2509,8 @@ function StartPlayerTeleport(player,x,y,z,heading,p5,findCollisionLand,p7) end
 --@usage void STOP_PLAYER_TELEPORT();
 
 --@return void
-function StopPlayerTeleport() end
+function StopPlayerTeleport()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2285,7 +2520,8 @@ function StopPlayerTeleport() end
 --@params player Player
 --@params p1 int
 --@return void
-function SwitchCrimeType(player,p1) end
+function SwitchCrimeType(player, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2294,4 +2530,5 @@ function SwitchCrimeType(player,p1) end
 --@usage void SPECIAL_ABILITY_LOCK(Hash playerModel);
 --@params playerModel Hash
 --@return void
-function SpecialAbilityLock(playerModel) end
+function SpecialAbilityLock(playerModel)
+end

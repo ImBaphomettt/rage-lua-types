@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule UNK
@@ -6,7 +5,8 @@
 --@usage BOOL _LOADINGSCREEN_GET_LOAD_FREEMODE();
 
 --@return BOOL
-function LoadingscreenGetLoadFreemode() end
+function LoadingscreenGetLoadFreemode()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function LoadingscreenGetLoadFreemode() end
 --@usage int _GET_USER_LANGUAGE_ID();
 
 --@return int
-function GetUserLanguageId() end
+function GetUserLanguageId()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function GetUserLanguageId() end
 --@usage BOOL _LOADINGSCREEN_GET_LOAD_FREEMODE_WITH_EVENT_NAME();
 
 --@return BOOL
-function LoadingscreenGetLoadFreemodeWithEventName() end
+function LoadingscreenGetLoadFreemodeWithEventName()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -33,7 +35,8 @@ function LoadingscreenGetLoadFreemodeWithEventName() end
 --@usage void _LOADINGSCREEN_SET_LOAD_FREEMODE_WITH_EVENT_NAME(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function LoadingscreenSetLoadFreemodeWithEventName(toggle) end
+function LoadingscreenSetLoadFreemodeWithEventName(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -42,7 +45,8 @@ function LoadingscreenSetLoadFreemodeWithEventName(toggle) end
 --@usage int GET_CURRENT_LANGUAGE();
 
 --@return int
-function GetCurrentLanguage() end
+function GetCurrentLanguage()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -51,7 +55,8 @@ function GetCurrentLanguage() end
 --@usage BOOL _LOADINGSCREEN_IS_LOADING_FREEMODE();
 
 --@return BOOL
-function LoadingscreenIsLoadingFreemode() end
+function LoadingscreenIsLoadingFreemode()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -60,7 +65,8 @@ function LoadingscreenIsLoadingFreemode() end
 --@usage void _LOADINGSCREEN_SET_IS_LOADING_FREEMODE(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function LoadingscreenSetIsLoadingFreemode(toggle) end
+function LoadingscreenSetIsLoadingFreemode(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -69,7 +75,8 @@ function LoadingscreenSetIsLoadingFreemode(toggle) end
 --@usage void _LOADINGSCREEN_SET_LOAD_FREEMODE(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function LoadingscreenSetLoadFreemode(toggle) end
+function LoadingscreenSetLoadFreemode(toggle)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -78,7 +85,8 @@ function LoadingscreenSetLoadFreemode(toggle) end
 --@usage int undefined();
 
 --@return int
-function N_0xf2ca003f167e21d2() end
+function N_0xf2ca003f167e21d2()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -87,4 +95,5 @@ function N_0xf2ca003f167e21d2() end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0xfa1e0e893d915215(toggle) end
+function N_0xfa1e0e893d915215(toggle)
+end

@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule COMPENDIUM
@@ -6,7 +5,8 @@
 --@usage undefined _0x729D52F61A5A9E22(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x729d52f61a5a9e22(p0) end
+function N_0x729d52f61a5a9e22(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function N_0x729d52f61a5a9e22(p0) end
 --@usage undefined _0x729D52461AEA9E22(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x729d52461aea9e22(p0) end
+function N_0x729d52461aea9e22(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -24,7 +25,8 @@ function N_0x729d52461aea9e22(p0) end
 --@usage undefined COMPENDIUM_GET_SHORT_DESCRIPTION_FROM_PED(Any p0);
 --@params p0 Any
 --@return undefined
-function CompendiumGetShortDescriptionFromPed(p0) end
+function CompendiumGetShortDescriptionFromPed(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -34,7 +36,8 @@ function CompendiumGetShortDescriptionFromPed(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function CompendiumAnimalObservedByStatName(p0,p1) end
+function CompendiumAnimalObservedByStatName(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -43,7 +46,8 @@ function CompendiumAnimalObservedByStatName(p0,p1) end
 --@usage undefined _0x725D52F21A5E9E22(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x725d52f21a5e9e22(p0) end
+function N_0x725d52f21a5e9e22(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -55,7 +59,8 @@ function N_0x725d52f21a5e9e22(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function CompendiumGetMapDiscoverableFromStatItem(p0,p1,p2,p3) end
+function CompendiumGetMapDiscoverableFromStatItem(p0, p1, p2, p3)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -65,7 +70,8 @@ function CompendiumGetMapDiscoverableFromStatItem(p0,p1,p2,p3) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function CompendiumFishGetLureSuitabilityByStatItem(p0,p1) end
+function CompendiumFishGetLureSuitabilityByStatItem(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -74,7 +80,8 @@ function CompendiumFishGetLureSuitabilityByStatItem(p0,p1) end
 --@usage undefined COMPENDIUM_GANG_AMBUSH_SURVIVED(Any p0);
 --@params p0 Any
 --@return undefined
-function CompendiumGangAmbushSurvived(p0) end
+function CompendiumGangAmbushSurvived(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -84,7 +91,8 @@ function CompendiumGangAmbushSurvived(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function CompendiumFishCaught(p0,p1) end
+function CompendiumFishCaught(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -94,7 +102,8 @@ function CompendiumFishCaught(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function CompendiumGangCampFound(p0,p1) end
+function CompendiumGangCampFound(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -103,7 +112,8 @@ function CompendiumGangCampFound(p0,p1) end
 --@usage undefined COMPENDIUM_GANG_BOUNTY_CAPTURED(Any p0);
 --@params p0 Any
 --@return undefined
-function CompendiumGangBountyCaptured(p0) end
+function CompendiumGangBountyCaptured(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -112,7 +122,8 @@ function CompendiumGangBountyCaptured(p0) end
 --@usage undefined COMPENDIUM_GANG_ENCOUNTERED(Any p0);
 --@params p0 Any
 --@return undefined
-function CompendiumGangEncountered(p0) end
+function CompendiumGangEncountered(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -121,7 +132,8 @@ function CompendiumGangEncountered(p0) end
 --@usage undefined COMPENDIUM_GANG_MEMBER_KILLED(Any p0);
 --@params p0 Any
 --@return undefined
-function CompendiumGangMemberKilled(p0) end
+function CompendiumGangMemberKilled(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -131,7 +143,8 @@ function CompendiumGangMemberKilled(p0) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function CompendiumHorseBonding(p0,p1) end
+function CompendiumHorseBonding(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -141,7 +154,8 @@ function CompendiumHorseBonding(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function CompendiumGangHideoutFound(p0,p1) end
+function CompendiumGangHideoutFound(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -151,7 +165,8 @@ function CompendiumGangHideoutFound(p0,p1) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function CompendiumHorseObserved(p0,p1) end
+function CompendiumHorseObserved(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -160,7 +175,8 @@ function CompendiumHorseObserved(p0,p1) end
 --@usage undefined COMPENDIUM_HORSE_WILD_BROKEN(Any p0);
 --@params p0 Any
 --@return undefined
-function CompendiumHorseWildBroken(p0) end
+function CompendiumHorseWildBroken(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -172,4 +188,5 @@ function CompendiumHorseWildBroken(p0) end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function CompendiumHerbPicked(p0,p1,p2,p3) end
+function CompendiumHerbPicked(p0, p1, p2, p3)
+end

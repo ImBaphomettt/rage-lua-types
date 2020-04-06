@@ -1,4 +1,3 @@
-
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule WATER
@@ -6,7 +5,8 @@
 --@usage undefined _DISABLE_WATER_COLLISION();
 
 --@return undefined
-function DisableWaterCollision() end
+function DisableWaterCollision()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,7 +15,8 @@ function DisableWaterCollision() end
 --@usage undefined _ENABLE_WATER_COLLISION();
 
 --@return undefined
-function EnableWaterCollision() end
+function EnableWaterCollision()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -27,7 +28,8 @@ function EnableWaterCollision() end
 --@params z float
 --@params height float*
 --@return undefined
-function GetWaterHeight(x,y,z,height) end
+function GetWaterHeight(x, y, z, height)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -40,7 +42,8 @@ function GetWaterHeight(x,y,z,height) end
 --@params p3 Any
 --@params height float*
 --@return undefined
-function TestVerticalProbeAgainstAllWater(x,y,z,p3,height) end
+function TestVerticalProbeAgainstAllWater(x, y, z, p3, height)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -52,7 +55,8 @@ function TestVerticalProbeAgainstAllWater(x,y,z,p3,height) end
 --@params z float
 --@params height float*
 --@return undefined
-function GetWaterHeightNoWaves(x,y,z,height) end
+function GetWaterHeightNoWaves(x, y, z, height)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -61,7 +65,8 @@ function GetWaterHeightNoWaves(x,y,z,height) end
 --@usage undefined _REMOVE_CURRENT_RISE(int p0);
 --@params p0 int
 --@return undefined
-function RemoveCurrentRise(p0) end
+function RemoveCurrentRise(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -77,7 +82,8 @@ function RemoveCurrentRise(p0) end
 --@params p6 Any
 --@params p7 Any
 --@return undefined
-function TestProbeAgainstAllWater(p0,p1,p2,p3,p4,p5,p6,p7) end
+function TestProbeAgainstAllWater(p0, p1, p2, p3, p4, p5, p6, p7)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -86,7 +92,8 @@ function TestProbeAgainstAllWater(p0,p1,p2,p3,p4,p5,p6,p7) end
 --@usage undefined _0xA33F5069B0CB89B8();
 
 --@return undefined
-function N_0xa33f5069b0cb89b8() end
+function N_0xa33f5069b0cb89b8()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -95,7 +102,8 @@ function N_0xa33f5069b0cb89b8() end
 --@usage undefined _0x09A1C7DFDCE54FBC(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0x09a1c7dfdce54fbc(p0) end
+function N_0x09a1c7dfdce54fbc(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -112,7 +120,8 @@ function N_0x09a1c7dfdce54fbc(p0) end
 --@params p7 Any
 --@params p8 Any
 --@return undefined
-function N_0xc63540aef8384732(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
+function N_0xc63540aef8384732(p0, p1, p2, p3, p4, p5, p6, p7, p8)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -121,7 +130,8 @@ function N_0xc63540aef8384732(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 --@usage undefined _0xF0FBF193F1F5C0EA(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xf0fbf193f1f5c0ea(p0) end
+function N_0xf0fbf193f1f5c0ea(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -130,7 +140,8 @@ function N_0xf0fbf193f1f5c0ea(p0) end
 --@usage undefined _SET_WORLD_WATER_TYPE(int waterType);
 --@params waterType int
 --@return undefined
-function SetWorldWaterType(waterType) end
+function SetWorldWaterType(waterType)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -140,7 +151,8 @@ function SetWorldWaterType(waterType) end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x0dcec6a92e497e17(p0,p1) end
+function N_0x0dcec6a92e497e17(p0, p1)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -149,7 +161,8 @@ function N_0x0dcec6a92e497e17(p0,p1) end
 --@usage undefined _0xC63540AEF8384769();
 
 --@return undefined
-function N_0xc63540aef8384769() end
+function N_0xc63540aef8384769()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -158,7 +171,8 @@ function N_0xc63540aef8384769() end
 --@usage undefined _0xB34A6009A0DB80B8(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xb34a6009a0db80b8(p0) end
+function N_0xb34a6009a0db80b8(p0)
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -167,7 +181,8 @@ function N_0xb34a6009a0db80b8(p0) end
 --@usage undefined _GET_WORLD_WATER_TYPE();
 
 --@return undefined
-function GetWorldWaterType() end
+function GetWorldWaterType()
+end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -176,4 +191,5 @@ function GetWorldWaterType() end
 --@usage undefined _0xE8126623008372AA();
 
 --@return undefined
-function N_0xe8126623008372aa() end
+function N_0xe8126623008372aa()
+end
