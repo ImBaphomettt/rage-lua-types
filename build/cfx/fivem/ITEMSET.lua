@@ -1,3 +1,4 @@
+
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule ITEMSET
@@ -6,8 +7,7 @@
 --@params p0 Any
 --@params p1 Any
 --@return BOOL
-function AddToItemset(p0, p1)
-end
+function AddToItemset(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -16,18 +16,7 @@ end
 --@usage Vehicle CREATE_ITEMSET(Vehicle distri);
 --@params distri Vehicle
 --@return Vehicle
-function CreateItemset(distri)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule ITEMSET
---@see DESTROY_ITEMSET
---@usage void DESTROY_ITEMSET(Any p0);
---@params p0 Any
---@return void
-function DestroyItemset(p0)
-end
+function CreateItemset(distri) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -36,18 +25,7 @@ end
 --@usage void CLEAN_ITEMSET(Any p0);
 --@params p0 Any
 --@return void
-function CleanItemset(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule ITEMSET
---@see GET_ITEMSET_SIZE
---@usage Any GET_ITEMSET_SIZE(ScrHandle x);
---@params x ScrHandle
---@return Any
-function GetItemsetSize(x)
-end
+function CleanItemset(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -57,8 +35,7 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return BOOL
-function IsInItemset(p0, p1)
-end
+function IsInItemset(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -68,18 +45,7 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function GetIndexedItemInItemset(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule ITEMSET
---@see IS_ITEMSET_VALID
---@usage BOOL IS_ITEMSET_VALID(Any p0);
---@params p0 Any
---@return BOOL
-function IsItemsetValid(p0)
-end
+function GetIndexedItemInItemset(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -89,5 +55,31 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function RemoveFromItemset(p0, p1)
-end
+function RemoveFromItemset(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule ITEMSET
+--@see GET_ITEMSET_SIZE
+--@usage Any GET_ITEMSET_SIZE(ScrHandle x);
+--@params x ScrHandle
+--@return Any
+function GetItemsetSize(x) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule ITEMSET
+--@see DESTROY_ITEMSET
+--@usage void DESTROY_ITEMSET(Any p0);
+--@params p0 Any
+--@return void
+function DestroyItemset(p0) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule ITEMSET
+--@see IS_ITEMSET_VALID
+--@usage BOOL IS_ITEMSET_VALID(Any p0);
+--@params p0 Any
+--@return BOOL
+function IsItemsetValid(p0) end

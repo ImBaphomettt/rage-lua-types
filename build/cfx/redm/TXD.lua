@@ -1,3 +1,4 @@
+
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule TXD
@@ -5,8 +6,7 @@
 --@usage undefined _DOES_STREAMED_TXD_EXIST(Hash txdHash);
 --@params txdHash Hash
 --@return undefined
-function DoesStreamedTxdExist(txdHash)
-end
+function DoesStreamedTxdExist(txdHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -16,8 +16,7 @@ end
 --@params txdHash Hash
 --@params p1 BOOL
 --@return undefined
-function RequestStreamedTxd(txdHash, p1)
-end
+function RequestStreamedTxd(txdHash,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -26,8 +25,7 @@ end
 --@usage undefined _HAS_STREAMED_TXD_LOADED(Hash txdHash);
 --@params txdHash Hash
 --@return undefined
-function HasStreamedTxdLoaded(txdHash)
-end
+function HasStreamedTxdLoaded(txdHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -37,8 +35,7 @@ end
 --@params textureDict const char*
 --@params p1 BOOL
 --@return undefined
-function RequestStreamedTextureDict(textureDict, p1)
-end
+function RequestStreamedTextureDict(textureDict,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -47,18 +44,7 @@ end
 --@usage undefined _SET_STREAMED_TXD_AS_NO_LONGER_NEEDED(Hash txdHash);
 --@params txdHash Hash
 --@return undefined
-function SetStreamedTxdAsNoLongerNeeded(txdHash)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule TXD
---@see HAS_STREAMED_TEXTURE_DICT_LOADED
---@usage undefined HAS_STREAMED_TEXTURE_DICT_LOADED(const char* textureDict);
---@params textureDict const char*
---@return undefined
-function HasStreamedTextureDictLoaded(textureDict)
-end
+function SetStreamedTxdAsNoLongerNeeded(txdHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -67,8 +53,7 @@ end
 --@usage undefined _DOES_STREAMED_TEXTURE_DICT_EXIST(const char* textureDict);
 --@params textureDict const char*
 --@return undefined
-function DoesStreamedTextureDictExist(textureDict)
-end
+function DoesStreamedTextureDictExist(textureDict) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -77,5 +62,13 @@ end
 --@usage undefined SET_STREAMED_TEXTURE_DICT_AS_NO_LONGER_NEEDED(const char* textureDict);
 --@params textureDict const char*
 --@return undefined
-function SetStreamedTextureDictAsNoLongerNeeded(textureDict)
-end
+function SetStreamedTextureDictAsNoLongerNeeded(textureDict) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule TXD
+--@see HAS_STREAMED_TEXTURE_DICT_LOADED
+--@usage undefined HAS_STREAMED_TEXTURE_DICT_LOADED(const char* textureDict);
+--@params textureDict const char*
+--@return undefined
+function HasStreamedTextureDictLoaded(textureDict) end

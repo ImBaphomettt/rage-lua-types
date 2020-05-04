@@ -1,3 +1,4 @@
+
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule FILE
@@ -7,8 +8,16 @@
 --@params drawableSlotHash Hash
 --@params componentId int
 --@return BOOL
-function DoesShopPedApparelHaveRestrictionTag(componentHash, drawableSlotHash, componentId)
-end
+function DoesShopPedApparelHaveRestrictionTag(componentHash,drawableSlotHash,componentId) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FILE
+--@see GET_DLC_VEHICLE_FLAGS
+--@usage int GET_DLC_VEHICLE_FLAGS(int dlcVehicleIndex);
+--@params dlcVehicleIndex int
+--@return int
+function GetDlcVehicleFlags(dlcVehicleIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -18,8 +27,7 @@ end
 --@params dlcVehicleIndex int
 --@params outData int*
 --@return BOOL
-function GetDlcVehicleData(dlcVehicleIndex, outData)
-end
+function GetDlcVehicleData(dlcVehicleIndex,outData) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -28,8 +36,17 @@ end
 --@usage Hash GET_DLC_VEHICLE_MODEL(int dlcVehicleIndex);
 --@params dlcVehicleIndex int
 --@return Hash
-function GetDlcVehicleModel(dlcVehicleIndex)
-end
+function GetDlcVehicleModel(dlcVehicleIndex) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FILE
+--@see GET_DLC_WEAPON_DATA
+--@usage BOOL GET_DLC_WEAPON_DATA(int dlcWeaponIndex,int* outData);
+--@params dlcWeaponIndex int
+--@params outData int*
+--@return BOOL
+function GetDlcWeaponData(dlcWeaponIndex,outData) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -38,30 +55,7 @@ end
 --@usage int GET_DLC_VEHICLE_MOD_LOCK_HASH(int hash);
 --@params hash int
 --@return int
-function GetDlcVehicleModLockHash(hash)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FILE
---@see GET_DLC_VEHICLE_FLAGS
---@usage int GET_DLC_VEHICLE_FLAGS(int dlcVehicleIndex);
---@params dlcVehicleIndex int
---@return int
-function GetDlcVehicleFlags(dlcVehicleIndex)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FILE
---@see GET_DLC_WEAPON_COMPONENT_DATA
---@usage BOOL GET_DLC_WEAPON_COMPONENT_DATA(int dlcWeaponIndex,int dlcWeapCompIndex,Any* ComponentDataPtr);
---@params dlcWeaponIndex int
---@params dlcWeapCompIndex int
---@params ComponentDataPtr Any*
---@return BOOL
-function GetDlcWeaponComponentData(dlcWeaponIndex, dlcWeapCompIndex, ComponentDataPtr)
-end
+function GetDlcVehicleModLockHash(hash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -74,55 +68,7 @@ end
 --@params p3 Any*
 --@params p4 Any*
 --@return void
-function GetForcedProp(p0, p1, p2, p3, p4)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FILE
---@see GET_HASH_NAME_FOR_COMPONENT
---@usage Hash GET_HASH_NAME_FOR_COMPONENT(Entity entity,int componentId,int drawableVariant,int textureVariant);
---@params entity Entity
---@params componentId int
---@params drawableVariant int
---@params textureVariant int
---@return Hash
-function GetHashNameForComponent(entity, componentId, drawableVariant, textureVariant)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FILE
---@see GET_HASH_NAME_FOR_PROP
---@usage Hash GET_HASH_NAME_FOR_PROP(Entity entity,int componentId,int propIndex,int propTextureIndex);
---@params entity Entity
---@params componentId int
---@params propIndex int
---@params propTextureIndex int
---@return Hash
-function GetHashNameForProp(entity, componentId, propIndex, propTextureIndex)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FILE
---@see GET_NUM_DLC_VEHICLES
---@usage int GET_NUM_DLC_VEHICLES();
-
---@return int
-function GetNumDlcVehicles()
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FILE
---@see GET_DLC_WEAPON_DATA
---@usage BOOL GET_DLC_WEAPON_DATA(int dlcWeaponIndex,int* outData);
---@params dlcWeaponIndex int
---@params outData int*
---@return BOOL
-function GetDlcWeaponData(dlcWeaponIndex, outData)
-end
+function GetForcedProp(p0,p1,p2,p3,p4) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -135,8 +81,42 @@ end
 --@params enumValue Any*
 --@params componentType Any*
 --@return void
-function GetForcedComponent(componentHash, componentId, nameHash, enumValue, componentType)
-end
+function GetForcedComponent(componentHash,componentId,nameHash,enumValue,componentType) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FILE
+--@see GET_DLC_WEAPON_COMPONENT_DATA
+--@usage BOOL GET_DLC_WEAPON_COMPONENT_DATA(int dlcWeaponIndex,int dlcWeapCompIndex,Any* ComponentDataPtr);
+--@params dlcWeaponIndex int
+--@params dlcWeapCompIndex int
+--@params ComponentDataPtr Any*
+--@return BOOL
+function GetDlcWeaponComponentData(dlcWeaponIndex,dlcWeapCompIndex,ComponentDataPtr) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FILE
+--@see GET_HASH_NAME_FOR_COMPONENT
+--@usage Hash GET_HASH_NAME_FOR_COMPONENT(Entity entity,int componentId,int drawableVariant,int textureVariant);
+--@params entity Entity
+--@params componentId int
+--@params drawableVariant int
+--@params textureVariant int
+--@return Hash
+function GetHashNameForComponent(entity,componentId,drawableVariant,textureVariant) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FILE
+--@see GET_HASH_NAME_FOR_PROP
+--@usage Hash GET_HASH_NAME_FOR_PROP(Entity entity,int componentId,int propIndex,int propTextureIndex);
+--@params entity Entity
+--@params componentId int
+--@params propIndex int
+--@params propTextureIndex int
+--@return Hash
+function GetHashNameForProp(entity,componentId,propIndex,propTextureIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -145,8 +125,7 @@ end
 --@usage int _GET_NUM_DECORATIONS(int character);
 --@params character int
 --@return int
-function GetNumDecorations(character)
-end
+function GetNumDecorations(character) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -155,18 +134,16 @@ end
 --@usage int GET_NUM_DLC_WEAPON_COMPONENTS(int dlcWeaponIndex);
 --@params dlcWeaponIndex int
 --@return int
-function GetNumDlcWeaponComponents(dlcWeaponIndex)
-end
+function GetNumDlcWeaponComponents(dlcWeaponIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule FILE
---@see GET_SHOP_PED_APPAREL_FORCED_COMPONENT_COUNT
---@usage int GET_SHOP_PED_APPAREL_FORCED_COMPONENT_COUNT(Hash componentHash);
---@params componentHash Hash
+--@see GET_NUM_DLC_WEAPONS
+--@usage int GET_NUM_DLC_WEAPONS();
+
 --@return int
-function GetShopPedApparelForcedComponentCount(componentHash)
-end
+function GetNumDlcWeapons() end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -180,8 +157,16 @@ end
 --@params p4 int
 --@params componentId int
 --@return int
-function GetNumPropsFromOutfit(character, p1, p2, p3, p4, componentId)
-end
+function GetNumPropsFromOutfit(character,p1,p2,p3,p4,componentId) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FILE
+--@see GET_NUM_DLC_VEHICLES
+--@usage int GET_NUM_DLC_VEHICLES();
+
+--@return int
+function GetNumDlcVehicles() end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -190,8 +175,16 @@ end
 --@usage int GET_SHOP_PED_APPAREL_VARIANT_COMPONENT_COUNT(Hash componentHash);
 --@params componentHash Hash
 --@return int
-function GetShopPedApparelVariantComponentCount(componentHash)
-end
+function GetShopPedApparelVariantComponentCount(componentHash) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FILE
+--@see GET_SHOP_PED_APPAREL_FORCED_COMPONENT_COUNT
+--@usage int GET_SHOP_PED_APPAREL_FORCED_COMPONENT_COUNT(Hash componentHash);
+--@params componentHash Hash
+--@return int
+function GetShopPedApparelForcedComponentCount(componentHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -200,19 +193,7 @@ end
 --@usage Any GET_SHOP_PED_APPAREL_FORCED_PROP_COUNT(Any p0);
 --@params p0 Any
 --@return Any
-function GetShopPedApparelForcedPropCount(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FILE
---@see GET_SHOP_PED_COMPONENT
---@usage void GET_SHOP_PED_COMPONENT(Hash componentHash,Any* outComponent);
---@params componentHash Hash
---@params outComponent Any*
---@return void
-function GetShopPedComponent(componentHash, outComponent)
-end
+function GetShopPedApparelForcedPropCount(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -222,8 +203,7 @@ end
 --@params p0 Any
 --@params p1 Any*
 --@return void
-function GetShopPedOutfit(p0, p1)
-end
+function GetShopPedOutfit(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -234,39 +214,17 @@ end
 --@params slot int
 --@params item Any*
 --@return BOOL
-function GetShopPedOutfitComponentVariant(outfit, slot, item)
-end
+function GetShopPedOutfitComponentVariant(outfit,slot,item) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule FILE
---@see GET_NUM_DLC_WEAPONS
---@usage int GET_NUM_DLC_WEAPONS();
-
---@return int
-function GetNumDlcWeapons()
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FILE
---@see GET_SHOP_PED_OUTFIT_LOCATE
---@usage int GET_SHOP_PED_OUTFIT_LOCATE(Any p0);
---@params p0 Any
---@return int
-function GetShopPedOutfitLocate(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FILE
---@see GET_SHOP_PED_QUERY_COMPONENT
---@usage void GET_SHOP_PED_QUERY_COMPONENT(int componentId,int* outComponent);
---@params componentId int
---@params outComponent int*
+--@see GET_SHOP_PED_COMPONENT
+--@usage void GET_SHOP_PED_COMPONENT(Hash componentHash,Any* outComponent);
+--@params componentHash Hash
+--@params outComponent Any*
 --@return void
-function GetShopPedQueryComponent(componentId, outComponent)
-end
+function GetShopPedComponent(componentHash,outComponent) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -277,19 +235,16 @@ end
 --@params slot int
 --@params item Any*
 --@return BOOL
-function GetShopPedOutfitPropVariant(outfit, slot, item)
-end
+function GetShopPedOutfitPropVariant(outfit,slot,item) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule FILE
---@see GET_SHOP_PED_QUERY_PROP
---@usage void GET_SHOP_PED_QUERY_PROP(Any p0,Any* p1);
+--@see GET_SHOP_PED_OUTFIT_LOCATE
+--@usage int GET_SHOP_PED_OUTFIT_LOCATE(Any p0);
 --@params p0 Any
---@params p1 Any*
---@return void
-function GetShopPedQueryProp(p0, p1)
-end
+--@return int
+function GetShopPedOutfitLocate(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -299,8 +254,27 @@ end
 --@params componentHash Any
 --@params outProp Any*
 --@return void
-function GetShopPedProp(componentHash, outProp)
-end
+function GetShopPedProp(componentHash,outProp) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FILE
+--@see GET_SHOP_PED_QUERY_COMPONENT
+--@usage void GET_SHOP_PED_QUERY_COMPONENT(int componentId,int* outComponent);
+--@params componentId int
+--@params outComponent int*
+--@return void
+function GetShopPedQueryComponent(componentId,outComponent) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FILE
+--@see GET_SHOP_PED_QUERY_OUTFIT
+--@usage void GET_SHOP_PED_QUERY_OUTFIT(Any p0,Any* outfit);
+--@params p0 Any
+--@params outfit Any*
+--@return void
+function GetShopPedQueryOutfit(p0,outfit) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -311,18 +285,17 @@ end
 --@params decorationIndex int
 --@params outComponent Any*
 --@return BOOL
-function GetTattooCollectionData(characterType, decorationIndex, outComponent)
-end
+function GetTattooCollectionData(characterType,decorationIndex,outComponent) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule FILE
---@see INIT_SHOP_PED_COMPONENT
---@usage void INIT_SHOP_PED_COMPONENT(int* outComponent);
---@params outComponent int*
+--@see GET_SHOP_PED_QUERY_PROP
+--@usage void GET_SHOP_PED_QUERY_PROP(Any p0,Any* p1);
+--@params p0 Any
+--@params p1 Any*
 --@return void
-function InitShopPedComponent(outComponent)
-end
+function GetShopPedQueryProp(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -335,29 +308,7 @@ end
 --@params p3 Any*
 --@params p4 Any*
 --@return void
-function GetVariantComponent(componentHash, componentId, p2, p3, p4)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FILE
---@see IS_CONTENT_ITEM_LOCKED
---@usage BOOL IS_CONTENT_ITEM_LOCKED(Any* itemHash);
---@params itemHash Any*
---@return BOOL
-function IsContentItemLocked(itemHash)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FILE
---@see GET_SHOP_PED_QUERY_OUTFIT
---@usage void GET_SHOP_PED_QUERY_OUTFIT(Any p0,Any* outfit);
---@params p0 Any
---@params outfit Any*
---@return void
-function GetShopPedQueryOutfit(p0, outfit)
-end
+function GetVariantComponent(componentHash,componentId,p2,p3,p4) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -366,8 +317,16 @@ end
 --@usage void INIT_SHOP_PED_PROP(int* outProp);
 --@params outProp int*
 --@return void
-function InitShopPedProp(outProp)
-end
+function InitShopPedProp(outProp) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FILE
+--@see INIT_SHOP_PED_COMPONENT
+--@usage void INIT_SHOP_PED_COMPONENT(int* outComponent);
+--@params outComponent int*
+--@return void
+function InitShopPedComponent(outComponent) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -376,8 +335,16 @@ end
 --@usage BOOL IS_DLC_VEHICLE_MOD(Any hash);
 --@params hash Any
 --@return BOOL
-function IsDlcVehicleMod(hash)
-end
+function IsDlcVehicleMod(hash) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FILE
+--@see IS_CONTENT_ITEM_LOCKED
+--@usage BOOL IS_CONTENT_ITEM_LOCKED(Any* itemHash);
+--@params itemHash Any*
+--@return BOOL
+function IsContentItemLocked(itemHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -389,8 +356,7 @@ end
 --@params p2 int
 --@params p3 int
 --@return int
-function N_0x50f457823ce6eb5f(p0, p1, p2, p3)
-end
+function N_0x50f457823ce6eb5f(p0,p1,p2,p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -400,5 +366,4 @@ end
 --@params character int
 --@params p1 BOOL
 --@return int
-function N_0xf3fbe2d50a6a8c28(character, p1)
-end
+function N_0xf3fbe2d50a6a8c28(character,p1) end

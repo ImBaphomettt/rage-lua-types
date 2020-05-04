@@ -51,6 +51,18 @@ ${_function}
         this.filesBuilder = filesBuilder;
     }
 
+    /**
+     * Replace LUA Method to string for fix generating issue
+     *
+     * @param field
+     */
+    private fieldToReplace = (field): string => {
+        if (field == "repeat") {
+            return "_repeat"
+        } else {
+            return field
+        }
+    }
 
     /**
      * Allows to generate the native template in a procedural way one by one
@@ -76,7 +88,6 @@ ${_function}
         }
 
         for (let category in data) for (let natives in data[category]) {
-
 
 
             /**
@@ -131,8 +142,8 @@ ${_function}
 
         for (let i = 0; i <= data.params.length - 1; i++) {
             luaDocs += ((i != 0 ? "\n" : "") + "--@params " + data.params[i].name + " " + data.params[i].type);
-            params += ((i != 0 ? "," : "") + data.params[i].name);
-            paramsWithType += ((i != 0 ? "," : "") + data.params[i].type + " " + data.params[i].name);
+            params += ((i != 0 ? "," : "") + this.fieldToReplace(data.params[i].name));
+            paramsWithType += ((i != 0 ? "," : "") + data.params[i].type + " " + this.fieldToReplace(data.params[i].name));
         }
 
         return {luaDocs: luaDocs, params: params, paramsWithType: paramsWithType};

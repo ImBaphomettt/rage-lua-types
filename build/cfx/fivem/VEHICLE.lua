@@ -1,3 +1,4 @@
+
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
@@ -10,18 +11,7 @@
 --@params speed float
 --@params p5 BOOL
 --@return int
-function AddSpeedZoneForCoord(x, y, z, radius, speed, p5)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see ADD_VEHICLE_UPSIDEDOWN_CHECK
---@usage void ADD_VEHICLE_UPSIDEDOWN_CHECK(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function AddVehicleUpsidedownCheck(vehicle)
-end
+function AddSpeedZoneForCoord(x,y,z,radius,speed,p5) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -30,18 +20,78 @@ end
 --@usage void ADD_VEHICLE_PHONE_EXPLOSIVE_DEVICE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function AddVehiclePhoneExplosiveDevice(vehicle)
-end
+function AddVehiclePhoneExplosiveDevice(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _ARE_PLANE_WINGS_INTACT
---@usage BOOL _ARE_PLANE_WINGS_INTACT(Vehicle plane);
---@params plane Vehicle
+--@see ARE_ANY_VEHICLE_SEATS_FREE
+--@usage BOOL ARE_ANY_VEHICLE_SEATS_FREE(Vehicle vehicle);
+--@params vehicle Vehicle
 --@return BOOL
-function ArePlaneWingsIntact(plane)
-end
+function AreAnyVehicleSeatsFree(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see ADD_VEHICLE_UPSIDEDOWN_CHECK
+--@usage void ADD_VEHICLE_UPSIDEDOWN_CHECK(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return void
+function AddVehicleUpsidedownCheck(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see ADD_VEHICLE_STUCK_CHECK_WITH_WARP
+--@usage void ADD_VEHICLE_STUCK_CHECK_WITH_WARP(Any p0,float p1,Any p2,BOOL p3,BOOL p4,BOOL p5,Any p6);
+--@params p0 Any
+--@params p1 float
+--@params p2 Any
+--@params p3 BOOL
+--@params p4 BOOL
+--@params p5 BOOL
+--@params p6 Any
+--@return void
+function AddVehicleStuckCheckWithWarp(p0,p1,p2,p3,p4,p5,p6) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see ADD_VEHICLE_COMBAT_ANGLED_AVOIDANCE_AREA
+--@usage Any ADD_VEHICLE_COMBAT_ANGLED_AVOIDANCE_AREA(float p0,float p1,float p2,float p3,float p4,float p5,float p6);
+--@params p0 float
+--@params p1 float
+--@params p2 float
+--@params p3 float
+--@params p4 float
+--@params p5 float
+--@params p6 float
+--@return Any
+function AddVehicleCombatAngledAvoidanceArea(p0,p1,p2,p3,p4,p5,p6) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see ARE_ALL_VEHICLE_WINDOWS_INTACT
+--@usage BOOL ARE_ALL_VEHICLE_WINDOWS_INTACT(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function AreAllVehicleWindowsIntact(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _ATTACH_ENTITY_TO_CARGOBOB
+--@usage void _ATTACH_ENTITY_TO_CARGOBOB(Vehicle vehicle,Entity entity,int p2,float x,float y,float z);
+--@params vehicle Vehicle
+--@params entity Entity
+--@params p2 int
+--@params x float
+--@params y float
+--@params z float
+--@return void
+function AttachEntityToCargobob(vehicle,entity,p2,x,y,z) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -61,18 +111,7 @@ end
 --@params p10 float
 --@params p11 float
 --@return void
-function AttachVehicleOnToTrailer(vehicle, trailer, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see ARE_ALL_VEHICLE_WINDOWS_INTACT
---@usage BOOL ARE_ALL_VEHICLE_WINDOWS_INTACT(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function AreAllVehicleWindowsIntact(vehicle)
-end
+function AttachVehicleOnToTrailer(vehicle,trailer,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -86,18 +125,25 @@ end
 --@params hookOffsetY float
 --@params hookOffsetZ float
 --@return void
-function AttachVehicleToTowTruck(towTruck, vehicle, rear, hookOffsetX, hookOffsetY, hookOffsetZ)
-end
+function AttachVehicleToTowTruck(towTruck,vehicle,rear,hookOffsetX,hookOffsetY,hookOffsetZ) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see ARE_ANY_VEHICLE_SEATS_FREE
---@usage BOOL ARE_ANY_VEHICLE_SEATS_FREE(Vehicle vehicle);
---@params vehicle Vehicle
+--@see _ARE_BOMB_BAY_DOORS_OPEN
+--@usage BOOL _ARE_BOMB_BAY_DOORS_OPEN(Vehicle aircraft);
+--@params aircraft Vehicle
 --@return BOOL
-function AreAnyVehicleSeatsFree(vehicle)
-end
+function AreBombBayDoorsOpen(aircraft) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see ARE_PLANE_PROPELLERS_INTACT
+--@usage BOOL ARE_PLANE_PROPELLERS_INTACT(Vehicle plane);
+--@params plane Vehicle
+--@return BOOL
+function ArePlanePropellersIntact(plane) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -109,56 +155,16 @@ end
 --@params duration int
 --@params unknown BOOL
 --@return void
-function BringVehicleToHalt(vehicle, distance, duration, unknown)
-end
+function BringVehicleToHalt(vehicle,distance,duration,unknown) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see ARE_PLANE_PROPELLERS_INTACT
---@usage BOOL ARE_PLANE_PROPELLERS_INTACT(Vehicle plane);
+--@see _ARE_PLANE_WINGS_INTACT
+--@usage BOOL _ARE_PLANE_WINGS_INTACT(Vehicle plane);
 --@params plane Vehicle
 --@return BOOL
-function ArePlanePropellersIntact(plane)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _ARE_BOMB_BAY_DOORS_OPEN
---@usage BOOL _ARE_BOMB_BAY_DOORS_OPEN(Vehicle aircraft);
---@params aircraft Vehicle
---@return BOOL
-function AreBombBayDoorsOpen(aircraft)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see ATTACH_VEHICLE_TO_TRAILER
---@usage void ATTACH_VEHICLE_TO_TRAILER(Vehicle vehicle,Vehicle trailer,float radius);
---@params vehicle Vehicle
---@params trailer Vehicle
---@params radius float
---@return void
-function AttachVehicleToTrailer(vehicle, trailer, radius)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see ADD_VEHICLE_COMBAT_ANGLED_AVOIDANCE_AREA
---@usage Any ADD_VEHICLE_COMBAT_ANGLED_AVOIDANCE_AREA(float p0,float p1,float p2,float p3,float p4,float p5,float p6);
---@params p0 float
---@params p1 float
---@params p2 float
---@params p3 float
---@params p4 float
---@params p5 float
---@params p6 float
---@return Any
-function AddVehicleCombatAngledAvoidanceArea(p0, p1, p2, p3, p4, p5, p6)
-end
+function ArePlaneWingsIntact(plane) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -172,8 +178,7 @@ end
 --@params y float
 --@params z float
 --@return void
-function AttachVehicleToCargobob(vehicle, cargobob, p2, x, y, z)
-end
+function AttachVehicleToCargobob(vehicle,cargobob,p2,x,y,z) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -182,8 +187,18 @@ end
 --@usage BOOL _CAN_VEHICLE_PARACHUTE_BE_ACTIVATED(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function CanVehicleParachuteBeActivated(vehicle)
-end
+function CanVehicleParachuteBeActivated(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see ATTACH_VEHICLE_TO_TRAILER
+--@usage void ATTACH_VEHICLE_TO_TRAILER(Vehicle vehicle,Vehicle trailer,float radius);
+--@params vehicle Vehicle
+--@params trailer Vehicle
+--@params radius float
+--@return void
+function AttachVehicleToTrailer(vehicle,trailer,radius) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -192,64 +207,7 @@ end
 --@usage BOOL _CAN_BOAT_BE_ANCHORED_2(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function CanBoatBeAnchored_2(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see CLEAR_VEHICLE_CUSTOM_PRIMARY_COLOUR
---@usage Any CLEAR_VEHICLE_CUSTOM_PRIMARY_COLOUR(Vehicle vehicle);
---@params vehicle Vehicle
---@return Any
-function ClearVehicleCustomPrimaryColour(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _ATTACH_ENTITY_TO_CARGOBOB
---@usage void _ATTACH_ENTITY_TO_CARGOBOB(Vehicle vehicle,Entity entity,int p2,float x,float y,float z);
---@params vehicle Vehicle
---@params entity Entity
---@params p2 int
---@params x float
---@params y float
---@params z float
---@return void
-function AttachEntityToCargobob(vehicle, entity, p2, x, y, z)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see CAN_SHUFFLE_SEAT
---@usage BOOL CAN_SHUFFLE_SEAT(Vehicle vehicle,Any p1);
---@params vehicle Vehicle
---@params p1 Any
---@return BOOL
-function CanShuffleSeat(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see CLEAR_VEHICLE_ROUTE_HISTORY
---@usage void CLEAR_VEHICLE_ROUTE_HISTORY(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function ClearVehicleRouteHistory(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see CLEAR_LAST_DRIVEN_VEHICLE
---@usage void CLEAR_LAST_DRIVEN_VEHICLE();
-
---@return void
-function ClearLastDrivenVehicle()
-end
+function CanBoatBeAnchored_2(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -258,70 +216,44 @@ end
 --@usage Any CLEAR_VEHICLE_CUSTOM_SECONDARY_COLOUR(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return Any
-function ClearVehicleCustomSecondaryColour(vehicle)
-end
+function ClearVehicleCustomSecondaryColour(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see COPY_VEHICLE_DAMAGES
---@usage void COPY_VEHICLE_DAMAGES(Vehicle sourceVehicle,Vehicle targetVehicle);
---@params sourceVehicle Vehicle
---@params targetVehicle Vehicle
---@return void
-function CopyVehicleDamages(sourceVehicle, targetVehicle)
-end
+--@see CAN_ANCHOR_BOAT_HERE
+--@usage BOOL CAN_ANCHOR_BOAT_HERE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function CanAnchorBoatHere(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see CREATE_PICK_UP_ROPE_FOR_CARGOBOB
---@usage void CREATE_PICK_UP_ROPE_FOR_CARGOBOB(Vehicle cargobob,int state);
---@params cargobob Vehicle
---@params state int
---@return void
-function CreatePickUpRopeForCargobob(cargobob, state)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _CLEAR_VEHICLE_PHONE_EXPLOSIVE_DEVICE
---@usage void _CLEAR_VEHICLE_PHONE_EXPLOSIVE_DEVICE();
-
---@return void
-function ClearVehiclePhoneExplosiveDevice()
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see DELETE_ALL_TRAINS
---@usage void DELETE_ALL_TRAINS();
-
---@return void
-function DeleteAllTrains()
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see CLOSE_BOMB_BAY_DOORS
---@usage void CLOSE_BOMB_BAY_DOORS(Vehicle vehicle);
+--@see CLEAR_VEHICLE_ROUTE_HISTORY
+--@usage void CLEAR_VEHICLE_ROUTE_HISTORY(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function CloseBombBayDoors(vehicle)
-end
+function ClearVehicleRouteHistory(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see DELETE_MISSION_TRAIN
---@usage void DELETE_MISSION_TRAIN(Vehicle* train);
---@params train Vehicle*
+--@see CONTROL_LANDING_GEAR
+--@usage void CONTROL_LANDING_GEAR(Vehicle vehicle,int state);
+--@params vehicle Vehicle
+--@params state int
 --@return void
-function DeleteMissionTrain(train)
-end
+function ControlLandingGear(vehicle,state) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see CLEAR_VEHICLE_CUSTOM_PRIMARY_COLOUR
+--@usage Any CLEAR_VEHICLE_CUSTOM_PRIMARY_COLOUR(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return Any
+function ClearVehicleCustomPrimaryColour(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -334,18 +266,70 @@ end
 --@params z float
 --@params direction BOOL
 --@return Vehicle
-function CreateMissionTrain(variation, x, y, z, direction)
-end
+function CreateMissionTrain(variation,x,y,z,direction) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see DELETE_SCRIPT_VEHICLE_GENERATOR
---@usage void DELETE_SCRIPT_VEHICLE_GENERATOR(int vehicleGenerator);
---@params vehicleGenerator int
+--@see _CLEAR_VEHICLE_PHONE_EXPLOSIVE_DEVICE
+--@usage void _CLEAR_VEHICLE_PHONE_EXPLOSIVE_DEVICE();
+
 --@return void
-function DeleteScriptVehicleGenerator(vehicleGenerator)
-end
+function ClearVehiclePhoneExplosiveDevice() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see CAN_SHUFFLE_SEAT
+--@usage BOOL CAN_SHUFFLE_SEAT(Vehicle vehicle,Any p1);
+--@params vehicle Vehicle
+--@params p1 Any
+--@return BOOL
+function CanShuffleSeat(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see CREATE_PICK_UP_ROPE_FOR_CARGOBOB
+--@usage void CREATE_PICK_UP_ROPE_FOR_CARGOBOB(Vehicle cargobob,int state);
+--@params cargobob Vehicle
+--@params state int
+--@return void
+function CreatePickUpRopeForCargobob(cargobob,state) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see COPY_VEHICLE_DAMAGES
+--@usage void COPY_VEHICLE_DAMAGES(Vehicle sourceVehicle,Vehicle targetVehicle);
+--@params sourceVehicle Vehicle
+--@params targetVehicle Vehicle
+--@return void
+function CopyVehicleDamages(sourceVehicle,targetVehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see CLEAR_LAST_DRIVEN_VEHICLE
+--@usage void CLEAR_LAST_DRIVEN_VEHICLE();
+
+--@return void
+function ClearLastDrivenVehicle() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see CREATE_VEHICLE
+--@usage Vehicle CREATE_VEHICLE(Hash modelHash,float x,float y,float z,float heading,BOOL isNetwork,BOOL thisScriptCheck);
+--@params modelHash Hash
+--@params x float
+--@params y float
+--@params z float
+--@params heading float
+--@params isNetwork BOOL
+--@params thisScriptCheck BOOL
+--@return Vehicle
+function CreateVehicle(modelHash,x,y,z,heading,isNetwork,thisScriptCheck) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -370,8 +354,34 @@ end
 --@params p15 BOOL
 --@params p16 int
 --@return int
-function CreateScriptVehicleGenerator(x, y, z, heading, p4, p5, modelHash, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16)
-end
+function CreateScriptVehicleGenerator(x,y,z,heading,p4,p5,modelHash,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see DELETE_SCRIPT_VEHICLE_GENERATOR
+--@usage void DELETE_SCRIPT_VEHICLE_GENERATOR(int vehicleGenerator);
+--@params vehicleGenerator int
+--@return void
+function DeleteScriptVehicleGenerator(vehicleGenerator) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see DELETE_ALL_TRAINS
+--@usage void DELETE_ALL_TRAINS();
+
+--@return void
+function DeleteAllTrains() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see DELETE_MISSION_TRAIN
+--@usage void DELETE_MISSION_TRAIN(Vehicle* train);
+--@params train Vehicle*
+--@return void
+function DeleteMissionTrain(train) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -381,34 +391,16 @@ end
 --@params vehicle Vehicle
 --@params entity Entity
 --@return Any
-function DetachEntityFromCargobob(vehicle, entity)
-end
+function DetachEntityFromCargobob(vehicle,entity) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see CREATE_VEHICLE
---@usage Vehicle CREATE_VEHICLE(Hash modelHash,float x,float y,float z,float heading,BOOL isNetwork,BOOL thisScriptCheck);
---@params modelHash Hash
---@params x float
---@params y float
---@params z float
---@params heading float
---@params isNetwork BOOL
---@params thisScriptCheck BOOL
---@return Vehicle
-function CreateVehicle(modelHash, x, y, z, heading, isNetwork, thisScriptCheck)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see DELETE_VEHICLE
---@usage void DELETE_VEHICLE(Vehicle* vehicle);
---@params vehicle Vehicle*
+--@see CLOSE_BOMB_BAY_DOORS
+--@usage void CLOSE_BOMB_BAY_DOORS(Vehicle vehicle);
+--@params vehicle Vehicle
 --@return void
-function DeleteVehicle(vehicle)
-end
+function CloseBombBayDoors(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -417,8 +409,7 @@ end
 --@usage BOOL DETACH_VEHICLE_FROM_ANY_CARGOBOB(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function DetachVehicleFromAnyCargobob(vehicle)
-end
+function DetachVehicleFromAnyCargobob(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -427,18 +418,7 @@ end
 --@usage void DETACH_CONTAINER_FROM_HANDLER_FRAME(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function DetachContainerFromHandlerFrame(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see DETACH_VEHICLE_FROM_ANY_TOW_TRUCK
---@usage BOOL DETACH_VEHICLE_FROM_ANY_TOW_TRUCK(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function DetachVehicleFromAnyTowTruck(vehicle)
-end
+function DetachContainerFromHandlerFrame(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -448,8 +428,7 @@ end
 --@params vehicle Vehicle
 --@params cargobob Vehicle
 --@return void
-function DetachVehicleFromCargobob(vehicle, cargobob)
-end
+function DetachVehicleFromCargobob(vehicle,cargobob) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -459,8 +438,25 @@ end
 --@params towTruck Vehicle
 --@params vehicle Vehicle
 --@return void
-function DetachVehicleFromTowTruck(towTruck, vehicle)
-end
+function DetachVehicleFromTowTruck(towTruck,vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see DETACH_VEHICLE_FROM_ANY_TOW_TRUCK
+--@usage BOOL DETACH_VEHICLE_FROM_ANY_TOW_TRUCK(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function DetachVehicleFromAnyTowTruck(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see DELETE_VEHICLE
+--@usage void DELETE_VEHICLE(Vehicle* vehicle);
+--@params vehicle Vehicle*
+--@return void
+function DeleteVehicle(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -469,39 +465,7 @@ end
 --@usage void DETACH_VEHICLE_FROM_TRAILER(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function DetachVehicleFromTrailer(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see DETONATE_VEHICLE_PHONE_EXPLOSIVE_DEVICE
---@usage void DETONATE_VEHICLE_PHONE_EXPLOSIVE_DEVICE();
-
---@return void
-function DetonateVehiclePhoneExplosiveDevice()
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _DETACH_VEHICLE_WINDSCREEN
---@usage void _DETACH_VEHICLE_WINDSCREEN(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function DetachVehicleWindscreen(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _DISABLE_VEHICLE_NEON_LIGHTS
---@usage void _DISABLE_VEHICLE_NEON_LIGHTS(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function DisableVehicleNeonLights(vehicle, toggle)
-end
+function DetachVehicleFromTrailer(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -512,8 +476,82 @@ end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function DisablePlaneAileron(vehicle, p1, p2)
-end
+function DisablePlaneAileron(vehicle,p1,p2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _DETACH_VEHICLE_WINDSCREEN
+--@usage void _DETACH_VEHICLE_WINDSCREEN(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return void
+function DetachVehicleWindscreen(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _DISABLE_VEHICLE_NEON_LIGHTS
+--@usage void _DISABLE_VEHICLE_NEON_LIGHTS(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function DisableVehicleNeonLights(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see DOES_CARGOBOB_HAVE_PICK_UP_ROPE
+--@usage BOOL DOES_CARGOBOB_HAVE_PICK_UP_ROPE(Vehicle cargobob);
+--@params cargobob Vehicle
+--@return BOOL
+function DoesCargobobHavePickUpRope(cargobob) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _DISABLE_PLANE_PROPELLER
+--@usage void _DISABLE_PLANE_PROPELLER(Vehicle vehicle,int propeller);
+--@params vehicle Vehicle
+--@params propeller int
+--@return void
+function DisablePlanePropeller(vehicle,propeller) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _DISABLE_VEHICLE_TURRET_MOVEMENT_THIS_FRAME
+--@usage void _DISABLE_VEHICLE_TURRET_MOVEMENT_THIS_FRAME(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return void
+function DisableVehicleTurretMovementThisFrame(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see DETONATE_VEHICLE_PHONE_EXPLOSIVE_DEVICE
+--@usage void DETONATE_VEHICLE_PHONE_EXPLOSIVE_DEVICE();
+
+--@return void
+function DetonateVehiclePhoneExplosiveDevice() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see DOES_EXTRA_EXIST
+--@usage BOOL DOES_EXTRA_EXIST(Vehicle vehicle,int extraId);
+--@params vehicle Vehicle
+--@params extraId int
+--@return BOOL
+function DoesExtraExist(vehicle,extraId) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see DOES_VEHICLE_EXIST_WITH_DECORATOR
+--@usage BOOL DOES_VEHICLE_EXIST_WITH_DECORATOR(char* decorator);
+--@params decorator char*
+--@return BOOL
+function DoesVehicleExistWithDecorator(decorator) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -525,39 +563,7 @@ end
 --@params vehicle Vehicle
 --@params owner Ped
 --@return void
-function DisableVehicleWeapon(disabled, weaponHash, vehicle, owner)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see DOES_CARGOBOB_HAVE_PICKUP_MAGNET
---@usage BOOL DOES_CARGOBOB_HAVE_PICKUP_MAGNET(Vehicle cargobob);
---@params cargobob Vehicle
---@return BOOL
-function DoesCargobobHavePickupMagnet(cargobob)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _DISABLE_PLANE_PROPELLER
---@usage void _DISABLE_PLANE_PROPELLER(Vehicle vehicle,int propeller);
---@params vehicle Vehicle
---@params propeller int
---@return void
-function DisablePlanePropeller(vehicle, propeller)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _DISABLE_VEHICLE_TURRET_MOVEMENT_THIS_FRAME
---@usage void _DISABLE_VEHICLE_TURRET_MOVEMENT_THIS_FRAME(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function DisableVehicleTurretMovementThisFrame(vehicle)
-end
+function DisableVehicleWeapon(disabled,weaponHash,vehicle,owner) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -566,39 +572,25 @@ end
 --@usage BOOL DOES_SCRIPT_VEHICLE_GENERATOR_EXIST(int vehicleGenerator);
 --@params vehicleGenerator int
 --@return BOOL
-function DoesScriptVehicleGeneratorExist(vehicleGenerator)
-end
+function DoesScriptVehicleGeneratorExist(vehicleGenerator) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see DOES_CARGOBOB_HAVE_PICK_UP_ROPE
---@usage BOOL DOES_CARGOBOB_HAVE_PICK_UP_ROPE(Vehicle cargobob);
---@params cargobob Vehicle
---@return BOOL
-function DoesCargobobHavePickUpRope(cargobob)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see DOES_EXTRA_EXIST
---@usage BOOL DOES_EXTRA_EXIST(Vehicle vehicle,int extraId);
+--@see _DOES_VEHICLE_HAVE_JUMPING_ABILITY
+--@usage BOOL _DOES_VEHICLE_HAVE_JUMPING_ABILITY(Vehicle vehicle);
 --@params vehicle Vehicle
---@params extraId int
 --@return BOOL
-function DoesExtraExist(vehicle, extraId)
-end
+function DoesVehicleHaveJumpingAbility(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see DOES_VEHICLE_EXIST_WITH_DECORATOR
---@usage BOOL DOES_VEHICLE_EXIST_WITH_DECORATOR(char* decorator);
---@params decorator char*
+--@see _DOES_VEHICLE_HAVE_RETRACTABLE_WHEELS
+--@usage BOOL _DOES_VEHICLE_HAVE_RETRACTABLE_WHEELS(Vehicle vehicle);
+--@params vehicle Vehicle
 --@return BOOL
-function DoesVehicleExistWithDecorator(decorator)
-end
+function DoesVehicleHaveRetractableWheels(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -608,18 +600,16 @@ end
 --@params vehicle Vehicle
 --@params doorIndex int
 --@return BOOL
-function DoesVehicleHaveDoor(vehicle, doorIndex)
-end
+function DoesVehicleHaveDoor(vehicle,doorIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _DOES_VEHICLE_ALLOW_RAPPEL
---@usage BOOL _DOES_VEHICLE_ALLOW_RAPPEL(Vehicle vehicle);
---@params vehicle Vehicle
+--@see DOES_CARGOBOB_HAVE_PICKUP_MAGNET
+--@usage BOOL DOES_CARGOBOB_HAVE_PICKUP_MAGNET(Vehicle cargobob);
+--@params cargobob Vehicle
 --@return BOOL
-function DoesVehicleAllowRappel(vehicle)
-end
+function DoesCargobobHavePickupMagnet(cargobob) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -628,58 +618,7 @@ end
 --@usage BOOL _DOES_VEHICLE_HAVE_PARACHUTE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function DoesVehicleHaveParachute(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _DOES_VEHICLE_HAVE_JUMPING_ABILITY
---@usage BOOL _DOES_VEHICLE_HAVE_JUMPING_ABILITY(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function DoesVehicleHaveJumpingAbility(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _DOES_VEHICLE_HAVE_ROCKET_BOOST
---@usage BOOL _DOES_VEHICLE_HAVE_ROCKET_BOOST(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function DoesVehicleHaveRocketBoost(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _DOES_VEHICLE_HAVE_RETRACTABLE_WHEELS
---@usage BOOL _DOES_VEHICLE_HAVE_RETRACTABLE_WHEELS(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function DoesVehicleHaveRetractableWheels(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see DOES_VEHICLE_HAVE_ROOF
---@usage BOOL DOES_VEHICLE_HAVE_ROOF(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function DoesVehicleHaveRoof(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see DOES_VEHICLE_HAVE_WEAPONS
---@usage BOOL DOES_VEHICLE_HAVE_WEAPONS(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function DoesVehicleHaveWeapons(vehicle)
-end
+function DoesVehicleHaveParachute(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -688,31 +627,35 @@ end
 --@usage BOOL DOES_VEHICLE_HAVE_STUCK_VEHICLE_CHECK(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function DoesVehicleHaveStuckVehicleCheck(vehicle)
-end
+function DoesVehicleHaveStuckVehicleCheck(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see EXPLODE_VEHICLE
---@usage void EXPLODE_VEHICLE(Vehicle vehicle,BOOL isAudible,BOOL isInvisible);
+--@see DOES_VEHICLE_HAVE_ROOF
+--@usage BOOL DOES_VEHICLE_HAVE_ROOF(Vehicle vehicle);
 --@params vehicle Vehicle
---@params isAudible BOOL
---@params isInvisible BOOL
+--@return BOOL
+function DoesVehicleHaveRoof(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _DOES_VEHICLE_HAVE_ROCKET_BOOST
+--@usage BOOL _DOES_VEHICLE_HAVE_ROCKET_BOOST(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function DoesVehicleHaveRocketBoost(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see EXPLODE_VEHICLE_IN_CUTSCENE
+--@usage void EXPLODE_VEHICLE_IN_CUTSCENE(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
 --@return void
-function ExplodeVehicle(vehicle, isAudible, isInvisible)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see FIX_VEHICLE_WINDOW
---@usage Any FIX_VEHICLE_WINDOW(Vehicle vehicle,int index);
---@params vehicle Vehicle
---@params index int
---@return Any
-function FixVehicleWindow(vehicle, index)
-end
+function ExplodeVehicleInCutscene(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -724,8 +667,16 @@ end
 --@params y float
 --@params z float
 --@return void
-function EjectJb700Roof(vehicle, x, y, z)
-end
+function EjectJb700Roof(vehicle,x,y,z) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see DOES_VEHICLE_HAVE_WEAPONS
+--@usage BOOL DOES_VEHICLE_HAVE_WEAPONS(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function DoesVehicleHaveWeapons(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -735,19 +686,37 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function ForceSubmarineSurfaceMode(vehicle, toggle)
-end
+function ForceSubmarineSurfaceMode(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see EXPLODE_VEHICLE_IN_CUTSCENE
---@usage void EXPLODE_VEHICLE_IN_CUTSCENE(Vehicle vehicle,BOOL p1);
+--@see EXPLODE_VEHICLE
+--@usage void EXPLODE_VEHICLE(Vehicle vehicle,BOOL isAudible,BOOL isInvisible);
 --@params vehicle Vehicle
---@params p1 BOOL
+--@params isAudible BOOL
+--@params isInvisible BOOL
 --@return void
-function ExplodeVehicleInCutscene(vehicle, p1)
-end
+function ExplodeVehicle(vehicle,isAudible,isInvisible) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see FIX_VEHICLE_WINDOW
+--@usage Any FIX_VEHICLE_WINDOW(Vehicle vehicle,int index);
+--@params vehicle Vehicle
+--@params index int
+--@return Any
+function FixVehicleWindow(vehicle,index) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _DOES_VEHICLE_ALLOW_RAPPEL
+--@usage BOOL _DOES_VEHICLE_ALLOW_RAPPEL(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function DoesVehicleAllowRappel(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -756,80 +725,25 @@ end
 --@usage Vector3 _GET_CARGOBOB_HOOK_POSITION(Vehicle cargobob);
 --@params cargobob Vehicle
 --@return Vector3
-function GetCargobobHookPosition(cargobob)
-end
+function GetCargobobHookPosition(cargobob) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_CURRENT_PLAYBACK_FOR_VEHICLE
---@usage int GET_CURRENT_PLAYBACK_FOR_VEHICLE(Vehicle vehicle);
+--@see GET_CONVERTIBLE_ROOF_STATE
+--@usage int GET_CONVERTIBLE_ROOF_STATE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetCurrentPlaybackForVehicle(vehicle)
-end
+function GetConvertibleRoofState(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _GET_ALL_VEHICLES
---@usage int _GET_ALL_VEHICLES(Any* vehArray);
---@params vehArray Any*
---@return int
-function GetAllVehicles(vehArray)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_DISPLAY_NAME_FROM_VEHICLE_MODEL
---@usage char* GET_DISPLAY_NAME_FROM_VEHICLE_MODEL(Hash modelHash);
---@params modelHash Hash
---@return char*
-function GetDisplayNameFromVehicleModel(modelHash)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see CAN_ANCHOR_BOAT_HERE
---@usage BOOL CAN_ANCHOR_BOAT_HERE(Vehicle vehicle);
+--@see GET_BOAT_BOOM_POSITION_RATIO
+--@usage float GET_BOAT_BOOM_POSITION_RATIO(Vehicle vehicle);
 --@params vehicle Vehicle
---@return BOOL
-function CanAnchorBoatHere(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_ENTITY_ATTACHED_TO_CARGOBOB
---@usage Entity _GET_ENTITY_ATTACHED_TO_CARGOBOB(Vehicle vehicle);
---@params vehicle Vehicle
---@return Entity
-function GetEntityAttachedToCargobob(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_ENTRY_POSITION_OF_DOOR
---@usage Vector3 _GET_ENTRY_POSITION_OF_DOOR(Vehicle vehicle,int doorIndex);
---@params vehicle Vehicle
---@params doorIndex int
---@return Vector3
-function GetEntryPositionOfDoor(vehicle, doorIndex)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see CONTROL_LANDING_GEAR
---@usage void CONTROL_LANDING_GEAR(Vehicle vehicle,int state);
---@params vehicle Vehicle
---@params state int
---@return void
-function ControlLandingGear(vehicle, state)
-end
+--@return float
+function GetBoatBoomPositionRatio(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -843,64 +757,16 @@ end
 --@params modelHash Hash
 --@params flags int
 --@return Vehicle
-function GetClosestVehicle(x, y, z, radius, modelHash, flags)
-end
+function GetClosestVehicle(x,y,z,radius,modelHash,flags) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see ADD_VEHICLE_STUCK_CHECK_WITH_WARP
---@usage void ADD_VEHICLE_STUCK_CHECK_WITH_WARP(Any p0,float p1,Any p2,BOOL p3,BOOL p4,BOOL p5,Any p6);
---@params p0 Any
---@params p1 float
---@params p2 Any
---@params p3 BOOL
---@params p4 BOOL
---@params p5 BOOL
---@params p6 Any
---@return void
-function AddVehicleStuckCheckWithWarp(p0, p1, p2, p3, p4, p5, p6)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_HELI_TAIL_ROTOR_HEALTH
---@usage float GET_HELI_TAIL_ROTOR_HEALTH(Vehicle vehicle);
---@params vehicle Vehicle
---@return float
-function GetHeliTailRotorHealth(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_CONVERTIBLE_ROOF_STATE
---@usage int GET_CONVERTIBLE_ROOF_STATE(Vehicle vehicle);
---@params vehicle Vehicle
---@return int
-function GetConvertibleRoofState(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_IS_RIGHT_VEHICLE_HEADLIGHT_DAMAGED
---@usage BOOL GET_IS_RIGHT_VEHICLE_HEADLIGHT_DAMAGED(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function GetIsRightVehicleHeadlightDamaged(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_HELI_TAIL_BOOM_HEALTH
---@usage float GET_HELI_TAIL_BOOM_HEALTH(Vehicle vehicle);
---@params vehicle Vehicle
---@return float
-function GetHeliTailBoomHealth(vehicle)
-end
+--@see GET_DISPLAY_NAME_FROM_VEHICLE_MODEL
+--@usage char* GET_DISPLAY_NAME_FROM_VEHICLE_MODEL(Hash modelHash);
+--@params modelHash Hash
+--@return char*
+function GetDisplayNameFromVehicleModel(modelHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -909,18 +775,16 @@ end
 --@usage BOOL _GET_DOES_VEHICLE_HAVE_TOMBSTONE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function GetDoesVehicleHaveTombstone(vehicle)
-end
+function GetDoesVehicleHaveTombstone(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_BOAT_BOOM_POSITION_RATIO
---@usage float GET_BOAT_BOOM_POSITION_RATIO(Vehicle vehicle);
---@params vehicle Vehicle
---@return float
-function GetBoatBoomPositionRatio(vehicle)
-end
+--@see _GET_ALL_VEHICLES
+--@usage int _GET_ALL_VEHICLES(Any* vehArray);
+--@params vehArray Any*
+--@return int
+function GetAllVehicles(vehArray) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -929,38 +793,17 @@ end
 --@usage Entity GET_ENTITY_ATTACHED_TO_TOW_TRUCK(Vehicle towTruck);
 --@params towTruck Vehicle
 --@return Entity
-function GetEntityAttachedToTowTruck(towTruck)
-end
+function GetEntityAttachedToTowTruck(towTruck) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_IS_VEHICLE_SECONDARY_COLOUR_CUSTOM
---@usage BOOL GET_IS_VEHICLE_SECONDARY_COLOUR_CUSTOM(Vehicle vehicle);
+--@see _GET_ENTRY_POSITION_OF_DOOR
+--@usage Vector3 _GET_ENTRY_POSITION_OF_DOOR(Vehicle vehicle,int doorIndex);
 --@params vehicle Vehicle
---@return BOOL
-function GetIsVehicleSecondaryColourCustom(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_HELI_MAIN_ROTOR_HEALTH
---@usage float GET_HELI_MAIN_ROTOR_HEALTH(Vehicle vehicle);
---@params vehicle Vehicle
---@return float
-function GetHeliMainRotorHealth(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_IS_VEHICLE_SHUNT_BOOST_ACTIVE
---@usage BOOL _GET_IS_VEHICLE_SHUNT_BOOST_ACTIVE(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function GetIsVehicleShuntBoostActive(vehicle)
-end
+--@params doorIndex int
+--@return Vector3
+function GetEntryPositionOfDoor(vehicle,doorIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -969,18 +812,43 @@ end
 --@usage BOOL GET_IS_LEFT_VEHICLE_HEADLIGHT_DAMAGED(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function GetIsLeftVehicleHeadlightDamaged(vehicle)
-end
+function GetIsLeftVehicleHeadlightDamaged(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_LANDING_GEAR_STATE
---@usage int GET_LANDING_GEAR_STATE(Vehicle vehicle);
+--@see GET_CURRENT_PLAYBACK_FOR_VEHICLE
+--@usage int GET_CURRENT_PLAYBACK_FOR_VEHICLE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetLandingGearState(vehicle)
-end
+function GetCurrentPlaybackForVehicle(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _GET_ENTITY_ATTACHED_TO_CARGOBOB
+--@usage Entity _GET_ENTITY_ATTACHED_TO_CARGOBOB(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return Entity
+function GetEntityAttachedToCargobob(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_HELI_MAIN_ROTOR_HEALTH
+--@usage float GET_HELI_MAIN_ROTOR_HEALTH(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return float
+function GetHeliMainRotorHealth(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_IS_RIGHT_VEHICLE_HEADLIGHT_DAMAGED
+--@usage BOOL GET_IS_RIGHT_VEHICLE_HEADLIGHT_DAMAGED(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function GetIsRightVehicleHeadlightDamaged(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -989,38 +857,25 @@ end
 --@usage BOOL _GET_IS_VEHICLE_EMP_DISABLED(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function GetIsVehicleEmpDisabled(vehicle)
-end
+function GetIsVehicleEmpDisabled(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_LAST_DRIVEN_VEHICLE
---@usage Vehicle GET_LAST_DRIVEN_VEHICLE();
-
---@return Vehicle
-function GetLastDrivenVehicle()
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_IS_WHEELS_LOWERED_STATE_ACTIVE
---@usage BOOL _GET_IS_WHEELS_LOWERED_STATE_ACTIVE(Vehicle vehicle);
+--@see GET_HELI_TAIL_BOOM_HEALTH
+--@usage float GET_HELI_TAIL_BOOM_HEALTH(Vehicle vehicle);
 --@params vehicle Vehicle
---@return BOOL
-function GetIsWheelsLoweredStateActive(vehicle)
-end
+--@return float
+function GetHeliTailBoomHealth(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_IS_VEHICLE_PRIMARY_COLOUR_CUSTOM
---@usage BOOL GET_IS_VEHICLE_PRIMARY_COLOUR_CUSTOM(Vehicle vehicle);
+--@see GET_HELI_TAIL_ROTOR_HEALTH
+--@usage float GET_HELI_TAIL_ROTOR_HEALTH(Vehicle vehicle);
 --@params vehicle Vehicle
---@return BOOL
-function GetIsVehiclePrimaryColourCustom(vehicle)
-end
+--@return float
+function GetHeliTailRotorHealth(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1029,8 +884,43 @@ end
 --@usage BOOL _GET_IS_SUBMARINE_VEHICLE_TRANSFORMED(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function GetIsSubmarineVehicleTransformed(vehicle)
-end
+function GetIsSubmarineVehicleTransformed(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_IS_VEHICLE_PRIMARY_COLOUR_CUSTOM
+--@usage BOOL GET_IS_VEHICLE_PRIMARY_COLOUR_CUSTOM(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function GetIsVehiclePrimaryColourCustom(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_IS_VEHICLE_SECONDARY_COLOUR_CUSTOM
+--@usage BOOL GET_IS_VEHICLE_SECONDARY_COLOUR_CUSTOM(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function GetIsVehicleSecondaryColourCustom(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _GET_IS_VEHICLE_SHUNT_BOOST_ACTIVE
+--@usage BOOL _GET_IS_VEHICLE_SHUNT_BOOST_ACTIVE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function GetIsVehicleShuntBoostActive(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_IS_VEHICLE_ENGINE_RUNNING
+--@usage BOOL GET_IS_VEHICLE_ENGINE_RUNNING(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function GetIsVehicleEngineRunning(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1040,8 +930,73 @@ end
 --@params vehicle Vehicle
 --@params seatIndex int
 --@return Ped
-function GetLastPedInVehicleSeat(vehicle, seatIndex)
-end
+function GetLastPedInVehicleSeat(vehicle,seatIndex) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_LANDING_GEAR_STATE
+--@usage int GET_LANDING_GEAR_STATE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return int
+function GetLandingGearState(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _GET_IS_WHEELS_LOWERED_STATE_ACTIVE
+--@usage BOOL _GET_IS_WHEELS_LOWERED_STATE_ACTIVE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function GetIsWheelsLoweredStateActive(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _GET_LAST_RAMMED_VEHICLE
+--@usage Vehicle _GET_LAST_RAMMED_VEHICLE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return Vehicle
+function GetLastRammedVehicle(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_MOD_SLOT_NAME
+--@usage char* GET_MOD_SLOT_NAME(Vehicle vehicle,int modType);
+--@params vehicle Vehicle
+--@params modType int
+--@return char*
+function GetModSlotName(vehicle,modType) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_LAST_DRIVEN_VEHICLE
+--@usage Vehicle GET_LAST_DRIVEN_VEHICLE();
+
+--@return Vehicle
+function GetLastDrivenVehicle() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_NUM_MOD_COLORS
+--@usage int GET_NUM_MOD_COLORS(int p0,BOOL p1);
+--@params p0 int
+--@params p1 BOOL
+--@return int
+function GetNumModColors(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_LIVERY_NAME
+--@usage char* GET_LIVERY_NAME(Vehicle vehicle,int liveryIndex);
+--@params vehicle Vehicle
+--@params liveryIndex int
+--@return char*
+function GetLiveryName(vehicle,liveryIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1052,50 +1007,7 @@ end
 --@params modType int
 --@params modValue int
 --@return char*
-function GetModTextLabel(vehicle, modType, modValue)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_IS_VEHICLE_ENGINE_RUNNING
---@usage BOOL GET_IS_VEHICLE_ENGINE_RUNNING(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function GetIsVehicleEngineRunning(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_MOD_SLOT_NAME
---@usage char* GET_MOD_SLOT_NAME(Vehicle vehicle,int modType);
---@params vehicle Vehicle
---@params modType int
---@return char*
-function GetModSlotName(vehicle, modType)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_LIVERY_NAME
---@usage char* GET_LIVERY_NAME(Vehicle vehicle,int liveryIndex);
---@params vehicle Vehicle
---@params liveryIndex int
---@return char*
-function GetLiveryName(vehicle, liveryIndex)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_NUM_MOD_KITS
---@usage int GET_NUM_MOD_KITS(Vehicle vehicle);
---@params vehicle Vehicle
---@return int
-function GetNumModKits(vehicle)
-end
+function GetModTextLabel(vehicle,modType,modValue) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1105,29 +1017,25 @@ end
 --@params vehicle Vehicle
 --@params modType int
 --@return int
-function GetNumVehicleMods(vehicle, modType)
-end
+function GetNumVehicleMods(vehicle,modType) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_NUM_MOD_COLORS
---@usage int GET_NUM_MOD_COLORS(int p0,BOOL p1);
---@params p0 int
---@params p1 BOOL
---@return int
-function GetNumModColors(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_NUMBER_OF_VEHICLE_DOORS
---@usage int _GET_NUMBER_OF_VEHICLE_DOORS(Vehicle vehicle);
+--@see GET_NUM_MOD_KITS
+--@usage int GET_NUM_MOD_KITS(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetNumberOfVehicleDoors(vehicle)
-end
+function GetNumModKits(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_NUM_VEHICLE_WINDOW_TINTS
+--@usage int GET_NUM_VEHICLE_WINDOW_TINTS();
+
+--@return int
+function GetNumVehicleWindowTints() end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1136,8 +1044,16 @@ end
 --@usage int GET_NUMBER_OF_VEHICLE_COLOURS(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetNumberOfVehicleColours(vehicle)
-end
+function GetNumberOfVehicleColours(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_NUMBER_OF_VEHICLE_NUMBER_PLATES
+--@usage int GET_NUMBER_OF_VEHICLE_NUMBER_PLATES();
+
+--@return int
+function GetNumberOfVehicleNumberPlates() end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1147,28 +1063,35 @@ end
 --@params vehicle Vehicle
 --@params index int
 --@return Ped
-function GetPedInVehicleSeat(vehicle, index)
-end
+function GetPedInVehicleSeat(vehicle,index) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_NUM_VEHICLE_WINDOW_TINTS
---@usage int GET_NUM_VEHICLE_WINDOW_TINTS();
-
---@return int
-function GetNumVehicleWindowTints()
-end
+--@see _GET_PLANE_VTOL_DIRECTION
+--@usage float _GET_PLANE_VTOL_DIRECTION(Vehicle aircraft);
+--@params aircraft Vehicle
+--@return float
+function GetPlaneVtolDirection(aircraft) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_NUMBER_OF_VEHICLE_NUMBER_PLATES
---@usage int GET_NUMBER_OF_VEHICLE_NUMBER_PLATES();
-
+--@see _GET_NUMBER_OF_VEHICLE_DOORS
+--@usage int _GET_NUMBER_OF_VEHICLE_DOORS(Vehicle vehicle);
+--@params vehicle Vehicle
 --@return int
-function GetNumberOfVehicleNumberPlates()
-end
+function GetNumberOfVehicleDoors(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_POSITION_OF_VEHICLE_RECORDING_ID_AT_TIME
+--@usage int GET_POSITION_OF_VEHICLE_RECORDING_ID_AT_TIME(int id,float time);
+--@params id int
+--@params time float
+--@return int
+function GetPositionOfVehicleRecordingIdAtTime(id,time) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1178,30 +1101,7 @@ end
 --@params vehicle Vehicle
 --@params doorIndex int
 --@return Ped
-function GetPedUsingVehicleDoor(vehicle, doorIndex)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_POSITION_OF_VEHICLE_RECORDING_AT_TIME
---@usage Vector3 GET_POSITION_OF_VEHICLE_RECORDING_AT_TIME(int p0,float p1,char* p2);
---@params p0 int
---@params p1 float
---@params p2 char*
---@return Vector3
-function GetPositionOfVehicleRecordingAtTime(p0, p1, p2)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_POSITION_IN_RECORDING
---@usage float GET_POSITION_IN_RECORDING(Any p0);
---@params p0 Any
---@return float
-function GetPositionInRecording(p0)
-end
+function GetPedUsingVehicleDoor(vehicle,doorIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1216,30 +1116,16 @@ end
 --@params p5 int
 --@params p6 int
 --@return Vehicle
-function GetRandomVehicleBackBumperInSphere(p0, p1, p2, p3, p4, p5, p6)
-end
+function GetRandomVehicleBackBumperInSphere(p0,p1,p2,p3,p4,p5,p6) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _GET_LAST_RAMMED_VEHICLE
---@usage Vehicle _GET_LAST_RAMMED_VEHICLE(Vehicle vehicle);
---@params vehicle Vehicle
---@return Vehicle
-function GetLastRammedVehicle(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_RANDOM_VEHICLE_MODEL_IN_MEMORY
---@usage void GET_RANDOM_VEHICLE_MODEL_IN_MEMORY(BOOL p0,Hash* modelHash,int* p2);
---@params p0 BOOL
---@params modelHash Hash*
---@params p2 int*
---@return void
-function GetRandomVehicleModelInMemory(p0, modelHash, p2)
-end
+--@see GET_POSITION_IN_RECORDING
+--@usage float GET_POSITION_IN_RECORDING(Any p0);
+--@params p0 Any
+--@return float
+function GetPositionInRecording(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1253,8 +1139,18 @@ end
 --@params modelHash Hash
 --@params flags int
 --@return Vehicle
-function GetRandomVehicleInSphere(x, y, z, radius, modelHash, flags)
-end
+function GetRandomVehicleInSphere(x,y,z,radius,modelHash,flags) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_POSITION_OF_VEHICLE_RECORDING_AT_TIME
+--@usage Vector3 GET_POSITION_OF_VEHICLE_RECORDING_AT_TIME(int p0,float p1,char* p2);
+--@params p0 int
+--@params p1 float
+--@params p2 char*
+--@return Vector3
+function GetPositionOfVehicleRecordingAtTime(p0,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1265,18 +1161,7 @@ end
 --@params p1 float
 --@params p2 Any*
 --@return int
-function GetRotationOfVehicleRecordingAtTime(p0, p1, p2)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_PLANE_VTOL_DIRECTION
---@usage float _GET_PLANE_VTOL_DIRECTION(Vehicle aircraft);
---@params aircraft Vehicle
---@return float
-function GetPlaneVtolDirection(aircraft)
-end
+function GetRotationOfVehicleRecordingAtTime(p0,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1291,91 +1176,7 @@ end
 --@params p5 int
 --@params p6 int
 --@return Vehicle
-function GetRandomVehicleFrontBumperInSphere(p0, p1, p2, p3, p4, p5, p6)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_TIME_POSITION_IN_RECORDING
---@usage float GET_TIME_POSITION_IN_RECORDING(Any p0);
---@params p0 Any
---@return float
-function GetTimePositionInRecording(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_TOTAL_DURATION_OF_VEHICLE_RECORDING_ID
---@usage float GET_TOTAL_DURATION_OF_VEHICLE_RECORDING_ID(Any p0);
---@params p0 Any
---@return float
-function GetTotalDurationOfVehicleRecordingId(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_POSITION_OF_VEHICLE_RECORDING_ID_AT_TIME
---@usage int GET_POSITION_OF_VEHICLE_RECORDING_ID_AT_TIME(int id,float time);
---@params id int
---@params time float
---@return int
-function GetPositionOfVehicleRecordingIdAtTime(id, time)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_TRAIN_CARRIAGE
---@usage Entity GET_TRAIN_CARRIAGE(Vehicle train,int trailerNumber);
---@params train Vehicle
---@params trailerNumber int
---@return Entity
-function GetTrainCarriage(train, trailerNumber)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_ACCELERATION
---@usage float GET_VEHICLE_ACCELERATION(Vehicle vehicle);
---@params vehicle Vehicle
---@return float
-function GetVehicleAcceleration(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_ATTACHED_TO_CARGOBOB
---@usage Vehicle GET_VEHICLE_ATTACHED_TO_CARGOBOB(Vehicle cargobob);
---@params cargobob Vehicle
---@return Vehicle
-function GetVehicleAttachedToCargobob(cargobob)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_TOTAL_DURATION_OF_VEHICLE_RECORDING
---@usage Any GET_TOTAL_DURATION_OF_VEHICLE_RECORDING(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return Any
-function GetTotalDurationOfVehicleRecording(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_VEHICLE_ATTACHED_TO_ENTITY
---@usage Vehicle _GET_VEHICLE_ATTACHED_TO_ENTITY(Entity entity);
---@params entity Entity
---@return Vehicle
-function GetVehicleAttachedToEntity(entity)
-end
+function GetRandomVehicleFrontBumperInSphere(p0,p1,p2,p3,p4,p5,p6) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1385,98 +1186,65 @@ end
 --@params id int
 --@params time float
 --@return Vector3
-function GetRotationOfVehicleRecordingIdAtTime(id, time)
-end
+function GetRotationOfVehicleRecordingIdAtTime(id,time) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _GET_VEHICLE_BODY_HEALTH_2
---@usage float _GET_VEHICLE_BODY_HEALTH_2(Vehicle vehicle);
---@params vehicle Vehicle
+--@see GET_RANDOM_VEHICLE_MODEL_IN_MEMORY
+--@usage void GET_RANDOM_VEHICLE_MODEL_IN_MEMORY(BOOL p0,Hash* modelHash,int* p2);
+--@params p0 BOOL
+--@params modelHash Hash*
+--@params p2 int*
+--@return void
+function GetRandomVehicleModelInMemory(p0,modelHash,p2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_TOTAL_DURATION_OF_VEHICLE_RECORDING
+--@usage Any GET_TOTAL_DURATION_OF_VEHICLE_RECORDING(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return Any
+function GetTotalDurationOfVehicleRecording(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_TRAIN_CARRIAGE
+--@usage Entity GET_TRAIN_CARRIAGE(Vehicle train,int trailerNumber);
+--@params train Vehicle
+--@params trailerNumber int
+--@return Entity
+function GetTrainCarriage(train,trailerNumber) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_TIME_POSITION_IN_RECORDING
+--@usage float GET_TIME_POSITION_IN_RECORDING(Any p0);
+--@params p0 Any
 --@return float
-function GetVehicleBodyHealth_2(vehicle)
-end
+function GetTimePositionInRecording(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_VEHICLE_CAUSE_OF_DESTRUCTION
---@usage Hash GET_VEHICLE_CAUSE_OF_DESTRUCTION(Vehicle vehicle);
---@params vehicle Vehicle
---@return Hash
-function GetVehicleCauseOfDestruction(vehicle)
-end
+--@see GET_VEHICLE_ATTACHED_TO_CARGOBOB
+--@usage Vehicle GET_VEHICLE_ATTACHED_TO_CARGOBOB(Vehicle cargobob);
+--@params cargobob Vehicle
+--@return Vehicle
+function GetVehicleAttachedToCargobob(cargobob) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _GET_VEHICLE_BOMB_COUNT
---@usage int _GET_VEHICLE_BOMB_COUNT(Vehicle aircraft);
---@params aircraft Vehicle
---@return int
-function GetVehicleBombCount(aircraft)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_CLASS_ESTIMATED_MAX_SPEED
---@usage float GET_VEHICLE_CLASS_ESTIMATED_MAX_SPEED(int vehicleClass);
---@params vehicleClass int
+--@see GET_TOTAL_DURATION_OF_VEHICLE_RECORDING_ID
+--@usage float GET_TOTAL_DURATION_OF_VEHICLE_RECORDING_ID(Any p0);
+--@params p0 Any
 --@return float
-function GetVehicleClassEstimatedMaxSpeed(vehicleClass)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_CLASS_MAX_ACCELERATION
---@usage float GET_VEHICLE_CLASS_MAX_ACCELERATION(int vehicleClass);
---@params vehicleClass int
---@return float
-function GetVehicleClassMaxAcceleration(vehicleClass)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_CLASS
---@usage int GET_VEHICLE_CLASS(Vehicle vehicle);
---@params vehicle Vehicle
---@return int
-function GetVehicleClass(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_CLASS_FROM_NAME
---@usage int GET_VEHICLE_CLASS_FROM_NAME(Hash modelHash);
---@params modelHash Hash
---@return int
-function GetVehicleClassFromName(modelHash)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_CLASS_MAX_AGILITY
---@usage float GET_VEHICLE_CLASS_MAX_AGILITY(int vehicleClass);
---@params vehicleClass int
---@return float
-function GetVehicleClassMaxAgility(vehicleClass)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_CLASS_MAX_TRACTION
---@usage float GET_VEHICLE_CLASS_MAX_TRACTION(int vehicleClass);
---@params vehicleClass int
---@return float
-function GetVehicleClassMaxTraction(vehicleClass)
-end
+function GetTotalDurationOfVehicleRecordingId(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1485,8 +1253,70 @@ end
 --@usage float GET_VEHICLE_BODY_HEALTH(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleBodyHealth(vehicle)
-end
+function GetVehicleBodyHealth(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _GET_VEHICLE_BODY_HEALTH_2
+--@usage float _GET_VEHICLE_BODY_HEALTH_2(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return float
+function GetVehicleBodyHealth_2(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_ACCELERATION
+--@usage float GET_VEHICLE_ACCELERATION(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return float
+function GetVehicleAcceleration(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _GET_VEHICLE_ATTACHED_TO_ENTITY
+--@usage Vehicle _GET_VEHICLE_ATTACHED_TO_ENTITY(Entity entity);
+--@params entity Entity
+--@return Vehicle
+function GetVehicleAttachedToEntity(entity) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_CLASS_ESTIMATED_MAX_SPEED
+--@usage float GET_VEHICLE_CLASS_ESTIMATED_MAX_SPEED(int vehicleClass);
+--@params vehicleClass int
+--@return float
+function GetVehicleClassEstimatedMaxSpeed(vehicleClass) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_CLASS_MAX_ACCELERATION
+--@usage float GET_VEHICLE_CLASS_MAX_ACCELERATION(int vehicleClass);
+--@params vehicleClass int
+--@return float
+function GetVehicleClassMaxAcceleration(vehicleClass) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_CAUSE_OF_DESTRUCTION
+--@usage Hash GET_VEHICLE_CAUSE_OF_DESTRUCTION(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return Hash
+function GetVehicleCauseOfDestruction(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _GET_VEHICLE_BOMB_COUNT
+--@usage int _GET_VEHICLE_BOMB_COUNT(Vehicle aircraft);
+--@params aircraft Vehicle
+--@return int
+function GetVehicleBombCount(aircraft) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1495,8 +1325,34 @@ end
 --@usage float GET_VEHICLE_CLASS_MAX_BRAKING(int vehicleClass);
 --@params vehicleClass int
 --@return float
-function GetVehicleClassMaxBraking(vehicleClass)
-end
+function GetVehicleClassMaxBraking(vehicleClass) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_CLASS
+--@usage int GET_VEHICLE_CLASS(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return int
+function GetVehicleClass(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_CLASS_MAX_TRACTION
+--@usage float GET_VEHICLE_CLASS_MAX_TRACTION(int vehicleClass);
+--@params vehicleClass int
+--@return float
+function GetVehicleClassMaxTraction(vehicleClass) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_CLASS_FROM_NAME
+--@usage int GET_VEHICLE_CLASS_FROM_NAME(Hash modelHash);
+--@params modelHash Hash
+--@return int
+function GetVehicleClassFromName(modelHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1507,8 +1363,16 @@ end
 --@params colorPrimary int*
 --@params colorSecondary int*
 --@return void
-function GetVehicleColours(vehicle, colorPrimary, colorSecondary)
-end
+function GetVehicleColours(vehicle,colorPrimary,colorSecondary) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_CLASS_MAX_AGILITY
+--@usage float GET_VEHICLE_CLASS_MAX_AGILITY(int vehicleClass);
+--@params vehicleClass int
+--@return float
+function GetVehicleClassMaxAgility(vehicleClass) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1517,32 +1381,7 @@ end
 --@usage int _GET_VEHICLE_COUNTERMEASURE_COUNT(Vehicle aircraft);
 --@params aircraft Vehicle
 --@return int
-function GetVehicleCountermeasureCount(aircraft)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_CUSTOM_PRIMARY_COLOUR
---@usage void GET_VEHICLE_CUSTOM_PRIMARY_COLOUR(Vehicle vehicle,int* r,int* g,int* b);
---@params vehicle Vehicle
---@params r int*
---@params g int*
---@params b int*
---@return void
-function GetVehicleCustomPrimaryColour(vehicle, r, g, b)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_VEHICLE_DASHBOARD_COLOUR
---@usage void _GET_VEHICLE_DASHBOARD_COLOUR(Vehicle vehicle,int* color);
---@params vehicle Vehicle
---@params color int*
---@return void
-function GetVehicleDashboardColour(vehicle, color)
-end
+function GetVehicleCountermeasureCount(aircraft) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1554,8 +1393,7 @@ end
 --@params g int*
 --@params b int*
 --@return void
-function GetVehicleColor(vehicle, r, g, b)
-end
+function GetVehicleColor(vehicle,r,g,b) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1567,8 +1405,25 @@ end
 --@params g int*
 --@params b int*
 --@return void
-function GetVehicleCustomSecondaryColour(vehicle, r, g, b)
-end
+function GetVehicleCustomSecondaryColour(vehicle,r,g,b) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_COLOUR_COMBINATION
+--@usage int GET_VEHICLE_COLOUR_COMBINATION(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return int
+function GetVehicleColourCombination(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_DIRT_LEVEL
+--@usage float GET_VEHICLE_DIRT_LEVEL(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return float
+function GetVehicleDirtLevel(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1580,8 +1435,39 @@ end
 --@params offsetY float
 --@params offsetZ float
 --@return Vector3
-function GetVehicleDeformationAtPos(vehicle, offsetX, offsetY, offsetZ)
-end
+function GetVehicleDeformationAtPos(vehicle,offsetX,offsetY,offsetZ) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_CUSTOM_PRIMARY_COLOUR
+--@usage void GET_VEHICLE_CUSTOM_PRIMARY_COLOUR(Vehicle vehicle,int* r,int* g,int* b);
+--@params vehicle Vehicle
+--@params r int*
+--@params g int*
+--@params b int*
+--@return void
+function GetVehicleCustomPrimaryColour(vehicle,r,g,b) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _GET_VEHICLE_DASHBOARD_COLOUR
+--@usage void _GET_VEHICLE_DASHBOARD_COLOUR(Vehicle vehicle,int* color);
+--@params vehicle Vehicle
+--@params color int*
+--@return void
+function GetVehicleDashboardColour(vehicle,color) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_DOORS_LOCKED_FOR_PLAYER
+--@usage BOOL GET_VEHICLE_DOORS_LOCKED_FOR_PLAYER(Vehicle vehicle,Player player);
+--@params vehicle Vehicle
+--@params player Player
+--@return BOOL
+function GetVehicleDoorsLockedForPlayer(vehicle,player) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1591,8 +1477,7 @@ end
 --@params vehicle Vehicle
 --@params door int
 --@return float
-function GetVehicleDoorAngleRatio(vehicle, door)
-end
+function GetVehicleDoorAngleRatio(vehicle,door) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1601,8 +1486,7 @@ end
 --@usage float GET_VEHICLE_ENVEFF_SCALE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleEnveffScale(vehicle)
-end
+function GetVehicleEnveffScale(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1611,8 +1495,52 @@ end
 --@usage float GET_VEHICLE_ESTIMATED_MAX_SPEED(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleEstimatedMaxSpeed(vehicle)
-end
+function GetVehicleEstimatedMaxSpeed(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_DOOR_LOCK_STATUS
+--@usage int GET_VEHICLE_DOOR_LOCK_STATUS(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return int
+function GetVehicleDoorLockStatus(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_HAS_KERS
+--@usage BOOL GET_VEHICLE_HAS_KERS(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function GetVehicleHasKers(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_ENGINE_HEALTH
+--@usage float GET_VEHICLE_ENGINE_HEALTH(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return float
+function GetVehicleEngineHealth(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_LAYOUT_HASH
+--@usage Hash GET_VEHICLE_LAYOUT_HASH(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return Hash
+function GetVehicleLayoutHash(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _GET_VEHICLE_HAS_LANDING_GEAR
+--@usage Any _GET_VEHICLE_HAS_LANDING_GEAR(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return Any
+function GetVehicleHasLandingGear(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1623,8 +1551,16 @@ end
 --@params pearlescentColor int*
 --@params wheelColor int*
 --@return void
-function GetVehicleExtraColours(vehicle, pearlescentColor, wheelColor)
-end
+function GetVehicleExtraColours(vehicle,pearlescentColor,wheelColor) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_LIVERY
+--@usage int GET_VEHICLE_LIVERY(Vehicle trailers2);
+--@params trailers2 Vehicle
+--@return int
+function GetVehicleLivery(trailers2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1634,18 +1570,17 @@ end
 --@params vehicle Vehicle
 --@params color int*
 --@return void
-function GetVehicleInteriorColour(vehicle, color)
-end
+function GetVehicleInteriorColour(vehicle,color) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_VEHICLE_ENGINE_HEALTH
---@usage float GET_VEHICLE_ENGINE_HEALTH(Vehicle vehicle);
+--@see GET_VEHICLE_LOCK_ON_TARGET
+--@usage BOOL GET_VEHICLE_LOCK_ON_TARGET(Vehicle vehicle,Entity* entity);
 --@params vehicle Vehicle
---@return float
-function GetVehicleEngineHealth(vehicle)
-end
+--@params entity Entity*
+--@return BOOL
+function GetVehicleLockOnTarget(vehicle,entity) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1656,110 +1591,7 @@ end
 --@params lightsOn BOOL*
 --@params highbeamsOn BOOL*
 --@return BOOL
-function GetVehicleLightsState(vehicle, lightsOn, highbeamsOn)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_HAS_KERS
---@usage BOOL GET_VEHICLE_HAS_KERS(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function GetVehicleHasKers(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_COLOUR_COMBINATION
---@usage int GET_VEHICLE_COLOUR_COMBINATION(Vehicle vehicle);
---@params vehicle Vehicle
---@return int
-function GetVehicleColourCombination(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_DOORS_LOCKED_FOR_PLAYER
---@usage BOOL GET_VEHICLE_DOORS_LOCKED_FOR_PLAYER(Vehicle vehicle,Player player);
---@params vehicle Vehicle
---@params player Player
---@return BOOL
-function GetVehicleDoorsLockedForPlayer(vehicle, player)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_DOOR_LOCK_STATUS
---@usage int GET_VEHICLE_DOOR_LOCK_STATUS(Vehicle vehicle);
---@params vehicle Vehicle
---@return int
-function GetVehicleDoorLockStatus(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_VEHICLE_HAS_LANDING_GEAR
---@usage Any _GET_VEHICLE_HAS_LANDING_GEAR(Vehicle vehicle);
---@params vehicle Vehicle
---@return Any
-function GetVehicleHasLandingGear(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_LOCK_ON_TARGET
---@usage BOOL GET_VEHICLE_LOCK_ON_TARGET(Vehicle vehicle,Entity* entity);
---@params vehicle Vehicle
---@params entity Entity*
---@return BOOL
-function GetVehicleLockOnTarget(vehicle, entity)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_LIVERY
---@usage int GET_VEHICLE_LIVERY(Vehicle trailers2);
---@params trailers2 Vehicle
---@return int
-function GetVehicleLivery(trailers2)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_MAX_NUMBER_OF_PASSENGERS
---@usage int GET_VEHICLE_MAX_NUMBER_OF_PASSENGERS(Vehicle vehicle);
---@params vehicle Vehicle
---@return int
-function GetVehicleMaxNumberOfPassengers(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_MAX_TRACTION
---@usage float GET_VEHICLE_MAX_TRACTION(Vehicle vehicle);
---@params vehicle Vehicle
---@return float
-function GetVehicleMaxTraction(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_DIRT_LEVEL
---@usage float GET_VEHICLE_DIRT_LEVEL(Vehicle vehicle);
---@params vehicle Vehicle
---@return float
-function GetVehicleDirtLevel(vehicle)
-end
+function GetVehicleLightsState(vehicle,lightsOn,highbeamsOn) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1768,8 +1600,76 @@ end
 --@usage float GET_VEHICLE_MAX_BRAKING(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return float
-function GetVehicleMaxBraking(vehicle)
-end
+function GetVehicleMaxBraking(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_MAX_TRACTION
+--@usage float GET_VEHICLE_MAX_TRACTION(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return float
+function GetVehicleMaxTraction(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_LIVERY_COUNT
+--@usage int GET_VEHICLE_LIVERY_COUNT(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return int
+function GetVehicleLiveryCount(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_MAX_NUMBER_OF_PASSENGERS
+--@usage int GET_VEHICLE_MAX_NUMBER_OF_PASSENGERS(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return int
+function GetVehicleMaxNumberOfPassengers(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_MOD_COLOR_1_NAME
+--@usage char* GET_VEHICLE_MOD_COLOR_1_NAME(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return char*
+function GetVehicleModColor_1Name(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_MOD
+--@usage int GET_VEHICLE_MOD(Vehicle vehicle,int modType);
+--@params vehicle Vehicle
+--@params modType int
+--@return int
+function GetVehicleMod(vehicle,modType) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_MOD_COLOR_2
+--@usage void GET_VEHICLE_MOD_COLOR_2(Vehicle vehicle,int* paintType,int* color);
+--@params vehicle Vehicle
+--@params paintType int*
+--@params color int*
+--@return void
+function GetVehicleModColor_2(vehicle,paintType,color) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_MOD_IDENTIFIER_HASH
+--@usage Any GET_VEHICLE_MOD_IDENTIFIER_HASH(Vehicle vehicle,int modType,int modIndex);
+--@params vehicle Vehicle
+--@params modType int
+--@params modIndex int
+--@return Any
+function GetVehicleModIdentifierHash(vehicle,modType,modIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1781,51 +1681,35 @@ end
 --@params color int*
 --@params pearlescentColor int*
 --@return void
-function GetVehicleModColor_1(vehicle, paintType, color, pearlescentColor)
-end
+function GetVehicleModColor_1(vehicle,paintType,color,pearlescentColor) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_VEHICLE_LIVERY_COUNT
---@usage int GET_VEHICLE_LIVERY_COUNT(Vehicle vehicle);
---@params vehicle Vehicle
---@return int
-function GetVehicleLiveryCount(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_MOD
---@usage int GET_VEHICLE_MOD(Vehicle vehicle,int modType);
+--@see GET_VEHICLE_MOD_VARIATION
+--@usage BOOL GET_VEHICLE_MOD_VARIATION(Vehicle vehicle,int modType);
 --@params vehicle Vehicle
 --@params modType int
+--@return BOOL
+function GetVehicleModVariation(vehicle,modType) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_MOD_KIT_TYPE
+--@usage int GET_VEHICLE_MOD_KIT_TYPE(Vehicle vehicle);
+--@params vehicle Vehicle
 --@return int
-function GetVehicleMod(vehicle, modType)
-end
+function GetVehicleModKitType(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_VEHICLE_MOD_COLOR_2
---@usage void GET_VEHICLE_MOD_COLOR_2(Vehicle vehicle,int* paintType,int* color);
+--@see GET_VEHICLE_MOD_COLOR_2_NAME
+--@usage char* GET_VEHICLE_MOD_COLOR_2_NAME(Vehicle vehicle);
 --@params vehicle Vehicle
---@params paintType int*
---@params color int*
---@return void
-function GetVehicleModColor_2(vehicle, paintType, color)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_LAYOUT_HASH
---@usage Hash GET_VEHICLE_LAYOUT_HASH(Vehicle vehicle);
---@params vehicle Vehicle
---@return Hash
-function GetVehicleLayoutHash(vehicle)
-end
+--@return char*
+function GetVehicleModColor_2Name(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1834,20 +1718,16 @@ end
 --@usage int GET_VEHICLE_MOD_KIT(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleModKit(vehicle)
-end
+function GetVehicleModKit(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_VEHICLE_MOD_IDENTIFIER_HASH
---@usage Any GET_VEHICLE_MOD_IDENTIFIER_HASH(Vehicle vehicle,int modType,int modIndex);
---@params vehicle Vehicle
---@params modType int
---@params modIndex int
---@return Any
-function GetVehicleModIdentifierHash(vehicle, modType, modIndex)
-end
+--@see GET_VEHICLE_MODEL_ACCELERATION
+--@usage float GET_VEHICLE_MODEL_ACCELERATION(Hash modelHash);
+--@params modelHash Hash
+--@return float
+function GetVehicleModelAcceleration(modelHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1858,29 +1738,7 @@ end
 --@params modType int
 --@params modIndex int
 --@return float
-function GetVehicleModModifierValue(vehicle, modType, modIndex)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_MOD_COLOR_1_NAME
---@usage char* GET_VEHICLE_MOD_COLOR_1_NAME(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return char*
-function GetVehicleModColor_1Name(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_MOD_KIT_TYPE
---@usage int GET_VEHICLE_MOD_KIT_TYPE(Vehicle vehicle);
---@params vehicle Vehicle
---@return int
-function GetVehicleModKitType(vehicle)
-end
+function GetVehicleModModifierValue(vehicle,modType,modIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1889,39 +1747,7 @@ end
 --@usage float GET_VEHICLE_MODEL_ESTIMATED_MAX_SPEED(Hash modelHash);
 --@params modelHash Hash
 --@return float
-function GetVehicleModelEstimatedMaxSpeed(modelHash)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_MODEL_MAX_BRAKING_MAX_MODS
---@usage float GET_VEHICLE_MODEL_MAX_BRAKING_MAX_MODS(Hash modelHash);
---@params modelHash Hash
---@return float
-function GetVehicleModelMaxBrakingMaxMods(modelHash)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_MOD_VARIATION
---@usage BOOL GET_VEHICLE_MOD_VARIATION(Vehicle vehicle,int modType);
---@params vehicle Vehicle
---@params modType int
---@return BOOL
-function GetVehicleModVariation(vehicle, modType)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_MOD_COLOR_2_NAME
---@usage char* GET_VEHICLE_MOD_COLOR_2_NAME(Vehicle vehicle);
---@params vehicle Vehicle
---@return char*
-function GetVehicleModColor_2Name(vehicle)
-end
+function GetVehicleModelEstimatedMaxSpeed(modelHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -1930,68 +1756,16 @@ end
 --@usage float _GET_VEHICLE_MODEL_DOWN_FORCE(Hash modelHash);
 --@params modelHash Hash
 --@return float
-function GetVehicleModelDownForce(modelHash)
-end
+function GetVehicleModelDownForce(modelHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_VEHICLE_MODEL_NUMBER_OF_SEATS
---@usage int GET_VEHICLE_MODEL_NUMBER_OF_SEATS(Hash modelHash);
---@params modelHash Hash
---@return int
-function GetVehicleModelNumberOfSeats(modelHash)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_VEHICLE_NUMBER_OF_BROKEN_BONES
---@usage int _GET_VEHICLE_NUMBER_OF_BROKEN_BONES(Vehicle vehicle);
---@params vehicle Vehicle
---@return int
-function GetVehicleNumberOfBrokenBones(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_MODEL_MAX_BRAKING
---@usage float GET_VEHICLE_MODEL_MAX_BRAKING(Hash modelHash);
+--@see GET_VEHICLE_MODEL_MAX_BRAKING_MAX_MODS
+--@usage float GET_VEHICLE_MODEL_MAX_BRAKING_MAX_MODS(Hash modelHash);
 --@params modelHash Hash
 --@return float
-function GetVehicleModelMaxBraking(modelHash)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_VEHICLE_NUMBER_OF_BROKEN_OFF_BONES
---@usage int _GET_VEHICLE_NUMBER_OF_BROKEN_OFF_BONES(Vehicle vehicle);
---@params vehicle Vehicle
---@return int
-function GetVehicleNumberOfBrokenOffBones(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_VEHICLE_MODEL_MAX_KNOTS
---@usage float _GET_VEHICLE_MODEL_MAX_KNOTS(Hash modelHash);
---@params modelHash Hash
---@return float
-function GetVehicleModelMaxKnots(modelHash)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_NUMBER_PLATE_TEXT
---@usage char* GET_VEHICLE_NUMBER_PLATE_TEXT(Vehicle vehicle);
---@params vehicle Vehicle
---@return char*
-function GetVehicleNumberPlateText(vehicle)
-end
+function GetVehicleModelMaxBrakingMaxMods(modelHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2000,8 +1774,25 @@ end
 --@usage float GET_VEHICLE_MODEL_MAX_TRACTION(Hash modelHash);
 --@params modelHash Hash
 --@return float
-function GetVehicleModelMaxTraction(modelHash)
-end
+function GetVehicleModelMaxTraction(modelHash) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_MODEL_MAX_BRAKING
+--@usage float GET_VEHICLE_MODEL_MAX_BRAKING(Hash modelHash);
+--@params modelHash Hash
+--@return float
+function GetVehicleModelMaxBraking(modelHash) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _GET_VEHICLE_MODEL_MAX_KNOTS
+--@usage float _GET_VEHICLE_MODEL_MAX_KNOTS(Hash modelHash);
+--@params modelHash Hash
+--@return float
+function GetVehicleModelMaxKnots(modelHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2010,28 +1801,16 @@ end
 --@usage float _GET_VEHICLE_MODEL_MOVE_RESISTANCE(Hash modelHash);
 --@params modelHash Hash
 --@return float
-function GetVehicleModelMoveResistance(modelHash)
-end
+function GetVehicleModelMoveResistance(modelHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_VEHICLE_MODEL_ACCELERATION
---@usage float GET_VEHICLE_MODEL_ACCELERATION(Hash modelHash);
+--@see GET_VEHICLE_MODEL_NUMBER_OF_SEATS
+--@usage int GET_VEHICLE_MODEL_NUMBER_OF_SEATS(Hash modelHash);
 --@params modelHash Hash
---@return float
-function GetVehicleModelAcceleration(modelHash)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_VEHICLE_ROOF_LIVERY
---@usage int _GET_VEHICLE_ROOF_LIVERY(Vehicle vehicle);
---@params vehicle Vehicle
 --@return int
-function GetVehicleRoofLivery(vehicle)
-end
+function GetVehicleModelNumberOfSeats(modelHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2043,8 +1822,89 @@ end
 --@params g int*
 --@params b int*
 --@return void
-function GetVehicleNeonLightsColour(vehicle, r, g, b)
-end
+function GetVehicleNeonLightsColour(vehicle,r,g,b) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _GET_VEHICLE_NUMBER_OF_BROKEN_BONES
+--@usage int _GET_VEHICLE_NUMBER_OF_BROKEN_BONES(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return int
+function GetVehicleNumberOfBrokenBones(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _GET_VEHICLE_NUMBER_OF_BROKEN_OFF_BONES
+--@usage int _GET_VEHICLE_NUMBER_OF_BROKEN_OFF_BONES(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return int
+function GetVehicleNumberOfBrokenOffBones(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_NUMBER_OF_PASSENGERS
+--@usage int GET_VEHICLE_NUMBER_OF_PASSENGERS(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return int
+function GetVehicleNumberOfPassengers(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_NUMBER_PLATE_TEXT
+--@usage char* GET_VEHICLE_NUMBER_PLATE_TEXT(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return char*
+function GetVehicleNumberPlateText(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_NUMBER_PLATE_TEXT_INDEX
+--@usage int GET_VEHICLE_NUMBER_PLATE_TEXT_INDEX(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return int
+function GetVehicleNumberPlateTextIndex(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_PETROL_TANK_HEALTH
+--@usage float GET_VEHICLE_PETROL_TANK_HEALTH(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return float
+function GetVehiclePetrolTankHealth(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_PLATE_TYPE
+--@usage int GET_VEHICLE_PLATE_TYPE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return int
+function GetVehiclePlateType(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_RECORDING_ID
+--@usage int GET_VEHICLE_RECORDING_ID(int p0,char* p1);
+--@params p0 int
+--@params p1 char*
+--@return int
+function GetVehicleRecordingId(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _GET_VEHICLE_ROOF_LIVERY
+--@usage int _GET_VEHICLE_ROOF_LIVERY(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return int
+function GetVehicleRoofLivery(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2055,8 +1915,25 @@ end
 --@params out1 Vector3*
 --@params out2 Vector3*
 --@return void
-function GetVehicleSuspensionBounds(vehicle, out1, out2)
-end
+function GetVehicleSuspensionBounds(vehicle,out1,out2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _GET_VEHICLE_ROOF_LIVERY_COUNT
+--@usage int _GET_VEHICLE_ROOF_LIVERY_COUNT(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return int
+function GetVehicleRoofLiveryCount(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _GET_VEHICLE_SUSPENSION_HEIGHT
+--@usage float _GET_VEHICLE_SUSPENSION_HEIGHT(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return float
+function GetVehicleSuspensionHeight(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2066,18 +1943,25 @@ end
 --@params vehicle Vehicle
 --@params trailer Vehicle*
 --@return BOOL
-function GetVehicleTrailerVehicle(vehicle, trailer)
-end
+function GetVehicleTrailerVehicle(vehicle,trailer) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_VEHICLE_NUMBER_OF_PASSENGERS
---@usage int GET_VEHICLE_NUMBER_OF_PASSENGERS(Vehicle vehicle);
+--@see GET_VEHICLE_TYRES_CAN_BURST
+--@usage BOOL GET_VEHICLE_TYRES_CAN_BURST(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function GetVehicleTyresCanBurst(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see GET_VEHICLE_WHEEL_TYPE
+--@usage int GET_VEHICLE_WHEEL_TYPE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleNumberOfPassengers(vehicle)
-end
+function GetVehicleWheelType(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2089,18 +1973,16 @@ end
 --@params g int*
 --@params b int*
 --@return void
-function GetVehicleTyreSmokeColor(vehicle, r, g, b)
-end
+function GetVehicleTyreSmokeColor(vehicle,r,g,b) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_VEHICLE_NUMBER_PLATE_TEXT_INDEX
---@usage int GET_VEHICLE_NUMBER_PLATE_TEXT_INDEX(Vehicle vehicle);
+--@see _GET_VEHICLE_XENON_LIGHTS_COLOUR
+--@usage int _GET_VEHICLE_XENON_LIGHTS_COLOUR(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleNumberPlateTextIndex(vehicle)
-end
+function GetVehicleXenonLightsColour(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2110,161 +1992,16 @@ end
 --@params vehicle Vehicle
 --@params weaponIndex int
 --@return int
-function GetVehicleWeaponCapacity(vehicle, weaponIndex)
-end
+function GetVehicleWeaponCapacity(vehicle,weaponIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see GET_VEHICLE_PETROL_TANK_HEALTH
---@usage float GET_VEHICLE_PETROL_TANK_HEALTH(Vehicle vehicle);
---@params vehicle Vehicle
---@return float
-function GetVehiclePetrolTankHealth(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_WHEEL_TYPE
---@usage int GET_VEHICLE_WHEEL_TYPE(Vehicle vehicle);
---@params vehicle Vehicle
---@return int
-function GetVehicleWheelType(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_VEHICLE_XENON_LIGHTS_COLOUR
---@usage int _GET_VEHICLE_XENON_LIGHTS_COLOUR(Vehicle vehicle);
---@params vehicle Vehicle
---@return int
-function GetVehicleXenonLightsColour(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see HAS_VEHICLE_ASSET_LOADED
---@usage BOOL HAS_VEHICLE_ASSET_LOADED(int vehicleAsset);
---@params vehicleAsset int
+--@see HAS_PRELOAD_MODS_FINISHED
+--@usage BOOL HAS_PRELOAD_MODS_FINISHED(Any p0);
+--@params p0 Any
 --@return BOOL
-function HasVehicleAssetLoaded(vehicleAsset)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see HAS_VEHICLE_PHONE_EXPLOSIVE_DEVICE
---@usage BOOL HAS_VEHICLE_PHONE_EXPLOSIVE_DEVICE();
-
---@return BOOL
-function HasVehiclePhoneExplosiveDevice()
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_VEHICLE_SUSPENSION_HEIGHT
---@usage float _GET_VEHICLE_SUSPENSION_HEIGHT(Vehicle vehicle);
---@params vehicle Vehicle
---@return float
-function GetVehicleSuspensionHeight(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_PLATE_TYPE
---@usage int GET_VEHICLE_PLATE_TYPE(Vehicle vehicle);
---@params vehicle Vehicle
---@return int
-function GetVehiclePlateType(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_RECORDING_ID
---@usage int GET_VEHICLE_RECORDING_ID(int p0,char* p1);
---@params p0 int
---@params p1 char*
---@return int
-function GetVehicleRecordingId(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _HIDE_VEHICLE_TOMBSTONE
---@usage void _HIDE_VEHICLE_TOMBSTONE(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function HideVehicleTombstone(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _IS_ANY_PASSENGER_RAPPELING_FROM_VEHICLE
---@usage BOOL _IS_ANY_PASSENGER_RAPPELING_FROM_VEHICLE(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function IsAnyPassengerRappelingFromVehicle(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_BIG_VEHICLE
---@usage BOOL IS_BIG_VEHICLE(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function IsBigVehicle(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _GET_VEHICLE_ROOF_LIVERY_COUNT
---@usage int _GET_VEHICLE_ROOF_LIVERY_COUNT(Vehicle vehicle);
---@params vehicle Vehicle
---@return int
-function GetVehicleRoofLiveryCount(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see GET_VEHICLE_TYRES_CAN_BURST
---@usage BOOL GET_VEHICLE_TYRES_CAN_BURST(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function GetVehicleTyresCanBurst(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _IS_BOAT_ANCHORED_AND_FROZEN
---@usage BOOL _IS_BOAT_ANCHORED_AND_FROZEN(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function IsBoatAnchoredAndFrozen(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_ENTITY_ATTACHED_TO_HANDLER_FRAME
---@usage BOOL IS_ENTITY_ATTACHED_TO_HANDLER_FRAME(Vehicle vehicle,Entity entity);
---@params vehicle Vehicle
---@params entity Entity
---@return BOOL
-function IsEntityAttachedToHandlerFrame(vehicle, entity)
-end
+function HasPreloadModsFinished(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2273,18 +2010,7 @@ end
 --@usage int GET_VEHICLE_WINDOW_TINT(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function GetVehicleWindowTint(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_HELI_LANDING_AREA_BLOCKED
---@usage BOOL IS_HELI_LANDING_AREA_BLOCKED(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function IsHeliLandingAreaBlocked(vehicle)
-end
+function GetVehicleWindowTint(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2294,18 +2020,53 @@ end
 --@params p0 Any
 --@params p1 Any*
 --@return BOOL
-function HasVehicleRecordingBeenLoaded(p0, p1)
-end
+function HasVehicleRecordingBeenLoaded(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see IS_PLANE_LANDING_GEAR_INTACT
---@usage BOOL IS_PLANE_LANDING_GEAR_INTACT(Vehicle plane);
---@params plane Vehicle
+--@see HAS_VEHICLE_ASSET_LOADED
+--@usage BOOL HAS_VEHICLE_ASSET_LOADED(int vehicleAsset);
+--@params vehicleAsset int
 --@return BOOL
-function IsPlaneLandingGearIntact(plane)
-end
+function HasVehicleAssetLoaded(vehicleAsset) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see HAS_VEHICLE_PHONE_EXPLOSIVE_DEVICE
+--@usage BOOL HAS_VEHICLE_PHONE_EXPLOSIVE_DEVICE();
+
+--@return BOOL
+function HasVehiclePhoneExplosiveDevice() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _HIDE_VEHICLE_TOMBSTONE
+--@usage void _HIDE_VEHICLE_TOMBSTONE(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function HideVehicleTombstone(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _IS_ANY_PASSENGER_RAPPELING_FROM_VEHICLE
+--@usage BOOL _IS_ANY_PASSENGER_RAPPELING_FROM_VEHICLE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function IsAnyPassengerRappelingFromVehicle(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_BIG_VEHICLE
+--@usage BOOL IS_BIG_VEHICLE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function IsBigVehicle(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2317,49 +2078,7 @@ end
 --@params z float
 --@params radius float
 --@return BOOL
-function IsAnyVehicleNearPoint(x, y, z, radius)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see HAS_PRELOAD_MODS_FINISHED
---@usage BOOL HAS_PRELOAD_MODS_FINISHED(Any p0);
---@params p0 Any
---@return BOOL
-function HasPreloadModsFinished(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_SEAT_WARP_ONLY
---@usage BOOL IS_SEAT_WARP_ONLY(Vehicle vehicle,BOOL seatIndex);
---@params vehicle Vehicle
---@params seatIndex BOOL
---@return BOOL
-function IsSeatWarpOnly(vehicle, seatIndex)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_PLAYBACK_GOING_ON_FOR_VEHICLE
---@usage BOOL IS_PLAYBACK_GOING_ON_FOR_VEHICLE(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function IsPlaybackGoingOnForVehicle(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_TAXI_LIGHT_ON
---@usage BOOL IS_TAXI_LIGHT_ON(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function IsTaxiLightOn(vehicle)
-end
+function IsAnyVehicleNearPoint(x,y,z,radius) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2373,8 +2092,45 @@ end
 --@params z1 float
 --@params z2 float
 --@return BOOL
-function IsCopVehicleInArea_3d(x1, x2, y1, y2, z1, z2)
-end
+function IsCopVehicleInArea_3d(x1,x2,y1,y2,z1,z2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _IS_BOAT_ANCHORED_AND_FROZEN
+--@usage BOOL _IS_BOAT_ANCHORED_AND_FROZEN(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function IsBoatAnchoredAndFrozen(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_ENTITY_ATTACHED_TO_HANDLER_FRAME
+--@usage BOOL IS_ENTITY_ATTACHED_TO_HANDLER_FRAME(Vehicle vehicle,Entity entity);
+--@params vehicle Vehicle
+--@params entity Entity
+--@return BOOL
+function IsEntityAttachedToHandlerFrame(vehicle,entity) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _IS_HANDLER_FRAME_ABOVE_CONTAINER
+--@usage BOOL _IS_HANDLER_FRAME_ABOVE_CONTAINER(Vehicle handler,Entity container);
+--@params handler Vehicle
+--@params container Entity
+--@return BOOL
+function IsHandlerFrameAboveContainer(handler,container) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_HELI_LANDING_AREA_BLOCKED
+--@usage BOOL IS_HELI_LANDING_AREA_BLOCKED(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function IsHeliLandingAreaBlocked(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2386,18 +2142,7 @@ end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return BOOL
-function IsHeliPartBroken(vehicle, p1, p2, p3)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_THIS_MODEL_A_BOAT
---@usage BOOL IS_THIS_MODEL_A_BOAT(Hash model);
---@params model Hash
---@return BOOL
-function IsThisModelABoat(model)
-end
+function IsHeliPartBroken(vehicle,p1,p2,p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2406,49 +2151,53 @@ end
 --@usage BOOL IS_PLAYBACK_USING_AI_GOING_ON_FOR_VEHICLE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsPlaybackUsingAiGoingOnForVehicle(vehicle)
-end
+function IsPlaybackUsingAiGoingOnForVehicle(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _IS_HANDLER_FRAME_ABOVE_CONTAINER
---@usage BOOL _IS_HANDLER_FRAME_ABOVE_CONTAINER(Vehicle handler,Entity container);
---@params handler Vehicle
---@params container Entity
+--@see IS_PLANE_LANDING_GEAR_INTACT
+--@usage BOOL IS_PLANE_LANDING_GEAR_INTACT(Vehicle plane);
+--@params plane Vehicle
 --@return BOOL
-function IsHandlerFrameAboveContainer(handler, container)
-end
+function IsPlaneLandingGearIntact(plane) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see IS_THIS_MODEL_A_CAR
---@usage BOOL IS_THIS_MODEL_A_CAR(Hash model);
+--@see IS_TAXI_LIGHT_ON
+--@usage BOOL IS_TAXI_LIGHT_ON(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function IsTaxiLightOn(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_PLAYBACK_GOING_ON_FOR_VEHICLE
+--@usage BOOL IS_PLAYBACK_GOING_ON_FOR_VEHICLE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function IsPlaybackGoingOnForVehicle(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_THIS_MODEL_A_BIKE
+--@usage BOOL IS_THIS_MODEL_A_BIKE(Hash model);
 --@params model Hash
 --@return BOOL
-function IsThisModelACar(model)
-end
+function IsThisModelABike(model) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see IS_THIS_MODEL_A_QUADBIKE
---@usage BOOL IS_THIS_MODEL_A_QUADBIKE(Hash model);
---@params model Hash
+--@see IS_SEAT_WARP_ONLY
+--@usage BOOL IS_SEAT_WARP_ONLY(Vehicle vehicle,BOOL seatIndex);
+--@params vehicle Vehicle
+--@params seatIndex BOOL
 --@return BOOL
-function IsThisModelAQuadbike(model)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_THIS_MODEL_A_TRAIN
---@usage BOOL IS_THIS_MODEL_A_TRAIN(Hash model);
---@params model Hash
---@return BOOL
-function IsThisModelATrain(model)
-end
+function IsSeatWarpOnly(vehicle,seatIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2457,18 +2206,34 @@ end
 --@usage BOOL IS_THIS_MODEL_A_BICYCLE(Hash model);
 --@params model Hash
 --@return BOOL
-function IsThisModelABicycle(model)
-end
+function IsThisModelABicycle(model) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see IS_THIS_MODEL_A_PLANE
---@usage BOOL IS_THIS_MODEL_A_PLANE(Hash model);
+--@see IS_THIS_MODEL_A_CAR
+--@usage BOOL IS_THIS_MODEL_A_CAR(Hash model);
 --@params model Hash
 --@return BOOL
-function IsThisModelAPlane(model)
-end
+function IsThisModelACar(model) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_THIS_MODEL_A_BOAT
+--@usage BOOL IS_THIS_MODEL_A_BOAT(Hash model);
+--@params model Hash
+--@return BOOL
+function IsThisModelABoat(model) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_THIS_MODEL_A_HELI
+--@usage BOOL IS_THIS_MODEL_A_HELI(Hash model);
+--@params model Hash
+--@return BOOL
+function IsThisModelAHeli(model) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2477,8 +2242,52 @@ end
 --@usage BOOL _IS_THIS_MODEL_A_JETSKI(Hash model);
 --@params model Hash
 --@return BOOL
-function IsThisModelAJetski(model)
-end
+function IsThisModelAJetski(model) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_THIS_MODEL_A_PLANE
+--@usage BOOL IS_THIS_MODEL_A_PLANE(Hash model);
+--@params model Hash
+--@return BOOL
+function IsThisModelAPlane(model) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_THIS_MODEL_A_QUADBIKE
+--@usage BOOL IS_THIS_MODEL_A_QUADBIKE(Hash model);
+--@params model Hash
+--@return BOOL
+function IsThisModelAQuadbike(model) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_THIS_MODEL_A_TRAIN
+--@usage BOOL IS_THIS_MODEL_A_TRAIN(Hash model);
+--@params model Hash
+--@return BOOL
+function IsThisModelATrain(model) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _IS_THIS_MODEL_AN_AMPHIBIOUS_CAR
+--@usage BOOL _IS_THIS_MODEL_AN_AMPHIBIOUS_CAR(Hash model);
+--@params model Hash
+--@return BOOL
+function IsThisModelAnAmphibiousCar(model) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _IS_THIS_MODEL_AN_AMPHIBIOUS_QUADBIKE
+--@usage BOOL _IS_THIS_MODEL_AN_AMPHIBIOUS_QUADBIKE(Any model);
+--@params model Any
+--@return BOOL
+function IsThisModelAnAmphibiousQuadbike(model) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2488,18 +2297,7 @@ end
 --@params vehicle Vehicle
 --@params modType int
 --@return BOOL
-function IsToggleModOn(vehicle, modType)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _IS_THIS_MODEL_AN_AMPHIBIOUS_QUADBIKE
---@usage BOOL _IS_THIS_MODEL_AN_AMPHIBIOUS_QUADBIKE(Any model);
---@params model Any
---@return BOOL
-function IsThisModelAnAmphibiousQuadbike(model)
-end
+function IsToggleModOn(vehicle,modType) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2509,8 +2307,16 @@ end
 --@params vehicle Vehicle
 --@params seatIndex int
 --@return BOOL
-function IsTurretSeat(vehicle, seatIndex)
-end
+function IsTurretSeat(vehicle,seatIndex) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_VEHICLE_ALARM_ACTIVATED
+--@usage BOOL IS_VEHICLE_ALARM_ACTIVATED(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function IsVehicleAlarmActivated(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2520,39 +2326,7 @@ end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return BOOL
-function IsVehicleAConvertible(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_VEHICLE_ALARM_ACTIVATED
---@usage BOOL IS_VEHICLE_ALARM_ACTIVATED(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function IsVehicleAlarmActivated(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_VEHICLE_ATTACHED_TO_CARGOBOB
---@usage BOOL IS_VEHICLE_ATTACHED_TO_CARGOBOB(Vehicle cargobob,Vehicle vehicleAttached);
---@params cargobob Vehicle
---@params vehicleAttached Vehicle
---@return BOOL
-function IsVehicleAttachedToCargobob(cargobob, vehicleAttached)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_VEHICLE_ATTACHED_TO_TRAILER
---@usage BOOL IS_VEHICLE_ATTACHED_TO_TRAILER(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function IsVehicleAttachedToTrailer(vehicle)
-end
+function IsVehicleAConvertible(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2562,8 +2336,17 @@ end
 --@params towTruck Vehicle
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleAttachedToTowTruck(towTruck, vehicle)
-end
+function IsVehicleAttachedToTowTruck(towTruck,vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_VEHICLE_ATTACHED_TO_CARGOBOB
+--@usage BOOL IS_VEHICLE_ATTACHED_TO_CARGOBOB(Vehicle cargobob,Vehicle vehicleAttached);
+--@params cargobob Vehicle
+--@params vehicleAttached Vehicle
+--@return BOOL
+function IsVehicleAttachedToCargobob(cargobob,vehicleAttached) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2573,8 +2356,16 @@ end
 --@params vehicle Vehicle
 --@params frontBumper BOOL
 --@return BOOL
-function IsVehicleBumperBouncing(vehicle, frontBumper)
-end
+function IsVehicleBumperBouncing(vehicle,frontBumper) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_VEHICLE_ATTACHED_TO_TRAILER
+--@usage BOOL IS_VEHICLE_ATTACHED_TO_TRAILER(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function IsVehicleAttachedToTrailer(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2584,8 +2375,7 @@ end
 --@params vehicle Vehicle
 --@params front BOOL
 --@return BOOL
-function IsVehicleBumperBrokenOff(vehicle, front)
-end
+function IsVehicleBumperBrokenOff(vehicle,front) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2594,19 +2384,7 @@ end
 --@usage BOOL _IS_VEHICLE_DAMAGED(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleDamaged(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_VEHICLE_DOOR_FULLY_OPEN
---@usage BOOL IS_VEHICLE_DOOR_FULLY_OPEN(Vehicle vehicle,int doorIndex);
---@params vehicle Vehicle
---@params doorIndex int
---@return BOOL
-function IsVehicleDoorFullyOpen(vehicle, doorIndex)
-end
+function IsVehicleDamaged(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2616,29 +2394,17 @@ end
 --@params veh Vehicle
 --@params doorID int
 --@return BOOL
-function IsVehicleDoorDamaged(veh, doorID)
-end
+function IsVehicleDoorDamaged(veh,doorID) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _IS_VEHICLE_ENGINE_ON_FIRE
---@usage BOOL _IS_VEHICLE_ENGINE_ON_FIRE(Vehicle vehicle);
+--@see IS_VEHICLE_DOOR_FULLY_OPEN
+--@usage BOOL IS_VEHICLE_DOOR_FULLY_OPEN(Vehicle vehicle,int doorIndex);
 --@params vehicle Vehicle
+--@params doorIndex int
 --@return BOOL
-function IsVehicleEngineOnFire(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_VEHICLE_EXTRA_TURNED_ON
---@usage BOOL IS_VEHICLE_EXTRA_TURNED_ON(Vehicle vehicle,int extraId);
---@params vehicle Vehicle
---@params extraId int
---@return BOOL
-function IsVehicleExtraTurnedOn(vehicle, extraId)
-end
+function IsVehicleDoorFullyOpen(vehicle,doorIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2648,8 +2414,7 @@ end
 --@params vehicle Vehicle
 --@params isOnFireCheck BOOL
 --@return BOOL
-function IsVehicleDriveable(vehicle, isOnFireCheck)
-end
+function IsVehicleDriveable(vehicle,isOnFireCheck) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2658,8 +2423,26 @@ end
 --@usage BOOL IS_VEHICLE_HIGH_DETAIL(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleHighDetail(vehicle)
-end
+function IsVehicleHighDetail(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _IS_VEHICLE_ENGINE_ON_FIRE
+--@usage BOOL _IS_VEHICLE_ENGINE_ON_FIRE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function IsVehicleEngineOnFire(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_VEHICLE_EXTRA_TURNED_ON
+--@usage BOOL IS_VEHICLE_EXTRA_TURNED_ON(Vehicle vehicle,int extraId);
+--@params vehicle Vehicle
+--@params extraId int
+--@return BOOL
+function IsVehicleExtraTurnedOn(vehicle,extraId) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2668,40 +2451,7 @@ end
 --@usage BOOL IS_VEHICLE_IN_BURNOUT(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleInBurnout(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _IS_VEHICLE_MOD_LOAD_DONE
---@usage BOOL _IS_VEHICLE_MOD_LOAD_DONE(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function IsVehicleModLoadDone(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_VEHICLE_MODEL
---@usage BOOL IS_VEHICLE_MODEL(Vehicle vehicle,Hash model);
---@params vehicle Vehicle
---@params model Hash
---@return BOOL
-function IsVehicleModel(vehicle, model)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _IS_VEHICLE_NEON_LIGHT_ENABLED
---@usage BOOL _IS_VEHICLE_NEON_LIGHT_ENABLED(Vehicle vehicle,int index);
---@params vehicle Vehicle
---@params index int
---@return BOOL
-function IsVehicleNeonLightEnabled(vehicle, index)
-end
+function IsVehicleInBurnout(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2711,28 +2461,36 @@ end
 --@params garageName char*
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleInGarageArea(garageName, vehicle)
-end
+function IsVehicleInGarageArea(garageName,vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _IS_VEHICLE_ROCKET_BOOST_ACTIVE
---@usage BOOL _IS_VEHICLE_ROCKET_BOOST_ACTIVE(Vehicle vehicle);
+--@see IS_VEHICLE_MODEL
+--@usage BOOL IS_VEHICLE_MODEL(Vehicle vehicle,Hash model);
 --@params vehicle Vehicle
+--@params model Hash
 --@return BOOL
-function IsVehicleRocketBoostActive(vehicle)
-end
+function IsVehicleModel(vehicle,model) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see IS_VEHICLE_SEARCHLIGHT_ON
---@usage BOOL IS_VEHICLE_SEARCHLIGHT_ON(Vehicle vehicle);
+--@see _IS_VEHICLE_MOD_LOAD_DONE
+--@usage BOOL _IS_VEHICLE_MOD_LOAD_DONE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleSearchlightOn(vehicle)
-end
+function IsVehicleModLoadDone(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _IS_VEHICLE_NEON_LIGHT_ENABLED
+--@usage BOOL _IS_VEHICLE_NEON_LIGHT_ENABLED(Vehicle vehicle,int index);
+--@params vehicle Vehicle
+--@params index int
+--@return BOOL
+function IsVehicleNeonLightEnabled(vehicle,index) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2741,8 +2499,34 @@ end
 --@usage BOOL IS_VEHICLE_ON_ALL_WHEELS(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleOnAllWheels(vehicle)
-end
+function IsVehicleOnAllWheels(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_VEHICLE_SEARCHLIGHT_ON
+--@usage BOOL IS_VEHICLE_SEARCHLIGHT_ON(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function IsVehicleSearchlightOn(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _IS_VEHICLE_ROCKET_BOOST_ACTIVE
+--@usage BOOL _IS_VEHICLE_ROCKET_BOOST_ACTIVE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function IsVehicleRocketBoostActive(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_VEHICLE_SIREN_AUDIO_ON
+--@usage BOOL IS_VEHICLE_SIREN_AUDIO_ON(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function IsVehicleSirenAudioOn(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2752,18 +2536,7 @@ end
 --@params vehicle Vehicle
 --@params seatIndex int
 --@return BOOL
-function IsVehicleSeatFree(vehicle, seatIndex)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_VEHICLE_SIREN_ON
---@usage BOOL IS_VEHICLE_SIREN_ON(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function IsVehicleSirenOn(vehicle)
-end
+function IsVehicleSeatFree(vehicle,seatIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2772,18 +2545,7 @@ end
 --@usage BOOL IS_VEHICLE_SPRAYABLE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleSprayable(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_VEHICLE_SIREN_AUDIO_ON
---@usage BOOL IS_VEHICLE_SIREN_AUDIO_ON(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function IsVehicleSirenAudioOn(vehicle)
-end
+function IsVehicleSprayable(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2792,8 +2554,16 @@ end
 --@usage BOOL IS_VEHICLE_STOLEN(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleStolen(vehicle)
-end
+function IsVehicleStolen(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_VEHICLE_SIREN_ON
+--@usage BOOL IS_VEHICLE_SIREN_ON(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function IsVehicleSirenOn(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2802,18 +2572,7 @@ end
 --@usage BOOL IS_VEHICLE_STOPPED(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleStopped(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_VEHICLE_STOPPED_AT_TRAFFIC_LIGHTS
---@usage BOOL IS_VEHICLE_STOPPED_AT_TRAFFIC_LIGHTS(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function IsVehicleStoppedAtTrafficLights(vehicle)
-end
+function IsVehicleStopped(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2822,30 +2581,27 @@ end
 --@usage BOOL IS_VEHICLE_STUCK_ON_ROOF(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function IsVehicleStuckOnRoof(vehicle)
-end
+function IsVehicleStuckOnRoof(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see IS_VEHICLE_STUCK_TIMER_UP
---@usage BOOL IS_VEHICLE_STUCK_TIMER_UP(Vehicle vehicle,int p1,int p2);
+--@see IS_VEHICLE_STOPPED_AT_TRAFFIC_LIGHTS
+--@usage BOOL IS_VEHICLE_STOPPED_AT_TRAFFIC_LIGHTS(Vehicle vehicle);
 --@params vehicle Vehicle
---@params p1 int
---@params p2 int
 --@return BOOL
-function IsVehicleStuckTimerUp(vehicle, p1, p2)
-end
+function IsVehicleStoppedAtTrafficLights(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see IS_VEHICLE_VISIBLE
---@usage BOOL IS_VEHICLE_VISIBLE(Vehicle vehicle);
+--@see IS_VEHICLE_TYRE_BURST
+--@usage BOOL IS_VEHICLE_TYRE_BURST(Vehicle vehicle,int wheelID,BOOL completely);
 --@params vehicle Vehicle
+--@params wheelID int
+--@params completely BOOL
 --@return BOOL
-function IsVehicleVisible(vehicle)
-end
+function IsVehicleTyreBurst(vehicle,wheelID,completely) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2856,19 +2612,27 @@ end
 --@params vehicle Vehicle
 --@params owner Ped
 --@return Any
-function IsVehicleWeaponDisabled(weaponHash, vehicle, owner)
-end
+function IsVehicleWeaponDisabled(weaponHash,vehicle,owner) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see IS_VEHICLE_WINDOW_INTACT
---@usage BOOL IS_VEHICLE_WINDOW_INTACT(Vehicle vehicle,int windowIndex);
+--@see IS_VEHICLE_STUCK_TIMER_UP
+--@usage BOOL IS_VEHICLE_STUCK_TIMER_UP(Vehicle vehicle,int p1,int p2);
 --@params vehicle Vehicle
---@params windowIndex int
+--@params p1 int
+--@params p2 int
 --@return BOOL
-function IsVehicleWindowIntact(vehicle, windowIndex)
-end
+function IsVehicleStuckTimerUp(vehicle,p1,p2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_VEHICLE_VISIBLE
+--@usage BOOL IS_VEHICLE_VISIBLE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function IsVehicleVisible(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2878,8 +2642,7 @@ end
 --@params vehicle Vehicle
 --@params instantlyLower BOOL
 --@return void
-function LowerConvertibleRoof(vehicle, instantlyLower)
-end
+function LowerConvertibleRoof(vehicle,instantlyLower) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2888,8 +2651,17 @@ end
 --@usage void _LOWER_RETRACTABLE_WHEELS(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function LowerRetractableWheels(vehicle)
-end
+function LowerRetractableWheels(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see IS_VEHICLE_WINDOW_INTACT
+--@usage BOOL IS_VEHICLE_WINDOW_INTACT(Vehicle vehicle,int windowIndex);
+--@params vehicle Vehicle
+--@params windowIndex int
+--@return BOOL
+function IsVehicleWindowIntact(vehicle,windowIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2899,19 +2671,7 @@ end
 --@params vehicle Vehicle
 --@params value float
 --@return void
-function ModifyVehicleTopSpeed(vehicle, value)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return void
-function N_0x0205f5365292d2eb(p0, p1)
-end
+function ModifyVehicleTopSpeed(vehicle,value) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2921,32 +2681,17 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function N_0x0419b167ee128f33(p0, p1)
-end
+function N_0x0419b167ee128f33(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage void undefined(Any p0,BOOL p1);
---@params p0 Any
---@params p1 BOOL
---@return void
-function N_0x063ae2b2cc273588(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,Any p1,Any p2,Any p3);
+--@usage void undefined(Any p0,Any p1);
 --@params p0 Any
 --@params p1 Any
---@params p2 Any
---@params p3 Any
 --@return void
-function N_0x0a3f820a9a9a9ac5(p0, p1, p2, p3)
-end
+function N_0x0205f5365292d2eb(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2960,20 +2705,7 @@ end
 --@params p4 Any
 --@params p5 Any
 --@return void
-function N_0x0581730ab9380412(p0, p1, p2, p3, p4, p5)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_VEHICLE_TYRE_BURST
---@usage BOOL IS_VEHICLE_TYRE_BURST(Vehicle vehicle,int wheelID,BOOL completely);
---@params vehicle Vehicle
---@params wheelID int
---@params completely BOOL
---@return BOOL
-function IsVehicleTyreBurst(vehicle, wheelID, completely)
-end
+function N_0x0581730ab9380412(p0,p1,p2,p3,p4,p5) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2983,8 +2715,17 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x065d03a9d6b2c6b5(p0, p1)
-end
+function N_0x065d03a9d6b2c6b5(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,BOOL p1);
+--@params p0 Any
+--@params p1 BOOL
+--@return void
+function N_0x063ae2b2cc273588(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -2993,8 +2734,29 @@ end
 --@usage void undefined();
 
 --@return void
-function N_0x0a436b8643716d14()
-end
+function N_0x0a436b8643716d14() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1,Any p2,Any p3);
+--@params p0 Any
+--@params p1 Any
+--@params p2 Any
+--@params p3 Any
+--@return void
+function N_0x0a3f820a9a9a9ac5(p0,p1,p2,p3) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,BOOL p1);
+--@params p0 Any
+--@params p1 BOOL
+--@return void
+function N_0x0ad9e8f87ff7c16f(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3005,8 +2767,7 @@ end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x0bbb9a7a8ffe931b(p0, p1, p2)
-end
+function N_0x0bbb9a7a8ffe931b(p0,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3016,8 +2777,16 @@ end
 --@params p0 Any
 --@params p1 BOOL
 --@return void
-function N_0x0ad9e8f87ff7c16f(p0, p1)
-end
+function N_0x0f3b4d4e43177236(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0);
+--@params p0 Any
+--@return void
+function N_0x107a473d7a6647a9(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3027,18 +2796,7 @@ end
 --@params vehicle Vehicle
 --@params p1 float
 --@return void
-function N_0x1093408b4b9d1146(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0);
---@params p0 Any
---@return void
-function N_0x107a473d7a6647a9(p0)
-end
+function N_0x1093408b4b9d1146(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3048,19 +2806,7 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x1312ddd8385aee4e(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Vehicle vehicle,float p1);
---@params vehicle Vehicle
---@params p1 float
---@return void
-function N_0x182f266c2d9e2beb(vehicle, p1)
-end
+function N_0x1312ddd8385aee4e(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3070,8 +2816,17 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function N_0x1b212b26dd3c04df(vehicle, toggle)
-end
+function N_0x1b212b26dd3c04df(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Vehicle vehicle,float p1);
+--@params vehicle Vehicle
+--@params p1 float
+--@return void
+function N_0x182f266c2d9e2beb(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3081,8 +2836,7 @@ end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function N_0x1f2e4e06dea8992b(vehicle, p1)
-end
+function N_0x1f2e4e06dea8992b(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3092,30 +2846,7 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x1f34b0626c594380(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function N_0x1f9fb66f3a3842d2(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,BOOL p1);
---@params p0 Any
---@params p1 BOOL
---@return void
-function N_0x0f3b4d4e43177236(p0, p1)
-end
+function N_0x1f34b0626c594380(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3124,8 +2855,7 @@ end
 --@usage BOOL undefined(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function N_0x22fecb546c276a30(vehicle)
-end
+function N_0x22fecb546c276a30(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3135,18 +2865,17 @@ end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function N_0x2311dd7159f00582(vehicle, p1)
-end
+function N_0x1f9fb66f3a3842d2(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage Any undefined(Any p0);
---@params p0 Any
---@return Any
-function N_0x2467a2d807d37ca3(p0)
-end
+--@usage void undefined(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return void
+function N_0x2311dd7159f00582(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3155,8 +2884,7 @@ end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x26d99d5a82fd18e8(p0)
-end
+function N_0x26d99d5a82fd18e8(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3166,19 +2894,16 @@ end
 --@params vehicle Vehicle
 --@params value float
 --@return void
-function N_0x26e13d440e7f6064(vehicle, value)
-end
+function N_0x26e13d440e7f6064(vehicle,value) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage void undefined(Any p0,Any p1);
+--@usage Any undefined(Any p0);
 --@params p0 Any
---@params p1 Any
---@return void
-function N_0x2a86a0475b6a1434(p0, p1)
-end
+--@return Any
+function N_0x2467a2d807d37ca3(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3188,19 +2913,7 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function N_0x2c1d8b3b19e517cc(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function N_0x2c4a1590abf43e8b(vehicle, p1)
-end
+function N_0x2c1d8b3b19e517cc(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3210,19 +2923,7 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x2fa2494b47fdd009(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function N_0x3441cad2f2231923(vehicle, p1)
-end
+function N_0x2a86a0475b6a1434(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3232,8 +2933,37 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x35bb21de06784373(p0, p1)
-end
+function N_0x2fa2494b47fdd009(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return void
+function N_0x2c4a1590abf43e8b(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return void
+function N_0x3441cad2f2231923(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return void
+function N_0x35bb21de06784373(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3242,18 +2972,7 @@ end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x35e0654f4bad7971(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage float undefined(Vehicle vehicle);
---@params vehicle Vehicle
---@return float
-function N_0x36492c2f0d134c56(vehicle)
-end
+function N_0x35e0654f4bad7971(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3262,18 +2981,16 @@ end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x36de109527a2c0c4(toggle)
-end
+function N_0x36de109527a2c0c4(toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage Any undefined(Any p0);
---@params p0 Any
---@return Any
-function N_0x3a9128352eac9e85(p0)
-end
+--@usage float undefined(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return float
+function N_0x36492c2f0d134c56(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3284,18 +3001,7 @@ end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x3b458ddb57038f08(p0, p1, p2)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage Any undefined(Any p0);
---@params p0 Any
---@return Any
-function N_0x3de51e9c80b116cf(p0)
-end
+function N_0x3b458ddb57038f08(p0,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3305,18 +3011,7 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x4056ea1105f5abd7(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0);
---@params p0 Any
---@return void
-function N_0x41290b40fa63e6da(p0)
-end
+function N_0x4056ea1105f5abd7(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3326,8 +3021,7 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x407dc5e97db1a4d3(p0, p1)
-end
+function N_0x407dc5e97db1a4d3(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3336,8 +3030,7 @@ end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x430a7631a84c9be7(p0)
-end
+function N_0x41290b40fa63e6da(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3350,8 +3043,25 @@ end
 --@params z float
 --@params p4 float
 --@return void
-function N_0x428ad3e26c8d9eb0(vehicle, x, y, z, p4)
-end
+function N_0x428ad3e26c8d9eb0(vehicle,x,y,z,p4) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage Any undefined(Any p0);
+--@params p0 Any
+--@return Any
+function N_0x3de51e9c80b116cf(p0) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage Any undefined(Any p0);
+--@params p0 Any
+--@return Any
+function N_0x3a9128352eac9e85(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3360,29 +3070,7 @@ end
 --@usage void undefined(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function N_0x4419966c9936071a(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined();
-
---@return void
-function N_0x48adc8a773564670()
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage Any undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return Any
-function N_0x4c815eb175086f84(p0, p1)
-end
+function N_0x4419966c9936071a(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3391,19 +3079,34 @@ end
 --@usage BOOL undefined(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function N_0x48c633e94a8142a7(vehicle)
-end
+function N_0x48c633e94a8142a7(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage void undefined(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
+--@usage void undefined();
+
 --@return void
-function N_0x4e74e62e0a97e901(vehicle, p1)
-end
+function N_0x48adc8a773564670() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(BOOL toggle);
+--@params toggle BOOL
+--@return void
+function N_0x51db102f4a3ba5e0(toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0);
+--@params p0 Any
+--@return void
+function N_0x430a7631a84c9be7(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3413,18 +3116,7 @@ end
 --@params p0 Any
 --@params p1 BOOL
 --@return void
-function N_0x4d9d109f63fee1d4(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(BOOL toggle);
---@params toggle BOOL
---@return void
-function N_0x51db102f4a3ba5e0(toggle)
-end
+function N_0x4d9d109f63fee1d4(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3441,41 +3133,7 @@ end
 --@params p7 Any
 --@params p8 Any
 --@return Any
-function N_0x51f30db60626a20e(p0, p1, p2, p3, p4, p5, p6, p7, p8)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage Any undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return Any
-function N_0x534e36d4db9ecc5d(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return void
-function N_0x544996c0081abdeb(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function N_0x56eb5e94318d3fb6(vehicle, p1)
-end
+function N_0x51f30db60626a20e(p0,p1,p2,p3,p4,p5,p6,p7,p8) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3485,18 +3143,7 @@ end
 --@params cargobob Vehicle
 --@params p1 BOOL
 --@return void
-function N_0x571feb383f629926(cargobob, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage Any undefined(Any p0);
---@params p0 Any
---@return Any
-function N_0x5873c14a52d74236(p0)
-end
+function N_0x571feb383f629926(cargobob,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3509,8 +3156,104 @@ end
 --@params z float
 --@params p4 Any
 --@return void
-function N_0x5845066d8a1ea7f7(vehicle, x, y, z, p4)
-end
+function N_0x5845066d8a1ea7f7(vehicle,x,y,z,p4) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage Any undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return Any
+function N_0x4c815eb175086f84(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return void
+function N_0x4e74e62e0a97e901(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage Any undefined(Any p0);
+--@params p0 Any
+--@return Any
+function N_0x5873c14a52d74236(p0) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage Any undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return Any
+function N_0x534e36d4db9ecc5d(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage Any undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return Any
+function N_0x5ba68a0840d546ac(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(BOOL toggle);
+--@params toggle BOOL
+--@return void
+function N_0x5bbcf35bf6e456f7(toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return void
+function N_0x544996c0081abdeb(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Vehicle vehicle,float health);
+--@params vehicle Vehicle
+--@params health float
+--@return void
+function N_0x5ee5632f47ae9695(vehicle,health) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage BOOL undefined(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function N_0x62ca17b74c435651(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return void
+function N_0x56eb5e94318d3fb6(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3521,8 +3264,18 @@ end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x59c3757b3b7408e8(p0, p1, p2)
-end
+function N_0x66e3aaface2d1eb8(p0,p1,p2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1,Any p2);
+--@params p0 Any
+--@params p1 Any
+--@params p2 Any
+--@return void
+function N_0x59c3757b3b7408e8(p0,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3532,29 +3285,17 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x5b91b229243351a8(p0, p1)
-end
+function N_0x6501129c9e0ffa05(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage Any undefined(Any p0,Any p1);
+--@usage void undefined(Any p0,Any p1);
 --@params p0 Any
 --@params p1 Any
---@return Any
-function N_0x5ba68a0840d546ac(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(BOOL toggle);
---@params toggle BOOL
 --@return void
-function N_0x5bbcf35bf6e456f7(toggle)
-end
+function N_0x6a973569ba094650(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3564,29 +3305,16 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function N_0x5e569ec46ec21cae(vehicle, toggle)
-end
+function N_0x5e569ec46ec21cae(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage void undefined(Vehicle vehicle,float health);
---@params vehicle Vehicle
---@params health float
---@return void
-function N_0x5ee5632f47ae9695(vehicle, health)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage BOOL undefined(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function N_0x62ca17b74c435651(vehicle)
-end
+--@usage Any undefined(Any p0);
+--@params p0 Any
+--@return Any
+function N_0x6eaaefc76acc311f(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3596,8 +3324,17 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x6501129c9e0ffa05(p0, p1)
-end
+function N_0x5b91b229243351a8(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return void
+function N_0x6dee944e1ee90cfb(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3610,84 +3347,7 @@ end
 --@params p3 BOOL
 --@params p4 BOOL
 --@return BOOL
-function N_0x639431e895b9aa57(ped, vehicle, p2, p3, p4)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,Any p1,Any p2);
---@params p0 Any
---@params p1 Any
---@params p2 Any
---@return void
-function N_0x66e3aaface2d1eb8(p0, p1, p2)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0);
---@params p0 Any
---@return void
-function N_0x65b080555ea48149(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return void
-function N_0x6a973569ba094650(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return void
-function N_0x6dee944e1ee90cfb(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Vehicle vehicle,Entity entity);
---@params vehicle Vehicle
---@params entity Entity
---@return void
-function N_0x6a98c2ecf57fa5d4(vehicle, entity)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function N_0x6ebfb22d646ffc18(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage Any undefined(Any p0);
---@params p0 Any
---@return Any
-function N_0x6eaaefc76acc311f(p0)
-end
+function N_0x639431e895b9aa57(ped,vehicle,p2,p3,p4) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3698,8 +3358,16 @@ end
 --@params p1 Any*
 --@params p2 Any
 --@return Any
-function N_0x725012a415dba050(p0, p1, p2)
-end
+function N_0x725012a415dba050(p0,p1,p2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0);
+--@params p0 Any
+--@return void
+function N_0x65b080555ea48149(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3709,19 +3377,17 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x72beccf4b829522e(p0, p1)
-end
+function N_0x73561d4425a021a2(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage void undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
+--@usage void undefined(Vehicle vehicle,Entity entity);
+--@params vehicle Vehicle
+--@params entity Entity
 --@return void
-function N_0x73561d4425a021a2(p0, p1)
-end
+function N_0x6a98c2ecf57fa5d4(vehicle,entity) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3731,18 +3397,17 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function N_0x737e398138550fff(vehicle, toggle)
-end
+function N_0x737e398138550fff(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage void undefined(Any p0);
---@params p0 Any
+--@usage void undefined(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
 --@return void
-function N_0x75627043c6aa90ad(p0)
-end
+function N_0x6ebfb22d646ffc18(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3751,8 +3416,7 @@ end
 --@usage void undefined(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function N_0x76d26a22750e849e(vehicle)
-end
+function N_0x76d26a22750e849e(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3762,8 +3426,26 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x78ceee41f49f421f(p0, p1)
-end
+function N_0x72beccf4b829522e(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return void
+function N_0x78ceee41f49f421f(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0);
+--@params p0 Any
+--@return void
+function N_0x75627043c6aa90ad(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3775,8 +3457,7 @@ end
 --@params p2 float
 --@params p3 float
 --@return void
-function N_0x796a877e459b99ea(p0, p1, p2, p3)
-end
+function N_0x796a877e459b99ea(p0,p1,p2,p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3785,8 +3466,7 @@ end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x7bbe7ff626a591fe(p0)
-end
+function N_0x7c06330bfdda182e(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3795,30 +3475,7 @@ end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x7c06330bfdda182e(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function N_0x80e3357fdef45c21(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return void
-function N_0x8235f1bead557629(p0, p1)
-end
+function N_0x7bbe7ff626a591fe(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3829,8 +3486,36 @@ end
 --@params toggle BOOL
 --@params p2 BOOL
 --@return void
-function N_0x7d6f9a3ef26136a0(vehicle, toggle, p2)
-end
+function N_0x7d6f9a3ef26136a0(vehicle,toggle,p2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function N_0x80e3357fdef45c21(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return void
+function N_0x8235f1bead557629(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage Any undefined(Any p0);
+--@params p0 Any
+--@return Any
+function N_0x8533cafde1f0f336(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3841,8 +3526,7 @@ end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0x870b8b7a766615c8(p0, p1, p2)
-end
+function N_0x870b8b7a766615c8(p0,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3851,18 +3535,17 @@ end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x82e0ac411e41a5b4(toggle)
-end
+function N_0x82e0ac411e41a5b4(toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage Any undefined(Any p0);
+--@usage void undefined(Any p0,Any p1);
 --@params p0 Any
---@return Any
-function N_0x8533cafde1f0f336(p0)
-end
+--@params p1 Any
+--@return void
+function N_0x8821196d91fa2de5(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3871,19 +3554,7 @@ end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x887fa38787de8c72(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return void
-function N_0x8821196d91fa2de5(p0, p1)
-end
+function N_0x887fa38787de8c72(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3893,8 +3564,7 @@ end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function N_0x8aa9180de2fedd45(vehicle, p1)
-end
+function N_0x88bc673ca9e0ae99(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3904,8 +3574,7 @@ end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function N_0x88bc673ca9e0ae99(vehicle, p1)
-end
+function N_0x8aa9180de2fedd45(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3914,8 +3583,7 @@ end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0x8dc9675797123522(p0)
-end
+function N_0x8dc9675797123522(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3924,18 +3592,7 @@ end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x8f0d5ba1c2cc91d7(toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage BOOL undefined();
-
---@return BOOL
-function N_0x91d6dd290888cbab()
-end
+function N_0x8f0d5ba1c2cc91d7(toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3945,19 +3602,7 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x94a68da412c4007d(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return void
-function N_0x97841634ef7df1d6(p0, p1)
-end
+function N_0x94a68da412c4007d(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3970,8 +3615,7 @@ end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function N_0x9640e30a7f395e4b(p0, p1, p2, p3, p4)
-end
+function N_0x9640e30a7f395e4b(p0,p1,p2,p3,p4) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3981,8 +3625,17 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0x9849de24fcf23ccc(p0, p1)
-end
+function N_0x9849de24fcf23ccc(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return void
+function N_0x97841634ef7df1d6(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -3991,8 +3644,16 @@ end
 --@usage void undefined(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function N_0x99a05839c46ce316(toggle)
-end
+function N_0x99a05839c46ce316(toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage BOOL undefined();
+
+--@return BOOL
+function N_0x91d6dd290888cbab() end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4004,8 +3665,7 @@ end
 --@params z float
 --@params p3 float
 --@return void
-function N_0x9a75585fb2e54fad(x, y, z, p3)
-end
+function N_0x9a75585fb2e54fad(x,y,z,p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4016,8 +3676,7 @@ end
 --@params p1 float
 --@params p2 float
 --@return void
-function N_0x99cad8e7afdb60fa(vehicle, p1, p2)
-end
+function N_0x99cad8e7afdb60fa(vehicle,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4027,8 +3686,7 @@ end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function N_0x9becd4b9fef3f8a6(vehicle, p1)
-end
+function N_0x9becd4b9fef3f8a6(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4039,8 +3697,16 @@ end
 --@params p1 BOOL
 --@params p2 BOOL
 --@return void
-function N_0x9bddc73cc6a115d4(vehicle, p1, p2)
-end
+function N_0x9bddc73cc6a115d4(vehicle,p1,p2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0);
+--@params p0 Any
+--@return void
+function N_0x9d30687c57baa0bb(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4050,8 +3716,7 @@ end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function N_0x9f3f689b814f2599(vehicle, p1)
-end
+function N_0x9f3f689b814f2599(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4060,18 +3725,7 @@ end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0x9d30687c57baa0bb(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0);
---@params p0 Any
---@return void
-function N_0xa247f9ef01d8082e(p0)
-end
+function N_0xa247f9ef01d8082e(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4081,8 +3735,16 @@ end
 --@params vehicle Vehicle
 --@params p1 int
 --@return Any
-function N_0xa01bc64dd4bfbbac(vehicle, p1)
-end
+function N_0xa01bc64dd4bfbbac(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0);
+--@params p0 Any
+--@return void
+function N_0xa4a9a4c40e615885(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4099,8 +3761,17 @@ end
 --@params p7 Any
 --@params p8 Any
 --@return BOOL
-function N_0xa4822f1cf23f4810(outVec, p1, outVec1, p3, p4, p5, p6, p7, p8)
-end
+function N_0xa4822f1cf23f4810(outVec,p1,outVec1,p3,p4,p5,p6,p7,p8) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return void
+function N_0xaa653ae61924b0a0(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4110,18 +3781,7 @@ end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function N_0xa7dcdf4ded40a8f4(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0);
---@params p0 Any
---@return void
-function N_0xa4a9a4c40e615885(p0)
-end
+function N_0xab04325045427aae(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4131,19 +3791,17 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xab31ef4de6800ce9(p0, p1)
-end
+function N_0xab31ef4de6800ce9(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage void undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
+--@usage void undefined(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
 --@return void
-function N_0xaa653ae61924b0a0(p0, p1)
-end
+function N_0xa7dcdf4ded40a8f4(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4152,30 +3810,7 @@ end
 --@usage Any undefined(Any p0);
 --@params p0 Any
 --@return Any
-function N_0xaef12960fa943792(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function N_0xab04325045427aae(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return void
-function N_0xaf60e6a2936f982a(p0, p1)
-end
+function N_0xaef12960fa943792(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4184,41 +3819,7 @@ end
 --@usage BOOL undefined(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function N_0xae3fee8709b39dcb(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,Any p1,Any p2);
---@params p0 Any
---@params p1 Any
---@params p2 Any
---@return void
-function N_0xb251e0b33e58b424(p0, p1, p2)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function N_0xb088e9a47ae6edd5(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function N_0xb264c4d2f2b0a78b(vehicle)
-end
+function N_0xae3fee8709b39dcb(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4229,8 +3830,7 @@ end
 --@params p1 Any
 --@params p2 Any
 --@return Any
-function N_0xb09d25e77c33eb3f(p0, p1, p2)
-end
+function N_0xb09d25e77c33eb3f(p0,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4240,8 +3840,47 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xb68cfaf83a02768d(p0, p1)
-end
+function N_0xaf60e6a2936f982a(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return void
+function N_0xb088e9a47ae6edd5(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return void
+function N_0xb264c4d2f2b0a78b(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1,Any p2);
+--@params p0 Any
+--@params p1 Any
+--@params p2 Any
+--@return void
+function N_0xb251e0b33e58b424(p0,p1,p2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return void
+function N_0xb68cfaf83a02768d(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4251,8 +3890,37 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function N_0xb2e0c0d6922d31f2(vehicle, toggle)
-end
+function N_0xb2e0c0d6922d31f2(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return void
+function N_0xbb2333bb87ddd87f(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return void
+function N_0xb9562064627ff9db(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function N_0xbe5c1255a1830ff5(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4261,41 +3929,7 @@ end
 --@usage BOOL undefined(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function N_0xba91d045575699ad(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return void
-function N_0xb9562064627ff9db(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function N_0xbe5c1255a1830ff5(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return void
-function N_0xbb2333bb87ddd87f(p0, p1)
-end
+function N_0xba91d045575699ad(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4305,42 +3939,7 @@ end
 --@params p0 Any
 --@params p1 BOOL
 --@return void
-function N_0xc1f981a6f74f0c23(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,Any p1,Any p2);
---@params p0 Any
---@params p1 Any
---@params p2 Any
---@return void
-function N_0xc0ed6438e6d39ba8(p0, p1, p2)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function N_0xc361aa040d6637a8(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function N_0xc50ce861b55eab8b(vehicle, p1)
-end
+function N_0xc1f981a6f74f0c23(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4349,18 +3948,7 @@ end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xc4b3347bd68bd609(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage Any undefined(Any p0);
---@params p0 Any
---@return Any
-function N_0xc69bb1d832a710ef(p0)
-end
+function N_0xc4b3347bd68bd609(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4371,19 +3959,47 @@ end
 --@params p1 Any
 --@params p2 Any
 --@return void
-function N_0xc60060eb0d8ac7b1(p0, p1, p2)
-end
+function N_0xc0ed6438e6d39ba8(p0,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage Any undefined(Any p0,Any p1);
+--@usage void undefined(Any p0,Any p1,Any p2);
 --@params p0 Any
 --@params p1 Any
+--@params p2 Any
+--@return void
+function N_0xc60060eb0d8ac7b1(p0,p1,p2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return void
+function N_0xc361aa040d6637a8(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return void
+function N_0xc50ce861b55eab8b(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage Any undefined(Any p0);
+--@params p0 Any
 --@return Any
-function N_0xca4ac3eaae46ec7b(p0, p1)
-end
+function N_0xc69bb1d832a710ef(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4393,8 +4009,26 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function N_0xcac66558b944da67(vehicle, toggle)
-end
+function N_0xcac66558b944da67(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage Any undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return Any
+function N_0xca4ac3eaae46ec7b(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0);
+--@params p0 Any
+--@return void
+function N_0xcf9159024555488c(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4404,8 +4038,7 @@ end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function N_0xcda42c4bb9bde779(vehicle, p1)
-end
+function N_0xcda42c4bb9bde779(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4414,8 +4047,7 @@ end
 --@usage void undefined(Any p0);
 --@params p0 Any
 --@return void
-function N_0xcf9159024555488c(p0)
-end
+function N_0xd3301660a57c9272(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4424,8 +4056,7 @@ end
 --@usage void undefined(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function N_0xcfd778e7904c255e(vehicle)
-end
+function N_0xcfd778e7904c255e(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4435,29 +4066,7 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return Any
-function N_0xd4196117af7bb974(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0);
---@params p0 Any
---@return void
-function N_0xd3301660a57c9272(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage Any undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return Any
-function N_0xd3e51c0ab8c26eee(p0, p1)
-end
+function N_0xd4196117af7bb974(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4467,8 +4076,17 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return void
-function N_0xd565f438137f0e10(p0, p1)
-end
+function N_0xd565f438137f0e10(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return void
+function N_0xe16142b94664defd(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4477,8 +4095,7 @@ end
 --@usage BOOL undefined(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return BOOL
-function N_0xd4c4642cb7f50b5d(vehicle)
-end
+function N_0xd4c4642cb7f50b5d(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4487,8 +4104,7 @@ end
 --@usage void undefined();
 
 --@return void
-function N_0xdce97bdf8a0eabc8()
-end
+function N_0xdce97bdf8a0eabc8() end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4498,19 +4114,27 @@ end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function N_0xdbc631f109350b8c(vehicle, p1)
-end
+function N_0xdbc631f109350b8c(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage void undefined(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
+--@usage void undefined(Any p0,BOOL p1);
+--@params p0 Any
 --@params p1 BOOL
 --@return void
-function N_0xe16142b94664defd(vehicle, p1)
-end
+function N_0xe05dd0e9707003a3(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return void
+function N_0xe615bb7a7752c76a(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4520,61 +4144,17 @@ end
 --@params vehicle Vehicle
 --@params p1 float
 --@return void
-function N_0xe5810ac70602f2f5(vehicle, p1)
-end
+function N_0xe5810ac70602f2f5(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage void undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return void
-function N_0xe615bb7a7752c76a(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,BOOL p1);
---@params p0 Any
+--@usage void undefined(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function N_0xe05dd0e9707003a3(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined();
-
---@return void
-function N_0xe2f53f172b45ede1()
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(BOOL p0);
---@params p0 BOOL
---@return void
-function N_0xe6c0c80b8c867537(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return void
-function N_0xed5ede9e676643c9(p0, p1)
-end
+function N_0xe851e480b814d4ba(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4583,8 +4163,83 @@ end
 --@usage int undefined(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return int
-function N_0xe6b0e8cfc3633bf0(vehicle)
-end
+function N_0xe6b0e8cfc3633bf0(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage Any undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return Any
+function N_0xd3e51c0ab8c26eee(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(BOOL p0);
+--@params p0 BOOL
+--@return void
+function N_0xe6c0c80b8c867537(p0) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage BOOL undefined(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function N_0xe8718faf591fd224(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return void
+function N_0xedbc8405b3895cc9(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined();
+
+--@return void
+function N_0xf25e02cb9c5818f8() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0);
+--@params p0 Any
+--@return void
+function N_0xf051d9bfb6ba39c0(p0) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return void
+function N_0xed5ede9e676643c9(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage void undefined(Any p0,float p1);
+--@params p0 Any
+--@params p1 float
+--@return void
+function N_0xf488c566413b4232(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4595,39 +4250,7 @@ end
 --@params p1 int
 --@params p2 int
 --@return void
-function N_0xf0e4ba16d1db546c(vehicle, p1, p2)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage int undefined(Vehicle vehicle);
---@params vehicle Vehicle
---@return int
-function N_0xeebfc7a7efdc35b4(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function N_0xe851e480b814d4ba(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage BOOL undefined(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function N_0xe8718faf591fd224(vehicle)
-end
+function N_0xf0e4ba16d1db546c(vehicle,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4636,50 +4259,36 @@ end
 --@usage void undefined();
 
 --@return void
-function N_0xf25e02cb9c5818f8()
-end
+function N_0xe2f53f172b45ede1() end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage void undefined(Any p0,Any p1);
+--@usage int undefined(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return int
+function N_0xeebfc7a7efdc35b4(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see undefined
+--@usage Any undefined(Any p0,Any p1);
 --@params p0 Any
 --@params p1 Any
---@return void
-function N_0xedbc8405b3895cc9(p0, p1)
-end
+--@return Any
+function N_0xf3b0e0aed097a3f5(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage void undefined(Vehicle vehicle);
+--@usage BOOL undefined(Vehicle vehicle,BOOL p1);
 --@params vehicle Vehicle
---@return void
-function N_0xf87d9f2301f7d206(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0);
---@params p0 Any
---@return void
-function N_0xf051d9bfb6ba39c0(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage void undefined(Any p0,float p1);
---@params p0 Any
---@params p1 float
---@return void
-function N_0xf488c566413b4232(p0, p1)
-end
+--@params p1 BOOL
+--@return BOOL
+function N_0xf78f94d60248c737(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4691,71 +4300,16 @@ end
 --@params p2 float
 --@params p3 float
 --@return void
-function N_0xfaf2a78061fd9ef4(p0, p1, p2, p3)
-end
+function N_0xfaf2a78061fd9ef4(p0,p1,p2,p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
 --@see undefined
---@usage Any undefined(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return Any
-function N_0xf3b0e0aed097a3f5(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see PAUSE_PLAYBACK_RECORDED_VEHICLE
---@usage void PAUSE_PLAYBACK_RECORDED_VEHICLE(Vehicle vehicle);
+--@usage void undefined(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function PausePlaybackRecordedVehicle(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see undefined
---@usage BOOL undefined(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return BOOL
-function N_0xf78f94d60248c737(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see RAISE_CONVERTIBLE_ROOF
---@usage void RAISE_CONVERTIBLE_ROOF(Vehicle vehicle,BOOL instantlyRaise);
---@params vehicle Vehicle
---@params instantlyRaise BOOL
---@return void
-function RaiseConvertibleRoof(vehicle, instantlyRaise)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see RELEASE_PRELOAD_MODS
---@usage void RELEASE_PRELOAD_MODS(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function ReleasePreloadMods(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see OPEN_BOMB_BAY_DOORS
---@usage void OPEN_BOMB_BAY_DOORS(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function OpenBombBayDoors(vehicle)
-end
+function N_0xf87d9f2301f7d206(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4766,18 +4320,7 @@ end
 --@params modType int
 --@params p2 Any
 --@return void
-function PreloadVehicleMod(p0, modType, p2)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see REMOVE_PICK_UP_ROPE_FOR_CARGOBOB
---@usage void REMOVE_PICK_UP_ROPE_FOR_CARGOBOB(Vehicle cargobob);
---@params cargobob Vehicle
---@return void
-function RemovePickUpRopeForCargobob(cargobob)
-end
+function PreloadVehicleMod(p0,modType,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4786,8 +4329,53 @@ end
 --@usage void _RAISE_RETRACTABLE_WHEELS(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function RaiseRetractableWheels(vehicle)
-end
+function RaiseRetractableWheels(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see PAUSE_PLAYBACK_RECORDED_VEHICLE
+--@usage void PAUSE_PLAYBACK_RECORDED_VEHICLE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return void
+function PausePlaybackRecordedVehicle(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see OPEN_BOMB_BAY_DOORS
+--@usage void OPEN_BOMB_BAY_DOORS(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return void
+function OpenBombBayDoors(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see RAISE_CONVERTIBLE_ROOF
+--@usage void RAISE_CONVERTIBLE_ROOF(Vehicle vehicle,BOOL instantlyRaise);
+--@params vehicle Vehicle
+--@params instantlyRaise BOOL
+--@return void
+function RaiseConvertibleRoof(vehicle,instantlyRaise) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see REMOVE_PICK_UP_ROPE_FOR_CARGOBOB
+--@usage void REMOVE_PICK_UP_ROPE_FOR_CARGOBOB(Vehicle cargobob);
+--@params cargobob Vehicle
+--@return void
+function RemovePickUpRopeForCargobob(cargobob) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see RELEASE_PRELOAD_MODS
+--@usage void RELEASE_PRELOAD_MODS(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return void
+function ReleasePreloadMods(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4796,39 +4384,7 @@ end
 --@usage void REMOVE_VEHICLE_ASSET(int vehicleAsset);
 --@params vehicleAsset int
 --@return void
-function RemoveVehicleAsset(vehicleAsset)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _REMOVE_SPEED_ZONE
---@usage BOOL _REMOVE_SPEED_ZONE(int speedzone);
---@params speedzone int
---@return BOOL
-function RemoveSpeedZone(speedzone)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see REMOVE_VEHICLE_COMBAT_AVOIDANCE_AREA
---@usage void REMOVE_VEHICLE_COMBAT_AVOIDANCE_AREA(Any p0);
---@params p0 Any
---@return void
-function RemoveVehicleCombatAvoidanceArea(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see REMOVE_VEHICLE_RECORDING
---@usage void REMOVE_VEHICLE_RECORDING(Any p0,Any* p1);
---@params p0 Any
---@params p1 Any*
---@return void
-function RemoveVehicleRecording(p0, p1)
-end
+function RemoveVehicleAsset(vehicleAsset) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4837,18 +4393,7 @@ end
 --@usage void REMOVE_VEHICLE_HIGH_DETAIL_MODEL(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function RemoveVehicleHighDetailModel(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see REMOVE_VEHICLE_STUCK_CHECK
---@usage void REMOVE_VEHICLE_STUCK_CHECK(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function RemoveVehicleStuckCheck(vehicle)
-end
+function RemoveVehicleHighDetailModel(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4858,19 +4403,35 @@ end
 --@params vehicle Vehicle
 --@params modType int
 --@return void
-function RemoveVehicleMod(vehicle, modType)
-end
+function RemoveVehicleMod(vehicle,modType) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see REMOVE_VEHICLE_WINDOW
---@usage void REMOVE_VEHICLE_WINDOW(Vehicle vehicle,int windowIndex);
---@params vehicle Vehicle
---@params windowIndex int
+--@see _REMOVE_SPEED_ZONE
+--@usage BOOL _REMOVE_SPEED_ZONE(int speedzone);
+--@params speedzone int
+--@return BOOL
+function RemoveSpeedZone(speedzone) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see REMOVE_VEHICLE_COMBAT_AVOIDANCE_AREA
+--@usage void REMOVE_VEHICLE_COMBAT_AVOIDANCE_AREA(Any p0);
+--@params p0 Any
 --@return void
-function RemoveVehicleWindow(vehicle, windowIndex)
-end
+function RemoveVehicleCombatAvoidanceArea(p0) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see REMOVE_VEHICLE_RECORDING
+--@usage void REMOVE_VEHICLE_RECORDING(Any p0,Any* p1);
+--@params p0 Any
+--@params p1 Any*
+--@return void
+function RemoveVehicleRecording(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4879,8 +4440,16 @@ end
 --@usage void REMOVE_VEHICLE_UPSIDEDOWN_CHECK(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function RemoveVehicleUpsidedownCheck(vehicle)
-end
+function RemoveVehicleUpsidedownCheck(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see REMOVE_VEHICLE_STUCK_CHECK
+--@usage void REMOVE_VEHICLE_STUCK_CHECK(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return void
+function RemoveVehicleStuckCheck(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4895,8 +4464,17 @@ end
 --@params z2 float
 --@params unk Any
 --@return void
-function RemoveVehiclesFromGeneratorsInArea(x1, y1, z1, x2, y2, z2, unk)
-end
+function RemoveVehiclesFromGeneratorsInArea(x1,y1,z1,x2,y2,z2,unk) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see REMOVE_VEHICLE_WINDOW
+--@usage void REMOVE_VEHICLE_WINDOW(Vehicle vehicle,int windowIndex);
+--@params vehicle Vehicle
+--@params windowIndex int
+--@return void
+function RemoveVehicleWindow(vehicle,windowIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4906,18 +4484,7 @@ end
 --@params vehicleHash Hash
 --@params vehicleAsset int
 --@return void
-function RequestVehicleAsset(vehicleHash, vehicleAsset)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see REQUEST_VEHICLE_HIGH_DETAIL_MODEL
---@usage void REQUEST_VEHICLE_HIGH_DETAIL_MODEL(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function RequestVehicleHighDetailModel(vehicle)
-end
+function RequestVehicleAsset(vehicleHash,vehicleAsset) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4926,19 +4493,16 @@ end
 --@usage void _REQUEST_VEHICLE_DASHBOARD_SCALEFORM_MOVIE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function RequestVehicleDashboardScaleformMovie(vehicle)
-end
+function RequestVehicleDashboardScaleformMovie(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see REQUEST_VEHICLE_RECORDING
---@usage void REQUEST_VEHICLE_RECORDING(int i,char* name);
---@params i int
---@params name char*
+--@see REQUEST_VEHICLE_HIGH_DETAIL_MODEL
+--@usage void REQUEST_VEHICLE_HIGH_DETAIL_MODEL(Vehicle vehicle);
+--@params vehicle Vehicle
 --@return void
-function RequestVehicleRecording(i, name)
-end
+function RequestVehicleHighDetailModel(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4948,8 +4512,7 @@ end
 --@params vehicle Vehicle
 --@params nullAttributes int
 --@return void
-function ResetVehicleStuckTimer(vehicle, nullAttributes)
-end
+function ResetVehicleStuckTimer(vehicle,nullAttributes) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4959,19 +4522,7 @@ end
 --@params vehicle Vehicle
 --@params windowIndex int
 --@return Any
-function RollDownWindow(vehicle, windowIndex)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see ROLL_UP_WINDOW
---@usage Any ROLL_UP_WINDOW(Vehicle vehicle,int windowIndex);
---@params vehicle Vehicle
---@params windowIndex int
---@return Any
-function RollUpWindow(vehicle, windowIndex)
-end
+function RollDownWindow(vehicle,windowIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -4981,38 +4532,17 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function ResetVehicleWheels(vehicle, toggle)
-end
+function ResetVehicleWheels(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see ROLL_DOWN_WINDOWS
---@usage void ROLL_DOWN_WINDOWS(Vehicle vehicle);
+--@see ROLL_UP_WINDOW
+--@usage Any ROLL_UP_WINDOW(Vehicle vehicle,int windowIndex);
 --@params vehicle Vehicle
---@return void
-function RollDownWindows(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_ALL_VEHICLE_GENERATORS_ACTIVE
---@usage void SET_ALL_VEHICLE_GENERATORS_ACTIVE();
-
---@return void
-function SetAllVehicleGeneratorsActive()
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_AMBIENT_VEHICLE_RANGE_MULTIPLIER_THIS_FRAME
---@usage void SET_AMBIENT_VEHICLE_RANGE_MULTIPLIER_THIS_FRAME(float range);
---@params range float
---@return void
-function SetAmbientVehicleRangeMultiplierThisFrame(range)
-end
+--@params windowIndex int
+--@return Any
+function RollUpWindow(vehicle,windowIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5021,19 +4551,34 @@ end
 --@usage void SET_ALL_LOW_PRIORITY_VEHICLE_GENERATORS_ACTIVE(BOOL active);
 --@params active BOOL
 --@return void
-function SetAllLowPriorityVehicleGeneratorsActive(active)
-end
+function SetAllLowPriorityVehicleGeneratorsActive(active) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_BOAT_ANCHOR
---@usage void SET_BOAT_ANCHOR(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
+--@see SET_ALL_VEHICLE_GENERATORS_ACTIVE
+--@usage void SET_ALL_VEHICLE_GENERATORS_ACTIVE();
+
 --@return void
-function SetBoatAnchor(vehicle, toggle)
-end
+function SetAllVehicleGeneratorsActive() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see ROLL_DOWN_WINDOWS
+--@usage void ROLL_DOWN_WINDOWS(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return void
+function RollDownWindows(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_AMBIENT_VEHICLE_RANGE_MULTIPLIER_THIS_FRAME
+--@usage void SET_AMBIENT_VEHICLE_RANGE_MULTIPLIER_THIS_FRAME(float range);
+--@params range float
+--@return void
+function SetAmbientVehicleRangeMultiplierThisFrame(range) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5049,19 +4594,17 @@ end
 --@params p6 BOOL
 --@params p7 BOOL
 --@return void
-function SetAllVehicleGeneratorsActiveInArea(x1, y1, z1, x2, y2, z2, p6, p7)
-end
+function SetAllVehicleGeneratorsActiveInArea(x1,y1,z1,x2,y2,z2,p6,p7) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_BOAT_DISABLE_AVOIDANCE
---@usage void SET_BOAT_DISABLE_AVOIDANCE(Vehicle vehicle,BOOL p1);
+--@see SET_BOAT_ANCHOR
+--@usage void SET_BOAT_ANCHOR(Vehicle vehicle,BOOL toggle);
 --@params vehicle Vehicle
---@params p1 BOOL
+--@params toggle BOOL
 --@return void
-function SetBoatDisableAvoidance(vehicle, p1)
-end
+function SetBoatAnchor(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5072,8 +4615,27 @@ end
 --@params x float
 --@params y float
 --@return void
-function SetBikeOnStand(vehicle, x, y)
-end
+function SetBikeOnStand(vehicle,x,y) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see REQUEST_VEHICLE_RECORDING
+--@usage void REQUEST_VEHICLE_RECORDING(int i,char* name);
+--@params i int
+--@params name char*
+--@return void
+function RequestVehicleRecording(i,name) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_BOAT_DISABLE_AVOIDANCE
+--@usage void SET_BOAT_DISABLE_AVOIDANCE(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return void
+function SetBoatDisableAvoidance(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5083,18 +4645,7 @@ end
 --@params vehicle Vehicle
 --@params value float
 --@return void
-function SetBoatAnchorBuoyancyCoefficient(vehicle, value)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_BOAT_SINKING
---@usage void _SET_BOAT_SINKING(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function SetBoatSinking(vehicle)
-end
+function SetBoatAnchorBuoyancyCoefficient(vehicle,value) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5104,8 +4655,16 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetBoatFrozenWhenAnchored(vehicle, toggle)
-end
+function SetBoatFrozenWhenAnchored(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_BOAT_SINKING
+--@usage void _SET_BOAT_SINKING(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return void
+function SetBoatSinking(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5115,8 +4674,7 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetCamberedWheelsDisabled(vehicle, toggle)
-end
+function SetCamberedWheelsDisabled(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5126,8 +4684,7 @@ end
 --@params vehicle Vehicle
 --@params toggle Vehicle
 --@return void
-function SetBoatSinksWhenWrecked(vehicle, toggle)
-end
+function SetBoatSinksWhenWrecked(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5136,8 +4693,7 @@ end
 --@usage void SET_CAR_BOOT_OPEN(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function SetCarBootOpen(vehicle)
-end
+function SetCarBootOpen(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5147,40 +4703,7 @@ end
 --@params vehicle Vehicle
 --@params state BOOL
 --@return void
-function SetCanResprayVehicle(vehicle, state)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_CAR_HIGH_SPEED_BUMP_SEVERITY_MULTIPLIER
---@usage void _SET_CAR_HIGH_SPEED_BUMP_SEVERITY_MULTIPLIER(float multiplier);
---@params multiplier float
---@return void
-function SetCarHighSpeedBumpSeverityMultiplier(multiplier)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_CARGOBOB_PICKUP_MAGNET_ACTIVE
---@usage void SET_CARGOBOB_PICKUP_MAGNET_ACTIVE(Vehicle cargobob,BOOL isActive);
---@params cargobob Vehicle
---@params isActive BOOL
---@return void
-function SetCargobobPickupMagnetActive(cargobob, isActive)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_CARGOBOB_PICKUP_MAGNET_FALLOFF
---@usage void SET_CARGOBOB_PICKUP_MAGNET_FALLOFF(Vehicle vehicle,float p1);
---@params vehicle Vehicle
---@params p1 float
---@return void
-function SetCargobobPickupMagnetFalloff(vehicle, p1)
-end
+function SetCanResprayVehicle(vehicle,state) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5192,19 +4715,16 @@ end
 --@params yOffset float
 --@params state int
 --@return void
-function SetCargobobHookPosition(cargobob, xOffset, yOffset, state)
-end
+function SetCargobobHookPosition(cargobob,xOffset,yOffset,state) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_CARGOBOB_PICKUP_MAGNET_PULL_STRENGTH
---@usage void SET_CARGOBOB_PICKUP_MAGNET_PULL_STRENGTH(Vehicle cargobob,float p1);
---@params cargobob Vehicle
---@params p1 float
+--@see _SET_CAR_HIGH_SPEED_BUMP_SEVERITY_MULTIPLIER
+--@usage void _SET_CAR_HIGH_SPEED_BUMP_SEVERITY_MULTIPLIER(float multiplier);
+--@params multiplier float
 --@return void
-function SetCargobobPickupMagnetPullStrength(cargobob, p1)
-end
+function SetCarHighSpeedBumpSeverityMultiplier(multiplier) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5214,8 +4734,17 @@ end
 --@params vehicle Vehicle
 --@params p1 float
 --@return void
-function SetCargobobPickupMagnetEffectRadius(vehicle, p1)
-end
+function SetCargobobPickupMagnetEffectRadius(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_CARGOBOB_PICKUP_MAGNET_ACTIVE
+--@usage void SET_CARGOBOB_PICKUP_MAGNET_ACTIVE(Vehicle cargobob,BOOL isActive);
+--@params cargobob Vehicle
+--@params isActive BOOL
+--@return void
+function SetCargobobPickupMagnetActive(cargobob,isActive) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5225,30 +4754,17 @@ end
 --@params cargobob Vehicle
 --@params p1 float
 --@return void
-function SetCargobobPickupMagnetPullRopeLength(cargobob, p1)
-end
+function SetCargobobPickupMagnetPullRopeLength(cargobob,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_CARGOBOB_PICKUP_MAGNET_REDUCED_STRENGTH
---@usage void SET_CARGOBOB_PICKUP_MAGNET_REDUCED_STRENGTH(Vehicle cargobob,Vehicle vehicle);
---@params cargobob Vehicle
+--@see SET_CARGOBOB_PICKUP_MAGNET_FALLOFF
+--@usage void SET_CARGOBOB_PICKUP_MAGNET_FALLOFF(Vehicle vehicle,float p1);
 --@params vehicle Vehicle
+--@params p1 float
 --@return void
-function SetCargobobPickupMagnetReducedStrength(cargobob, vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_CARGOBOB_PICKUP_MAGNET_STRENGTH
---@usage void SET_CARGOBOB_PICKUP_MAGNET_STRENGTH(Vehicle cargobob,float strength);
---@params cargobob Vehicle
---@params strength float
---@return void
-function SetCargobobPickupMagnetStrength(cargobob, strength)
-end
+function SetCargobobPickupMagnetFalloff(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5258,29 +4774,37 @@ end
 --@params cargobob Vehicle
 --@params p1 float
 --@return void
-function SetCargobobPickupMagnetReducedFalloff(cargobob, p1)
-end
+function SetCargobobPickupMagnetReducedFalloff(cargobob,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_CARGOBOB_PICKUP_ROPE_TYPE
---@usage void SET_CARGOBOB_PICKUP_ROPE_TYPE(Vehicle vehicle,int state);
---@params vehicle Vehicle
---@params state int
+--@see SET_CARGOBOB_PICKUP_MAGNET_PULL_STRENGTH
+--@usage void SET_CARGOBOB_PICKUP_MAGNET_PULL_STRENGTH(Vehicle cargobob,float p1);
+--@params cargobob Vehicle
+--@params p1 float
 --@return void
-function SetCargobobPickupRopeType(vehicle, state)
-end
+function SetCargobobPickupMagnetPullStrength(cargobob,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _IS_THIS_MODEL_AN_AMPHIBIOUS_CAR
---@usage BOOL _IS_THIS_MODEL_AN_AMPHIBIOUS_CAR(Hash model);
---@params model Hash
---@return BOOL
-function IsThisModelAnAmphibiousCar(model)
-end
+--@see SET_CARGOBOB_PICKUP_MAGNET_REDUCED_STRENGTH
+--@usage void SET_CARGOBOB_PICKUP_MAGNET_REDUCED_STRENGTH(Vehicle cargobob,Vehicle vehicle);
+--@params cargobob Vehicle
+--@params vehicle Vehicle
+--@return void
+function SetCargobobPickupMagnetReducedStrength(cargobob,vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_CARGOBOB_PICKUP_MAGNET_STRENGTH
+--@usage void SET_CARGOBOB_PICKUP_MAGNET_STRENGTH(Vehicle cargobob,float strength);
+--@params cargobob Vehicle
+--@params strength float
+--@return void
+function SetCargobobPickupMagnetStrength(cargobob,strength) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5290,93 +4814,17 @@ end
 --@params cargobob Vehicle
 --@params p1 Player
 --@return void
-function SetCargobobPickupRopeDampingMultiplier(cargobob, p1)
-end
+function SetCargobobPickupRopeDampingMultiplier(cargobob,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see IS_THIS_MODEL_A_HELI
---@usage BOOL IS_THIS_MODEL_A_HELI(Hash model);
---@params model Hash
---@return BOOL
-function IsThisModelAHeli(model)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see IS_THIS_MODEL_A_BIKE
---@usage BOOL IS_THIS_MODEL_A_BIKE(Hash model);
---@params model Hash
---@return BOOL
-function IsThisModelABike(model)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_CONVERTIBLE_ROOF_LATCH_STATE
---@usage void SET_CONVERTIBLE_ROOF_LATCH_STATE(Vehicle vehicle,BOOL state);
+--@see SET_CARGOBOB_PICKUP_ROPE_TYPE
+--@usage void SET_CARGOBOB_PICKUP_ROPE_TYPE(Vehicle vehicle,int state);
 --@params vehicle Vehicle
---@params state BOOL
+--@params state int
 --@return void
-function SetConvertibleRoofLatchState(vehicle, state)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_DISABLE_RANDOM_TRAINS_THIS_FRAME
---@usage void SET_DISABLE_RANDOM_TRAINS_THIS_FRAME(BOOL toggle);
---@params toggle BOOL
---@return void
-function SetDisableRandomTrainsThisFrame(toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_DISABLE_PRETEND_OCCUPANTS
---@usage void SET_DISABLE_PRETEND_OCCUPANTS(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function SetDisablePretendOccupants(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_DISABLE_VEHICLE_PETROL_TANK_DAMAGE
---@usage void SET_DISABLE_VEHICLE_PETROL_TANK_DAMAGE(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetDisableVehiclePetrolTankDamage(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_DISABLE_VEHICLE_ENGINE_FIRES
---@usage void SET_DISABLE_VEHICLE_ENGINE_FIRES(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function SetDisableVehicleEngineFires(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_DISABLE_VEHICLE_PETROL_TANK_FIRES
---@usage void SET_DISABLE_VEHICLE_PETROL_TANK_FIRES(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetDisableVehiclePetrolTankFires(vehicle, toggle)
-end
+function SetCargobobPickupRopeType(vehicle,state) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5386,8 +4834,102 @@ end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function SetConvertibleRoof(vehicle, p1)
-end
+function SetConvertibleRoof(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_CONVERTIBLE_ROOF_LATCH_STATE
+--@usage void SET_CONVERTIBLE_ROOF_LATCH_STATE(Vehicle vehicle,BOOL state);
+--@params vehicle Vehicle
+--@params state BOOL
+--@return void
+function SetConvertibleRoofLatchState(vehicle,state) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_DISABLE_PRETEND_OCCUPANTS
+--@usage void SET_DISABLE_PRETEND_OCCUPANTS(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return void
+function SetDisablePretendOccupants(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_DISABLE_RANDOM_TRAINS_THIS_FRAME
+--@usage void SET_DISABLE_RANDOM_TRAINS_THIS_FRAME(BOOL toggle);
+--@params toggle BOOL
+--@return void
+function SetDisableRandomTrainsThisFrame(toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_DISABLE_VEHICLE_ENGINE_FIRES
+--@usage void SET_DISABLE_VEHICLE_ENGINE_FIRES(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return void
+function SetDisableVehicleEngineFires(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_DISABLE_VEHICLE_PETROL_TANK_DAMAGE
+--@usage void SET_DISABLE_VEHICLE_PETROL_TANK_DAMAGE(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetDisableVehiclePetrolTankDamage(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_DISABLE_VEHICLE_PETROL_TANK_FIRES
+--@usage void SET_DISABLE_VEHICLE_PETROL_TANK_FIRES(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetDisableVehiclePetrolTankFires(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_DISABLE_VEHICLE_UNK
+--@usage void _SET_DISABLE_VEHICLE_UNK(BOOL toggle);
+--@params toggle BOOL
+--@return void
+function SetDisableVehicleUnk(toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_DISABLE_VEHICLE_UNK_2
+--@usage void _SET_DISABLE_VEHICLE_UNK_2(BOOL toggle);
+--@params toggle BOOL
+--@return void
+function SetDisableVehicleUnk_2(toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_DISTANT_CARS_ENABLED
+--@usage void SET_DISTANT_CARS_ENABLED(BOOL toggle);
+--@params toggle BOOL
+--@return void
+function SetDistantCarsEnabled(toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_FAR_DRAW_VEHICLES
+--@usage void SET_FAR_DRAW_VEHICLES(BOOL toggle);
+--@params toggle BOOL
+--@return void
+function SetFarDrawVehicles(toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5397,39 +4939,7 @@ end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function SetDisableVehicleWindowCollisions(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_DISTANT_CARS_ENABLED
---@usage void SET_DISTANT_CARS_ENABLED(BOOL toggle);
---@params toggle BOOL
---@return void
-function SetDistantCarsEnabled(toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_DISABLE_VEHICLE_UNK_2
---@usage void _SET_DISABLE_VEHICLE_UNK_2(BOOL toggle);
---@params toggle BOOL
---@return void
-function SetDisableVehicleUnk_2(toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_FORCE_HD_VEHICLE
---@usage void SET_FORCE_HD_VEHICLE(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetForceHdVehicle(vehicle, toggle)
-end
+function SetDisableVehicleWindowCollisions(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5439,8 +4949,17 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetForcedBoatLocationWhenAnchored(vehicle, toggle)
-end
+function SetForcedBoatLocationWhenAnchored(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_FORCE_HD_VEHICLE
+--@usage void SET_FORCE_HD_VEHICLE(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetForceHdVehicle(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5450,28 +4969,7 @@ end
 --@params vehicle Vehicle
 --@params height float
 --@return void
-function SetForkliftForkHeight(vehicle, height)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_FAR_DRAW_VEHICLES
---@usage void SET_FAR_DRAW_VEHICLES(BOOL toggle);
---@params toggle BOOL
---@return void
-function SetFarDrawVehicles(toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_HELI_BLADES_FULL_SPEED
---@usage void SET_HELI_BLADES_FULL_SPEED(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function SetHeliBladesFullSpeed(vehicle)
-end
+function SetForkliftForkHeight(vehicle,height) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5480,8 +4978,26 @@ end
 --@usage Any SET_GARBAGE_TRUCKS(BOOL toggle);
 --@params toggle BOOL
 --@return Any
-function SetGarbageTrucks(toggle)
-end
+function SetGarbageTrucks(toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_HELI_BLADES_FULL_SPEED
+--@usage void SET_HELI_BLADES_FULL_SPEED(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return void
+function SetHeliBladesFullSpeed(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_HELI_BLADES_SPEED
+--@usage void SET_HELI_BLADES_SPEED(Vehicle vehicle,float speed);
+--@params vehicle Vehicle
+--@params speed float
+--@return void
+function SetHeliBladesSpeed(vehicle,speed) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5491,8 +5007,7 @@ end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return BOOL
-function SetHeliTailExplodeThrowDashboard(vehicle, p1)
-end
+function SetHeliTailExplodeThrowDashboard(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5502,19 +5017,7 @@ end
 --@params vehicle Vehicle
 --@params health float
 --@return void
-function SetHeliTailRotorHealth(vehicle, health)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_HELICOPTER_ROLL_PITCH_YAW_MULT
---@usage void _SET_HELICOPTER_ROLL_PITCH_YAW_MULT(Vehicle helicopter,float multiplier);
---@params helicopter Vehicle
---@params multiplier float
---@return void
-function SetHelicopterRollPitchYawMult(helicopter, multiplier)
-end
+function SetHeliTailRotorHealth(vehicle,health) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5524,8 +5027,37 @@ end
 --@params vehicle Vehicle
 --@params p1 float
 --@return void
-function SetHeliTurbulenceScalar(vehicle, p1)
-end
+function SetHeliTurbulenceScalar(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_HELICOPTER_ROLL_PITCH_YAW_MULT
+--@usage void _SET_HELICOPTER_ROLL_PITCH_YAW_MULT(Vehicle helicopter,float multiplier);
+--@params helicopter Vehicle
+--@params multiplier float
+--@return void
+function SetHelicopterRollPitchYawMult(helicopter,multiplier) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_HYDRAULIC_RAISED
+--@usage void _SET_HYDRAULIC_RAISED(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetHydraulicRaised(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_HYDRAULIC_WHEEL_STATE
+--@usage void _SET_HYDRAULIC_WHEEL_STATE(Vehicle vehicle,int state);
+--@params vehicle Vehicle
+--@params state int
+--@return void
+function SetHydraulicWheelState(vehicle,state) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5536,19 +5068,7 @@ end
 --@params wheelID int
 --@params height float
 --@return void
-function SetHydraulicState(vehicle, wheelID, height)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_HYDRAULIC_RAISED
---@usage void _SET_HYDRAULIC_RAISED(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetHydraulicRaised(vehicle, toggle)
-end
+function SetHydraulicState(vehicle,wheelID,height) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5561,19 +5081,7 @@ end
 --@params p3 float
 --@params p4 float
 --@return void
-function SetHydraulicWheelStateTransition(vehicle, wheelID, p2, p3, p4)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_HYDRAULIC_WHEEL_STATE
---@usage void _SET_HYDRAULIC_WHEEL_STATE(Vehicle vehicle,int state);
---@params vehicle Vehicle
---@params state int
---@return void
-function SetHydraulicWheelState(vehicle, state)
-end
+function SetHydraulicWheelStateTransition(vehicle,wheelID,p2,p3,p4) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5582,19 +5090,7 @@ end
 --@usage void SET_LAST_DRIVEN_VEHICLE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function SetLastDrivenVehicle(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_HELI_BLADES_SPEED
---@usage void SET_HELI_BLADES_SPEED(Vehicle vehicle,float speed);
---@params vehicle Vehicle
---@params speed float
---@return void
-function SetHeliBladesSpeed(vehicle, speed)
-end
+function SetLastDrivenVehicle(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5604,8 +5100,7 @@ end
 --@params train Vehicle*
 --@params p1 BOOL
 --@return void
-function SetMissionTrainAsNoLongerNeeded(train, p1)
-end
+function SetMissionTrainAsNoLongerNeeded(train,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5614,18 +5109,7 @@ end
 --@usage void SET_LIGHTS_CUTOFF_DISTANCE_TWEAK(float distance);
 --@params distance float
 --@return void
-function SetLightsCutoffDistanceTweak(distance)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_PARKED_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME
---@usage void SET_PARKED_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME(float multiplier);
---@params multiplier float
---@return void
-function SetParkedVehicleDensityMultiplierThisFrame(multiplier)
-end
+function SetLightsCutoffDistanceTweak(distance) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5637,8 +5121,35 @@ end
 --@params y float
 --@params z float
 --@return void
-function SetMissionTrainCoords(train, x, y, z)
-end
+function SetMissionTrainCoords(train,x,y,z) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_NUMBER_OF_PARKED_VEHICLES
+--@usage Any SET_NUMBER_OF_PARKED_VEHICLES(int value);
+--@params value int
+--@return Any
+function SetNumberOfParkedVehicles(value) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_PLANE_TURBULENCE_MULTIPLIER
+--@usage void SET_PLANE_TURBULENCE_MULTIPLIER(Vehicle vehicle,float multiplier);
+--@params vehicle Vehicle
+--@params multiplier float
+--@return void
+function SetPlaneTurbulenceMultiplier(vehicle,multiplier) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_PARKED_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME
+--@usage void SET_PARKED_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME(float multiplier);
+--@params multiplier float
+--@return void
+function SetParkedVehicleDensityMultiplierThisFrame(multiplier) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5648,28 +5159,7 @@ end
 --@params vehicle Vehicle
 --@params direction float
 --@return void
-function SetPlaneVtolAnimationDisabled(vehicle, direction)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_DISABLE_VEHICLE_UNK
---@usage void _SET_DISABLE_VEHICLE_UNK(BOOL toggle);
---@params toggle BOOL
---@return void
-function SetDisableVehicleUnk(toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_NUMBER_OF_PARKED_VEHICLES
---@usage Any SET_NUMBER_OF_PARKED_VEHICLES(int value);
---@params value int
---@return Any
-function SetNumberOfParkedVehicles(value)
-end
+function SetPlaneVtolAnimationDisabled(vehicle,direction) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5679,19 +5169,7 @@ end
 --@params vehicle Vehicle
 --@params speed float
 --@return void
-function SetPlaybackSpeed(vehicle, speed)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_PLAYBACK_TO_USE_AI
---@usage void SET_PLAYBACK_TO_USE_AI(Vehicle vehicle,int flag);
---@params vehicle Vehicle
---@params flag int
---@return void
-function SetPlaybackToUseAi(vehicle, flag)
-end
+function SetPlaybackSpeed(vehicle,speed) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5703,8 +5181,7 @@ end
 --@params p2 Any
 --@params p3 BOOL
 --@return void
-function SetPlaybackToUseAiTryToRevertBackLater(p0, p1, p2, p3)
-end
+function SetPlaybackToUseAiTryToRevertBackLater(p0,p1,p2,p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5713,8 +5190,26 @@ end
 --@usage Any SET_RANDOM_BOATS(BOOL toggle);
 --@params toggle BOOL
 --@return Any
-function SetRandomBoats(toggle)
-end
+function SetRandomBoats(toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_PLAYERS_LAST_VEHICLE
+--@usage Any SET_PLAYERS_LAST_VEHICLE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return Any
+function SetPlayersLastVehicle(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_PLAYBACK_TO_USE_AI
+--@usage void SET_PLAYBACK_TO_USE_AI(Vehicle vehicle,int flag);
+--@params vehicle Vehicle
+--@params flag int
+--@return void
+function SetPlaybackToUseAi(vehicle,flag) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5723,30 +5218,16 @@ end
 --@usage void SET_RANDOM_TRAINS(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetRandomTrains(toggle)
-end
+function SetRandomTrains(toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_PLANE_TURBULENCE_MULTIPLIER
---@usage void SET_PLANE_TURBULENCE_MULTIPLIER(Vehicle vehicle,float multiplier);
---@params vehicle Vehicle
+--@see SET_RANDOM_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME
+--@usage void SET_RANDOM_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME(float multiplier);
 --@params multiplier float
 --@return void
-function SetPlaneTurbulenceMultiplier(vehicle, multiplier)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_RENDER_TRAIN_AS_DERAILED
---@usage void SET_RENDER_TRAIN_AS_DERAILED(Vehicle train,BOOL toggle);
---@params train Vehicle
---@params toggle BOOL
---@return void
-function SetRenderTrainAsDerailed(train, toggle)
-end
+function SetRandomVehicleDensityMultiplierThisFrame(multiplier) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5756,8 +5237,27 @@ end
 --@params vehicleGenerator int
 --@params enabled BOOL
 --@return void
-function SetScriptVehicleGenerator(vehicleGenerator, enabled)
-end
+function SetScriptVehicleGenerator(vehicleGenerator,enabled) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_RENDER_TRAIN_AS_DERAILED
+--@usage void SET_RENDER_TRAIN_AS_DERAILED(Vehicle train,BOOL toggle);
+--@params train Vehicle
+--@params toggle BOOL
+--@return void
+function SetRenderTrainAsDerailed(train,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_SPECIALFLIGHT_WING_RATIO
+--@usage void _SET_SPECIALFLIGHT_WING_RATIO(Vehicle vehicle,float ratio);
+--@params vehicle Vehicle
+--@params ratio float
+--@return void
+function SetSpecialflightWingRatio(vehicle,ratio) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5770,19 +5270,7 @@ end
 --@params crushWarningDepth2 float
 --@params crushDepth float
 --@return void
-function SetSubmarineCrushDepths(submarine, toggle, crushWarningDepth1, crushWarningDepth2, crushDepth)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_SPECIALFLIGHT_WING_RATIO
---@usage void _SET_SPECIALFLIGHT_WING_RATIO(Vehicle vehicle,float ratio);
---@params vehicle Vehicle
---@params ratio float
---@return void
-function SetSpecialflightWingRatio(vehicle, ratio)
-end
+function SetSubmarineCrushDepths(submarine,toggle,crushWarningDepth1,crushWarningDepth2,crushDepth) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5792,8 +5280,7 @@ end
 --@params vehicle Vehicle
 --@params state BOOL
 --@return void
-function SetTaxiLights(vehicle, state)
-end
+function SetTaxiLights(vehicle,state) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5803,39 +5290,7 @@ end
 --@params plane Vehicle
 --@params height int
 --@return void
-function SetTaskVehicleGotoPlaneMinHeightAboveTerrain(plane, height)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_RANDOM_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME
---@usage void SET_RANDOM_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME(float multiplier);
---@params multiplier float
---@return void
-function SetRandomVehicleDensityMultiplierThisFrame(multiplier)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_TRAIN_CRUISE_SPEED
---@usage Any SET_TRAIN_CRUISE_SPEED(Vehicle train,float speed);
---@params train Vehicle
---@params speed float
---@return Any
-function SetTrainCruiseSpeed(train, speed)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_PLAYERS_LAST_VEHICLE
---@usage Any SET_PLAYERS_LAST_VEHICLE(Vehicle vehicle);
---@params vehicle Vehicle
---@return Any
-function SetPlayersLastVehicle(vehicle)
-end
+function SetTaskVehicleGotoPlaneMinHeightAboveTerrain(plane,height) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5845,41 +5300,16 @@ end
 --@params vehicle Vehicle
 --@params p1 float
 --@return void
-function SetTrailerInverseMassScale(vehicle, p1)
-end
+function SetTrailerInverseMassScale(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _SET_UNK_BOOL_0x102_FOR_SUBMARINE_VEHICLE_TASK
---@usage void _SET_UNK_BOOL_0x102_FOR_SUBMARINE_VEHICLE_TASK(Vehicle vehicle,BOOL value);
---@params vehicle Vehicle
---@params value BOOL
---@return void
-function SetUnkBoolN_0x102ForSubmarineVehicleTask(vehicle, value)
-end
+--@see _SET_TRAILER_LEGS_LOWERED
+--@usage void _SET_TRAILER_LEGS_LOWERED();
 
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_USE_HIGHER_VEHICLE_JUMP_FORCE
---@usage void _SET_USE_HIGHER_VEHICLE_JUMP_FORCE(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
 --@return void
-function SetUseHigherVehicleJumpForce(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_ALARM
---@usage void SET_VEHICLE_ALARM(Vehicle vehicle,BOOL state);
---@params vehicle Vehicle
---@params state BOOL
---@return void
-function SetVehicleAlarm(vehicle, state)
-end
+function SetTrailerLegsLowered() end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5888,8 +5318,17 @@ end
 --@usage void SET_TRAILER_LEGS_RAISED(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function SetTrailerLegsRaised(vehicle)
-end
+function SetTrailerLegsRaised(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_TRAIN_CRUISE_SPEED
+--@usage Any SET_TRAIN_CRUISE_SPEED(Vehicle train,float speed);
+--@params train Vehicle
+--@params speed float
+--@return Any
+function SetTrainCruiseSpeed(train,speed) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5899,8 +5338,7 @@ end
 --@params train Vehicle
 --@params speed float
 --@return Any
-function SetTrainSpeed(train, speed)
-end
+function SetTrainSpeed(train,speed) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5910,18 +5348,7 @@ end
 --@params trackIndex int
 --@params frequency int
 --@return void
-function SetTrainTrackSpawnFrequency(trackIndex, frequency)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_TRAILER_LEGS_LOWERED
---@usage void _SET_TRAILER_LEGS_LOWERED();
-
---@return void
-function SetTrailerLegsLowered()
-end
+function SetTrainTrackSpawnFrequency(trackIndex,frequency) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5931,52 +5358,47 @@ end
 --@params vehicle Vehicle
 --@params value float
 --@return void
-function SetUnkFloatN_0x104ForSubmarineVehicleTask(vehicle, value)
-end
+function SetUnkFloatN_0x104ForSubmarineVehicleTask(vehicle,value) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_BRAKE
---@usage void SET_VEHICLE_BRAKE(Vehicle vehicle,BOOL toggle);
+--@see _SET_UNK_BOOL_0x102_FOR_SUBMARINE_VEHICLE_TASK
+--@usage void _SET_UNK_BOOL_0x102_FOR_SUBMARINE_VEHICLE_TASK(Vehicle vehicle,BOOL value);
+--@params vehicle Vehicle
+--@params value BOOL
+--@return void
+function SetUnkBoolN_0x102ForSubmarineVehicleTask(vehicle,value) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_USE_HIGHER_VEHICLE_JUMP_FORCE
+--@usage void _SET_USE_HIGHER_VEHICLE_JUMP_FORCE(Vehicle vehicle,BOOL toggle);
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleBrake(vehicle, toggle)
-end
+function SetUseHigherVehicleJumpForce(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_BRAKE_LIGHTS
---@usage void SET_VEHICLE_BRAKE_LIGHTS(Vehicle vehicle,BOOL toggle);
+--@see SET_VEHICLE_ACTIVE_DURING_PLAYBACK
+--@usage void SET_VEHICLE_ACTIVE_DURING_PLAYBACK(Vehicle vehicle,BOOL toggle);
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleBrakeLights(vehicle, toggle)
-end
+function SetVehicleActiveDuringPlayback(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_ALLOW_NO_PASSENGERS_LOCKON
---@usage void SET_VEHICLE_ALLOW_NO_PASSENGERS_LOCKON(Vehicle veh,BOOL toggle);
---@params veh Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleAllowNoPassengersLockon(veh, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_BODY_HEALTH
---@usage void SET_VEHICLE_BODY_HEALTH(Vehicle vehicle,float value);
+--@see SET_VEHICLE_ALARM
+--@usage void SET_VEHICLE_ALARM(Vehicle vehicle,BOOL state);
 --@params vehicle Vehicle
---@params value float
+--@params state BOOL
 --@return void
-function SetVehicleBodyHealth(vehicle, value)
-end
+function SetVehicleAlarm(vehicle,state) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -5987,30 +5409,27 @@ end
 --@params p1 BOOL
 --@params p2 Any
 --@return Any
-function SetVehicleAutomaticallyAttaches(vehicle, p1, p2)
-end
+function SetVehicleAutomaticallyAttaches(vehicle,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_CAN_BE_TARGETTED
---@usage void SET_VEHICLE_CAN_BE_TARGETTED(Vehicle vehicle,BOOL state);
---@params vehicle Vehicle
---@params state BOOL
---@return void
-function SetVehicleCanBeTargetted(vehicle, state)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_CAN_BE_USED_BY_FLEEING_PEDS
---@usage void SET_VEHICLE_CAN_BE_USED_BY_FLEEING_PEDS(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
+--@see SET_VEHICLE_ALLOW_NO_PASSENGERS_LOCKON
+--@usage void SET_VEHICLE_ALLOW_NO_PASSENGERS_LOCKON(Vehicle veh,BOOL toggle);
+--@params veh Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleCanBeUsedByFleeingPeds(vehicle, toggle)
-end
+function SetVehicleAllowNoPassengersLockon(veh,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_BODY_HEALTH
+--@usage void SET_VEHICLE_BODY_HEALTH(Vehicle vehicle,float value);
+--@params vehicle Vehicle
+--@params value float
+--@return void
+function SetVehicleBodyHealth(vehicle,value) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6020,19 +5439,27 @@ end
 --@params aircraft Vehicle
 --@params bombCount int
 --@return void
-function SetVehicleBombCount(aircraft, bombCount)
-end
+function SetVehicleBombCount(aircraft,bombCount) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_CAN_BREAK
---@usage void SET_VEHICLE_CAN_BREAK(Vehicle vehicle,BOOL toggle);
+--@see SET_VEHICLE_BRAKE
+--@usage void SET_VEHICLE_BRAKE(Vehicle vehicle,BOOL toggle);
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleCanBreak(vehicle, toggle)
-end
+function SetVehicleBrake(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_BRAKE_LIGHTS
+--@usage void SET_VEHICLE_BRAKE_LIGHTS(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleBrakeLights(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6043,30 +5470,17 @@ end
 --@params position float
 --@params p2 BOOL
 --@return void
-function SetVehicleBulldozerArmPosition(vehicle, position, p2)
-end
+function SetVehicleBulldozerArmPosition(vehicle,position,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _SET_VEHICLE_CAN_ENGINE_OPERATE_ON_FIRE
---@usage void _SET_VEHICLE_CAN_ENGINE_OPERATE_ON_FIRE(Vehicle vehicle,BOOL toggle);
+--@see SET_VEHICLE_BURNOUT
+--@usage void SET_VEHICLE_BURNOUT(Vehicle vehicle,BOOL toggle);
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleCanEngineOperateOnFire(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_ACTIVE_DURING_PLAYBACK
---@usage void SET_VEHICLE_ACTIVE_DURING_PLAYBACK(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleActiveDuringPlayback(vehicle, toggle)
-end
+function SetVehicleBurnout(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6077,19 +5491,37 @@ end
 --@params canBeLockedOn BOOL
 --@params unk BOOL
 --@return void
-function SetVehicleCanBeLockedOn(vehicle, canBeLockedOn, unk)
-end
+function SetVehicleCanBeLockedOn(vehicle,canBeLockedOn,unk) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_CAN_LEAK_OIL
---@usage void SET_VEHICLE_CAN_LEAK_OIL(Vehicle vehicle,BOOL p1);
+--@see SET_VEHICLE_CAN_BE_TARGETTED
+--@usage void SET_VEHICLE_CAN_BE_TARGETTED(Vehicle vehicle,BOOL state);
 --@params vehicle Vehicle
---@params p1 BOOL
+--@params state BOOL
 --@return void
-function SetVehicleCanLeakOil(vehicle, p1)
-end
+function SetVehicleCanBeTargetted(vehicle,state) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_CAN_BE_USED_BY_FLEEING_PEDS
+--@usage void SET_VEHICLE_CAN_BE_USED_BY_FLEEING_PEDS(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleCanBeUsedByFleeingPeds(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_CAN_BREAK
+--@usage void SET_VEHICLE_CAN_BREAK(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleCanBreak(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6099,8 +5531,37 @@ end
 --@params vehicle Vehicle
 --@params state BOOL
 --@return void
-function SetVehicleCanBeVisiblyDamaged(vehicle, state)
-end
+function SetVehicleCanBeVisiblyDamaged(vehicle,state) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_CAN_DEFORM_WHEELS
+--@usage void SET_VEHICLE_CAN_DEFORM_WHEELS(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleCanDeformWheels(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_CAN_LEAK_OIL
+--@usage void SET_VEHICLE_CAN_LEAK_OIL(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return void
+function SetVehicleCanLeakOil(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_CAN_ENGINE_OPERATE_ON_FIRE
+--@usage void _SET_VEHICLE_CAN_ENGINE_OPERATE_ON_FIRE(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleCanEngineOperateOnFire(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6110,8 +5571,7 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleCanSaveInGarage(vehicle, toggle)
-end
+function SetVehicleCanSaveInGarage(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6121,19 +5581,7 @@ end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function SetVehicleCanLeakPetrol(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_CEILING_HEIGHT
---@usage void SET_VEHICLE_CEILING_HEIGHT(Vehicle vehicle,float height);
---@params vehicle Vehicle
---@params height float
---@return void
-function SetVehicleCeilingHeight(vehicle, height)
-end
+function SetVehicleCanLeakPetrol(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6143,19 +5591,17 @@ end
 --@params vehicle Vehicle
 --@params value float
 --@return void
-function SetVehicleCheatPowerIncrease(vehicle, value)
-end
+function SetVehicleCheatPowerIncrease(vehicle,value) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_COLOUR_COMBINATION
---@usage void SET_VEHICLE_COLOUR_COMBINATION(Vehicle vehicle,int colorCombination);
+--@see SET_VEHICLE_CEILING_HEIGHT
+--@usage void SET_VEHICLE_CEILING_HEIGHT(Vehicle vehicle,float height);
 --@params vehicle Vehicle
---@params colorCombination int
+--@params height float
 --@return void
-function SetVehicleColourCombination(vehicle, colorCombination)
-end
+function SetVehicleCeilingHeight(vehicle,height) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6165,19 +5611,7 @@ end
 --@params vehicle Vehicle
 --@params p1 BOOL
 --@return void
-function SetVehicleCloseDoorDeferedAction(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_COUNTERMEASURE_COUNT
---@usage void _SET_VEHICLE_COUNTERMEASURE_COUNT(Vehicle aircraft,int count);
---@params aircraft Vehicle
---@params count int
---@return void
-function SetVehicleCountermeasureCount(aircraft, count)
-end
+function SetVehicleCloseDoorDeferedAction(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6188,32 +5622,17 @@ end
 --@params colorPrimary int
 --@params colorSecondary int
 --@return void
-function SetVehicleColours(vehicle, colorPrimary, colorSecondary)
-end
+function SetVehicleColours(vehicle,colorPrimary,colorSecondary) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_CUSTOM_PRIMARY_COLOUR
---@usage void SET_VEHICLE_CUSTOM_PRIMARY_COLOUR(Vehicle vehicle,int r,int g,int b);
+--@see SET_VEHICLE_COLOUR_COMBINATION
+--@usage void SET_VEHICLE_COLOUR_COMBINATION(Vehicle vehicle,int colorCombination);
 --@params vehicle Vehicle
---@params r int
---@params g int
---@params b int
+--@params colorCombination int
 --@return void
-function SetVehicleCustomPrimaryColour(vehicle, r, g, b)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_BURNOUT
---@usage void SET_VEHICLE_BURNOUT(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleBurnout(vehicle, toggle)
-end
+function SetVehicleColourCombination(vehicle,colorCombination) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6225,19 +5644,7 @@ end
 --@params g int
 --@params b int
 --@return void
-function SetVehicleCustomSecondaryColour(vehicle, r, g, b)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_DASHBOARD_COLOUR
---@usage void _SET_VEHICLE_DASHBOARD_COLOUR(Vehicle vehicle,int color);
---@params vehicle Vehicle
---@params color int
---@return void
-function SetVehicleDashboardColour(vehicle, color)
-end
+function SetVehicleCustomSecondaryColour(vehicle,r,g,b) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6247,8 +5654,38 @@ end
 --@params vehicle Vehicle
 --@params p1 float
 --@return Any
-function SetVehicleDamageModifier(vehicle, p1)
-end
+function SetVehicleDamageModifier(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_COUNTERMEASURE_COUNT
+--@usage void _SET_VEHICLE_COUNTERMEASURE_COUNT(Vehicle aircraft,int count);
+--@params aircraft Vehicle
+--@params count int
+--@return void
+function SetVehicleCountermeasureCount(aircraft,count) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_DEFORMATION_FIXED
+--@usage void SET_VEHICLE_DEFORMATION_FIXED(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return void
+function SetVehicleDeformationFixed(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_CUSTOM_PRIMARY_COLOUR
+--@usage void SET_VEHICLE_CUSTOM_PRIMARY_COLOUR(Vehicle vehicle,int r,int g,int b);
+--@params vehicle Vehicle
+--@params r int
+--@params g int
+--@params b int
+--@return void
+function SetVehicleCustomPrimaryColour(vehicle,r,g,b) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6263,18 +5700,17 @@ end
 --@params radius float
 --@params p6 BOOL
 --@return void
-function SetVehicleDamage(vehicle, xOffset, yOffset, zOffset, damage, radius, p6)
-end
+function SetVehicleDamage(vehicle,xOffset,yOffset,zOffset,damage,radius,p6) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_DEFORMATION_FIXED
---@usage void SET_VEHICLE_DEFORMATION_FIXED(Vehicle vehicle);
+--@see _SET_VEHICLE_DASHBOARD_COLOUR
+--@usage void _SET_VEHICLE_DASHBOARD_COLOUR(Vehicle vehicle,int color);
 --@params vehicle Vehicle
+--@params color int
 --@return void
-function SetVehicleDeformationFixed(vehicle)
-end
+function SetVehicleDashboardColour(vehicle,color) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6284,40 +5720,18 @@ end
 --@params vehicle Vehicle
 --@params dirtLevel float
 --@return void
-function SetVehicleDirtLevel(vehicle, dirtLevel)
-end
+function SetVehicleDirtLevel(vehicle,dirtLevel) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME
---@usage void SET_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME(float multiplier);
---@params multiplier float
---@return void
-function SetVehicleDensityMultiplierThisFrame(multiplier)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_DISABLE_TOWING
---@usage void SET_VEHICLE_DISABLE_TOWING(Vehicle vehicle,BOOL toggle);
+--@see SET_VEHICLE_DOOR_BROKEN
+--@usage void SET_VEHICLE_DOOR_BROKEN(Vehicle vehicle,int doorIndex,BOOL deleteDoor);
 --@params vehicle Vehicle
---@params toggle BOOL
+--@params doorIndex int
+--@params deleteDoor BOOL
 --@return void
-function SetVehicleDisableTowing(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_CAN_DEFORM_WHEELS
---@usage void SET_VEHICLE_CAN_DEFORM_WHEELS(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleCanDeformWheels(vehicle, toggle)
-end
+function SetVehicleDoorBroken(vehicle,doorIndex,deleteDoor) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6328,21 +5742,37 @@ end
 --@params doorIndex int
 --@params isBreakable BOOL
 --@return void
-function SetVehicleDoorCanBreak(vehicle, doorIndex, isBreakable)
-end
+function SetVehicleDoorCanBreak(vehicle,doorIndex,isBreakable) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_DOOR_OPEN
---@usage void SET_VEHICLE_DOOR_OPEN(Vehicle vehicle,int doorIndex,BOOL loose,BOOL openInstantly);
+--@see SET_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME
+--@usage void SET_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME(float multiplier);
+--@params multiplier float
+--@return void
+function SetVehicleDensityMultiplierThisFrame(multiplier) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_DISABLE_TOWING
+--@usage void SET_VEHICLE_DISABLE_TOWING(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleDisableTowing(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_DOOR_DESTROY_TYPE
+--@usage void _SET_VEHICLE_DOOR_DESTROY_TYPE(Vehicle vehicle,int doorIndex,int destroyType);
 --@params vehicle Vehicle
 --@params doorIndex int
---@params loose BOOL
---@params openInstantly BOOL
+--@params destroyType int
 --@return void
-function SetVehicleDoorOpen(vehicle, doorIndex, loose, openInstantly)
-end
+function SetVehicleDoorDestroyType(vehicle,doorIndex,destroyType) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6354,20 +5784,19 @@ end
 --@params speed int
 --@params angle float
 --@return void
-function SetVehicleDoorControl(vehicle, doorIndex, speed, angle)
-end
+function SetVehicleDoorControl(vehicle,doorIndex,speed,angle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_DOOR_BROKEN
---@usage void SET_VEHICLE_DOOR_BROKEN(Vehicle vehicle,int doorIndex,BOOL deleteDoor);
+--@see SET_VEHICLE_DOOR_OPEN
+--@usage void SET_VEHICLE_DOOR_OPEN(Vehicle vehicle,int doorIndex,BOOL loose,BOOL openInstantly);
 --@params vehicle Vehicle
 --@params doorIndex int
---@params deleteDoor BOOL
+--@params loose BOOL
+--@params openInstantly BOOL
 --@return void
-function SetVehicleDoorBroken(vehicle, doorIndex, deleteDoor)
-end
+function SetVehicleDoorOpen(vehicle,doorIndex,loose,openInstantly) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6380,42 +5809,17 @@ end
 --@params lock BOOL
 --@params p4 BOOL
 --@return void
-function SetVehicleDoorLatched(vehicle, doorIndex, forceClose, lock, p4)
-end
+function SetVehicleDoorLatched(vehicle,doorIndex,forceClose,lock,p4) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_DOORS_LOCKED
---@usage void SET_VEHICLE_DOORS_LOCKED(Vehicle vehicle,int doorLockStatus);
---@params vehicle Vehicle
---@params doorLockStatus int
---@return void
-function SetVehicleDoorsLocked(vehicle, doorLockStatus)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_DOORS_LOCKED_FOR_PLAYER
---@usage void SET_VEHICLE_DOORS_LOCKED_FOR_PLAYER(Vehicle vehicle,Player player,BOOL toggle);
---@params vehicle Vehicle
---@params player Player
---@params toggle BOOL
---@return void
-function SetVehicleDoorsLockedForPlayer(vehicle, player, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_DOORS_LOCKED_FOR_NON_SCRIPT_PLAYERS
---@usage void SET_VEHICLE_DOORS_LOCKED_FOR_NON_SCRIPT_PLAYERS(Vehicle vehicle,BOOL toggle);
+--@see SET_VEHICLE_DOORS_LOCKED_FOR_ALL_PLAYERS
+--@usage void SET_VEHICLE_DOORS_LOCKED_FOR_ALL_PLAYERS(Vehicle vehicle,BOOL toggle);
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleDoorsLockedForNonScriptPlayers(vehicle, toggle)
-end
+function SetVehicleDoorsLockedForAllPlayers(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6426,31 +5830,27 @@ end
 --@params doorIndex int
 --@params closeInstantly BOOL
 --@return void
-function SetVehicleDoorShut(vehicle, doorIndex, closeInstantly)
-end
+function SetVehicleDoorShut(vehicle,doorIndex,closeInstantly) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _SET_VEHICLE_DOOR_DESTROY_TYPE
---@usage void _SET_VEHICLE_DOOR_DESTROY_TYPE(Vehicle vehicle,int doorIndex,int destroyType);
+--@see SET_VEHICLE_DOORS_LOCKED_FOR_NON_SCRIPT_PLAYERS
+--@usage void SET_VEHICLE_DOORS_LOCKED_FOR_NON_SCRIPT_PLAYERS(Vehicle vehicle,BOOL toggle);
 --@params vehicle Vehicle
---@params doorIndex int
---@params destroyType int
+--@params toggle BOOL
 --@return void
-function SetVehicleDoorDestroyType(vehicle, doorIndex, destroyType)
-end
+function SetVehicleDoorsLockedForNonScriptPlayers(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_DOORS_SHUT
---@usage void SET_VEHICLE_DOORS_SHUT(Vehicle vehicle,BOOL closeInstantly);
+--@see SET_VEHICLE_DOORS_LOCKED
+--@usage void SET_VEHICLE_DOORS_LOCKED(Vehicle vehicle,int doorLockStatus);
 --@params vehicle Vehicle
---@params closeInstantly BOOL
+--@params doorLockStatus int
 --@return void
-function SetVehicleDoorsShut(vehicle, closeInstantly)
-end
+function SetVehicleDoorsLocked(vehicle,doorLockStatus) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6461,52 +5861,28 @@ end
 --@params team int
 --@params toggle BOOL
 --@return void
-function SetVehicleDoorsLockedForTeam(vehicle, team, toggle)
-end
+function SetVehicleDoorsLockedForTeam(vehicle,team,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_ENGINE_HEALTH
---@usage void SET_VEHICLE_ENGINE_HEALTH(Vehicle vehicle,float health);
+--@see SET_VEHICLE_DOORS_LOCKED_FOR_PLAYER
+--@usage void SET_VEHICLE_DOORS_LOCKED_FOR_PLAYER(Vehicle vehicle,Player player,BOOL toggle);
 --@params vehicle Vehicle
---@params health float
---@return void
-function SetVehicleEngineHealth(vehicle, health)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_DOORS_LOCKED_FOR_UNK
---@usage void _SET_VEHICLE_DOORS_LOCKED_FOR_UNK(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
+--@params player Player
 --@params toggle BOOL
 --@return void
-function SetVehicleDoorsLockedForUnk(vehicle, toggle)
-end
+function SetVehicleDoorsLockedForPlayer(vehicle,player,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_DOORS_LOCKED_FOR_ALL_PLAYERS
---@usage void SET_VEHICLE_DOORS_LOCKED_FOR_ALL_PLAYERS(Vehicle vehicle,BOOL toggle);
+--@see SET_VEHICLE_DOORS_SHUT
+--@usage void SET_VEHICLE_DOORS_SHUT(Vehicle vehicle,BOOL closeInstantly);
 --@params vehicle Vehicle
---@params toggle BOOL
+--@params closeInstantly BOOL
 --@return void
-function SetVehicleDoorsLockedForAllPlayers(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_EXCLUSIVE_DRIVER
---@usage void SET_VEHICLE_EXCLUSIVE_DRIVER(Vehicle vehicle,Ped toggle);
---@params vehicle Vehicle
---@params toggle Ped
---@return void
-function SetVehicleExclusiveDriver(vehicle, toggle)
-end
+function SetVehicleDoorsShut(vehicle,closeInstantly) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6516,19 +5892,17 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleDropsMoneyWhenBlownUp(vehicle, toggle)
-end
+function SetVehicleDropsMoneyWhenBlownUp(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_ENGINE_CAN_DEGRADE
---@usage void SET_VEHICLE_ENGINE_CAN_DEGRADE(Vehicle vehicle,BOOL toggle);
+--@see _SET_VEHICLE_DOORS_LOCKED_FOR_UNK
+--@usage void _SET_VEHICLE_DOORS_LOCKED_FOR_UNK(Vehicle vehicle,BOOL toggle);
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleEngineCanDegrade(vehicle, toggle)
-end
+function SetVehicleDoorsLockedForUnk(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6540,8 +5914,37 @@ end
 --@params instantly BOOL
 --@params noAutoTurnOn BOOL
 --@return void
-function SetVehicleEngineOn(vehicle, value, instantly, noAutoTurnOn)
-end
+function SetVehicleEngineOn(vehicle,value,instantly,noAutoTurnOn) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_ENGINE_CAN_DEGRADE
+--@usage void SET_VEHICLE_ENGINE_CAN_DEGRADE(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleEngineCanDegrade(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_ENVEFF_SCALE
+--@usage void SET_VEHICLE_ENVEFF_SCALE(Vehicle vehicle,float fade);
+--@params vehicle Vehicle
+--@params fade float
+--@return void
+function SetVehicleEnveffScale(vehicle,fade) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_ENGINE_HEALTH
+--@usage void SET_VEHICLE_ENGINE_HEALTH(Vehicle vehicle,float health);
+--@params vehicle Vehicle
+--@params health float
+--@return void
+function SetVehicleEngineHealth(vehicle,health) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6552,8 +5955,17 @@ end
 --@params ped Ped
 --@params index int
 --@return void
-function SetVehicleExclusiveDriver_2(vehicle, ped, index)
-end
+function SetVehicleExclusiveDriver_2(vehicle,ped,index) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_EXCLUSIVE_DRIVER
+--@usage void SET_VEHICLE_EXCLUSIVE_DRIVER(Vehicle vehicle,Ped toggle);
+--@params vehicle Vehicle
+--@params toggle Ped
+--@return void
+function SetVehicleExclusiveDriver(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6563,20 +5975,7 @@ end
 --@params vehicle Vehicle
 --@params range int
 --@return void
-function SetVehicleExtendedRemovalRange(vehicle, range)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_EXTRA
---@usage void SET_VEHICLE_EXTRA(Vehicle vehicle,int extraId,BOOL disable);
---@params vehicle Vehicle
---@params extraId int
---@params disable BOOL
---@return void
-function SetVehicleExtra(vehicle, extraId, disable)
-end
+function SetVehicleExtendedRemovalRange(vehicle,range) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6586,19 +5985,7 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleExplodesOnHighExplosionDamage(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_FLIGHT_NOZZLE_POSITION_IMMEDIATE
---@usage void SET_VEHICLE_FLIGHT_NOZZLE_POSITION_IMMEDIATE(Vehicle vehicle,float direction);
---@params vehicle Vehicle
---@params direction float
---@return void
-function SetVehicleFlightNozzlePositionImmediate(vehicle, direction)
-end
+function SetVehicleExplodesOnHighExplosionDamage(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6609,117 +5996,18 @@ end
 --@params pearlescentColor int
 --@params wheelColor int
 --@return void
-function SetVehicleExtraColours(vehicle, pearlescentColor, wheelColor)
-end
+function SetVehicleExtraColours(vehicle,pearlescentColor,wheelColor) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_FIXED
---@usage void SET_VEHICLE_FIXED(Vehicle vehicle);
+--@see SET_VEHICLE_EXTRA
+--@usage void SET_VEHICLE_EXTRA(Vehicle vehicle,int extraId,BOOL disable);
 --@params vehicle Vehicle
+--@params extraId int
+--@params disable BOOL
 --@return void
-function SetVehicleFixed(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_ENVEFF_SCALE
---@usage void SET_VEHICLE_ENVEFF_SCALE(Vehicle vehicle,float fade);
---@params vehicle Vehicle
---@params fade float
---@return void
-function SetVehicleEnveffScale(vehicle, fade)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_FORCE_AFTERBURNER
---@usage void SET_VEHICLE_FORCE_AFTERBURNER(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function SetVehicleForceAfterburner(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_FRICTION_OVERRIDE
---@usage void SET_VEHICLE_FRICTION_OVERRIDE(Vehicle vehicle,float friction);
---@params vehicle Vehicle
---@params friction float
---@return void
-function SetVehicleFrictionOverride(vehicle, friction)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_FULLBEAM
---@usage void SET_VEHICLE_FULLBEAM(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleFullbeam(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_GENERATES_ENGINE_SHOCKING_EVENTS
---@usage void SET_VEHICLE_GENERATES_ENGINE_SHOCKING_EVENTS(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleGeneratesEngineShockingEvents(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_HANDBRAKE
---@usage void SET_VEHICLE_HANDBRAKE(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleHandbrake(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_HANDLING_HASH_FOR_AI
---@usage void _SET_VEHICLE_HANDLING_HASH_FOR_AI(Vehicle vehicle,Any hash);
---@params vehicle Vehicle
---@params hash Any
---@return void
-function SetVehicleHandlingHashForAi(vehicle, hash)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_HAS_BEEN_OWNED_BY_PLAYER
---@usage void SET_VEHICLE_HAS_BEEN_OWNED_BY_PLAYER(Vehicle vehicle,BOOL owned);
---@params vehicle Vehicle
---@params owned BOOL
---@return void
-function SetVehicleHasBeenOwnedByPlayer(vehicle, owned)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_HAS_BEEN_DRIVEN_FLAG
---@usage void SET_VEHICLE_HAS_BEEN_DRIVEN_FLAG(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleHasBeenDrivenFlag(vehicle, toggle)
-end
+function SetVehicleExtra(vehicle,extraId,disable) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6729,30 +6017,126 @@ end
 --@params vehicle Vehicle
 --@params direction float
 --@return void
-function SetVehicleFlightNozzlePosition(vehicle, direction)
-end
+function SetVehicleFlightNozzlePosition(vehicle,direction) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_HAS_MUTED_SIRENS
---@usage void SET_VEHICLE_HAS_MUTED_SIRENS(Vehicle vehicle,BOOL toggle);
+--@see SET_VEHICLE_FIXED
+--@usage void SET_VEHICLE_FIXED(Vehicle vehicle);
 --@params vehicle Vehicle
---@params toggle BOOL
 --@return void
-function SetVehicleHasMutedSirens(vehicle, toggle)
-end
+function SetVehicleFixed(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _SET_VEHICLE_HOVER_TRANSFORM_ACTIVE
---@usage void _SET_VEHICLE_HOVER_TRANSFORM_ACTIVE(Vehicle vehicle,BOOL toggle);
+--@see SET_VEHICLE_FORCE_AFTERBURNER
+--@usage void SET_VEHICLE_FORCE_AFTERBURNER(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return void
+function SetVehicleForceAfterburner(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_FLIGHT_NOZZLE_POSITION_IMMEDIATE
+--@usage void SET_VEHICLE_FLIGHT_NOZZLE_POSITION_IMMEDIATE(Vehicle vehicle,float direction);
+--@params vehicle Vehicle
+--@params direction float
+--@return void
+function SetVehicleFlightNozzlePositionImmediate(vehicle,direction) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_FRICTION_OVERRIDE
+--@usage void SET_VEHICLE_FRICTION_OVERRIDE(Vehicle vehicle,float friction);
+--@params vehicle Vehicle
+--@params friction float
+--@return void
+function SetVehicleFrictionOverride(vehicle,friction) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_FORWARD_SPEED
+--@usage void SET_VEHICLE_FORWARD_SPEED(Vehicle vehicle,float speed);
+--@params vehicle Vehicle
+--@params speed float
+--@return void
+function SetVehicleForwardSpeed(vehicle,speed) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_GENERATES_ENGINE_SHOCKING_EVENTS
+--@usage void SET_VEHICLE_GENERATES_ENGINE_SHOCKING_EVENTS(Vehicle vehicle,BOOL toggle);
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleHoverTransformActive(vehicle, toggle)
-end
+function SetVehicleGeneratesEngineShockingEvents(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_FULLBEAM
+--@usage void SET_VEHICLE_FULLBEAM(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleFullbeam(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_GRAVITY
+--@usage void SET_VEHICLE_GRAVITY(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleGravity(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_HANDLING_HASH_FOR_AI
+--@usage void _SET_VEHICLE_HANDLING_HASH_FOR_AI(Vehicle vehicle,Any hash);
+--@params vehicle Vehicle
+--@params hash Any
+--@return void
+function SetVehicleHandlingHashForAi(vehicle,hash) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_HANDBRAKE
+--@usage void SET_VEHICLE_HANDBRAKE(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleHandbrake(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_HAS_BEEN_OWNED_BY_PLAYER
+--@usage void SET_VEHICLE_HAS_BEEN_OWNED_BY_PLAYER(Vehicle vehicle,BOOL owned);
+--@params vehicle Vehicle
+--@params owned BOOL
+--@return void
+function SetVehicleHasBeenOwnedByPlayer(vehicle,owned) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_HAS_BEEN_DRIVEN_FLAG
+--@usage void SET_VEHICLE_HAS_BEEN_DRIVEN_FLAG(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleHasBeenDrivenFlag(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6762,19 +6146,7 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleHasStrongAxles(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_HOVER_TRANSFORM_PERCENTAGE
---@usage void _SET_VEHICLE_HOVER_TRANSFORM_PERCENTAGE(Vehicle vehicle,float state);
---@params vehicle Vehicle
---@params state float
---@return void
-function SetVehicleHoverTransformPercentage(vehicle, state)
-end
+function SetVehicleHasStrongAxles(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6784,8 +6156,37 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleHoverTransformEnabled(vehicle, toggle)
-end
+function SetVehicleHoverTransformEnabled(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_HOVER_TRANSFORM_ACTIVE
+--@usage void _SET_VEHICLE_HOVER_TRANSFORM_ACTIVE(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleHoverTransformActive(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_HAS_MUTED_SIRENS
+--@usage void SET_VEHICLE_HAS_MUTED_SIRENS(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleHasMutedSirens(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_HOVER_TRANSFORM_PERCENTAGE
+--@usage void _SET_VEHICLE_HOVER_TRANSFORM_PERCENTAGE(Vehicle vehicle,float state);
+--@params vehicle Vehicle
+--@params state float
+--@return void
+function SetVehicleHoverTransformPercentage(vehicle,state) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6795,8 +6196,17 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleInactiveDuringPlayback(vehicle, toggle)
-end
+function SetVehicleInactiveDuringPlayback(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_INTERIOR_COLOUR
+--@usage void _SET_VEHICLE_INTERIOR_COLOUR(Vehicle vehicle,int color);
+--@params vehicle Vehicle
+--@params color int
+--@return void
+function SetVehicleInteriorColour(vehicle,color) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6806,8 +6216,7 @@ end
 --@params vehicle Vehicle
 --@params ratio float
 --@return void
-function SetVehicleHoverTransformRatio(vehicle, ratio)
-end
+function SetVehicleHoverTransformRatio(vehicle,ratio) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6818,52 +6227,7 @@ end
 --@params turnSignal int
 --@params toggle BOOL
 --@return void
-function SetVehicleIndicatorLights(vehicle, turnSignal, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_INTERIOR_COLOUR
---@usage void _SET_VEHICLE_INTERIOR_COLOUR(Vehicle vehicle,int color);
---@params vehicle Vehicle
---@params color int
---@return void
-function SetVehicleInteriorColour(vehicle, color)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_INTERIORLIGHT
---@usage void SET_VEHICLE_INTERIORLIGHT(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleInteriorlight(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_IS_CONSIDERED_BY_PLAYER
---@usage void SET_VEHICLE_IS_CONSIDERED_BY_PLAYER(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleIsConsideredByPlayer(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_IS_RACING
---@usage void SET_VEHICLE_IS_RACING(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleIsRacing(vehicle, toggle)
-end
+function SetVehicleIndicatorLights(vehicle,turnSignal,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6873,19 +6237,17 @@ end
 --@params vehicle Vehicle
 --@params isStolen BOOL
 --@return Any
-function SetVehicleIsStolen(vehicle, isStolen)
-end
+function SetVehicleIsStolen(vehicle,isStolen) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_IS_WANTED
---@usage void SET_VEHICLE_IS_WANTED(Vehicle vehicle,BOOL state);
+--@see SET_VEHICLE_IS_CONSIDERED_BY_PLAYER
+--@usage void SET_VEHICLE_IS_CONSIDERED_BY_PLAYER(Vehicle vehicle,BOOL toggle);
 --@params vehicle Vehicle
---@params state BOOL
+--@params toggle BOOL
 --@return void
-function SetVehicleIsWanted(vehicle, state)
-end
+function SetVehicleIsConsideredByPlayer(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6895,8 +6257,37 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleJetEngineOn(vehicle, toggle)
-end
+function SetVehicleJetEngineOn(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_INTERIORLIGHT
+--@usage void SET_VEHICLE_INTERIORLIGHT(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleInteriorlight(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_IS_WANTED
+--@usage void SET_VEHICLE_IS_WANTED(Vehicle vehicle,BOOL state);
+--@params vehicle Vehicle
+--@params state BOOL
+--@return void
+function SetVehicleIsWanted(vehicle,state) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_IS_RACING
+--@usage void SET_VEHICLE_IS_RACING(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleIsRacing(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6906,19 +6297,17 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleKersAllowed(vehicle, toggle)
-end
+function SetVehicleKersAllowed(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_LIGHT_MULTIPLIER
---@usage void SET_VEHICLE_LIGHT_MULTIPLIER(Vehicle vehicle,float multiplier);
+--@see _SET_VEHICLE_LIGHTS_MODE
+--@usage void _SET_VEHICLE_LIGHTS_MODE(Vehicle vehicle,int p1);
 --@params vehicle Vehicle
---@params multiplier float
+--@params p1 int
 --@return void
-function SetVehicleLightMultiplier(vehicle, multiplier)
-end
+function SetVehicleLightsMode(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6928,41 +6317,7 @@ end
 --@params vehicle Vehicle
 --@params state int
 --@return void
-function SetVehicleLights(vehicle, state)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_LIGHTS_CAN_BE_VISIBLY_DAMAGED
---@usage void _SET_VEHICLE_LIGHTS_CAN_BE_VISIBLY_DAMAGED(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function SetVehicleLightsCanBeVisiblyDamaged(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_FORWARD_SPEED
---@usage void SET_VEHICLE_FORWARD_SPEED(Vehicle vehicle,float speed);
---@params vehicle Vehicle
---@params speed float
---@return void
-function SetVehicleForwardSpeed(vehicle, speed)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_LOD_MULTIPLIER
---@usage void SET_VEHICLE_LOD_MULTIPLIER(Vehicle vehicle,float multiplier);
---@params vehicle Vehicle
---@params multiplier float
---@return void
-function SetVehicleLodMultiplier(vehicle, multiplier)
-end
+function SetVehicleLights(vehicle,state) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6972,19 +6327,17 @@ end
 --@params vehicle Vehicle
 --@params livery int
 --@return void
-function SetVehicleLivery(vehicle, livery)
-end
+function SetVehicleLivery(vehicle,livery) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _SET_VEHICLE_MAX_SPEED
---@usage void _SET_VEHICLE_MAX_SPEED(Vehicle vehicle,float speed);
+--@see _SET_VEHICLE_LIGHTS_CAN_BE_VISIBLY_DAMAGED
+--@usage void _SET_VEHICLE_LIGHTS_CAN_BE_VISIBLY_DAMAGED(Vehicle vehicle,BOOL p1);
 --@params vehicle Vehicle
---@params speed float
+--@params p1 BOOL
 --@return void
-function SetVehicleMaxSpeed(vehicle, speed)
-end
+function SetVehicleLightsCanBeVisiblyDamaged(vehicle,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -6996,41 +6349,17 @@ end
 --@params modIndex int
 --@params customTires BOOL
 --@return void
-function SetVehicleMod(vehicle, modType, modIndex, customTires)
-end
+function SetVehicleMod(vehicle,modType,modIndex,customTires) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_GRAVITY
---@usage void SET_VEHICLE_GRAVITY(Vehicle vehicle,BOOL toggle);
+--@see SET_VEHICLE_LOD_MULTIPLIER
+--@usage void SET_VEHICLE_LOD_MULTIPLIER(Vehicle vehicle,float multiplier);
 --@params vehicle Vehicle
---@params toggle BOOL
+--@params multiplier float
 --@return void
-function SetVehicleGravity(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_MOD_KIT
---@usage void SET_VEHICLE_MOD_KIT(Vehicle vehicle,int modKit);
---@params vehicle Vehicle
---@params modKit int
---@return void
-function SetVehicleModKit(vehicle, modKit)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_NAME_DEBUG
---@usage void SET_VEHICLE_NAME_DEBUG(Vehicle vehicle,char* name);
---@params vehicle Vehicle
---@params name char*
---@return void
-function SetVehicleNameDebug(vehicle, name)
-end
+function SetVehicleLodMultiplier(vehicle,multiplier) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7041,88 +6370,7 @@ end
 --@params paintType int
 --@params color int
 --@return void
-function SetVehicleModColor_2(vehicle, paintType, color)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_MODEL_IS_SUPPRESSED
---@usage void SET_VEHICLE_MODEL_IS_SUPPRESSED(Hash model,BOOL suppressed);
---@params model Hash
---@params suppressed BOOL
---@return void
-function SetVehicleModelIsSuppressed(model, suppressed)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_NEEDS_TO_BE_HOTWIRED
---@usage void SET_VEHICLE_NEEDS_TO_BE_HOTWIRED(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleNeedsToBeHotwired(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_NITRO_ENABLED
---@usage void _SET_VEHICLE_NITRO_ENABLED(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleNitroEnabled(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_NEON_LIGHT_ENABLED
---@usage void _SET_VEHICLE_NEON_LIGHT_ENABLED(Vehicle vehicle,int index,BOOL toggle);
---@params vehicle Vehicle
---@params index int
---@params toggle BOOL
---@return void
-function SetVehicleNeonLightEnabled(vehicle, index, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_NEON_LIGHTS_COLOR_2
---@usage void _SET_VEHICLE_NEON_LIGHTS_COLOR_2(Vehicle vehicle,int color);
---@params vehicle Vehicle
---@params color int
---@return void
-function SetVehicleNeonLightsColor_2(vehicle, color)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_NUMBER_PLATE_TEXT
---@usage void SET_VEHICLE_NUMBER_PLATE_TEXT(Vehicle vehicle,char* plateText);
---@params vehicle Vehicle
---@params plateText char*
---@return void
-function SetVehicleNumberPlateText(vehicle, plateText)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_NEON_LIGHTS_COLOUR
---@usage void _SET_VEHICLE_NEON_LIGHTS_COLOUR(Vehicle vehicle,int r,int g,int b);
---@params vehicle Vehicle
---@params r int
---@params g int
---@params b int
---@return void
-function SetVehicleNeonLightsColour(vehicle, r, g, b)
-end
+function SetVehicleModColor_2(vehicle,paintType,color) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7134,30 +6382,108 @@ end
 --@params color int
 --@params p3 int
 --@return void
-function SetVehicleModColor_1(vehicle, paintType, color, p3)
-end
+function SetVehicleModColor_1(vehicle,paintType,color,p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _SET_VEHICLE_PARACHUTE_MODEL
---@usage void _SET_VEHICLE_PARACHUTE_MODEL(Vehicle vehicle,Hash modelHash);
+--@see SET_VEHICLE_MOD_KIT
+--@usage void SET_VEHICLE_MOD_KIT(Vehicle vehicle,int modKit);
 --@params vehicle Vehicle
---@params modelHash Hash
+--@params modKit int
 --@return void
-function SetVehicleParachuteModel(vehicle, modelHash)
-end
+function SetVehicleModKit(vehicle,modKit) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _SET_VEHICLE_PARACHUTE_TEXTURE_VARIATIION
---@usage void _SET_VEHICLE_PARACHUTE_TEXTURE_VARIATIION(Vehicle vehicle,int textureVariation);
+--@see SET_VEHICLE_LIGHT_MULTIPLIER
+--@usage void SET_VEHICLE_LIGHT_MULTIPLIER(Vehicle vehicle,float multiplier);
 --@params vehicle Vehicle
---@params textureVariation int
+--@params multiplier float
 --@return void
-function SetVehicleParachuteTextureVariatiion(vehicle, textureVariation)
-end
+function SetVehicleLightMultiplier(vehicle,multiplier) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_MODEL_IS_SUPPRESSED
+--@usage void SET_VEHICLE_MODEL_IS_SUPPRESSED(Hash model,BOOL suppressed);
+--@params model Hash
+--@params suppressed BOOL
+--@return void
+function SetVehicleModelIsSuppressed(model,suppressed) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_NEEDS_TO_BE_HOTWIRED
+--@usage void SET_VEHICLE_NEEDS_TO_BE_HOTWIRED(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleNeedsToBeHotwired(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_MAX_SPEED
+--@usage void _SET_VEHICLE_MAX_SPEED(Vehicle vehicle,float speed);
+--@params vehicle Vehicle
+--@params speed float
+--@return void
+function SetVehicleMaxSpeed(vehicle,speed) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_NAME_DEBUG
+--@usage void SET_VEHICLE_NAME_DEBUG(Vehicle vehicle,char* name);
+--@params vehicle Vehicle
+--@params name char*
+--@return void
+function SetVehicleNameDebug(vehicle,name) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_NEON_LIGHTS_COLOR_2
+--@usage void _SET_VEHICLE_NEON_LIGHTS_COLOR_2(Vehicle vehicle,int color);
+--@params vehicle Vehicle
+--@params color int
+--@return void
+function SetVehicleNeonLightsColor_2(vehicle,color) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_NEON_LIGHT_ENABLED
+--@usage void _SET_VEHICLE_NEON_LIGHT_ENABLED(Vehicle vehicle,int index,BOOL toggle);
+--@params vehicle Vehicle
+--@params index int
+--@params toggle BOOL
+--@return void
+function SetVehicleNeonLightEnabled(vehicle,index,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_NITRO_ENABLED
+--@usage void _SET_VEHICLE_NITRO_ENABLED(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleNitroEnabled(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_NUMBER_PLATE_TEXT
+--@usage void SET_VEHICLE_NUMBER_PLATE_TEXT(Vehicle vehicle,char* plateText);
+--@params vehicle Vehicle
+--@params plateText char*
+--@return void
+function SetVehicleNumberPlateText(vehicle,plateText) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7168,8 +6494,28 @@ end
 --@params killDriver BOOL
 --@params explodeOnImpact BOOL
 --@return void
-function SetVehicleOutOfControl(vehicle, killDriver, explodeOnImpact)
-end
+function SetVehicleOutOfControl(vehicle,killDriver,explodeOnImpact) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_ON_GROUND_PROPERLY
+--@usage BOOL SET_VEHICLE_ON_GROUND_PROPERLY(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return BOOL
+function SetVehicleOnGroundProperly(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_NEON_LIGHTS_COLOUR
+--@usage void _SET_VEHICLE_NEON_LIGHTS_COLOUR(Vehicle vehicle,int r,int g,int b);
+--@params vehicle Vehicle
+--@params r int
+--@params g int
+--@params b int
+--@return void
+function SetVehicleNeonLightsColour(vehicle,r,g,b) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7179,19 +6525,27 @@ end
 --@params vehicle Vehicle
 --@params plateIndex int
 --@return void
-function SetVehicleNumberPlateTextIndex(vehicle, plateIndex)
-end
+function SetVehicleNumberPlateTextIndex(vehicle,plateIndex) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_PROVIDES_COVER
---@usage void SET_VEHICLE_PROVIDES_COVER(Vehicle vehicle,BOOL toggle);
+--@see _SET_VEHICLE_PARACHUTE_MODEL
+--@usage void _SET_VEHICLE_PARACHUTE_MODEL(Vehicle vehicle,Hash modelHash);
 --@params vehicle Vehicle
---@params toggle BOOL
+--@params modelHash Hash
 --@return void
-function SetVehicleProvidesCover(vehicle, toggle)
-end
+function SetVehicleParachuteModel(vehicle,modelHash) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_PETROL_TANK_HEALTH
+--@usage void SET_VEHICLE_PETROL_TANK_HEALTH(Vehicle vehicle,float health);
+--@params vehicle Vehicle
+--@params health float
+--@return void
+function SetVehiclePetrolTankHealth(vehicle,health) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7201,84 +6555,7 @@ end
 --@params vehicle Vehicle
 --@params active BOOL
 --@return void
-function SetVehicleParachuteActive(vehicle, active)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_RAMP_SIDEWAYS_LAUNCH_MOTION
---@usage void _SET_VEHICLE_RAMP_SIDEWAYS_LAUNCH_MOTION(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleRampSidewaysLaunchMotion(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_ON_GROUND_PROPERLY
---@usage BOOL SET_VEHICLE_ON_GROUND_PROPERLY(Vehicle vehicle);
---@params vehicle Vehicle
---@return BOOL
-function SetVehicleOnGroundProperly(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_LIGHTS_MODE
---@usage void _SET_VEHICLE_LIGHTS_MODE(Vehicle vehicle,int p1);
---@params vehicle Vehicle
---@params p1 int
---@return void
-function SetVehicleLightsMode(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_RAMP_UPWARDS_LAUNCH_MOTION
---@usage void _SET_VEHICLE_RAMP_UPWARDS_LAUNCH_MOTION(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleRampUpwardsLaunchMotion(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_REDUCE_GRIP
---@usage void SET_VEHICLE_REDUCE_GRIP(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleReduceGrip(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_RECEIVES_RAMP_DAMAGE
---@usage void _SET_VEHICLE_RECEIVES_RAMP_DAMAGE(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleReceivesRampDamage(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_ROCKET_BOOST_PERCENTAGE
---@usage void _SET_VEHICLE_ROCKET_BOOST_PERCENTAGE(Vehicle vehicle,float percentage);
---@params vehicle Vehicle
---@params percentage float
---@return void
-function SetVehicleRocketBoostPercentage(vehicle, percentage)
-end
+function SetVehicleParachuteActive(vehicle,active) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7288,8 +6565,67 @@ end
 --@params vehicle Vehicle
 --@params p1 float
 --@return void
-function SetVehicleRampLaunchModifier(vehicle, p1)
-end
+function SetVehicleRampLaunchModifier(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_PARACHUTE_TEXTURE_VARIATIION
+--@usage void _SET_VEHICLE_PARACHUTE_TEXTURE_VARIATIION(Vehicle vehicle,int textureVariation);
+--@params vehicle Vehicle
+--@params textureVariation int
+--@return void
+function SetVehicleParachuteTextureVariatiion(vehicle,textureVariation) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_RECEIVES_RAMP_DAMAGE
+--@usage void _SET_VEHICLE_RECEIVES_RAMP_DAMAGE(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleReceivesRampDamage(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_RAMP_UPWARDS_LAUNCH_MOTION
+--@usage void _SET_VEHICLE_RAMP_UPWARDS_LAUNCH_MOTION(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleRampUpwardsLaunchMotion(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_PROVIDES_COVER
+--@usage void SET_VEHICLE_PROVIDES_COVER(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleProvidesCover(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_ROCKET_BOOST_PERCENTAGE
+--@usage void _SET_VEHICLE_ROCKET_BOOST_PERCENTAGE(Vehicle vehicle,float percentage);
+--@params vehicle Vehicle
+--@params percentage float
+--@return void
+function SetVehicleRocketBoostPercentage(vehicle,percentage) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_RAMP_SIDEWAYS_LAUNCH_MOTION
+--@usage void _SET_VEHICLE_RAMP_SIDEWAYS_LAUNCH_MOTION(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleRampSidewaysLaunchMotion(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7299,31 +6635,17 @@ end
 --@params vehicle Vehicle
 --@params livery int
 --@return void
-function SetVehicleRoofLivery(vehicle, livery)
-end
+function SetVehicleRoofLivery(vehicle,livery) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _SET_VEHICLE_ROCKET_BOOST_REFILL_TIME
---@usage void _SET_VEHICLE_ROCKET_BOOST_REFILL_TIME(Vehicle vehicle,float time);
+--@see SET_VEHICLE_REDUCE_GRIP
+--@usage void SET_VEHICLE_REDUCE_GRIP(Vehicle vehicle,BOOL toggle);
 --@params vehicle Vehicle
---@params time float
---@return void
-function SetVehicleRocketBoostRefillTime(vehicle, time)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_SEARCHLIGHT
---@usage void SET_VEHICLE_SEARCHLIGHT(Vehicle heli,BOOL toggle,BOOL canBeUsedByAI);
---@params heli Vehicle
 --@params toggle BOOL
---@params canBeUsedByAI BOOL
 --@return void
-function SetVehicleSearchlight(heli, toggle, canBeUsedByAI)
-end
+function SetVehicleReduceGrip(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7333,8 +6655,7 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleRudderBroken(vehicle, toggle)
-end
+function SetVehicleRudderBroken(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7344,8 +6665,17 @@ end
 --@params vehicle Vehicle
 --@params active BOOL
 --@return void
-function SetVehicleRocketBoostActive(vehicle, active)
-end
+function SetVehicleRocketBoostActive(vehicle,active) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_ROCKET_BOOST_REFILL_TIME
+--@usage void _SET_VEHICLE_ROCKET_BOOST_REFILL_TIME(Vehicle vehicle,float time);
+--@params vehicle Vehicle
+--@params time float
+--@return void
+function SetVehicleRocketBoostRefillTime(vehicle,time) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7358,8 +6688,28 @@ end
 --@params yTarget float
 --@params zTarget float
 --@return void
-function SetVehicleShootAtTarget(driver, entity, xTarget, yTarget, zTarget)
-end
+function SetVehicleShootAtTarget(driver,entity,xTarget,yTarget,zTarget) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_SEARCHLIGHT
+--@usage void SET_VEHICLE_SEARCHLIGHT(Vehicle heli,BOOL toggle,BOOL canBeUsedByAI);
+--@params heli Vehicle
+--@params toggle BOOL
+--@params canBeUsedByAI BOOL
+--@return void
+function SetVehicleSearchlight(heli,toggle,canBeUsedByAI) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_SIREN
+--@usage void SET_VEHICLE_SIREN(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleSiren(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7369,41 +6719,7 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleSilent(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_PETROL_TANK_HEALTH
---@usage void SET_VEHICLE_PETROL_TANK_HEALTH(Vehicle vehicle,float health);
---@params vehicle Vehicle
---@params health float
---@return void
-function SetVehiclePetrolTankHealth(vehicle, health)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_STEER_BIAS
---@usage void SET_VEHICLE_STEER_BIAS(Vehicle vehicle,float value);
---@params vehicle Vehicle
---@params value float
---@return void
-function SetVehicleSteerBias(vehicle, value)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_STEERING_BIAS_SCALAR
---@usage void SET_VEHICLE_STEERING_BIAS_SCALAR(Vehicle vehicle,float scalar);
---@params vehicle Vehicle
---@params scalar float
---@return void
-function SetVehicleSteeringBiasScalar(vehicle, scalar)
-end
+function SetVehicleSilent(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7413,8 +6729,38 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleStrong(vehicle, toggle)
-end
+function SetVehicleStrong(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_STEER_BIAS
+--@usage void SET_VEHICLE_STEER_BIAS(Vehicle vehicle,float value);
+--@params vehicle Vehicle
+--@params value float
+--@return void
+function SetVehicleSteerBias(vehicle,value) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_STEERING_BIAS_SCALAR
+--@usage void SET_VEHICLE_STEERING_BIAS_SCALAR(Vehicle vehicle,float scalar);
+--@params vehicle Vehicle
+--@params scalar float
+--@return void
+function SetVehicleSteeringBiasScalar(vehicle,scalar) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_TIMED_EXPLOSION
+--@usage void SET_VEHICLE_TIMED_EXPLOSION(Vehicle vehicle,Ped ped,BOOL toggle);
+--@params vehicle Vehicle
+--@params ped Ped
+--@params toggle BOOL
+--@return void
+function SetVehicleTimedExplosion(vehicle,ped,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7425,8 +6771,57 @@ end
 --@params position float
 --@params p2 BOOL
 --@return void
-function SetVehicleTankTurretPosition(vehicle, position, p2)
-end
+function SetVehicleTankTurretPosition(vehicle,position,p2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_TYRE_FIXED
+--@usage void SET_VEHICLE_TYRE_FIXED(Vehicle vehicle,int tyreIndex);
+--@params vehicle Vehicle
+--@params tyreIndex int
+--@return void
+function SetVehicleTyreFixed(vehicle,tyreIndex) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_ST
+--@usage void _SET_VEHICLE_ST(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleSt(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_TOW_TRUCK_ARM_POSITION
+--@usage void SET_VEHICLE_TOW_TRUCK_ARM_POSITION(Vehicle vehicle,float position);
+--@params vehicle Vehicle
+--@params position float
+--@return void
+function SetVehicleTowTruckArmPosition(vehicle,position) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_TYRES_CAN_BURST
+--@usage void SET_VEHICLE_TYRES_CAN_BURST(Vehicle vehicle,BOOL toggle);
+--@params vehicle Vehicle
+--@params toggle BOOL
+--@return void
+function SetVehicleTyresCanBurst(vehicle,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_UNK_DAMAGE_MULTIPLIER
+--@usage void _SET_VEHICLE_UNK_DAMAGE_MULTIPLIER(Vehicle vehicle,float multiplier);
+--@params vehicle Vehicle
+--@params multiplier float
+--@return void
+function SetVehicleUnkDamageMultiplier(vehicle,multiplier) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7438,110 +6833,7 @@ end
 --@params onRim BOOL
 --@params p3 float
 --@return void
-function SetVehicleTyreBurst(vehicle, index, onRim, p3)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_TOW_TRUCK_ARM_POSITION
---@usage void SET_VEHICLE_TOW_TRUCK_ARM_POSITION(Vehicle vehicle,float position);
---@params vehicle Vehicle
---@params position float
---@return void
-function SetVehicleTowTruckArmPosition(vehicle, position)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_TYRES_CAN_BURST
---@usage void SET_VEHICLE_TYRES_CAN_BURST(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleTyresCanBurst(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_TIMED_EXPLOSION
---@usage void SET_VEHICLE_TIMED_EXPLOSION(Vehicle vehicle,Ped ped,BOOL toggle);
---@params vehicle Vehicle
---@params ped Ped
---@params toggle BOOL
---@return void
-function SetVehicleTimedExplosion(vehicle, ped, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_UNDRIVEABLE
---@usage void SET_VEHICLE_UNDRIVEABLE(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleUndriveable(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_TYRE_FIXED
---@usage void SET_VEHICLE_TYRE_FIXED(Vehicle vehicle,int tyreIndex);
---@params vehicle Vehicle
---@params tyreIndex int
---@return void
-function SetVehicleTyreFixed(vehicle, tyreIndex)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_TYRE_SMOKE_COLOR
---@usage void SET_VEHICLE_TYRE_SMOKE_COLOR(Vehicle vehicle,int r,int g,int b);
---@params vehicle Vehicle
---@params r int
---@params g int
---@params b int
---@return void
-function SetVehicleTyreSmokeColor(vehicle, r, g, b)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_USE_ALTERNATE_HANDLING
---@usage void SET_VEHICLE_USE_ALTERNATE_HANDLING(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function SetVehicleUseAlternateHandling(vehicle, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_UNK_DAMAGE_MULTIPLIER
---@usage void _SET_VEHICLE_UNK_DAMAGE_MULTIPLIER(Vehicle vehicle,float multiplier);
---@params vehicle Vehicle
---@params multiplier float
---@return void
-function SetVehicleUnkDamageMultiplier(vehicle, multiplier)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_USE_PLAYER_LIGHT_SETTINGS
---@usage void _SET_VEHICLE_USE_PLAYER_LIGHT_SETTINGS(Vehicle vehicle,BOOL p1);
---@params vehicle Vehicle
---@params p1 BOOL
---@return void
-function SetVehicleUsePlayerLightSettings(vehicle, p1)
-end
+function SetVehicleTyreBurst(vehicle,index,onRim,p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7553,30 +6845,69 @@ end
 --@params p2 BOOL
 --@params p3 BOOL
 --@return Any
-function SetVehicleUseCutsceneWheelCompression(p0, p1, p2, p3)
-end
+function SetVehicleUseCutsceneWheelCompression(p0,p1,p2,p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_SIREN
---@usage void SET_VEHICLE_SIREN(Vehicle vehicle,BOOL toggle);
+--@see SET_VEHICLE_TYRE_SMOKE_COLOR
+--@usage void SET_VEHICLE_TYRE_SMOKE_COLOR(Vehicle vehicle,int r,int g,int b);
+--@params vehicle Vehicle
+--@params r int
+--@params g int
+--@params b int
+--@return void
+function SetVehicleTyreSmokeColor(vehicle,r,g,b) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_USE_PLAYER_LIGHT_SETTINGS
+--@usage void _SET_VEHICLE_USE_PLAYER_LIGHT_SETTINGS(Vehicle vehicle,BOOL p1);
+--@params vehicle Vehicle
+--@params p1 BOOL
+--@return void
+function SetVehicleUsePlayerLightSettings(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _SET_VEHICLE_WEAPONS_DISABLED
+--@usage void _SET_VEHICLE_WEAPONS_DISABLED(Vehicle vehicle,int weaponSlot);
+--@params vehicle Vehicle
+--@params weaponSlot int
+--@return void
+function SetVehicleWeaponsDisabled(vehicle,weaponSlot) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_UNDRIVEABLE
+--@usage void SET_VEHICLE_UNDRIVEABLE(Vehicle vehicle,BOOL toggle);
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleSiren(vehicle, toggle)
-end
+function SetVehicleUndriveable(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_WHEEL_TYPE
---@usage void SET_VEHICLE_WHEEL_TYPE(Vehicle vehicle,int WheelType);
+--@see SET_VEHICLE_USE_ALTERNATE_HANDLING
+--@usage void SET_VEHICLE_USE_ALTERNATE_HANDLING(Vehicle vehicle,BOOL p1);
 --@params vehicle Vehicle
---@params WheelType int
+--@params p1 BOOL
 --@return void
-function SetVehicleWheelType(vehicle, WheelType)
-end
+function SetVehicleUseAlternateHandling(vehicle,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_WHEELS_CAN_BREAK
+--@usage Any SET_VEHICLE_WHEELS_CAN_BREAK(Vehicle vehicle,BOOL enabled);
+--@params vehicle Vehicle
+--@params enabled BOOL
+--@return Any
+function SetVehicleWheelsCanBreak(vehicle,enabled) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7587,52 +6918,7 @@ end
 --@params weaponIndex int
 --@params capacity int
 --@return void
-function SetVehicleWeaponCapacity(vehicle, weaponIndex, capacity)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_WEAPONS_DISABLED
---@usage void _SET_VEHICLE_WEAPONS_DISABLED(Vehicle vehicle,int weaponSlot);
---@params vehicle Vehicle
---@params weaponSlot int
---@return void
-function SetVehicleWeaponsDisabled(vehicle, weaponSlot)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_WHEELS_CAN_BREAK
---@usage Any SET_VEHICLE_WHEELS_CAN_BREAK(Vehicle vehicle,BOOL enabled);
---@params vehicle Vehicle
---@params enabled BOOL
---@return Any
-function SetVehicleWheelsCanBreak(vehicle, enabled)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SET_VEHICLE_WHEELS_CAN_BREAK_OFF_WHEN_BLOW_UP
---@usage void SET_VEHICLE_WHEELS_CAN_BREAK_OFF_WHEN_BLOW_UP(Vehicle vehicle,BOOL toggle);
---@params vehicle Vehicle
---@params toggle BOOL
---@return void
-function SetVehicleWheelsCanBreakOffWhenBlowUp(vehicle, toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SKIP_TIME_IN_PLAYBACK_RECORDED_VEHICLE
---@usage void SKIP_TIME_IN_PLAYBACK_RECORDED_VEHICLE(Any p0,float p1);
---@params p0 Any
---@params p1 float
---@return void
-function SkipTimeInPlaybackRecordedVehicle(p0, p1)
-end
+function SetVehicleWeaponCapacity(vehicle,weaponIndex,capacity) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7642,31 +6928,78 @@ end
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleWheelsDealDamage(vehicle, toggle)
-end
+function SetVehicleWheelsDealDamage(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _SET_VEHICLE_ST
---@usage void _SET_VEHICLE_ST(Vehicle vehicle,BOOL toggle);
+--@see SET_VEHICLE_WHEEL_TYPE
+--@usage void SET_VEHICLE_WHEEL_TYPE(Vehicle vehicle,int WheelType);
+--@params vehicle Vehicle
+--@params WheelType int
+--@return void
+function SetVehicleWheelType(vehicle,WheelType) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_WINDOW_TINT
+--@usage void SET_VEHICLE_WINDOW_TINT(Vehicle vehicle,int tint);
+--@params vehicle Vehicle
+--@params tint int
+--@return void
+function SetVehicleWindowTint(vehicle,tint) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SKIP_TIME_IN_PLAYBACK_RECORDED_VEHICLE
+--@usage void SKIP_TIME_IN_PLAYBACK_RECORDED_VEHICLE(Any p0,float p1);
+--@params p0 Any
+--@params p1 float
+--@return void
+function SkipTimeInPlaybackRecordedVehicle(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SET_VEHICLE_WHEELS_CAN_BREAK_OFF_WHEN_BLOW_UP
+--@usage void SET_VEHICLE_WHEELS_CAN_BREAK_OFF_WHEN_BLOW_UP(Vehicle vehicle,BOOL toggle);
 --@params vehicle Vehicle
 --@params toggle BOOL
 --@return void
-function SetVehicleSt(vehicle, toggle)
-end
+function SetVehicleWheelsCanBreakOffWhenBlowUp(vehicle,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see STABILISE_ENTITY_ATTACHED_TO_HELI
---@usage void STABILISE_ENTITY_ATTACHED_TO_HELI(Vehicle vehicle,Entity entity,float p2);
+--@see _SET_VEHICLE_XENON_LIGHTS_COLOUR
+--@usage void _SET_VEHICLE_XENON_LIGHTS_COLOUR(Vehicle vehicle,int color);
 --@params vehicle Vehicle
---@params entity Entity
---@params p2 float
+--@params color int
 --@return void
-function StabiliseEntityAttachedToHeli(vehicle, entity, p2)
-end
+function SetVehicleXenonLightsColour(vehicle,color) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see SKIP_TO_END_AND_STOP_PLAYBACK_RECORDED_VEHICLE
+--@usage void SKIP_TO_END_AND_STOP_PLAYBACK_RECORDED_VEHICLE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return void
+function SkipToEndAndStopPlaybackRecordedVehicle(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see START_PLAYBACK_RECORDED_VEHICLE
+--@usage void START_PLAYBACK_RECORDED_VEHICLE(Vehicle vehicle,int p1,char* playback,BOOL p3);
+--@params vehicle Vehicle
+--@params p1 int
+--@params playback char*
+--@params p3 BOOL
+--@return void
+function StartPlaybackRecordedVehicle(vehicle,p1,playback,p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7679,29 +7012,7 @@ end
 --@params p3 float
 --@params p4 Any
 --@return void
-function StartPlaybackRecordedVehicleUsingAi(p0, p1, p2, p3, p4)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see _SET_VEHICLE_XENON_LIGHTS_COLOUR
---@usage void _SET_VEHICLE_XENON_LIGHTS_COLOUR(Vehicle vehicle,int color);
---@params vehicle Vehicle
---@params color int
---@return void
-function SetVehicleXenonLightsColour(vehicle, color)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see START_VEHICLE_ALARM
---@usage Any START_VEHICLE_ALARM(Vehicle vehicle);
---@params vehicle Vehicle
---@return Any
-function StartVehicleAlarm(vehicle)
-end
+function StartPlaybackRecordedVehicleUsingAi(p0,p1,p2,p3,p4) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7711,42 +7022,18 @@ end
 --@params vehicle Vehicle
 --@params index int
 --@return Any
-function SmashVehicleWindow(vehicle, index)
-end
+function SmashVehicleWindow(vehicle,index) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SKIP_TO_END_AND_STOP_PLAYBACK_RECORDED_VEHICLE
---@usage void SKIP_TO_END_AND_STOP_PLAYBACK_RECORDED_VEHICLE(Vehicle vehicle);
+--@see STABILISE_ENTITY_ATTACHED_TO_HELI
+--@usage void STABILISE_ENTITY_ATTACHED_TO_HELI(Vehicle vehicle,Entity entity,float p2);
 --@params vehicle Vehicle
+--@params entity Entity
+--@params p2 float
 --@return void
-function SkipToEndAndStopPlaybackRecordedVehicle(vehicle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see START_PLAYBACK_RECORDED_VEHICLE
---@usage void START_PLAYBACK_RECORDED_VEHICLE(Vehicle vehicle,int p1,char* playback,BOOL p3);
---@params vehicle Vehicle
---@params p1 int
---@params playback char*
---@params p3 BOOL
---@return void
-function StartPlaybackRecordedVehicle(vehicle, p1, playback, p3)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see SWITCH_TRAIN_TRACK
---@usage Any SWITCH_TRAIN_TRACK(int intersectionId,BOOL state);
---@params intersectionId int
---@params state BOOL
---@return Any
-function SwitchTrainTrack(intersectionId, state)
-end
+function StabiliseEntityAttachedToHeli(vehicle,entity,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7760,8 +7047,16 @@ end
 --@params p4 Any
 --@params p5 Any
 --@return void
-function StartPlaybackRecordedVehicleWithFlags(vehicle, p1, playback, p3, p4, p5)
-end
+function StartPlaybackRecordedVehicleWithFlags(vehicle,p1,playback,p3,p4,p5) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see START_VEHICLE_ALARM
+--@usage Any START_VEHICLE_ALARM(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return Any
+function StartVehicleAlarm(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7773,18 +7068,7 @@ end
 --@params mode Hash
 --@params forever BOOL
 --@return void
-function StartVehicleHorn(vehicle, duration, mode, forever)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see TRACK_VEHICLE_VISIBILITY
---@usage void TRACK_VEHICLE_VISIBILITY(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function TrackVehicleVisibility(vehicle)
-end
+function StartVehicleHorn(vehicle,duration,mode,forever) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7793,19 +7077,17 @@ end
 --@usage void STOP_PLAYBACK_RECORDED_VEHICLE(Vehicle vehicle);
 --@params vehicle Vehicle
 --@return void
-function StopPlaybackRecordedVehicle(vehicle)
-end
+function StopPlaybackRecordedVehicle(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see _TRANSFORM_SUBMARINE_TO_VEHICLE
---@usage void _TRANSFORM_SUBMARINE_TO_VEHICLE(Vehicle vehicle,BOOL instantly);
---@params vehicle Vehicle
---@params instantly BOOL
---@return void
-function TransformSubmarineToVehicle(vehicle, instantly)
-end
+--@see SWITCH_TRAIN_TRACK
+--@usage Any SWITCH_TRAIN_TRACK(int intersectionId,BOOL state);
+--@params intersectionId int
+--@params state BOOL
+--@return Any
+function SwitchTrainTrack(intersectionId,state) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7816,19 +7098,44 @@ end
 --@params modType int
 --@params toggle BOOL
 --@return void
-function ToggleVehicleMod(vehicle, modType, toggle)
-end
+function ToggleVehicleMod(vehicle,modType,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule VEHICLE
---@see SET_VEHICLE_WINDOW_TINT
---@usage void SET_VEHICLE_WINDOW_TINT(Vehicle vehicle,int tint);
---@params vehicle Vehicle
---@params tint int
+--@see STOP_ALL_GARAGE_ACTIVITY
+--@usage void STOP_ALL_GARAGE_ACTIVITY();
+
 --@return void
-function SetVehicleWindowTint(vehicle, tint)
-end
+function StopAllGarageActivity() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see _TRANSFORM_SUBMARINE_TO_VEHICLE
+--@usage void _TRANSFORM_SUBMARINE_TO_VEHICLE(Vehicle vehicle,BOOL instantly);
+--@params vehicle Vehicle
+--@params instantly BOOL
+--@return void
+function TransformSubmarineToVehicle(vehicle,instantly) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see UNPAUSE_PLAYBACK_RECORDED_VEHICLE
+--@usage void UNPAUSE_PLAYBACK_RECORDED_VEHICLE(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return void
+function UnpausePlaybackRecordedVehicle(vehicle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule VEHICLE
+--@see TRACK_VEHICLE_VISIBILITY
+--@usage void TRACK_VEHICLE_VISIBILITY(Vehicle vehicle);
+--@params vehicle Vehicle
+--@return void
+function TrackVehicleVisibility(vehicle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -7838,25 +7145,4 @@ end
 --@params vehicle Vehicle
 --@params instantly BOOL
 --@return void
-function TransformVehicleToSubmarine(vehicle, instantly)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see STOP_ALL_GARAGE_ACTIVITY
---@usage void STOP_ALL_GARAGE_ACTIVITY();
-
---@return void
-function StopAllGarageActivity()
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule VEHICLE
---@see UNPAUSE_PLAYBACK_RECORDED_VEHICLE
---@usage void UNPAUSE_PLAYBACK_RECORDED_VEHICLE(Vehicle vehicle);
---@params vehicle Vehicle
---@return void
-function UnpausePlaybackRecordedVehicle(vehicle)
-end
+function TransformVehicleToSubmarine(vehicle,instantly) end

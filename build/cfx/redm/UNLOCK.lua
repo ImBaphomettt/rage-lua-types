@@ -1,12 +1,3 @@
---@description This natives does not have an official description.
---@module NATIVE
---@submodule UNLOCK
---@see _UNLOCK_IS_UNLOCKED
---@usage undefined _UNLOCK_IS_UNLOCKED(Hash unlockHash);
---@params unlockHash Hash
---@return undefined
-function UnlockIsUnlocked(unlockHash)
-end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -16,8 +7,16 @@ end
 --@params unlockHash Hash
 --@params flag int
 --@return undefined
-function UnlockIsUnlockFlagSet(unlockHash, flag)
-end
+function UnlockIsUnlockFlagSet(unlockHash,flag) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule UNLOCK
+--@see _UNLOCK_IS_UNLOCKED
+--@usage undefined _UNLOCK_IS_UNLOCKED(Hash unlockHash);
+--@params unlockHash Hash
+--@return undefined
+function UnlockIsUnlocked(unlockHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -27,8 +26,7 @@ end
 --@params unlockHash Hash
 --@params toggle BOOL
 --@return undefined
-function UnlockSetUnlocked(unlockHash, toggle)
-end
+function UnlockSetUnlocked(unlockHash,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -37,8 +35,7 @@ end
 --@usage undefined _UNLOCK_IS_NEW(Hash unlockHash);
 --@params unlockHash Hash
 --@return undefined
-function UnlockIsNew(unlockHash)
-end
+function UnlockIsNew(unlockHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -47,19 +44,7 @@ end
 --@usage undefined _UNLOCK_IS_VISIBLE(Hash unlockHash);
 --@params unlockHash Hash
 --@return undefined
-function UnlockIsVisible(unlockHash)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule UNLOCK
---@see _UNLOCK_SET_NEW
---@usage undefined _UNLOCK_SET_NEW(Hash unlockHash,BOOL toggle);
---@params unlockHash Hash
---@params toggle BOOL
---@return undefined
-function UnlockSetNew(unlockHash, toggle)
-end
+function UnlockIsVisible(unlockHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -69,8 +54,17 @@ end
 --@params unlockHash Hash
 --@params toggle BOOL
 --@return undefined
-function UnlockSetVisible(unlockHash, toggle)
-end
+function UnlockSetVisible(unlockHash,toggle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule UNLOCK
+--@see _UNLOCK_SET_NEW
+--@usage undefined _UNLOCK_SET_NEW(Hash unlockHash,BOOL toggle);
+--@params unlockHash Hash
+--@params toggle BOOL
+--@return undefined
+function UnlockSetNew(unlockHash,toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -79,8 +73,7 @@ end
 --@usage undefined _UNLOCK_IS_LOOTABLE(Hash unlockHash);
 --@params unlockHash Hash
 --@return undefined
-function UnlockIsLootable(unlockHash)
-end
+function UnlockIsLootable(unlockHash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -90,5 +83,4 @@ end
 --@params unlockHash Hash
 --@params data Any*
 --@return undefined
-function N_0x7c1c2062cfad06fe(unlockHash, data)
-end
+function N_0x7c1c2062cfad06fe(unlockHash,data) end

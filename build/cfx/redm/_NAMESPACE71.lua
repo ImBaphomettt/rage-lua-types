@@ -1,52 +1,49 @@
---@description This natives does not have an official description.
---@module NATIVE
---@submodule _NAMESPACE71
---@see _0x049D5C615BD38BAD
---@usage undefined _0x049D5C615BD38BAD(Any p0,Any p1,Any p2);
---@params p0 Any
---@params p1 Any
---@params p2 Any
---@return undefined
-function N_0x049d5c615bd38bad(p0, p1, p2)
-end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule _NAMESPACE71
---@see _0xCEDBF17EFCC0E4A4
---@usage undefined _0xCEDBF17EFCC0E4A4(Any p0,Any p1,Any p2);
---@params p0 Any
---@params p1 Any
---@params p2 Any
+--@see _SHOW_TOOLTIP
+--@usage undefined _SHOW_TOOLTIP(Any* p0,Any* p1,int p2);
+--@params p0 Any*
+--@params p1 Any*
+--@params p2 int
 --@return undefined
-function N_0xcedbf17efcc0e4a4(p0, p1, p2)
-end
+function ShowTooltip(p0,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule _NAMESPACE71
---@see _0xD05590C1AB38F068
---@usage undefined _0xD05590C1AB38F068(Any p0,Any p1,Any p2,Any p3);
---@params p0 Any
---@params p1 Any
---@params p2 Any
---@params p3 Any
+--@see _SHOW_TOWN_NOTIFICATION
+--@usage undefined _SHOW_TOWN_NOTIFICATION(Any* p0,Any* p1,int p2,int p3);
+--@params p0 Any*
+--@params p1 Any*
+--@params p2 int
+--@params p3 int
 --@return undefined
-function N_0xd05590c1ab38f068(p0, p1, p2, p3)
-end
+function ShowTownNotification(p0,p1,p2,p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule _NAMESPACE71
---@see _0x26E87218390E6729
---@usage undefined _0x26E87218390E6729(Any p0,Any p1,Any p2,Any p3);
---@params p0 Any
---@params p1 Any
---@params p2 Any
---@params p3 Any
+--@see _SHOW_SIMPLE_RIGHT_TEXT
+--@usage undefined _SHOW_SIMPLE_RIGHT_TEXT(Any* p0,Any* p1,int p2);
+--@params p0 Any*
+--@params p1 Any*
+--@params p2 int
 --@return undefined
-function N_0x26e87218390e6729(p0, p1, p2, p3)
-end
+function ShowSimpleRightText(p0,p1,p2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule _NAMESPACE71
+--@see _SHOW_ADVANCED_NOTIFICATION
+--@usage undefined _SHOW_ADVANCED_NOTIFICATION(Any* p0,Any* p1,int p2,int p3);
+--@params p0 Any*
+--@params p1 Any*
+--@params p2 int
+--@params p3 int
+--@return undefined
+function ShowAdvancedNotification(p0,p1,p2,p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -59,45 +56,18 @@ end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0xaff5be9ba496ce40(p0, p1, p2, p3, p4)
-end
+function N_0xaff5be9ba496ce40(p0,p1,p2,p3,p4) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule _NAMESPACE71
---@see _0xB2920B9760F0F36B
---@usage undefined _0xB2920B9760F0F36B(Any p0,Any p1,Any p2);
---@params p0 Any
---@params p1 Any
---@params p2 Any
+--@see _SHOW_OBJECTIVE
+--@usage undefined _SHOW_OBJECTIVE(Any* p0,Any* p1,int p2);
+--@params p0 Any*
+--@params p1 Any*
+--@params p2 int
 --@return undefined
-function N_0xb2920b9760f0f36b(p0, p1, p2)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule _NAMESPACE71
---@see _0x18D6869FBFFEC0F8
---@usage undefined _0x18D6869FBFFEC0F8(Any p0,Any p1,Any p2,Any p3);
---@params p0 Any
---@params p1 Any
---@params p2 Any
---@params p3 Any
---@return undefined
-function N_0x18d6869fbffec0f8(p0, p1, p2, p3)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule _NAMESPACE71
---@see _0xB249EBCB30DD88E0
---@usage undefined _0xB249EBCB30DD88E0(Any p0,Any p1,Any p2);
---@params p0 Any
---@params p1 Any
---@params p2 Any
---@return undefined
-function N_0xb249ebcb30dd88e0(p0, p1, p2)
-end
+function ShowObjective(p0,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -109,33 +79,42 @@ end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0x3f9fddba79117c69(p0, p1, p2, p3)
-end
+function N_0x3f9fddba79117c69(p0,p1,p2,p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule _NAMESPACE71
---@see _0x893128CDB4B81FBB
---@usage undefined _0x893128CDB4B81FBB(Any p0,Any p1,Any p2);
---@params p0 Any
---@params p1 Any
---@params p2 Any
+--@see _SHOW_NOTIFICATION
+--@usage undefined _SHOW_NOTIFICATION(Any* p0,Any* p1,int p2,int p3);
+--@params p0 Any*
+--@params p1 Any*
+--@params p2 int
+--@params p3 int
 --@return undefined
-function N_0x893128cdb4b81fbb(p0, p1, p2)
-end
+function ShowNotification(p0,p1,p2,p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule _NAMESPACE71
---@see _0xC927890AA64E9661
---@usage undefined _0xC927890AA64E9661(Any p0,Any p1,Any p2,Any p3);
+--@see _0x18D6869FBFFEC0F8
+--@usage undefined _0x18D6869FBFFEC0F8(Any p0,Any p1,Any p2,Any p3);
 --@params p0 Any
 --@params p1 Any
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xc927890aa64e9661(p0, p1, p2, p3)
-end
+function N_0x18d6869fbffec0f8(p0,p1,p2,p3) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule _NAMESPACE71
+--@see _0xB249EBCB30DD88E0
+--@usage undefined _0xB249EBCB30DD88E0(Any p0,Any p1,Any p2);
+--@params p0 Any
+--@params p1 Any
+--@params p2 Any
+--@return undefined
+function N_0xb249ebcb30dd88e0(p0,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -147,20 +126,18 @@ end
 --@params p2 Any
 --@params p3 Any
 --@return undefined
-function N_0xa6f4216ab10eb08e(p0, p1, p2, p3)
-end
+function N_0xa6f4216ab10eb08e(p0,p1,p2,p3) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule _NAMESPACE71
---@see _0x860DDFE97CC94DF0
---@usage undefined _0x860DDFE97CC94DF0(Any p0,Any p1,Any p2);
+--@see _0x893128CDB4B81FBB
+--@usage undefined _0x893128CDB4B81FBB(Any p0,Any p1,Any p2);
 --@params p0 Any
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x860ddfe97cc94df0(p0, p1, p2)
-end
+function N_0x893128cdb4b81fbb(p0,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -173,32 +150,18 @@ end
 --@params p3 Any
 --@params p4 Any
 --@return undefined
-function N_0x02bcc0fe9eba3529(p0, p1, p2, p3, p4)
-end
+function N_0x02bcc0fe9eba3529(p0,p1,p2,p3,p4) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule _NAMESPACE71
---@see _0x2024F4F333095FB1
---@usage undefined _0x2024F4F333095FB1(Any p0,Any p1,Any p2);
+--@see _0x860DDFE97CC94DF0
+--@usage undefined _0x860DDFE97CC94DF0(Any p0,Any p1,Any p2);
 --@params p0 Any
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x2024f4f333095fb1(p0, p1, p2)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule _NAMESPACE71
---@see _0xDD1232B332CBB9E7
---@usage undefined _0xDD1232B332CBB9E7(Any p0,Any p1,Any p2);
---@params p0 Any
---@params p1 Any
---@params p2 Any
---@return undefined
-function N_0xdd1232b332cbb9e7(p0, p1, p2)
-end
+function N_0x860ddfe97cc94df0(p0,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -209,8 +172,39 @@ end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x8d1249bd28791878(p0, p1, p2)
-end
+function N_0x8d1249bd28791878(p0,p1,p2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule _NAMESPACE71
+--@see _0x2024F4F333095FB1
+--@usage undefined _0x2024F4F333095FB1(Any p0,Any p1,Any p2);
+--@params p0 Any
+--@params p1 Any
+--@params p2 Any
+--@return undefined
+function N_0x2024f4f333095fb1(p0,p1,p2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule _NAMESPACE71
+--@see _0xDD1232B332CBB9E7
+--@usage undefined _0xDD1232B332CBB9E7(Any p0,Any p1,Any p2);
+--@params p0 Any
+--@params p1 Any
+--@params p2 Any
+--@return undefined
+function N_0xdd1232b332cbb9e7(p0,p1,p2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule _NAMESPACE71
+--@see _0x2F901291EF177B02
+--@usage undefined _0x2F901291EF177B02(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return undefined
+function N_0x2f901291ef177b02(p0,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -221,8 +215,7 @@ end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0xc48152bc6b3e821c(p0, p1, p2)
-end
+function N_0xc48152bc6b3e821c(p0,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -233,8 +226,7 @@ end
 --@params p1 Any
 --@params p2 Any
 --@return undefined
-function N_0x6d85126f6ccf02c9(p0, p1, p2)
-end
+function N_0x6d85126f6ccf02c9(p0,p1,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -243,50 +235,7 @@ end
 --@usage undefined _0x6035E8FBCA32AC5E();
 
 --@return undefined
-function N_0x6035e8fbca32ac5e()
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule _NAMESPACE71
---@see _0x2F901291EF177B02
---@usage undefined _0x2F901291EF177B02(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return undefined
-function N_0x2f901291ef177b02(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule _NAMESPACE71
---@see _0x59FA676177DBE4C9
---@usage undefined _0x59FA676177DBE4C9(Any p0);
---@params p0 Any
---@return undefined
-function N_0x59fa676177dbe4c9(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule _NAMESPACE71
---@see _0x4E88A65968A55C78
---@usage undefined _0x4E88A65968A55C78(Any p0,Any p1);
---@params p0 Any
---@params p1 Any
---@return undefined
-function N_0x4e88a65968a55c78(p0, p1)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule _NAMESPACE71
---@see _0xB7223B91CD6B7E07
---@usage undefined _0xB7223B91CD6B7E07(Any p0);
---@params p0 Any
---@return undefined
-function N_0xb7223b91cd6b7e07(p0)
-end
+function N_0x6035e8fbca32ac5e() end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -296,8 +245,35 @@ end
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0x0fd07141ad048aae(p0, p1)
-end
+function N_0x0fd07141ad048aae(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule _NAMESPACE71
+--@see _0x59FA676177DBE4C9
+--@usage undefined _0x59FA676177DBE4C9(Any p0);
+--@params p0 Any
+--@return undefined
+function N_0x59fa676177dbe4c9(p0) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule _NAMESPACE71
+--@see _0x4E88A65968A55C78
+--@usage undefined _0x4E88A65968A55C78(Any p0,Any p1);
+--@params p0 Any
+--@params p1 Any
+--@return undefined
+function N_0x4e88a65968a55c78(p0,p1) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule _NAMESPACE71
+--@see _0xB7223B91CD6B7E07
+--@usage undefined _0xB7223B91CD6B7E07(Any p0);
+--@params p0 Any
+--@return undefined
+function N_0xb7223b91cd6b7e07(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -306,5 +282,4 @@ end
 --@usage undefined _0xC17F69E1418CD11F(Any p0);
 --@params p0 Any
 --@return undefined
-function N_0xc17f69e1418cd11f(p0)
-end
+function N_0xc17f69e1418cd11f(p0) end

@@ -1,3 +1,4 @@
+
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule SOCIALCLUBFEED
@@ -6,8 +7,7 @@
 --@params type int
 --@params subType int
 --@return undefined
-function ScFeedSubmitPresetMessage(type, subType)
-end
+function ScFeedSubmitPresetMessage(type,subType) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -16,5 +16,4 @@ end
 --@usage undefined _0x068332D20CB6F897();
 
 --@return undefined
-function N_0x068332d20cb6f897()
-end
+function N_0x068332d20cb6f897() end

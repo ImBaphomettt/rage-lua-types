@@ -1,12 +1,21 @@
+
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule SYSTEM
---@see COS
---@usage float COS(float value);
+--@see CEIL
+--@usage int CEIL(float value);
 --@params value float
---@return float
-function Cos(value)
-end
+--@return int
+function Ceil(value) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule SYSTEM
+--@see FLOOR
+--@usage int FLOOR(float value);
+--@params value float
+--@return int
+function Floor(value) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -16,18 +25,16 @@ end
 --@params base float
 --@params exponent float
 --@return float
-function Pow(base, exponent)
-end
+function Pow(base,exponent) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule SYSTEM
---@see _LOG10
---@usage float _LOG10(float value);
+--@see COS
+--@usage float COS(float value);
 --@params value float
 --@return float
-function Log10(value)
-end
+function Cos(value) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -36,8 +43,34 @@ end
 --@usage int ROUND(float value);
 --@params value float
 --@return int
-function Round(value)
-end
+function Round(value) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule SYSTEM
+--@see _LOG10
+--@usage float _LOG10(float value);
+--@params value float
+--@return float
+function Log10(value) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule SYSTEM
+--@see _SET_THREAD_PRIORITY
+--@usage void _SET_THREAD_PRIORITY(int priority);
+--@params priority int
+--@return void
+function SetThreadPriority(priority) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule SYSTEM
+--@see SETTIMERA
+--@usage void SETTIMERA(int value);
+--@params value int
+--@return void
+function Settimera(value) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -47,18 +80,7 @@ end
 --@params value int
 --@params bitShift int
 --@return int
-function ShiftLeft(value, bitShift)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule SYSTEM
---@see CEIL
---@usage int CEIL(float value);
---@params value float
---@return int
-function Ceil(value)
-end
+function ShiftLeft(value,bitShift) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -67,8 +89,16 @@ end
 --@usage void SETTIMERB(int value);
 --@params value int
 --@return void
-function Settimerb(value)
-end
+function Settimerb(value) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule SYSTEM
+--@see SIN
+--@usage float SIN(float value);
+--@params value float
+--@return float
+function Sin(value) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -78,51 +108,36 @@ end
 --@params scriptName char*
 --@params stackSize int
 --@return int
-function StartNewScript(scriptName, stackSize)
-end
+function StartNewScript(scriptName,stackSize) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule SYSTEM
---@see _SET_THREAD_PRIORITY
---@usage void _SET_THREAD_PRIORITY(int priority);
---@params priority int
---@return void
-function SetThreadPriority(priority)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule SYSTEM
---@see SETTIMERA
---@usage void SETTIMERA(int value);
+--@see SHIFT_RIGHT
+--@usage int SHIFT_RIGHT(int value,int bitShift);
 --@params value int
---@return void
-function Settimera(value)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule SYSTEM
---@see START_NEW_SCRIPT_WITH_ARGS
---@usage int START_NEW_SCRIPT_WITH_ARGS(char* scriptName,Any* args,int argCount,int stackSize);
---@params scriptName char*
---@params args Any*
---@params argCount int
---@params stackSize int
+--@params bitShift int
 --@return int
-function StartNewScriptWithArgs(scriptName, args, argCount, stackSize)
-end
+function ShiftRight(value,bitShift) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule SYSTEM
---@see SIN
---@usage float SIN(float value);
+--@see SQRT
+--@usage float SQRT(float value);
 --@params value float
 --@return float
-function Sin(value)
-end
+function Sqrt(value) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule SYSTEM
+--@see START_NEW_SCRIPT_WITH_NAME_HASH
+--@usage int START_NEW_SCRIPT_WITH_NAME_HASH(Hash scriptHash,int stackSize);
+--@params scriptHash Hash
+--@params stackSize int
+--@return int
+function StartNewScriptWithNameHash(scriptHash,stackSize) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -134,8 +149,37 @@ end
 --@params argCount int
 --@params stackSize int
 --@return int
-function StartNewScriptWithNameHashAndArgs(scriptHash, args, argCount, stackSize)
-end
+function StartNewScriptWithNameHashAndArgs(scriptHash,args,argCount,stackSize) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule SYSTEM
+--@see TIMERA
+--@usage int TIMERA();
+
+--@return int
+function Timera() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule SYSTEM
+--@see TIMERB
+--@usage int TIMERB();
+
+--@return int
+function Timerb() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule SYSTEM
+--@see START_NEW_SCRIPT_WITH_ARGS
+--@usage int START_NEW_SCRIPT_WITH_ARGS(char* scriptName,Any* args,int argCount,int stackSize);
+--@params scriptName char*
+--@params args Any*
+--@params argCount int
+--@params stackSize int
+--@return int
+function StartNewScriptWithArgs(scriptName,args,argCount,stackSize) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -144,19 +188,16 @@ end
 --@usage float TIMESTEP();
 
 --@return float
-function Timestep()
-end
+function Timestep() end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule SYSTEM
---@see SHIFT_RIGHT
---@usage int SHIFT_RIGHT(int value,int bitShift);
+--@see TO_FLOAT
+--@usage float TO_FLOAT(int value);
 --@params value int
---@params bitShift int
---@return int
-function ShiftRight(value, bitShift)
-end
+--@return float
+function ToFloat(value) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -170,29 +211,7 @@ end
 --@params y2 float
 --@params z2 float
 --@return float
-function Vdist(x1, y1, z1, x2, y2, z2)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule SYSTEM
---@see TIMERA
---@usage int TIMERA();
-
---@return int
-function Timera()
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule SYSTEM
---@see START_NEW_SCRIPT_WITH_NAME_HASH
---@usage int START_NEW_SCRIPT_WITH_NAME_HASH(Hash scriptHash,int stackSize);
---@params scriptHash Hash
---@params stackSize int
---@return int
-function StartNewScriptWithNameHash(scriptHash, stackSize)
-end
+function Vdist(x1,y1,z1,x2,y2,z2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -206,28 +225,7 @@ end
 --@params y2 float
 --@params z2 float
 --@return float
-function Vdist2(x1, y1, z1, x2, y2, z2)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule SYSTEM
---@see TO_FLOAT
---@usage float TO_FLOAT(int value);
---@params value int
---@return float
-function ToFloat(value)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule SYSTEM
---@see FLOOR
---@usage int FLOOR(float value);
---@params value float
---@return int
-function Floor(value)
-end
+function Vdist2(x1,y1,z1,x2,y2,z2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -238,8 +236,7 @@ end
 --@params y float
 --@params z float
 --@return float
-function Vmag(x, y, z)
-end
+function Vmag(x,y,z) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -250,8 +247,7 @@ end
 --@params y float
 --@params z float
 --@return float
-function Vmag2(x, y, z)
-end
+function Vmag2(x,y,z) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -260,25 +256,4 @@ end
 --@usage void WAIT(int ms);
 --@params ms int
 --@return void
-function Wait(ms)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule SYSTEM
---@see SQRT
---@usage float SQRT(float value);
---@params value float
---@return float
-function Sqrt(value)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule SYSTEM
---@see TIMERB
---@usage int TIMERB();
-
---@return int
-function Timerb()
-end
+function Wait(ms) end

@@ -1,3 +1,4 @@
+
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule UIEVENTS
@@ -5,8 +6,7 @@
 --@usage undefined _EVENT_MANAGER_IS_EVENT_PENDING(Hash hash);
 --@params hash Hash
 --@return undefined
-function EventManagerIsEventPending(hash)
-end
+function EventManagerIsEventPending(hash) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -16,8 +16,7 @@ end
 --@params hash Hash
 --@params eventData Any*
 --@return undefined
-function EventManagerGetEvent(hash, eventData)
-end
+function EventManagerGetEvent(hash,eventData) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -27,8 +26,7 @@ end
 --@params hash Hash
 --@params eventData Any*
 --@return undefined
-function EventManagerPeekEvent(hash, eventData)
-end
+function EventManagerPeekEvent(hash,eventData) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -37,5 +35,4 @@ end
 --@usage undefined _EVENT_MANAGER_POP_EVENT(Hash hash);
 --@params hash Hash
 --@return undefined
-function EventManagerPopEvent(hash)
-end
+function EventManagerPopEvent(hash) end

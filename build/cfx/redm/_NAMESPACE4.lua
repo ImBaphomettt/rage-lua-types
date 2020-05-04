@@ -1,3 +1,4 @@
+
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule _NAMESPACE4
@@ -6,5 +7,4 @@
 --@params p0 Any
 --@params p1 Any
 --@return undefined
-function N_0xc31c44c43b48fde3(p0, p1)
-end
+function N_0xc31c44c43b48fde3(p0,p1) end

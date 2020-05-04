@@ -1,3 +1,4 @@
+
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule FIRE
@@ -12,8 +13,7 @@
 --@params isInvisible BOOL
 --@params cameraShake float
 --@return void
-function AddExplosion(x, y, z, explosionType, damageScale, isAudible, isInvisible, cameraShake)
-end
+function AddExplosion(x,y,z,explosionType,damageScale,isAudible,isInvisible,cameraShake) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -30,25 +30,7 @@ end
 --@params isInvisible BOOL
 --@params cameraShake float
 --@return void
-function AddExplosionWithUserVfx(x, y, z, explosionType, explosionFx, damageScale, isAudible, isInvisible, cameraShake)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FIRE
---@see _GET_ENTITY_INSIDE_EXPLOSION_AREA
---@usage Entity _GET_ENTITY_INSIDE_EXPLOSION_AREA(int explosionType,float x1,float y1,float z1,float x2,float y2,float z2,float radius);
---@params explosionType int
---@params x1 float
---@params y1 float
---@params z1 float
---@params x2 float
---@params y2 float
---@params z2 float
---@params radius float
---@return Entity
-function GetEntityInsideExplosionArea(explosionType, x1, y1, z1, x2, y2, z2, radius)
-end
+function AddExplosionWithUserVfx(x,y,z,explosionType,explosionFx,damageScale,isAudible,isInvisible,cameraShake) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -60,8 +42,7 @@ end
 --@params y float
 --@params z float
 --@return BOOL
-function GetClosestFirePos(outPosition, x, y, z)
-end
+function GetClosestFirePos(outPosition,x,y,z) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -78,18 +59,36 @@ end
 --@params isInvisible BOOL
 --@params cameraShake float
 --@return void
-function AddOwnedExplosion(ped, x, y, z, explosionType, damageScale, isAudible, isInvisible, cameraShake)
-end
+function AddOwnedExplosion(ped,x,y,z,explosionType,damageScale,isAudible,isInvisible,cameraShake) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule FIRE
---@see IS_ENTITY_ON_FIRE
---@usage BOOL IS_ENTITY_ON_FIRE(Entity entity);
---@params entity Entity
---@return BOOL
-function IsEntityOnFire(entity)
-end
+--@see _GET_ENTITY_INSIDE_EXPLOSION_SPHERE
+--@usage Entity _GET_ENTITY_INSIDE_EXPLOSION_SPHERE(int explosionType,float x,float y,float z,float radius);
+--@params explosionType int
+--@params x float
+--@params y float
+--@params z float
+--@params radius float
+--@return Entity
+function GetEntityInsideExplosionSphere(explosionType,x,y,z,radius) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FIRE
+--@see _GET_ENTITY_INSIDE_EXPLOSION_AREA
+--@usage Entity _GET_ENTITY_INSIDE_EXPLOSION_AREA(int explosionType,float x1,float y1,float z1,float x2,float y2,float z2,float radius);
+--@params explosionType int
+--@params x1 float
+--@params y1 float
+--@params z1 float
+--@params x2 float
+--@params y2 float
+--@params z2 float
+--@params radius float
+--@return Entity
+function GetEntityInsideExplosionArea(explosionType,x1,y1,z1,x2,y2,z2,radius) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -101,8 +100,7 @@ end
 --@params z float
 --@params radius float
 --@return int
-function GetNumberOfFiresInRange(x, y, z, radius)
-end
+function GetNumberOfFiresInRange(x,y,z,radius) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -117,8 +115,16 @@ end
 --@params y2 float
 --@params z2 float
 --@return BOOL
-function IsExplosionActiveInArea(explosionType, x1, y1, z1, x2, y2, z2)
-end
+function IsExplosionActiveInArea(explosionType,x1,y1,z1,x2,y2,z2) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FIRE
+--@see IS_ENTITY_ON_FIRE
+--@usage BOOL IS_ENTITY_ON_FIRE(Entity entity);
+--@params entity Entity
+--@return BOOL
+function IsEntityOnFire(entity) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -134,32 +140,7 @@ end
 --@params z2 float
 --@params angle float
 --@return BOOL
-function IsExplosionInAngledArea(explosionType, x1, y1, z1, x2, y2, z2, angle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FIRE
---@see _GET_ENTITY_INSIDE_EXPLOSION_SPHERE
---@usage Entity _GET_ENTITY_INSIDE_EXPLOSION_SPHERE(int explosionType,float x,float y,float z,float radius);
---@params explosionType int
---@params x float
---@params y float
---@params z float
---@params radius float
---@return Entity
-function GetEntityInsideExplosionSphere(explosionType, x, y, z, radius)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FIRE
---@see REMOVE_SCRIPT_FIRE
---@usage void REMOVE_SCRIPT_FIRE(FireId fireHandle);
---@params fireHandle FireId
---@return void
-function RemoveScriptFire(fireHandle)
-end
+function IsExplosionInAngledArea(explosionType,x1,y1,z1,x2,y2,z2,angle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -174,8 +155,7 @@ end
 --@params y2 float
 --@params z2 float
 --@return BOOL
-function IsExplosionInArea(explosionType, x1, y1, z1, x2, y2, z2)
-end
+function IsExplosionInArea(explosionType,x1,y1,z1,x2,y2,z2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -188,8 +168,34 @@ end
 --@params z float
 --@params radius float
 --@return BOOL
-function IsExplosionInSphere(explosionType, x, y, z, radius)
-end
+function IsExplosionInSphere(explosionType,x,y,z,radius) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FIRE
+--@see REMOVE_SCRIPT_FIRE
+--@usage void REMOVE_SCRIPT_FIRE(FireId fireHandle);
+--@params fireHandle FireId
+--@return void
+function RemoveScriptFire(fireHandle) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FIRE
+--@see START_ENTITY_FIRE
+--@usage FireId START_ENTITY_FIRE(Entity entity);
+--@params entity Entity
+--@return FireId
+function StartEntityFire(entity) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule FIRE
+--@see STOP_ENTITY_FIRE
+--@usage void STOP_ENTITY_FIRE(Entity entity);
+--@params entity Entity
+--@return void
+function StopEntityFire(entity) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -202,18 +208,7 @@ end
 --@params maxChildren int
 --@params isGasFire BOOL
 --@return FireId
-function StartScriptFire(X, Y, Z, maxChildren, isGasFire)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FIRE
---@see STOP_ENTITY_FIRE
---@usage void STOP_ENTITY_FIRE(Entity entity);
---@params entity Entity
---@return void
-function StopEntityFire(entity)
-end
+function StartScriptFire(X,Y,Z,maxChildren,isGasFire) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -225,15 +220,4 @@ end
 --@params z float
 --@params radius float
 --@return void
-function StopFireInRange(x, y, z, radius)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule FIRE
---@see START_ENTITY_FIRE
---@usage FireId START_ENTITY_FIRE(Entity entity);
---@params entity Entity
---@return FireId
-function StartEntityFire(entity)
-end
+function StopFireInRange(x,y,z,radius) end

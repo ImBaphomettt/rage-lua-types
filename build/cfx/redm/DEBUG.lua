@@ -1,3 +1,4 @@
+
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule DEBUG
@@ -5,8 +6,7 @@
 --@usage undefined _0xACF9CB705BEFA8CB();
 
 --@return undefined
-function N_0xacf9cb705befa8cb()
-end
+function N_0xacf9cb705befa8cb() end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -15,8 +15,7 @@ end
 --@usage undefined _0xA8D970D8A72640A6();
 
 --@return undefined
-function N_0xa8d970d8a72640a6()
-end
+function N_0xa8d970d8a72640a6() end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -25,5 +24,4 @@ end
 --@usage undefined _GET_GAME_BUILD_STRING();
 
 --@return undefined
-function GetGameBuildString()
-end
+function GetGameBuildString() end

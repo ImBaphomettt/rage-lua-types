@@ -1,3 +1,4 @@
+
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule PAD
@@ -5,20 +6,7 @@
 --@usage void DISABLE_ALL_CONTROL_ACTIONS(int inputGroup);
 --@params inputGroup int
 --@return void
-function DisableAllControlActions(inputGroup)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see DISABLE_CONTROL_ACTION
---@usage void DISABLE_CONTROL_ACTION(int inputGroup,int control,BOOL disable);
---@params inputGroup int
---@params control int
---@params disable BOOL
---@return void
-function DisableControlAction(inputGroup, control, disable)
-end
+function DisableAllControlActions(inputGroup) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -29,8 +17,16 @@ end
 --@params control int
 --@params enable BOOL
 --@return void
-function EnableControlAction(inputGroup, control, enable)
-end
+function EnableControlAction(inputGroup,control,enable) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see _DISABLE_INPUT_GROUP
+--@usage void _DISABLE_INPUT_GROUP(int inputGroup);
+--@params inputGroup int
+--@return void
+function DisableInputGroup(inputGroup) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -41,18 +37,7 @@ end
 --@params control int
 --@params p2 BOOL
 --@return char*
-function GetControlGroupInstructionalButton(inputGroup, control, p2)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see _DISABLE_INPUT_GROUP
---@usage void _DISABLE_INPUT_GROUP(int inputGroup);
---@params inputGroup int
---@return void
-function DisableInputGroup(inputGroup)
-end
+function GetControlGroupInstructionalButton(inputGroup,control,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -61,8 +46,28 @@ end
 --@usage BOOL GET_ALLOW_MOVEMENT_WHILE_ZOOMED();
 
 --@return BOOL
-function GetAllowMovementWhileZoomed()
-end
+function GetAllowMovementWhileZoomed() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see DISABLE_CONTROL_ACTION
+--@usage void DISABLE_CONTROL_ACTION(int inputGroup,int control,BOOL disable);
+--@params inputGroup int
+--@params control int
+--@params disable BOOL
+--@return void
+function DisableControlAction(inputGroup,control,disable) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see GET_CONTROL_UNBOUND_NORMAL
+--@usage float GET_CONTROL_UNBOUND_NORMAL(int inputGroup,int control);
+--@params inputGroup int
+--@params control int
+--@return float
+function GetControlUnboundNormal(inputGroup,control) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -71,19 +76,7 @@ end
 --@usage void ENABLE_ALL_CONTROL_ACTIONS(int inputGroup);
 --@params inputGroup int
 --@return void
-function EnableAllControlActions(inputGroup)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see GET_CONTROL_VALUE
---@usage int GET_CONTROL_VALUE(int inputGroup,int control);
---@params inputGroup int
---@params control int
---@return int
-function GetControlValue(inputGroup, control)
-end
+function EnableAllControlActions(inputGroup) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -94,19 +87,17 @@ end
 --@params control int
 --@params p2 Player
 --@return char*
-function GetControlInstructionalButton(inputGroup, control, p2)
-end
+function GetControlInstructionalButton(inputGroup,control,p2) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule PAD
---@see GET_DISABLED_CONTROL_UNBOUND_NORMAL
---@usage float GET_DISABLED_CONTROL_UNBOUND_NORMAL(int inputGroup,int control);
+--@see GET_CONTROL_VALUE
+--@usage int GET_CONTROL_VALUE(int inputGroup,int control);
 --@params inputGroup int
 --@params control int
---@return float
-function GetDisabledControlUnboundNormal(inputGroup, control)
-end
+--@return int
+function GetControlValue(inputGroup,control) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -116,19 +107,7 @@ end
 --@params inputGroup int
 --@params control int
 --@return float
-function GetControlNormal(inputGroup, control)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see GET_CONTROL_UNBOUND_NORMAL
---@usage float GET_CONTROL_UNBOUND_NORMAL(int inputGroup,int control);
---@params inputGroup int
---@params control int
---@return float
-function GetControlUnboundNormal(inputGroup, control)
-end
+function GetControlNormal(inputGroup,control) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -138,8 +117,7 @@ end
 --@params inputGroup int
 --@params control int
 --@return float
-function GetDisabledControlNormal(inputGroup, control)
-end
+function GetDisabledControlNormal(inputGroup,control) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -148,18 +126,26 @@ end
 --@usage BOOL GET_IS_USING_ALTERNATE_DRIVEBY();
 
 --@return BOOL
-function GetIsUsingAlternateDriveby()
-end
+function GetIsUsingAlternateDriveby() end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule PAD
---@see _GET_TIME_SINCE_LAST_INPUT
---@usage int _GET_TIME_SINCE_LAST_INPUT(int inputGroup);
+--@see GET_DISABLED_CONTROL_UNBOUND_NORMAL
+--@usage float GET_DISABLED_CONTROL_UNBOUND_NORMAL(int inputGroup,int control);
 --@params inputGroup int
+--@params control int
+--@return float
+function GetDisabledControlUnboundNormal(inputGroup,control) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see GET_LOCAL_PLAYER_AIM_STATE
+--@usage int GET_LOCAL_PLAYER_AIM_STATE();
+
 --@return int
-function GetTimeSinceLastInput(inputGroup)
-end
+function GetLocalPlayerAimState() end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -168,8 +154,16 @@ end
 --@usage int _GET_LOCAL_PLAYER_AIM_STATE_2();
 
 --@return int
-function GetLocalPlayerAimState_2()
-end
+function GetLocalPlayerAimState_2() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see _GET_TIME_SINCE_LAST_INPUT
+--@usage int _GET_TIME_SINCE_LAST_INPUT(int inputGroup);
+--@params inputGroup int
+--@return int
+function GetTimeSinceLastInput(inputGroup) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -179,8 +173,7 @@ end
 --@params inputGroup int
 --@params control int
 --@return BOOL
-function IsControlEnabled(inputGroup, control)
-end
+function IsControlEnabled(inputGroup,control) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -190,8 +183,7 @@ end
 --@params inputGroup int
 --@params control int
 --@return BOOL
-function IsControlJustPressed(inputGroup, control)
-end
+function IsControlJustPressed(inputGroup,control) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -201,93 +193,7 @@ end
 --@params inputGroup int
 --@params control int
 --@return BOOL
-function IsControlJustReleased(inputGroup, control)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see IS_DISABLED_CONTROL_JUST_PRESSED
---@usage BOOL IS_DISABLED_CONTROL_JUST_PRESSED(int inputGroup,int control);
---@params inputGroup int
---@params control int
---@return BOOL
-function IsDisabledControlJustPressed(inputGroup, control)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see GET_LOCAL_PLAYER_AIM_STATE
---@usage int GET_LOCAL_PLAYER_AIM_STATE();
-
---@return int
-function GetLocalPlayerAimState()
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see IS_CONTROL_RELEASED
---@usage BOOL IS_CONTROL_RELEASED(int inputGroup,int control);
---@params inputGroup int
---@params control int
---@return BOOL
-function IsControlReleased(inputGroup, control)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see IS_DISABLED_CONTROL_PRESSED
---@usage BOOL IS_DISABLED_CONTROL_PRESSED(int inputGroup,int control);
---@params inputGroup int
---@params control int
---@return BOOL
-function IsDisabledControlPressed(inputGroup, control)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see IS_DISABLED_CONTROL_JUST_RELEASED
---@usage BOOL IS_DISABLED_CONTROL_JUST_RELEASED(int inputGroup,int control);
---@params inputGroup int
---@params control int
---@return BOOL
-function IsDisabledControlJustReleased(inputGroup, control)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see _IS_INPUT_DISABLED
---@usage BOOL _IS_INPUT_DISABLED(int inputGroup);
---@params inputGroup int
---@return BOOL
-function IsInputDisabled(inputGroup)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see _IS_DISABLED_CONTROL_RELEASED
---@usage BOOL _IS_DISABLED_CONTROL_RELEASED(int inputGroup,int control);
---@params inputGroup int
---@params control int
---@return BOOL
-function IsDisabledControlReleased(inputGroup, control)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see _IS_INPUT_JUST_DISABLED
---@usage BOOL _IS_INPUT_JUST_DISABLED(int inputGroup);
---@params inputGroup int
---@return BOOL
-function IsInputJustDisabled(inputGroup)
-end
+function IsControlJustReleased(inputGroup,control) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -297,8 +203,93 @@ end
 --@params inputGroup int
 --@params control int
 --@return BOOL
-function IsControlPressed(inputGroup, control)
-end
+function IsControlPressed(inputGroup,control) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see IS_CONTROL_RELEASED
+--@usage BOOL IS_CONTROL_RELEASED(int inputGroup,int control);
+--@params inputGroup int
+--@params control int
+--@return BOOL
+function IsControlReleased(inputGroup,control) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see IS_DISABLED_CONTROL_JUST_PRESSED
+--@usage BOOL IS_DISABLED_CONTROL_JUST_PRESSED(int inputGroup,int control);
+--@params inputGroup int
+--@params control int
+--@return BOOL
+function IsDisabledControlJustPressed(inputGroup,control) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see IS_DISABLED_CONTROL_JUST_RELEASED
+--@usage BOOL IS_DISABLED_CONTROL_JUST_RELEASED(int inputGroup,int control);
+--@params inputGroup int
+--@params control int
+--@return BOOL
+function IsDisabledControlJustReleased(inputGroup,control) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see IS_DISABLED_CONTROL_PRESSED
+--@usage BOOL IS_DISABLED_CONTROL_PRESSED(int inputGroup,int control);
+--@params inputGroup int
+--@params control int
+--@return BOOL
+function IsDisabledControlPressed(inputGroup,control) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see _IS_DISABLED_CONTROL_RELEASED
+--@usage BOOL _IS_DISABLED_CONTROL_RELEASED(int inputGroup,int control);
+--@params inputGroup int
+--@params control int
+--@return BOOL
+function IsDisabledControlReleased(inputGroup,control) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see _IS_INPUT_DISABLED
+--@usage BOOL _IS_INPUT_DISABLED(int inputGroup);
+--@params inputGroup int
+--@return BOOL
+function IsInputDisabled(inputGroup) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see _IS_INPUT_JUST_DISABLED
+--@usage BOOL _IS_INPUT_JUST_DISABLED(int inputGroup);
+--@params inputGroup int
+--@return BOOL
+function IsInputJustDisabled(inputGroup) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see IS_LOOK_INVERTED
+--@usage BOOL IS_LOOK_INVERTED();
+
+--@return BOOL
+function IsLookInverted() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see undefined
+--@usage BOOL undefined(int inputGroup);
+--@params inputGroup int
+--@return BOOL
+function N_0x23f09eadc01449d6(inputGroup) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -311,18 +302,7 @@ end
 --@params p3 Any
 --@params p4 Any
 --@return void
-function N_0x14d29bb12d47f68c(p0, p1, p2, p3, p4)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see undefined
---@usage BOOL undefined(int inputGroup);
---@params inputGroup int
---@return BOOL
-function N_0x23f09eadc01449d6(inputGroup)
-end
+function N_0x14d29bb12d47f68c(p0,p1,p2,p3,p4) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -331,38 +311,7 @@ end
 --@usage void undefined(BOOL p0);
 --@params p0 BOOL
 --@return void
-function N_0x5b73c77d9eb66e24(p0)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see undefined
---@usage void undefined(int inputGroup);
---@params inputGroup int
---@return void
-function N_0xcb0360efefb2580d(inputGroup)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see undefined
---@usage BOOL undefined(int inputGroup);
---@params inputGroup int
---@return BOOL
-function N_0x6cd79468a1e595c6(inputGroup)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see undefined
---@usage void undefined(Any p0);
---@params p0 Any
---@return void
-function N_0xa0cefcea390aab9b(p0)
-end
+function N_0x5b73c77d9eb66e24(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -371,8 +320,25 @@ end
 --@usage Any undefined();
 
 --@return Any
-function N_0x25aaa32bdc98f2a3()
-end
+function N_0x25aaa32bdc98f2a3() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see undefined
+--@usage BOOL undefined(int inputGroup);
+--@params inputGroup int
+--@return BOOL
+function N_0x6cd79468a1e595c6(inputGroup) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see undefined
+--@usage void undefined(Any p0);
+--@params p0 Any
+--@return void
+function N_0xa0cefcea390aab9b(p0) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -382,8 +348,7 @@ end
 --@params inputGroup int
 --@params p1 int
 --@return void
-function N_0xf239400e16c23e08(inputGroup, p1)
-end
+function N_0xf239400e16c23e08(inputGroup,p1) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -395,18 +360,7 @@ end
 --@params green int
 --@params blue int
 --@return void
-function SetControlGroupColor(inputGroup, red, green, blue)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see undefined
---@usage BOOL undefined();
-
---@return BOOL
-function N_0xe1615ec03b3bb4fd()
-end
+function SetControlGroupColor(inputGroup,red,green,blue) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -415,19 +369,17 @@ end
 --@usage void _RESET_INPUT_MAPPING_SCHEME();
 
 --@return void
-function ResetInputMappingScheme()
-end
+function ResetInputMappingScheme() end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule PAD
---@see SET_INPUT_EXCLUSIVE
---@usage void SET_INPUT_EXCLUSIVE(int inputGroup,int control);
---@params inputGroup int
---@params control int
---@return void
-function SetInputExclusive(inputGroup, control)
-end
+--@see _SET_CURSOR_LOCATION
+--@usage BOOL _SET_CURSOR_LOCATION(float x,float y);
+--@params x float
+--@params y float
+--@return BOOL
+function SetCursorLocation(x,y) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -438,8 +390,7 @@ end
 --@params control int
 --@params amount float
 --@return BOOL
-function SetControlNormal(inputGroup, control, amount)
-end
+function SetControlNormal(inputGroup,control,amount) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -450,8 +401,17 @@ end
 --@params duration int
 --@params frequency int
 --@return void
-function SetPadShake(inputGroup, duration, frequency)
-end
+function SetPadShake(inputGroup,duration,frequency) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see SET_INPUT_EXCLUSIVE
+--@usage void SET_INPUT_EXCLUSIVE(int inputGroup,int control);
+--@params inputGroup int
+--@params control int
+--@return void
+function SetInputExclusive(inputGroup,control) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -460,39 +420,7 @@ end
 --@usage void SET_PLAYERPAD_SHAKES_WHEN_CONTROLLER_DISABLED(BOOL toggle);
 --@params toggle BOOL
 --@return void
-function SetPlayerpadShakesWhenControllerDisabled(toggle)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see _SET_CURSOR_LOCATION
---@usage BOOL _SET_CURSOR_LOCATION(float x,float y);
---@params x float
---@params y float
---@return BOOL
-function SetCursorLocation(x, y)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see _SWITCH_TO_INPUT_MAPPING_SCHEME
---@usage BOOL _SWITCH_TO_INPUT_MAPPING_SCHEME(char* name);
---@params name char*
---@return BOOL
-function SwitchToInputMappingScheme(name)
-end
-
---@description This natives does not have an official description.
---@module NATIVE
---@submodule PAD
---@see _SWITCH_TO_INPUT_MAPPING_SCHEME_2
---@usage BOOL _SWITCH_TO_INPUT_MAPPING_SCHEME_2(char* name);
---@params name char*
---@return BOOL
-function SwitchToInputMappingScheme_2(name)
-end
+function SetPlayerpadShakesWhenControllerDisabled(toggle) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
@@ -501,15 +429,40 @@ end
 --@usage void STOP_PAD_SHAKE(int inputGroup);
 --@params inputGroup int
 --@return void
-function StopPadShake(inputGroup)
-end
+function StopPadShake(inputGroup) end
 
 --@description This natives does not have an official description.
 --@module NATIVE
 --@submodule PAD
---@see IS_LOOK_INVERTED
---@usage BOOL IS_LOOK_INVERTED();
+--@see _SWITCH_TO_INPUT_MAPPING_SCHEME
+--@usage BOOL _SWITCH_TO_INPUT_MAPPING_SCHEME(char* name);
+--@params name char*
+--@return BOOL
+function SwitchToInputMappingScheme(name) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see _SWITCH_TO_INPUT_MAPPING_SCHEME_2
+--@usage BOOL _SWITCH_TO_INPUT_MAPPING_SCHEME_2(char* name);
+--@params name char*
+--@return BOOL
+function SwitchToInputMappingScheme_2(name) end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see undefined
+--@usage BOOL undefined();
 
 --@return BOOL
-function IsLookInverted()
-end
+function N_0xe1615ec03b3bb4fd() end
+
+--@description This natives does not have an official description.
+--@module NATIVE
+--@submodule PAD
+--@see undefined
+--@usage void undefined(int inputGroup);
+--@params inputGroup int
+--@return void
+function N_0xcb0360efefb2580d(inputGroup) end
