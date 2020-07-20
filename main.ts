@@ -18,10 +18,12 @@ export class Main {
      */
     private static getNativeLink = (gametype: GamesType): string => {
         switch (gametype) {
-            case GamesType.FiveM:
+            case GamesType.GTA:
                 return "https://runtime.fivem.net/doc/natives.json";
-            case GamesType.RedM:
+            case GamesType.RDR3:
                 return "https://raw.githubusercontent.com/alloc8or/rdr3-nativedb-data/master/natives.json";
+            case  GamesType.Cfx:
+                return "https://runtime.fivem.net/doc/natives_cfx.json"
             default:
                 return "https://runtime.fivem.net/doc/natives.json";
         }
@@ -39,7 +41,7 @@ export class Main {
         if (json !== undefined) {
             figlet('JetBrainIDE-CitizenFX', (err, data) => {
                 term.blue(data);
-                term.magenta("\n By Dylan Malandain - @iTexZoz \n");
+                term.red("\n Dylan Malandain - @iTexZoz \n");
             });
             request.get(json, (error, response, content) => {
                 const files = new FilesBuilder(dir);
@@ -78,8 +80,7 @@ export class Main {
      */
     public static onFileUpdate = (stats: { native: { total: number; current: number } }, filename: String, nativename: String): void => {
         stats.native.current++;
-        term.yellow("[File : " + filename + " ]\n");
-        term.magenta("[Native : " + nativename + " ]\n");
+        term.green("[File : " + filename + " ] [Native : " + nativename + " ]\n");
         if (stats.native.current == stats.native.total)
             process.exit();
     };
@@ -91,20 +92,21 @@ term.cyan('Welcome to the native completion generator tool for Jetbrain IDEs for
 term.cyan('Please select the game concerned.\n');
 
 let items = [
-    '1. FiveM',
-    '2. RedM',
+    '1. (FiveM) GTA V',
+    '2. (RedM) Red Dead Redemption 2',
+    '3. CFX (Is Available for RedM && FiveM)',
 ];
 
 term.singleColumnMenu(items, function (error, response) {
     switch (response.selectedIndex) {
         case 0:
-            new Main.onEnable("build/cfx/fivem", GamesType.FiveM);
+            new Main.onEnable("build/cfx/GTAV", GamesType.GTA);
             break;
         case 1:
-            new Main.onEnable("build/cfx/redm", GamesType.RedM);
+            new Main.onEnable("build/cfx/RDR3", GamesType.RDR3);
             break;
         default:
-            new Main.onEnable("build/cfx/fivem", GamesType.FiveM);
+            new Main.onEnable("build/cfx/CFX-NATIVE", GamesType.Cfx);
             break;
     }
     //process.exit();

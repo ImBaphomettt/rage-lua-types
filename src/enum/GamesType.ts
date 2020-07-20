@@ -1,4 +1,5 @@
 export enum GamesType {
-    FiveM = 0,
-    RedM = 1,
+    GTA = 0,
+    RDR3 = 1,
+    Cfx= 2,
 }
