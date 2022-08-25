@@ -5,8 +5,6 @@
 ![OpenIssue](https://img.shields.io/github/issues/iTexZoz/JetbrainIDE-CitizenFX.svg?style=flat)
 ![LastReleases](https://img.shields.io/github/release/iTexZoz/JetbrainIDE-CitizenFX.svg?label=Last%20releases&style=flat)
 
-# Discord : https://discord.gg/Jjb2c8Q (No support)
-
 ### How to use this tool to generate / regenerate CitizenFX native ?
 
 # Attention this project requires the installation of NodeJS on the machine where you want to run it
@@ -29,10 +27,6 @@
 10) Done. You can now access all the latest natives for FiveM directly into your code.
 
 ![image](https://user-images.githubusercontent.com/58150973/116157791-32947100-a70b-11eb-8d3b-b9efa5a48784.png)
-
-
-![preview](https://picture.dylan-malandain.me/cmd_RrClO8AUyK.png)
-
 
 ## Special Thank
 
