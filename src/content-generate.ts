@@ -51,6 +51,7 @@ ${_function}
         this.filesBuilder = filesBuilder;
     }
 
+
     /**
      * Replace LUA Method to string for fix generating issue
      *
@@ -59,7 +60,9 @@ ${_function}
     private fieldToReplace = (field): string => {
         if (field == "repeat") {
             return "_repeat"
-        } else {
+        } elseif(field == "end") {
+            return "_end"
+        else
             return field
         }
     }
