@@ -41,7 +41,6 @@ export class Main {
         if (json !== undefined) {
             figlet('JetBrainIDE-CitizenFX', (err, data) => {
                 term.blue(data);
-                term.red("\n Dylan Malandain - @iTexZoz \n");
             });
             request.get(json, (error, response, content) => {
                 const files = new FilesBuilder(dir);
