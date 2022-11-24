@@ -14,7 +14,7 @@
 3) Execute the following command `npm i ` and wait.
 4) Execute `npm install -g ts-node`
 5) Execute `npm install -g typescript`
-6) Once the dependencies install install execute the following command to start the generation of natives `npm run start`
+6) Once the dependencies install install execute the following command to start the generation of natives `npm run gta` or `npm run rdr3` or `npm run cfx`
 7) Wait a few minutes, once the generation is finished nothing more to be written to a in your terminal, you will find a new folder named build, it is in this one that you find what you need.
 8) Make a new project in Intellij using EmmyLUA as SDK
 ![image](https://user-images.githubusercontent.com/58150973/116157328-68852580-a70a-11eb-8ec9-7c51320f79bd.png)

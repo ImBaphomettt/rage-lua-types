@@ -1,12 +1,7 @@
 import * as request from 'request';
-import {FilesBuilder} from "./src/files-builder";
-import {ContentGenerate} from "./src/content-generate";
-import * as figlet from 'figlet';
-import {GamesType} from "./src/enum/GamesType";
-import {terminal as term} from "terminal-kit";
-
-var progressBar, progress = 0;
-
+import {FilesBuilder} from "./files-builder";
+import {ContentGenerate} from "./content-generate";
+import {GamesType} from "./enum/GamesType";
 
 /**
  * The [[Main]] class that groups together all the logical execution processes of the system.
@@ -39,9 +34,6 @@ export class Main {
     public static onEnable = (dir: string, gametype: GamesType): void => {
         let json = Main.getNativeLink(gametype);
         if (json !== undefined) {
-            figlet('JetBrainIDE-CitizenFX', (err, data) => {
-                term.blue(data);
-            });
             request.get(json, (error, response, content) => {
                 const files = new FilesBuilder(dir);
                 const json = JSON.parse(content);
@@ -65,7 +57,7 @@ export class Main {
      * @return void
      */
     public static onFolderGenerate = (response: void) => {
-        term.cyan("Create build directory successfully : " + response);
+        console.log("Create build directory successfully : " + response);
     };
 
     /**
@@ -79,36 +71,9 @@ export class Main {
      */
     public static onFileUpdate = (stats: { native: { total: number; current: number } }, filename: String, nativename: String): void => {
         stats.native.current++;
-        term.green("[File : " + filename + " ] [Native : " + nativename + " ]\n");
+        console.log("[File : " + filename + " ] [Native : " + nativename + " ]\n");
         if (stats.native.current == stats.native.total)
             process.exit();
     };
 
 }
-
-
-term.cyan('Welcome to the native completion generator tool for Jetbrain IDEs for cfx.re projects.\n');
-term.cyan('Please select the game concerned.\n');
-
-let items = [
-    '1. (FiveM) GTA V',
-    '2. (RedM) Red Dead Redemption 2',
-    '3. CFX (Is Available for RedM && FiveM)',
-];
-
-term.singleColumnMenu(items, function (error, response) {
-    switch (response.selectedIndex) {
-        case 0:
-            new Main.onEnable("build/cfx/GTAV", GamesType.GTA);
-            break;
-        case 1:
-            new Main.onEnable("build/cfx/RDR3", GamesType.RDR3);
-            break;
-        default:
-            new Main.onEnable("build/cfx/CFX-NATIVE", GamesType.Cfx);
-            break;
-    }
-    //process.exit();
-});
-
-//new Main.onEnable("build/cfx/fivem", GamesType.FiveM);

@@ -60,11 +60,12 @@ ${_function}
     private fieldToReplace = (field): string => {
         if (field == "repeat") {
             return "_repeat"
-        } elseif(field == "end") {
-            return "_end"
-        else
-            return field
         }
+        if (field == "end") {
+            return "_end"
+        }
+        return field
+
     }
 
     /**

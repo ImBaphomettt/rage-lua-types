@@ -1,5 +1,5 @@
 import * as filesystem from 'fs-extra';
-import {Main} from "../main";
+import {Main} from "./main";
 
 /**
  * The [[FilesBuilder]] class allows you to manage the generation, migration, and everything necessary to run the [[ContentGenerate]]
